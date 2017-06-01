@@ -1,0 +1,82 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dissertazione di Lorenzo Valla patrizio Romano su la falsa e menzognera donazione di Costantino</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Giovanni Vincenti</editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Dissertazione di Lorenzo Valla patrizio Romano su la falsa e menzognera donazione di Costantino</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Giovanni Vincenti</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>Naples</pubPlace>
+              <publisher>Gabriele Stanziola, Editore, 53, Bolgna al Vasto</publisher>
+              <date>1895</date>
+            </imprint>
+          </monogr>
+	<ref target="http://hdl.handle.net/2027/mdp.39015014521606">Hathi Trust http://hdl.handle.net/2027/mdp.39015014521606</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="ita">Italian</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="ita">
+    <body>
+
+<pb n="001"/>
+  <head>AL BENEVOLO LETTORE</head>
+      <p>Avevo preso a studiare le Opere del Valla che fu davvero il Capaneo dei filologi ed il veterano delle battaglie grammaticali che dette tanto da fare ai letterati suoi contemporanei, e tentava già le ricerche intorno alla vita da lui vissuta qua e colà per scrivere di quest’Apostolo del vero che cammina dritto per la sua via, senza arrestarsi agli ostacoli che gli si parano dinanzi, allorché venne fuori l’opera del Mancini<note n="1">Mancini G. Vita di Lorenzo Valla. Firenze ed. Sansoni, 1891, 1 vol. in 8°.</note>. A dire il vero ne restai a tutta prima un pochino contrariato all’ annunzio, e più ancora dopo la lettura dell’opera magistrale, perchè il campo già precedentemente mietuto da altri <note n="2"> Poggiali. Memorie intorno alla vita ed agli scritti di Lorenzo Valla. Piacenza. 1790, e Windschult. Dissertatio de vita et scriptis L. Vallensis. Leida 1830.</note> era stato percorso da un valoroso, e non vi restava più nulla a spigolare :
+        
+        
+
+
+<pb n="002"/>
+
+per la qual cosa, messo l'animo in pace, per l’amore che m’attrae ad uno scrittore dopo d’ averlo conosciuto più e più tempo, proseguii a studiarne le Opere, e forse lo studio fu più proficuo, perchè più calmo e più assiduo e perchè diventato un bisogno dello spirito. Intanto su d’una copia della famosa Donazione <note n="1"> « Laurentii Vallensis Patritii Romani, de falso eredita et ementita Constantini donatione, declamatio, Westphaliae, typis Karkerij, a. MDCLXV. »</note> che si conserva nella Biblioteca Nazionale di Napoli (XXIV. D. 41) già da me trascritta, cominciai, or è qualche tempo, il non facile volgarizzamento dell'opuscolo nuovo <note n="2"> La prima traduzione italiana del 1546 citata dall'Haym, bibliot. italiana, Milano, 1771, pag. 48, non che l’altra francese del 1522 pure senza indicazione di tempo e di luogo citata dall’Harrisse, Excerpta colombiniana, Paris, 1887, pag. 177, possono dirsi addirittura perdute.</note> che oppugna la sovranità temporale dei papi sotto il triplice aspetto storico, giuridico e religioso, e confesso che le difficoltà nel lavoro invece di arrestarmi mi furono ragione a proseguire, e la versione, comunque essa sia, fu compiuta. Oggi da me la si pubblica col testo innanzi conforme all’originale testé mentovato salvo la correzione di alquanti errori palesi che non si potevano lasciar correre (tutti dell’ imperizia dei tipografi), e senza sperare da essa lode alcuna sono sicuro di avere contribuito a ricordare ai giovani specialmente il nome di un grande che ebbe il merito di ricercare sempre ed incessantemente la verità.
+        
+        
+
+</p>
+</body>
+</text>
+</TEI>
