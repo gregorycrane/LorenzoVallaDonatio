@@ -1,0 +1,202 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Alcide Bonneau</editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Alcide Bonneau</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <publisher>Isidore Liseux, Editeur, Rue Bonaparte, n. 2 1879</publisher>
+              <date>1879</date>
+            </imprint>
+          </monogr>
+	<ref target="https://babel.hathitrust.org/shcgi/pt?id=wu.89100038991">Book scanned from the University of Wisconsin. Hathitrust: wu.89100038991</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+    <body>
+
+<pb n="3"/>
+<head>Édit
+du
+Seigneur Constantin
+Empereur</head>
+<p>Au nom de la Sainte et indivisible Trinité, c’est-à-dire du Pére, du Fils et du Saint-Esprit, en Jésus-Christ, l’un de cette mème sainte Trinité, notre Dieu et notre Sauveur : l'Empereur César Flavius Constantin, fìdèle, clément, bienfaisant, Allemanique, Gothique, Sarmatique, Germanique, Britannique, Hunnique, pieux, heureux, vaìnqueur et triomphateur, toujours Auguste, au très-saint et très-bienheureux pére des pères Sylvestre,- Évèque et Pape de la ville de
+
+
+
+<pb n="5"/>
+Rome, et à tous les Pontifes, ses successeurs, qui sur le siège du bienheureux Pierre jusqu’à la fin des siècles s’assoiront, ensemble à tous les révérends Èveques catholiques, chéris de Dieu, et à tous ceux qui par cette notre et présente constitution imperiale sont soumis à la sacrosainte Église Romaine, maintenant et à tout jamais jusqu’à la fin des siècles, la grace, la paix, la charité, la longanimité, la miséricorde de Dieu le pére tout-puissant et de Jésus-Christ, son fils, et du Saint-Esprit soient avec vous tous.</p>
+<p>Ce que notre Sauveur et Rédempteur, le Seigneur Jésus-Christ, Fils du très-haut Pére, par le moyen de ses saints Apótres Pierre et Paul, et grace à l’intervention de notre pére Sylvestre, Souverain Pontife et Pape universel, a daigné miraculeusement opérer, notre très-douce Sérénité s’est appliquéc à le porter à la connaissance de tous les peuples, sur tout le globe terrestre, par un clair récit, .dans cette page de notre imperiai décret. D’abord, vous exposant notre foi, dans laquelle Nous avons été instruit par notre susdit très-bienheureux pére et
+
+
+
+
+<pb n="7"/>
+orateur Sylvestre, Pontife universel, vous l'exposant par une intime confession du coeur pour Tédification de vos ames à tous, et vous annoncant enfin la miséricorde de Dieu qui s’est répandue sur nous, Nous voulons que vous sachiez, comme nous vous l’avons de'jà signifié par une nótre antérieure et sacrée pragmatique jussion, que Nous avons rompu avec le culte des idoles, simulacres muets et sourds, fabriqués de main d'homme, artifices du Diable, et avec toutes les pompes de Satan, pour adopter la foi pure des Chrétiens, qui est la vraie lumière et la vie éternelle ; que suivant ce que nous a enseigné ce mème vénérable et souverain pére, Sylvestre, notre pré-cepteur, Nous croyons en Dieu le pére tout-puissant, créateur du ciel et de la terre, des choses visibles et invisibles, et en Jésus-Christ, son fìls unique, notre Seigneur, par qui ont été créées toutes choses, et en le Saint-Esprit, seigneur et vivificateur de toute créature. Ces trois personnes, le Pére, le Fils et le Saint-Esprit, nous les confessons, de ielle sorte que dans la Trinile parfaite réside la plé-
+
+
+<pb n="9"/>
+nitude de la divinité et Funité de la puissance. Le Pére est Dieu, le Fils est Dieu, le Saint-Esprit est Dieu, et les trois ne font qu’un en Jésus-Christ. Triple est la forme, une est la puissance.</p>
+<p>Car de toute éternité Dieu, sage, a engendré de lui le Verbe, par qui devaient étre engendrés tous les siècles. Et lorsque de ce seul Verbe de sa sagesse il a formé de rien toute créature, il était avec lui, ordonnant toutes choses, par son sacre mystère. Donc, ayant créé toutes les parfaites splendeurs des cieux et toutes les matières de la terre, par un signe pieux de sa sagesse, à son image et à sa ressemblance, il fìt le premier homme, du limon de la terre, et le placa dans le paradis de volupté. Le vieux serpent et ennemi, le Diable, lui portant envie, par le très-amer plaisir du bois défendu, le fit exiler de ces joies, et, après son expulsion, ne cessa de lui lancer, de beaucoup de manières, ses traits empoisonnés, pour qu’égarant le genre humain de la voie de vérité, il le persuadàt de s’adonner au culte des idoles, c’est-à-dire d’une créature, et non à celui
+
+
+
+<pb n="11"/>
+du Créateur; que ceux donc qu’il a pu, par ce moyen, envelopper de ses embuches, aillent avec lui bruler du supplice éternel.</p>
+<p>Mais notre Dieu, qui eut pitié de sa créature, lui expédiant ses saints prophètes et annonçant par eux la lumière de la vie future, c’est-à-dire la venue de son fils, Dieu, notre Seigneur et Sauveur Jésus-Christ, envoya ce méme sien fils unique et Verbe de la sagesse, qui descendant des cieux pour notre salut, né du Saint-Esprit et de la Vierge Marie, fut le Verbe fait chair et 'habita parmi nous. Il ne perdit pas ce qu’il avait été, mais commenda d’être ce qu’il n’était pas : Dieu parfait et homme parfait, faisant, comme Dieu, des merveilles, et, comme homme, supportant les humaines souffrances; ainsi, d'après la prédication de notre pére Sylvestre, Souverain Pontife, nous comprenons que le Verbe-homme et le Verbe-Dieu a été vrai Dieu et vrai homme : nous n’avons aucun doute là-dessus. Et s’étant choisi douze Apótres, il brilla par beaucoup de miracles, devant eux et devant
+
+
+
+<pb n="13"/>
+une innombrable multitude de peuple.</p>
+<p>Nous confessons que ce mème Seigneur Jésus-Christ a accompli la loi et les prophetes, qu’il a été crucifìé selon les Écritures, qu’il est ressuscité des morts le troisième jour, qu’il est monté au del, qu’il est assis à la droite du Pere, d’où il doit venir juger les vivants et les morts, que son règne n’aura pas de fin. Telle est, en effet, notre foi catholique orthodoxe, à nous enseignée par notre très-bienheureux pére Sylvestre, Souverain Pontife. Nous exhortons donc tout le peuple et les diverses nations des Gentils, ù accepter cette foi, à la pratiquer, à la proclamer, à recevoir la grace du bapteme au nom de la sainte Trinité, et d un coeur dévot adorer notre Seigneur Jesus-Christ, notre Sauveur, qui avec le ère et le Saint-Esprit par l’infinité des siècles vit et règne, et que prèche le très-bienheureux Sylvestre, notre pére, Pontife universel.</p>
+<p>Car ce mème notre Seigneur, ayant pitié de moi, pécheur, envoya Nous visiter ses saints Apòtres et pròjetà sur °us le rayon de sa splendeur pour que,
+
+
+
+<pb n="15"/>
+
+tire des ténèbres, vous vous réjouissiez de me voir venir à la véritable lumière et à la connaissance de la vérité. Car lorsqu’une épaisse croutede lèpre m’avait envahi toute la chair du corps, que les soins de beaucoup de médecins réunis y étaient appliqués et que des remèdes d’aucuns d'eux Nous ne pouvions attendre la santé, alors se présentèrent les Prètres du Capitole pour me dire qu’il me fallait faire faire une cuve dans le Capitole et la remplir du sang d’innocents; qu’en me baignant dans ce sang chaud, je pouvais étre purifìé. Selon leurs paroles, un grand nombre d’enfants innocents ayant été rassemblés, au moment où les sacrilèges prètres des pa'iens voulaient les immoler et remplir la cuve de leur sang, Notre Sérénité apercevant les larmes de leurs mères, t aussitót j’eus horreur du forfait, et ayant pitie d’elles, Nous ordonnàmes qu'on leur rendit leurs propres fils, et leur ayant fourni des carrosses, accordé des cadeaux, nous les renvoyàmes tout joyeux chezeux.</p>
+<p>Or, à la fin du mème jour, quand le
+
+
+
+<pb n="17"/>
+nocturne silence se fut fait autour de Nous et qu’approchait l’heure du sommeil, voici venir les saints Apòtres Pierre et Paul, qui me dirent : <quote>Puisque tu as mis un terme aux infamies et que tu as eu horreur de verser le sang innocent, nous sommes envoyés par le Christ, Dieu, notre Seigneur, pour indiquer le moyen de recouvrer la santé. Écoute donc nos avertissements et fais tout ce que nous te marquons. Sylvestre, Évéque de cette ville, fuyant au mont Soracte tes persécutions, se « tient caché avec tout son clergé dans les cavernes de pierres. Tu le feras venir près de toi; lui-mème te montrera la piscine de piété dans laquelle, dès qu'il t’aura plongé trois fois, te quittera toute cette maladie de lèpre. Cela fait, rémunère de ce changement ton sauveur, en ordonnant que par tout le globe toutes les églises soient relevées.Toi-mème, purifie-toi en ced,  qu’abandonnant toute superstition des idoles, tu adores et pratiques le Dieu vivant et véritable, et atteignes à sa volonté. </quote>
+
+
+
+
+
+<pb n="19"/>
+Sorti du sommeil, aussitót j’accomplis ce dont j'avais été averti par les saints Apótres : et ayant fait venir ce méme excellent et magnifìque Sylvestre, notre pére et notre illuminateur, Pape universel, je lui dis toutes les paroles que j’avais entendues des saints Apótres, et Nous lui demandames quels Dieux étaient ce Pierre et ce Paul. Il nous ré-pondit qu’à la vérité ce n’étaient pas des Dieux, mais des Apótres du Sauveur, notte Seigneur Jésus-Christ. Et de nouveau nous nous mimes à interroger ce mème très-bienheureux Pape, lui demandant s’il n’avait pas des images reproduisant ces Apótres, pour que Nous pussions juger, d’après la peinture, si cMtait bien eux que la révélation nous avait montrés. Alors ce mème vénérable pére Nous fit présenter par son diacre les portraits de ces mèmes Apótres ; dès que je les eus regardés et que j'eus reconnu les vìsages que j’avais vus en songe figurés dans ces images, à grands cris devant tous mes Satrapes, je confessai que c’était bien eux que j’avais vus en songe. Sur ce, le mème très-bienheu-
+
+
+<pb n="21"/>
+reux Sylvestre, notre pére, Évèque de la ville de Rome, Nous signifia la durée de notre pénitence, à faire dans notre palais de Latran, sous un cilice, pour que de toutes les choses que Nous avions commises avec impiété et injustice, par les veilles, les jefìnes, les larmes et les prières, nous demandions pardon auprès de notre Seigneur Dieu, Jésus-Christ, Sauveur. Ensuite, passant par les impositionsde mains des clercs, j’arrivai jusquau prélat méme. Là, renonçant à Satan, à ses pompes et à ses ceuvres, ou à toutes les idoles faites à la main, de ma volonté spontanée, devant tout le peuple, je confessai croire en Dieu le Pére tout-puissant, créateur du ciel et de la terre, des choses visibles et invisibles, et en Jésus-Christ son fils unique, notre Seigneur, qui est conç du Saint-Esprit, né de la Vierge Marie. Les fonts bénits, il m’y purifia par une triple immersion dans l’eau du salut. Et comme j’étais dans le sein de la cuve, je vis de mes propres yeux une main qui, du ciel, venait me toucher. J'en suis sorti sain, et voyez-moi maintenant débarrassé de toute
+
+
+
+<pb n="23"/>
+souillure de lèpre. Dès que je me fus levé des vénérables fonts et revètu d;habits blancs, il me scella du sceau de la grace septiforme du Saint-Esprit, par Fonction du bienheureux chrème, et fu sur mon front, avec de Fhuile, le signe de la sainte croix, en me disant : « Que » Dieu te signe du sceau de sa foi, au « nom du Pére et du Fils et du Saint» Esprit, en signe de foi. » Et tout le clergé répondit : « Amen ! » Et le Prélat ajouta : « La paix soit avec toi. »
+Cest pourquoi, le lendemain du jour oii je connus le mystère du sacre baptème, et où mon corps fut guéri de la souillure de la lèpre, je compris qu’il n’y avait pas d’autre Dieu que le Pére et le Fils et le Saint-Esprit, tei que le prèche le bienheureux Sylvestre, Pape ; la trinité dans Funité et Funité dans la trinité. Car tous les Dieux des Gentils, que j’adorai jusqu’à ce jour, sont convaincus d’être des démons, des ceuvres faites de main d’homme. Et en effet, ce mème vénérable pére Nous a enseigné très-clairement tout ce que notre Sauveur a attribué de puissance dans le ciel et sur
+
+
+
+<pb n="25"/>
+
+la terre à son Apótre, le bienheureux Pierre, lorsque le trouvant fìdèle, dans son interrogatoire, il lui dit : Tu es Pierre et sur cette pierre je bdtirai mon Église, et les portes de YEnfer ne pré-vaudront pas contre elle. Prenez garde, potentats, et prètez Toreille du coeur à ce que le bon Maitre et Seigneur ajouta a son disciple, en disant : Tout ce que tu lieras sur la terre sera lié aussi dans les deux. C’est admirable, certes, et glorieux de lier et de délier sur la terre, et que cela soit lié et délié dans le ciel ! Et tandis que je comprenais ces choses, à la prédication du bienheureux Sylvestre, et que je fus certain d’étre parfaitement revenu à la santé grace aux bienfaits de ce mème bienheureux Pierre.</p>
+<p>Nous, avec tous nos Satrapes et le Sé-
+
+
+
+
+<pb n="27"/>
+nat tout entier, les Optimates mème et tout le peuple assujetti au gouvernement de l'Église Romaine, avons jugé utile que, de mème que le bienheureux Pierre semble avoir été constitué le vicaire de Dieu sur la terre, de mème les Papes, qui tiennent sur la terre la place du Prince des Apótres, obtinssent en concession, de Nous et de notre Empire, une plus grande puissance que n’en paraìt avoir la Mansuétude de notre terrestre imperiale Sérénité. Nous avons choisi le Prince des Apótres lui-mème, ou ses vicaires, comme étant les plus fermes patrons auprès de Dieu, et à l’égal de notre terrestre imperiale puissance, Nous
+avons décrété d’honorer avec vénération cette sacrosainte Eglise Romaine, d’exalter glorieusement bien audessus de notre Empire et de notre tróne terrestre, la très-sainte chaire du bienheureux Pierre, en lui attribuant la puissance et la gioire et la dignité et la force et la splendeur imperiales. Donc, Nous décrétons et sanctionnons qu’il détienne la primauté, tant sur les quatre sièges d’Alexandrie, d’Antioche, de Jérusalem et
+
+
+
+
+<pb n="29"/>
+de Constantinople, que mème sur toutes les églises de Dieu répandues sur tout le globe terrestre, le Pontife qui, dans la suite des temps, sera placé à la tète de cette sacrosainte Église Romaine ; qu’il soit le plus haut, qu’il soit le Prince à tous les prètres du monde entier, et que d’après sa volonté se gouverne tout ce qui regarde le culte de Dieu, ou la foi des Chrétiens, ou sa stabilité.</p>
+<p>Il est juste, en effet, que la loi sainte tienne la tète du principat là où l’instituteur des saintes lois, notre Sauveur, a voulu que le bienheureux Pierre obtlnt lachaire de l’apostolat; où, soutenant le gibet de la croix, il a bu la coupé de la bienheureuse mort et s’est montré l’imitateur de son maitre et seigneur; que là, les Gentils, en confessant le nom du Christ, fléchissent le col, où leur docteur. le bienheureux Paul, Apòtre, tendant le cou pour le Christ, reçut la coùronne du martyre ; que là jusqu'à la fin ils cherchent le docteur, où repose le corps sacre du docteur, et que là, prosternés et humiliés, ils rendent leur devoir au Roi celeste, Dieu, notre
+
+<pb n="31"/>
+Sauveur Jésus-Christ, où ils obéissaient à l’empire d’un orgueilleux Roi terrestre.</p>
+<p>Cependant Nous voulons faire savoir à tout le peuple, de toutes races et nations, par tout le globe terrestre, que Nous avons construit en dedansde notre palais de Latran, à ce mème Sauveur, Dieu, notre Seigneur Jésus-Christ, une église de fond en comble, avec baptistère, et sachez que de ses fondations nous avons apporté, chargés sur nos propres épaules, douze sacs de terre, selon le nombre des douze Apótres. Cette sacrosainte église, Nous sanctionnons qu’elle soit réputée, respectée, vénérée et proclamée comme la tète et le sommet de toutes les églises, sur tout le globe de l’univers terrestre, comme Nous l’avons établi par nos autres édits impériaux. Nous avons aussi construit les églises des bienheureux Pierre et Paul, premiers Apótres, que nous avons enrichies d’or et d’argent, et où ensevelissant leurs très-saints corps, Nous avons construit pour eux des cercueils d’ambre, que nulle force des éléments ne peut rompre;sur. chacun de leurs cercueils Nous avons
+
+
+
+<pb n="33"/>
+placé une croix en or très-pur et en pierreries très-précieuses, et nous les avons fermés avec des clefs d'or.</p>
+<p>Aux églises des bienheureux Apótres Pierre et Paul, pour l’entretien perpétuel des luminaires, Nous avons concède des domaines de possessions; Nous les avons enrichies d’objets de toutes sortes et, par notre imperiale jussion sacrée, tant à rOrient qu’à POccident, tant au Septen- t trion qu'au Midi, c’est-à-dire dans la Judée, la Grece, PAsie, la Thrace, PAfrique, ITtalie ou les diverses iles, Nous les avons, par notre largesse, dotées exclusivement pour que, par les mains du très-bienheureux Sylvestre, notre pére, Souverain Pontife, et de ses successeurs, tout soit gouverné. Qu’ensemble avec nous tout le peuple se réjouisse donc, et toutes les nations des Gentils, sur tout le globe terrestre; en les y exhortant, Nous les avertissons de rendre avec Nous d’immenses graces à notre Dieu et Sauveur Jésus-Christ, puisque ce Dieu lui-mème qui est en haut dans les cieux et en bas sur la terre, Nous visitant par le moyen de ses saints Apótres, Nous a
+
+
+
+<pb n="35"/>
+
+rendu digne de recevoir le sacrement de baptéme et la santé du corps.</p>
+<p>Cest pourquoi Nous concédons à dits saints Apótres, mes seigneurs très-bienheureux Pierre et Paul, et par eux au bienheureux Sylvestre, notre pére, Souverain Pontife et Pape universel de la ville de Rome, et à tous les Pontifes, ses successeurs, qui, jusqu’à la fin du monde, s’assoiront dans la chaire du bienheureux Pierre, Nous concédons et livrons présentement le palais de Latran de notre empire, de plus le diadème, c’est-à-dire la couronne de notre tète, et aussi le phrygium, sans excepter le superhuméral, c'est-à-dire la courroie que l'Empereur porte d’ordinaire autour du cou, et encore le manteau de pourpre et la robe d’écarlate et tous les vètements impériaux, ou bien mème la dignité de Maìtres de la cavalerie imperiale ; Nous leur donnons aussi tous les sceptres impériaux, ensemble tous les insignes, bannières et divers ornements impériaux, tout l'appareil du faite impérial et toute la gioire de notre puissance. Quant aux particuliers de divers ordres, aux
+
+
+
+<pb n="37"/>
+révérendissimes clercs, serviteurs de la sainte Église Romaine, Nous sanction-nons qu’ils aient ce comble singulier de puissance et de prééminence qui semble faire Tornement et la gioire de notre amplissime Sénat, c’est-à-dire qu’ils soient tous patriciens et consuls ; nous promulguons en outre qu’ils soient revètus de toutes les autres dignités imperiales. Tout ce qui décore la milice imperiale, Nous avons décrété que le ciergé de la sainte Église Romaine en soit décoré, et de mème que la puissance imperiale est rehaussée par les divers offices de chambellans, d’huissiers et de concubins, Nous voulons que la sainte Église Romaine en soit rehaussée également. Et pour que magnifiquement reluise la splendeur pontificale, Nous avons décrété que les clercs de cette sainte Église Romaine chevauchent des chevaux ornés de nappes et de draps, c’est-à-dire ornés de la plus éclatante blancheur, et, comme notre Sénat, soient distingués par des udones, c’est-à-dire par des chaussures d’étoffe bianche ; tout cela afìn que ce qui est du ciel soit paré, pour la gloire
+
+
+
+<pb n="39"/>
+de Dieu, à l’égal de ce qui est de la terre.</p>
+<p>En outre, a l’exclusion de tous autres, Nous avons accordé au bienheureux Sylvestre et à ses successeurs, par notre indict, de clergifier et dénombrer dans le religieux nombre des clercs, quiconque, de son propre mouvement, il lui plaira vouloir, sans que nul soit assez osé pour l’accuser d'agir présomptueusement. Nous avons de plus décrété ceci, que lui-mème et ses successeurs dussent, en l'honneur du bienheureux Pierre, jouir du diadòme, c'est-à-dire de la couronne que nous òtons de notre tète pour la lui conceder, d'or très-pur et de pierreries précieuses. Mais le bienheureux Pape, pardessus la couronne de prètrise qu’il porte, en l’honneur du bienheureux Pierre, n’a pas voulu poser cette couronne d’or ; alors Nous avons de nos mains placé sur son très-saint chef le phrygium resplendissant d’une eclatante blancheur et retrahant la résurrection du Seigneur; puis, tenant la bride de son chevai, par révérence pour le bienheureux Pierre, Nous avons publiquement rempli pour
+
+
+
+<pb n="41"/>
+lui l'office d'écuyer, ordonnant que tous ses successeurs usassent particulièrement de ce phrygium dans les processions, à l’instar de notre Empire. C'est pourquoi, . » afin que le falte pontificai ne soit pas avili, mais bien honoré audessus de la dignité, de la gioire et de la puissance de l'Empire terrestre, voici que Nouslivrons et délaissons tant notre palais que la ville de Rome et toutes les provinces, localités et cités de l'Italie ou des régions occidentales, au bienheureux Sylvestre, Pontife et Pape universel, pour que par lui et ses successeurs, ainsi que nous l'avons décrété par constitution pragmatique, il l'en soit disposé et que le tout reste sous l'autorité de la sainte Église Romaine. C'est pourquoi Nous avons jugé convenable de transférer notre Empire et la royale puissance aux régions orientales, et en un très-bonendroit de la province de Byzance d'édifier une cité de notre nom  et d'y établir notre Empire : car il n’est pas juste que là où le Prince des prètres et le chef de la religion Chrétienne est établi par l'Empereur celeste, un Empereur terrestre garde le pouvoir.
+
+
+
+
+<pb n="43"/>
+Enfin tout ce que par cette charte impériale et sacrée ainsi que par d’autres décrets divins Nous avons ordonné et confirmé, Nous décrétons que cela reste intact et inébranlable jusqu’à la fin du monde. C’est pourquoi, en face du Dieu vivant qui nous a enseigné à régner, en face de son jugement terrible, Nous enjoignons à tous nos successeurs les Empereurs, ainsi qu’à tous les Grands, aux Satrapes mème, à l’amplissime Sénat et à tout le peuple répandu sur le globe terrestre de l’univers, à tous présents et à venir, que nul n’ose, de quelque facon que ce soit, enfreindre ou déchirer ce privilège. Si cependant, ce que nous ne croyons pas, quelqu’un pousse à ce point l’audace et le mépris, quii soit condatnné à la damnation éternelle, qu’il sente qu’il a pour ennemis, dès à présent et pour la vie future, les saints Apótres de Dieu, Pierre et Paul, et qu’il soit precipite au fin fond de l’enfer, pour y être brulé avec le Diable et tous les impies. Et corroborant de nos propres mains la page de cet impérial décret, Nous l’avons déposée sur le corps vénérable du bienheureux
+
+
+
+
+<pb n="45"/>
+Pierre, où, promettant à ce méme Apôtre de Dieu d’observer inviolablement toutes ces choses et de laisser l’ordre de les observer à nos successeurs les Empereurs, au bienheureux Sylvestre, notre pere, Souverain Pontife et Pape universel, ainsi qu’à tous les Pontifes ses successeurs, avec la grace de notre Seigneur, Dieu et Sauveur Jésus-Christ, Nous les concédons pour qu’ils en jouissent éternellement et heureusement.</p>
+<p>Suit la souscription impériale : La Divinité vous conserve longues années, très-saints et très-bienheureux Pères. Donné à Rome sous le troisième jour des Calendes d’Avril, notre Seigneur Flavius Constantin, Auguste, et Gallicanus, très-illustres personnages, pour la quatrième fois consuls.
+
+
+</p>
+</body>
+</text>
+</TEI>

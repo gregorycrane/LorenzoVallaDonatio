@@ -1,0 +1,416 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Christopher B. Coleman, Ph.D., Professor of History in Allegheny College </editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Christopher B. Coleman, Ph.D., Professor of History in Allegheny College</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>New Haven</pubPlace>
+              <publisher>Yale University Press</publisher>
+              <date>1922</date>
+            </imprint>
+          </monogr>
+	<ref target="http://hdl.handle.net/2027/cu31924029363706">Hathi Trust http://hdl.handle.net/2027/cu31924029363706</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="ita">Italian</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng">
+    <body>
+
+
+
+
+
+
+
+<pb n="1"/>
+
+
+
+
+
+
+<head>Introductory</head> 
+
+<p>The Donation of Constantine — the most famous forgery 
+in European history; papal authority — since the triumph 
+of Christianity the most perennial question of European 
+society; historical criticism — one of the most comprehensive, most 
+alluring, and most baffling enterprises of the modern mind; 
+Lorenzo Valla — the greatest of the professional Italian humanists;
+these lines of study have converged, accidentally perhaps, to 
+call forth the following pages. Much of the subject matter which 
+might properly form their introduction I have already treated 
+more fully in an earlier work,1 and a brief statement will suffice 
+here.</p>
+
+<p>The Donation of Constantine (Constitutum Constantini), 
+written probably not long after the middle of the eighth century, 
+became widely known through its incorporation in the Pseudo-Isidorian
+Decretals (about 847-853). Parts of it were included in 
+most of the medieval collections of canon law; Anselm's, Deusdedit's,
+and Gratian's great work (the Decretum, or Concordia 
+discordantium canonum). It purports to reproduce a legal document
+in which the Emperor Constantine the Great, reciting his 
+baptism and the cure of his leprosy at the hands of Sylvester, 
+Bishop of Rome 314-336, confirmed the privilege of that pontiff 
+as head of all the clergy and supreme over the other four patriarchates;
+conferred upon him extensive imperial property in various 
+parts of the world, especially the imperial Lateran palace, and the 
+imperial diadem and tiara, and other imperial insignia; granted 
+the Roman clergy the rank of the highest Roman orders and their 
+
+<note xml:id="note.1.1"><p> C. B. Coleman, Constantine the Great and Christianity, three phases: the historical, the legendary, and the spurious. Columbia University Studies in History,  Economics and Public Law, vol. LX, no. i. Columbia University Press, and Longmans, Green and Co., New York, 1914. 
+
+
+
+</p></note>
+
+<pb n="2"/>
+
+
+privileges; gave Sylvester and his successors freedom in consecrating
+men for certain orders of the clergy; it tells how he, Constantine,
+recognized the superior dignity of the Pope by holding 
+the bridle of his horse; grants Sylvester Rome, all of Italy, and 
+the western provinces, to remain forever under the control of the 
+Roman See; and states his own determination to retire to Byzantium
+in order that the presence of an earthly emperor may not 
+embarrass ecclesiastical authority. This remarkable document was 
+almost universally accepted as genuine from the ninth to the 
+fifteenth century.</p>
+
+<p>The question of the position of the bishop of Rome in the Christian
+Church lacks but a few generations of being as old as 
+Christianity itself. His relation to secular governments became an 
+acute problem as soon as the imperial government broke down in 
+Italy, and has remained so to the present moment. For centuries 
+the Papacy was the strongest institution in western Europe. While 
+its control at any one time rested principally on the power it actually
+possessed and on the ability of its representatives, legal 
+theories and historical documents played a not inconsiderable part 
+in its rise and decline. Of these documents the Donation of Constantine
+was perhaps the most spectacular, even though it was not 
+the most important. It was cited by no less than ten Popes of 
+whom we know, to mention no lesser writers, in contentions for 
+the recognition of papal control, and contributed not a little to 
+the prestige of the Papacy. On the other hand, when its spuriousness
+became known, the reaction against it, as in Luther's case, 
+contributed powerfully to the revolt from Rome. Its century-long 
+influence entitles it to a respect difficult for any one who now reads 
+it to feel. And Valla's discussion of it contains many interesting 
+reflections on the secular power of the Papacy, perhaps the most 
+interesting expression in this connection of fifteenth century 
+Italian humanism.</p>
+
+<p>Among the achievements of modern historical criticism Valla's 
+work was a conspicuous pioneer. Its quality and its importance 
+have often been exaggerated, and as often underestimated. It is 
+some satisfaction to make it more generally available in the 
+
+
+
+<pb n="3"/>
+
+
+original text and translation, so that the reader may judge for himself.
+A critical appraisal would have to take into account that 
+Nicholas Cusanus some seven years earlier in his <title xml:lang="la">De concordantia 
+catholica</title> covered part of the same ground even better than Valla 
+did, and anticipated some of his arguments. But Valla's treatise is, 
+more exhaustive, is in more finished and effective literary form, 
+and in effect established for the world generally the proof of the 
+falsity of the Donation. Moreover, for the first time, he used effectively
+the method of studying the usage of words in the variations 
+of their meaning and application, and other devices of internal 
+criticism which are the tools of historical criticism to-day. So, 
+while Valla's little book may seem slight beside later masterpieces 
+of investigation and beside systematic treatises in larger fields, it 
+is none the less a landmark in the rise of a new science. I speak 
+from personal experience in adding that it is still useful in college 
+classes in promoting respect for, and development in, critical 
+scholarship.</p>
+
+<p>As to Valla himself the words of Erasmus will bear repetition; 
+"Valla, a man who with so much energy, zeal and labor, refuted 
+the stupidities of the barbarians, saved half-buried letters from 
+extinction, restored Italy to her ancient splendor of eloquence, and 
+forced even the learned to express themselves henceforth with 
+more circumspection."1 The Italian Renaissance is much extolled 
+among us, — and so little known. A short time ago diligent search 
+revealed no copy of Valla's works in the United States, and many 
+of the larger libraries had none of his separate writings. The same 
+is doubtless true in the case of other great names in the Renaissance.
+Meanwhile, there are those whose profession it is to teach 
+European history and who are utterly unacquainted with medieval 
+and later Latin.</p>
+
+<p>The best life of Valla is that by Girolamo Mancini.2 There is no 
+satisfactory account of him in English.</p>
+
+<p>Valla wrote his Discourse on the Forgery of the alleged 
+
+<note xml:id="note.3.1"><p> F. M. Nichols, ed., Epistles of Erasmus. Longmans, Green and Co., New York,  1901. 
+
+</p></note>
+
+<note xml:id="note.3.2"><p> Vita di Lorenzo Valla (Florence, 1891).
+
+
+
+
+</p></note>
+
+<pb n="4"/>
+
+
+Donation of Constantine (<title xml:lang="lat">Declamatio de falso credita et ementita donatione
+Constantini</title>, also referred to as <title xml:lang="lat">Libellus</title>, and <title xml:lang="lat">Oratio</title>) in 
+1440, when he was secretary to Alfonso, king of Aragon, Sicily, 
+and Naples. It may well be considered as part of the campaign 
+which that king was conducting against Pope Eugenius IV in 
+furtherance of his claims to Italian territories.</p>
+
+<p>There has hitherto been no satisfactory text of this treatise. The 
+first printed edition, that of Ulrich von Hutten, in 1517, is excessively
+rare, and it, as well as its numerous reprints, is defective 
+in places. The same is true of the text in the collected works of 
+Valla, the Opera, printed at Basle, 1540, 1543 (?). The only 
+English edition, by Thomas Godfray (London, 1525 ?), is rare 
+and of no great merit. A modern French edition by <bibl>Alcide Bonneau
+(La Donation de Constantin, Paris, 1879)</bibl> gives the text 
+with a French translation and a long introduction. It is based on 
+the 1520 reprint of Hutten's edition, is polemical, uncritical, and 
+admittedly imperfect. A modern edition with translation into 
+Italian (<bibl>La dissertazione di Lorenzo Valla su la falsa e manzognera
+donazione di Costantino tradotta in Italiano da G. Vincenti, 
+Naples, 1895</bibl>) is out of print.</p>
+
+<p>My text is based on the manuscript <bibl>Codex Vaticanus 5314</bibl>, 
+dated December 7, 1451, the only complete manuscript of the 
+treatise I have been able to find. I have collated this with 
+Hutten's text as found in one of the earliest, if not the earliest, 
+reprint (contained in the little volume <bibl>De Donatione Constantini 
+quid veri habeat, etc., dated 1520</bibl> in the Union Theological Seminary
+library copy, but corresponding closely to the one dated 1518 
+in E. Bocking's edition of the works of Ulrich von Hutten, vol. I, 
+p. 18), and have occasionally used readings from Hutten's text or 
+later ones, such as that of Simon Schard,1 but in every instance 
+I have indicated the MS. reading. I have used uniform, current 
+spelling and punctuation, and have used my own judgment in 
+paragraphing.</p>
+
+<p>Preceding Valla's treatise I reprint, with a translation, the text 
+
+<note xml:id="note.4.1"><p> <bibl>Syntagma tractatuum de imperiali iurisdictione, etc., Strassburg, 1609</bibl>; <bibl>first  published under a similar title at Basle, 1566</bibl>. 
+
+
+
+</p></note>
+
+<pb n="5"/>
+
+
+of the Donation as given, with the omission of long sections, in 
+Gratian's Decretum, or <title xml:lang="lat">Concordia discordantium canonum</title>, which 
+was the form Valla used and on which he based his criticism. I 
+take it from <title>A. Friedberg's edition of the Corpus Iuris Canonici, 
+vol. I, columns 342-345</title>. The full text of the Donation is best 
+given by <bibl>Karl Zeumer, in the Festgabe für Rudolf von Gneist 
+(Julius Springer, Berlin, 1888), pp. 47-59</bibl>, reprinted among other 
+places in my <bibl><title>Constantine the Great and Christianity</title>, pp. 228-237</bibl>. 
+The document may be studied to advantage also in the Decretales 
+Pseudo-Isidorianae et Capitula Angilramni, ed. Hinschius (Leipsic,
+1863). An English translation, from Zeumer's text, is in <bibl>E. F. 
+Henderson's <title>Select Historical Documents of the Middle Ages</title>, 
+pp. 319-329</bibl>.</p>
+
+<p>In the translation of passages of the Donation I have, so far as 
+possible, used the words of Henderson's translation. In quotations 
+from the Bible I have used the King James version. In translating 
+Valla's quotations from the Donation I have usually, though not 
+always, followed him in giving words their classical and not their 
+medieval meaning.</p>
+
+<p>The Donation of Constantine grew out of the legends about 
+Sylvester I, Bishop of Rome, as well as out of legends about Constantine.
+These are described at length in Constantine the Great 
+and Christianity. The most familiar form of the Sylvester-Constantine
+legend is that of <bibl>Mombritius' Sanctuarium, sive Vitae 
+collectae ex codibus, Milan, c. 1470, vol. II, folio 279: Paris, 1910, 
+vol. II, pp. 508-531.</bibl></p>
+
+<p>Present-day scholarship is not in entire agreement on all points 
+connected with the Donation of Constantine. The following summary,
+however, may be hazarded. The problem of modern criticism,
+of course, is, not to establish the spuriousness of the 
+Donation, — that has long been obvious, — but to locate the origin 
+of the document as closely as possible.</p>
+
+<p>The development of the Sylvester-Constantine legend was 
+worked out best by <bibl>Dollinger (Papstfabeln des Mittelalters, Munich,
+1863: ed., J. Friedrich, Stuttgart, 1890)</bibl> and by <bibl>Duchesne 
+(in his edition of the Liber Pontificalis, vol. I, 1886, pp. cvii-cxx)</bibl>. 
+
+
+
+<pb n="6"/>
+
+
+These have shown the existence at Rome, as early as the last of 
+the sixth century, of the story which forms most of the narrative 
+part of the Donation, and gave the forger the whole of his background.</p>
+
+<p>The earliest known manuscript of the document is in the Codex 
+Parisiensis Lat. 2778, in the Collectio Sancti Dionysii, found in 
+the monastery of St. Denis, in France. The collection contains 
+documents dating from the last years of the eighth century, though 
+it may have been put together later. The collected Pseudo-Isidorean
+Decretals, in which the Donation was virtually published 
+to the world, in the middle of the ninth century, also came out in 
+France. French writers of the ninth century, also, were the first, 
+so far as we know, to refer to the Donation. Such facts help to fix 
+the date of the forgery, but under the circumstances they do not 
+fix the place as France. Rather they are merely another illustration
+of the well-known leadership of France in learning and 
+politics during the ninth century.</p>
+
+<p>Linguistic peculiarities of the document have been most exhaustively
+treated by one of the greatest of critical historians, Paul 
+Scheffer-Boichorst,1 not to speak of briefer studies by Dollinger, 
+Brunner, and others. In the full text of the Donation, as for instance
+the one published by Zeumer, are found many features 
+distinctive of Italian documents of the eighth century, and a number
+that apparently are peculiar to the chancellery of Stephen II 
+(III), Bishop of Rome 752-757, and of Paul I (757-767), more 
+particularly the latter. (Some of these do not occur in the passages 
+and the text which Valla used; that is, in his copy of Gratian's 
+Decretum.) This is true in varying degrees of particularity of the 
+form or usage of the following words; synclitus (for senatus) in 
+§ 15, banda (for vexillum) in § 14, censura (diploma) in § 17, 
+constitutum (decretum) in §§ 17 and 18, retro (applied to the 
+future) in §§ 1 and 19, largitas (possessio) in § 13, consul and 
+
+<note xml:id="note.6.1"><p> <bibl>Neue Forschungen uber die Konstantinische Schenkung, in Mittheilungen d.  Instituts für Österr. Geschichtsforschung, vol. X (1889), pp. 325-et seq.,</bibl> <bibl>XI (1890),  pp. 128 et seq</bibl>. <bibl>Reprinted in his Gesammelte Schriften in the Historische Studien of E. Eberling, vol. XLII.</bibl>
+
+
+
+</p></note>
+
+<pb n="7"/>
+
+
+patricius (as mere designations of rank) in § 15, vel (et) in §§ 11, 
+12, 13, 16, 19, seu (et) in §§ 14 and 17, satraps (as a Roman 
+official) in §§ 8, II, and 19, and inluminator in § 7 in some manuscripts.
+The following phrases, also, are more or less distinctive; 
+Deo amabilis in § i, Deo vivo qui nos regnare precipit in § 19, uno 
+ex eadem sancta Trinitate in § i, principem apostolorum vel eius 
+vicarios firmos apud Deum adesse patronos in § 11, pro concinnatione
+luminarionim in § 13, et subscriptio imperialis in § 20, propriis
+manibus roborantes in § 20, religiosus clericus in § 15. The 
+first part of § 4, Tres itaque formae . . . hominem, is very similar 
+to part of a letter of Paul I's in 757. In short, the language of the 
+Donation seems to point to the papal chancellery as the place of its 
+origin, and the pontificate of Paul I (757-767) as the most 
+probable time.</p>
+
+<p>That also seems to offer the situation and environment which 
+would most naturally call forth the document as we have it. This 
+is well brought out by <bibl>Ludo Moritz Hartmann in his Geschichte 
+Italiens im Mittelalter,</bibl>1 and by <bibl>Erich Caspar in his Pippin und 
+die romische Kirche.</bibl>2 The Papacy was then cutting loose from 
+the Emperor at Constantinople and ignoring his representatives in 
+Italy, as well as developing its own independent policy toward 
+Italian territory, toward the Lombards, and toward the Franks. 
+The aim of the forger seems to have been the characteristically 
+medieval one of supplying documentary warrant for the existence 
+of the situation which had developed through a long-drawn-out 
+revolution, namely, the passage of imperial prerogatives and political
+control in Italy from the Emperor to the Papacy. Hence, 
+along with general statements of papal primacy, and of gifts of 
+property, detailed and explicit stress is laid upon the granting of 
+imperial honors, the imperial palace, and imperial power to the 
+Pope, and upon the right of the Roman clergy to the privileges of 
+the highest ranks of Roman society. Legal confirmation was thus 
+given for riding roughshod over the vestiges and memories of the 
+imperial regime in Italy and for looking to the Papacy as the 
+
+<note xml:id="note.7.1"><p> II, ii (Leipsic, 1903), pp. 218-231. 
+</p></note>
+
+<note xml:id="note.7.2"><p> Berlin, 1914, pp. 185-189. 
+
+
+
+</p></note>
+
+<pb n="8"/>
+
+
+source of all honors and dignities. Furthermore we know that 
+Paul I was extremely devoted to the memory of Sylvester, and so 
+it may well have been under his influence that this document came 
+into existence with its tribute to Sylvester's personal character and 
+historic significance.</p>
+
+<p>I wish to give public expression of my thanks to Professor 
+Deane P. Lockwood, of Columbia University, for his kindness in 
+reading my translation of Valla's treatise and the many suggestions
+and improvements he indicated; to Professor J. T. Shotwell, 
+of Columbia University, who was largely responsible for the beginning
+of the whole undertaking; and to Mr. Alexander D. 
+Fraser, of Allegheny College, for generous assistance in reading 
+proof. 
+
+
+</p>
+</body>
+</text>
+</TEI>

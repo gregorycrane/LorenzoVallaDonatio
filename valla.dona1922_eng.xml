@@ -1,0 +1,3974 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Christopher B. Coleman, Ph.D., Professor of History in Allegheny College </editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Christopher B. Coleman, Ph.D., Professor of History in Allegheny College</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>New Haven</pubPlace>
+              <publisher>Yale University Press</publisher>
+              <date>1922</date>
+            </imprint>
+          </monogr>
+	<ref target="http://hdl.handle.net/2027/cu31924029363706">Hathi Trust http://hdl.handle.net/2027/cu31924029363706</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="ita">Italian</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng">
+    <body>
+
+
+
+<pb n="21"/>
+
+<head>The discourse of Lorenzo Valla on the 
+forgery of the alleged Donation
+of Constantine</head>
+
+<p>I have published many books, a great many, in almost every 
+branch of learning. Inasmuch as there are those who are 
+shocked that in these I disagree with certain great writers 
+already approved by long usage, and charge me with rashness and 
+sacrilege, what must we suppose some of them will do now ! How 
+they will rage against me, and if opportunity is afforded how 
+eagerly and how quickly they will drag me to punishment! For I 
+am writing against not only the dead, but the living also, not this 
+man or that, but a host, not merely private individuals, but the 
+authorities. And what authorities! Even the supreme pontiff, 
+armed not only with the temporal sword as are kings and princes, 
+but with the spiritual also, so that even under the very shield, so 
+to speak, of any prince, you cannot protect yourself from him; 
+from being struck down by excommunication, anathema, curse. 
+So if he was thought to have both spoken and acted prudently 
+who said, "I will not write against those who can write 'Proscribed,'
+" how much more would it seem that I ought to follow 
+
+
+
+
+
+<pb n="23"/>
+
+
+the same course toward him who goes far beyond proscription, 
+who would pursue me with the invisible darts of his authority, so 
+that I could rightly say, "Whither shall I go from thy spirit, or 
+whither shall I flee from thy presence?"<ref target="note.23.1"/> Unless perhaps we think 
+the supreme pontiff would bear these attacks more patiently than 
+would others. Far from it; for Ananias, the high priest, in the 
+presence of the tribune who sat as judge, ordered Paul when he 
+said he lived in good conscience to be smitten on the mouth; and 
+Pashur, holding the same rank, threw Jeremiah into prison for 
+the boldness of his speech. The tribune and the governor, indeed, 
+were able and willing to protect the former, and the king the 
+latter, from priestly violence. But what tribune, what governor, 
+what king, even if he wanted to, could snatch me from the hands 
+of the chief priest if he should seize me?</p>
+
+<p>But there is no reason why this awful, twofold peril should 
+trouble me and turn me from my purpose ; for the supreme pontiff 
+may not bind nor loose any one contrary to law and justice. And 
+to give one's life in defense of truth and justice is the path of the 
+highest virtue, the highest honor, the highest reward. Have not 
+many undergone the hazard of death for the defense of their 
+terrestrial fatherland? In the attainment of the celestial fatherland
+(they attain it who please God, not men), shall I be deterred 
+by the hazard of death? Away then with trepidation, let fears 
+far remove, let doubts pass away. With a brave soul, with utter 
+fidelity, with good hope, the cause of truth must be defended, the 
+cause of justice, the cause of God.</p>
+
+<p>Nor is he to be esteemed a true orator who knows how to speak 
+well, unless he also has the courage to speak. So let us have the 
+courage to accuse him, whoever he is, that commits crimes calling 
+for accusation. And let him who sins against all be called to 
+account by the voice of one speaking for all. Yet perhaps I ought 
+not to reprove my brother in public, but by himself. Rather, 
+"Them that sin" and do not accept private admonition "rebuke 
+before all, that others also may fear.'"<ref target="note.23.2"/> Or did not Paul, whose 
+
+<note xml:id="note.23.1"><p> Ps. cxxxlx, 7. 
+</p></note>
+
+<note xml:id="note.23.2"><p> I Tim. v, 20. 
+
+
+
+</p></note>
+
+<pb n="25"/>
+
+
+words I have just used, reprove Peter to his face in the presence 
+of the church because he needed reproof? And he left this written 
+for our instruction. But perhaps I am not a Paul that I should 
+reprove a Peter. Yea, I am a Paul because I imitate Paul. Just as, 
+and this is far greater, I become one in spirit with God when I 
+diligently observe his commandments. Nor is any one made immune
+from chiding by an eminence which did not make Peter 
+immune, and many others possessed of the same rank; for instance,
+Marcellus,<ref target="note.25.1"/> who offered a libation to the gods, and Celestine
+[I] who entertained the Nestorian heresy, and certain even 
+within our own memory whom we know were reproved, to say 
+nothing of those condemned, by their inferiors, for who is not 
+inferior to the Pope?<ref target="note.25.2"/> 
+
+It is not my aim to inveigh against any one and write so-called 
+Philippics against him — be that villainy far from me — but to root 
+out error from men's minds, to free them from vices and crimes 
+by either admonition or reproof. I would not dare to say [that my 
+aim is] that others, taught by me, should prune with steel the 
+papal see, which is Christ's vineyard, rank with overabundant 
+shoots, iand compel it to bear rich grapes instead of meager 
+wildings. When I do that, is there any one who will want to close 
+either my mouth or his own ears, much less propose punishment 
+and death? If one should do so, even if it were the Pope, what 
+should I call him, a good shepherd, or a deaf viper which would 
+not choose to heed the voice of the charmer, but to strike his 
+limbs with its poisonous bite?</p>
+
+<p>I know that for a long time now men's ears are waiting to hear  the offense with which I charge the Roman pontiffs. It is, indeed,  an enormous one, due either to supine ignorance, or to gross avarice which is the slave of idols, or to pride of empire of which cruelty is ever the companion. For during some centuries now, either they have not known that the Donation of Constantine is spurious and forged, or else they themselves forged it, and their successors walking in the same way of deceit as their elders 
+
+<note xml:id="note.25.1"><p> Valla's error for Marcellinus. The whole story is apocryphal. 
+
+</p></note>
+
+<note xml:id="note.25.2"><p> A reference to the reforming councils of the fifteenth century. 
+
+
+
+</p></note>
+
+<pb n="27"/>
+
+
+have defended as true what they knew to be false, dishonoring 
+the majesty of the pontificate, dishonoring the memory of ancient 
+pontiffs, dishonoring the Christian religion, confounding everything
+with murders, disasters and crimes. They say the city of 
+Rome is theirs, theirs the kingdom of Sicily and of Naples,<ref target="note.27.1"/> the 
+whole of Italy, the Gauls, the Spains, the Germans, the Britons, 
+indeed the whole West; for all tiiese are contained in the instrument
+of the Donation itself.<ref target="note.27.2"/> So all these are yours, supreme 
+pontiff? And it is your purpose to recover them all? To despoil 
+all kings and princes of the West of their cities or compel them 
+to pay you a yearly tribute, is that your plan ?</p>
+
+<p>I, on the contrary, think it fairer to let the princes despoil you 
+of all the empire you hold. For, as I shall show, that Donation 
+whence the supreme pontiffs will have their right derived was 
+unknown equally to Sylvester and to Constantine.</p>
+
+<p>But before I come to the refutation of the instrument of the 
+Donation, which is their one defense, not only false but even 
+stupid, the right order demands that I go further back. And first, 
+I shall show that Constantine and Sylvester were not such men 
+that the former would choose to give, would have the legal right 
+to give, or would have it in his power to give those lands to 
+another, or that the latter would be willing to accept them or could 
+legally have done so. In the second place, if this were not so, 
+though it is absolutely true and obvious, [I shall show that in 
+fact] the latter did not receive nor the former give possession of 
+what is said to have been granted, but that it always remained 
+under the sway and empire of the Caesars. In the third place, [I 
+shall show that] nothing was given to Sylvester by Constantine, 
+but to an earlier Pope (and Constantine had received baptism 
+even before that pontificate), and that the grants were 
+
+<note xml:id="note.27.1"><p> Valla was in the service of the king of Sicily and of Naples when he wrote this. 
+
+</p></note>
+
+<note xml:id="note.27.2"><p> The phrase "Italy and the western provinces," in the Donation of Constantine,  meant to the writer of that document the Italian peninsula, including Lombardy,  Venetia, Istria, and adjacent islands. Other countries probably did not occur to him as part of the Roman Empire. Valla, however, followed the current interpretation. 
+
+
+
+
+
+
+
+</p></note>
+
+<pb n="29"/>
+
+
+inconsiderable, for the mere subsistence of the Pope. Fourth, that it is 
+not true either that a copy of the Donation is found in the Decretum
+[of Gratian], or that it was taken from the History of 
+Sylvester; for it is not found in it or in any history, and it is 
+comprised of contradictions, impossibilities, stupidities, barbarisms
+and absurdities. Further, I shall speak of the pretended 
+or mock donation of certain other Caesars. Then by way of redundance
+I shall add that even had Sylvester taken possession, 
+nevertheless, he or some other pontiff having been dispossessed, 
+possession could not be resumed after such a long interval under 
+either divine or human law. Last [I shall show] that the possessions
+which are now held by the supreme pontiff could not, in 
+any length of time, be validated by prescription.</p>
+
+<p>And so to take up the first point, let us speak first of Constantine,
+then of Sylvester.</p>
+
+<p>It would not do to argue a public and quasi imperial case 
+without more dignity of utterance than is usual in private cases. 
+And so speaking as in an assembly of kings and princes, as I 
+assuredly do, for this oration of mine will come into their hands, 
+I choose to address an audience, as it were, face to face. I call 
+upon you, kings and princes, for it is difficult for a private person 
+to form a picture of a royal mind; I seek your thought, I search 
+your heart, I ask your testimony. Is there any one of you who, 
+had he been in Constantine's place, would have thought that he 
+must set about giving to another out of pure generosity the city 
+of Rome, his fatherland, the head of the world, the queen of 
+states, the most powerful, the noblest and the most opulent of 
+peoples, the victor of the nations, whose very form is sacred, and 
+betaking himself thence to an humble little town, Byzantium; 
+giving with Rome Italy, not a province but the mistress of 
+provinces; giving the three Gauls; giving the two Spains; the 
+Germans; the Britons; the whole West; depriving himself of one 
+of the two eyes of his empire? That any one in possession of his 
+senses would do this, I cannot be brought to believe.</p>
+
+<p>What ordinarily befalls you that is more looked forward to. 
+
+
+
+
+
+<pb n="31"/>
+
+
+more pleasing, more grateful, than for you to increase your empires
+and kingdoms, and to extend your authority as far and 
+wide as possible? In this, as it seems to me, all your care, all your 
+thought, all your labor, night and day is expended. From this 
+comes your chief hope of glory, for this you renounce pleasures; 
+for this you subject yourselves to a thousand dangers; for this 
+your dearest pledges, for this your own flesh you sacrifice with 
+serenity. Indeed, I have neither heard nor read of any of you 
+having been deterred from an attempt to extend his empire 
+by loss of an eye, a hand, a leg, or any other member. Nay, this 
+very ardor and this thirst for wide dominion is such that whoever 
+is most powerful, him it thus torments and stirs the most. Alexander,
+not content to have traversed on foot the deserts of Libya, 
+to have conquered the Orient to the farthest ocean, to have mastered
+the North, amid so much bloodshed, so many perils, his 
+soldiers already mutinous and crying out against such long, such 
+hard campaigns, seemed to himself to have accomplished nothing 
+unless either by force or by the power of his name he should 
+have made the West also, and all nations, tributary to him. I put 
+it too mildly; he had already determined to cross the ocean, and if 
+there was any other world, to explore it and subject it to his will. 
+He would have tried, I think, last of all to ascend the heavens. 
+Some such wish all kings have, even though not all are so bold. 
+I pass over the thought how many crimes, how many horrors 
+have been committed to attain and extend power, for brothers do 
+not restrain their wicked hands from the stain of brothers' blood, 
+nor sons from the blood of parents, nor parents from the blood of 
+sons. Indeed, nowhere is man's recklessness apt to run riot further 
+nor more viciously. And to your astonishment, you see the minds 
+of old men no less eager in this than the minds of young men, 
+childless men no less eager than parents, kings than usurpers.</p>
+
+<p>But if domination is usually sought with such great resolution, 
+-how much grpater must be the resolution to preserve it! For it is 
+by no means so discreditable not to increase an empire as to 
+impair it, nor is it so shameful not to annex another's kingdom to 
+your own as for your own to be annexed to another's. And when 
+
+
+
+
+
+<pb n="33"/>
+
+
+we read of men being put in charge of a kingdom or of cities by 
+some king or by the people, this is not done in the case of the chief 
+or the greatest portion of the empire, but in the case of the last 
+and least, as it were, and that with the understanding that the 
+recipient should always recognize the donor as his sovereign and 
+himself as an agent.</p>
+
+<p>Now I ask, do they not seem of a base and most ignoble mind 
+who suppose that Constantine gave away the better part of his 
+empire? I say nothing of Rome, Italy, and the rest, but the Gauls 
+where he had waged war in person, where for a long time he had 
+been sole master, where he had laid the foundations of his glory 
+and his empire! A man who through thirst for dominion had 
+waged war against nations, and attacking friends and relatives 
+in civil strife had taken the government from them, who had to 
+deal with remnants of an opposing faction not yet completely 
+mastered and overthrown; who waged war with many nations not 
+only by inclination and in the hope of fame and empire but by 
+very necessity, for he was harassed every day by the barbarians ; 
+who had many sons, relatives and associates; who knew that the 
+Senate and the Roman people would oppose this act; who had 
+experienced the instability of conquered nations and their rebellions
+at nearly every change of ruler at Rome; who remembered 
+that after the manner of other Caesars he had come into power, 
+not by the choice of the Senate and the consent of the populace, 
+but by armed warfare; what incentive could there be so strong 
+and urgent that he would ignore all this and choose to display 
+such prodigality ?</p>
+
+<p>They say, it was because he had become a Christian. Would 
+he therefore renounce the best part of his empire? I suppose it was 
+a crime, an outrage, a felony, to reign after that, and that a 
+kingdom was incompatible with the Christian religion ! Those who 
+live in adultery, those who have grown rich by usury, those who 
+possess goods which belong to another, they after baptism are 
+wont to restore the stolen wife, the stolen money, the stolen goods. 
+If this be your idea, Constantine, you must restore your cities to 
+liberty, not change their master. But that did not enter into the 
+
+
+
+
+
+<pb n="35"/>
+
+
+case; you were led to do as you did solely for the glory of your 
+religion. As though it were more religious to lay down a kingdom 
+than to administer it for the maintenance of religion! For so far 
+as it concerns the recipients, that Donation will be neither honorable
+nor useful to them. But if you want to show yourself a 
+Christian, to display your piety, to further the cause, I do not 
+say of the Roman church, but of the Church of God, now of all 
+times act the prince, so that you may fight for those who cannot 
+and ought not to fight, so that by your authority you may safeguard
+those who are exposed to plots and injuries. To Nebuchadnezzar,
+to Cyrus, to Ahasuerus, and to many other princes, by the 
+will of God, the mystery of the truth was revealed; but of none 
+of them did God demand that he should resign his government, 
+that he should give away part of his kingdom, but only that he 
+should give the Hebrews their liberty and protect them from their 
+aggressive neighbors. This was enough for the Jews; it will be 
+enough for the Christians also. You have become a Christian, 
+Constantine? Then it is most unseemly for you now as a Christian
+emperor to have less sovereignty than you had as an infidel. 
+For sovereignty is an especial gift of God, to which even the 
+gentile sovereigns are supposed to be chosen by God.</p>
+
+<p>But he was cured of leprosy! Probably, therefore, he would 
+have wished to show his gratitude and give back a larger measure 
+than he had received. Indeed! Naaman the Syrian, cured by 
+Elisha, wished merely to present gifts, not the half of his goods, 
+and would Constantine have presented the half of his empire? 
+I regret to reply to this shameless story as though it were undoubted
+and historical, for it is a reflection of the story of Naaman 
+and Elisha; just as that other story about the dragon is a reflection
+of the fabulous dragon of Bel.<ref target="note.35.1"/> But yielding this point, is 
+
+<note xml:id="note.35.1"><p> In many versions of the Life of Sylvester there is a marvellous story of an  enormous serpent, finally subdued by the saint. Cf. infra, p. 143 ; Coleman, Constantine the Great and Christianity, pp. 161 et seq.; Mombritius, Sanctuarium, Sive Vitae coUectae ex codibus (Milan, c. 1479), v, ii, pp. 279 et seq., also Paris edition, 1910. For the story of Bel and the Dragon, cf. the book of that name in the Apocrypha. 
+
+
+
+</p></note>
+
+<pb n="37"/>
+
+
+there in this story any mention made of a "donation"? Not at all. 
+But of this, more later.</p>
+
+<p>He was cured of leprosy? He took on therefore a Christian 
+spirit; he was imbued with the fear of God, with the love of God; 
+he wished to honor him. Nevertheless I cannot be persuaded that 
+he wished to give away so much; for, so far as I see, no one, 
+either pagan, in honor of the gods, or believer, in honor of the 
+living God, has resigned his empire and given it to priests. In 
+sooth, of the kings of Israel none could be brought to permit his 
+people to go, according to the former custom, to sacrifice at the 
+temple in Jerusalem; for fear lest, moved by that solemn religious 
+ceremony and by the majesty of the temple, they should return 
+to the king of Judah from whom they had revolted. And how 
+much more is Constantine represented to have done! And that 
+you may not flatter yourself with the cure of leprosy, [let me 
+say that] Jeroboam was the first one chosen by God to be king 
+of Israel and indeed from a very low estate, which to my mind is 
+more than being healed of leprosy; nevertheless he did not presume
+to entrust his kingdom to God. And will you have Constantine
+give to God a kingdom which he had not received from him, * 
+and that, too, when he would offend his sons (which was not the 
+case with Jeroboam), humiliate his friends, ignore his relatives, 
+injure his country, plunge everybody into grief, and forget his 
+own interests !</p>
+
+<p>But if, having been such a man as he was, he had been transformed
+as it were into another man, there would certainly not 
+have been lacking those who would warn him, most of all his 
+sons, his relatives, and his friends. Who does not think that they 
+would have gone at once to the emperor? Picture them to yourself,
+when the purpose of Constantine had become known, 
+trembling, hastening to fall with groans and tears at the feet of 
+the prince, and saying: 
+
+"Is it thus that you, a father hitherto most affectionate toward 
+your sons, despoil your sons, disinherit them, disown them? We 
+do not complain of the fact that you choose to divest yourself of 
+the best and largest part of the empire so much as we wonder at 
+
+
+
+
+
+<pb n="39"/>
+
+
+it. But we do complain that you give it to others to our loss and 
+shame. Why do you defraud your children of their expected succession
+to the empire, you who yourself reigned in partnership 
+with your father? What have we done to you? By what disloyalty
+to you, to our country, to the Roman name or the majesty 
+of the empire, are we deemed to deserve to be deprived of the 
+chief est and best part of our principality; that we should be 
+banished from our paternal home, from the sight of our native 
+land, from the air we are used to, from our ancient ties! Shall 
+we leave our household gods, our shrines, our tombs, exiles, to 
+live we know not where, nor in what part of the earth?</p>
+
+<p>"And we, your kindred, your friends, who have stood so often 
+with you in line of battle, who have seen brothers, fathers, sons, 
+pierced and writhing under hostile sword, and have not been dismayed
+at the death of others, but were ourselves ready to seek 
+death for your sake, why are we now deserted one and all by 
+you! We who hold the public offices of Rome, who govern or are 
+destined to govern the cities of Italy, the Gauls, the Spains, and 
+the other provinces, are all of us to be deposed ? Are all of us to 
+be ordered into private life? Or will you compensate us elsewhere 
+for this loss? And how can you, when such a large part of the 
+world has been given to another? Will your majesty put the man 
+who had charge of a hundred peoples over one? How could you 
+have conceived such a plan? How is it that you have suddenly 
+become oblivious of your subjects, so that you have no consideration
+for your friends, nor your kindred, nor your sons? Would 
+that it had been our lot, your Majesty, while your honor and your 
+victory were unimpaired, to fall in battle, rather than to see this !</p>
+
+<p>"You have the power, indeed, to do with your empire what you 
+will, and even with us, one thing however excepted, which we 
+will resist to the death; we will not give up the worship of the 
+immortal gods, — just for the sake of a conspicuous example to 
+dthers, that you may know how much that bounty of yours will 
+be worth to the Christian religion. For if you do not give your 
+empire to Sylvester, we are willing to be Christians with you, and 
+many will imitate us. But if you do give it, not only will we not 
+
+
+
+
+
+<pb n="41"/>
+
+
+endure to become Christians, but you will make the name hateful, 
+detestable, execrable to us, and you will put us in such a position 
+that at last you will pity our life and our death, nor will you 
+accuse us, but only yourself, of obstinacy."</p>
+
+<p>Would not Constantine, unless we would have him totally 
+devoid of humanity, if he were not moved of his own accord, 
+have been moved by this speech? But if he had not been willing 
+to listen to these men, would there not have been those who would 
+oppose this act with both word and deed? Or would the Senate 
+and the Roman people have thought that they had no obligation 
+to do anything in a matter of such importance? Would it not have 
+put forward some orator "distinguished in character and service," 
+as Virgil says, who would hold forth to Constantine as follows: 
+
+"Your Majesty, if you are heedless of your subjects and of 
+yourself, nor care to give your sons an inheritance, nor your 
+kindred riches, nor your friends honors, nor to keep your empire 
+intact, the Senate and the Roman people at least caimot be heedless
+of its rights and its dignity. How come you to take such liberties
+with the Roman Empire, which has been built up, not from 
+your blood, but from ours ! Will you cut one body into two parts, 
+and out of one kingdom make two kingdoms, two heads, two wills, 
+and, as it were, reach out to two brothers swords with which to 
+fight over their inheritance! We give to states which have deserved
+well of this city the rights of citizenship, so that they may 
+be Roman citizens; you take away from us the half of the empire, 
+so that they will not know this city as their mother. In beehives, if 
+two kings are born, we kill the weaker one; but in the hive of the 
+Roman Empire, where there is one prince, and that the best, you 
+think that another must be introduced, and that the weakest one, 
+not a bee, but a drone.<ref target="note.41.1"/> 
+
+"We see a sore lack of prudence on your part, your Majesty. 
+For what will happen, if either during your life or after your 
+death, war should be waged by barbarian tribes against the part 
+of the empire which you are alienating, or against the other, 
+
+<note xml:id="note.41.1"><p> 1 have made two English paragraphs of the rather long Latin one. [Ed.] 
+
+
+
+</p></note>
+
+<pb n="43"/>
+
+
+which you leave for yourself? With what military force, with 
+what resources can we go to meet them? Even now with the 
+troops of the whole empire we have scarcely enough power; shall 
+we have enough then? Or will this part be forever at peace with 
+that? In my opinion it cannot be, for Rome will want to rule and 
+the other part will not want to be subject. Nay, even in your lifetime,
+shortly, when the old officials are removed and new ones 
+put in their places, when you withdraw to your kingdom and 
+fare far forth and another is ruling here, will not all interests be 
+different, that is, diverse and contrary? Usually when a kingdom 
+is divided between two brothers, at once the hearts of the people 
+also are divided, and war arises from within sooner than from 
+foreign enemies. That that will happen in this empire, who does 
+not see it? Or do you not know that it was chiefly on this ground 
+that the patricians once said that they would rather die before 
+the eyes of the Roman people than allow the motion to be carried 
+that part of the Senate and part of the plebeians should be sent 
+to live at Veil and that the Roman people should have two cities 
+in common; for if in one city there were so many dissensions, 
+how would it be in two cities? So in our time, if there are so 
+many disorders in one empire, your own knowledge and your 
+labors are a witness, how will it be in two empires!</p>
+
+<p>"Come now, do you think that when you are engaged in wars, 
+there will be men here willing or able to bear you aid? Those 
+who will be in command of our soldiers and cities will always 
+shrink from arms and warfare, as will he who appoints them. 
+Indeed, will not either the Roman legions or the provinces themselves
+try to despoil this man, so inexperienced in ruling and so 
+inviting to violence, hoping that he will neither fight back nor 
+seek revenge? By Hercules! I believe they will not remain in 
+allegiance a single month, but immediately, at the first news of 
+your departure they will rebel. What will you do ? What plan will 
+you follow when you are pressed with a twofold and even a manifold
+war? The nations which we have conquered we can scarcely 
+hold; how can we withstand them if in addition we have war with 
+free peoples? 
+
+
+
+
+
+<pb n="45"/>
+
+
+"As for your interests, your Majesty, that is for you to see to. 
+But this ought to concern us no less than you. You are mortal; 
+the Empire of the Roman people ought to be immortal, and so 
+far as in us lies, it will be, and not the Empire alone but respect 
+for it as well. Shall we, forsooth, accept the government of those 
+whose religion we despise; shall we, rulers of the world, serve 
+this altogether contemptible being! When the city was captured 
+by the Gauls the aged Romans did not suffer their beards to be 
+stroked by the victors. Will all these men of senatorial, praetorian,
+tribunician, consular and triumphal rank now suffer those 
+to rule them, upon whom as upon guilty slaves they themselves 
+have heaped every kind of contumely and punishment ! Will those 
+men create magistrates, govern provinces, wage war, pass sentences
+of death upon us? Will the Roman nobility take wages 
+under them, hope for honors and receive rewards at their hands? 
+What greater, what deeper wound can we receive? Do not think, 
+your Majesty, that the Roman blood has so degenerated as to 
+endure this with equanimity and not deem it a thing to be avoided 
+by fair means or foul. By my faith, not even our women would 
+suffer it, but they would rather burn themselves with their dear 
+children and their household gods, for Carthaginian women should 
+not be braver than Roman.</p>
+
+<p>"To be sure, your Majesty, if we had chosen you king, you 
+would have a great measure of control over the Roman Empire 
+indeed, yet not such that you could An the least diminish its 
+greatness, for then we who should have made you king, by that 
+same token would order you to abdicate your kingdom. How 
+much less then could you divide the kingdom, alienate so many 
+provinces, and deliver even the capital of the kingdom over to 
+a man who is a stranger and altogether base. We put a watch-dog 
+over the sheepfold, but if he tries rather to act like a wolf, we 
+either drive him out or kill him. Now will you, who have long been 
+the watch-dog of the Roman fold and defended it, at the last in 
+unprecedented manner turn into a wolf?</p>
+
+<p>"But you must know, since you compel us to speak harshly in 
+defense of our rights, that you have no right over the Empire of 
+
+
+
+
+
+<pb n="47"/>
+
+
+the Roman people, for Caesar seized the supreme power by force; 
+Augustus was the heir of his wrongdoing and made himself 
+master by the ruin of the opposing factions; Tiberius, Gains, 
+Claudius, Nero, Galba, Otho, Vitellius, Vespasian, and the rest, 
+in the same way or nearly so, made spoil of our liberty; and you 
+also became ruler by expelling or killing others. I say nothing of 
+your being born out of wedlock.</p>
+
+<p>"Wherefore, to speak our mind, your Majesty; if you do not 
+care to keep the government of Rome, you have sons, and by the 
+law of nature, with our permission, also, and on our motion, you 
+may substitute one of them in your place. If not, it is our purpose 
+to defend the public honor and our personal dignity. For this is 
+no less an act of violence against the Quirites than was once the 
+rape of Lucretia, nor will there fail us a Brutus to offer himself 
+to this people as a leader against Tarquinius for the recovery of 
+liberty. We will draw our swords first upon those whom you are 
+putting over us, and then upon you, as we have done against many 
+emperors, and for lighter reasons."</p>
+
+<p>This would surely have prevailed on Constantine, unless we 
+deem him made of stone or wood. And if the people would not 
+have said this, it could be believed that they spoke among themselves
+and vented their rage in about these words. Let me go on a 
+step and say that Constantine wished to benefit Sylvester, the 
+one whom he would subject to the hatred and the swords of so 
+many men that he, Sylvester, would scarcely have survived, I 
+think, a single day. For it seemed that when he and a few others 
+had been removed all trace of such a cruel outrage and insult 
+would have been obliterated from the breasts of the Romans.</p>
+
+<p>Let us suppose, however, if possible, that neither prayers, nor 
+threats, nor any argument availed aught, and that still Constantine
+persisted and was not willing to yield through persuasion
+the position he had taken. Who would not acknowledge himself
+moved by the speech of Sylvester, that is, if the event had 
+ever actually occurred? It would doubtless have been something 
+like this: 
+
+
+
+
+
+<pb n="49"/>
+
+
+"Most worthy prince and son, Caesar, though I cannot but 
+like and embrace your piety, so abject and effusive, nevertheless 
+you have fallen somewhat into error in offering gifts to God and 
+immolating victims, and I am not at all surprised at it, for you are 
+still a novice in the Christian service. As once it was not right 
+for the priest to sacrifice every sort of beast and animal and fowl, 
+so now he is not to accept every sort of gift. I am a priest and 
+pontiff, and I ought to look carefully at what I permit to be 
+offered on the altar, lest perchance there be offered, I do not say 
+an unclean animal, but a viper or a serpent. And this is what you 
+would do. But if it were your right to give a part of the Empire 
+including Rome, queen of the world, to another than your sons, 
+a thing I do not at all approve; if this people, if Italy, if the other 
+nations, should suffer themselves to be willing to submit to the 
+government of those whom they hate and whose religion, snared 
+by the enticements of this world, they have hitherto spit upon, — 
+an impossible supposition; if you nevertheless think I am to be 
+given anything, my most loving son, I could not by any argument 
+be brought to give you my assent, unless I were to be false to 
+myself, to forget my station, and well-nigh deny my Lord Jesus. 
+For your gifts, or if you wish, your payments, would tarnish and 
+utterly ruin my honor and purity and holiness and that of all my 
+successors, and would close the way to those who are about to 
+come to the knowledge of the truth.</p>
+
+<p>"Elisha was not willing, was he, to accept a reward when 
+Naaman the Syrian was cured of the leprosy? Should I accept one 
+when you are cured? He rejected presents; should I allow kingdoms
+to be given to me? He was unwilling to obscure the prophetic
+office; could I obscure the office of Christ, which I bear in 
+me? But why did he think that the prophetic office would be 
+obscured by his receiving gifts? Doubtless because he might seem 
+to sell sacred things, to put the gift of God out at usury, to want 
+the patronage of men, to lower and lessen the worth of his benefaction.
+He preferred, therefore, to make princes and kings his 
+beneficiaries rather than to be himself their beneficiary, or even 
+to allow mutual benefactions. For, as says the Lord, 'It is more 
+
+
+
+
+
+<pb n="51"/>
+
+
+blessed to give than to receive.'1 I am in the same case, only more 
+so, whom the Lord taught, saying, 'Heal the sick, cleanse the 
+lepers, raise the dead, cast out devils: freely ye have received, 
+freely give.'2 Shall I commit such a disgrace, your Majesty, as 
+not to follow the precepts of God; as to tarnish my glory? 'It 
+were better,' says Paul, 'for me to die than that any man should 
+make my glorying void.'3 Our glory is to honor our ministry in 
+the sight of God, as Paul also said; 'I speak to you Gentiles, 
+inasmuch as I am the apostle of the Gentiles, I magnify mine 
+office.'4
+
+"Your Majesty, should even I be both an example and a cause 
+for the apostasy of others, I, a Christian, a priest of God, pontiff 
+of Rome, vicar of Christ! For how, indeed, will the blamelessness 
+of priests remain untouched amid riches, magistracies, and the 
+management of secular business? Do we renounce earthly possessions
+in order to attain them more richly, and have we given 
+up our own property in order to possess another's and the 
+public's? Shall we have cities, tributes, tolls? How then can you 
+call us 'clergy' if we do this? Our portion, or our lot, which in 
+Greek is called kleros, is not earthly, but celestial. The Levites, 
+also clergy, were not allotted a portion with their brethren, and 
+do you command us to take even our brothers' portion!</p>
+
+<p>"What are riches and dominions to me who am commanded by 
+the voice of the Lord not to be anxious for the morrow, and to 
+whom he said; 'Lay not up for yourselves treasures upon earth, 
+possess not gold nor silver nor money in your purses,'5 and 'It 
+is harder for a rich man to enter into the kingdom of heaven, than 
+for a camel to go through the eye of a needle.'6 Therefore he chose 
+poor men as his ministers, and those who left all to follow him, 
+and was himself an example of poverty. Even so is the handling 
+of riches and of money, not merely their possession and ownership,
+the enemy of uprightness. Judas alone, he that had the 
+
+<note xml:id="note.51.1"><p> Acts XX, 35. 
+
+</p></note>
+
+<note xml:id="note.51.2"><p> Matt, x, 8. 
+</p></note>
+
+<note xml:id="note.51.3"><p> 1 Cor. ix, 15. 
+
+</p></note>
+
+<note xml:id="note.51.4"><p> Rom. xi, 13. 
+
+</p></note>
+
+<note xml:id="note.51.5"><p> Quoted, freely, from Matt, vi, 19 and Luke x, 4. 
+
+</p></note>
+
+<note xml:id="note.51.6"><p> Quoted, freely, from Matt, xix, 24; Mk. x, 25; Luke xviii, 25. 
+
+
+
+</p></note>
+
+<pb n="53"/>
+
+
+purses and carried the alms, was a liar, and for the love of money, 
+to which he had become accustomed, chided and betrayed his 
+Master, his Lord, his God. So I fear, your Majesty, lest you 
+change me from a Peter into a Judas.</p>
+
+<p>"Hear also what Paul says: 'We brought nothing into this 
+world, and it is certain we can carry nothing out. And having 
+food and raiment, let us be therewith content. But they that will 
+be rich fall into temptation and a snare of the devil, and into 
+many foolish and hurtful lusts, which drown men in destruction 
+and perdition. For the love of money is the root of all evil, which 
+while some coveted after, they erred from the faith, and pierced 
+themselves through with many sorrows. But thou, O man of God, 
+flee these things.'1 And you command me, your Majesty, to accept 
+what I ought to shun as poison !</p>
+
+<p>"And consider besides, for prudence' sake, your Majesty, what 
+chance would there be in all this for divine service? To certain 
+who complained that their destitute were neglected in the daily 
+distribution, the apostles answered that it was not reason that 
+they should leave the word of God, and serve tables.<ref target="note.53.2"/> Yet to feed 
+widows, how different is that from exacting tolls, running the 
+treasury, hiring soldiers, and engaging in a thousand other cares 
+of this sort! 'No man that warreth for God entangleth himself 
+with the affairs of this life,'3 says Paul. Did Aaron and others of 
+the tribe of Levi take care of anything except the tabernacle of 
+the Lord? And his sons, because they had put strange fire in 
+their censers, were consumed by fire from heaven. And you order 
+us to put the fire of worldly riches, forbidden and profane, in 
+our sacred censers, that is, our priestly duties! Did Eleazar, did 
+Phinehas, did the other priests and ministers, either of the tabernacle
+or of the temple, administer anything except what pertained 
+to the divine service? I say did they administer, nay, could they 
+have administered anything, if they wished to fulfil their own 
+duty? And if they did not wish to, they would hear the curse of 
+the Lord, saying, 'Cursed be they that do the work of the Lord 
+
+<note xml:id="note.53.1"><p> I Tim. vi, 7-11. 
+</p></note>
+
+<note xml:id="note.53.2"><p> Acts vi, 2. 
+</p></note>
+
+<note xml:id="note.53.3"><p> II Tim. ii, 4. 
+
+
+
+</p></note>
+
+<pb n="55"/>
+
+
+deceitfully.'1 And this curse, though it impends over all, yet most 
+of all it impends over the pontiffs.</p>
+
+<p>"Oh what a responsibility is the pontifical office! What a responsibility
+it is to be head of the church! What a responsibility to 
+be appointed over such a great flock as a shepherd at whose hand 
+is required the blood of every single lamb and sheep lost; to 
+whom it is said, 'If thou lovest me more than these, as thou sayest, 
+feed my lambs.' Again, 'If thou lovest me, as thou sayest, feed 
+my sheep.' And a third time, 'If thou lovest me, as thou sayest, 
+feed my sheep.'2 And you order me, your Majesty, to shepherd 
+also goats and swine, which cannot be herded by the same 
+shepherd!</p>
+
+<p>"What! you want to make me king, or rather Caesar, that is 
+ruler of kings ! When the Lord Jesus Christ, God and man, king 
+and priest, affirmed himself king, hear of what kingdom he spoke: 
+'My kingdom,' he said, 'is not of this world; if my kingdom were 
+of this world, then would my servants fight.'3 And what was his 
+first utterance and the oft-repeated burden of his preaching, but 
+this: 'Repent, for the kingdom of heaven is at hand.'4 'The kingdom
+of God is at hand for him for whom the kingdom of heaven 
+is prepared.' When he said this, did he not make clear that he had 
+nothing to do with secular sovereignty? And not only did he not 
+seek a kingdom of this sort, but when it was offered him, he would 
+not accept it. For once when he learned that the people planned 
+to take him and make him king, he fled to the solitude of the 
+mountains. He not only gave this to us who occupy his place as an 
+example to be imitated, but he taught us by precept: 'The princes 
+of the Gentiles exercise dominion over them, and they that are 
+great exercise authority upon them. But it shall not be so among 
+you; but whosoever will be great among you, let him be your 
+minister; and whosoever will be chief among you, let him be 
+your servant; even as the Son of man came not to be ministered 
+unto, but to minister, and to give his life a ransom for many.'5 
+
+<note xml:id="note.55.1"><p> Jer. xlviii, 10, quoted freely. 
+
+</p></note>
+
+<note xml:id="note.55.2"><p> Free quotations from John xxi, 15-17. 
+
+</p></note>
+
+<note xml:id="note.55.3"><p> John xviii, 36. 
+</p></note>
+
+<note xml:id="note.55.4"><p> Matt, iv, 17. 
+
+</p></note>
+
+<note xml:id="note.55.5"><p> Matt. xx, 25-28. 
+
+
+
+</p></note>
+
+<pb n="57"/>
+
+
+"Know this, your Majesty; God formerly established judges 
+over Israel, not kings; and he hated the people for demanding a 
+king for themselves. And he gave them a king on account of 
+the hardness of their hearts, but only because he permitted their 
+rejection, which he revoked in the new law. And should I accept 
+a kingdom, who am scarcely permitted to be a judge? 'Or do ye 
+not know,' says Paul, 'that the saints shall judge the world? and 
+if the world shall be judged by you, you are not the ones to judge 
+the smallest matters. Know ye not that we shall judge angels? 
+How much more things that pertain to this life! If then ye have 
+judgments of things pertaining to this life, set them to judge who 
+are least in the church.'1 But judges merely gave judgment concerning
+matters in controversy, they did not levy tribute also. 
+Should I do it, with the knowledge that when Peter was asked 
+by the Lord, 'Of whom do the kings of the earth take custom or 
+tribute? of their own children or of strangers?' and answered 'Of 
+strangers,' the Lord said, 'Then are the children free.'2 But if all 
+men are my children, your Majesty, as they certainly are, then 
+will all be free; nobody will pay anything. Therefore your Donation
+will be no good to me, and I shall get nothing out of it but 
+labor which I am least able to do, as also I am least justified in 
+doing it.</p>
+
+<p>"Nay more, I should have to use my authority to shed blood 
+in punishing offenders, in waging wars, in sacking cities, in devastating
+countries with fire and sword. Otherwise I could not possibly
+keep what you have given me. And if I do this am I a priest, 
+a pontiff, a vicar of Christ? Rather I should hear him thunder out 
+against me, saying, 'My house shall be called of all nations the 
+house of prayer, but ye have made it a den of thieves.'3 'I am not 
+come into the world,' said the Lord, 'to judge the world, but to 
+save it.'4 And shall I who have succeeded him be the cause of 
+
+<note xml:id="note.57.1"><p> 1 Cor. vi, 2-5, distorted in punctuation and meaning. Paul argues that cases  should be settled inside the church, and that even the humblest Christians are  competent to act as judges; Valla quotes him to show that church leaders are not to be judges. 
+
+</p></note>
+
+<note xml:id="note.57.2"><p> Quotations are from Matt, xvii, 25-26. 
+
+</p></note>
+
+<note xml:id="note.57.3"><p> Mk. xi, 17. 
+</p></note>
+
+<note xml:id="note.57.4"><p> John xii, 47. 
+
+
+</p></note>
+
+<pb n="59"/>
+
+
+men's death, I to whom in the person of Peter it was said, 'Put 
+up again thy sword into his place, for all they that take the sword 
+shall perish with the sword' ?<ref target="note.59.1"/> It is not permitted us even to defend 
+ourselves with the sword, for Peter wished only to defend his 
+Lord, when he cut off the servant's ear. And do you command us 
+to use the sword for the sake of either getting or keeping riches?</p>
+
+<p>"Our authority is the authority of the keys, as the Lord said, 
+'I will give unto thee the keys of the kingdom of heaven: and 
+whatsoever thou shalt bind on earth shall be bound in heaven: 
+and whatsoever thou shalt loose on earth shall be loosed in 
+heaven.'2 'And the gates of hell shall not prevail against it.'3
+Nothing can be added to this authority, nor to this dignity, nor to 
+this kingdom. He who is not contented therewith, seeks something 
+more from the devil, who dared even to say to the Lord, 'I will 
+give thee all the kingdoms of the world, if thou wilt fall to the 
+earth and worship me.'4 Wherefore, your Majesty, by your leave 
+let me say it, do not play the part of the devil to me by ordering 
+Christ, that is, me, to accept the kingdoms of the world at your 
+hand. For I prefer rather to scorn than to possess them.</p>
+
+<p>"And, to speak of the unbelievers, future believers though, I 
+hope, do not transform me for them from an angel of light into an 
+angel of darkness. I want to win their hearts to piety, not impose a 
+yoke upon their necks; to subject them to me with the sword of 
+the word of God, not with a sword of iron, that they should not be 
+made worse than they are, nor kick, nor gore me, nor, angered by 
+my mistake, blaspheme the name of God. I want to make them my 
+most beloved sons, not my slaves; to adopt them, not cast them 
+out; to have them born again, not to seize them out of hand; to 
+offer their souls a sacrifice to God, not their bodies a sacrifice to 
+the devil. 'Come unto me,' says the Lord, 'for I am meek and lowly 
+in heart. Take my yoke upon you, and ye shall find rest for your 
+souls. For my yoke is easy and my burden is light. '5
+
+"Finally, to come to an end at last, in this matter accept that 
+
+<note xml:id="note.59.1"><p> Matt, xxvi, 52. 
+</p></note>
+
+<note xml:id="note.59.2"><p> Matt, xvi, 19. 
+
+</p></note>
+
+<note xml:id="note.59.3"><p> Matt, xvi, 18. 
+</p></note>
+
+<note xml:id="note.59.4"><p> Matt, iv, 8-9, free quotation. 
+
+</p></note>
+
+<note xml:id="note.59.5"><p> Matt, xi, 28-30, with the phrases transposed. 
+
+
+
+</p></note>
+
+<pb n="61"/>
+
+
+sentence of his, which he spoke as though to me and to you; 
+'Render unto Caesar the things which are Caesar's; and unto God, 
+the things that are God's. '1 Accordingly, therefore, your Majesty, 
+you must not surrender the things that are yours, and I must not 
+accept the things that are Caesar's; nor will I ever accept them, 
+though you offer them a thousand times."</p>
+
+<p>To this speech of Sylvester's, worthy of an apostolic hero, what 
+could there be further for Constantine to bring out in opposition? 
+Since the case stands thus, do not they who say that the Donation 
+took place do violence to Constantine when they would have him 
+rob his own family and tear the Roman Empire asunder? Do they 
+not do violence to the Senate and the Roman people, to Italy, and 
+to the whole West, which according to them allowed the government
+to be changed contrary to law and justice? Do they not do 
+violence to Sylvester, who according to them accepted a gift not 
+befitting a holy man? violence to the supreme pontificate, when 
+they think that it would take charge of earthly kingdoms and 
+rule over the Roman Empire? Verily, all this tends to show 
+plainly that Constantine, in the face of so many obstacles, would 
+never have thought of giving practically the whole Roman state 
+to Sylvester, as they say he did.</p>
+
+<p>Proceed to the next point; to make us believe in this "donation"
+which your document recites, something ought still to be 
+extant concerning Sylvester's acceptance of it. There is nothing 
+concerning it extant. But it is believable, you say, that he recognized
+this "donation." I believe so, too; that [if it was given] he 
+not only recognized it, but sought it, asked for it, extorted it with 
+his prayers ; that is believable. But why do you reverse the natural 
+conjecture and then say it is believable? For the fact that there is 
+mention of the donation in the document of the deed is no reason 
+for inferring that it was accepted; but on the contrary, the fact 
+that there is no mention [an3rwhere] of an acceptance is reason 
+for saying that there was no donation. So you have stronger proof 
+
+<note xml:id="note.61.1"><p> Matt. xxii, 21. 
+
+
+
+</p></note>
+
+<pb n="63"/>
+
+
+that Sylvester refused the gift than that Constantine wished to 
+give it, and a benefaction is not conferred upon a man against his 
+will. Indeed, we must suspect not so much that Sylvester refused 
+the grants as that he tacitly disclosed that neither could Constantine
+legally make them nor could he himself legally accept.</p>
+
+<p>O avarice, ever blind and ill-advised! Let us suppose that you 
+may be able to adduce even genuine documents for the assent of 
+Sylvester, not tampered with, authentic: even so, were the grants 
+actually made which are found in such documents? Where is any 
+taking possession, any delivery? For if Constantine gave a charter 
+only, he did not want to befriend Sylvester, but to mock him. 
+It is likely, you say, that any one who makes a grant, gives possession
+of it, also. See what you are saying; for it is certain that 
+possession was not given, and the question is whether the title was 
+given! It is likely that one who did not give possession â€¢ did not 
+want to give the title either.</p>
+
+<p>Or is it not certain that possession was never given? To deny 
+it is the sheerest impudence. Did Constantine ever lead Sylvester 
+in state to the Capitol amid the shouts of the assembled Quirites, 
+heathen as they were? Did he place him on a golden throne in 
+the presence of the whole Senate? Did he command the magistrates,
+each in the order of his rank, to salute their king and 
+prostrate themselves before him? This, rather than the giving of 
+some palace such as the Lateran, is customary in the creation of 
+new rulers. Did he afterwards escort him through all Italy? Did 
+he go with him to the Gauls? Did he go to the Spains? Did he 
+go to the Germans, and the rest of the West? Or if they both 
+thought it too onerous to traverse so many lands, to whom did 
+they delegate such an important function, to represent Caesar in 
+transferring possession and Sylvester in receiving it? Distinguished
+men, and men of eminent authority, they must have 
+been: and nevertheless we do not know who they were. And how 
+much weight there is here in these two words, give and receive! 
+To pass by ancient instances, I do not remember to have seen 
+any other procedure when any one was made lord of a city, a 
+country, or a province; for we do not count possession as given 
+
+
+
+
+
+<pb n="65"/>
+
+
+until the old magistrates are removed and the new ones substituted.
+If then Sylvester had not demanded that this be done, 
+nevertheless the dignity of Constantine required that he show 
+that he gave possession not in words but in fact, that he ordered 
+his officers to retire and others to be substituted by Sylvester. 
+Possession is not transferred when it remains in the hands of 
+those who had it before, and the new master dares not remove 
+them.</p>
+
+<p>But grant that this also does not stand in the way, that, notwithstanding,
+we assume Sylvester to have been in possession, and 
+let us say that the whole transaction took place though not in 
+the customary and natural way. After Constantine went away, 
+what governors did Sylvester place over his provinces and cities, 
+what wars did he wage, what nations that took up arms did he 
+subdue, through whom did he carry on this government? We 
+know none of these circumstances, you answer. So! I think all 
+this was done in the nighttime, and no one saw it at all !</p>
+
+<p>Come now! Was Sylvester ever in possession? Who dispossessed
+him? For he did not have possession permanently, nor did 
+any of his successors, at least till Gregory the Great, and even he 
+did not have possession. One who is not in possession and cannot 
+prove that he has been disseized certainly never did have possession,
+and if he says he did, he is crazy. You see, I even prove 
+that you are crazy! Otherwise, tell who dislodged the Pope? Did 
+Constantine himself, or his sons, or Julian, or some other Caesar? 
+Give the name of the expeller, give the date, from what place was 
+the Pope expelled first, where next, and so in order. Was it by 
+sedition and murder, or without these? Did the nations conspire 
+together against him, or which first? What! Did not one of them 
+give him aid, not one of those who had been put over cities or 
+provinces by Sylvester or another Pope? Did he lose everything 
+in a single day, or gradually and by districts? Did he and his 
+magistrates offer resistance, or did they abdicate at the first disturbance?
+What! Did not the victors use the sword on those dregs 
+of humanity, whom they thought unworthy of the Empire, to 
+revenge their outrage, to make sure of the newly won mastery, to 
+
+
+
+
+
+<pb n="67"/>
+
+
+show contempt for our religion, not even to make an example for 
+posterity? Did not one of those who were conquered take to flight 
+at all? Did no one hide? Was no one afraid? O marvellous event! 
+The Roman Empire, acquired by so many labors, so much bloodshed,
+was so calmly, so quietly both won and lost by Christian 
+priests that no bloodshed, no war, no uproar took place; and not 
+less marvellous, it is not known at all by whom this was done, nor 
+when, nor how, nor how long it lasted! You would think that 
+Sylvester reigned in sylvan shades, among the trees, not at Rome 
+nor among men, and that he was driven out by winter rains and 
+cold, not by men!</p>
+
+<p>Who that is at all widely read, does not know what Roman 
+kings, what consuls, what dictators, what tribunes of the people, 
+what censors, what aediles were chosen? Of such a large number 
+of men in times so long past, none escapes us. We know also 
+what Athenian commanders there were, and Theban, and Lacedemonian;
+we know all their battles on land and sea. Nor are the 
+kings of the Persians unknown to us; of the Medes; of the Chaldeans;
+of the Hebrews; and of very many others; nor how each 
+of these received his kingdom, or held it, or lost it, or recovered it. 
+But how the Roman Empire, or rather the Sylvestrian, began, 
+how it ended, when, through whom, is not known even in the city 
+of Rome itself. I ask whether you can adduce any witnesses of 
+these events, any writers. None, you answer. And are you not 
+ashamed to say that it is likely that Sylvester possessed — even 
+cattle, to say nothing of men!</p>
+
+<p>But since you cannot [prove anything], I for my part will 
+show that Constantine, to the very last day of his life, and thereafter
+all the Caesars in turn, did have possession [of the Roman 
+Empire], so that you will have nothing left even to mutter. But it 
+is a very difficult, and, I suppose, a very laborious task, forsooth, 
+to do this! Let all the Latin and the Greek histories be unrolled, 
+let the other authors who mention those times be brought in, and 
+you will not find a single discrepancy among them on this point. 
+Of a thousand witnesses, one may suffice; Eutropius, who saw 
+Constantine, who saw the three sons of Constantine who were left 
+
+
+
+
+
+<pb n="69"/>
+
+
+masters of the world by their father, and who wrote thus in connection
+with Julian, the son of Constantine's brother: "This 
+Julian, who was subdeacon in the Roman church and when he 
+became Emperor returned to the worship of the gods, seized the 
+government, and after elaborate preparations made war against 
+the Parthians; in which expedition I also took part."<ref target="note.69.1"/> He would 
+not have kept silent about the donation of the Western Empire 
+[had it been made] , nor would he have spoken as he did a little 
+later about Jovian, who succeeded Julian: "He made with Sapor 
+a peace which was necessary, indeed, but dishonorable, the boundaries
+being changed and a part of the Roman Empire being 
+given up, a thing which had never before happened since the 
+Roman state was founded; no, not even though our legions, at 
+the Caudine [Forks] by Pontius Telesinus, and in Spain at Numantia,
+and in Numidia, were sent under the yoke, were any of 
+the frontiers given up."<ref target="note.69.2"/>
+
+Here I would like to interrogate you, most recent, though 
+deceased, Popes, and you, Eugenius, who live, thanks only to 
+Felix.<ref target="note.69.3"/> Why do you parade the Donation of Constantine with a 
+great noise; and all the time, as though avengers of a stolen 
+Empire, threaten certain kings and princes; and extort some 
+servile confession or other from the Emperor when he is crowned, 
+and from some other princes, such as the king of Naples and 
+Sicily? None of the early Roman pontiffs ever did this, Damasus 
+in the case of Theodosius, nor Syricius in the case of Arcadius, 
+nor Anastasius in the case of Honorius, nor John in the case of 
+Justinian, nor the other most holy Popes respectively in the case 
+of the other most excellent Emperors: rather they always regarded
+Rome and Italy and the provinces I have named as 
+belonging to the Emperors. And so, to say nothing of other monuments
+and temples in the city of Rome, there are extant gold coins 
+of Constantine's after he became a Christian, with inscriptions, 
+
+<note xml:id="note.69.1"><p> Eutropius, Breviarum ab urbe condita, X, xvi, 1. 
+
+</p></note>
+
+<note xml:id="note.69.2"><p> Ibid., X, xvii, 1 and 2. 
+
+</p></note>
+
+<note xml:id="note.69.3"><p> The antipope elected by the Council of Basle in 1439. This reference is one of  the clues to the date of Valla's treatise. 
+
+
+
+</p></note>
+
+<pb n="71"/>
+
+
+not in Greek, but in Latin letters, and of almost all the Emperors 
+in succession. There are many of them in my possession with this 
+inscription for the most part, under the image of the cross, "Concordia
+orbis [The Peace of the World] ." What an infinite number 
+of coins of the supreme pontiffs would be found if you ever had 
+ruled Rome! But none such are found, neither gold nor silver, 
+nor are any mentioned as having been seen by any one. And yet 
+whoever held the government at Rome at that time had to have 
+his own coinage: doubtless the Pope's would have borne the 
+image of the Savior or of Peter.</p>
+
+<p>Alas for man's ignorance ! You do not see that if the Donation 
+of Constantine is authentic nothing is left to the Emperor, the 
+Latin Emperor, I mean. Ah, what an Emperor, what a Roman 
+king, he would be, when if any one had his kingdom and had no 
+other, he would have nothing at all ! But if it is thus manifest that 
+Sylvester did not have possession, that is, that Constantine did 
+not give over possession, then there will be no doubt that he [Constantine],
+as I have said, did not give even the right to possess. 
+That is, unless you say that the right was given, but that for 
+some reason possession was not transferred. In that case he manifestly
+gave what he knew would never in the least exist; he gave 
+what he could not transfer; he gave what could not come into 
+the possession of the recipient until after it was nonexistent ; he 
+gave a gift which would not be valid for five hundred years, or 
+never would be valid. But to say or to think this is insanity.</p>
+
+<p>But it is high time, if I am not to be too prolix, to give the 
+adversaries' cause, already struck down and mangled, the mortal 
+blow and to cut its throat with a single stroke. Almost every 
+history worthy of the name speaks of Constantine as a Christian 
+from boyhood, with his father Constantius, long before the pontificate
+of Sylvester; as, for instance, Eusebius, author of the 
+Church History, which Rufinus, himself a great scholar, translated
+into Latin, adding two books on his own times.<ref target="note.71.1"/> Both of these 
+
+<note xml:id="note.71.1"><p> Valla's statement about Eusebius' Church History is slightly overdrawn. Some  passages, while not definitely saying that Constantine was a Christian from boyhood, would naturally be construed as implying this, especially when taken in connection with the chapter headings in use long before Valla's time; e.g., ix, 9, §§ 1-12. In his Life of Constantine, i, 27-32, however, Eusebius tells the story of the Emperor's conversion in the campaign against Maxentius in 312 by the heavenly apparition, thus implying that he was not previously a Christian. Valla does not seem to have known of this latter work. Nor is he aware of the passage in Jerome, Chron. ad. ann., 2353, that Constantine was baptized near the end of his life by Eusebius of Nicomedia. 
+
+</p></note>
+
+
+
+<pb n="73"/>
+
+
+men were nearly contemporary with Constantine. Add to this also 
+the testimony of the Roman pontiff who not only took part, but 
+the leading part in these events, who was not merely a witness 
+but the prime mover, who narrates, not another's doings, but his 
+own. I refer to Pope Melchiades, Sylvester's immediate predecessor.
+He says: "The church reached the point where not only 
+the nations, but even the Roman rulers who held sway over the 
+whole world, came together into the faith of Christ and the sacraments
+of the faith. One of their number, a most devout man, Constantine,
+the first openly to come to belief in the Truth, gave 
+permission to those living under his government, throughout the 
+whole world, not only to become Christians, but even to build 
+churches, and he decreed that landed estates be distributed among 
+these. Finally also the said ruler bestowed immense offerings, and 
+began the building of the temple which was the first seat of the 
+blessed Peter, going so far as to leave his imperial residence and 
+give it over for the use of the blessed Peter and his successors."<ref target="note.73.2"/> 
+You see, incidentally, that Melchiades does not say that anything 
+was given by Constantine except the Lateran palace, and landed 
+estates, which Gregory mentions very frequently in his register. 
+Where are those who do not permit us to call into question 
+whether the Donation of Constantine is valid, when the "donation"
+both antedated Sylvester and conferred private possessions 
+alone? 
+
+
+
+
+
+<note xml:id="note.73.1"><p> This is an extract from a spurious letter purporting to be from Melchiades, or  Miltiades; as palpable a forgery as the Donation of Constantine itself. The whole letter is given in Migne, P. L., viii, column 566. 
+
+</p></note>
+
+<note xml:id="note.73.2"><p> For the question when Constantine became a Christian, and of his relations with the Popes and the church, cf. Coleman, Constantine the Great and Christianity, with references to sources and literature. 
+
+
+
+</p></note>
+
+<pb n="75"/>
+
+
+But though it is all obvious and clear, yet the deed of gift itself, 
+which those fools always put forward, must be discussed.</p>
+
+<p>And first, not only must I convict of dishonesty him who 
+tried to play Gratian and added sections to the worE of Gratian, 
+but also must convict of ignorance those who think a copy of 
+the deed of gift is contained in Gratian; for the well-informed 
+have never thought so, nor is it found in any of the oldest copies 
+of the Decretum. And if Gratian had mentioned it anywhere, he 
+would have done so, not where they put it, breaking the thread 
+of the narrative, but where he treats of the agreement of Louis 
+[the Pious]. Besides, there are two thousand passages in the 
+Decretum which forbid the acceptance of this passage; for example,
+that where the words of Melchiades, which I have cited 
+above, are given. Some say that he who added this chapter [the 
+Donation of Constantine] was called Palea,<ref target="note.75.1"/> either because that 
+was his real name or because what he added of his own, compared 
+with Gratian, is as straw [palea] beside grain. However that may 
+be, it is monstrous to believe that the compiler of the Decretum 
+either did not know what was interpolated by this man, or esteemed
+it highly and held it for genuine. Good! It is enough! We 
+have won ! First, because Gratian does not say what they lyingly 
+quote; and more especially because on the contrary, as can be 
+seen in innumerable passages, he denies and disproves it; and last, 
+because they bring forward only a single unknown individual, of 
+not the least authority, so very stupid as to affix to Gratian what 
+cannot be harmonized with his other statements. This then is the 
+author you bring forward? On his sole testimony you rely? His 
+charter, in a matter of such importance, you recite as confirmation
+against hundreds of kinds of proof? But I should have expected
+you to show gold seals, marble inscriptions, a thousand 
+authors.</p>
+
+<p>But, you say, Palea himself adduces his author, shows the 
+
+<note xml:id="note.75.1"><p> A number of chapters in Gratian's Decretum added after Gratian have this word at their head, the one containing the Donation of Constantine among them. Cf. Friedberg's edition of the Decretum Gratiani, Prima pars, dist. xcvi, c. xiii, in his <bibl>Corpus luris Canonici, Leipsic, 1879-1881.</bibl>
+
+
+
+</p></note>
+
+<pb n="77"/>
+
+
+source of his narrative, and cites Pope Gelasius and many bishops 
+as witnesses; it is, he says, "from the Acts of Sylvester (which 
+the blessed Pope Gelasius in the Council of the Seventy Bishops 
+recounts as read by the catholic, and in accordance with ancient 
+usage many churches he says follow this example) which reads: 
+'Constantine . . . , etc' "<ref target="note.77.1"/> Considerably earlier, where books to 
+be read and books not to be read are treated, he had said also; 
+"The Acts of the blessed Sylvester, chief priest, though we know 
+not the name of him who wrote it, we know to be read by many of 
+the orthodox of the city of Rome, and in accordance with ancient 
+usage the churches follow this example."<ref target="note.77.2"/> Wonderful authority 
+this, wonderful evidence, irrefutable proof ! I grant you this, that 
+Gelasius in speaking of the Council of the Seventy Bishops said 
+that. But did he say this, that the deed of gift is to be read 
+in the Acts of the most blessed Sylvester? He says, indeed, only 
+that the Acts of Sylvester are read, and that in Rome, and that 
+many other churches follow her authority. I do not deny this, I 
+concede it, I admit it, I also stand up with Gelasius as a witness 
+to it. But what advantage is this to you, except that you may 
+be shown toJaave deliberately lied in adducing your witnesses?  
+The name of the man who interpolated this ["Donation" of 
+yours] is not known, and he is the only one who says this [that  
+the Donation is in the Acts of Sylvester] ; the name of the man 
+who wrote the history of Sylvester is not known, and he is the 
+only one cited as witness, and that erroneously. And good men 
+and prudent as you are, you think this is enough and more than 
+enough evidence for such an important transaction! Well! how 
+your judgment differs from mine! Even if this grant were contained
+in the Acts of Sylvester, I should not think it was to be 
+considered genuine, for that history is not history, but fanciful 
+and most shameful fiction, as I shall later show; nor does any one 
+else of any authority whatever make mention of this grant. And 
+
+
+
+<note xml:id="note.77.1"><p> Decretum Gratiani, Prima pars, dist. xcvi, c. xiii; in Friedberg, Corpus Iuris  Canonici, vol. II, p. 342. 
+
+</p></note>
+
+<note xml:id="note.77.2"><p> Ibid., Pars prima, dist. xv, c. iii, Palea 19; in Friedberg, vol. II. 
+
+
+
+</p></note>
+
+<pb n="79"/>
+
+
+even James of Voragine, though as an archbishop disposed to 
+favor the clergy, yet in his Acts of the Saints<ref target="note.79.1"/> preserved silence 
+on the Donation of Constantine as fictitious and not fit to figure 
+in the Acts of Sylvester ; a conclusive judgment, in a way, against 
+those, if there were any, who would have committed it to writing.</p>
+
+<p>But I want to take the forger himself, truly a "straw" man 
+without wheat, by the neck, and drag him into court. What do you 
+say, you forger? Whence comes it that we do not read this grant 
+in the Acts of Sylvester? This book, forsooth, is rare, difficult to 
+get, not owned by the many but rather kept as the Fasti once 
+were by the pontifices, or the Sibylline books by the Decemvirs! 
+It was written in Greek, or Syriac, or Chaldee! Gelasius testifies
+that it was read by many of the orthodox; Voragine mentions 
+it; we also have seen thousands of copies of it, and written long 
+ago; and in almost every cathedral it is read when Sylvester's 
+Day comes around.<ref target="note.79.2"/> Yet nevertheless no one says that he has 
+read there what you put in it; no one has heard of it; no one has 
+dreamt of it. Or is there perhaps some other history of Sylvester? 
+And what can that be? I know no other, nor do I understand that 
+any other is referred to by you, for you speak of the one which 
+Gelasius says is read in many churches. In this, however, we do 
+not find your grant. But if it is not found in the Life of Sylvester, 
+why do you declare that it is? How did you dare to jest in a 
+matter of such importance, and to make sport of the cupidity of 
+silly men?</p>
+
+<p>But I am foolish to inveigh against the audacity of this 
+[forger], instead of inveighing against the insanity of those who 
+give him credence. If any one should say that this had been recorded
+for remembrance among the Greeks, the Hebrews, the 
+barbarians, would you not bid him name his author, produce his 
+book, and the passage, to be explained by a reliable translator, 
+before you would believe it? But now your own language, and a 
+
+
+
+<note xml:id="note.79.1"><p> Cf. Voragine, Golden Legend, trans, by Wm. Caxton, rev. by Ellis (London, 
+1900). 
+
+</p></note>
+
+<note xml:id="note.79.2"><p> December 31. 
+
+
+
+</p></note>
+
+<pb n="81"/>
+
+
+very well-known book are involved, and either you do not question
+such an incredible occurrence, or when you do not find it 
+written down you have such utter credulity as to believe that it 
+is written down and authentic! And, satisfied with this title, you 
+move heaven and earth, and, as though no doubt existed, you 
+pursue with the terrors of war and with other threats those who 
+do not believe you! Blessed Jesus, what power, what divinity 
+there is in Truth, which unaided defends itself without any great 
+struggle from all falsehoods and deceits ; so that not undeservedly, 
+when contention had arisen at the court of king Darius as to what 
+was most powerful, and one said one, thing and another another, 
+the palm was awarded to Truth.<ref target="note.81.1"/> 
+
+Since I have to do with priests and not with laymen, I suppose I 
+must seek ecclesiastical precedents. Judas Maccabaeus, when he 
+had sent ambassadors to Rome and obtained a friendly alliance 
+from the Senate, took pains to have the terms of the alliance engraved
+on brass and carried to Jerusalem. I pass by the stone 
+tables of the Decalogue, which God gave to Moses. And this 
+Donation of Constantine, so magnificent and astounding, cannot 
+be proved by any copies, in gold, in silver, in brass, in marble, 
+or even in books, but only, if we believe it, on paper, or parchment.
+According to Josephus, Jubal, the inventor of music, when 
+the elders expressed the opinion that the world was to be destroyed,
+once by water, and again by fire, inscribed his teaching 
+on two columns, one of brick against the fire, and one of stone 
+against the flood, which columns still remained at the time of 
+Josephus, as he himself writes, so that his benefaction to men 
+might always continue. And among the Romans, while still rustic 
+and country bred, when writing was inadequate and rare, the 
+laws of the Twelve Tables nevertheless were engraved on brass, 
+and though the. city was stormed and burned by the Gauls they 
+were afterwards found unharmed. Thus careful foresight overcomes
+the two mightiest forces known to man, namely, long lapse 
+
+
+
+<note xml:id="note.81.1"><p> A reference to the story of the three young men in the bodyguard of Darius ;  cf. I Esdras iii and iv. 
+
+
+
+</p></note>
+
+<pb n="83"/>
+
+
+of time and the violence of fortune. Yet Constantine signed a 
+donation of the world on paper alone and with ink, though the 
+very inventor of the fabulous story makes him say that he thought 
+there would not be lacking those who with unholy greed would 
+set aside this Donation! Do you have this fear, Constantine, and 
+do you take no precaution lest those who would snatch Rome 
+from Sylvester should also steal the charter?</p>
+
+<p>Why does Sylvester do nothing for himself? Does he leave 
+everything thus to Constantine ? Is he so careless and lazy in such 
+an important matter? Does he not look ahead at all for himself, 
+for his church, for posterity? See to whom you commit the administration
+of the Roman Empire; in the midst of such an 
+important trtmsaction, fraught with so much either of gain or of 
+peril, he goes sound asleep! For let the charter ever be lost, he 
+will not be able, at least as time goes on, to prove the granting of 
+the "privilege."<ref target="note.83.1"/> 
+
+"The page of the privilege" this crazy man calls it [i.e., the 
+Donation of Constantine]. And do you (let me controvert him as 
+though he were present) call the gift of the earth a "privilege"; 
+do you want it written thus in the document; and do you want 
+Constantine to use that kind of language? If the title is ridiculous, 
+what shall we think the rest of it is ?</p>
+
+<p>"The Emperor Constantine the fourth day after his baptism 
+conferred this privilege on the pontiff of the Roman church, that 
+in the whole Roman world priests should regard him as their 
+head, as judges do the king." This sentence is part of the History 
+[Life] of Sylvester,<ref target="note.83.2"/> and it leaves no doubt where [nor why] the 
+document gets its title "privilege." But, in the manner of those 
+who fabricate lies, he begins with the truth for the purpose of 
+winning confidence in his later statements, which are false, as 
+Sinon says in Virgil: 
+
+<note xml:id="note.83.1"><p> In the following section my translation of the phrases of the Donation is  harmonized so far as possible with the translation in E. F. Henderson, Select Historical Documents of the Middle Ages. 
+
+</p></note>
+
+<note xml:id="note.83.2"><p> Cf. Coleman, Constantine the Great and Christianity, p. 224, 11. 8 et seq. 
+
+
+
+</p></note>
+
+<pb n="85"/>
+
+
+<quote><l>... Whate'er </l>
+<l>My fate ordains, my words shall be sincere : </l>
+<l>I neither can nor dare my birth disclaim; </l>
+<l>Greece is my country, Sinon is my name.</l></quote>1
+
+This first; then he put in his lies. So our Sinon does here; for 
+when he had begun with the truth, he adds: 
+
+'In this privilege, among other things, is this; 'We — together 
+with all our satraps and the whole Senate and the nobles also, and 
+with all the eople subject to the government of the Roman church<ref target="note.85.2"/> — 
+considered it advisable that, as the blessed Peter is seen to have 
+been constituted vicar of God on the earth, so the pontiffs who 
+are the representatives of that same chief of the apostles, should 
+obtain from us and our Empire the power of a supremacy greater 
+than the clemency of our earthly imperial serenity is seen to have 
+conceded to it.'" 
+
+thou scoundrel, thou villain! The same history [the Life of 
+Sylvester] which you allege as your evidence, says that for a 
+long time none of senatorial rank was willing to accept the 
+Christian religion, and that Constantine solicited the poor with 
+bribes to be baptized. And you say that within the first days, 
+immediately, the Senate, the nobles, the satraps, as though already 
+Christians, with the Caesar passed decrees for the honoring of the 
+Roman church! What! How do you want to have satraps come 
+in here? Numskull, blockhead! Do the Caesars speak thus; are 
+Roman decrees usually drafted thus? Whoever heard of satraps 
+being mentioned in the councils of the Romans?<ref target="note.85.3"/> I do not remember
+ever to have read of any Roman satrap being mentioned, 
+or even of a satrap in any of the Roman provinces. But this fellow 
+
+<note xml:id="note.85.1"><p> Virgil, Aeneid, ii, 77-78. Dryden's translation. 
+
+</p></note>
+
+<note xml:id="note.85.2"><p> The text of the Donation which Valla used, though apparently in a copy of  Gratian's Decretum extant in his time, differs here and in a number of other places, from the texts which we have, whether in Gratian's Decretum, or in the Pseudo-Isidorian Decretals. 
+
+</p></note>
+
+<note xml:id="note.85.3"><p> The word satrap was in fact applied to higher officials at Rome only in the middle of the eighth century. Scheffer-Boichorst, MitteUungen des Instituts f. osterreichische Geschichtsforschung, x (i889), p. 315. 
+
+
+
+</p></note>
+
+<pb n="87"/>
+
+
+speaks of the Emperor's satraps, and puts them in before the 
+Senate, though all honors, even those bestowed upon the ruling 
+prince, are decreed by the Senate alone, or with the addition "and 
+the Roman people." Thus we see carved on ancient stones or 
+Bronze tablets or coins two letters, "S. C," that is "By decree of 
+the Senate," or four, "S. P. Q. R.," that is, "The Senate and the 
+Roman People." And according to TertuUian, when Pontius 
+Pilate had written to Tiberius Caesar and not to the Senate concerning
+the wonderful deeds of Christ, inasmuch as magistrates 
+were supposed to write concerning important matters to the 
+Senate, the Senate gave way to spite and opposed Tiberius' proposal
+that Jesus be worshipped as a God, merely on account of its 
+secret anger at the offense to senatorial dignity.<ref target="note.87.1"/> And, to show how 
+weighty was the authority of the Senate, Jesus did not obtain 
+divine worship.</p>
+
+<p>What now! Why do you say "nobles" ["optimates"] ? Are we  
+to understand that these are leading men in the republic; then 
+why should they be mentioned when the other magistrates are 
+passed by in silence? Or are they the opposite of the "popular" 
+party which curries favor with the people ; the ones who seek and 
+champion the welfare of every aristocrat and of the "better" elements,
+as Cicero shows in one of his orations ? Thus we say that 
+Caesar before the overthrow of the republic had been a member of 
+the "popular" party, Cato of the "optimates." The difference 
+between them Sallust explained. But the "optimates" are not 
+spoken of as belonging to the [Emperor's] council, any more than, 
+the "popular" party, or other respectable men are.</p>
+
+<p>But what wonder that the "optimates" belonged to the council, 
+when, if we believe this fellow, "all the people," and the people 
+"subject to the Roman church" at that, acted officially with the 
+Senate and the Caesar!<ref target="note.87.2"/> And what people are these? The Roman 
+
+<note xml:id="note.87.1"><p> Tertullian tells this apocryphal story in his Apology, chaps. S and 21. For a  translation of letters alleged to have been written to Tiberius by Pilate, see Nicene and Post-Nicene Fathers, ed. Philip Schaff (New York, iSgo-iSg?), vol. VIII, pp. 459-463. 
+
+</p></note>
+
+<note xml:id="note.87.2"><p> Valla's argument in this paragraph is partly based on the defective text of the Donation which he used, cf. supra, p. 85, note 2. Zeumer's text would be 
+
+
+
+</p></note>
+
+<pb n="89"/>
+
+
+people? But why not say the Roman people, rather than the 
+"people subject"? What new insult is this to the Quirites of whom 
+the great poet sings : 
+
+<quote><l>Do thou, O Roman, take care to rule the peoples with imperial 
+sway!</l></quote>
+
+Can those who rule other peoples, themselves be called a subject 
+people? It is preposterous! For in this, as Gregory in many letters 
+testifies, the Roman ruler differs from the others, that he alone is 
+ruler of a free people. But be this as it may. Are not other peoples 
+also subject? Or do you mean others also? How could it be 
+brought to pass in three days that all the people subject to the 
+government of the Roman church gave assent to that decree? 
+Though did every Tom, Dick, and Harry give his judgment? 
+What! would Constantine, before he had subjected the people 
+to the Roman pontiff, call them subject? How is it that those 
+who are called subjects are said to have been in authority in the 
+making of the decree ? How is it that they are said to have decreed 
+this very thing, that they should be subject and that he to whom 
+they are already subject should have them as his subjects? What 
+else do you do, you wretch, other than admit that you have the 
+will to commit forgery, but not the ability?</p>
+
+<p>"Choosing that same prince of the apostles, or his vicars, to 
+be our constant intercessors with God. [ And, to the extent of our 
+earthly imperial power, we have decreed that his holy Roman 
+church shall be honored with veneration : and that more than our 
+empire and earthly throne, the most sacred seat of the blessed 
+Peter shall be gloriously exalted; we giving to it power and glory, 
+and dignity, and vigor and honor imperial."</p>
+
+<p>Come back to life for a little while, Firmianus Lactantius, stop 
+this ass who brays so loudly and outrageously. So delighted is he 
+with the sound of swelling words, that he repeats the same terms 
+
+translated, "all the Roman people who are subject to the glory of our rule," and 
+Friedberg's, "all the people subject to the glorious rule of Rome." 
+<note xml:id="note.89.1"><p> Virgil, Aeneid, vi, 852. 
+
+
+
+</p></note>
+
+<pb n="91"/>
+
+
+and reiterates what he has just said. Is it thus that in your age 
+the secretaries of the Caesars spoke, or even their grooms? Constantine
+chose them not "as his intercessors" but "to be his intercessors."
+The fellow inserted that "to be" [esse] so as to get 
+a more elegant rhythm. A fine reason! To speak barbarously so 
+that your speech may run along more gracefully, as if indeed, 
+anything can be graceful in such filthiness. "Choosing the prince 
+of the apostles, or his vicars": you do not choose Peter, and then 
+his vicars, but either him, excluding them, or them, excluding 
+him.<ref target="note.91.1"/> And he calls the Roman pontiffs "vicars" of Peter, either 
+as though Peter were living, or as though they were of lower rank 
+than was Peter. And is not this barbarous; "from us and our 
+empire"?<ref target="note.91.2"/> As if the empire had a mind to give grants, and power! 
+Nor was he content to say "should obtain," without also saying 
+"conceded," though either one would have sufficed. And that "constant
+intercessors,"<ref target="note.91.3"/> is very elegant indeed! Doubtless he wants 
+them "constant" so that they may not be corrupted by money 
+nor moved by fear. And "earthly imperial power" ; two adjectives 
+without a conjunction. And "be honored with veneration": and 
+"clemency of our imperial serenity";<ref target="note.91.4"/> it smacks of Lactantian eloquence
+to speak of "serenity" and "clemency," instead of 
+grandeur and majesty, when the power of the Empire is concerned!
+And how inflated he is with puffed-up pride; as in that 
+phrase "gloriously exalted" by "glory, and power, and dignity, 
+and vigor, and imperial honor"! This seems to be taken from the 
+Apocalypse, where it says, "Worthy is the Lamb that was slain, 
+to receive power, and divinity and wisdom, and strength, and 
+honor and blessing."<ref target="note.91.5"/> Frequently, as will be shown later, Constantine
+is made to arrogate to himself the titles of God, and to try 
+
+<note xml:id="note.91.1"><p> The conjunction "seu" in classical Latin meant, as Valla insists, "or" ; in the  eighth century it was often used with the meaning "and." The forger of the Donation used it in the latter sense. Valla did not see the significance of this usage for dating the forgery. 
+
+</p></note>
+
+<note xml:id="note.91.2"><p> Cf. supra, p. 85, note 2. 
+</p></note>
+
+<note xml:id="note.91.3"><p> Cf. supra, p. 85, note 2. 
+
+</p></note>
+
+<note xml:id="note.91.4"><p> "firmos patronos," — this use of "firmus" characterizes the style of Pope Paul I (757-767). See Scheffer-Boichorst, op. cit., p. 311. 
+</p></note>
+
+<note xml:id="note.91.5"><p> Rev. V, 12 ; with variations. 
+
+
+
+</p></note>
+
+<pb n="93"/>
+
+
+to imitate the language of the sacred scriptures, which he had 
+never read.</p>
+
+<p>"And we ordain and decree that he shall have the supremacy 
+as well over the four seats, Alexandria, Antioch, Jerusalem, and 
+Constantinople, as also over all the churches of God in the whole 
+earth. And the pontiff also, who at the time shall be at the head 
+of the holy Roman church itself, shall be more exalted than, and 
+chief over, all the priests of the whole world; and, according to 
+his judgment everything which is to be provided for the service 
+of God, and for the faith or the stability of the Christians is to be 
+administered."</p>
+
+<p>I will not speak here of the barbarisms in [the forger's] language
+when he says "chief over the priests" instead of chief of the 
+priests; when he puts in the same sentence "extiterit" and "existat"
+[confusing meanings, moods and tenses] ; when, having 
+said "in the whole earth," he adds again "of the whole world," 
+as though he wished to include something else, or the sky, which 
+is part of the world, though a good part of the earth even was not 
+under Rome; when he distinguishes between providing for "the 
+faith" of Christians and providing for their "stability," as though 
+they could not coexist;<ref target="note.93.1"/> when he confuses "ordain" and "decree," 
+and when, as though Constantine had not already joined with the 
+rest in making the decree, he has him now ordain it, and as 
+though he imposes a punishment, decree [confirm] it, and confirm
+it together with the people. [That, I pass by.] But what 
+Christian could endure this [other thing], and not, rather, critically
+and severely reprove a Pope who endures it, and listens to 
+it willingly and retails it; namely, that the Roman See, though it 
+received its primacy from Christ, as the Eighth Synod declared 
+according to the testimony of Gratian and many of the Greeks, 
+
+
+
+<note xml:id="note.93.1"><p> Part of this criticism rests upon the peculiarities of the text of the Donation  which Valla used. 
+
+
+
+</p></note>
+
+<pb n="95"/>
+
+
+should be represented as having received it from Constantine, 
+hardly yet a Christian, as though from Christ? Would that very 
+modest ruler have chosen to make such a statement, and that most 
+devout pontiff to listen to it? Far be such a grave wrong from 
+both of them!</p>
+
+<p>How in the world — this is much more absurd, and impossible 
+in the nature of things — could one speak of Constantinople as 
+one of the patriarchal sees, when it was not yet a patriarchate, 
+nor a see, nor a Christian city, nor named Constantinople, nor 
+founded, nor planned! For the "privilege" was granted, so it says, 
+the third day after Constantine became a Christian; when as yet 
+Byzantium, not Constantinople, occupied that site. I am a liar if 
+this fool does not confess as much himself. For toward the end 
+of the "privilege" he writes: 
+
+"Wherefore we have perceived it to be fitting that our empire 
+and our royal power should be transferred in the regions of the 
+East; and that in the province of Bizantia [sic], in the most 
+fitting place, a city should be built in our name; and that our 
+empire should there be established."</p>
+
+<p>But if he was intending to transfer the empire, he had not yet 
+transferred it; if he was intending to establish his empire there, 
+he had not yet established it; if he was planning to build a city, 
+he had not yet built it. Therefore he could not have spoken of it 
+as a patriarchal see, as one of the four sees, as Christian, as 
+having this name, nor as already built. According to the history 
+[the Life of Sylvester] which Palea cites as evidence, he had not 
+yet even thought of founding it. And this beast, whether Palea 
+or some one else whom Palea follows, does not notice that he contradicts
+this history, in which it is said that Constantine issued the 
+decree concerning the founding of the city, not on his own initiative,
+but at a command received in his sleep from God, not at 
+Rome but at Byzantium, not within a few days [of his conversion]
+but several years after, and that he learned its name by 
+revelation in a dream.<ref target="note.95.1"/> Who then does not see that the man who 
+
+<note xml:id="note.95.1"><p> Cf. Coleman, Constantine the Great and Christianity, pp. 148-151, 161-164. 
+
+
+
+</p></note>
+
+<pb n="97"/>
+
+
+wrote the "privilege" lived long after the time of Constantine, and 
+in his effort to embellish his falsehood forgot that earlier he had 
+said that these events took place at Rome on the third day after 
+Constantine was baptized? So the trite old proverb applies nicely 
+to him, "Liars need good memories."</p>
+
+<p>And how is it that he speaks of a province of "Byzantia," when 
+it was a town, Byzantium by name? The place was by no means 
+large enough for the erection of so great a city; for the old city 
+of Byzantium was included within the walls of Constantinople. 
+And this man says the [new] city is to be built on the most fitting 
+place in it! Why does he choose to put Thrace, in which Byzantium
+lies, in the East, when it lies to the north? I suppose Constantine
+did not know the place which he had chosen for the 
+building of the city, in what latitude it was, whether it was a 
+town or a province, nor how large it was !</p>
+
+<p>"On the churches of the blessed apostles Peter and Paul, for 
+the providing of the lights, we have conferred landed estates of 
+possessions, and have enriched them with different objects; and 
+through our sacred imperial mandate, we have granted them of 
+our property in the east as well as in the west; and even in the 
+north and in the southern quarter; namely, in Judea, Greece, 
+Asia, Thrace, Africa and Italy and the various islands; under 
+this condition indeed, that all shall be administered by the hand 
+of our most blessed father the supreme pontiff, Sylvester, and his 
+successors."</p>
+
+<p>O you scoundrel! Were there in Rome churches, that is, 
+temples, dedicated to Peter and Paul? Who had constructed them? 
+Who would have dared to build them, when, as history tells us, 
+the Christians had never had anything but secret and secluded 
+meeting-places? And if there had been any temples at Rome 
+dedicated to these apostles, they would not have called for such 
+great lights as these to be set up in them; they were little chapels, 
+not sanctuaries; little shrines, not temples; oratories in private 
+houses, not public places of worship. So there was no need to care 
+for the temple lights, before the temples themselves were provided. 
+
+
+
+
+
+<pb n="99"/>
+
+
+And what is this that you say? You make Constantine call 
+Peter and Paul blessed, but Sylvester, still living, "most blessed"; 
+and call his own mandate, pagan as he had been but a little while 
+before, "sacred"! Is so much to be donated "for the providing of 
+the lights" that the whole world would be impoverished? And 
+what are these "landed estates," particularly "landed estates of 
+possessions"? The phrase "possessions of landed estates" is good 
+usage; "landed estates of possessions" is not. You give landed 
+estates, and you do not explain which landed estates. You have 
+enriched "with different objects," and you do not show when nor 
+with what objects. You want the corners of the earth to be administered
+by Sylvester, and you do not explain how they are to 
+be administered. You say these were granted earlier? Then why 
+do you say that you have now begun to honor the Roman church, 
+and to grant it a "privilege"? Do you make the grant now; do 
+you enrich it now? Then why do you say "we have granted" and 
+"we have enriched"? What are you talking about; what is in your 
+mind, you beast? (I am speaking to the man who made up the 
+story, not to that most excellent ruler, Constantine.) 
+
+But why do I ask for any intelligence in you, any learning, you 
+who are not endowed with any ability, with any knowledge of 
+letters, who say "lights" for lamps, and "be transferred in the 
+regions of the east" instead of "be transferred to the regions of 
+the east," as it should be? And what next? Are these "quarters" 
+of yours really the four quarters of the world? What do you count 
+as eastern? Thrace? It lies to the north, as I have said. Judea? 
+It looks rather toward the south, for it is next to Egypt. And 
+what do you count as western? Italy? But these events occurred in 
+Italy and no one living there calls it western; for we say the 
+Spains are in the west; and Italy extends, on one hand to the 
+south and on the other to the north, rather than to the west. What 
+do you count as north? Thrace? You yourself choose to put it in 
+the east. Asia? This alone includes the whole east, but it includes 
+the north also, like Europe. What do you count as southern? 
+Africa, of course. But why do you not specify some province? 
+Perhaps you think even the Ethiopians were subject to the Roman 
+
+
+
+
+
+<pb n="101"/>
+
+
+Empire! And anyway Asia and Africa do not come into consideration
+when we divide the earth into four parts and enumerate 
+the countries of each, but when we divide it into three, Asia, 
+Africa, Europe; that is, unless you say Asia for the province of 
+Asia, and Africa for that province which is next to the Gaetuli, 
+and I do not see why they, especially, should be mentioned.</p>
+
+<p>Would Constantine have spoken thus when he was describing
+the four quarters of the earth ? Would he have mentioned 
+these countries, and not others? Would he have begun with Judea, 
+which is counted as a part of Syria and was no longer "Judea" 
+after the destruction of Jerusalem (for the Jews were driven away 
+and almost exterminq,ted, so that, I suppose, scarcely one then 
+remained in his own country, but they lived among other nations)
+? Where then was Judea? It was no longer called Judea, and 
+we know that now that name has perished from the earth. Just as 
+after the driving out of the Canaanites the region ceased to be 
+called Canaan and was renamed Judea by its new inhabitants, so 
+when the Jews were driven out and mixed tribes inhabited it, it 
+ceased to be called Judea.</p>
+
+<p>You mention Judea, Thrace, and the islands, but you do not 
+think of mentioning the Spains, the Gauls, the Germans, and while 
+you speak of peoples of other tongues, Hebrew, Greek, barbarian, 
+you do not speak of any of the provinces where Latin is used. 
+I see: you have omitted these for the purpose of including them 
+afterwards in the Donation. And why were not these many great 
+provinces of the East sufficient to bear the expense of providing 
+the lights without the rest of the world contributing !</p>
+
+<p>I pass over the fact that you say these are granted as a gift, and 
+therefore not, as our friends say, in payment for the cure of the 
+leprosy. Otherwise, — well, any one who classes a gift as a payment 
+is ill-bred.</p>
+
+<p>"To the blessed Sylvester, his [Peter's] vicar, we by this 
+present do give our imperial Lateran palace, then the diadem, 
+that is, the crown of our head, and at the same time the tiara and 
+also the shoulder-band, — that is, the strap that usually surrounds 
+
+
+
+
+
+<pb n="103"/>
+
+
+our imperial neck; and also the purple mantle and scarlet tunic, 
+and all the imperial raiment; and the same rank as those presiding 
+over the imperial cavalry; conferring also on him the imperial 
+scepters, and at the same time all the standards and banners and 
+the different imperial ornaments, and all the pomp of our imperial 
+eminence, and the glory of our power.</p>
+
+<p>"And we decree also, as to these men of different rank, the most 
+reverend clergy who serve the holy Roman church, that they have 
+that same eminence of distinguished power and excellence, by the 
+glory of which it seems proper for our most illustrious Senate to 
+be adorned; that is, that they be made patricians, consuls, — and 
+also we have proclaimed that they be decorated with the other 
+imperial dignities. And even as the imperial militia stands decorated,
+so we have decreed that the clergy of the holy Roman 
+church be adorned. And even as the imperial power is ordered 
+with different offices, of chamberlains, indeed, and door-keepers 
+and all the bed-watchers, so we wish the holy Roman church also 
+to be decorated. And, in order that the pontifical glory may shine 
+forth most fully, we decree also that the holy clergy of this same 
+holy Roman church may mount mounts adorned with saddlecloths
+and linens, that is, of the whitest color; and even as our 
+Senate uses shoes with felt socks, that is, they [the clergy] may 
+be distinguished by white linen, and that the celestial [orders] 
+may be adorned to the glory of God, just as the terrestrial are 
+adorned."</p>
+
+<p>O holy Jesus! This fellow, tumbling phrases about in his 
+ignorant talk, — will you not answer him from a whirlwind? Will 
+you not send the thunder ? Will you not hurl avenging lightnings 
+at such great blasphemy? Will you endure such wickedness in 
+your household? Can you hear this, see this, let it go on so long 
+and overlook it? But you are long-suffering and full of compassion.
+Yet I fear lest this your long-suffering may rather be wrath 
+and condemnation, such as it was against those of whom you said, 
+"So I gave them up unto their own hearts' lust: and they walked 
+
+
+
+
+
+<pb n="105"/>
+
+
+in their own counsels,"<ref target="note.105.1"/> and elsewhere, "Even as they did not hke 
+to retain me in their knowledge, I gave them over to a reprobate 
+mind, to do those things which are not convenient."<ref target="note.105.2"/> Command 
+me, I beseech thee, O Lord, that I may cry out against them, and 
+perchance they may be converted.</p>
+
+<p>O Roman pontiffs, the model of all crimes for other pontiffs! 
+O wickedest of scribes and Pharisees, who sit in Moses' seat and 
+do the deeds of Dathan and Abiram ! Will the raiment, the habiliments,
+the pomp, the cavalry, indeed the whole manner of life 
+of a Caesar thus befit the vicar of Christ? What fellowship has the 
+priest with the Caesar? Did Sylvester put on this raiment; did he 
+parade in this splendor; did he live and reign with such a throng 
+of servants in his house? Depraved wretches! They did not know 
+that Sylvester ought to have assumed the vestments of Aaron, 
+who was the high priest of God, rather than those of a heathen 
+ruler.</p>
+
+<p>But this must be more strongly pressed elsewhere. For the 
+present, however, let us talk to this sycophant about barbarisms 
+of speech; for by the stupidity of his language his monstrous 
+impudence is made clear, and his lie.</p>
+
+<p>"We give," he says, "our imperial Lateran palace": as though 
+it was awkward to place the gift of the palace here among the 
+ornaments, he repeated it later where gifts are treated. "Then 
+the diadem;" and as though those present would not know, he 
+interprets, "that is, the crown." He did not, indeed, here add "of 
+gold," but later, emphasizing the same statements, he says, "of 
+purest gold and precious gems." The ignorant fellow did not know 
+that a diadem was made of coarse cloth or perhaps of silk; whence 
+that wise and oft-repeated remark of the king, who, they say, 
+before he put upon his head the diadem given him, held it and 
+considered it long and exclaimed, "O cloth more renowned than 
+happy! If any one knew you through and through, with how many 
+anxieties and dangers and miseries you are fraught, he would not 
+
+
+
+<note xml:id="note.105.1"><p> Ps. lxxxi, 12. 
+
+</p></note>
+
+<note xml:id="note.105.2"><p> Rom. i, 28, with the person of the verb changed. 
+
+
+
+</p></note>
+
+<pb n="107"/>
+
+
+care to pick you up; no, not even if you were lying on the 
+ground!" This fellow does not imagine but that it is of gold, with 
+a gold band and gems such as kings now usually add. But Constantine
+was not a king, nor would he have dared to call himself 
+king, nor to adorn himself with royal ceremony. He was Emperor 
+of the Romans, not king. Where there is a king, there is no republic.
+But in the republic there were many, even at the same 
+time, who were "imperatores" [generals] ; for Cicero frequently 
+writes thus, "Marcus Cicero, imperator, to some other imperator, 
+greeting": though, later on, the Roman ruler, as the highest of 
+all, is called by way of distinctive title the Emperor.</p>
+
+<p>"And at the same time the tiara and also the shoulder-band, — 
+that is the strap that usually surrounds our imperial neck." Who 
+ever heard "tiara" [phrygium] used in Latin ? You talk like a barbarian
+and want it to seem to me to be a speech of Constantine's 
+or of Lactantius'. Plautus, in the Menaechmi, applied "phrygionem"
+to a designer of garments; Pliny calls clothes embroidered 
+with a needle "phrygiones" because the Phrygians invented them; 
+but what does "phrygium" mean? You do not explain this, which 
+is obscure; you explain what is quite clear. You say the "shoulderband"
+is a "strap," and you do not perceive what the strap is, for 
+you do not visualize a leather band, which we call a strap, encircling
+the Caesar's neck as an ornament. [It is of leather], hence 
+we call harness and whips "straps": but if ever gold straps are 
+mentioned, it can only be understood as applying to gilt harness 
+such as is put around the neck of a horse or of some other animal. 
+But this has escaped your notice, I think. So when you wish to 
+put a strap around the Caesar's neck, or Sylvester's, you change 
+a man, an Emperor, a supreme pontiff, into a horse or an ass.</p>
+
+<p>"And also the purple mantle and scarlet tunic." Because Matthew
+says "a scarlet robe," and John "a purple robe,"<ref target="note.107.1"/> this fellow 
+tries to join them together in the same passage. But if they are 
+the same color, as the Evangelists imply, why are you not content, 
+as they were, to name either one alone; unless, like ignorant folk 
+today, you use "purple" for silk goods of a whitish color? The 
+
+<note xml:id="note.107.1"><p> Matt. xxvii, 28; John xix, 2. 
+
+
+
+</p></note>
+
+<pb n="109"/>
+
+
+"purple" [pupura], however, is a fish in whose blood wool is 
+dyed, and so from the dye the name has been given to the cloth, 
+whose color can be called red, though it may rather be blackish 
+and very nearly the color of clotted blood, a sort of violet. Hence 
+by Homer and Virgil blood is called purple, as is porphyry, the 
+color of which is similar to amethyst; for the Greeks call purple 
+"porphyra." You know perhaps that scarlet is used for red; but 
+I would swear that you do not know at all why he makes it 
+"coccineum" when we say "coccum," or what sort of a garment a 
+"mantle" [chlamys] is.</p>
+
+<p>But that he might not betray himself as a liar by continuing 
+longer on the separate garments, he embraced them all together 
+in a single word, saying, "all the imperial raiment." What! even 
+that which he is accustomed to wear in war, in the chase, at banquets,
+in games ? What could be more stupid than to say that all 
+the raiment of the Caesar befits a pontiff!</p>
+
+<p>But how gracefully he adds, "and the same rank as those presiding
+over the imperial cavalry." He says "seu" ["or" for "and"].<ref target="note.109.1"/> 
+He wishes to distinguish between these two in turn, as if they 
+were very like each other, and slips along from the imperial raiment
+to the equestrian rank, saying— I know not what! He 
+wants to say something wonderful, but fears to be caught lying, 
+and so with puffed cheeks and swollen throat, he gives forth 
+sound without sense.</p>
+
+<p>"Conferring also on him the imperial sceptres." What a turn 
+of speech! What splendor! What harmony! What are these imperial
+sceptres? There is one sceptre, not several; if indeed the 
+Emperor carried a sceptre at all. Will now the pontiff carry a 
+sceptre in his hand? Why not give him a sword also, and helmet 
+and javelin?</p>
+
+<p>"And at the same time all the standards and banners." What 
+do you understand by "standards" [signa]? "Signa" are either 
+statues (hence frequently we read "signa et tabulas" for pieces 
+
+<note xml:id="note.109.1"><p> Here, as was common in medieval Latin, "seu" is the equivalent of "et," and  means "and." Valla's criticism is correct, but might go further in fixing the time of the forgery. Cf. supra, p. 91, note 1. 
+
+</p></note>
+
+<pb n="111"/>
+
+
+of sculpture and paintings; — for the ancients did not paint on 
+walls, but on tablets) or military standards (hence that phrase 
+"Standards, matched eagles"<ref target="note.111.1"/>). In the former sense small statues 
+and sculptures are called "sigilla." Now then, did Constantine give 
+Sylvester his statues or his eagles ? What could be more absurd? 
+But what "banners" [banna<ref target="note.111.2"/>] may signify, I do not discover. 
+May God destroy you, most depraved of mortals who attribute 
+barbarous language to a cultured age!</p>
+
+<p>"And different imperial ornaments." When he said "banners," 
+he thought he had been explicit long enough, and therefore he 
+lumped the rest under a general term. And how frequently he 
+drives home the word "imperial," as though there were certain 
+ornaments peculiar to the Emperor over against the consul, the 
+dictator, the Caesar!</p>
+
+<p>"And all the pomp of our imperial eminence, and the glory of 
+our power." "He discards bombast and cubit-long words,"<ref target="note.111.3"/> "This 
+king of kings, Darius, the kinsman of the gods,"<ref target="note.111.4"/> never speaking 
+save in the plural! What is this imperial "pomp"; that of the 
+cucumber twisted in the grass, and growing at the belly? Do you 
+think the Caesar celebrated a triumph whenever he left his house, 
+as the Pope now does, preceded by white horses which servants 
+lead saddled and adorned? To pass over other follies, nothing is 
+emptier, more unbecoming a Roman pontiff than this. And what 
+is this "glory"? Would a Latin have called pomp and paraphernalia
+"glory," as is customary in the Hebrew language? And 
+instead of "soldiers" [milites] you say soldiery [militia<ref target="note.111.5"/>] which 
+we have borrowed from the Hebrews, whose books neither Constantine
+nor his secretaries had ever laid eyes on !</p>
+
+<p>But how great is your munificence, O Emperor, who deem it 
+not sufficient to have adorned the pontiff, unless you adorn all the 
+clergy also! As an "eminence of distinguished power and 
+
+<note xml:id="note.111.1"><p> Lucan, Pharsalia, i, 7. 
+
+</p></note>
+
+<note xml:id="note.111.2"><p> In our best texts of the Donation this word is "banda," used in the eighth 
+century for "colors" or "flags." 
+
+</p></note>
+
+<note xml:id="note.111.3"><p> Horace, Ars Poetica, 1. 97. 
+</p></note>
+
+<note xml:id="note.111.4"><p> Julius Valerius, Res Gestae Alexandri, i, 37. 
+
+</p></note>
+
+<note xml:id="note.111.5"><p> At Rome in the eighth century, the time of the forgery, "militia" indicated a civil rank, rather than soldiers. 
+
+
+
+</p></note>
+
+<pb n="113"/>
+
+
+excellence," you say, they are "made patricians and consuls." Who 
+has ever heard of senators or other men being made patricians? 
+Consuls are "made," but not patricians. The senators, the conscript
+fathers, are from patrician (also called senatorial), equestrian,
+or plebeian families as the case may be. It' is greater, also, 
+to be a senator than to be a patrician; for a senator is one of 
+the chosen counsellors of the Republic, while a patrician is merely 
+one who derives his origin from a senatorial family. So one who 
+is a senator, or of the conscript fathers, is not necessarily forthwith
+also a patrician. So my friends the Romans are now making 
+themselves ridiculous when they call their praetor "senator," 
+since a senate cannot consist of one man and a senator must have 
+colleagues, and he who is now called "senator" performs the 
+function of praetor. But, you say, the title of patrician is found 
+in many books.<ref target="note.113.1"/> Yes; but in those which speak of times later 
+than Constantine; therefore the "privilege" was executed after 
+Constantine.</p>
+
+<p>But how can the clergy become consuls?<ref target="note.113.2"/> The Latin clergy 
+have denied themselves matrimony; and will they become consuls, 
+make a levy of troops, and betake themselves to the provinces 
+allotted them with legions and auxiliaries? Are servants and 
+slaves made consuls? And are there to be not two, as was customary;
+but the hundreds and thousands of attendants who serve 
+the Roman church, are they to be honored with the rank of 
+general? And I was stupid enough to wonder at what was said 
+about the Pope's transformation! The attendants will be generals; 
+but the clergy soldiers. Will the clergy become soldiers or wear 
+military insignia, unless you share the imperial insignia with all 
+the clergy? [I may well ask,] for I do not know what you are 
+saying. And who does not see that this fabulous tale was concocted
+by those who wished to have every possible license in the 
+
+<note xml:id="note.113.1"><p> The allusion is to the title of Patrician given to Pippin and to his sons as  defenders of the Roman See. 
+
+</p></note>
+
+<note xml:id="note.113.2"><p> The office of consul as it existed in the Republic and the Empire disappeared  in the time of the German invasions. The word was later applied quite differently,  to a group, practically a social class, at Rome. 
+
+
+
+</p></note>
+
+<pb n="115"/>
+
+
+attire they were to wear? If there are games of any kind played 
+among the demons which inhabit the air I should think that they 
+would consist in copying the apparel, the pride and the luxury 
+of the clergy, and that the demons would be delighted most by 
+this kind of masquerading.</p>
+
+<p>Which shall I censure the more, the stupidity of the ideas, or 
+of the words? You have heard about the ideas; here are illustrations
+of his words. He says, "It seems proper for our Senate to 
+be adorned" (as though it were not assuredly adorned), and to be 
+adorned forsooth with "glory." And what is being done he wishes 
+understood as already done; as, "we have proclaimed" for "we 
+proclaim": for the speech sounds better that way. And he puts 
+the same act in the present and in the past tense; as, "we decree," 
+and "we have decreed." And everything is stuffed with these 
+words, "we decree," "we decorate," "imperial," "imperial rank," 
+"power," "glory." He uses "extat" for "est," though "extare" 
+means to stand out or to be above; and "nempe" for "scilicet" 
+[that is, "indeed" for "to wit"] ; and "concubitores" [translated 
+above, bed-watchers] for "contubernales" [companions or attendants].
+"Concubitores" are literally those who sleep together 
+and have intercourse; they must certainly be understood to be 
+harlots. He adds those with whom he may sleep, I suppose, that 
+he may not fear nocturnal phantoms.<ref target="note.115.1"/> He adds "chamberlains"; 
+he adds "door-keepers."</p>
+
+<p>It is not an idle question to ask why he mentions these details. 
+He is setting up, not an old man, but a ward or a young son, and 
+like a doting father, himself arranges for him everything of which 
+his tender age has need, as David did for Solomon ! And that the 
+story may be filled in in every respect, horses are given the 
+clergy, — lest they sit on asses' colts in that asinine way of 
+Christ's! And they are given horses, not covered nor saddled 
+with coverings of white, but decorated with white color. And 
+what coverings ! Not horse-cloths, either Babylonian or any other 
+kind, but "mappulae" [translated above, saddle-cloths] and 
+
+<note xml:id="note.115.1"><p> Where Valla's text of the Donation reads "concubitorum," Zeumer's reads 
+"excubiorum" [guards]. 
+
+
+
+</p></note>
+
+<pb n="117"/>
+
+
+"linteamina" [linen cloths or sheets, translated above, linen]. 
+"Mappae" [serviettes] go with the table, "linteamina" with the 
+couch. And as though there were doubt as to their color, he 
+explains, "that is to say, of the whitest color." Talk worthy of 
+Constantine; fluency worthy of Lactantius; not only in the other 
+phrases, but also in that one, "may mount mounts"!</p>
+
+<p>And when he had said nothing about the garb of senators, the 
+broad stripe, the purple, and the rest, he thougjit he had to talk 
+about their shoes ; nor does he specify the crescents [which were 
+on their shoes], but "socks," or rather he says "with felt socks," 
+and then as usual he explains, "that is, with white linen," as 
+though socks were of linen! I cannot at the moment think where 
+I have found the word "udones" [socks], except in Valerius 
+Martial, whose distich inscribed "Cilician Socks" runs: 
+
+<quote><l>Wool did not produce these, but the beard of an ill-smelling goat.</l>
+<l>Would that the sole in the gulf of the Cinyps might lie."<ref target="note.117.1"/></l></quote></p>
+
+<p>So the "socks" are not linen, nor white, with which this two-legged 
+ass says, not that the feet of senators are clad, but that senators 
+are distinguished.</p>
+
+<p>And in the phrase "that the terrestrial orders may be adorned 
+to the glory of God, just as the celestial," what do you call celestial,
+what terrestrial? How are the celestial orders adorned?<ref target="note.117.2"/> You 
+may have seen what glory to God this is. But I, if I believe 
+anything, deem nothing more hateful to God and to the rest of 
+humanity than such presumption of clergy in the secular sphere. 
+But why do I attack individual items? Time would fail me if I 
+should try, I do not say to dwell upon, but to touch upon them all.</p>
+
+<p>"Above all things, moreover, we give permission to the blessed 
+Sylvester and his successors, from our edict, that he may make 
+priest whomever he wishes, according to his own pleasure and 
+counsel, and enroll him in the pious number of the religious clergy 
+
+<note xml:id="note.117.1"><p> Martial, XIV, 141 (140). 
+
+</p></note>
+
+<note xml:id="note.117.2"><p> Valla for this part of his criticism uses the rather unintelligible order of words  found in most texts of the Donation, instead of the more inteUigible order which he used in his earlier quotations. Cf. pp. 102, 103. 
+
+
+
+</p></note>
+
+<pb n="119"/>
+
+
+[i.e., regular clergy; or perhaps cardinals]: let no one whomsoever
+presume to act in a domineering way in this."<ref target="note.119.1"/>
+
+Who is this Melchizedek that blesses the patriarch Abraham? 
+Does Constantine, scarcely yet a Christian, give to the man by 
+whom he was baptized and whom he calls blessed, authority to 
+make priests? As though Sylvester had not and could not have 
+done it before! And with what a threat he forbids any one to 
+stand in the way! "Let no one, whomsoever, presume to act in a 
+domineering way in this matter." What elegant diction, too! 
+"Enroll in the pious number of the religious"; and "clericare," 
+"clericorum," "indictu," and "placatus"!</p>
+
+<p>And again he comes back to the diadem: 
+
+<quote>We also therefore decreed this, that he himself and his successors
+might use, for the honor of the blessed Peter, the diadem, 
+that is the crown, which we have granted him from our own head, 
+of purest gold and precious gems.</quote></p>
+
+<p>Again he explains the meaning of diadem, for he was speaking 
+to barbarians, forgetful ones at that. And he adds "of purest 
+gold," lest perchance you should think brass or dross was mixed 
+in. And when he has said "gems," he adds "precious," again 
+fearing lest you should suspect them of being cheap. Yet why did 
+he not say most precious, just as he said "purest gold"? For there 
+is more difference between gem and gem, than between gold and 
+gold. And when he should have said "distinctum gemmis," he 
+said "ex gemmis." Who does not see that this was taken from 
+the passage, which the gentile ruler had not read, "Thou settest 
+a crown of precious stone on his head"?<ref target="note.119.2"/> Did the Caesar speak 
+thus, with a certain vanity in bragging of his crown, if indeed the 
+Caesars were crowned, but cheapening himself by fearing lest 
+
+<note xml:id="note.119.1"><p> Valla's text of the Donation in this paragraph differs greatly from Zeumer's,  Hinschius', and Friedberg's. It is not very clear in any of the texts whether the intent is to give the Pope power to take any one whomsoever into the clergy and thus relieve him from civil and military duties, or to prevent the Roman nobility from forcing their way into ecclesiastical offices against the will of the Pope. 
+
+</p></note>
+
+<note xml:id="note.119.2"><p> Ps. xxi, 3, with variation. 
+
+
+
+</p></note>
+
+<pb n="121"/>
+
+
+people would think that he did not wear a crown "of purest gold 
+and precious gems," unless he said so ?</p>
+
+<p>Find the reason why he speaks thus: "for the honor of the 
+blessed Peter." As though, not Christ, but Peter, were the chief 
+corner-stone on which the temple of the church is built; an inference
+he later repeats! But if he wanted to honor him so much, 
+why did he not dedicate the episcopal temple at Rome to him, 
+rather than to John the Baptist?</p>
+
+<p>What? Does not that barbarous way of talking show that the 
+rigmarole was composed, not in the age of Constantine, but later; 
+"decemimus quod uti debeant"<ref target="note.121.1"/> for the dorrect form "decernimus 
+ut utantur"? Boors commonly speak and write that way now; 
+"lussi quod deberes venire" for "lussi ut venires." And "we 
+decreed," and "we granted," as though it were not being done -' 
+now, but had been done some other time!</p>
+
+<p>"But he himself, the blessed Pope, did not allow that crown 
+of gold to be used over the clerical crown which he wears to the 
+glory of the most blessed Peter."</p>
+
+<p>Alas for your singular stupidity, Constantine! Just now you 
+were saying that you put the crown on the Pope's head for the 
+honor of the blessed Peter; now you say that you do not do it, 
+because Sylvester refuses it. And while you approve his refusal, 
+you nevertheless order him to use the gold crown; and what he 
+thinks he ought not to do, that you say his own successors ought 
+to do!<ref target="note.121.2"/> I pass over the fact that you call the tonsure a crown, 
+and the Roman pontiff "Pope," although that word had not yet 
+begun to be applied to him as a distinctive title.</p>
+
+<p>"But we placed upon his most holy head, with our own hands, 
+
+<note xml:id="note.121.1"><p> Valla does not, here, quote his own text of the Donation correctly. 
+
+</p></note>
+
+<note xml:id="note.121.2"><p> This singular confusion about the crown in the Donation is explained by  Brunner, Festgabe fiir Rudolf von Gneist, pp. 25 et seq., as giving the Pope the possession, but not the use, of the imperial crown, thus paving the way for his prerogative of conferring the crown upon Louis the Pious in 816. Scheffer-Boichorst takes the whole episode as an attempt of the forger to glorify Sylvester by having the emperor honor him with the imperial crown, and having the Pope display the clerical humility (and pride) of rejecting it. 
+
+
+
+</p></note>
+
+<pb n="123"/>
+
+
+a glittering tiara of the most dazzling white, representing the 
+Lord's resurrection. And holding the bridle of his horse, out of 
+reverence for the blessed Peter, we performed for him the duty 
+of squire; decreeing that all his successors, and they alone, use 
+this same tiara in processions in imitation of our power."</p>
+
+<p>Does not this fable-fabricator seem to blunder, not through 
+imprudence, but deliberately and of set purpose, and so as to 
+offer handles for catching him? In the same passage he says 
+both that the Lord's resurrection is represented by the tiara, and 
+that it is an imitation of Caesar's power; two things which differ 
+most widely from each other. God is my witness, I find no words, 
+no words merciless enough with which to stab this most abandoned
+scoundrel; so full of insanity are all the words he vomits 
+forth. He makes Constantine not only similar in office to Moses, 
+who at the command of God honored the chief priest, but also 
+an expounder of secret mysteries, a most difficult thing even for 
+those long versed in the sacred books. Why did you not make 
+Constantine supreme pontiff while you were about it, as many 
+emperors have been, that he might more conveniently transfer his 
+attire to the other high priest? But you did not know history. 
+And I give thanks to God on this very score, that he did not 
+permit this utterly vicious scheme to be suggested save to an 
+exceedingly stupid man. Subsequent considerations also show this. 
+For he suggests the fact that Moses performed for Aaron, seated 
+on a horse, the duty of squire [dextratoris] , and that in the midst 
+not of Israel, but of the Canaanites and the Egyptians, that is, 
+of an heathen state, where there was not so much a secular 
+government as one of demons and demon-worshipping peoples.</p>
+
+<p>"Wherefore, in order that the supreme pontificate may not 
+deteriorate, but may rather be adorned with glory and power 
+even more than is the dignity of an earthly rule; behold, we give 
+over and relinquish to the most blessed pontiff and universal 
+Pope, Sylvester, as well our palace as also the city of Rome and 
+all the provinces, places and cities of Italy or<ref target="note.123.1"/> of the western 
+
+<note xml:id="note.123.1"><p> Valla's text of the Donation here has "sive" for "seu," cf. supra, p. 91, note 1. 
+
+
+
+</p></note>
+
+<pb n="125"/>
+
+
+regions; and by our pragmatic sanction we have decreed that 
+they are to be controlled by him and by his successors, and that 
+they remain under the law of the holy Roman church."</p>
+
+<p>We have already, in the oration of the Romans and that of 
+Sylvester, said a good deal about this.<ref target="note.125.1"/> Here it is in place to say 
+that no one would have thought of including all the nations in a 
+single word of a grant; and that a man who had earlier followed 
+out the minutest details of straps, the shoes, the linen horsecloths,
+would not have thought of omitting to cite, by name 
+provinces which now have separate kings or rulers equal to kings, 
+and more than one to each. But this forger, of course, did not 
+know which provinces were under Constantine, and which were 
+not. For certainly not all were under him. When Alexander died, 
+we see all the countries enumerated one by one in the division 
+among the generals. We see the lands and rulers which were under 
+the government of Cyrus, whether voluntarily or by conquest, 
+named by Xenophon. We see the names of the Greek and barbarian
+kings, their lineage, their country, their bravery, their 
+strength, their excellence, the number of their ships and the approximate
+number of their men, included by Homer in his catalog. 
+And not only did many Greeks follow his example, but our Latin 
+authors also, Ennius, Virgil, Lucan, Statins, and others. By Joshua 
+and Moses, in the division of the promised land, even all the little 
+villages were described. And you refuse to enumerate even provinces!
+You name only the "western provinces."<ref target="note.125.2"/> What are the 
+boundaries of the west; where do they begin; where do they end? 
+Are the frontiers of west and east, south and north, as definite 
+and fixed as those of Asia, Africa and Europe? Necessary words 
+you omit, you heap on superfluous ones. You say, "provinces.</p>
+
+<p>In the whole paragraph there are many deviations from other texts of the 
+Donation. 
+
+<note xml:id="note.125.1"><p> Cf. supra, pp. 41 et seq., 49 et seq. 
+
+</p></note>
+
+<note xml:id="note.125.2"><p> This phrase as used in the Donation probably meant Lombardy, Venetia and  Istria; i.e., practically, northern, as distinct from peninsular, Italy. Cf. supra, p. 27, note 2, also, DbUinger, Papstfabeln (ed. Friedrich), p. 122, note. In classical Latin it would have been, as Valla insists, a vague term. 
+
+
+
+</p></note>
+
+<pb n="127"/>
+
+
+places and cities." Are not provinces and cities, "places"? And 
+when you have said provinces you add cities, as though the latter 
+would not be understood with the former. But it is not strange 
+that a man who gives away so large a part of the earth should 
+pass over the names of cities and of provinces, and as though 
+overcome with lethargy not know what he says. "Of Italy or of 
+the western regions," as though he meant "either . . . or" when 
+he means "both";<ref target="note.127.1"/> speaking of "provinces ... of the . . . 
+regions," when it should rather be the regions of the provinces; 
+and using the gerundive, "permanendas," for the future infinitive 
+(permansuras) .</p>
+
+<p>"Wherefore we have perceived it to be fitting that our empire 
+and our royal power should be transferred in the regions of the 
+East; and that in the province of Byzantia [sic], in the most 
+fitting place, a city should be built in our name; and that our 
+empire should there be established."</p>
+
+<p>I pass over the fact that in saying "a city should be built" [he 
+uses the word for "the state" instead of "the city"], and cities, 
+not states, are built; and the fact that he says "the province of 
+Byzantia."<ref target="note.127.2"/> If you are Constantine, give the reason why you 
+should choose that as the best place for founding your city. For 
+that you should "transfer" yourself elsewhere after giving up 
+Rome, was not so much "fitting" as necessary. You should neither 
+call yourself Emperor when you have lost Rome and deserved 
+least from the Roman name whose meaning you destroy; nor call 
+yourself "royal," for no one before you has done so, — unless you 
+call yourself a king because you have ceased to be a Roman.<ref target="note.127.3"/> But 
+you allege a reason sound and honorable: 
+
+"For where the chief of [all] priests and the head of the Christian
+religion has been established by the heavenly Emperor, it is 
+not right that there an earthly Emperor should have jurisdiction." 
+
+
+
+<note xml:id="note.127.1"><p> Cf. supra, pp. 91, 109. 
+</p></note>
+
+<note xml:id="note.127.2"><p> Cf. supra, p. 95. 
+
+</p></note>
+
+<note xml:id="note.127.3"><p> King [rex] was a forbidden title at Rome after the time of the Tarquins. 
+
+
+
+</p></note>
+
+<pb n="129"/>
+
+
+stupid David, stupid Solomon, stupid Hezekiah, Josiah, and 
+all the other kings, stupid all and irreligious, who persisted in 
+dwelling in the city of Jerusalem with the chief priests, and did 
+not yield them the whole city! Constantine in three days is wiser 
+than they could be in their whole life. And you call [the Pope] 
+a "heavenly Emperor" because he accepts an earthly empire; 
+unless by that term you mean God (for you speak ambiguously) 
+and mean that an earthly sovereignty of priests was by him 
+established over the city of Rome and other places, in which case 
+you lie.</p>
+
+<p>"We decreed, moreover, that all these things which through 
+this sacred imperial [charter] and through other godlike decrees 
+we establish and confirm, remain inviolate and unshaken unto the 
+end of the world."</p>
+
+<p>A moment ago, Constantine, you called yourself earthly; now 
+you call yourself divine and sacred. You relapse into paganism 
+and worse than paganism. You make yourself God, your words 
+sacred, and your decrees immortal; for you order the world to 
+keep your commands "inviolate and unshaken." Do you consider
+who you are : just cleansed from the filthiest mire of wickedness,
+and scarcely fully cleansed? Why did you not add, "Till 
+heaven and earth pass, one jot or one tittle shall in no wise pass 
+from this 'privilege' "?<ref target="note.129.1"/> The kingdom of Saul, chosen by God, 
+did not pass on to his sons; the kingdom of David was divided 
+under his grandson, and afterward destroyed. And by your own 
+authority you decree that the kingdom which you give over 
+without God, shall remain even until the end of the world! 
+Whoever taught you that the world is to pass away so soon? For 
+I do not think that at this time you had faith in the poets, who 
+alone bear witness to this. So you could not have said this, but 
+some one else passed it off as yours.</p>
+
+<p>However, he who spoke so grandly and loftily, begins to fear, 
+and to distrust himself, and so takes to entreating: 
+
+<note xml:id="note.129.1"><p> A parody on Matt, v, 18. 
+
+
+
+</p></note>
+
+<pb n="131"/>
+
+
+"Wherefore, before the hving God, who commanded us to reign, 
+and in the face of his terrible judgment, we entreat all the emperors
+our successors, and all the nobles, the satraps also and the 
+most glorious Senate, and all the people in the whole world, likewise
+also for the future, that no one of them, in any way, be 
+allowed either to break this, or in any way overthrow it."</p>
+
+<p>What a fair, what a devout adjuration! It is just as if a wolf 
+should entreat by his innocence and good faith the other wolves 
+and the shepherds not to try to take away from him, or demand 
+back, the sheep which he has taken and divided among his offspring
+and his friends. Why are you so afraid, Constantine? If 
+your work is not of God it will be destroyed; but if it is of God 
+it cannot be destroyed. But I see! You wished to imitate the 
+Apocalypse, where it says: "For I testify unto every man that 
+heareth all the words of the prophecy of this book. If any man 
+shall add unto these things, God shall add unto him the plagues 
+that are written in this book: And if any man shall take away 
+from the words of the book of this prophecy, God shall take away 
+his part out of the book of life, and out of the holy city."<ref target="note.131.1"/> But 
+you had never read the Apocalypse; therefore these are not 
+your words.</p>
+
+<p>"If any one, moreover — which we do not believe — prove a 
+scorner in this matter, he shall be condemned and shall be subject 
+to eternal damnation; and shall feel the holy apostles of God, 
+Peter and Paul, opposed to him in the present and in the future 
+life. And he shall be burned in the lower hell and shall perish with 
+the devil and all the impious."</p>
+
+<p>This terrible threat is the usual one, not of a secular ruler, but 
+of the early priests and fiamens, and nowadays, of ecclesiastics. 
+And so this is not the utterance of Constantine, but of some fool 
+of a priest who, stuffed and pudgy, knew neither what to say nor 
+how to say it, and, gorged with eating and heated with wine, 
+belched out these wordy sentences which convey nothing to 
+
+<note xml:id="note.131.1"><p> Rev. xxii, 18-19. 
+
+
+
+</p></note>
+
+<pb n="133"/>
+
+
+another, but turn against the author himself. First he says, "shall 
+be subject to eternal damnation," then as though more could be 
+added, he wishes to add something else, and to eternal penalties 
+he joins penalties in the present life; and after he frightens us 
+with God's condemnation, he frightens us with the hatred of 
+Peter, as though it were something still greater. Why he should 
+add Paul, and why Paul alone, I do not know. And with his usual 
+drowsiness he returns again to eternal penalties, as though he had 
+not said that before. Now if. these threats and curses were Constantine's,
+I in turn would curse him as a tyrant and destroyer 
+of my country, and would threaten that I, as a Roman, would 
+take vengeance on him. But who would be afraid of the curse of 
+an overly avaricious man, and one saying a counterfeit speech 
+after the manner of actors, and terrifying people in the role of 
+Constantine? This is being a hypocrite in the true sense, if we 
+press the Greek word closely; that is, hiding your own personality 
+under another's.</p>
+
+<p>"The page,<ref target="note.133.1"/> moreover, of this imperial decree, we, confirming ' 
+it with our own hands, did place above the venerable body of the 
+blessed Peter."<ref target="note.133.2"/> 
+
+Was it paper or parchment, the "page" on which this was 
+written? Though, in fact, we call one side of a leaf, as they say, 
+a page; for instance, a pamphlet [?] has ten leaves, twenty pages.</p>
+
+<p>But oh! the unheard of and incredible thing [that Constantine 
+did] ! I remember asking some one, when I was a youth, who 
+wrote the book of Job; and when he answered, "Job himself," 
+I rejoined, "How then would he mention his own death?" And 
+this can be said of many other books, discussion of which is not 
+appropriate here. For how, indeed, can that be narrated which has 
+not yet been done; and how can that which [the speaker] himself 
+
+<note xml:id="note.133.1"><p> "Pagina" in medieval Latin often meant "document." 
+
+</p></note>
+
+<note xml:id="note.133.2"><p> In the Liber Pontificalis (ed. Duchesne, i, 454) the keys of Ravenna and other  cities included in the so-called Donation of Pippin are said to have been placed in "the confession of St. Peter" (i.e., before his tomb). This association seems to have been common in the eighth century. 
+
+
+
+</p></note>
+
+<pb n="135"/>
+
+
+admits was done after the burial, so to say, of the records, be 
+contained in the records? This is nothing else than saying that 
+"the page of the privilege" was dead and buried before it was 
+born, and yet never returned from death and burial; and saying 
+expressly that it was confirmed before it had been written, and 
+not with one hand alone at that, but with both of the Caesar's 
+hands! And what is this "confirming"? Was it done with the signature
+of the Caesar, or with his signet ring? Surely, hard and 
+fast that, — more so by far than if he had entrusted it to bronze 
+tablets! But there is no need of bronze inscription, when the 
+charter is laid away above the body of the blessed Peter. But why 
+do you here suppress Paul, though he lies with Peter, and the two 
+could guard it better than if the body of one alone were present ?</p>
+
+<p>You see the malicious artfulness of the cunning Sinon!<ref target="note.135.1"/> 
+Because the Donation of Constantine cannot be produced, therefore
+he said that the "privilege" is not on bronze but on paper 
+records; therefore he said that it lies with the body of the most 
+holy apostle, so that either we should not dare to seek it in the 
+venerable tomb, or if we should seek it, we would think it rotted 
+away. But where then was the body of the blessed Peter? Certainly
+it was not yet in the temple where it now is, not in a place 
+reasonably protected and safe. Therefore the Caesar would not 
+have put the "page" there. Or did he not trust the "page" to the 
+most blessed Sylvester, as not holy enough, not careful nor 
+diligent enough? O Peter! O Sylvester! O holy pontiffs of the 
+Roman church! to whom the sheep of the Lord were entrusted, 
+why did you not keep the "page" entrusted to you? Why have 
+you suffered it to be eaten by worms, to rot away with mold? I 
+presume that it was because your bodies also have wasted away. 
+Constantine therefore acted foolishly. Behold the "page" reduced 
+to dust; the right conferred by the "privilege" at the same time 
+passes away into dust.</p>
+
+<p>And yet, as we see, a copy of the "page" is shown. Who then 
+was so bold as to take it from the bosom of the most holy apostle? 
+No one did it, I think. Whence then the copy? By all means some 
+
+<note xml:id="note.135.1"><p> Cf. supra, p. 85. 
+
+
+
+</p></note>
+
+<pb n="137"/>
+
+
+ancient writer ought to be adduced, one not later than the time 
+of Constantine. However, none such is adduced, but as it happens 
+some recent writer or other. Whence did he get it? For whoever 
+composes a narrative about an earher age, either writes at the 
+dictation of the Holy Spirit, or follows the authority of former 
+writers, and of those, of course, who wrote concerning their own 
+age. So whoever does not follow earlier writers will be one of 
+those to whom the remoteness of the event affords the boldness 
+to lie. But if this story is to be read anywhere, it is not consistent 
+with antiquity any more than that stupid narrative of the glossator
+Accursius about Roman ambassadors being sent to Greece to 
+get laws agrees with Titus Livius and the other best writers.</p>
+
+<p>"Given at Rome, on the third day before the Kalends of April, 
+Constantine Augustus consul for the fourth time, and Gallicanus 
+consul for the fourth time."<ref target="note.137.1"/> 
+
+He took the next to the last day of March so that we might 
+feel that this was done in the season of holy days, which, for the 
+most part, come at that time. And "Constantine consul for the 
+fourth time, and Gallicanus consul for the fourth time." Strange 
+if each had been consul thrice, and they were colleagues in a 
+fourth consulship! But stranger still that the Augustus, a leper, 
+with elephantiasis (which disease is as remarkable among diseases, 
+as elephants are among animals), should want to even accept a 
+consulship, when king Azariah, as soon as he was affected with 
+leprosy, kept himself secluded, while the management of the kingdom
+was given over to Jotham his son;<ref target="note.137.2"/> and almost all lepers 
+have acted similarly. And by this argument alone the whole 
+"privilege" is confuted outright, destroyed, and overturned. And 
+if any one disputes the fact that Constantine must have been 
+leprous before he was consul, he should know that according to 
+physicians this disease develops gradually, that according to the 
+
+<note xml:id="note.137.1"><p> In the best text of the Donation this is not called the fourth consulship of  Gallicanus. In any case, however, the date is impossible; no such consulship as this is known. 
+
+</p></note>
+
+<note xml:id="note.137.2"><p> II Kings XV, 5. 
+
+
+
+</p></note>
+
+<pb n="139"/>
+
+
+known facts of antiquity the consulate is an annual office and 
+begins in the month of January; and these events are said to 
+have taken place the following March.</p>
+
+<p>Nor will I here pass over the fact that "given" is usually written 
+on letters, but not on other documents, except among ignorant 
+people. For letters are said either to be given one (illi) or to be 
+given to one (ad ilium) ; in the former case [they are given to] 
+one who carries them, a courier for instance, and puts them in 
+the hand of the man to whom they are sent; in the latter case 
+[they are given] to one in the sense that they are to be delivered
+to him by the bearer, that is [they are given to] the 
+one to whom they are sent. But the "privilege," as they call it, 
+of Constantine, as it was not to be delivered to any one, so also 
+it ought not to be said to be "given." And so it should be apparent 
+that he who spoke thus lied, and did not know how to imitate 
+what Constantine would probably have said and done. And those 
+who think that he has told the truth, and defend him, whoever 
+they are, make themselves abetters and accessories in his stupidity 
+and madness. However, they have nothing now with which to 
+honorably excuse their opinion, not to speak of defending it.</p>
+
+<p>Or is it an honorable excuse for an error, to be unwilling to acquiesce
+in the truth when you see it disclosed, because certain great 
+men have thought otherwise? Great men, I call them, on account 
+of their position, not on account of their wisdom or their goodness.
+How do you even know whether those whom you follow, 
+had they heard what you hear, would have continued in their 
+belief, or would have given it up? And moreover it is most contemptible
+to be willing to pay more regard to man than to Truth, 
+that is, to God. [I say this] for some men beaten at every argument
+are wont to answer thus: "Why have so many supreme 
+pontiffs believed this Donation to be genuine ?" I call you to witness,
+that you urge me where I would not, and force me against 
+my will to rail at the supreme pontiffs whose faults I would prefer 
+to veil. But let us proceed to speak frankly, inasmuch as this case 
+cannot be conducted in any other way.</p>
+
+<p>Admitting that they did thus believe and were not dishonest; 
+
+
+
+
+
+<pb n="141"/>
+
+
+why wonder that they behaved these stories where so much profit 
+allured them, seeing that they are led to believe a great many 
+things, in which no profit is apparent, through their extraordinary 
+ignorance? Do you not, at Ara Coeli, in that most notable temple 
+and in the most impressive place see the fable of the Sibyl and 
+Octavian<ref target="note.141.1"/> depicted by the authority, they say, of Innocent III, 
+who wrote it and who also left an account of the destruction of the 
+Temple of Peace on the day of the Savior's birth, that is, at the 
+delivery of the Virgin?<ref target="note.141.2"/> These stories tend rather to the destruction
+of faith, by their falsity, than to the establishment of faith, 
+by their wonders. Does the vicar of Truth dare to tell a lie under 
+the guise of piety, and consciously entangle himself in this sin? 
+Or does he not lie? Verily, does he not see that in perpetrating 
+this he contradicts the most holy men? Omitting others; Jerome 
+cites the testimony of Varro that there were ten Sibyls, and Varro 
+wrote his work before the time of Augustus. Jerome also writes 
+thus of the Temple of Peace: "Vespasian and Titus, after the 
+Temple of Peace was built at Rome, dedicated the vessels of the 
+temple [of the Jews] and all manner of gifts in her shrine, as the 
+Greek and Roman historians tell." And this ignorant man, alone, 
+wants us to believe his libel, barbarously written at that, rather 
+than the most accurate histories of ancient and most painstaking 
+authors !</p>
+
+<p>Since I have touched on Jerome, I will not suffer the following 
+insult to him to be passed by in silence. At Rome, by the authority 
+of the Pope, with the candles ever burning, as though for a relic 
+of the saints, is shown a copy of the Bible, which they say is 
+written in the hand of Jerome. Do you seek proof? Why, there is 
+"much embroidered cloth and gold," as Virgil says, a thing which 
+indicates rather that it was not written by the hand of Jerome. 
+When I inspected it more carefully, I found that it was written 
+
+
+
+<note xml:id="note.141.1"><p> This apocryphal story ran that the Sibyl prophesied of Christ, and that  Augustus erected an altar to him. 
+
+</p></note>
+
+<note xml:id="note.141.2"><p> The Temple of Peace was built by Vespasian and was not destroyed until it  was burned down in the time of Commodus. 
+
+
+
+</p></note>
+
+<pb n="143"/>
+
+
+by order of a king, Robert, I think, and in the handwriting of an 
+inexperienced man.</p>
+
+<p>Similarly, — there are indeed ten thousand things of this sort 
+at Rome, — among sacred objects is shown the panel portrait of 
+Peter and Paul, which, after Constantine had been spoken to by 
+these apostles in his sleep, Sylvester produced in confirmation of 
+the vision. I do not say this because I deny that they are portraits 
+of the apostles (would that the letter sent in the name of Lentulus
+about the portrait of Christ were as genuine, instead of 
+being no less vicious and spurious than this "privilege" which we 
+have refuted) , but because that panel was not produced for Constantine
+by Sylvester. At that story my mind cannot restrain its 
+astonishment.</p>
+
+<p>So I will briefly discuss the Sylvester legend, because the whole 
+question hinges on this; and, since I have to do with Roman 
+pontiffs, it will be in order to speak chiefly of the Roman pontiff 
+so that from one example an estimate of the others may be 
+formed. And of the many absurdities told in this [legend] I shall 
+touch upon one alone, that of the serpent,<ref target="note.143.1"/> in order to show that 
+Constantine had not been a leper. And verily the Life of Sylvester
+(Gesta Silvestri), according to the translator, was written 
+by Eusebius,<ref target="note.143.2"/> a Greek, always the readiest people at lying, as 
+Juvenal's satirical judgment runs: 
+
+<quote><l>Whatever in the way of history a lying Greek dares tell.<ref target="note.143.3"/></l></quote>
+
+Whence came that dragon? Dragons are not engendered in 
+Rome. Whence, too, his venom? In Africa alone, on account of 
+its hot climate, are there said to be pest-producing dragons. 
+Whence, too, so much venom that he wasted with pestilence such 
+
+<note xml:id="note.143.1"><p> This episode in the Gesta, or Actus, or Vita, Silvestri, as may be gathered  from Valla's subsequent discussion, involves an enormous serpent, dwelling in a cave under the Tarpeian rocic, devastating the entire city of Rome with his poisonous breath, appeased only by maidens being given him to devour, and finally bound forever in his cave by Sylvester. For references, cf. Coleman, Constantine, etc., pp. 161, 168. 
+
+</p></note>
+
+<note xml:id="note.143.2"><p> Apparently Valla assumes that the Gesta Silvestri was written by a Greek named Eusebius, but not Eusebius of Caesarea, author of the Church History. Cf., however, Coleman, Constantine, pp. 161-168. 
+</p></note>
+
+<note xml:id="note.143.3"><p> gatura, x, 174-175. 
+
+
+
+</p></note>
+
+<pb n="145"/>
+
+
+a spacious city as Rome; the more remarkable that the serpent 
+was down in a cavern so deep that one descended to it by a hundred
+and fifty steps? Serpents, excepting possibly the basilisk, 
+inject their poison and kill, not with their breath, but with their 
+bite. Cato, fleeing from Caesar through the very midst of the 
+African deserts with such a large force as he had, did not see any 
+of his company slain by the breath of a serpent, either on the 
+march or in camp; nor do the natives think the air pestilential on 
+account of serpents. And if we believe at all in the stories, the 
+Chimaera, the Hydra and Cerberus have all often been seen and 
+touched without injury.</p>
+
+<p>Why hadn't the Romans already slain it instead [of waiting 
+for Sylvester]? They couldn't, you say? But Regulus killed a 
+much larger serpent in Africa on the banks of the Bagradas. And 
+it was very easy indeed to kill the one at Rome; for instance, by 
+closing the mouth of the cavern. Or didn't they want to? Ah, they 
+worshipped it as a god, I suppose, as the Babylonians did ? Why 
+then, as Daniel is said to have killed that serpent,<ref target="note.145.1"/> had not Sylvester
+killed this one when he had bound him with a hempen 
+thread, and destroyed that brood forever? The reason the inventor 
+of the legend did not want the dragon slain was that it might not 
+be apparent that he had copied the narrative of Daniel. But if 
+Jerome, a most learned and accurate translator, ApoUinaris, 
+Origen, Eusebius and others affirm the story of Bel to be 
+apocryphal, if the Jews in their original of the Old Testament do 
+not know it; that is, if all the most learned of the Latins, most 
+of the Greeks, and certain of the Hebrews, condemn that as a 
+legend, shall I not condemn this adumbration of it, which is not 
+based on the authority of any writer, and which far surpasses its 
+model in absurdity?</p>
+
+<p>For who had built the underground home for the beast? Who 
+had put it there and commanded it not to come out and fly away 
+(for dragons fly, as some say; even though others deny it)? Who 
+had thought out that kind of food for him? Who had directed 
+that women, virgins at that, devoted to chastity, go down to him, 
+
+<note xml:id="note.145.1"><p> Cf . the story of Bel and the Dragon in the Apocrypha. 
+
+
+
+
+
+</p></note>
+
+<pb n="147"/>
+
+
+and only on the Kalends? Or did the serpent remember what day 
+was the Kalends? And was he content with such scant and occasional
+food? And did not the virgins dread such a deep cavern, 
+and a beast so monstrous and greedy? I suppose the serpent 
+wheedled them, as they were women, and virgins, and brought 
+him his victuals; I suppose he even chatted with them. What if, 
+pardon the expression, he even had intercourse with them; for 
+both Alexander and Scipio are said to have been born by the 
+embrace of a dragon, or a serpent, with their mothers! Why, if 
+food were afterward denied him, would he not have come out 
+then, or have died ?</p>
+
+<p>O the strange folly of men who have faith in these senile 
+ravings! How long now had this been going on? When did the 
+beginning occur? Before the advent of the Savior, or after? As 
+to this, nothing is known. We should be ashamed! We should be 
+ashamed of these silly songs, and this frivolity worse than dangerous!
+A Christian, who calls himself a son of truth and light, 
+should blush to utter things which not only are not true, but are 
+not credible.</p>
+
+<p>But, they say, the demons obtained this power over the heathen, 
+so as to mock them for serving the gods. Silence, you utter 
+ignoramuses, not to call you utter rascals, you who always spread 
+such a veil over your stories ! True Christianity does not need the 
+patronage of falsehood; it is maintained satisfactorily by itself, 
+and by its own light and truth, without those lying and deceitful 
+fables, — unmitigated insults to God, to Christ, and to the Holy 
+Spirit. Would God thus have given the human race over into 
+the power of demons, to be seduced by such evident, such imposing
+miracles, that he might well-nigh be accused of the injustice of 
+turning sheep over to wolves, and that men should have good 
+excuse for their errors? But if so much license was once given 
+demons, even more would be given them now among infidels; 
+which is by no means the case, nor are any legends of this sort 
+told by them.</p>
+
+<p>Passing by other peoples, I will speak of the Romans. Among 
+them the miracles reported are few, and they early and obscure. 
+
+
+
+
+
+<pb n="149"/>
+
+
+Valerius Maximus tells that that chasm in the middle of the 
+forum, when Curtius, armed and spurring on his horse, plunged 
+into it, closed again, and returned forthwith to its former state/ 
+Again, the [effigy of] Juno Moneta, when it was asked, in jest, 
+by a certain Roman soldier at the capture of Veil, whether it 
+wanted to move to Rome, replied that it did.<ref target="note.149.1"/>
+
+Titus Livius, an earlier and more authoritative writer, knows 
+neither of these stories. For he has it that the chasm was permanent,
+not a sudden opening but an old one, there before the 
+founding of the city, and called Curtius' Pond, because Mettius 
+Curtius, a Sabine, fleeing from an attack by the Romans, had 
+hidden in it; and that the Juno did not reply, but nodded assent, 
+and it was added to the story afterwards that she had spoken.' 
+And about the nod also, it is evident that they lied, either by interpreting
+the movement of the image when they pulled it away as 
+made by its own accord, or by pretending in the same joking way 
+in which they asked the question that the hostile, conquered, stone 
+goddess nodded assent. Indeed, Livy does not say that she nodded, 
+but that the soldiers exclaimed that she nodded. Such stories, too, 
+good writers do not defend as facts, but excuse as tradition. 
+For even as this same Livy says, "This indulgence is to be 
+granted antiquity, that by mingling the human and the divine it 
+may make the beginnings of cities more august."* And elsewhere: 
+"But in connection with events of such ancient times, if probabilities
+should be accepted as facts, no harm would be done. These 
+stories are more suited to the display of a stage which delights in 
+wonders, than to sober belief; it is not worth while either to affirm 
+or to refute them."<ref target="note.149.3"/>
+
+Terentius Varro, an earlier, more learned and, I think, more 
+authoritative writer than these two, says there were three accounts 
+of Curtius' Pond given by as many writers ; one by Proculus, that 
+
+
+
+<note xml:id="note.149.1"><p> Factorum et dictorum memorabilium libri novem, V, vi, 2. 
+</p></note>
+
+<note xml:id="note.149.2"><p> Ibid., I, viii, 3. 
+</p></note>
+
+<note xml:id="note.149.3"><p> Livy, VII, 6, incorrectly summarized. 
+
+</p></note>
+
+<note xml:id="note.149.4"><p> Livy, Preface, 7. 
+</p></note>
+
+<note xml:id="note.149.5"><p> Livy, V, 21, 9. 
+
+
+
+</p></note>
+
+<pb n="151"/>
+
+
+this pond was so called for a Curtius who cast himself into it; 
+another by Piso, that it was named for Mettius the Sabine; the 
+third by Cornelius, and he adds Luctatius as his associate in the 
+matter, that it was for Curtius the consul, whose colleague was 
+Marcus Genutius.<ref target="note.151.1"/> 
+
+Nor should I have concealed that Valerius cannot be altogether 
+criticised for speaking as he does, since a little later he earnestly 
+and seriously adds; "And I do not ignore the fact that as to 
+human eyes and ears perceiving the movement and the voice of 
+immortal gods, our judgment is rather confused by wavering 
+opinion ; but because what is said is not new but the repetition of 
+traditions, the authors may lay claim to credence."<ref target="note.151.2"/> He spoke of 
+the voice of the gods on account of the Juno Moneta,<ref target="note.151.3"/> and on 
+account of the statue of Fortune which is represented to have 
+twice spoken in these words, "With due form have you seen me, 
+matrons; with due form have you dedicated me."<ref target="note.151.4"/> 
+
+But our own story-tellers every once in a while bring in talking 
+idols of which the heathen themselves, and the worshippers of the 
+idols, do not speak; rather they deny them more earnestly than 
+the Christians affirm them. Among the heathen the very few 
+wonders which are told make their way not by the belief of 
+writers, but by the sanction of their antiquity, as something 
+sacred and venerable; among our writers wonders more recent 
+are narrated, wonders of which the men of those times did not 
+know.</p>
+
+<p>I neither disparage admiration for the saints, nor do I deny 
+their divine works, for I know that faith, as much of it as a grain 
+of mustard seed, is able even to remove mountains. Rather I 
+defend and uphold them, but I do not allow them to be confused 
+with ridiculous legends. Nor can I be persuaded that these writers 
+were other than either infidels, who did this to deride the Christians
+in case these bits of fiction handed out by crafty men to the 
+
+<note xml:id="note.151.1"><p> Terentius Varro, de lingua latina, lib. v, 148-150. 
+
+</p></note>
+
+<note xml:id="note.151.2"><p> Valerius Maximus, factorum et dictorum memorabilium, lib. i, viii, 7. 
+
+</p></note>
+
+<note xml:id="note.151.3"><p> Ibid., i, viii, 3. 
+
+</p></note>
+
+<note xml:id="note.151.4"><p> Ibid., i, viii, 4, with the substitution of "seen" for "given." 
+
+
+
+</p></note>
+
+<pb n="153"/>
+
+
+ignorant should be accepted as true, or else believers with a zeal" 
+for God, to be sure, but not according to knowledge, men who did 
+not shrink from writing shameless accounts not only of the acts of 
+the saints but even of the mother of God, and indeed of Christ 
+himself, nor from writing pseudo-gospels. And the supreme pontiff 
+calls these books apocryphal as though it were no blemish that 
+their author is unknown, as though what was told were credible, 
+as though they were sacred, tending to establish religion; so that 
+now" there is no less fault on his part in that he approves evils, 
+than on the part of the one who devised them. We detect spurious 
+coins, we pick them out and reject them; shall we not detect 
+spurious teaching? Shall we retain it, confuse it with the genuine 
+and defend it as genuine?</p>
+
+<p>But I, to give my frank opinion, deny that the Acts of Sylvester
+is an apocryphal book; because, as I have said, a certain 
+Eusebius is said to have been its author; but I think it is false and 
+not worth reading, in other parts as well as in what it has to say 
+about the serpent, the bull,<ref target="note.153.1"/> and the leprosy, to refute which I 
+have gone over so much ground. For even if Naaman was leprous, 
+should we forthwith say that Constantine also was leprous? Many 
+writers allude to it in Naaman's case; that Constantine the head 
+of the whole earth had leprosy no one mentioned; at least none 
+of his fellow citizens, but perhaps some foreigner or other, to be 
+given no more credence than that other fellow who wrote about 
+wasps building their nest in Vespasian's nostrils, and about the 
+frog taken from Nero at birth, whence they say the place was 
+called the Lateran, for the frog (rana) is concealed (latere) there 
+in its grave.<ref target="note.153.2"/> Such stuff neither the wasps themselves, nor frogs, 
+if they could speak, would have uttered! [I pass over the statement
+that boys' blood is a remedy for leprosy, which medical 
+
+<note xml:id="note.153.1"><p> In a disputation between Sylvester and Jewish rabbis the rabbis are said to  have killed a bull by shouting the sacred name, Jehovah, and Sylvester is said to have brought him to life by whispering the name of Christ. Cf. Coleman, Constantine the Great, etc., p. 163. 
+
+</p></note>
+
+<note xml:id="note.153.2"><p> These stories were to be found, among other places, in the Mirabilia urbis Romae, a guidebook to Rome dating from the twelfth century. English translation by F. M. Nichols, The Marvels of Rome (London and Rome, 1889), pp. 19-20. 
+
+
+
+</p></note>
+
+<pb n="155"/>
+
+
+science does not admit; 1] unless they attribute this to the Capitohne
+gods, as though they were wont to talk and had ordered this 
+to be done!</p>
+
+<p>But why should I wonder that the pontiffs are not informed on 
+these points, when they do not know about their own name! For 
+they say that Peter is called Cephas because he was the head of 
+the apostles, as though this noun were Greek, from <foreign xml:lang="grc">κεφαλή</foreign>, and 
+not Hebrew, or rather Syriac; a noun which the Greeks write 
+<foreign xml:lang="grc">κηφᾶς</foreign>, and which with them means rock (Petrus), and not head! 
+For "petrus," "petra," (rock) is a Greek noun. And "petra" is 
+stupidly explained by them through a Latin derivation, as from 
+"pede trita" (trodden by foot) ! And they distinguish "metropolitan"
+from "archbishop," and claim that the former is so called 
+from the size of the city, though in Greek it is not called 
+<foreign xml:lang="grc">μετρόπολις</foreign> but <foreign xml:lang="grc">μήτροπολις</foreign>, that is, the mother-state or city. And 
+they explain "patriarch" as "pater patrum" (father of fathers); 
+and "papa" (pope) from the interjection "pape" (indeed) ; and 
+"orthodox" as from the words meaning "right glory"; and they 
+pronounce "Simonem" (Simon) with a short middle vowel, 
+though it should be read with a long one, as are "Platonem" 
+(Plato) and "Catonem" (Cato). And there are many similar 
+instances which I pass, lest for the fault of some of the supreme 
+pontiffs I should seem to attack all. These instances had to be 
+given so that no one should wonder that many of the Popes have 
+been unable to detect that the Donation of Constantine was 
+spurious; though, in my opinion, this deception originated with 
+one of them.</p>
+
+<p>But you say, "Why do not the Emperors, who were the sufferers 
+from this forgery, deny the Donation of Constantine, instead of 
+admitting it, confirming it and maintaining it?" A great argument! 
+
+<note xml:id="note.155.1"><p> This clause, though not in the MS. or Hutten, seems necessary to the sense  of the following clause, so I have translated it from Bonneau's text. In the Vita Silvestri we are told that the pagan priests ordered Constantine to bathe in infants' blood in order to cure himself of leprosy. Cf. Coleman, Constantine the Great, etc., p. 162. 
+
+
+
+</p></note>
+
+<pb n="157"/>
+
+
+a marvellous defense! For of which Emperor are you speaking? 
+If of the Greek one, who was the true Emperor, I will deny the 
+admission; if of the Latin, I will, confess it, and with pleasure. 
+For who does not know that the Latin Emperor was gratuitously 
+established by a supreme pontiff, Stephen I think, who robbed the 
+Greek Emperor because he would not aid Italy, and established 
+a Latin Emperor; so the Emperor thus received more from the 
+Pope than the Pope from the Emperor?<ref target="note.157.1"/> Oh, of course, Achilles 
+and Patroclus divided the Trojan spoils between themselves alone 
+on some such terms. The words of Louis [the Pious] seem to me 
+to imply just this when he says, "I, Louis, Roman Emperor, 
+Augustus, ordain and grant, by this compact of our confirmation, 
+to you, blessed Peter, prince of the apostles, and through you to 
+your vicar, the supreme pontiff, lord Paschal [I], and to his successors
+forever, to hold, just as from our predecessors until now 
+you have held, under your authority and rule, the Roman state 
+with its duchy, with all its towns and villages, its mountain districts,
+sea coasts and harbors, and all cities, forts, walled towns, 
+and estates in the districts of Tuscany."<ref target="note.157.2"/>
+
+Do you, Louis, make a pact with Paschal? If these are yours, 
+that is, the Roman Empire's, why do you grant them to another? 
+If they are his and are held in his own possession, what sense is 
+there in your confirming them ? How little of the Roman Empire 
+will be yours if you lose the very head of the Empire? From Rome 
+the Roman Emperor takes his name. What! Are your other possessions
+yours or Paschal's? Yours, you will say, I suppose. 
+Therefore, the Donation of Constantine is not valid at all; that is, 
+if you possess what was given by him to the pontiff. If it is valid, 
+by what right does Paschal give you the rest [of the Empire], 
+retaining for himself only what he possesses? What does your 
+excessive prodigality toward him at the expense of the Roman 
+Empire mean, or his toward you? Therefore, deservedly do you 
+call it a "compact," something like collusion. 
+
+<note xml:id="note.157.1"><p> It will be remembered that Valla wrote this while in the service of the King  of Naples, who was in conflict with imperial as well as with papal claims. 
+</p></note>
+
+<note xml:id="note.157.2"><p> A forgery of the eleventh century. Cf. E. Emerton, Medieval Europe, p. 5$. 
+
+
+
+</p></note>
+
+<pb n="159"/>
+
+
+"But what shall I do?" you will say. "Shall I try to recover by 
+force what the Pope has in his possession? But he, alas, has now 
+become more powerful than I. Shall I seek to regain it by law? 
+But my right is only such as he is willing for it to be. For I came 
+to the throne, not through an inherited title, but by a compact 
+that if I wish to be Emperor I should promise the Pope in turn 
+such aiid such considerations. Shall I say that Constantine did not 
+give away any of the Empire? But that way I should be arguing 
+the cause of the Greek Emperor, and I should rob myself of all 
+imperial dignity. For the Pope says he makes me Emperor with 
+this very thing in view, as a kind of vicar of his; and unless I 
+bind myself, he will not make me Emperor; and unless I obey I 
+shall have to abdicate. If only he gives me the throne I will 
+acknowledge everything, I will agree to everything. Only; take 
+my word for it, if I had Rome and Tuscany in my possession, I 
+would act quite differently and Paschal would sing me that old 
+song of the Donation, spurious in my opinion, in vain. As things 
+are, I yield what I neither have nor hope to have. To question the 
+right of the Pope is not my concern but that of the Emperor 
+yonder at Constantinople."</p>
+
+<p>I quite excuse you, Louis, and every other ruler similarly 
+placed. What must we suspect of the compact of other Emperors 
+with the supreme pontiffs, when we know what Sigismund did, a 
+ruler otherwise most excellent and courageous, but at that time 
+affected and weakened by age ? We saw him, hedged in throughout
+Italy, with a few retainers, living from day to day at Rome, 
+and he would, indeed, have perished with hunger, had not Eugenius
+fed him, — but not for nothing, for he extorted the Donation
+from him. When he had come to Rome to be crowned 
+Emperor of the Romans, he could not get the Pope to crown him, 
+except by confirming the Donation of Constantine and by granting
+anew all that it contained. What more contradictory than for 
+him to be crowned Roman Emperor who had renounced Rome 
+itself, and that by the man whom he both acknowledges and, so 
+far as he can, makes master of the Roman Empire; and [for the 
+
+
+
+
+
+<pb n="161"/>
+
+
+Emperor] to confirm the Donation which, if genuine, leaves none 
+of the Empire for the Emperor! It is a thing which, as I think, not 
+even children would have done. So it is not strange that the Pope 
+arrogates to himself the coronation of the Caesar, which ought to 
+belong to the Roman people.</p>
+
+<p>If you, O Pope, on the one hand can deprive the Greek 
+Emperor of Italy and the western provinces, and on the other you 
+create a Latin Emperor, why do you resort to "compacts"? Why 
+do you divide the Caesar's estate? Why do you transfer the 
+Empire to yourself?</p>
+
+<p>Wherefore, let whoever is called Emperor of the Romans know 
+that in my judgment he is not Augustus, nor Caesar, nor Emperor,
+unless he rules at Rome; and unless he takes up the recovery
+of the city of Rome, he will plainly be forsworn. For those 
+earlier Caesars, and Constantine first of them, were not forced 
+to take the oath by which the Caesars are now bound; but rather 
+the oath that, so far as it lay in human power, they would not 
+diminish the extent of the Roman Empire, but would diligently 
+add to it.</p>
+
+<p>Yet not for this reason are they called Augusti, namely that 
+they ought to augment the Empire, as some think whose knowledge
+of Latin is imperfect; for he is called Augustus, as consecrated,
+from "avium gustus" (the taste, or appetite, of the 
+birds), a customary step in consulting the omens: and this derivation
+is supported by the language of the Greeks, among whom the 
+Augustus is called <foreign xml:lang="grc">σεβασός</foreign>, from which Sebastia gets its name. 
+Better might the supreme pontiff be called Augustus from 
+"augere" (to augment), except for the fact that when he augments 
+his temporal he diminishes his spiritual power. Thus it is a fact 
+that the worse the supreme pontiff is, the more he exerts himself 
+to defend this Donation. Take the case of Boniface VIII, who 
+deceived Celestine by means of pipes fixed in the wall.<ref target="note.161.1"/> He both 
+writes concerning the Donation of Constantine, and he despoils 
+the French king; and, as though he wished to put the Donation 
+
+<note xml:id="note.161.1"><p> Gossip had it that Boniface VIII induced his predecessor to abdicate by  angelic warnings, which he himself produced through improvised speaking tubes.
+
+
+
+</p></note>
+
+<pb n="163"/>
+
+
+of Constantine in execution, he decrees that the kingdom itself 
+belonged to and was subject to the Roman church. This decretal 
+his successors, Benedict and Clement, revoked outright, as wicked 
+and unjust.</p>
+
+<p>But what is the significance of your anxiety, Roman pontiffs, 
+in requiring each Emperor to confirm the Donation of Constantine,
+unless it be that you distrust its legality? But you are washing
+bricks [you labor in vain], as they say; for that Donation 
+never existed, and since it does not exist it cannot be confirmed; 
+and whatever the Caesars grant, their acts are due to deception 
+as to the precedent of Constantine; and they cannot grant the 
+Empire.</p>
+
+<p>However, let us grant that Constantine made the Donation and 
+that Sylvester was at one time in possession, but afterwards either 
+he himself or another of the Popes lost possession. (I am speaking 
+now of that of which the Pope is not in possession; later on I 
+will speak of that of which he is in possession.) What more can 
+I grant you than to concede the existence of that which never was 
+and never could be? But even so, I say that you cannot effect 
+a recovery either by divine or by human law. In the ancient law 
+it was forbidden that a Hebrew be a Hebrew's slave more than 
+six years, and every fiftieth year also everything reverted to the 
+original owner. Shall a Christian, in the dispensation of grace, 
+be oppressed in eternal slavery by the vicar of the Christ who 
+redeemed us from our servitude? What do I say! Shall he be 
+recalled to servitude after he has been set free and has long 
+enjoyed his freedom?</p>
+
+<p>How brutal, how violent, how barbarous the tyranny of priests 
+often is, I do not say. If this was not known before, it has lately 
+been learned from that monster of depravity, John Vitelleschi, 
+cardinal and patriarch, who wore out the sword of Peter, with 
+which [the apostle] cut off the ear of Malchus, with the blood of 
+Christians. By this sword he himself also perished.<ref target="note.163.1"/> But is it true 
+
+<note xml:id="note.163.1"><p> The assassination of Vitelleschi, supposedly by order of the Pope, took place  in March, 1440, and is one of the means of dating Valla's treatise. 
+
+
+
+
+
+
+
+</p></note>
+
+<pb n="165"/>
+
+
+that the people of Israel were permitted to revolt from the house 
+of David and Solomon whom prophets sent by God had anointed, 
+because their impositions were too heavy; and that God approved 
+their act? May we not revolt on account of such great tyranny, 
+particularly from those who are not kings, and cannot be; and 
+who from being shepherds of the sheep, that is to say, of souls, 
+have become thieves and brigands ?</p>
+
+<p>And to come to human law, who does not know that there is 
+no right conferred by war, or if there is any, that it prevails just 
+as long as you possess what you have gotten by war? For when 
+you lose possession, you have lost the right. And so ordinarily, 
+if captives have escaped no one summons them into court: and so 
+also with plunder if the former owners have recovered it. Bees 
+and any other kind of winged creatures, if they have flown away 
+far from my property and have settled on another's, cannot 
+be reclaimed. And do you seek to reclaim men, who are not only 
+free creatures, but masters of others, when they set themselves 
+free by force of arms, [reclaim them] not by force of arms, but 
+by law, as though you were a man, and they sheep?</p>
+
+<p>Nor can you say, "The Romans were [considered] just in 
+waging wars against the nations, and just in depriving them of 
+liberty." Do not drag me into that discussion, lest I be forced to 
+speak against my fellow Romans. However, no fault could be so 
+serious that people should merit everlasting servitude therefor. 
+And in this connection [one must remember also] that people 
+often waged a war for which a prince or some important citizen 
+in the Republic was to blame, and, being conquered, were undeservedly
+punished with servitude. There are everywhere abundant
+examples of this.</p>
+
+<p>Nor in truth does the law of nature provide that one people 
+should subjugate another people to itself. We can instruct others, 
+we can urge them; we cannot rule them and do them violence, 
+unless, leaving humanity aside, we wish to copy the more savage 
+beasts which force their bloody rule upon the weaker, as the lion 
+among quadrupeds, the eagle among birds, the dolphin among 
+fish. Yet even these creatures do not vaunt authority over their 
+
+
+
+
+
+<pb n="167"/>
+
+
+own kind, but over an inferior. How much more ought we to act 
+thus, and as men have due regard for men, since in the words of 
+Marcus Fabius there is no beast upon the earth so fierce that his 
+own likeness is not sacred to him ?</p>
+
+<p>Now there are four reasons why wars are waged: either for 
+avenging a wrong and defending friends; or for fear of incurring 
+disaster later, if the strength of others is allowed to increase; or 
+for hope of booty; or for desire of glory. Of these the first is 
+rather honorable, the second less so, and the last two are far from 
+honorable. And wars were indeed often waged against the Romans,
+but after they had defended themselves, they waged war 
+against their assailants and against others. Nor is there any 
+nation which yielded to their sway unless conquered in war and 
+subdued; whether justly, or for what cause, they themselves could 
+judge. I should be unwilling to condemn them as fighting unjustly 
+or to acquit them as fighting in a just cause. I can only say that 
+the Roman people waged wars against others for the same reason 
+as other peoples and kings did, and that it was left open even to 
+those who were attacked and conquered in war to revolt from the 
+Romans just as they revolted from other masters; lest perchance 
+(and none would agree to this) all authority should be imputed 
+to the oldest people who were first masters ; that is, to those who 
+were the first to take possession of what belonged to others.</p>
+
+<p>And yet the Roman people had a better right over nations 
+conquered in war than had the Caesars in their overthrow of the 
+Republic. Wherefore, if it was right for the nations to revolt 
+from Constantine, and, what is far more, from the Roman people, 
+surely it will be right to revolt from him to whom Constantine 
+gave his authority. And to put the matter more boldly, if the 
+Roman people were free either to drive Constantine out, as they 
+did Tarquinius, or to slay him, as they did Julius Caesar, much 
+more will the Romans or the provinces be free to slay him, who 
+at any time has succeeded Constantine. But though this is true, 
+yet it is beyond the scope of my argument, and so I want to restrain
+myself and not press anything I have said further than 
+this, that it is folly to adduce any verbal right, where the right of 
+
+
+
+
+
+<pb n="169"/>
+
+
+arms prevails, because that which is acquired by arms, is likewise 
+lost by arms.</p>
+
+<p>This, indeed, the more, that other, new, peoples as we have 
+heard in the case of the Goths, who were never subject to Roman 
+rule, after putting to flight the earlier inhabitants, seized upon 
+Italy and many provinces. What justice, pray, is there in restoring
+these to a servitude which they have never experienced; 
+especially as they are the conquering peoples; and to servitude 
+perchance under the conquered peoples? And if at this time any 
+cities and nations, deserted by the Emperor at the arrival of the 
+barbarians, as we know to have been the case, had been compelled 
+to elect a king under whose leadership they then won victory, 
+is there any reason why they should later depose this ruler? Or 
+should they bid his sons, popular it may be for their father's, 
+praise, it may be for their own valor, become private citizens, 
+that they might again become subjects of a Roman prince, even 
+though they were greatly in need of their assistance and hoped for 
+no aid elsewhere? If the Caesar himself, or Constantine, returned 
+to life, or even the Senate and Roman people should call them 
+before a general court such as the Amphictyony was in Greece, 
+[the plaintiff] would at once be ruled out at his first plea because 
+he was reclaiming to bondage and slavery those who once had been 
+abandoned by him, their guardian, those who for a long time had 
+been living under another ruler, those who had never been subject
+to a foreign-born king, men, in conclusion, who were freeborn
+and proclaimed free by their vigor of mind and body. How 
+clear it should be, that if the Caesar, if the Roman people, is 
+thus debarred from recovering control, much more decidedly is 
+the Pope! And if the other nations which have been subject to 
+Rome are free either to appoint a king for themselves or to maintain
+a republic, far more are the Roman people themselves free 
+to do this, especially against the innovation of papal tyranny.</p>
+
+<p>Estopped from defending the Donation, since it never existed 
+and, if it had existed, it would now have expired from lapse of 
+time, our adversaries take refuge in another kind of defense; 
+
+
+
+
+
+<pb n="171"/>
+
+
+figuratively speaking, the city being given up for lost, they betake 
+themselves to their citadel, — which forthwith they are constrained 
+by lack of provisions to surrender. "The Roman church," they 
+say, "is entitled by prescription to what it possesses." Why then 
+does it lay claim to that, the greater part, to which it has no title 
+by prescription, and to which others are entitled by prescription; 
+unless others cannot act toward it as it can act toward them?</p>
+
+<p>The Roman church has title by prescription! Why then does 
+it so often take care to have the Emperors confirm its right? Why 
+does it vaunt the Donation, and its confirmation by the Caesars? 
+If this alone is sufficient, you seriously weaken it by not at the 
+same time keeping silent about the other title [by prescription] . 
+Why don't you keep silent about that other? Obviously because 
+this is not sufficient.</p>
+
+<p>The Roman church has prescribed! And how can it have 
+entered a prescription where no title is established but only 
+possession through bad faith ? Or if you deny that the possession 
+was a case of bad faith, at least you cannot deny that the faith 
+[in the Donation] was stupid. Or, in a matter of such importance 
+and notoriety, ought ignorance of fact and of law to be excused? 
+Of fact, because Constantine did not make a grant of Rome and 
+the provinces; a fact of which a man of the common people might 
+well be ignorant, but not the supreme pontiff. Of law, because they 
+could not be granted; which any Christian ought to know. And so, 
+will stupid credulity give you a right to that which, had you been 
+more conscientious, would never have been yours ? Well ! Now, at 
+least, after I have shown that you held possession through ignorance
+and stupidity, do you not lose that right, if it was such? 
+and what ignorance unhappily brought you, does not knowledge 
+happily take away again? and does not the property revert from 
+the illegal to the legal master, perchance even with interest? But 
+if you continue to keep possession in the future, your ignorance 
+is henceforth changed into malice aforethought and into deceit, 
+and you become a fraudulent holder.</p>
+
+<p>The Roman church has entered a prescription! O simpletons, 
+O ignoramuses in divine law! No length of years whatever can 
+
+
+
+
+
+<pb n="173"/>
+
+
+destroy a true title. Or indeed, if I were captured by barbarians 
+and supposed to have perished, and should return again home 
+after a hundred years of captivity, as a claimant of my paternal 
+inheritance, should I be excluded? What could be more inhuman! 
+And, to give another example, did Jephthah, the leader of Israel, 
+when the Ammonites demanded back the land from "the borders 
+of Arnon even unto Jabbok and unto Jordan," reply, "Israel has 
+prescribed this now through three hundred years' occupation"? 
+Or did he not show that the land which they demanded as theirs, 
+had never been theirs, but had been the Amorites'? And the proof 
+that it did not belong to the Ammonites was that they had never 
+in the course of so many years claimed it.<ref target="note.173.1"/>
+
+The Roman church has prescribed! Keep still, impious tongue! 
+You transfer "prescription," which is used of inanimate, senseless 
+objects, to man; and holding man in servitude is the more detestable,
+the longer it lasts. Birds and wild animals do not let themselves
+be "prescribed," but however long the time of captivity, 
+when they please and occasion is offered, they escape. And may 
+not man, held captive by man, escape?</p>
+
+<p>Let me tell why the Roman pontiffs show fraud and craft rather 
+than ignorance in using war instead of law as their arbiter, — 
+and I believe that the first pontiffs to occupy the city [of Rome] 
+and the other towns did about the same. Shortly before I was 
+born, Rome was led by an incredible sort of fraud, I call those 
+then present there to witness, to accept papal government or 
+rather usurpation, after it had long been free.<ref target="note.173.2"/> The Pope was 
+Boniface IX, fellow of Boniface VIII in fraud as in name, — if 
+they are to be called Boniface (benefactor) at all, who are the 
+worst malefactors. And when the Romans, after the treachery 
+had been detected, stirred up trouble, the good Pope, after the 
+manner of Tarquinius, struck off all the tallest poppies with his 
+stick.<ref target="note.173.3"/> When his successor. Innocent [VII], afterwards tried to 
+
+<note xml:id="note.173.1"><p> Judges xi, 12-28. 
+
+</p></note>
+
+<note xml:id="note.173.2"><p> For these episodes, cf. Creighton, History of the Papacy, etc., vol. I, passim. 
+
+</p></note>
+
+<note xml:id="note.173.3"><p> Tarquinius, by striking down the tallest poppies with his cane, gave the hint  that the leaders of the opposition should be executed; cf. Livy, I, 54. 
+
+
+
+</p></note>
+
+<pb n="175"/>
+
+
+imitate this procedure he was driven out of the city. I will not 
+speeik of other Popes; they have always held Rome down by 
+force of amis. Suffice it to say that as often as it could it has 
+rebelled; as for instance, six years ago,<ref target="note.175.1"/> when it could not obtain 
+peace from Eugenius, and it was not equal to the enemies which 
+were besieging it, it besieged the Pope within his house, and would 
+not permit him to go out before he either made peace with the 
+enemy or turned over the administration of the city to the citizens. 
+But he preferred to leave the city in disguise, with a single companion
+in flight, rather than to gratify the citizens in their just 
+and fair demands. If you give them the choice, who does not know 
+that they would choose liberty rather than slavery ?</p>
+
+<p>We may suspect the same of the other cities, which are kept in 
+servitude by the supreme pontiff, though they ought rather to be 
+liberated by him from servitude. It would take too long to enumerate
+how many cities taken from their enemies the Roman 
+people once set free; it went so far that Titus Flaminius [Flamininus]
+set free the whole of Greece, which had been under 
+Antiochus,<ref target="note.175.2"/> and directed that it enjoy its own laws. But the Pope, 
+as may be seen, lies in wait assiduously against the liberty of 
+countries; and therefore one after another, they daily, as opportunity
+affords, rebel. (Look at Bologna just now.) And if at any 
+time they have voluntarily accepted papal rule, as may happen 
+when another danger threatens them from elsewhere, it must not 
+be supposed that they have accepted it in order to enslave themselves,
+so that they could never withdraw their necks from the 
+yoke, so that neither themselves nor those born afterwards should 
+have control of their own affairs; for this would be utterly 
+iniquitous.</p>
+
+<p>"Of our own will we came to you, supreme pontiff, that you 
+might govern us; of our own will we now leave you again, that 
+you may govern us no more. If you have any claim against us, let 
+
+<note xml:id="note.175.1"><p> The ensuing episode occurred in 1434 and thus fixes the date of the writing of  this passage as 1439 or 1440. Cf. Mancini, Vita di Lorenzo Valla, p. 163. 
+
+</p></note>
+
+<note xml:id="note.175.2"><p> Flamininus had defeated Philip V of Macedonia, and it was from Philip, not  Antiochus, that he "freed" Greece. 
+
+
+
+</p></note>
+
+<pb n="177"/>
+
+
+the balance of debit and credit be determined. But you want to 
+govern us against our will, as though we were wards of yours, we 
+who perhaps could govern you more wisely than you do yourself ! 
+Add to this the wrongs all the time being committed against this 
+state either by you or by your magistrates. We call God to witness 
+that our wrong drives us to revolt, as once Israel did from Rehoboam.
+And what great wrong did they have? What [a small] 
+part of our calamity is the [mere] payment of heavier taxes! 
+What then if you impoverish the Republic? You have impoverished
+it. What if you despoil our temples? You have despoiled 
+them. What if you outrage maidens and matrons? You have 
+outraged them. What if you drench the city with the blood of its 
+citizens? You have drenched it. Must we endure all this? Nay, 
+rather, since you have ceased to be a father to us, shall we not 
+likewise forget to be sons? This people summoned you, supreme 
+pontiff, to be a father, or if it better pleases you, to be their lord, 
+not to be an enemy and a hangman; you do not choose to act the 
+father or the lord, but the enemy and the hangman. But, since 
+we are Christians, we will not imitate your ferocity and your 
+impiety, even though by the law of reprisal we might do so, nor 
+will we bare the avenging sword above your head; but first your 
+abdication and removal, and then we will adopt another father or 
+lord. Sons may flee from vicious parents who brought them into 
+the world; may we not flee from you, not our real father but an 
+adopted one who treats us in the worst way possible? But do you 
+attend to your priestly functions; and don't take your stand in 
+the north, and thundering there hurl your lightning and thunderbolts
+against this people and others."</p>
+
+<p>But why need I say more in this case, absolutely self-evident 
+as it is? I contend that not only did Constantine not grant such 
+great possessions, not only could the Roman pontiff not hold 
+them by prescription, but that even if either were a fact, nevertheless
+either right would have been extinguished by the crimes 
+of the possessors, for we know that the slaughter and devastation 
+of all Italy and of many of the provinces has flowed from this 
+
+
+
+
+
+<pb n="179"/>
+
+
+single source. If the source is bitter, so is the stream; if the root 
+is unclean, so are the branches; if the first fruit is unholy, so is 
+the lump.<ref target="note.179.1"/> And vice versa, if the stream is bitter, the source must 
+be stopped up; if the branches are unclean, the fault comes from 
+the root; if the lump is unholy, the first fruit must also be accursed.
+Can we justify the principle of papal power when we 
+perceive it to be the cause of such great crimes and of such great 
+and varied evils ?</p>
+
+<p>Wherefore I declare, and cry aloud, nor, trusting God, will I 
+fear men, that in my time no one in the supreme pontificate has 
+been either a faithful or a prudent steward, but they have gone 
+so far from giving food to the household of God that they havef 
+devoured it as food and a mere morsel of bread! And the Pope 
+himself makes war on peaceable people, and sows discord among 
+states and princes. The Pope both thirsts for the goods of others 
+and drinks up his own: he is what Achilles calls Agamemnon, 
+<foreign xml:lang="grc">Δημοβόρος βασιλεύς</foreign>, "a people-devouring king." The Pope not 
+only enriches himself at the expense of the republic, as neither 
+Verres nor Catiline nor any other embezzler dared to do, but he 
+enriches himself at the expense of even the church and the Holy 
+Spirit as old Simon Magus himself would abhor doing. And when 
+he is reminded of this and is reproved by good people occasionally, 
+he does not deny it, but openly admits it, and boasts that he is 
+free to wrest from its occupants by any means whatever the 
+patrimony given the church by Constantine; as though when it 
+was recovered Christianity would be in an ideal state, — and not 
+rather the more oppressed by all kinds of crimes, extravagances 
+and lusts; if indeed it can be oppressed more, and if there is any 
+cfime yet uncommitted!</p>
+
+<p>And so, that he may recover the other parts of the Donation, 
+money wickedly stolen from good people he spends more 
+wickedly, and he supports armed forces, mounted and foot, with 
+which all places are plagued, while Christ is dying of hunger and 
+nakedness in so many thousands of paupers. Nor does he know, 
+
+<note xml:id="note.179.1"><p> A reminiscence of Rom. xi, 16. 
+
+
+
+</p></note>
+
+<pb n="181"/>
+
+
+the unworthy reprobate, that while he works to deprive secular 
+powers of what belongs to them, they in turn are either led by 
+his bad example, or driven by necessity (granting that it may not 
+be a real necessity) to make off with what belongs to the officers 
+of the church. And so there is no religion anywhere, no sanctity, 
+no fear of God; and, what I shudder to mention, impious men 
+pretend to find in the Pope an excuse for all their crimes. For he 
+and his followers furnish an example of every kind of crime, 
+and with Isaiah and Paul, we can say against the Pope and those 
+about him: "The name of God is blasphemed among the Gentiles 
+through you, you who teach others, but do not teach yourselves; 
+who preach against stealing and yourselves are robbers; who 
+abhor idols, and commit sacrilege; who make your boast of the 
+law and the pontificate, and through breaking the law dishonor 
+God, the true pontiff."<ref target="note.181.1"/>
+
+But if the Roman people through excess of wealth lost the wellknown
+quality of true Romans; if Solomon likewise fell into 
+idolatry through the love of women; should we not recognize 
+that the same thing happens in the case of a supreme pontiff and 
+the other clergy? And should we then think that God would have 
+permitted Sylvester to accept an occasion of sin? I will not suffer 
+this injustice to be done that most holy man, I will not allow this 
+affront to be offered that most excellent pontiff, that he should 
+be said to have accepted empires, kingdoms, provinces, things 
+which those who wish to enter the clergy are wont, indeed, to 
+renounce. Little did Sylvester possess, little also the other holy 
+poritiffs, those men whose presence was inviolable even among 
+enemies, as Leo's presence overawed and broke down the wild 
+soul of the barbarian king, which the strength of Rome had not 
+availed to break down nor overawe.<ref target="note.181.2"/> But recent supreme pontiffs, 
+that is, those having riches and pleasures in abundance, seem to 
+work hard to make themselves just as impious and foolish as those 
+early pontiffs were wise and holy, and to extinguish the lofty 
+
+<note xml:id="note.181.1"><p> Free quotations from Rom. ii, 21-24. 
+
+</p></note>
+
+<note xml:id="note.181.2"><p> A reference to the well-known interview in which Leo I persuaded Attila to  desist from his invasion of Italy. 
+
+
+
+</p></note>
+
+<pb n="183"/>
+
+
+praises of those men by every possible infamy. Who that calls 
+himself a Christian can calmly bear this ?</p>
+
+<p>However, in this my first discourse I do not wish to urge princes 
+and peoples to restrain the Pope in his unbridled course as he 
+roams about, and compel him to stay within bounds, but only 
+to warn him, and perhaps he has already learned the truth, to 
+betake himself from others' houses to his own, and to put to port 
+before the raging billows and savage tempests. But if he refuses, 
+then I will have recourse to another discourse far bolder than 
+this.<ref target="note.183.1"/> If only I may sometime see, and indeed I can scarcely wait 
+to see it, especially if it is brought about by my counsel, if only 
+I may see the time when the Pope is the vicar of Christ alone, and 
+not of Caesar also! If only there wt>uld no longer be heard the 
+fearful cry, "Partisans for the Church," "Partisans against the 
+Church," "The Church against the Perugians," "against the Bolognese"!
+It is not the church, but the Pope, that fights against 
+Christians; the church fights against "spiritual wickedness in 
+high places."<ref target="note.183.2"/> Then the Pope will be the Holy Father in fact as 
+well as in name. Father of all, Father of the church; nor will 
+he stir up wars among Christians, but those stirred up by others 
+he, through his apostolic judgment and papal prerogative, will 
+stop.<ref target="note.183.3"/>
+
+<note xml:id="note.183.1"><p> This other discourse did not appear. 
+
+</p></note>
+
+<note xml:id="note.183.2"><p> Eph. vi, 12. 
+
+</p></note>
+
+<note xml:id="note.183.3"><p> The MS., Cod. Vat. Lat. 5314, on which this translation is based, was finished  December 7, 1451. 
+
+</p></note>
+
+
+
+
+
+
+
+
+</p>
+</body>
+</text>
+</TEI>

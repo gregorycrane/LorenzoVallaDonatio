@@ -1,0 +1,935 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Alcide Bonneau</editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Alcide Bonneau</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <publisher>Isidore Liseux, Editeur, Rue Bonaparte, n. 2 1879</publisher>
+              <date>1879</date>
+            </imprint>
+          </monogr>
+	<ref target="https://babel.hathitrust.org/shcgi/pt?id=wu.89100038991">Book scanned from the University of Wisconsin. Hathitrust: wu.89100038991</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+    <body>
+
+
+
+<pb n="V"/>
+<head>Étude Historique</head>
+
+<p>L’Eglise catholique est d’une extréme opulence en documenta apocryphes; nulle n’a falsifié l’histoire avec plus d’audace et d’ingéniosité. Cela s’explique. Création artificielle, reposant sur un ensemble de fictions qui sont en contradiction flagrante avec les faits avérés, elle s’est trouvée dans l’obligation d’adresser un appel constant à l’esprit inventif de ses adeptes pour forger de toutes pièces les titres necessaires a son existence, a ses vues de domination, ainsi que les preuves de la mission qu’elle s’attribuait; se créer des annales imaginaires qui vinssent à l’appui de ses affirmations et leur faire subir, de temps en temps, d’habiles retouches, car la
+
+
+
+
+<pb n="VI"/>
+
+science augmente et la crédulité décroit. La vérité subsiste par elle-mème, solide, inébranlable; mais le mensonge, de quels étancons, de quels arcs-boutants faut-il le soutenir pour le forcer à rester un instant en équilibre! Aussi voyons-nous depuis tant de siècles les gens d’Eglise occupés sans relàche à préserver de ruine le vieil et branlant édifice; labeur de jour et de nuit dans des choses croulantes, travail incessant, toujours à refaire : c’est avec du papier, des textes fabriqués, des titres chimériques, des contrats suspects qu’ils espèrent en boucher les lézardes et les crevasses ! Quand une de leurs fictions est usée, que la critique en a démontrélenéant, ils l’abandonnent, la désavouent, l’attribuent aux Ariens, aux Grecs, aux Albigeois, aux Vaudois, aux Luthériens, à n’importequi, saufà ses véritables machinateurs, et vite en exhibent une autre, toute neuve, qui durerà ce qu’elle pourra, et dont la destinée est d’étre aussi, à son déclin, mise sur le compte des hérétiques. Delàchez eux tant de supercheries contradictoires, nées des besoins du jour, puis alternativement délaissées ou reprises, selon le soufflé du vent.</p>
+<p>La fable est un genre littéraire qui a du charme, pourvu qu’on ne brulé pas ceux qui refusent de le goùter; ils y ont excellé,
+
+
+
+
+<pb n="VII"/>
+mais ils n’ont pas su se restreindre au nécessaire, comme l’exigeait la simple prudence. En compulsant leurs archives, on y découvre, avec une surprise voisine de l'admiration, une masse de titres dont l’utiiité est nulle et qui ont du étre imaginés uniquement pour l’amour de Part. Quoi de plus curieux que ces innombrables histoires de saints, de confesseurs, de martyrs, inconcì-liables avec la chronologie ou le simple bon sens, et qui déconcertent la foi la plus robuste? Quoi de plus étonnant que tant de lettres de Papes, écrites pour expliquer les décrets de Conciles qui n’ont jamais existé, comme ce synode de Sinuessa, tenu en 304 par des prélats imaginaires, dans une ville qui ne figure suraucune carte géographique? On en produisait les Actes, pourtant, et Nicolas Ier, au ixer siècle, en prescrivait Pexé-cution. Et la Lettre d’Abgar, roi d'Edesse, à Jésus-Christ, pour lui souhaiter le bonjour ! et la Lettre de Pilate à Tibère! et celle de Tibère au Sénat, singulier autographe dans lequel le beau-fils d’Auguste, oubliant que sa mère £tait la trop fameuse Livie, lui donne nous ne savons plus quel nom baroque, Hémène, Ismène! et la Lettre de Lentulus, où se trouve le portrait de Jésus! et celle de Saint Pierre à Pepin le Bref, datée du ciel! De pareils documents, bien faits
+
+
+
+
+<pb n="VIII"/>
+pour donner du lustre à la religion, sont aujourd’hui du domaine de la curiosité pure : ceux qu’inspira la cupidité ont moins d’innocence. On pourrait pardonner aux hagiographes d’inventer des saints et des miracles, si ces fraudes, qu’on a appelées pieuses, n’avaient eu pour but d’amener Teau au moulin, c’est-à-dire aux monastères l’argent du pauvre monde : on trouve infàme que dans le mème but, bien misé-rable pour ceux qui se disaient les hommes de Dieu, il ait été rédigé tant de faux contrats et de faux testaments, la fleur des cartuiaires. Quand la moitiédes biens fonds, dans chaque État de TEurope, appartenait aux couvents, la plus grande partie de leurs immenses domaines provenait de cette source trouble; quand les ReligieuxdeSaint-Claude en plein xviiier siècle, en face de Voltaire, revendiquaient le droit d’avoir encore des serfs et de les vendre comme du bétail, les tìtres qu’ils produisirent et qui leur firent donner gain de cause devant le Parlement, ces titres étaient faux. Mais quoi! ces moines suivaient la plus ancienne tradition de l’Église; i’exemple leur venait de haut, car la plus belle collection de chartes mensongères est assurément celle qu'avec le temps s’est amassée la Papautépourasseoir, agrandir ou défendre son pouvoir temporei:
+
+
+
+
+<pb n="IX"/>
+Donation de Pepin à Étienne II, Donation de Charlemagne à Léon III, Charte de Louis le Débonnaire, Charte d’Othon Ier, Testament de Henri VI, trouvé juste à point par Innocent III dans les bagages d’un des gé-néraux de l'Empire, etc., etc. Tous ces actes sont faux, nul aujourd’hui ne le conteste. Et ce n’est pas tout; ils sont corroborés par une foule d’autres, de la méme encre, qui leur servent de pièces justificatives !</p>
+<p>Entre tous ces vieux parchemins, insignes monuments de Pimposture sacerdotale, se placent au premier rang la Donation de Constantin et les Fausses Décrétales, dans le recueil desquelles on la rencontra d’abord. Elles ont bouleversé tout le droit public et prìvé, au Moyen-Age, mis la civilisation à deux doigts de sa perte, et faìlli faire de l’Europe la proie d’une théocratie envahissante et impitoyable.</p>
+<p>On croit généralement que la Donation de Constantin n’a servi qu’à constituer le pouvoir temporei des Papes dans le sens le plus restreintdu mot,c’est-à-dìreàlesrendre maitres de ce petit royaume Italien dont les limites ont varié suivant les temps et que le Saint-Siège vient enfin de perdre, après tant de vicissitudes. Le but et la portée de cet acte célèbre furent autres et bien plus
+
+
+
+<pb n="X"/>
+
+considérables. Il posa les premières assises de la monarchie universelle, un rève que beaucoup de Papes fìrent tout éveillés : Étienne II le songea, ce réve; Grégoire VII, Innocent III, Grégoire IX, Adrien IV, Boniface Vili s’épuisèrent en vains efforts pour le réaliser.</p>
+<p>Au temps de Constantin, l'Église s’occupait moins de dominer que de vivre; sortie à peine des Catacombes, ou elle se cachait, et toute heureuse de pouvoir se montrer au grand jour, elle en était encore à cette période de lutte pour Pexistence dont Darwin a donne la formule et qui est la loi des institutions comme des individus. Constantin lui permit de subsister en face du Paganisme, qu’il n'abolit point, puisqu’il continua de porter le titre de Pontifex Maximus, titre que les Empereurs Romains ont conservé jusqu’à la fin du iv° siècle : l’Église se contenta de cette tolérance; elle ne portait pas plus loin son ambition. Cette époque fut son àge d'or; tous les Évèques, celuide Rome comme les autres, passèrent pour des saints, et par surcroit, la plupart furent honnètes : ils administraient de leur mieux leur petit troupeau de fidèles et ne songeaient à voler personne, ni à s'attribuer de suprématie les uns sur les autres. Il fallut le travail de plusieurs siècles et une suite de
+
+
+<pb n="XI"/>
+circonstances exceptionnelles pour que le Christianisme, après avoir été un symbole dJaffranchissement, devint une des formes de la servitude; pour qu’à cette sorte de république presque communiste qui était nalvement issue de la lettre et de l’esprit des Évangiles, à Pégalité de tous les fidèles, maitres et esclaves, vainqueurs et vaincus, à Pautorité purement spirituelle que de pauvres vieillards tenaient de Pélection, se substituàt peu à peu le gouvernement autocratique le plus dur et le plus absolu, celui d’un prétre.</p>
+<p>En méme temps que la situation privilé-giée de l’Évèque de Rome, installé dans la capitale du monde, semblait en faire sinon le chef du moins Painé des Évéques, les invasions, en bouleversant tout PSmpire, vinrent lui confier un róle inattendu. Sans croire entièrement au respect superstitieux qui aurait empéché les Barbares de souiller rasile du chef de l’Eglise, puisqu’Alaric et Attila ne s’éloignèrent de Rome que chargés d’énormes ranfons et que Genséric mit la ville à sac, il faut cependant convenir que le Pape Léon, dépourvu de toute autorité régulière, traita avec les Barbares comme de puissance à puissance, et que l’Hérule Odoacre, en fondant son royaume d’Italie, laissa subsister à Rome un fantóme de répu-
+
+
+
+
+<pb n="XII"/>
+
+blique dont le Pape était de fait le premier magistrat. L’Église grandit au milieu des ruines générales, parceque seule elle conservai! son organisation au milieu de la dé-route des institutions civiles, et les Papes entrevirent trèsbien qu’ils pourraient, avec un peud’adresse, se créer au milieu de cette marèe montante d’invasions une sorte d’ilot paisible, à Pabri des tourmentes.</p><p>Leur sauvegarde alors fut.Ia dépendance toute nominale dont ils se faisaient un titre à la protection des Empereurs Grecs ; en se donnant un maitre éloigné et faible, ils s’é-pargnaient la gène qu’un souverain plus proche et plus puissant leur aurait imposée. Longtemps encore après cette prétendue Donation qui les avait rendus, suivant eux, possesseurs en toute propriété de Rome et d’une partie de l'Italie, ils prètaientà l’exarque de Ravenne, en qualité de sujets de l’Empire, un serment de fidélité dont la formule est consignée dans le Diàrium Romanum, et chaque nouveau Pape faisait confirmer son élection par ce lieutenant de l'Empereur.</p><p>Au viiier siècle, la peur que leur causèrent les Lombards, contre lesquels les pusillanimes monarques de Constantinople ne pouvaient les défendre et qui allaient décidément fonder en Italie un royaume viable, les fit
+
+
+
+<pb n="XIII"/>
+changer de tactique. La politique des Papes, de ceux des temps modernes comme de ceux du Moyen-Age, a toujours été de s’opposer à la constitution d’un royaume d’Italie. Il n’y a pas de place pour eux dans une Italie forte et une, les événements l7ont bien dé-montré; aussi pendant des siècles se sont-ils appliqués à favoriser le morcellement de ce malheureux. pays, à fomenter entre ses peti ts États des guerres fratricides, à les briser les uns contre les autres, et, quand l’un d’eux devenait trop puissant, à appeler l’invasion étrangère, afin de régner encore, fùt-ce sur un monceau de ruines. Contre les Lombards, ils appelèrent les Francs. Grégoire III s’était concilié par des pré-sents le bon vouloir de Charles Martel; Zacharie se fit le complice de Pepin le Bref en déposant le dernier des Mérovingiens, et Pepin, dans son ardent désir d'étre débarrassé du fantóme de roi qui le gènait, n’hésita pas à reconnattre ainsi aux Papes un droit exorbitant dont ils devaient bien abuser, celui d'oter et de donner les couronnes. Étienne II vint en France sacrer Pepin, qui, dans la cèlebre entrevue de Pont-Yon, poussa le respect jusqu’à tenir la bride du chevai du Pontife.</p><p>L’Église ne laisse rien perdre; elle songea tout de suite à tirer parti de cet acte
+
+
+
+
+<pb n="XIV"/>
+
+
+spontané, irréfléchi d'un Barbare. Tenir la bride ou Pétrier, ce n’était pas un simple acte de déférence, dans les idées du Moyen-Age; cela impliquaìt une reconnaissance de vassalité, et pour Pepin qui hésìtait à se faire proclamer roi de France tant qu’il n'avait pas la consécration du Pape, il est certain qu’il se crut sinon son vassal au moins son obligé. Si les Papes prouvaient, en exhibant un ancien titre, que les Empereurs avaient fait de mème, que Pun d’eux avait don né aux Pontifes ritalie et des droits éventuels sur tout le reste de PEurope, s’ils décidaient quelque autre Prince à suivre Texemple de Pepin, à ne se croire légitime qu’avec l’assentiment du Pape, non seulement ils repoussaient toute ingérence séculière dans leur petit royaume Italien, ce qui était leur préoccupation actuelle, mais ils créaient à la Papauté un droit de suprèmatie et de contróle sur toutes les couronnes.</p><p>La Donation de Constantin fut fabriquée, probablement par Étienne II, certainement sous son pontificat<ref target="note.14.1"/>, pour donner un point d’appui à ces ambitions. Si Constantin fut choisi comme donateur de préfé-rence à tout autre, c’est que ce Prince, en
+<note xml:id="note.14.1"><p> Rohrbacher, Histoire universelle de l'Église tome IV.
+
+
+
+
+
+</p></note>
+
+<pb n="XV"/>
+transférant de Rome à Byzance la capitale de l'Empire, pouvait plus aisément passer pour avoir voulu laisser l’Occident au chef de la religion. Toute l’histoire, les monuments, les monnaies, les médailles, les partages successifs de l’Empire démentaient cette supercherie; mais quand les documents écrits sont rares, qu'on a une armée de scribes pour les falsifier, qu’on revendiquera bientót le droit d'enseigner seul et d’imposer de force ce que l'on affirme ètre la vérité, on ne s’arréte pas devant un si mince obstacle. Une première difficulté se présentait. A quelle occasion Constantin, qui ne fut Chrétien qu’à la fin de sa vie, qui recut le baptéme deux ou trois jours seulement avant de mourir, et de la main d'un Evèque Arien, aurait-il fait à l’Eglise de Rome présent de la moitié de l'Empire? Fermement persuadé de ce qu'enseignaient les prètres, à savoir que le baptéme lave de tous les péchés, de tous les désordres, que le néophyte, au sortir de la cu ve, a recouvré la candeur et l'innocence de l'enfant, Constantin était bien trop avisé pour gaspiller une si précieuse ressource : il attendit d’avoir assassiné le reste de sa famille, et remit sa purificatiòn géné-rale au moment supreme où, près d’entrer dans la vie éternelle, il n’aurait plus un seul
+
+
+
+<pb n="XVI"/>
+
+
+crime à commettre. Ce baptéme tardif, dont les témoignages étaient formelsdans Eusèbe de Césarée, Socrate, Sozomène, Théodoret, Saint Jéróme, avait, en outre, de graves inconvénients. Un non baptisé aurait ouvert et présidé le Concile de Nicée, discutè des questions d’orthodoxie, jugédes hérétiques; cette primauté et cette juridiction que les Papes voulaient se faire attribuer sur tous les Evéques, ils les auraient tenues d’un paien ! Il était urgent de falsifier l’histoire, de supposer un baptéme antérieur au Concile et à la Donation<ref target="note.16.1"/>.</p><p>Une première fable, celle du baptéme de Constantin par le Pape Miltiade ou Melchiade, en 313, fut inventée dans ce but. Après la fameuse bataille du pontMilvius et , l’apparition du Labarum, Constantin, rentré à Rome en triomphateur, se décide à embrasser la religion de celui qui Pa fait vaincre. « Le Pape Saint Miltiade ou Melchiade gouvernait alors l’Église Romaine.
+
+<note xml:id="note.16.1"><p> Cela est si vrai, que Steuchus prouve l’antériorité du baptéme précisément par la tenue du Concile de Nicée : « Les saints Pères du Concile auraient-ils souffert qu’il le convoquat, qu’il y sié-geàt, non baptisé et encore paien ? Quelle indigniti ! quelle absurdité ! » (Contra Laurentium Vallam, de Donatione Constantini, Lyon, 1547, in-8 ; p. 156.)
+
+
+</p></note>
+
+<pb n="XVII"/>
+Il était successeur de S. Eusèbe, qui l'était de S. Marcel, qui l’était de S. Marcellin, qui l’était de S. Caius, qui l’était de S. Eutychien, qui l’était de S. Félix, qui l'était de S. Denys, dont nous avons vu plusieurs lettres à des Évèques d’Orient. » (Rohrbachcr, Hist. de VÉglise, tome III.) L’Empereur se fait baptiser par lui et en revanche lui donne le palais de Latran transformé en église, de magnifiques ustensiles d’or et d’argent, patènes, ciboires, calices, burettes, pour le service des autels, lui assigne des revenus sur les deniers publics et lui concède des domaines dans la banlieue de Rome<ref target="note.17.1"/>. Un édit de tolérance envers les Chrétienset la permission accordée au Pape d’ouvrir un Concile, pour apaiser la querelle de Cécilien et des Donatistes, complétaient cette légende assez bien tissue, sauf que dans l’épitre où elle est narrée, le Saint Pape Melchiade parie du Concile de Nicée, tenu onze ans après sa mort : une misère! L’Eglise aurait pu se contenter de cette fiction honorable etprofitable pour elle; mais quoi! un pauvre petit palais, quelques calices, quelques ostensoirs, de maigres revenus, c’était
+<note xml:id="note.17.1"><p> Epistola Papa Melchiadis, dans la Collection des Conciles de l'abbe, tome I ; Vita S. Sylvestris, Papa.
+
+
+
+
+</p></note>
+
+<pb n="XVIII"/>
+
+
+bien peu, Pas un mot là dedans de la primauté de l’Évéque de Rome, ni de la bride de son chevai, ni de l’abandon des insignes impériaux et de la pourpre sénatoriale en faveur des prètres, ni du partage de l’Empire, ni d’aucune clause qui permit au Pape de se dire le suzerainde tous les monarques, le distrìbuteur de toutes les couronnes. Il fallait changer cela. On décida que Melchiade devait avoir subi le martyre, soit sous Maximin, soit sous Constantin lui-mème; que ses Lettres, fabriquées par les Ariens, étaient autant d’impostures<ref target="note.18.1"/>; et
+
+<note xml:id="note.18.1"><p> C’est ce que dit Steuchus réfutant Laurent Valla, qui s'appuiesur la donation faite à Melchiade pour nìer celle que Constantin aurait faite à Sylvestre. « Melchiade n’a jamais vu ni connu Constantin ; il n’a pu parler ni de lui ni de la Donation, qui s’est effectuée longtemps après sa mort. Ce sont les Grecs, les Ariens qui ont inventé la concession par Constantin à Melchiade de je ne sais quelles constitutions. Cela est faux, l’hìstoire le prouve surabondamment ; Melchiade ne vécut pas jusqu’au temps de Constantin : il avait recu la couronne du martyre sous ses prédécesseurs. Lisez Damase et bien d’autres. Les paroles que Valla prète à Melchiade ont donc été imaginées par leà Ariens, ainsi que les prétendues constitutions.  Voilà ce qui a trompé notre homme ; voilà quelle a été son incroyable cécité ; il n’a pas su lire dans les histoires que Melchiade n’avait jamais pu parler ni de la foi, ni de la religion, ni des dons de Constantin. » (Contra Laurentium Vallam, p. 147.) — Singulier retour des choses d’ìci-bas! Depuis que la Donation a été reconnue fausse et qu’il ne s’est plus agi de la soutenir, mais de ne pas tout perdre, la fable de Melchiade, très-mauvaise du temps de Steuchus, excellente depuis, a été ressus-citée (moins ce qui concerne le baptéme, décidé-ment abandonné), et Von peut lire dans tous les historiens de cette période de l’Église, Chateaubriand, l’abbé Rohrbacher, l’abbé Darras, M. de Broglie, comment ce saint Pape, quoique mis à mort en 312 par Maximin, d’après Steuchus, fut au mieux l’année suivante avec Constantin, en refut la permission d'ouvrir le Concile de Rome, des présents considérables, et mourut paisiblement, chargé de gioire et d’années. De son martyre, il n’est pas autrement question, et ses Lettres n’ont plus été fabriquées par les Ariens. Ce Pape qui a deux biographies, deux genres de vie et deux genres de mort, suivant les besoins de la polémique religie use, est une des nombreuses curiosités de l’histoire ecclésiastique.
+
+
+</p></note>
+
+<pb n="XIX"/>
+une nouvelle histoire, celle du baptéme par S. Sylvestre, en 323 ou 324, fut mise en circulation. La supercherie réussit à merveille : interpolée au vm« siècle, dans les Actes de S. Sylvestre et IcLiber Pontificalis du Pape Damase, qui peut-ètre esten entier apocryphe, elle fut prise au sérieux méme par les adversaires de l'Église, Laurent Valla tout le premier. De quels arguments plus pressants il aurait fortifié sa réfutation s'il avait su que ce baptéme, cause première de la Donation, était simulé comme elle!
+
+
+
+
+
+<pb n="XX"/>
+
+Dans cette seconde fable, répétition de la première, mais revue, corrigée et augmentée, Constantin se montre d’abord le plus grand constructeur d’églises qui ait jamais vécu. Lui qui ne séjourna jamais à Rome, qui n’y fit que de courtes apparitions, il y bàtit enun rien de temps, in eodem tempore {Vie de Saint Sylvestre, Pape, dans la Collection des Conciles, de Labbe), sept immenses basiliques : la Basiiique Constantinienne, dans le palais de Latran, et les églises Saint-Pierre, dans le tempie d’Apollon (Vatican), Saint-Paul hors des murs, Sainte-Croix de Jérusalem, in Palatio Sessoriano, près du tempie de Vénus et de Cupidon, Sainte-Agnès, Saint-Laurent, in via Tiburtina, Saints-Pierre-et-Marcellin, in via La-vicana, entre deux lauriers {inter duas lauros); il en bàtit encore quatre autres à -Ostie, dans la ville d’Albe, à Capoue, à Naples. L’énumération complaisante des richesses qu’il accumule dans ces églises a quelque chose de prodigìeux; il y emploìe l’or et l’argent en guise de plomb ou defer, et séme les pierreries comme des cailloux. Ce ne sont partout qu’autels d’argent massif (une église à elle seule en a sept, pesant chacun deux cents livres); chancels ou grilles de choeur, aussi en argent, pesant mille livres; baldaquins, encore d’argent et pe-
+
+<pb n="XXI"/>
+sant deux mille livres; patènes d'or, calices d'or enchàssés de pierreries, amphores, buires, burettes, brule-parfums, encensoirs d'or, tabernacles d'or, chandeliers d’or, lanternes d’or. Il y a des burettes d’or (amas aureas) du poids de quarante livres et que l’enfant de choeur devait trouver bien lourdes; des coupes ornées de corail et tout autour d’émeraudes (scyphos corallo ornatos et undique de gemmis prasinis). Et à chaque égli se l’énumération recommence; c'est un éblouissement. La sculpture d’ornement, la statuaire en métaux précieux n’ont pas non plus été négligées; les critiques qui se sont plaints de la décadence des arts au temps de Constantin, n’avaient pas lu la Vie de Saint Sylvestre. Jamais l'orfèvrerie, la joaillerie, la toreutique n'ont été plus florissantes. Voici des lampadaires en or, en argent, en airain d’orichalque; des lampadaires à bénitiers, des lampadaires à couronne Cpharos aureos, argenteos ; pharos cereos ex orichalco, pharos cantharos, pharos coronatosj du plus merveilleux travail, ornés de quatre, six, huit dauphins d’argent : toutes les églises en ont ; des anges d’argent de cinq pieds de haut, pesant chacun cent quinze livres, et ornés de gemmes Alabandines encore : cum gemmis Alabandenis. A la basilique Constantinienne, le prodigue
+
+
+
+<pb n="XXII"/>
+
+donateur fait présent d’une statue d’argent du Sauveur, assis sur le tróne, ayant cinq pieds de haut et pesant cent vingt livres, plus des douze Apótres, en argent aussi, pesant chacun quatre-vingts livres, et la tète ceinte de couronnes « d’argent très-pur. » Les plus grandes splendeurs ont été naturellement réservées aux fonts baptismaux où s’est effectuée la grande cérémonie imaginaire ; ils figurent en ces termes dans cet inventaire fantastique:  <quote>... Les fonts sacrés où fut baptisé l’Auguste Constantin, en marbré de porphyre, couverts de tous cótés, dedans, dehors et dessus, et le récipient de l’eau, d'argent très-pur, pesant trois mille huit livres. Au milieu des fonts, une colonne de porphyre, portant une coupé d’or très-pur, pesant trente livres, où brùlent deux cents livres de parfums. La mèche est de fils d’amiante. A l’ouverture des fonts est un agneau d’or très-pur, làchant de Peau, et pesant trente livres; à la droite de l’agneau, le Sauveur, en argent, de cinq pieds de haut, pesant cent soixante-dix livres; à la gauche de l’agneau, Saint Jean-Baptiste, en argent, de cinq pieds de haut, tenant un rouleau écrit où se lit : Ecce agnus Deiecce qui tollit peccata mundi, pesant cent livres. Des cerfs d’argent, au nombre de sept, làchant de l’eau, et pesant chacun
+
+
+
+
+
+
+<pb n="XXIII"/>
+huit cents livres. Un encensoir d’or très-pur, pesant dix livres, avec des pierres d’émeraudes et de topazes tout autour, au nombre de quarante-deux.</quote> Suit une énumération considérable de domaines dont la rente, qui varie de trois cents à huit cents sous d’or, est constituée à ces fonts baptismaux apocryphes ; il en est de méme pour toutes les églises, ainsi déclarées proprié-taires, par un acte longtemps regardé comme authentique, d’une foule de fermes, chà-teaux et villas, de milliers d’arpents de terre et de bois dans toutes les régions de l'Italie, de maisons à Rome, à Antioche, à Tarse, à Tyr, à Alexandrie, à Nicée, en Numidie, sans compter des redevances en encens et en parfums, en nard, baume, storax, cannelle, safran, dues par la plupart des villes d’Orient. lei la fraude atteint des proportions colossales, car nous pouvons nous fier à la rapacité des gens d’Église pour croire qu'ils ont du réclamer, et durement, si non le safran et la cannelle des rives de l’Euphrate, du moins les rentes des domaines qui se trouvaient à portée de leur main, et que le pseudo-Constantin, en excellent économe, désigne très-clairement, sur les territoires de Rome, de la Sabine, de Tibur d’Albe, d’Ostie, de Capoue, de Naples.</p><p>La charte de Donation, qui vient à la suite
+
+
+
+
+<pb n="XXIV"/>
+
+
+de la Vie de Saint Sylvestre, se trouve ainsi amenée et préparée. Dans ce document, d’une naiveté grossière, proportionnée à la crédulité d’alors, Constantin, attaqué de la lèpre, ayant épuisé tous les secours de Part, s’adresse aux prètres du Capitole, qui, après mure réfiexion, lui conseillent de prendre un bain de sang d’innocents. Plusieurs centaines d’enfants, enlevés aux premières familles de Rome, sont amenés au Capitole ; on va les égorger pour remplir de leur sang une grande cuve, quand l’Empereur, pris de pitié, leur fournit des carrosses pour s’en retourner chez eux. En récompense, Saint Pierre et Saint Paul lui apparaissent la nuit suivante et lui enjoignent d’aller trouver Saint Sylvestre, Pape, quoiqu’il n’y en eut pas encore, qui le guérira en lui conférant le baptéme. Constantin se rend à Péglise, reconnait dans les figures d’un tableau que lui montre Sylvestre les personnages de son apparition nocturne, et, frappé de stupeur, se fait baptiser : il sort de la piscine entiè-rement guéri, le corps blanc comme neige. Pour marquer sa vénération envers Saint Pierre et Saint Paul, ses charitables avertisseurs, il ordonne que l’on exhume pieusement leurs restes, les place de ses mains dans des caisses d’ambre, « que la force de tous les élements ne pourrait rompre, 
+
+
+
+
+
+<pb n="XXV"/>
+ferme ces caisses avec des clefs d'or, et bàtit pour les recevoir une église dans les fondations de laquelle il jette douze sacs de ; terre qu’il a portés sur ses épaules, en l’honneur des douze Apótres. Ces inventions sont tellement en dehors de tout bon sens, que Gratien a pris soin de les passer sous silence
+en insérant la Donation dans son Décret: quoique Valla s'applique surtout à réfuter Gratien et ne parie qu’incidemment de ce préambule, nous donnons plus loin la charte dans son intégrité, telle qu’elle se trouve dans les Fausses Décrétaleset les Collections des Conciles, car ce serait un tort de frustrer d’un tei morceau la curiosité des lecteurs. Il est amusant d’y voir Constantin, néophyte et déjà docteur en théologie, dis-courir ex professo sur la Création, le péché originel, la fameuse pomme, le serpent tentateur, le Verbe, la Trinité, qu’il explique en fort bons termes, le Diable, l’enfer, la résurrection, le jugement dernier et tous  les mystères; il se piqué d’orthodoxie, lui  qui doit protéger le premier schisme, et, ce	qui était encore plus	précieux pour les Papes, il y donne vingt-cinq ou trente fois à Sylvestre le titre de	Summus Pontifex, qu’il garda précisément	pour lui-meme.</p>
+<p>Le reste, tout aussi ridicule dans la forme, est plus sérieux. au fond. Constantin y con-
+
+
+
+<pb n="XXVI"/>
+
+cède à l’Évèque de Rome la primauté sur tous les Évéques et Patriarches du monde, mème sur le Patriarche de Constantinople, qui n’était pas encore fondée, puis il y reconnaìt, en abandonnant Rome et l'Italìe au Pape, « qu’aucun souverain terrestre ne doit avoir de pouvoir là où le souverain céleste a établi le chef de son empire; » ce sont les deux clauses capitales : le Saint-Siège a réussi à faire consacrer la première par le Concile de Trente et il a défendu la seconde jusqu’aux dernières extrémités; par la cession, fort vague d’ailleurs, que l’Empereur est censé faire, en outre, des Gaules, de l’Espagne, de la Germanie, de la Judée, de la Thrace et des Iles, il opère au profit des Papes, pour peu qu’ils sachent s’en servir, laconstitution d’une des plus vastes monarchies du monde; par une autre clause, celle qui attribue aux Pontifes le droit exclusit de porter les ornements impériaux et aux simples prètres les vètements des sénateurs (la pourpre des Cardinaux n’a pas d’autre origine), il satisfait cette soif de distinctions honorifiques qui a toujours dévoré le clergé, et il le relève de son abjection originairèen le declarant apte à remplir toutes les charges publiques, les plus hautes magistratures ; enfin il place de ses propres mains sa cou-
+
+
+
+
+
+<pb n="XXVII"/>
+nonne	tète	de Sylvestre, qui refuse d'abord, avec une humilité comique dans un acte Saux, puis, comme Pepin, il tient la bride de son chevail.</p><p>Qu’un tei document ait jamais pu ètre produit et pris au sérieux, c’est ce qui donne » une triste idée de l’impudence et de la sottise humaines. Aussi les Papes n’en firent-ils d’abord qu’un médiocre usage : ils attendaient qu’il eùt pris, comme le vin, de la qualité en vieillissant. On ne voit pas que Léon III l'aìt fait confirmer par Charlemagne, qui cependant donna à la Papauté quelque lustre en s’abaissant, par son sacre, à luien emprunter. Il le confirma néanmoins et mème le précisa, disent les historiens de l’Église, mais ils n’en ont jamais apporté la preuve; et lorsque Napoléon abolit, en termes fastueux, « les donations des Empereurs Francais, ses prédécesseurs, » il lui auraitété impossible de citer les textes qu’il abrogeait. Dans le pacte conclu entre la Papauté et Charlemagne, qui ne fut pas écrit, selon toute apparence, et qui s’établit parun accord tacite, le Pontife semble plutót associé en quelque sorte à l’Empire que mis en possession de droits réels. Comme détenteur de Rome, il a pour suzerain l’Empereur, à qui il prète serment; comme Pape, il gouverne les intérèts spirituels, sous lecontróle
+
+<pb n="XXVIII"/>
+
+de l’Empereur, qui ratifie ou annule son élection, convoque les Conciles, réforme la discipline et méme la liturgie. Voilà lepacte de Charlemagne, et lorsque, espérant avoir de meilleures contjitions, Jean XII, au x-er siècle, fit passer l'Empire des mains des derniers Carlovingiens en celles des rois de Germanie, Othon le Grand se réserva encore, pour lui et ses successeurs, ledroitde confirmer l’élection pontificale. Ce fut celte clause qui, par la résistance des Papes, causa les querelles interminables du Sacerdoce et de l’Empire, et ensanglanta tout le Moyen-Age. L’Église, en effet, a toujours suivi une politique invariable : faire un pacte, un contrat par lequel elle obtient, d’un coté, et concède, d’un autre; puisretirer ce qu’elle a concedè et prétendre que ce qu’elle a obtenu lui reste.</p>
+<p>On ne peut donc étre surpris que les Papes aient préféré à des stipulations positives, dans lesquelles ils étaient toujours forcés de concèder quelque chose, cette fabuleuse Donation de Constantin qui les placait au-dessus des Empereurs et leur permettait de considérer l’Empire et tous les États de l’Occident comme autant de fiefs. L’Europe était trop vaste pour qu’ils songeassent à y régner virtuellement partout, à n’en faire qu’un seul État, qui eut été
+
+
+
+<pb n="XXIX"/>
+l’Etat du Pape ; mais n’avoir dans l'Empereur, comme dans les autres Rois et Princes, que des délégués, des vicaìres; leur donner l’investiture par le sacre; les tenir à leur discrétion sous une éternelle menace de dé-chéance; ètre les maitres chez eux par les Évèques et disposer de la plus grande partie de la fortune pùbliquesous le nom debiens d’Église, tei fut leur rève.</p>
+<p>Cette audacieuse main-mise de la théocratie sur tous les ressorts de la puissance sé-culière, en vertu dhine charte ridicule et d’interprétations fantaisistes de PÉvangile, le droit des Clefs, la théorie des deux glaives, s’opéra lentement, progressivement du vm® au xia siècle. La première ambition des Papes était de se soustraire à la tutelle des pouvoirs publics; leur seconde fut de mettre ces pouvoirs en tutelle. Après s’ètre exonérés, sous les faibles Carlovingiens, de Passen timent impérial, nécessaire à la validité de leur élection, ils s’arrogèrent le droit de contróler celle de l'Empereur. Le couronnement, qui dut toujours se faire à Rome (Etienne avait été bien aise de se déplacer pour sacrer Pepin), prit alors plus de solennité et passa pour une confirmation indispensable. Il fut désormais admis dans le droit Européen que PEmpereur auquel le Pape refusait la couronne était illégitime,
+
+
+
+
+<pb n="XXX"/>
+
+
+et, par voie de conséquence, les autres souverains se trouvèrent avoir besoin de l'exequatur des Evèques; Nicolas 1er écrit à l'Évèque de Metz, Adventitius : « Examinez bien si ces Rois et Princes auxquels vous vous dites soumis sont réellement rois et princes. » Ce travail d'absorption se pour-suivit méme dans cette période singulière où la Papauté, tombée entre les mains des rhéodora, des Marozia, de leurs amants, de leurs fils ou de leurs créatures, semble s’affaisser complètement. C’est Pépoque où les Fausses Décrétales du pseudo-Isidore Mercator, compilées dès 785, commencent à se répandre, à pénétrer dans le droit public pour le transformer, mettent en lumière la Donation de Constantin, affirment la pré-pondérance Pontificale tant sur les souverains que sur les Évéques, et en présentant comme la tradition constante de l'Église, sous le couvert d’anciens Papes qui n’a-vaient jamais rien écrit, qui n’existèrent peut-étre méme pas, des prétentions toutes nouvelles, parviennent à leur donner une ombre de vraisemblance. Mais est-il bien besoin de distinguer les Fausses Décrétales des véritables? Un profond canoniste de nos jours, M. Chantrel, a rendu à la libre pensée le service d’établir solidement qu’en fait de Décrétales il n'y a entre les vraies et les
+
+
+
+
+
+<pb n="XXXI"/>
+fausses aucune différence, qu’elles se valent toutes, ont le méme poids, la méme autorité.</p>
+<p>Grace à la mystification hardie de ce Mercator ou Piscator, faussaire inconnu, pseudonymq probable des Papes eux-mèmes, les décisions de Pontifes muets ou problé-matiques devinrent des lois, et ajoutées en guise de gloses ou d’éclaircissements au texte des Pandectes qui relatent les diverses concessions arrachées aux successeurs de Constantin (quelques-unes sont si excessives qu’elles doivent étre interpolées), consacrè-rent la prépondérance du Saint-Siége en méme temps que les immunités du clergé et créèrent la juridiction ecclésiastique. Grégoire VII put alors formuler dans son Dictatus Petri, Dictatus Papce ou Loi pontificale, qui est resté le bréviaire des Papes, comme le Testament de Pierre Iet est le bréviaire des Czars, ces hautaines affirmations ;	
+
+<quote>
+<l>L’Église Romaine a seule été fondée par » le Seigneur.</l>
+<l>Le seul Pontife Romain est dit à bon » droit universel.</l>
+<l>Il peut seul déposer les Évèques et les  réintégrer.</l>
+<l>Seul il peut user des insignes impériaux.</l>
+
+
+
+
+<pb n="XXXII"/>
+<l>C’est à lui seul que les Princes doivent baiser les pieds.</l>
+<l>Il lui est permis de déposer les Empereurs.</l>
+<l>Son nom seul doit étre prononcé dans  les églises<ref target="note.32.1"/>.</l>
+<l>Son nom est le nom unique, par le monde.</l>
+<l>Tout Pontife Romain, élu canonìquement, est saint, ipso facto<ref target="note.32.2"/>. </l>
+</quote>
+Bien d’autres propositions ont été émises par ce Pape, quoique sous une forme moins tranchante, et sont restées la loi du clergé catholique<ref target="note.32.3"/> :
+<quote><p>L’Église de Dieu doit étre libre de Pin-9 fluence de la puissance temporelle.</p>
+<note xml:id="note.32.1"><p> Quod illius solis nomen in ecclesiis recitetur. — Quod unicum est nomen in mundo.
+</p></note>
+
+<note xml:id="note.32.2"><p> Il est douteux que le Dictatus Papae ait été rédigé sous cette forme par Grégoire VII ; mais toutes ces propositions se trouvent dans ses Lettres et elles ont été proclamées comme son oeuvre et comme Loi pontificale par le Concile tenu à Rome en 1076 pour répondre aux actes du Concile de Worms.
+</p></note>
+
+<note xml:id="note.32.3"><p> On les retrouve en substance dans la dernière Encyclique Pontificale, celle de Léon XIII (Janvier 1879) : <quote><p> ... L’Église est maitresse des gouvernements et des peuples, parce qu’elle est le fondement de la vérité...</p><p> L’autorité vient de Dieu, et non du plus grand nombre, etc.</p></quote>
+
+
+
+
+
+
+</p></note>
+
+<pb n="XXXIII"/>
+<p>Le pouvoir du Roi est subordonné à celui du Pontife, car il est d'origine humaine; le siège de Saint Pierre est de Dieu, n’est soumis qu’à Dieu.</p>
+<p> Le Pape tient la place de Dieu, car il  gouverne son royaume sur la terre.</p>
+<p> Sans le Pape, nul royaume ne peut  subsister; sans le Pape, tout royaume  n'est qu’un navìre ballotté par les flots,  qui se brise sur tous les écueils.</p>
+<p> L’esprit n’est visible que par la matière; Tèrne n'est active que par le corps; > Pàme et le corps ne se soutiennent que  par Talimentation. De méme la religion n’existe pas sans l'Église; l'Église n’existe  pas sans propriétés qui garantissent son  existence.</p>
+<p> L’esprit se nourritde la matiére par le i corps; l'Église ne se maintient sur la  terre que par la possession d’un domaine  qui lui soit propre.</p>
+<p> Acquérir ce domaine, le conserver, le  défendre est l’obligation de celui qui tient le glaive souverain, le devoir de l'Empereur.</p>
+<p> Le monde est éclairé par deux luminaires : l’un plus grand, le Soleìl, Tautre  moindre, la Lune.</p>
+<p> La puissance Apostolique est comme le  Soleil ; la puissance royale est semblable
+
+
+
+<pb n="XXXIV"/>
+
+
+ à la Lune. La Lune n’éclaire que par le  Soleil ; ainsi l'Empereur, les Rois et les  Princes ne sont que par le Pape, parceque le Pape est de Dieu.</p>
+<p> Le pouvoir du Saint-Siège est donc  bien plus grapd que le pouvoir du tróne; le Roi est soumis au Pape et lui doit obéissance.</p>
+<p>Le Pape étant de Dieu et tenant la place  de Dieu, tout est subordonné au Pape; c’est à lui d’enseigner, d’avertir, de punir, d’améliorer, de juger, de décider.</p>
+<p> L’Église Romaine, mère de toutes les Églises, a l’autorité souveraine sur l'ensemble et sur tous les membres dans l'ensemble, et parmi ces membres sont comptés PEmpereur, les Rois, les Princes, les Archevéques, les Évéques et les Abbés.</p>
+<p> En vertu de ce droit souverain et du pouvoir des Clefs, l'Église peut les instili tuer et les déposer; elle leur donne la puissance non pour leur gioire tempo» raire, mais pour le salut de plusieurs.</p>
+<p> Il faut qu’ils obéissent et servent.</p>
+</quote>
+Des comparaisons de la Lune et du Soleil ne pèsent pas d’un grand poids dans la balance des conquérants, et l’on aurait bien étonné Charlemagne en lui disant qu'il était la Lune de Léon III; mais les Papes avaient
+
+
+
+
+
+<pb n="XXXV"/>
+judicieusement calculé que le sceptre n'est pas toujours aux mains d’un Charlemagne, d’un Othon le Grand ; que la royauté a des éclipses, et qu’en profitant habilement des circonstances on arracherait aux faibles des concessions que les forts auraient repoussées avec mépris. Ils possédaient d’ailleurs un moyen puissant de dompter les résistances.</p>
+<p>A l’égard de l’Empire, qui était en quelque sorte leur création, puisquMls Pavaient transféré des Grecs aux Garlovingiens et des Carlovingiens aux Allemands, ils usaient de la théorie des deux glaives, tous deux donnés au Pape par Pintermédiaire de Saint Pierre, dont le successeur en gardait un pour lui, le glaive spirituel, et donnait Pautre, le glaive temporei, à l’Empereur, sous la condition formelle de ne s’en servir que pour l’Eglise, d'ètre son bras séculier<ref target="note.35.1"/>.
+<note xml:id="note.35.1"><p> « Sur le siège de Pierre est non seulement le glaive spirituel, mais le temporei, l’un devant étre manié par l’Eglise, l’autre pour l'Église ; l’un dans la main du prétre, l’autre dans la main des Rois et des soldats, à l’ordre et sous l’approbation du prè-tre. (Boniface VIII, bulle Unam sanctam.)</p><p>— Ces glaives symboliques, attribués au successeur de celui à qui il a été dit : Remets ton èpée au fourreau, ont une origine curieuse à rappeler. S. Bernard s’est le premier avisé de tirer cette allégorie du verset de S. Lue : At illi dixerunt, Domine, ecce duo gladii ; at ille dixit : Satis est. Dans une alerte, ayant à craindre les Romains ou les Hérodiens, les compagnons de Jésus font le compte de ce qu’ils ont d’armes entre eux : il se trouve deux épées, et on les montre. Cela n’a rien de bien extraordinaire, et il faut certes une grande puissance d'imagination pour y discerner le symbole des futura rapports du Sacerdoce et de l’Empire. Si cetexte prouve quelque chose, cest le caractère de révolte à main armée qu’eut la prédicatìon de Jdsus, caractère soigneusement dissimulé dans la rédaction défmitive des Évangiles, mais dont il reste cà et là destémoìns. Admirons l’adresseavec laquelle l’Église s’est fait d’un texte genant un appui pour accroìtre sa domination.
+
+
+
+</p></note>
+
+<pb n="XXXVI"/>
+
+
+Mais ce qu’ils avaìent donné, ils pouvaient le reprendre, et c’est ce qu’ils essayèrent de faire maintes fois contre les autres souverains, contre l’Empereur lui-mème, dans les cas graves. La facilitò avec laquelle Za -charie avait tant obtenu de Pepin, en declarant Chilpéric III déchu, bon à jeter au cloitre, leur indiquait la voie à suivre.Dans cette longue et trouble période du Moyen-Age, où la couronne était souvent le prix du plus hardi, où tant d’aventuriers se taillaient des royaumes à coups d’épée, les Pa- -pes n’avaient qu'à délier les sujets du serment de fidélité pour étre surs d’exciter des rébellìons dont ils tireraient profit. Partout où une dynastie chancelle, ils suscitent des compétiteurs dont l'un, qui devra tout à
+
+
+
+
+
+
+<pb n="XXXVII"/>
+l'Église, s’il réussit, saura sans doute ne pas se montrer trop regardant, se reconnaitra l’homme iige du Pape, baisera sa pantoufle, tiendra la bride de son chevai, laissera gouverner par ses légats. Partout où des fils convoitent le tróne de leur pére, un peu trop lentàmourir, une voix les exhorte à aider les lois de la nature et leur susurre à Toreille les honnétessuggestions de lady Macbeth. à son mari. Cette voix bien connue, c’est celle du Pape. Les fils de Louis le Débonnaire l’avaient entendue avant de dé-pouiller et d’humilier leur pére; le fils de Charles le Chauve aussi, encouragé dans sa révolte par Adrien II; les fils de Henri IV aussi : Conrad, excité par Urbain II, Henri, par Pascal ; et ce furent des Évéques qui arrachèrent son manteau au vieil Empereur abandonné pour le jeter sur les épaules de Henri V<ref target="note.37.1"/>. Du xier au xver siècle, pas un souverain qui n'ait été déposé ou menacé de déposition par les Papes; pas un royaume qui n’ait été mis en interdit par leurs légats, jusqu’à ce qu’il eut été donné satisfactio n à leurs caprices. Sous le couvert de la
+<note xml:id="note.37.1"><p> « Les Souverains Pontifes ont toujours tenu en très-médiocre estime les lois de la nature. En cette circonstance, ils interprétaient le texte de S. Lue : Celui qui ne hait pas son pére et sa mère, celui-là ne peut étremon disciple. » (Lanfrey.)
+
+
+
+
+
+</p></note>
+
+<pb n="XXXVIII"/>
+religioni et des intérèts spirituels, ils s’ingèrent dans le gouvernement comme dans la vie privée des Princes, excommunient, anathématisent, donnent le royaume de celui-ci à celui-là et soufflent Pincendie dans toute PEurope. C’est le droit des CleFs, assure-t-on, et cette politique astucieuse et impitoyable s’appelle, chez les apologistes, Paction bienfaisante et douce de la Papauté à travers les àges. Toujours inquiets sur leur domaine Italien, possession précaire et mal définie; à peine assurés de Rome, que leur disputent tantót PEmpereur, comme Roi des Romains, tantót les citoyens de Rome qui ressuscitent contre eux les vieilles formes républicaines ; parfois ignominieusement chassés de la Ville éternelie et n’y rentrant que sur des monceauxde cadavres; appelant un jour PEmpereur contre leurs sujets, et se défendant le lendemain, à Paide de ces mèmes sujets, contre PEmpereur; poussés en exil par destribuns ou des agitateurs : Albéric, Crescentius, Arnaud de Brescia, Rienzi, Brancaleone; minés par des Antipapes sans cesse renaissants, ils n’en continuent pas moins leur rève de monarchie universelle et leur distribution, non gratuite, de couronnes. On les voit aux aguets, cherchant s’il n’y a pas quelque part à encourager un intrus,à pourvoir un prince
+
+
+
+
+
+<pb n="XXXIX"/>
+besoigneux, à soulever une rébellion, à lé-gitimer une usurpation. Autrefois, pour fonder une dynastie, il fallait le génie et Pépée d’un Charlemagne; maintenant, les Papes font des Charlemagnes àia douzaine, avec une houppe de coton, un peu d'huile et quelques mots de mauvais Latin : ils ont rais la souveraineté à la portée de toutes les ambitions. Tant de Princes, en quéte d'un point d’appui pour leur despotisme, sont venus de tous les pointsdu monde, de Castille, d’Aragon, de Portugal, d'Angleterre, de Suède méme et de Russie, quémander la consécration pontificale et Pont obtenue, moyennant promesse dTun tribut annuel à lever sur les peuples, ces bonnes bètes de somme, que les Papes ont fini par se prendre au sérieux. Ils s’ingénient dès lors à tout brouiller, à tout détruire, méme leur oeuvre propre. Souvent, à l’usurpateur qu'ils ont protégé et fait prévaloir contre le souverain légitime, ils suscitent un nouveau compétiteur, et à celui-ci un troisième; ils donnent Ia Sicile et le royaume de Naples aux Normands, puis aux Angevins, et appellent, contre les uns et contre les autres, les annes de PEmpereur : confus emmèlement d’intrigues et de violences qui fait un chaos de Phistoire de ces temps. Ils réclament la Pologne, la Bohème, la Hongrie, la Moravie
+
+
+<pb n="XL"/>
+
+et jusqu’à la Russie comme biens de l'Église, donnent l’Angleterre à Philippe-Auguste, TAragon à Philippe le Hardi, la France aux Allemands, Tltalie à tout le monde et vingt fois, sur leur requéte, Allemands, Francais, Espagnols la couvrent de ruines. Au signe du Pape, les armées fondent sur un malli eureux pays et le dévorent; sacs de ville, incendies, massacres, toutes les abominations sont justifiées pourvu qu’elles soient commises dans l’intérèt de l'Église. Parfois les Empereurs usent de la force et viennent à Rome (ce qu’ils ne pouvaient toujours faire) mettre le Pape à la raison; le Pape cède alors. Pascal II, Thostie entre les dents, jure tout ce que Henri V veut lui faire jurer; on dit la messe, on communie, on rompt le corps du Christ, et les deux ennemis réconciliés en prennent chacun la moitié, en signe de partage ioyal du pouvoir. Henri parti, Pascal révoque impudemment ses promesses et tout recommence. Une stipulation fréquente des pactes conclus entre Papes et Empereurs est qu’ils ne chercheront pas à s’empoisonner mutuellement; touchante marque de leur confiance réciproque, dans les rares moments où ils étaient d’accord. Le plus souvent, ils sont en lutte ouverte; l'Empereur tire Pépée, le Pape brandit les foudres de Texcom-
+
+
+
+
+
+
+<pb n="XLI"/>
+munication, foudres de moins en moins terribles sans doute, mais auxquelles il donne un puissant adjuvant dans les guerres civiles qu’elles lui permettent d’allumer. Toute TEurope saigne des coups qu’ils se portent. Ces déchirements, la Papauté les aggrave autant qu’il est en son pouvoir. De Texcès des maux soufférts, que doit-il, en effet, logiquement sortir? La médiation du Pape. Sur toutes ces ruines qu’il aura faites, il interviendra d’un aìr béat, le pére commun de tous les fidèles, rappelant ses très-chers fils, dilectissimi filii, à la concorde, à Tunion, maintenant qu’ils se sont détruits les uns par les autres et saignés à blanc; lés très-chers fils payeront chèrement, soit en humiliations, soit en bonnes espèces sonnantes, cette intervention calculée, et la Papauté se sera encore gran die de l’abaissement général.</p>
+<p>A la fin, peuples et Rois, las d’ètre foulés aux pieds, pillés, massacrés, excommuniés, se dirent que de tous ces titres, à Taidedes-quels on les pressurait, Chartes, Donations, Décrétales, droit des Clefs, droit des Glaives, Tun valait Pautre; qu’ils étaient bien inno-cents de laisser gouverner le monde par le Vicaire de Celui qui a dit : Mon royaume n’est pas de ce monde; que le gouverne-ment appartenait aux Princes ou aux peu-
+
+
+
+
+
+<pb n="XLII"/>
+ples, et la prière, rien que là prière, aux prétres; que s’il fallait? à toute force, un domaìne à ceux-ci, ce domaine ne pouvait étre qu'idéal, éthéré comme la prière, et assigné, non sur cette terre, mais sur les régions célestes, fair, le vent, les nuages. Il y a un joli conte Persan où deux frères se disputant une maison, l’un dit à l’autre : « Faisons deux parts; je prends la plus » petite, c’est-à-dire la maison, jusqu’au toit, » et je te laisse la plus grande : tout ce qui » est au-dessus du toit. » Ainsi firent les Princes, ces mécréants; ils ont gardé pour eux la plus petite part, ce monde de boue, indigne d’arrèter les regards des hommes de Dieu; à la Papauté, désormais débar-rassée de biens périssables et nécessairement bornés, ils ont laissé la plus grande : les espaces sans limites qui, de la terre, s’étendent jusqu’au delà des étoiles.</p><p>Dans tous ces bouleversements du Moyen-Age, quel usage les Papes fìrent-ils de la Donation de Constantin? Aucun, si l’on en croit leurs apologistes. C’est un acte né en dehors d’eux, on ne sait pourquoi ni com-ment, oeuvre d’un sectateur trop zélé peut-ètre, mais sans aucune importance. Ils le passent sous silence, comme M. de Broglie (l’Église et l’Empire Romain au iver siècle),
+
+
+
+
+<pb n="XLIII"/>
+ou s’en débarrassent en quelques lignes dédaigneuses, comme Chateaubriand (Études historiques). L’abbé Rohrbacher a été plus sincère en lui consacrant un long chapitre (Histoire de l'Église, tome IV) où il s’efforce subtilement de disculper la Papauté. La chancellerie Pontificale, toujours fine et avisée, a rendu la tàche facile en ne s’appuyant presque jamais sur un docu-ment qu’elle n’a pas renié d’une manière formelle, mais qu’il ne lui conve-nait pas de rappeler à tous propos. Il lui suffisait, dans la plupart des cas, d’invo-quer la possession d’état créée par des pré-cédents qui avaient pour cause la Donation, sans mettre en avant la Donation elle-mème; et c’est ce qu’elle a fait avec adresse en mainte occasion. Mais quoi-que le plus souvent absente du texte des Bulles, Rescrits et Décrétales qui ont pour objet le pouvoir temporei ou certaines pré-rogatives du Pape, la Donation en est l’àme. D’ailleurs, tous les Papes n’ont pas eu la mème prudence. Adrien Ior, dans une de ses Lettres, y fait une allusion fortclaire en affirmant que Constantin a donne à l’Eglise la possession des contrées Hespériennes, en rappelant la fable du baptéme de l’Empe-reur, sa guérison de la lèpre, Tapparition de Saint Pierre et de Saint Paul, leurs por-
+
+
+
+<pb n="XLIV"/>
+
+
+traits montrés par Sylvestre<ref target="note.44.1"/>, toutes cir-constances qui figurent dans le préambule de Pacte. Cette lettre a été invoquée comme décisive, en faveur de Pauthenticité de la Donation, par Binius et ceux dont il a suivi Pautorité dans sa Collection des Conciles<ref target="note.44.2"/>. Nicolas ltr, dans une longue Epitre adressée à PEmpereur Grec Michel III, surnommé l'Ivrogne (861), réclamant le privilège de consacrer l'Archevéque de Syracuse, excipe des droits du Saint-Siège sur l'Épire, Plliyrie, la Macédoine, laThessalie, l'Achaie, la Dacie, la Calabre et enfin la Sicile, en ajoutant que la cession de ces provinces ayant été faite « pour l’entretien du luminairedes églises, » propres termes de Ia clause relative à ces contrées et aux tles, dans la Donation, « nulle puissance terrestre n’a le droit d’en frustrer Saint Pierre »<ref target="note.44.3"/>. Et par une insigne im-
+
+<note xml:id="note.44.1"><p> Elle fut adressée à l’Impératrice Irène et à son fils Constantin, lors de l’ouverture du Concile tenu à Constantinople, en 786, contre les icono-clastes, pour prouver Pancienneté du culte des images. Les portraits de S. Pierre et de S. Paul sont rappelés, à cette occasion, et leur ressem-blance, qui arracha des cris à Constantin, nous ga-rantit le talentdu Raphael inconnu devantqui avaìent posé les vénérables Apòtres. (Steuchus, p, 85.)
+</p></note>
+
+<note xml:id="note.44.2"><p> Cologne, 1606, 4 voi. in-fol.
+</p></note>
+
+<note xml:id="note.44.3"><p> Cette allusion, perdue dans nne discussion dogmatique, aurait pu passer inapercue; Steuchus l’a relevée et mise en lumière, dans son zèle inconsidéré pour le Saint-Siège; mieux vaudrait un  age ennemi ! « Cette domination » dit—il, « en vigueur dans l’Église depuis le Pape Damase, atteste la véracité de la charte de Constantin. Ce qu’il faut observer dans les paroles de Nicolas, c’est ce qui regarde le patrimoine de Calabre et de Sicile, concèdè pour Ventretien du luminaire des églises. Par ce clair témoignage, venant d’un Pape ancien, demeure prouvée l’authenticité du privilège dans lequel ce grand Empereur dispose de ce mème patrimoine pour Ventretien du luminaire... Voilà qui démontre la démence de l’impudent grammairien (L. Valla) qui s’est moqué de cette partie de la charte, la traitant de mensongère, de barbare, d’inintelligible. Il n’avait rien lu des histoires an-ciennes. » (Contra Laurentium Vallant, p. 61.) En y regardant de plus près, Steuchus aurait pu trouver dans cette lettre de Nicolas 1er une autre phrase où à propos de la consécration des Evèques réservée au Saint-Siège, les propres termes de la Donation sont encore employés.
+
+
+
+
+
+</p></note>
+
+<pb n="XLV"/>
+posture, pour faire croire que la Donation est véritable, il invoque le témoignage de Damase, de Siricius, d’Innocent Ier, de Boni-face 1er, de Célestin 1er, de Sixte III, de Léon I«,d’Hilaire, de Simplicius, de Félix III et d’Hormisdas, tous Papes des iver, ver, et vier siècles, dont aucun n’a pu soupgonner l'existence de cette charte apocryphe, rédigée  à la fin du viiier siècle.</p>
+<p>Toutefois, les Papes se méfiaient et ne livraient pas le texte : ils savaient bien ce
+
+
+
+
+
+<pb n="XLVI"/>
+
+qu’il valait. De Nicolas Ier à Léon IX, il n’en est question dans aucun écrit Pontificai. Le pseudo-Isidore l’avait livré à la publicité, mais il fut d’abord sì peu répandu, que Hincmar et, un siècle après, Luitprand, tout en sachant confusément qu’il existe une Donation de Constantin, croient qu’elle ne concerne que la ville de Rome, tout au plus Pltalie. Léon IX fut plus hardi que ses pré-décesseurs. Ayant à défendre l'Église contre les prétentions du Patri arche de Constan-tinople, Michel le Cérulaire,et Léon, Évèque d’Achrida, alors métropole de la Bulgarie Macédonienne, il leur communiquaun fragment de la Donation, tei qu’il se trouve dans les Fausses Décrétales et dans Gratien; les Grecs le traduisirent et Pinsérérent, cent cin-quante ans plus tard, dans leur Nomocanon. Ce Pape, qui fut canonisé, n’hésita pas un seul instant à affirmer qu’il l’avait extrait de la charte écrite « de la main méme de Constantin et placée, avec une croix d’or, sur le vénérable corps du céleste porte-clefs. »<ref target="note.46.1"/> Après lui, Saint Anseime, Archevéque de Cantorbéry, Yves de Chartres et le Cardinal Dieudonné,
+<note xml:id="note.46.1"><p> <quote>Pauca ex privilegio ejusdem Constantini manu, cum cruce aurea super coelestis clavigeri venerabile corpus posito, ad medium proferemus.</quote> S. Leonis Papae Epist. I.)
+
+
+
+
+</p></note>
+
+<pb n="XLVII"/>
+Je recueillirent dans ieur Corpus juris.</p>
+<p>A partir du xie siècle, Jes Papes en 6rent un constant usage. Alexandre li inaugura ce système d’étranges revendications que son successeur, Grégoire VII, devait porter si loin, dont le but était de piacer sous la dépendance du Saint-Siège la plupart des royaumes de l'Europe, et qu’ils ne pouvaient appuyer que sur la Donation. Alexandre II écrivait à Guillaume le Conquérant : « ...Ta prudence n’est pas sans savoir que le royaume d'Angleterre, à partir du moment où le nom du Christ y fut glorifié, a été placé sous la main et la tutelle du Prince des Apótres. » Et Grégoire VII : cc ... Nous t'avertissons de veiller aux impóts prélevés en l’honneur de Saint Pierre comme aux tiens propres; nous nousfions en ta loyauté pour que tu trouves aussi dans Pierre un débiteur propice, et que tu l'avertisses au besoin de te rendre ce qu’il te doit j» (c’est-à-dire des prières). Au Comte de Reuss, il concède de l'Espagne, comme si ce royaume lui appartenait, tout ce qu'il pourra prendre aux Sarrasins, et l'on a l'explication de ce singulier cadeau dans une de ses Lettres, adressée à Alphonse de Castille et Sanche, Roi d’Aragon, où il affirme que l’Espagne appartieni à l'Église depuis que Saint Paul l’a évangélisée. a Vous n'ignorez pas, » écrit-il
+
+
+
+<pb n="XLVIII"/>
+
+
+encore aux Rois et Comtes d’Espagne, « que depuis les temps les plus anciens le royaume d’Espagne est une propriété de Saint Pierre, et qu'il appartient encore au Saint-Siège et à nul autre, bien qu’ìl soit entre les mains des paiens. Car ce qui est une fois entré dans la propriété de l'Église ne cesse jamais de lui appartenir. » Steuchus cite une autre Lettre encore plus curieuse adressée aux mèmes personnages : « Grégoire, Évèque, Serviteur des serviteurs de Dieu, aux Rois, Comtes et autres Princes d’Espagne, salut. Nous voulons porter à votre connaissance une chose qu’il ne nous est plus libre de taire et qui est très-nécessaire à votre gioire présente et future : à savoir que, d’après d’anciennes constitutions, le royaume d’Espagne appartient en droit et en toute propriété à Saint Pierre et à la sainte Eglise Romaine. Jusqu’à présent, les calamités qui ont affligé vos prédécesseurs et la négligence des nótres Pont fait oublier. Car, après que ce royaume eut été envahi et asservi par les Sarrasins, le tribut qui était payé à Saint Pierre cessa de Tètre : c'étaient des infidèles qui tenaient le pays et l’opprimaient; en méme temps s’abolit le souvenir des faits anciens et de notre propriété. Mais puisque la miséricorde divine, qui vous a protégés et toujours vous protégera
+
+<pb n="XLIX"/>
+contre de tels ennemis, vous a fait recouvrer :es domaines, je ne veux pas vous laisser gnorer la chose, de peur que l’Arbitre supèrne, le dispensateur des lois et de la justice, ne nous demande un terrible compte à ìous et à vous : à nous de notre négligence, ìt à vous, par notre faute, d’une ignorance ;oupable à l’égard de ce qu’il a daigné con-:éder à notre humilité en l’honneur de Saint Pierre et de son saint Siège Apostolique. »<ref target="note.49.1"/> Il écrit à Géisa, roi de Hongrie, qui voulait se faire le vassal de l'Empire : « Tu dois savoir que le royaume de Hongrie, comme tous les autres nobles royaumes, doit rester dans la condition d’État libre, et ne se sou-mettre à aucun autre suzerain que la sainte et universelle mère, l’Église Romaine. »<ref target="note.49.2"/> Il prévient le Due de Russie, Démétrius, que son fils, venu en pèlerinage à Rome, lui a demandé gracieusement son royaume, et qu’il le lui a donné, de la part de Saint
+<note xml:id="note.49.1"><p> Steuchus, Contra Laurentium Vallam, p. 185 et suiv. — « Voyez, » s’écrie-t-il, supputant les dates et comptant les années sur ses doigts ; « si Vou remonte avaat l'invasion des Sarrasins, époque à laquelle, le saint Pape Grégoire l’assure l’Espagne était une propriété de l'Église, on arrive jusqu’aux temps de Constantin. Quelle meilleure preuve de i'ancienneté et de l’authenticité de la Donation? »
+</p></note>
+
+<note xml:id="note.49.2"><p> Steuchus, ibid. p. 186.
+
+
+
+
+</p></note>
+
+<pb n="L"/>
+
+
+Pierre. « Ton fils s'est acquitté de ce qui est du à Saint Pierre; moyennant quoi, je lui ai livré de la part de Saint Pierre le gouvernail de ce royaume, qui est nótre.»<ref target="note.50.1"/> Il ad resse les mémes avertissements ou les mémes menaces à Suénon, Roi de Danemark, à Wratislas, Roi de Bohème, et fait savoir à un Due de Sardaigne, Orzocor ou Orcozor, que s’il ne cède aux exigences de l'Église, il transférera son duché en d’autres mains, comme c’est son droit. Il extorque un serment de fidélité à Richard, Due de Capoue; il rappelle durement à Philippe Icr, Roi de France, qu’il a promis d'obéìr avec décence et dévotion à Saint Pierre, Prince des Apótres. Innocent II confère à Alphonse le Conquérant le titre de Roi de Portugal (il n’était que Comte); Innocent III donne TAragon à Pierre II, qui le possédait déjà légitimement, mais dont la royauté était menacée par le démembrement féodal; Boniface VIII défend au Roi d'Angleterre, Edouard Ier, de se mèler des affaires d’Ecosse, a royaume qui appartient à Saint Pierre, » et retire la France à Philippe le Bel pour la conceder en toute propriété
+<note xml:id="note.50.1"><p> Debita fidelitate B. Petro, itern regni nostri gubernaculum ex parte B, Petri tradidimus. » (Steuchus, ibid. p. 190).
+
+
+
+
+
+</p></note>
+
+<pb n="LI"/>
+au Due Albert d’Autriche. Ce mauvais plaisant avait trouvé le moyen de se débarrasser, théologiquement et jjuridiquement, de ses adversaires. « Quiconque résiste au Pape pour obéir au Roi, » disait-il, « admet deux principes; donc il est Manichéen. » Donc il faut le brùler.</p>
+<p>A la rigueur on pourraitnier, contre Popinion de Steuchus, quoiqu'elle ait du poids en cette matière, que les Papes s’appuyassent sur la Donation dans les documents précé-dents; mais il n’en est pas de méme pour le droit de suzeraineté qu’ils prétendaient exercer sur toutes les iles. Là, plus de subterfuge : car si, comme on le soutient aujourd’hui, Jésus-Christ a donné le monde entier à Saint Pierre, et nommément l’Espagne, parce qu’elle a été évangélisée par Saint Paul, il n’a pas pu faire une clause spéciale pour les iles. Or, c’est comme ile qu’Alexandre II et Grégoire VII réclamaient l’Angleterre; ce dernier réclama aussi la Corse : « Vous le savez, » écrivit-il aux habitants, « vous le savez, mes frères et très-chers fils en Christ, cela est clair non seulement pour vous, mais pour beaucoup de nations, Pile que 'ous habitez n’appartient, en droit de propriété, à nul mortel,à nulle puissance, sinon  la sainte Église Romaine. s> C’est aussi
+
+
+
+
+
+<pb n="LII"/>
+parceque la Sardaigneest une ile qu’il avait écrit au due Orzocor la Lettre citée plus haut, et avant lui Léon III et Urbain II avaient élevé les mémes prétentions sur la Corse. Adrien IV donna de son propre chef au Roi d’Angleterre, Henri II, la souveraineté de l’Irlande, « ile qui, pareillement à toutes les autres iles sur lesquelles brille le Soleil de la justice, Jésus-Chrìst, appartient indubitablement au patrimoine de Saint Pierre et à l’Église<ref target="note.52.1"/>. » Boniface VIII concèda de méme la Sardaigne et la Corse à Jacques II, Roi d’Aragon, et en exigea en retour un serment « de plein vasselage et d’hommage lige » dont, pour plus de sùreté, il luì dicta les termes, dans ce beau Latin d’Églisequi fait bien voir que sans les prétres toute littérature aurait péri : plenum vassalagium et homagium ligium. XBulle Super Reges.) Quand les voyages de circumnavigation eurent démontré que le Nouveau-Monde était formé de deux vastes ìles, Alexandre VI prit gravement son compas et, en vertu du droit de l’Église, partagea l'Amérique entre les Espagnols et les Portugais. <quote>On se demande avec stupéfaction, </quote>
+<note xml:id="note.52.1"><p> Omnes insula quibus Sol justitia, Christus, illuxit, ad jus Sancti Petri et sacrosancta Ecclesiae pertinent. 
+
+
+
+
+
+
+</p></note>
+
+<pb n="LIII"/>
+dit Lanfrey, « d’où pouvait provenir ce droit fantastique sur toutes les iles, qui est ìnvoqué ici avec tant d’assurance. » Il provenait de la Donation de Constantin. Le conseiller et rami d’Adrien IV, à propos de qui Lauteur de VHistoire politique des Papes fait cette réflexion, Jean de Salisbury, dit en propres termes qu’elle est la base du droit du Pape sur les iles et ce n’est plus contesté aujourd’hui<ref target="note.53.1"/>. A bien prendre le texte, comme s’il était authentique, il ne confère à Sylvestre que des domaines « en Xhrace, en Judée... ou dans diverses iles, » in Thracia, Judcea...vel diversis insulis possessionum prcedia contulimus ; et le butspé-cial de cette clause, Tentretien du luminaire sur les tombeaux des Apótres {pro continuatione luminar iorum), en montre le peu d’importance : si chère que fut la ciré dans ce
+<note xml:id="note.53.1"><p> « Toutle monde reconnaissait alors au Pontife Romain un droit spécial sur les Iles. Les Grecs étaient d’accord là-dessus avec les Latìns. Th. Balsamon, Patriarche Grec d’Antioche, composait alors (u 54) son corps de droit canonique (le Nomocanon) où il a inséré la Donation de Constantin, qui donne toutes les iles à ì'Église Romaine. « (Rohrbacber, Tome IV, livre 69.) — La date de 1154 est fausse, mais il faut ètre juste : en donnant la date verità ble (1194), l'abbé Rohrbacher ne pourrait plus soutenir qu’Adrien IV, mort en u5g, a été induit en erreur par le Nomocanon.
+
+
+
+
+
+
+</p></note>
+
+<pb n="LIV"/>
+
+
+temps-là, Constantin n’a pas pu mettre à contribution les quatre parties du monde pour fournir quelques paquets de cierges. Mais l'Égìise s’est toujours montrée large en matière d’interprétation.</p>
+<p>Bien entendu, les Papes comptaient moins sur l’efficacité de la Charte, en elle-méme, que sur le bon vouloir à leur égard de ceux qu’ils investissaient du pouvoir en vertu de leur prétendue suzeraineté. Il faut écouter là-dessus le choeur des théologiens et des canonistes. L’abbé Glaire : « Si l'on s’étonne que les Papes donnassent des royaumes qui ne leur appartenaient pas, faut-il étre moins surpris en voyant des Princes accepter de pareils présents? N’était-ce pas convenir que les Papes avaient le droit de disposer des couronnes et de déposer les monarques à leur gré? » — Rohrbacher : « Que le Pape offre la couronne à tei Prince; qu’il la lui retire pour la donner à un autre, il n’y a à ces actes nulle difficulté. Le Pape opere à vue ces changements en vertu du droit des deux Glaives et de son souverain domaine sur l’univers. » — Joseph de Maistre : « J’ai souvent entendu, dans ma vie, demander de quel droit les Papes déposaient les Empereurs; il est aisé de répondre : du droit sur lequel repose toute autorité légitime, possession d’un coté, assent imeni de l’autre. >
+
+
+
+
+
+<pb n="LV"/>
+Plaisante morale! Les Papes s’étaient mis en possession à l’aide d’un faux titre, et, en fait d’assentiment, on invoque pour eux celui des usurpateurs qu’ils favorisaient, des voleurs de couronnes !</p>
+<p>Forts de cet état de choses qu’ils avaient artificieusement créé et que la superstitiori entretenait, ils purent se montrer hautains et exigeants, affirmer plus que jamais la réalité de la Donation et veiller à l’exécution de toutes ses clauses. Frédéric Barbe-rousse dut tenir les rènes de la bianche haquenée d’Adrien IV ; comme il hésitait, comme il se contentait de baiser la mule du Pape, ce qui marquait à son avis suffisamment de déférence, on lui remontra, par l’exemple de Lothaire, un usurpateur suscité contre son propre pére par Innocent II, que c’était une obligation impériale, et force lui fut de s’exécuter. Alexandre III le ré-compensa bien de cet abaissement lorsque plus tard, le relevant d’excommunication, il lui posa le pied sur la tète en psalmodiant le verset de Jérémie : Super aspidem et basiliscum... Conculcabis leonem et draconem. Toutes les fois qu’ils le purent, les Papes exigèrent des Empereurs ou des Pois la méme soumission; Boniface Vili, lors de son couronnement, se fit présenter
+
+
+
+<pb n="LVI"/>
+
+l'étrier par Charles II, Roi de Sicile; Sigismond, Roi de Hongrie, et l'Électeur Palatin, à pied, tètes nues, tinrent les rénes du chevai de Martin V. A chaque fois, ils ne manquaient pas de faire insérer dans le procès-verbal de la cérémonie les mots consacrés: exhibuit stratoris officium (ce sont les propres termes de la Donation), pour bien constater la reconnaissance de leurs droits, la validité de la charte<ref target="note.56.1"/>. Ils ne se contentaient pas de cette affirmation indirecte. Innocent III dit sans ambages, dans un Sermon sur Saint Sylvestre, que Constantin a donné à ce Pape tous les royaumes d’Occident, qu’il les lui a concédés et livrés (tradidit et demisit): cela, pour la théorie; dans la pratique, il était de l’avis de Saint Louis,
+<note xml:id="note.56.1"><p> Decretum est et Principum favore firmatum, quod dominus Imperator, pro Apostolorum Principis et Sedis Apostolica; reverentia officium exhiberet stratoris, (Muratori, Antiq. Medii avi, Dissert. IV.) — Le Miroir de Souabe, rédaction authentique et legale des coutumes Allemandes au xme siècle, confirme et aggrave ces prétentions : <quote>Il (le Pape) monte un blanc paiefroi et l'Empereur lui doit tenir l’étrier de peur que la selle ne remue; signìfiant ainsi que si quelqu’un résiste au Pape, les Princes temporels le doivent contraindre.</quote> Cité par l’abbé Gosselin, professeur au séminaire de S. Sulpice : Pouvoir des Papes sur le temporei des Rois au Moyen-Age, 1839, in-8e.
+
+
+
+
+
+</p></note>
+
+<pb n="LVII"/>
+qu’on ne doit pas défendre la religion par des arguments : on se ferait battre; mais convaincre les raisonneurs en leur fourrant l’épée dans le ventre « tant qu’elle y peut entrer. » Ses féroces Inquisiteurs fìrent brù-ler vifs à Strasbourg deux malheureux, coupables d'avoir mis en doute Pauthenti-cité de lavieille charte apocryphe. Telle est l’audace des fourbes, lorsqu’ils ont en mains le pouvoir<ref target="note.57.1"/>. Grégoire IX fut plus
+<note xml:id="note.57.1"><p> Voltaire place cette exécution deux siècles et demi plus tard. « Croira-t-on un jour qu’une si ridicule imposture, très-dìgne de Gille et de Pierrot, ou de Nonotte (la Donation), ait été généralement adoptée pendant plusieurs siècles ? Croira-t-on qu'en 1478 on brùla dans Strasbourg des Chré-tiens qui osaient douter que Constantin eQt cédé l’Empire Romain au Pape? » Essai sur les tnccurs, chap.X.</p>
+<p>Nous n’avons rien trouvé, dans les annales de Strasbourg, qui corroborat l’assertion de Voltaire à cette date de 1478 ; mais voici ce qu’on lit dans Hermann et Nolden :
+<quote>Sous l’Episcopat de Henri de Vehringen, et à la poursuite de Conrad de Marpurg, Dominicain, on fìt le procès pour hérésie à nombre de personnes accusées de suivre la doctrine des Vaudois ou Albigeois. Il en fut brùlé, à Strasbourg, quatre-vingts des deux sexes en 1213, et d’autres encore en 1229 et 1230. Sur les vives instances de dénonciateurs puissants, les juges prononcèrent à regret la condamnation contre un homme et une femme dont le principal crime était d’etre un peu plus instruits que les autres : ils avaient osé nier la prètendue Donation de Constantin le Grand au Saint-Siège.</quote> L’ìncendie de la bìbliothèque de Strasbourg, lors du bombardement de 1870, a fait disparaìtre les pièces de ce monstrueux procès que Strobel s'était proposé de publier.</p><p>( Ces renseignements nous ont été communiqués par l’érudit Alsacien, M. P. Ristelhuber.)
+
+
+
+
+</p></note>
+
+<pb n="LVIII"/>
+tiède ; il se contenta d’affirmer solennellement à Frédéric II que le Pape tenait de Constantin Rome, tout PEmpire, et le droit de porter les insignes impérìaux; Nicolas III (Extravagantes, de Electione), rappela les termes de la Donation et en soutint l’authenticité ; Clément V fit jurer à Henri IV et Eugène IV à Sigismond, de la maintenir. Ne poussons pas plus loin cette énumération. Les Papes étaient soutenus, dans leurs prétentions insensées, par une armée de juristes, presque tous sortis de leur université de Bologne, soutenant, comme Tolomeo de Lucques (De regimine Principum), que la Donation devait étre considérée comme une déposition volontaire de PEmpereur en faveur du Pape, et, comme Tudeschi, qu'il fallait brùler sans rémission tous ceux qui seraient d’avis contraire.</p>
+<p>C’est par le Décret de Gratien (1151) que la Donation de Constantin pénétra dans le monde des légistes et fut livree aux dispu-
+
+
+
+
+
+<pb n="LIX"/>
+tations des hommes. L’épaisse compilation juridique, oeuvre patiente dTun moine obscur de Bologne, qui n’a pas laissé d’autres traces dans l’histoire, vint juste à point pour préparer le pontificat d’Innocent III et fburnir à ce continuateur de la politique absorbante de Grégoire VII les textes qu'ii lui fallait pour compléter l’asservissement des pouvoirs civils et réduire les Rois au ròle de bras séculier, d’exécuteur des hautes (Euvres du Pape : supreme idéal de la théocratie !</p>
+<p>Rien n’était fait tant que les prétentions des Papes, celles qu’ils déduisaient de la Donation cornine celles qui découlaient de leurs propres Décrétales, nJétaient point passées dans le droit public, n’étaient pas prises pour les sources mèmes du droit. On se trouvait dans un chaos, sans nul guide, nulle autorité, au milieu de cette abondance de pièces, la plupart apocryphes, successi vernent produites ou fabriquées suivant les besoins du jour et offrant les contradictions les plus flagrantes, car l'Église et ses besoins avaient bien changé depuis les temps Apostoliques. Denys le Petit avait bien rassembié, vers 55o, toutes les Décrétales qui passaient pour vraies, et Isidore Mercator, à la fin du viiie siècle, comblé par des fausses les regrettables lacunes que
+
+
+
+
+<pb n="LX"/>
+présentait la collectìon; mais c’était insuffisant. Gratien, au xii% ajouta de nouveaux documents, vrais ou faux, aux anciens, fondit le tout, en fit un corps de doctrine, lui imprima le cachet dogmatique en formulantdes propositions qui s’enchainent assez pour composer, dans leur ensemble, un code ecclésiastique complet, et que viennent appuyer, àia file, des textes du Digeste, les Chartes des Empereurs, les Lettres, Bulles et Décrétales des Papes, les Canons des Gonciles ; il altèra, mutila, falsifia tout ce qui lui passait par les mains, afin de le mieux faire entrer dans son cadre et d’é-tablir l’harmonie, la concordance parfaitedes doctrines les plus disparates; il y parvint en apparence, à l’aide d’une habile distribution de matières qui, réunissant sous un méme chef [distinction, cause ou question) les pièces non absolument inconciliables, donne à ce péle-mèle un semblant de cohé-sion, et baptisa le tout, pour ébtouir, du titre de Concordia discordantium canonum : tìtre menteur s'il en fut.</p>
+<p>Cependant, sous cet amas d’incohérences et de contradictions, il y a une unité, une unité redoutable; tout y converge vers un centre : la primauté du Pape, la monarchie universelle du Pape, souverain du monde, dispensateur de toutes les couronnes, et, dans
+
+
+
+
+
+<pb n="LXI"/>
+chaque État, la domination sacerdotale. Que Gratien traite de la constitution hié-rarchique de l’Église (iro partie du Décret), de Padministration ou juridiction ecclésiastique (1re partie), enfin de la liturgie et des sacrements (3e partie), les matières religieuses semblent seules étre de son ressort; il n’a Pair de s’occuper en aucune facon de la société civile et reste dans le domaine spirituel, le propre domarne du prétre. Ce n'est donc pas de sa faute si tout, absolumcnt tout, est du domaìne spirituel; si rien rPéchappe au prétre, qu’il soustrait d’abord prudemment à la juridiction séculière, l’homme de Dieu ne pouvant étre assujetti à l’homme du siècle, et pour Iequel, en revanche, il réclame seulement ce qui est du ressort de la religion : l’état civil, puisque Pétat civil chez tout peuple catholique a pour base le baptéme, un sacrement; les mariages : le mariage est encore un sacrement ; par extension tout ce qui regarde le contrat, la dot, le douaire; les testaments : le testament est une affaire de conscience; Ics obligations contractées sous serment : le scrment est religieux; Péducation, Penseignement : il s'agit de Pàme; Passistance à donner aux veuves, aux pauvres, aux orphelins et la connaissance de tout procès où ils se trouvent engagés : le pauvre, la
+
+
+
+
+<pb n="LXII"/>
+
+
+veuve, Porphelin sont du ressort de la charité, et la charité, c’est le prette j en thèse générale, il réclame encore la connaissance de tout conflit entre Chrétiens, car s’il y a procès, on peut dire à l’avance que l’unedes deux causes est mauvaise, et soutenir une mauvaise cause, c’est un péché : or le péché, c’est l’affaire du prètre<ref target="note.62.1"/>. De la naissance à la sépulture, dans toutes les conditions de Pexistence, le prétre est là, menacant et tenace ; impossible de lui faire làcher prise. Gelui qui n’est ni orphelin, ni pauvre, ni veuf, ni marié, qui n'aurait besoin de l'Église que pour naitre et pour mourir, on le tiendra par les mille circonstances de la vie commune : Pothier remarquait que de son temps encore, les notaires, presque tous ecclésiastiques, avaient soin d’insérer dans les contrats les pius usuelsune clause d’exé-cution sous serment, pour faire changer la
+<note xml:id="note.62.1"><p> A l'aide da mème artifice, Innocent III pré-tendait s'immiscer dans toutes les querelles entre souverains.  Personne ne doute », disaìt-il, « qu'il ne nous appartenne de juger de tout ce qui regarde le saìut et la damnation de l’àme. Or les guerres injustes ne sont-elles pas des ceuvres dignes de la damnation éteroelle et comme telles soumises à notre jugement ? Nous ne prétendons pas décider les questions qui concernent le fief, et qui sont dii ressort du Roi, mais seulement prononcer sur le péché dont la correction nous appartient. »
+
+
+
+
+
+</p></note>
+
+<pb n="LXIII"/>
+juridiction. Celui qui n’a pas de procés, on lui en fera, sous prétexte d’hérésie, de sorcellerie, de mépris des sacrements, et il tombera, lui et ses biens, à la merci du prétre. Plus on pénètre dans ces noires té-nèbres du droit canonique, plus on se convaine qu'il n’a de raison d’étre que pour tout mettre sous la main de l'Église, pour rendre la caste sacerdotale maitresse de la vìe, des biens et des enfants de tout le monde. Les clauses relatives aux testaments et donations sont de la piraterie organisée; elles n'ont pour but que de faciliter la captation. Une constitutìon d’Alexandre III décide que lorsqu’un legs est fait en faveur d’une église ou d’un prétre, on doit agir non selon les Iois du pays, mais selon les Canons (non secundum leges, sed secundum Canones); dans ce cas, il n'y a plus besoin de testament, le legs peut ètre institué verbalement (nudis verbis), deux ou trois témoins suffisent pour la validité, et les prétres qui se prétendent institués au détriment de la famille sont recus comme témoins. Les bons apótres! Au prétre, toutes les richesses, tous les honneurs, et, s’il faute, un tribunal ami, Timpunité; au reste des citoyens, la permission d’exister, sous Toeil du prétre : on ies laisse vivre, travailler, s’enrìchir, comme on laisse les
+
+
+
+<pb n="LXIV"/>
+
+
+abeilles faire leur miei, pour le manger.</p>
+<p>Qu’on juge de Pattachement du clergé pour ce formulaire de ses éternelles revendications! C’est son code, et il dénonce comme d’odieux empiétements, il exorcise sous le nom vaguement inquiétant de Revolution toutes les légitimes reprises du pouvoir séculier en matière d’état civil, de juridiction, d’enseignement. L’auteur du Décret est pour lui presque un Dieu, Dominus Gratianus, Divus Gratianus; son livre est le livre d’or de l'Église<ref target="note.64.1"/>. Il n’y a rien à en retrancher, rien à en rabattre: «Toutes les propositions du Décret, » dit un canoniste<ref target="note.64.2"/>, « ont per scecula sceculorum, dans l'Église, la méme portée qu’à leuf origine. » Méme aujourd’hui que la civilisation moderne, douée d’une robuste constitution, est parvenue à rejeter ces dangereux germes de mort par une élimination lente, mais su re, comparable au jeu de Porganisme humain qui expulse un virus, lorsque le virus n’a pas été assez fort pour le tuer; dépossédé de presque tout ce qu’il tenait de par
+<note xml:id="note.64.1"><p> Decretum aureum Domini Gratiani ; Decretum divi Gratiani, tels sont les titres d’un grand nombre d'éditions du Décret.
+</p></note>
+
+<note xml:id="note.64.2"><p> Rosshirt, Dictionnaire encyclopèdique de la Théologie catholique ; traduit de l’Allemand par l’abbé Goschler, Art. Décret de Gratien.
+
+
+
+
+</p></note>
+
+<pb n="LXV"/>
+
+les lois qu'il avait faites, le clergé se renferme encore dans ce Décret, sa dernière citadelle : Pétat de choses qui en avait été le resultai au Moyen-Age, cette période de guerres atroces et de calamités sans nombre, Pére de PInquisition, Pére de Pabètissement et de Passervissement de la pensée humaine, ce cauchemar éclairé aux lueurs des buchers est pour lui l'ordre social par excellence, il doit Pétre pour tout bon. catholique<ref target="note.65.1"/>.</p>
+<p>L’étude du Décret fut imposée par Eugène III à l'Université de Bologne, cette reine des universités catholiques, bien digne de Pètre, car on exhibait, pour lui donner du lustre, la faire valoir, sa charte de fondation, signée de Théodose II, adressée, en 433, au Pape Célestin, qui était mort l'an-
+<note xml:id="note.65.1"><p> « L'ordre social du Moyen-Age est, pour les principes l’ordre social Chrétien, l’ordrele plus en harmonie avec les vérités et les devoirs de la foi, l'ordre le plus favorable au progrès dans la stabilité, à la liberté dans la tradition. Avec des sociétés légalement constituées en dehors du Christianisme, ce droit Chrétien est sans doute provisoirement ìnapplicable ; il n'en constitue pas moins en soi un ordre social parfait, et tout Chrétien, tout hoimne intelligent, qu'il porte la parole ou la plume n’importe, doit s'efforcer, avec un zèle prudent, de ménager parmi nous à ces principes une nouvelle application. » L’abbé Rohrbacher, Histoire universelle de VÉglise catholique, tome VII.
+
+
+</p></note>
+
+<pb n="LXVI"/>
+née précédente, à Louis le Débonnaire, qui n’était pas né (il s’en fallait de quatre cents ans), à Baudouin, Comte de Fiandre, qui se trouvait dans le méme cas, et à certain Philippe, Roi d’Angleterre, qui n’a jamais existé, De cette école de mensonge, toute dévouée au Pape et à ses oeuvres, une foule de juristes, nourris de la moelle de Gratien, incapables de discerner le faux du vrai, après avoir si longtemps pàli sur cette encyclopédie des fraudes et des supercheries cléricales, la tète pieine de chimères, essaimaient chaque année comme d’une rucheet allaient infester toute PEurope. Par eux, le Décret de Gratien devint le code ecclé-siastique universel; quoique dépourvu de toute sanction, de toute autorité régulière» il fut admis méme en France, où l’on ne recevait comme canoniques que les Décrétales recueilHes par Denys le Petit, et eut force de loi pardevant les tribunaux civils.</p>
+<p>La Donation de Constantin avait un droit incontestable à figurer dans cette oeuvre où les Fausses Décrétales d’Isidore Mercator tiennent un si bon rang, où ta monstrueuse falsifìcation connue sous le nom de Constitutions Apostoliques est donnée comme d’une authenticité incontestable, avec le Liber Pontificalis du Pape Damase, et tant de Lettres de Papes, fabriquées ad majorem Dei
+
+
+
+
+
+
+<pb n="LXVII"/>
+gloriam; mais en habile homme, le compilateur en a retranché cet absurde préambule où Pon fait parler Constantin en Pére de l'Église, initié aux plus profonds mystères de la foi ; il s’en est tenu à Putile. Elle occupe, dans le Décret, la majeure partie de la Distinction XCVI, Canon XII, et vient à Pappui de propositions qui toutes sont destinées à établir sur des bases solides la suprématie Pontificale, à défendre l'Église de Pingérence séculière. Le Canon XI commence par affirmer que les Empereurs sont sujets du Pape, et non les Papes sujets des Empereurs. « Si PEmpereur est catholique (ce que nous lui souhaitons dJètre), il est le fils et non le chef de l’Eglise (filius est, non prcesul)\ donc il lui convient d’apprendre ce qui est de la religion et non de Penseigner {discere, non dò-cere). Il a les privilèges de son ressort, mais Dieua voulu que tout ce qui regarde l'Église fùt de la compétence des prétres. » La Distinction XCVII établit que l’élection des Papes, et en général toutes les affaires ecclésiastiques, ne regardent ni PEmpereur, ni aucun lalque ; que les décisions des Empereurs à ce sujet sont nulles et non avenues, à moins qu’elles ne soient confirmées par le Pape. Bien loin donc d’ètre déplacée ici, comme Laurent Valla Pinsinue, la Do-
+
+
+
+<pb n="LXVIII"/>
+
+
+nation de Constantin fait corps avec tout ce qui suit et tout ce qui précède; elle est la clef de voùte de l’édifice, car c’est de la subordination de PEmpereur et des Princes au Pape, que dérive, par voie de conséquence naturelle, la subordination du Iaique au prétre; elle est le nerf du système qui place en haut, tout en haut le Pape, maitre des couronnes, lesdonnantet les retirant à son gré, en bas la noire légion du ciergé, devorant la substance des peuples; qui transforme le monde en une sorte de ferme dont les Papes font Pexploitation de compte à demi, avec les Rois pour métayers et les peuples pour cheptel; qui fait de tout ce qui n’appartient pas à la caste sacerdotale des ilotes, de misérables serfs, toujours tremblants, toujours sous le coup d’une dé-nonciation possible, ne parlant qu’avec la permission du prétre, ne vivant que par pitié, une race de mendiants : mendiants couronnés tendant la main au Pape, mendiants à besace gueusant leur pain à la porte des monastères.</p>
+<p>Le Décret de Gratien est, pour le ciergé, une oeuvre tellement capitale, l’infìrmation de la moindre de ses parties, à plus forte raison d’une pièce importante, est pour lui d’unetelle conséquence, que dès que l’inauthenticité de la Donation de Constantin fut
+
+<pb n="LXIX"/>
+seulement soupconnée, on s’efforfa d’exonérer de cette supercherie Fauteur du Décret. Antoine de Florence, Nicolas Cusan, Volaterranus, par exemple, affirmèrent qu’elle ne se trouvait pas dans quelques anciens manuscrits, ce qui s’explique, puisque postérieurement à l’imprimerie, elle n’a souvent été éditée, en pays libres, en France et en Allemagne, qu’avec la glose infamante : Cette Donation est une supercherie ; hcec dona sunt mendacia. Ceux qui la désapprouvaient si catégoriquement ont bien pu la retrancher de leurs exemplaires, sans pour cela douter que Gratien Feut recueillie, Gratien n’était pas si scrupuleux et Valla lui-mème, dans un autre deses ouvrages<ref target="note.69.1"/>, le prend en flagrant dèlit d’imposture, mutilant un passage d’Isidore Mercator pour en tirer un sens exagéré, à propos du Symbole des Apótres, récité au Concile de Nicée : falsifier ce qui est déjà faux, c’est un assez joli tour de force. Toutefois, subissant malgré lui l’ascendant d’un livre que Fon commentait dans toutes les écoles de droit, d’un auteur qui jouissait d’une si grande autorité, Valla refuse de croire Gra-
+<note xml:id="note.69.1"><p> Pro se et contra calumniatores Apologia. Laurentii Vallee opera, Basilece, 13, in-fol., p. 800.
+
+
+</p></note>
+
+<pb n="LXX"/>
+
+
+
+art. Paléa.) Valla tantôt adopte la première 
+et tantôt la seconde de ces hypothèses, pour 
+avoir devant lui un adversaire qu'il puisse 
+prendre à partie, n'osant pas s'attaquer 
+aux Papes, qu'il pensait bien, au fond, être 
+les auteurs de la fraude, et pour s'amuser 
+à jouer sur le nom de ce Paléa, homme de 
+paille de la Papauté. Vraisemblablement, 
+palea est la transcription du Grec icoXaii, 
+sous-entendu <foreign xml:lang="grc"></foreign>; les copistes qui ont 
+mis cette indication en tête de quelques 
+parties des Canons ont sans doute voulu 
+marquer que ces documents étaient vieux 
+et qu'ils en ignoraient l'origine<ref target="note.70.1"/>. De leur 
+<foreign xml:lang="grc"></foreign>, comme du Pirée, on a fait un 
+homme : Paucapaléa, Protopaléa, aussi ap- 
+pelé Pocopaléa, Quotapaléa ou tout simple- 
+ment Paléa, disciple de Gratien, d'une éru- 
+dition consommée, d'un goût exquis, etc.! 
+Par suite d'une méprise, peut-être inten- 
+tionnelle, une rubrique est devenue un 
+savant; un peu plus elle devenait un saint : 
+
+
+
+<note xml:id="note.70.1"><p> V. Banck, De tyrannide Papœ in Reges et 
+Principes Christianos, Franequerœ, 1649, in-12. 
+Ce jurisconsulte Suédois, qui a dédié son livre à 
+la Reine Christine, s'amuse aussi à jouer sur le 
+nom de Paléa : «... Et cum palea sit, ac pro palea 
+in Decretis inseratur, nulla veritatis grana unde 
+colligere licet, Piscator Romanus granaria sua 
+auro replevit.  
+
+
+
+</p></note>
+
+<pb n="LXXI"/>
+
+que de personnages de Thistoirè ecclésiasti- 
+que n'ont pas d'autre droit à l'existence!</p>
+
+<p>Laurent Valla ne fut pas le premier à 
+soupçonner de fausseté la Donation; une 
+telle supercherie, si grossière, ne pouvait 
+pas être examinée de près sans qu'on en vît 
+la trame. Dès 998, l'Empereur Othon III la 
+dénonçait publiquement, dans une de ses 
+Constitutions. Frédéric Barberousse sembla 
+néanmoins l'admettre comme vraie, en 
+principe.<ref target="note.71.1"/>, et Gervais de Tilbury, secré- 
+taire de Othon IV, en reconnut, au nom de 
+son maître, la validité; mais ces acquiesce- 
+ments, extorqués d'une façon plus ou 
+moins adroite, ne signifient rien. Ils sont le 
+fruit de la fameuse alliance du trône et de 
+Tautel, deux despotismes faits pour s'enten- 
+dre et, après maintes querelles, se réconcilier 
+toujours aux dépens des peuples. En dehors 
+des juristes papalins, bien peu d'esprits 
+
+
+
+<note xml:id="note.71.1"><p> Il prétendait seulement que toute donation pou- 
+vant être révoquée pour cause d'ingratitude, il se ré- 
+servait d'user de ce droit. <quote>Au temps de Constantin, 
+S. Sylvestre possédait-il quoi que ce soit de la 
+dignité royale ? Ce fut ce Prince qui rendit à l'Église 
+la liberté et la paix, et tout ce que vous possédez, 
+comme Pape, provient de la libéralité des Empe- 
+reurs. Lisez les histoires et vous y trouverez ce que 
+je dis.</quote> (Lettre à Adrien IV») 
+
+
+
+</p></note>
+
+<pb n="LXXII"/>
+que de personnages de l'histoire ecclésiastique n’ont pas d’autre droit à Pexistence!</p>
+<p>Laurent Valla ne fut pas le premier à soupconner de fausseté la Donation; une telle supercherìe, si grossière, ne pouvait pas étre examinée de près sans qu'on en vit la trame. Dès 998, l’Empereur Othon III la dénoncait publiquement, dans une de ses Constitutions. Frédéric Barberousse sembla néanmoins l’admettre comme vraie, en principe<ref target="note.72.1"/>, et Gervais de Tilbury, secrétaire de Othon IV, en reconnut, au nom de son maitre, la validité; mais ces acquiescements, extorqués dJune facon plus ou moins adroite, ne signifìent rien. Ils sont le fruit de la fameuse alliance du tròne et de l’autel, deux despotismes faits pour s’entendreet, après maintes querelles, se réconcilier toujours aux dépens des peuples. En dehors des juristes papalins, bien peu d'esprits
+<note xml:id="note.72.1"><p> Il prétendait seulement que toute donation pouvant étre révoquée pour cause d’ingratitude, il se ré-servait d’user de ce droit. « Au temps de Constantia! S. Sylvestre possédait-il quoi que ce soit de la dignité royale ? Ce fut ce Prince qui rendit à l’Église la liberté et la paix, et tout ce que vous possedei, comme Pape, provient de la liberalità des Empereurs. LHez les histoires et vous y trouverez ce que je dis. » (Lettre à Adriett IV.)
+
+
+
+
+</p></note>
+
+<pb n="LXXIII"/>
+élevés, familiers avec les textes, faisaient le moindre cas d’une charte dont la rédaction est si ridicule, dont chaque clause dénonce la fraude,. chaque phrase la sottise d’un scribe ignorant. En 1152, lorsqu’Eugène III argua de la Donation, que Gratien venait de produire au grand jour, pour disputer Rome au peu pie, soulevé par Arnaud de Brescia, un des disciples de Tapótre démocratique, Wetzel, écrivait à Frédéric Barberousse : « Ce mensonge ou plutót cette fable hérétique, par laquelle Constantin passe pour avoir simoniaquement cédé à Sylvestre les droits de l’Empire sur la ville de Rome, est aujourd’hui dévoilé; les journaliers et les bonnes femmes en savent assezlà-dessus pour fermer la bouche aux docteurs, si bien que le Pape et les Cardinaux n’osent plus se montrer en public, tant ils en sont honteux<ref target="note.73.1"/>. » Il traite de méme le baptéme de Constantin par Melchiade, cette première fable dont nous avons parlé et qu’on essayait
+<note xml:id="note.73.1"><p> « Mendacium vero illud et fabula hceretìca, in qua refertur Constantinus Sylvestro imperialia simoniace concessisse in Urbe, ita detecta est, ut etiam mercenarii et mulierculce quoslibet etiam doctissimos concludant, et dictus Apostolicus cum suis Cardinalibus in civitate pree pudore apparere non audeant. » Martène et Durand, Amplissima Collectio veterum scriptorum, 1724 ; Epist. 384.
+
+
+
+
+</p></note>
+
+<pb n="LXXIV"/>
+sans doute de remettre à fìot, en voyant contester le baptéme par Sylvestre. Dante parait avoir cru à Pauthenticité de la Donation; il en déplore les efFets et la signale comme la principale cause de la corruption de l'Église, de Pavilissement du tróne pontificai :
+<quote><l>Hélas ! Constantia, de quels fléaux fut mère</l>
+<l>Non ta conversion, mais cette dot</l>
+<l>Que recut de toì le premier Pape enrichi<ref target="note.74.1"/></l></quote></p>
+<p>C’est le poète qui parie, et vraie ou fausse, la Donation avait eu les efFets qu’il déplore. Dans son De monarchia, il ne la rapporte que comme une tradition très-discutable : « Il y a encore des gens qui prétendent que l’Empereur Constantin, guéri de la lèpre par Pintercession de Sylvestre, a donne à l'Église le siège de l’Empire, c’est-à-dire Rome<ref target="note.74.2"/>. » Sur le fond de la question, Dante établit très-bien que Constantin n’a rien pu aliéner de
+<note xml:id="note.74.1"><p> 
+<cit><quote>
+<l>Ahi, Constantin, di quanto mal fu matre</l>
+<l>Non la tua conversion, ma quella dote</l>
+<l>Che da te prese il primo ricco Patre!</l></quote>
+<bibl>Inferno V, 115 et suiv.</bibl></cit>
+</p></note>
+
+<note xml:id="note.74.2"><p> « Dicunt quidam adhuc quod Constantinus Imperator, mundatus a lepra intercessione Syvestri, Imperii sedem, scilicet Romam, donavit Ecclesias. » (De Monarchia, lib. III.)
+
+
+
+
+
+</p></note>
+
+<pb n="LXXV"/>
+l’Empire, qu'il aurait déchiré en deux la tunique sans couture (scissa esset tunica inconsutilis) , que l’Église est bàtie sur la pierre ou sur Pierre, c’est-à-dire sur le droit divin, PEmpire sur le droit humain, et toute sa discussion, d’une rare élévation d’idées et de style, porte précisément sur la séparation nécessaire des deux pouvoirs. C’était du reste, à son époque, la thèse des juristes indépendants; trompés par Tassurance avec laquelle l’Église affirmait Pauthenticité de la Donation, ils la croyaient réelle, mais refusaient de Padmettre comme valable. Dubois de Coutances, conseiller de Philippe t le Bel, écrìvait : « L’Empereur de Constantinople, qui a donné au Pape tout son patrimoine (la donation étant excessive comme faite par un simple administrateur des biens de l'Empire), peut, comme donateur (ou l’Empereur d’Allemagne comme subrogé en sa place), révoquer cette donation. Ainsi la papauté serait réduite à sa pauvreté primitive des temps antérieurs à Constantin, puisque cette donation, nulle en droit dés le principe, pourrait ètre révoquée sous la prescription longissimi temporis<ref target="note.75.1"/>. » (Dupuy, p. 15-17, cité par Mi-
+<note xml:id="note.75.1"><p> L’abbé Rohrbacher (Hist. de l’Église, tome IV) fait dire précisément tout le contraire à Dubois de Coutances : « La Donation est illégale en soi, mais le Pape a pour lui la prescription longissimi temporis. » C’est encore un des artifices à l’aide desquels cet auteur soutient sa thèse : les Souverains Pontifes induits en erreur par l’assentiment unanime des juristes, Grecs ou Latins, Gibelins oa Guelfes, Italiens ou Francais. En France, avantque nous ne fussions gangrenés d’ultramontanisme, tout le monde était sur la Donation de l’avis de Henri Estienne : <quote>Quant aux groslarrons ecclésiastiques, c’est un cas à part, et principalement quant à leur chef : et semble bien que quelque povre galefrottier de moine repris par luy de larrecin, luy pourroit faire une pareiìle response à celle que fit le pirate à Alexandre le Grand. Car le larrecin commis par celuy qu'on appelle Pèresainct, sous couleur de la donation de Constantin, n’est-ce point vrayement un tei larrecin, au pris de ceux que commettent ses enfans, qu’estoyent les larrecins d’Alexandre à comparaison de ceux qui estoyent commis par ce pirate, ou escumeur de mer? Or est-il bien raison que ceux qui sont les premiers après cest archilarron, ne s’amusent point à des larrecins indignes de leur grandeur.</quote> (Apologie pour Hérodote, chap. xxm. Des larrecins et rapines des gens d'Église. Édition Liseux, avec introduction et notes par P. Ristelhuber, Paris, 1879, 2 voi. in-8°: tome II, page 50.)
+
+
+
+
+</p></note>
+
+<pb n="LXXVI"/>
+chelet, Histoire de France, Philippe le Bel); Jacques Almain, théologien de Paris, déniait à cette ancienne supercherie toute autorité (1310); Marsile de Padoue enseignaìt que la primauté de Pierre, fondée non sur les Évangiles, mais sur la Donation de Constantin, est un leurre, une imposture, et que ni Pape, ni Évéques, ni pretres,
+
+
+
+
+
+
+<pb n="LXXVII"/>
+n’ont de juridiction sur personne<ref target="note.77.1"/> : opinions bien hardies au xiver siècle, en face des buchers toujours allumés. Jean XXII commenca par excommunier Marsile, le réfuta et soutint la parfaite authenticité de la Donation.</p>
+<p>Les Papes persistant toujours à s’appuyer sur une Charte fabriquée par eux et refusant de se rendre aux arguments tirés avec modé-ration de la raison et de la logique, il était urgent de faire descendre la discussion des hauteurs où Dante et le grand juriste de Padoue Tavaient portée, pour s’en tenir à Panalyse de l’acte en lui-mèrac, en dénoncer impitoyablement les absurdités; et montrer, non pas seulement que la Donation était illegale ou excessive et révocable, ce qui lui supposait une ombre d’existence, mais l’oeuvre d'un faussaire : la fraude une fois divulguée, indéniable, peut-ètre que les Papes n’oseraient plus bruler ni excommunier personne. C’est ce que Laurent Valla entreprit, avec d’autant plus d’assurance qu’il pouvait compier sur Pappui d’un Prince toujours menacé de retomber sous la sujétion du Vatican. La date à laquelle il composa son
+<note xml:id="note.77.1"><p> Defensorium pacist paru en 1324. Réimprìmd dans Goldast.
+
+</p></note>
+
+<pb n="LXXVIII"/>
+
+Traité contre la Donation se trouve fixée par dìverses circonstances qu’il rappelle : la révolte de Bologne, le siège soutenu par EugènelV dans le chàteau Saint-Ange (1434) et qu’il dit avoireu lieu six ans auparavant, la déposition toute récente de ce Pape par le Concile de Bàie et Pélection d'Amédée de Savoie (Félix V); c’est donc aux environs de 1440 qu'il mit la piume à la main. Valla vivait alors à la cour du roi de Naples, Alphonse d’Aragon, non pas en exil, comme l’insinue charitablement Steuchus<ref target="note.78.1"/>, mais de son propre gré, ayant quitté Rome à la suite de premiers démélés avec Pogge, qui l’avait empèché d’obtenir de Martin V une place de Secrétaire Apostolique<ref target="note.78.2"/>. II accompagnait dans ses expéditions Alphonse, en train deconquérir son royaume; il se vante méme de s'ètre battu sous ses ordres et d'avoir repoussé un furìeux assaut, du haut des murs d’un couvent. S7il avait Pétoffe d’un homme de guerre, sa piume était encore plus affilée que son épée, et il le prouva bien.</p>
+<p>Le Concile de Bàie venait de ramener Pattention sur les prétentions temporelles
+<note xml:id="note.78.1"><p> « Regi Neapolitano, apud quem exulabat, gratificaturus. 9 Contra Laurent. Vallant, p. 80.
+</p></note>
+
+<note xml:id="note.78.2"><p> Laurentii Vallac opera, p. 352.
+
+
+
+
+</p></note>
+
+<pb n="LXXIX"/>
+des Papes, et entre tous les États de l’Europe le royaume de Naples, tenu si Iongtemps dans l’étroite dépendance du Saint-Siège, avait le plus d’intérèt à secouerce joug. Sur l’invitation du Roi, Valla fut amené à interroger le principal titre des Pontifes, n’eut pas de peine à le trouver faux et concut le projet de le dire. Mais ici faisons jastice d'une appréciation qui n’a pas le moindre fondement. « Dédaignant, » dit M. Ch. Nisard, t de pénétrer dans l’histoire avec le flambeau de la critique, uniquementpourvu de cette espéce d’arguments que l’imagination suggère aux purs déclamateurs, Valla entreprit de prouver que la Donation de Constantin aux Papes était chìmérique et insoutenable. Combattre les faits par cela seul qu’ils manquent de vraisemblance n’est pasprécisément uneméthode conforme àia plus exacte manière de raisonner. Combien d’événements vrais ne laissent pas de paraltre invraisemblables ! Mais cette fois, Valla rencontra juste : les travaux des érudits ontdémontré, il y a Iongtemps, que cette Donation était une fable; Valla eutlemérite de le deviner<ref target="note.79.1"/>. » Ceux qui liront Pargumentation pressante de Valla décideront s’il est
+<note xml:id="note.79.1"><p> Les Gladiateurs de la Rèpublique des lettres (t. 1», p. 201).
+
+
+
+</p></note>
+
+<pb n="LXXX"/>
+tombé juste par hasard, s’il a fait oeuvre de devin ou de critique, et si la patiente analyse à laquelle il se livre, les remarques ingénieuses et mordantes qu’elle lui suggere, sont bien les fruits de son imagination. Quant aux érudits qui, depuis Valla, ont battu en brèche la Donation, le Cardinal Baronius (à son grand regret), Hotman et Banck, ils n’ont, et pour cause, rien ajouté de décisif à sa thèse; les deux derniers se sont bornés, l’un à la résumer, en lui rapportant tout l’honneur de la discussion, Pautre à la reproduire.</p>
+<p>Laissons donc à Valla ce qui lui appartieni bien, le mérite d’avoir le premier dévoilé la fraude, et par des arguments propres à la rendre désormais insoutenable. Cela aurait pu lui couter assez cher. Ayant eu Pimprudence de revenir à Rome, en 1452, il faillit ètre assassiné, sur le simple soupfon d’avoir écrit ce livre abominable, qu’il s’était contentò de lire à ses amis de Naples, et qu'il gardait prudemment par devers lui, sans le publier ; il dut s’enfuir sous un déguisement, s’embarquer et gagner l’Espagne, pendant qu’on instruisait son procès. Le livre, dont aucun exemplaire n’était en circulation, ne pouvait étre prouvé; aussi se rabattit-on hypocritement, pour perdre son auteur, sur de vagues accusations d’impiété et d’a-
+
+<pb n="LXXXI"/>
+théisme, qu’il a pris la peine de réfuter<ref target="note.81.1"/>, Sérieusement averti par cette aventure, il continua de garder sous clef le dangereux pamphlet, qui ne refut de son vivant presque aucu ne publici té; quelques correspondants
+<note xml:id="note.81.1"><p> Pro se et contra calumniatores (Laurentii Vallee opera, p. 795 et suiv.). Cet opuscule est dédié au Pape Eugène IV, qui fit la sourde oreille. Il n’y est aucunement question du Traité contre la Donation ; Valla, en homme avisé, altendait qu’on Vaccusàt de ce méfait pour s’en défendre, et ne se souciait pas de fournir des armes contre lui. Plus tard, il montra moins de réserve. On trouve dans un curìeux recueil, Principimi et illustrium virorum Epistolce (Amsterodamiy apud Lud. El\evi~ rium, 1644, in-12) quelques-unes de ses lettres, où il avoue le livre et cherche à rentrer en grace. A écouter M. Ch. Nisard, on pourrait croire qu’il implora bassement son pardon. « Il y proteste, » dit cet historien littéraire,'# de son dévouement au Saint-Siège, et rejette sur les mauvais conseils, la passion de faire du bruit et l’habitude de la dispute, 1 écrit où il avait attaqué inconsidérément une des traditions les plus respectées de l’Eglise Romaìne. » Qu’on en juge. Laurent Valla écrit à un familier du Pape, le Cardinal Lodovico ; <quote>Il ne m’appartient pas » de vouloìr aujourd’hui défendre mon livre autrement que par les paroles de Gamaliel : Si cette » oeuvre est purement humaine, elle se détruira; si elle vieni de Dieu, vous ne pourre{ rien contre » elle. Mon livre est achevé et édité; je ne pourrais ni le corriger ni le supprimer, si je le voulais : je ne le voudrats pas, quand méme je le pourrais. Fondée, l’accusation se protégera toute seule;</quote> fausse, elle tombera d’elle-méme. » Ses autres
+
+
+
+
+</p></note>
+
+<pb n="LXXXII"/>
+discrets en eurent seuls connaissance. Les précautions qu’il prend pour l’envoyer à Guarino de Vérone (Principum et illustrium virorum Epistolce), l’indiquent suffisamment. Il parvint ainsi à le faire oublier et trouva protectiori près d'un Pontife plus indulgent qu’Eugène, Martin V, qui lui permit de professer les Belles-Lettres à Rome, paya cinq cents écus d’or sa traduction Latine de Thucydide et le nomma chanoine de Latran, puis Secrétaire Apostolique. Sa réfutation « d’une des traditions les plus respectées de l’Église Romaine » , comme parie M. Nisard, resta si bien dans l’ombre, qu’au cours de sa Iongue et venimeuse polémique avec Pogge, quand ils faisaient tous les deux l’un contre l’autre assaut d’injures et de calomnies, jamais il n’en fut question : Pogge n’aurait pas chargé son ennemi de crimes imaginaires s’il avait pu luì reprocher un lìvre qui, répandu dans le public, eùt suffi
+lettres sont aussi fermes. Désireux, après quatorze ans d’exil, de revoir sa mère et sa sceur qu’il avait laissées à Rome, il s’accuse, un peu ironiquement, dans l’une d'elles, de n’avoir épargné ni les hommes ni les Dieux ; mais tout en demandant un sauf-conduit, il déclare qu’en ce qui concerne son Traité contre la Donation, il est en paix avec sa conscience ; qu’il est heureux d’avoir pu dire hautement ce qu’il pensait (Lettre au Cardinal Gerardo). Ce n’est pas là s’humilier.
+
+
+<pb n="LXXXIII"/>
+pour envoyer Valla, sinon à la potence, du moins en exil.</p>
+<p>Le <title>De falso eredita et ementita Donatione Constantini</title> ne fut réellement connu, divulgué, qu’après sa mort et surtout lorsque Ulrich de Hutten l’eut édité pour la première  fois, en 1517, à l'aide de presses clandestines ' établiesdans son chàteau délabré de Steckelberg, pour le dédier à Léon X. Luther apparaissait alors sur la scène du monde, et cette virulente négation de droits jusqu’alors réputés inébranlables servit de machine de guerre à la Riforme con tre la Papauté. « Jai entre » les mains, » écrivait Luther, <quote>la Donation » de Constantin réfutée par Valla, iditée » par Hutten. Bon Dieu! que de ténèbres ou de perversités accumulées par Rome! Vous serez stupéfait que Dieu ait permis, non seulement que cela duràt pendant des » siècles, mais que cela prévalùt, que des » mensonges aussi infàmes, aussì grossiers, aussi impudents fussent insérés dans les » Décrétales et imposés comme des articles » de foi.<ref target="note.83.1"/> » Cette première édition est fort
+<note xml:id="note.83.1"><p> <quote>Habeo in manibus Donationem Constantini a Laurentio Valleno confutatam, per Huttenum editam. Deus bone, quanta seu tenebra, seu nequitia Romanorum t et quod in judicio Dei mireris, per tot sacula non modo durasse, sed etiam prafinisse, ac inter Decretales relata esse tam impura, tam crassa, tam impudentia mendacia, inque fidei articulorum vicem suscepisse.</quote> Cette lettre porte la date de 1520.
+
+
+
+</p></note>
+
+<pb n="LXXXIV"/>
+
+rare; Brunet ne l’a mème pas soupfonnée. Heureusement la dédicace de Hutten, qui manque dans la plupart des réimpressions postérieures du livre de Valla<ref target="note.84.1"/>, se trouve reproduite en tète du De falso eredita et ementita Donatione dans le Fasci culus rerum expetendarum ac fugiendarum, 1535, fol. 64, et dans le Syntagma variorum autorum de imperiali jurisdictione et potestate ecclesiastica, de Simon Schardius (Bâle, 1557, in-fol.). Le P. Nicéron, à qui nousavons emprunté ces renseignements, ajoute : « La préface de Hutten, qui accompagne l’ouvrage de Valla, est violente et emportée contre les Papes. » Elle est plutót ironique et spirituelle. Aprés avoir
+
+
+<note xml:id="note.84.1"><p> Entre autres celle de 1520, in-8°t portant l’écusson des Junte, que nous avons presque toujours sui vie dans notre traducti on, et qui est relativement la plus commune. Quoique nous l’ayons collationnée avec diverses autres réimpressions, celle qui figure dans les (Euvres complètes de L. Valla (Bâle, 1543, in-fol.), celle de Simon Schardius et celle de Banck, nous n’osons nous flatter d’en donner un texte irréprochable. L’ceuvre de L. Valla se ressentira toujours de la clandestinité de l’édition de Hutten, qui a servi de type aux plus récentes, et qui, si l’on en juge par les altérations et les nombreuses variantes de celles-ci, devait étre on ne peut plus défectueuse.
+
+
+
+
+
+</p></note>
+
+<pb n="LXXXV"/>
+félicité Léon X, restaurateur de la paix, ami
+des lettres, de ce que la liberté d’écrire est plus grande sous son règnefgrace aux presses clandestines) que sous celui de Jules II, il lui dit finement: « Ceux-là ne te connaissent b pas, Saint Pére, qui croient que tu nesauras pas apprécier le travati de Laurent 9 Valla. Tu affirmes que tu veux rendre la » paix au monde : il n’y a pas de paix posi sible tant que les ravisseurs n’auront pas » restitué aux possesseurs légitimes ce qu’ils » leur ont injustement pris. » Et il termine ainsi : « Je suis si éloigné de croire que tu x puisses prendre cette réfutation d’un mensonge pour une impiété, que je considère » comme de violents détracteurs de la raajesté Pontificale ceux qui approuvent la » Donation. Pour moi, je suis stir que tu » me sauras gré d’avoir tiré des ténèbres » pour le mettre au jour, de la mort pour le » faire revivre, ce livre de Valla, jusqu’ici 9 rejeté, condamné. Bien mieux, je te le  dédie pour qu’il porte témoignage de ce 9 que, sous ton Pontificat, il a été permis à i tous de dire la vérité et de l’écrire. Je ne » doute pas qu’il ne te plaise, et dès que je » saurai que tu l’as approuvé publiquement, i je tàcherai d’en découvrir quelque autre semblable. </quote></p>
+
+<p>Léon X lui répondit à sa manière, en amih
+
+
+
+
+<pb n="LXXXVI"/>
+des arts sinon en ami des lettres, et d’une fafon qui, pour ètre détournée, n'en affirmait pas moins une fois de plus l'attachement obstiné de la Papauté à ses titres chimériques. Il commandait à Raphael, outre la Bataille du pont Milvius, dont le sujet véritable, au point de vue catholique, est Papparition miraculeuse du Labarum, deux immenses fresques : le Baptéme de Constantin par Saint Sylvestre, et Constantin donnant Rome au Papet qui ornent encore une des salles les plus splendides du Vatican. Le peintre d’Urbin mourut avant d’avoir exécuté les deux dernières, qui furent acheyées, sur ses dessins, par ses élèves, Francesco Penni et Rafaelo delle Colle. Dans le Baptéme, le légendaire Saint Sylvestre a pris la figure beaucoup plus historique de Clément VII, qui, par un bizarre anachronisme, verse l'eau sur la téte de Constantin; dans la Donation de Rome, l’Empereur et quatre de ses grands officiers, probablement les Satrapes dont parie la Charte apocryphe, humblement agenouillés devant le Pape, lui offrent la Ville éternelle, symbolisée par une statuette que Constantin présente sur la paume de sa main. Les Papes, grands partisans de l'humilité, chez les autres, ont toujours eu le gout de ces prosternements et le désir d’en
+
+
+
+
+<pb n="LXXXVII"/>
+perpétuer la mémoire. Adrien IV aussi avait fait peindre à fresque, dans le Vatican, la scène du couronnement de Lothaire, l’Empereur, à genoux devant Innocent II, et baisant dévotement sa sandale : peinture qui excita, de la part de Frédéric 1« et des Évéques Allemands, de si vives colères, qu’Adrien fut obligé de la faire détruire. Nous ne serons pas si exigeants ; les temps ne sont plus où l’on faisait gratter des chefs-d’oeuvre de peur quMls ne créassent des titres. Si le successeur de ces altiers Pontifes arréte aujourd’hui ses yeux sur cesadmirables tableaux, ne leluireprochons pas : Donation et baptéme étaient simulés, qu’il en jouisse en peinture.</p>
+<p>La vraie et sérieuse réfiitation du livre de Valla fut essayée un peu plus tard, sous Paul IH Farnèse, par Steuchus, un des scribes de sa chancellerie. C’est le Contra Laurentium Vallam, de Donatione Constantini, auquel nous avons fait plus haut quelques emprunts. La discussion de Valla portant principalement sur l’acte lui-méme, tei qu’il se trouve dans Gratien, ses incohérences de rédaction et ses barbarismes, Steuchus crut la ruiner du coup en opposant au texte Latin un texte Grec antérieur. 11 n’était pas Tinventeur de ce subterfuge. Avant Iui, sous Jules II, un certain Bar-
+
+
+
+<pb n="LXXXVIII"/>
+tolommeo de Picerno y avait pensé et découvert fort à propos, pour le dédier au Pape, un de ces exemplaires Grecs<ref target="note.88.1"/>, qu’il traduisit. Steuchus reprit, en plus grand, cette idée, qui avait du bon. Un exemplaìre, c’était trop peu ; il en déterra quatre dans la bibliothèque du Vatican, tous plus vieux les uns que les autres, rongés des vers, d'une antiquité « à faire rougir un grammairien, si toutefois un grammairien peut rougir. » Franfois Hotman<ref target="note.88.2"/> les accuse formellement, lui et Bartolommeo, d’avoir fabriqué ces manuscrits pour le besoin de la cause; mais peu importe. Il est certain que les Grecs possédaient, au xie siècle, une traduction de la Donation et qu’ils l’insérèrent, au xiie, dans leur Bomocanon; que ce soit cette traduction sur laquelle s'appuie Steuchus, ou qu’il en ait fait une nouvelle, le résultat pour lui était le méme : compter pour rien le texte de Gratien, si bien convaincu de fausseté et de sottise par Laurent Valla, envoyer prome-
+
+<note xml:id="note.88.1"><p> « Laurent avait plus de christianisme que cet àne qui, pour complaire à JulesII, feignitde découvrir la Donation écrite en Grec. » (Préface d’Ulrich de Hutten). Banck, De tyrannide Papce, a donné en entier la traduction Latine de Bartolommeo.
+</p></note>
+
+<note xml:id="note.88.2"><p> Brutum fulmen, 1585, in-16 ; chap. Crimen falsi.
+
+
+
+
+
+</p></note>
+
+<pb n="LXXXIX"/>
+ner Gratien, comme il le dit<ref target="note.89.1"/>, et toutes les fois qu’il se rencontre une absurdité, un barbarisme, s’écrier : « Voyons le Grec! » Il furète, il fouille dans ses quatre manuscrits, les épluche, les compare ; quand le premier ne le satisfait pas, il poursuit gravement ses recherches et finittoujours par mettre la main sur une interprétation meilleure. Dans la version Latine qu’il donne du passage, déjà rectifié par les Grecs ou par lui-meme, il fait disparaitre Labsurdité, le barbarisme sur lequel avait appuyé le cri ti que, et le tour est joué. Steuchus ne dit pas posi ti vernent que le texte primitif de la Donation fut libellé en Grec : il était trop fin pour cela. Sans s’expliquer autrement, il attribue à ces traductions une antériorité, probable d’ailleurs, sur le texte de Gratien, et triomphe avec bruit. Mais admirons sa bonne foi; lui qui parie de tous les Papes qui ont excipé de la Donation, lui qui base l’authenticité de la Charte sur cet assentiment unanime des Papes, il garde sur le témoignage le plus important, le plus explicite de tous, celui de Léon IX, un silence pru-
+<note xml:id="note.89.1"><p> « Je n’ai cure du Paléa » dit-il « et j’envoie promener Gratien. » Neque nomen Palece mihi curce est...; nunc Gratianum missum facio... p. 43-44.
+
+
+
+
+</p></note>
+
+<pb n="XC"/>
+dent; Leon IX n'existe pas pour lui. Cest que ce Pontife a fourni auxGrecs le texte sur lequel ils ont fait leur traduction, qu’ils n’en avaient aucun auparavant, comme on le voit fort bien par la lettre de Leon IX à Michel le Gérulaire, et que ce texte est identique à celuì de Gratien, identique à celui des Fausses Décrétales. S’il eùt parie de Léon IX et de la communication du document aux Grecs, tout son échafaudage de fourberies croulait à Pinstant meme<ref target="note.90.1"/>. De telles supercheries, imaginées sinon sur l’ordre, du moins avec Pagrément de Jules II et de Paul III, montrent assez l’obstination
+<note xml:id="note.90.1"><p> Severinus Binius, chanoine de Cologne, et auteur d'une Colìection des Conciles, a continué la mauvaise plaisanterie de Steuchus, mais en sens inverse ; les manuscrùs Grecs ne pouvant plus servir à soutenir la Donation, auront du moins Putilité de faire rejeter l'imposture sur des schismatiques : c’était fatal. <quote><l>Timeo Danaos, et dona ferentes,</l></quote>
+s’écrìe Binius, avec une vertueuse indignation. La Donation est vraie, au fond ; tant de saints Papes pourraient-ils avoir menti en l’affirmant ? mais on n’en connait pas les termes ; elle fut sans doute verbale. Les Grecs ont imaginé de la rédiger,  avec la plus abominabie malice, « pour que ce que l'Église possède par le Christ, de toute éternité, elle parut le posséder par Constantin. » Cet acte a été fabriqué en haine de l’Église ! Et comme un homme de sa trempe ne fait rien à demi, avec une rare impudence, il affirme que personne, avant Balzamon, ne soupçonnait l'existence de la Charte de Donation; que Balzamon et son Nomocanon, rédigé en 1194, ont trompé, misérablement trompé ce pauvre Léon IX, en 1054. (Collection des Conciles, de Labbe; en note de la Donation de Constantin.)
+
+
+
+
+</p></note>
+
+<pb n="XCI"/>
+que les Papes ont mise, jusqu'au dernier moment, à sauvegarder la Donation de
+Constantin.</p><p>Réfuté d’une facon si adroite par Steuchus, résumé brillamment et compì été par Hotman, au xvi« siècle, réédité par Schardius, puis encore au xviier siècle par Banck, qui le donne comme une pièce capitale pour Thistoire des démèlés du Saint-Siège avec les puissances, le traité de Laurent Valla mérite assurément de ne pas tomber dans l’oubli, C’est une oeuvre. L’auteur a extrémement soigné, au point de vue de la composition et du style, ce pamphlet ou plutót ce plaidoyer qui était pour lui un morceau de prédilection et qu’il retoucha jusque dans sa vieillesse. La forme en est légèrement artificielle, comme tout ce qui tient au genre oratoire et domande de la symétrie; mais la langue est pure, puìsée aux bonnes sources, digne de celui qui avait recueilli et commenté les Élégances de la lan-
+
+
+
+<pb n="XCII"/>
+
+gue Latine. Les premières pages sont toutes Cicéroniennes. Laurent Valla y prete successivement la parole, avec une grande ampleur, aux fils et aux amis de Constantin, au Sénat, au Peuple, qui tous le supplient de ne pas donner FEmpire; enfin à Sylvestre, qui refuse de le recevoir, et il a placé dans la bouche de ces dìfférents personnages les raisons les plus propres à faire toucher du doigtles impossibilités matérielles et morales soit de la Donation, soit de son acceptation. Ce ne sont pas là de vaines tirades déclamatoires, des morceaux de rhétorique plus ou moins achevés; la forme oratoire ne nuit en rien à la vigueur des arguments, et, sous Fabondance du style, la cadence des périodes, Féclat et la hardiesse des figures, des apostrophes, on sent une robuste dialectique, comme des muscles solides sous une draperie. Le discours de  Sylvestre sur tout est remarquable. Tous les motifs du refus qu’il le suppose faire, avec une malicieuse bonhomie, tirés de la pré-dication et de Fenseignement de Jésus, des Épitres de Saint Paul, des écrits des Pères, appliqués avec une rare justesse, s’appuient sur des textes qu’on ne peut guére écarter; mais c’est une ironie bien cruelle que de piacer dans la bouche d’un Pape cette audacieuse contrepartie des prétentions de
+
+
+
+
+
+
+<pb n="XCIII"/>
+Grégoire VII, fondées sur des allégories de la Lune et du Soleil. Ces polémistes du xver siècle étaient de rudes jouteurs, et, en pareilles matières, leur connaissance profonde des lettres sacrées les rendait bien redoutables. L’Église, maitresse de Pinstruction publique, lui donnant pour base l'étude des livres saints, pourcouronnement celle de la théologie et du droit canonique, fonnait sans doute des prètres instruits et se préparait des apologistes; mais elle se créait aussi de dangereux adversaires en ceux qu’elle nourrissait ainsi de sa moelle et que venait à éclairer un rayon de libre pensée. Ce sont des théologiens qui luì ont fait le plus de mal.</p>
+<p>La discussion proprement dite de Pacte incriminé se trouve dans la seconde moitié du livre; elle est mordante, acharnée, spirituelle; le polémiste, auquel M. Nisard lui-méme reconnait pour habitude « d’alléguer des raisons avant de dire des injures, » y redouble d’invectives, mais le « grammairien » surtout, éplucheur de mots et de syllabes, y triomphe. Valla, et ce n’est point son moindre mérite, a ouvert la voie à la critique diplomatique, un art encore en enfance à son époque, et que l'Église n’était guére tentée de protéger. Toute brillante et passionnée quelle est, sa discussion repose
+
+
+
+<pb n="XCIV"/>
+
+sur un examen approfondi du texte, au point de vue historique comme au point de vue grammatical ; il passe tout au crible avec un soin minutieux, et si l’on analyse les moyens de vérifìcation qu’il emploie pour saisir les traces de fraude, on se convaincra que les Mabillon et les d’Achéry n’en ont point eu d’autres : ils ont précise et formulé les règles que Valla appliquait d’intuition.</p>
+<p>En terminant, repoussons le reproche qu’on pourrait nous faire d’avoìr choisi l’heure actuelle où la Papauté, cette grandeur déchue, tombe en ruines, pour ressusciter contre elle une vieille querelle. Quand le chef de l'Église, loin de reclamer comme à lui tout POccident, sans compter les Hes, est dépouillé de ce Patrimoine de Saint Pierre que nul ne lui contestait, sauf les Romains, et que, claquemuré dans le Vatican, il attend qu’un nouveau Pepin lui rende ce que Pancien ne lui avait peut-etre pas donné, les prétentions qu'il étayait jadis sur un document enfoui depuis longtemps dans la poussière de ses archives semblent bien oubliées. Mais la Papauté acceptet-elle sa déchéance? Royautétemporelle, se résigne-t-elle à subir, comme toutes les autres royautés qu’elle a
+
+
+
+
+
+<pb n="XCV"/>
+si souvent ébranlées ou détruites, les justes retours de la fortune? Elle excommunie, elle anathématise comme au temps d’Innocent III; elle repousse avec horreur tout accommodement qui, propre à lui sauver au moins des bribes du pouvoir temporei, témoignerait de sonabdication du reste, et elle se croit toujours en possession de ce droit vague sur toutes les couronnes qu’elle s’était attribué à elle-meme par la prétendue Donation de Constantin; elle affirme étre encore l’arbitre des souverains et des peuples, leur juge, le tribunal supreme auquel ils doivent se soumettre. Quand bien mème elle renoncerait à ces chimères et déclarerait ne vouloir plus consacrer qu’au soin de son troupeau spirituel les restes d’une voix qui tombe et d’une ardeur qui s’éteint, ceux aux mains de qui les Pontifes n’ont été souvent que des Rois fainéants aux mains de Maires du palais sans scrupules, la contrai ndraient à poursuivre la lutte. Le clergéne renonce jamais à rentrer en possession de ce qu’une foìs il a tenu ; aucune concession ne peut le satisfaire, puisque tout lui appartient; il sait bien qu’il n'est rien, sii n’absorbe ou n’asservit tous les pouvoirs. Il vit, par la pensée, dans ces temps où ses richesses, si singulièrement acquises, sa juridiction, ses privilèges, le
+
+
+
+
+<pb n="XCVI"/>
+rendaient le maitre de tout; il aspire à le redevenir, et, pour cheminer tout doucement vers son but par les mèmes voies tortueuses qu’autrefois, il ne cesse de se remettre sous les yeux les instruments de son ancienne domination, source pour lui d'amers regrets et de muettes espérances. Le Décret de Gratien, ce monstrueux formulaire de Pingérence du prétre dans la société séculière, est toujours la base de Penseignement du droit canonique; il le sera, dit-on, per . specula saeculorum, et avec ou sans la fameuse rubrique palea, la Donation de Constantin y figure toujours. D’incorrigibles sectaires rèvent de substituer Gratien au Code Civil ! Ne cessons donc pas de rappeler leurs anciennes fraudes, ne serait-ce que pour nous enfoncer plus avant au coeur le mépris des fourbes et le dégout d’urie théocratie qui n’a reculé devant aucun mensonge.</p>
+<p>Alcide Bonneau.
+
+
+
+
+
+
+</p>
+</body>
+</text>
+</TEI>

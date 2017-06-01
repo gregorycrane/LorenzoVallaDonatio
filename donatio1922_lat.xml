@@ -1,0 +1,234 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Christopher B. Coleman, Ph.D., Professor of History in Allegheny College </editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Christopher B. Coleman, Ph.D., Professor of History in Allegheny College</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>New Haven</pubPlace>
+              <publisher>Yale University Press</publisher>
+              <date>1922</date>
+            </imprint>
+          </monogr>
+	<ref target="http://hdl.handle.net/2027/cu31924029363706">Hathi Trust http://hdl.handle.net/2027/cu31924029363706</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="ita">Italian</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng">
+    <body>
+
+<pb n="10"/>
+
+<head>The donation of Constantine 
+
+as given in the Decretum Gratiani (Concordia 
+Discordantium Canonum)<ref target="note.10.1"/>:
+
+Prima Pars Distinctio XCVI </head>
+
+<p>[PALEA. 
+CAPITULUM XIII. DE EODEM.<ref target="note.10.2"/>
+
+Constantinus imperator coronam, et omnem regiam 
+dignitatem in urbe Romana, et in Italia, et in partibus 
+occidentalibus Apostolico concessit. Nam in gestis B. 
+Silvestri (que B. Papa Gelasius in concilio LXX. episcoporum a 
+catholicis legi commemorat, et pro antiquo usu multas hoc imitari 
+dicit ecclesias) ita legitur:] 
+
+</p>
+<p>[PALEA. 
+C. XIV. DE EODEM.</p>
+
+<p>Constantinus imperator quarta die sui baptismi privilegium
+Romanae ecclesiae Pontifici contulit, ut in toto orbe 
+Romano sacerdotes ita hunc caput habeant, sicut indices regem. 
+
+
+
+<note xml:id="note.10.1"><p> Corpus Iuris Canonici, ed. Aemilius Friedberg, Leipsic, 1879, vol. I, p. 342. 
+
+</p></note>
+
+<note xml:id="note.10.2"><p> The subject of cc. xi and xii is ; Imperatores debent Pontificibus subesse, non  preesse. [Ed.] 
+</p></note>
+
+<pb n="12"/>
+
+
+In eo privilegio ita inter cetera legitur: "Utile iudicavimus una 
+cum omnibus satrapis nostris, et universo senatu optimatibusque 
+meis, etiam et cuncto populo Romanae gloriae imperio subiacenti, 
+ut sicut B. Petrus in terris vicarius Filii Dei esse videtur constitutus,
+ita et Pontifices, qui ipsius principis apostolorum gerunt 
+vices, principatus potestatem amplius quam terrena imperialis 
+nostrae serenitatis mansuetudo habere videtur, concessam a nobis 
+nostroque imperio obtineant, eligentes nobis ipsum principem 
+apostolorum vel eius vicarios firmos apud Deum esse patronos. Et 
+sicut nostram terrenam imperialem potentiam, sic eius sacrosanctam
+Romanam ecclesiam decrevimus veneranter honorari, et 
+amplius quam nostrum imperium et terrenum thronum sedem 
+sacratissimam B. Petri gloriose exaltari, tribuentes ei potestatem, 
+et gloriae dignitatem atque vigorem, et honorificentiam imperialem.
+Atque decernentes sancimus, ut principatum teneat tam 
+super quatuor precipuas sedes, Alexandrinam, Antiocenam, lerosolimitanam,
+Constantinopolitanam, quam etiam super omnes in 
+universo orbe terrarum ecclesias Dei, et Pontifex, qui pro tempore 
+ipsius sacrosanctae Romanae ecclesiae extiterit, celsior et princeps 
+cunctis sacerdotibus totius mundi existat, et eius iudicio queque 
+ad cultum Dei vel fidei Christianorum stabilitatem procuranda 
+fuerint disponantur. Et infra: §. 1. Ecclesiis beatorum apostolorum
+Petri et Pauli pro continuatione luminariorum possessionum 
+predia contulimus, et rebus diversis eas ditavimus, et per nostram 
+imperialem iussionem sacram tam in oriente, quam in occidente, 
+vel etiam septentrionali et meridiana plaga, videlicet in ludea, 
+Grecia, Asia, Thracia, Affrica et Italia, vel diversis insulis, nostra 
+largitate ei concessimus, ea prorsus ratione, ut per manus beatissimi
+patris nostri Silvestri summi Pontificis successorumque 
+eius omnia disponantur. Et injra: §. 2. Beatro Silvestro Patri 
+nostro, summo Pontifici et universalis urbis Romae Papae, et 
+omnibus, eius successoribus Pontificibus, qui usque in finem mundi 
+
+
+
+<pb n="14"/>
+
+
+in sede B. Petri erunt sessuri, de presenti contradimus palatium 
+imperii nostri Lateranense, deinde diadema, videlicet coronam 
+capitis nostri, simulque frigium, nec non et superhumerale, videlicet
+lorum, quod imperiale circumdare assolet collum; varum 
+etiam et clamidem purpuream, atque tunicam coccineam, et omnia 
+imperialia indumenta ; sed et dignitatem imperialium presidentium 
+equitum, conferentes etiam et imperialia sceptra, simulque cuncta 
+signa, atque banda, et diversa ornamenta imperialia, et omnem 
+processionem imperialis culminis et gloriam potestatis nostrae. 
+§. 3. Viris autem reverentissimis clericis in diversis ordinibus 
+eidem sacrosanctae Romanae ecclesiae servientibus illud culmen 
+singularitate, potentia et precellentia habere sancimus, cuius 
+amplissimus noster senatus videtur gloria adornari, id est patricios
+atque consules effici, nec non et ceteris dignitatibus imperialibus
+eos promulgamus decorari. Et sicut imperialis milicia ornatur, 
+ita et clerum sanctae Romanae ecclesiae ornari decernimus. Et 
+quemadmodum imperalis [sic] potentia offitiis diversis, cubiculariorum
+nempe, et ostiariorum, atque omnium excubitorum 
+ornatur, ita et sanctam Romanam ecclesiam decorari volumus. Et 
+ut amplissime pontificale decus prefulgeat, decernimus et hoc, 
+clericorum eiusdem sanctae Romanae ecclesiae manipulis et linteaminibus,
+id est candidissimo colore, decorari equos, ita et equitare.
+Et sicut noster senatus calciamentis utitur cum udonibus, id 
+est candido linteamini illustratis, sic utantur et clerici, ut sicut 
+celestia, ita et terrena ad laudem Dei decorentur. §. 4. Pre omnibus 
+autem licentiam tribuimus ipsi sanctissimo Patri nostro Silvestro 
+et successoribus eius ex nostro indicto, ut quem placatus proprio 
+consilio clericare voluerit, et in religiosorum numero clericorum 
+connumerare, nullus ex omnibus presumat superbe agere. §. 5. 
+Decrevimus itaque et hoc, ut ipse et successores eius diademate. 
+
+
+
+<pb n="16"/>
+
+
+videlicet corona, quam ex capita nostro illi concessimus, ex auro 
+purissimo et gemmis pretiosis uti debeant, et in capite ad laudem 
+Dei pro honore B. Petri gestare. Ipse vero beatissimus Papa, quia 
+super coronam clericatus, quam gerit ad gloriam B. Petri, omnino 
+ipsa ex auro non est passus uti corona, nos frigium candido nitore 
+splendidum, resurrectionem dominicam designans, eius sacratissimo
+vertici manibus nostris imposuimus, et tenentes frenum 
+equi ipsius pro reverentia B. Petri stratoris offitium illi exhibuimus,
+statuentes eodem frigio omnes eius successores singulariter 
+uti in processionibus ad imitationem imperii nostri. §. 6. Unde ut 
+pontificalis apex non vilescat, sed magis quam terreni imperii 
+dignitas gloria et potentia decoretur, ecce tam palatium nostrum, 
+ut predictum est, quam Romanam urbem, et omnes Italiae seu 
+occidentalium regionum provincias, loca et civitates prefato beatissimo
+Pontifici nostro Silvestro universali Papae contradimus 
+atque relinquimus, et ab eo et a successoribus eius per banc 
+divalem nostram et pragmaticum constitutum decernimus disponenda,
+atque iuri sanctae Romanae ecclesiae concedimus permansura.
+§.7. Unde congruum perspeximus nostrum imperium et 
+regni potestatem in orientalibus transferri regionibus, et in Bizantiae
+provinciae optimo loco nomini nostro civitatem edificari, et 
+nostrum illic constitui imperium, quoniam ubi principatus sacerdotum
+et Christianae religionis caput ab imperatore celesti constitutum
+est, iustum non est, ut illic imperator terrenus habeat 
+potestatem. §. 8. Hec vero omnia que per banc nostram imperialem 
+sacram, et per alia divalia decreta statuimus atque confirmavimus,
+usque in finem mundi illibata et inconcussa permanere 
+decernimus. Unde coram Deo vivo, qui nos regnare precepit, et 
+coram terribili eius iudicio obtestamur per hoc nostrum imperiale 
+constitutum omnes nostros successores imperatores, vel cunctos 
+optimates, satrapas etiam, amplissimum senatum, et universum 
+
+
+
+<pb n="18"/>
+
+
+populum in toto orbe terrarum nunc et in posterum cunctis retro 
+temporibus imperio nostro subiacentem, nulli eorum quoquo modo 
+licere hec aut infringere, aut in quoquam convellere. Si quis 
+autem, quod non credimus, in hoc temerator aut contemptor extiterit,
+eternis condempnationibus subiaceat innodatus, et sanctos 
+Dei, principes apostolorum Petrum et Paulum sibi in presenti et 
+in futura vita sentiat contrarios, atque in inferno inferiori concrematus
+cum diabolo et omnibus deficiat impiis. Huius vero 
+imperialis decreti nostri paginam propriis manibus roborantes, 
+super venerandum corpus B. Petri principis apostolorum posuimus. 
+Datum Romae 3. Calend. Aprilis, Domino nostro Flavio Constantino
+Augusto quater, et Gallicano V. C. Coss."] 
+
+
+
+</p>
+</body>
+</text>
+</TEI>

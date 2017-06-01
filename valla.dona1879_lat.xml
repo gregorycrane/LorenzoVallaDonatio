@@ -1,0 +1,2673 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Alcide Bonneau</editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Alcide Bonneau</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <publisher>Isidore Liseux, Editeur, Rue Bonaparte, n. 2 1879</publisher>
+              <date>1879</date>
+            </imprint>
+          </monogr>
+	<ref target="https://babel.hathitrust.org/shcgi/pt?id=wu.89100038991">Book scanned from the University of Wisconsin. Hathitrust: wu.89100038991</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+    <body>
+
+<pb n="46"/>
+
+<pb n="47"/>
+
+
+
+
+
+<head>Laurentii Vallensis de falso eredita et ementita Constantini donatione</head> <p>Libellus incipit feliciter</p><p>Plures a me libri compluresque emissi  sunt in omni doctrinarum genere, in quibusque a nonnullis magnisque et longo
+
+
+
+<pb n="48"/>
+
+
+
+
+jam aevo probatis auctoribus dissentio. Cum sint qui indigne ferant meque ut temerarium sacrilegumque criminentur, quid tandem nunc quidam facturi putandi sunt quantopere in me debacchaturi, et si facultas detur, quam avide ad supplicium festinanterque rapturi, qui non tantum adversus mortuos scribo sed et adversus vivos; nec in unum alterumve, sed in plurimos; non contra privatos modo, verum etiam contra magistratus? Ac quos magistratus? nempe Summum Pontificem, qui non temporali solum armatus est gladio,
+
+
+<pb n="49"/>
+
+
+
+
+Regum ac Principum more, sed ecclesiastico quoque, ut ab eo neque subter ipsum (ut sic loquar) clypeum alicujus Principum protegere te possis ; quominus excommunicatione, anathemate, execratione feriare. Aesi prudenter, ut dixit, sic fecisse existimatus est qui inquit : « Nolo scribere in eos qui possunt proscribere »; quanto mihi magis idem faciendum videatur in eum qui ne proscriptioni quidem reliquerit locum, quique invisibilibus me potestatis suae jaculis prosequatur, ut jure possim dicere ; Quo ibo a spiritu suo et quo ab ipsius
+
+
+
+
+<pb n="50"/>
+
+
+
+
+fugiam facie? Nisi forte putemus patientius hunc esse laturum Summum Sacerdotem quam caeteri facerent ; nihil minus. Siquidem Paulo, quod bona se conscientia conversatum esse diceret, Ananias, Princeps Sacerdotum, coram tribuno, qui judex sedebat, jussit obverberari ; et Phassur, eadem praeditus dignitate, Jeremiam ob loquendi libertatem conjecit in carcerem. Sed illum tribunus ac praeses, hunc rex adversus injuriam pontificis tutari et potuit et voluit. Me vero quis tribunus, quis rex, quis praeses  quis e manibus Summi Sacerdotis, si me
+
+<pb n="51"/>
+
+
+rapuerit ille, etiam ut velit, eripere poterit?</p><p>Verum non est causa cur me duplex hic periculi terror conturbet arceatque a proposito. Nam neque contra jus fasque Summi Pontificis licet aut ligare quippiam aut solvere, et in defendenda veritate atque justitia profundere animam summae virtutis, summae laudis, summi praemii est. An vero multi ob terrestrem patriam defendendam mortis adiere discrimen : ego ob coelestem patriam assequendam. Assequuntur autem eam qui Deo placent, non qui hominibus. Mortis discrimine deterrebor? Faces-
+
+
+
+<pb n="52"/>
+
+
+
+
+sat igitur trepidatio ; procul abeant metus, timores excidant; forti animo, magna fiducia, bona spe defendenda est causa veritatis, causa justitiae, causa Dei.</p><p>Neque enim is habendus est verus orator qui bene scit dicere, nisi et dicere audeat. Audeamus itaque accusare quicumque digna committit accusatione, et qui in omnes peccat, unius pro omnium voce corripiatur. — At non debeo palam objurgare fratrem, sed inter me et ipsum i — Imo publice peccans, et qui privatum consilium non
+
+
+
+
+
+<pb n="53"/>
+
+
+
+admitteret, publice arguendus est, ut cceteri timorem habeant. An non Paulus, cujus verbis modo sum usus, in os Petrum coram Ecclesia reprehendit, quia reprehensibilis erat? Et hoc ad nostram doctrinam scriptum reliquit. — At non Paulus qui possim Petrum reprehendere? — Imo Paulus sum, qui Paulum imitor. Quemadmodum, quod multo plus est, unus cum Deo spiritus efficior, cum studiose mandatis illius obtempero. Neque aliquem sua dignitas ab increpationibus tutum reddit, quae Petrum non reddidit multosque alios eodem praeditos
+
+
+<pb n="54"/>
+
+
+
+gradu : ut Marcellum quod diis libasset ; ut Celestinum quod cum Nestorio haeretico sentiret; ut quosdam etiam nostra memoria quos ab inferioribus (quis enim non est inferior Papa?) reprehensos scimus, ut taceam condemnatos. Neque vero id ago ut cupiam quempiam insectari et in eum quasi Philippicas scribere; hoc enim a me facinus procul absit. Sed ut errorem a mentibus hominum convellam, ut eos a vitiis sceleribusque vel admonendo vel increpando submoveam. Non ausim dicere ut alii per me edocti luxuriantem nimiis
+
+
+
+
+
+<pb n="55"/>
+
+
+sarmentis Papalem Sedem, quse Christi vinea est, ferro coerceant, et plenas uvas non graciles labruscas ferre compellant. Quod cum facio, numquis erit qui aut mihi os aut sibi aures velit occludere, ne dicam supplicium mortemque proponere ? Hunc ego si haec faciat, etiam si Papa sit, quid dicam esse ? Bonurane Pastorem, an aspidem surdam, quae nolit exaudire vocem incantantis, velit ejusdem membra morsu venenoque praestringere?</p><p>Scio jamdudum exspectare aures homi-
+
+
+
+
+<pb n="56"/>
+
+
+
+num quodnam Pontificibus Romanis crimen impingam: profecto ingens, sive supinae ignorantiae, sive immanis avaritiae, quae est idolorum servitus, sive imperandi vanitatis, cujus crudelitas semper est comes. Nam aliquot jam saeculis, aut non intellexerunt Donationem	Constantini commentitiam fictamque esse, aut ipsi finxerunt, sive posteriores in majorum suorum dolis vestigia imprimentes pro vera quam falsam cognoscerent defenderunt, dedecorantes Pontificatus majestatem, dedecorantes veterum Pontificum memoriam, dedecorantes
+
+
+
+<pb n="57"/>
+
+
+
+religionem Christianam, et omnia caedibus, minis flagitiisque miscentes. Suam esse aiunt urbem Romam ; suum regnum Siciliae Neapolitanumque, suam universam Italiam, Gallos, Hispanos, Germanos, Britannos, suum denique Occidentem. Haec enim cuncta in ipsa Donationis pagina contineri. Ergo haec omnia tua sunt, Summe Pontifex; omnia tibi in animo est recupare. Omnes Reges ac Principes Occidentis spoliare urbibus, aut cogere ut annua tibi tributa pensitent, sententia est. At ego contra exi-
+
+
+
+
+
+<pb n="58"/>
+
+
+
+
+
+
+stimo justius licere Principibus spoliare te imperio omni quod obtines. Nam ut ostendam, Donatio illa, unde natum esse suum jus Summi Pontifices volunt, Sylvestro pariter et Constantino fuit incognita.</p><p>Verum antequam ad Donationis paginam confutandam venio, quod unum istorum patrocinium est non modo falsum verum etiam stolidum, ordo postulat ut altius repetam et primum dicam non tales fuisse Constantinum Sylvestrumque, illum quidem qui donare vellet, qui jure
+
+
+
+
+
+<pb n="59"/>
+
+
+
+donare posset, qui ut in manu alteri ea traderet in sua haberet potestate; hunc autem qui vellet accipere, qui ne jure accepturus foret. Secundo loco, si haec non essent, quae verissima, clarissima sunt, neque hunc acceptasse, neque illum tradidisse possessionem rerum quae fuerunt donatae, sed eas semper in arbitrio ac imperio Caesarum permansisse. Tertio nihil datum Sylvestro a Constantino, sed priori Pontifici a quo baptismum acceperat, donaque illa mediocria fuisse, quibus Papa degere vitam posset. Quarto falso dici Donationis exem-
+
+
+
+<pb n="60"/>
+
+
+
+
+pium aut apud Decreta reperiri, aut ex historia Sylvestri esse sumptum, quod neque in illa neque in ulla historia invenitur; in eoque quaedam contraria, impossibilia, stulta, barbara, ridicula contineri. Praeterea loquar de quorumdam aliorum Caesarum vel simulata vel frivola donatione; ubi ex abundanti adjiciam : Si Sylvester possedisset, tamen sive illo sive quovis alio Pontifice a possessione dejecto, post tantum temporis intercapedinem, nec divino nec humano jure posse repeti. Postremo ea quae a Summo Pontifice tenentur nullius
+
+
+
+
+<pb n="61"/>
+
+
+temporis longitudine posse prescribi, atque quod ad primam partem attinet, nunquam fiiisse Constantinum facturum ut alteri daret Imperium.</p><p>Loquamur autem de Constantino prius, deinde de Sylvestro.</p><p>Non est committendum ut publicam quasi et Caesaream causam non majore quam privatae solent ore agamus. Itaque quasi in concione Regum ac Principum orans, ut certe facio (nam mea haec oratio in manus eorum
+
+
+
+
+<pb n="62"/>
+
+
+
+ventura est) libet tanquam praesentes et in conspectu positosalloqui. Vosappello, Reges ac Principes; difficile est enim privatum hominem animi regii concipere imaginem; vestram mentem inquiro, conscientiam scrutor, testimonium postulo. Numquid vestrum quispiam, Constantini si loco fuisset, faciendum sibi putasset ut urbem Romam patriam suam, caput Orbis terrarum, Reginam civitatum, potentissimam, nobilissimam, ditissimam populorum, triumphatricem nationum et ipso aspectu sacram,
+
+
+
+
+<pb n="63"/>
+
+
+
+liberalitatis gratia donaret alteri et se ad humile oppidum conferret, deinde Byzantium? Donaret praeterea una cum Roma Italiam, non provinciam sed provinciarum victricem; donaret tres Gallias; donaret duasHispanias; donaret Germanos; donaret Britannos; totum donaret Occidentem, et se altero ex Imperii oculis orbaret ? Hoc ego, ut quis faciat compos mentis, adduci non possum ut credam.</p><p>Quid enim vobis exspectatius, quid jocundius, quid gratius contingere solet quam accessionem imperiis vestris regnisque ad-
+
+
+
+<pb n="64"/>
+
+
+
+
+jungere, et longe lateque quam maxime proferre ditionem? In hoc, ut viderevideor, omnis vestra cura, omnis cogitatio; labor dies noctesque consumitur. Ex hoc praecipua spes gloriae, propter hoc voluptates relinquitis, propter hoc mille pericula aditis, propter hoc carissima pignora, propter hoc partem corporis aequo animo amittitis. Siquidem neminem vestrum aut audivi aut legi a conatu ampliandi imperii fuisse deterritum, quod aut luminis, aut manus, aut cruris, aut alterius membri jacturam fecisset; quin ipse hic ardor atque haec late do-
+
+
+
+
+
+<pb n="65"/>
+
+
+
+minandi cupiditas, ut quisque maxime potens est, ita eum maxime angit atque agitat. Alexander non contentus deserta Libyae peragrasse, Orientem ad extremum usque Oceanum vicisse, domuisse Septentrionem, inter tot vulnera, tot casus, recusantibus jam detestantibusque tam longinquas, tam asperas expeditiones militibus, ipse sibi nihil effecisse videbatur, nisi et Occidentem et omnes nationes aut vi aut nominis sui auctoritate sibi tributarias reddidisset. Parum dico; jam Oceanum transire et si quis alius
+
+
+
+
+<pb n="66"/>
+
+
+
+
+
+esset orbis explorare ac suo subjicere arbitrio destinaverat : in coelum tandem, ut opinor, tentasset ascendere. Talis fere est omnium regum voluntas, etsi non omnium talis audacia. Taceo quanta scelera, quot abominanda propter imperium assequendum ampliandumve admissa sint, ut nec fratres a fratrum, nec filii a parentum, nec parentes a filiorum sanguine nefarias abstineant manus. Adeo nusquam magis, nusquam atrocius grassari solet humana temeritas. Et quod mirari possis, non seniores
+
+
+
+
+<pb n="67"/>
+
+
+
+
+ad hoc videas animos senum quam juvenum, orborum quam parentum, Regum quam tyrannorum.</p><p>Quod si tanto conatu dominatus peti solet, quanto major necesse est conservetur! Neque enim tantopere miserum est non ampliare imperium quam imminuere, neque tam deforme tibi alterius regnum non accedere tuo quam tuum accedere alieno. Nam quod a rege aliquo aut populo legimus nonnullos praepositos regno aut urbibus, id factum est non de prima nec de maxima sede, po-
+
+
+
+
+<pb n="68"/>
+
+
+
+strema quodammodo ac minima imperii parte, atque ea ratione : ut donantem qui donatus est quasi dominum et se ministrum illius semper agnosceret.</p><p>Nunc, quaeso, nonne abjecto animo et minime generoso videntur esse qui opinantur Constantinum meliorem a se Imperii alienasse partem, non dico Romam, Italiamque et caetera, sed Gallias, ubi ipse praelia gesserat, ubi solum diu dominatus fuerat, ubi suae gloriae suique imperii rudimenta posuerat? Hominem qui cupiditate domi-
+
+
+
+
+<pb n="69"/>
+
+
+
+nandi nationibus bella intulisset, socios affinesque bello civili prosecutus imperio privasset ; cui nondum perdomitae aut profligatae reliquiae essent alterius factionis; qui cum multis nationibus bella gerere non modo soleret spe gloriae imperiique , sed etiam necesse haberet, utpote a Barbaris quotidie lacessitus; qui filiis, qui conjunctis sanguine, qui amicis abundaret; qui Senatum Populumque Romanum huic facto repugnaturum cognosceret; qui expertus esset instabilitatem victarum nationum et ad omnem fere
+
+
+<pb n="70"/>
+
+
+
+Romani principis mutationem rebellantium; qui se meminisset more aliorum Cassarum non electione patrum consensuque plebis, sed exercitu, armis, bello dominatum occupasse ; quae tam vehemens causa et urgens aderat, ut ista negligere et tanta liberalitate uti vellet?</p><p>Aiunt, quia effectus erat Christianus. — Ergo ne Imperii optima parte se abdicaret. Credo, scelus erat, flagitium, nefas jam regnare nec cum Christiana religione conjungi poterat regnum. Qui in adulterio sunt, qui
+
+
+
+<pb n="71"/>
+
+
+
+usuris rem auxerunt, qui aliena possident, hi post baptismum alienam uxorem, alienam pecuniam, aliena bona reddere solent. Hanc cogitationem si habes, Constantine, restituere urbibus libertatem non mutare dominum debes. Sed non id in causa fuit tantum in honorem religionis ut faceres adductus es. Quasi religiosum sit magis regnum deponere quam pro tutela religionis illud administrare ! Nam quod ad accipientes attinet, neque honesta erit illis neque utilis ista Donatio. Tu vero si Christianum te ostendere, si pietatem indicare tuam, si
+
+
+
+<pb n="72"/>
+
+
+
+consultum non dico Romanae Ecclesiae vis sed Ecclesiae Dei, nunc praecipue, nunc Principem agas, ut pugnes pro his qui pugnare non possunt nec debent, ut eos tua auctoritate tutos reddas qui insidiis injuriisque obnoxii sunt. Nabuchodonosor, Cyro, Assuero multisque aliis Principibus sacramentum veritatis Deus aperire voluit, a nullo tamen eorum exegit ut imperio cederet, ut partem regni donaret, sed tantum libertatem Hebraeis redderet eosque ab instantibus finitimis protegeret. Hoc satis fuit Judaeis, hoc
+
+<pb n="73"/>
+
+
+
+sat erit et Christianis. Factus es, Constantine, Christianus; at indignissima res est Christianum te nunc Imperatorem minorem esse principatu quam fueras infidelis. Est enim principatus praecipuum quoddam Dei munus, ad quem gentiles etiam Principes a Deo eligi existimantur.</p><p>— At erat lavatus a lepra. Ideo verisimile est referre gratiam voluisse et majore mensura reddere quod acceperat.— Itane? Naaman ille Syrus ab Elyseo curatus munera tantum offerre voluit, non dimidium bonorum :
+
+
+
+<pb n="74"/>
+
+
+
+
+
+Constantinus dimidium imperii obtulisset? Piget me impudenti fabellae tanquam indubitatae historiae respondere; sic enim haec fabula ex historia Naaman et Elysei ut altera Draconis ex fabuloso Dracone Beli adumbrata est. Sed ut ista concedam, numquid in hac historia de donatione fit mentio? Minime ; verum de hoc commodius postea loquar.</p><p>Lavatus est a lepra; cepit ob id mentem Christianam; Dei timore, Dei amore imbutus est; illi honorem habere voluit. Non
+
+<pb n="75"/>
+
+
+
+
+tamen persuaderi possum eum tanta donare voluisse, quippe cum videam neminem, aut gentilem in honorem Deorum, aut fidelem in honorem viventis Dei imperium deposuisse sacerdotibusque donasse. Siquidem ex Regibus Israel nemo adduci potuit ut pristino more ad Templum Jerusalem populos sacrificaturos ire permitteret, eo videlicet timore ne forte ad regem Judae a quo defecerant redirent, sacro illo cultu religionis admoniti ac Templi majestate. Et quanto hoc majus est quod fecisse dicitur
+
+
+
+
+<pb n="76"/>
+
+
+
+Constantinus ! Ac ne quid tibi propter curationem lepras blandiaris. Jéroboam primus in regem Israel a Deo electus est, et quidem ex infima conditione, quod mea sententia plus est quam esse lepra lavatum ; et tamen is non est ausus regnum suum Deo credere. Et tu vis Constantinum regnum suum Deo donasse quod ab illo non accepisset, qui praesertim (id quod in Jéroboam non cadebat) offenderet filios, deprimeret amicos, negligeret suos, laederet patriam, moerore omnes afficeret, sui quoque oblivisceretur ?
+
+
+
+
+<pb n="77"/>
+
+
+Qui si etiam talis fuisset et quasi in alium hominem versus, certe non defuissent qui eum admonerent, et imprimis filii, propinqui, amici. Quos quis est qui non putet protinus Imperatorem fuisse adituros? Ponite igitur illos ante oculos, mente Constantini audita trepidos,festinantes,cum gemitu lacrymisque ad genua Principis procumbantes et hac voce utentes :</p><p><quote> Itane, pater antehac filiorum amantissime, filios privas, exheredas, abdicas ! Nam  quod te optima maximaque Imperii parte
+
+
+
+
+
+<pb n="78"/>
+
+exuere vis , non tam querimur quam miramur. Querimur autem quod eam ad alios a defers, cum nostra et jactura et turpitudine. Quid enim causae est quod liberos  tuos exspectata successione Imperii fraudas, qui ipse una cum patre regnasti?  Quid in te commisimus? Qua in te, qua  in Patriam, qua in nomen Romanum ac * majestatem Imperii impietate digni videmur quos praecipua optimaque prives Principatus portione ? Qui de patriis laribus, a conspectu nataiis soli, ab assueta
+
+
+
+
+<pb n="79"/>
+
+
+
+aura, a vetusta consuetudine relegemur, penates, fana, sepulchra exules relinquemus, nescio ubi aut qua terrarum regione victuri! Quid nos propinqui, quid nos amici qui tecum toties in acie stetimus, qui fratres, parentes, filios hostili mucrone confossos palpitantesque conspeximus , nec aliena morte territi sumus, et ipsi pro te parati mortem appetere, nunc abste universi destituimur! Qui Romae gerimus magistratus, qui urbibus Italiae, qui Galliis, qui Hispaniis, qui ceteris provinciis prae-
+
+
+
+
+<pb n="80"/>
+
+
+
+
+sumus aut praefecturi sumus, omnes ne revocamur? Omnes privati esse jubemur? An jacturam hanc aliunde pensabis? Et quomodo pro merito ac dignitate poteris, tanta orbis terrarum parte alteri tradita? Num qui praserat centum populis eum tu, Cassar, uni praeficies ? Quomodo tibi istud in mentem venire potuit? Quo subita tuorum te cepit oblivio, ut nihil te misereat amicorum, nihil proximorum, nihil filiorum ? Utinam nos, Caesar, salva tua dignitate atque victoria, in bello contigisset
+
+
+
+
+
+<pb n="81"/>
+
+
+
+occumbere, potius quam ista cernamus! Ac tu quidem de Imperio tuo ad tuum arbitrium agere potes, atque etiam de nobis, uno dumtaxat excepto, in quo ad mortem usque erimus contumaces: ne a cultu Deorum Immortalium desistamus. Magno etiam erimus aliis exemplo, ut scias tua ista largitas quid mereatur de religione Christiana. Nam si non largiris Sylvestro Imperium tuum, tecum Christiani esse volumus, multis factum nostrum imitaturis. Sin largiris , non modo non
+
+
+
+
+<pb n="82"/>
+
+
+
+Christiani fieri sustinebimus, sed inviis sum, detestabile, execrandum nobis hoc nomen efficies, talesque reddes ut tandem tu vitae et mortis nostrae miserearis, nec nos sed te ipsum duritiae accuses.</quote></p><p>Nonne hac oratione Constantinus, nisi exstirpatam ab eo volumus humanitatem, si sua sponte non movebatur, motus fuisset? Quid si hos audire noluisset, nonne erant qui huic facto et oratione adversarentur et manu? An Senatus Populusque Romanus
+
+
+
+
+
+<pb n="83"/>
+
+
+
+sibi tanta in re nihil agendum putasset Nonne oratorem, ut ait Virgilius, gravem pietate ac meritis advocasset, hanc qui apud Constantinum haberet orationem ?</p><p><quote>Caesar, si tu tuorum immemor es atque etiam immemor ut nec filiis hereditatem, nec propinquis opes, nec amicis honores, nec tibi Imperium esse integrum velis, i non tamen Senatus Populusque Romanus immemor potest esse sui juris su aeque dignitatis. Etenim quomodo tibi tantum  permittis de Imperio Romano quod non
+
+
+
+
+<pb n="84"/>
+
+
+
+
+tuo sed nostro sanguine partum est? Tu ne unum corpus in duas secabis partes, et ex uno duo efficies regna, duo capita, duas voluntates et quasi duobus fratribus gladios quibus de hereditate certent porriges? Nos civitatibus quae de hac urbe bene meritae sunt jura civitatis damus, ut cives Romani sint : tu a nobis dimidium Imperii aufers, ne hanc urbem parentem suam  agnoscant ! Et in alveis quidem apium si duo Reges nati sunt, alterum qui deterior est occidimus ; tune in alveo Imperii Romani, ubi unus et optimus es Princeps
+
+
+
+
+
+<pb n="85"/>
+
+
+
+alterum et hunc deterrimum et non apem sed fucum collocandum putes! Prudentiam tuam desideramus, Imperator. Nam quid  futurum est, si vel te vivo, vel post tuam  mortem huic parti quam alienas aut alteri  quam tibi relinquis bellum a barbaris nationibus inferatur ? Quo robore militum,  quibus copiis occurremus ? Vix nunc totius  Imperii viribus possumus ; tunc poterimus ? An perpetuo membrum hoc cum  illo in concordia erit ? Ut reor, nec esse  poterit, cum Roma dominari velit, nolit  pars ilia servire. Quin to vivo breve intra
+
+
+
+
+
+<pb n="86"/>
+
+
+revocatis veteribus praesidibus, st suffectis novis, te in tuum regnum profecto et longe agente, hic altero dominante, nonne omnia nova id est diversa atque adversa st erunt? Regno fere inter duos fratres diviso,  protinus et populorum animi dividuntur, et prius a se ipsis quam externis hostibus bellum auspicantur. Idem eventurum in hoc Imperio quis non videt ? An ignoras d hanc olim imprimis fuisse causam optimatibus, cur dicerent citius se in conspectu  Populi Romani esse morituros quam rogationem illam ferri sinerent ut pars
+
+
+
+<pb n="87"/>
+
+
+
+
+Senatus ac pars plebis ad incolendum Veios  mitteretur, duasque urbes communes Populi Romani esse? Si enim in una urbe  tantum dissentionum esset, quid in duabus  urbibus futurum erit? Ita hoc tempore, si tantum discordiarum in uno Imperio , testor conscientiam tuam ac labores, quid  in duobus Imperiis fiet ? Age vero, putasne hinc fore qui tibi bellis occupato  esse auxilio aut velint aut sciant? Ita ab armis atque ab omni re bellica abhorrenti tes erunt qui praeficientur militibus atque urbibus, ut ille qui praeficit. Quid, nonne
+
+
+
+<pb n="88"/>
+
+
+hunc tam imperitum regnandi et injuriae  facilem aut Romanae legiones, aut ipsae  provinciae spoliare tentabunt , ut quem  sperabunt vel non repugnaturum , vel  poenas non repetiturum ? Credo, me hercle,  non unum quidem mensem illos in officio  mansuros, sed statim et ad primum profectionis tuae initium rebellaturos. Quid  facies ? Quid consilii capies cum duplici atque adeo multiplici bello urgebere ? Nationes quam subegimus continere vix possumus; quomodo illis accedente ex liberis gentibus bello resistetur? Tu, Caesar, quid
+
+
+
+<pb n="89"/>
+
+
+
+ad te spectet ipse videris. Nobis autem  haec res non minus quam tibi curae esse  debet. Tu mortalis es  imperium Populi  Romani decet esse immortale, et quantum  in nobis est erit, neque imperium modo,  Verum etiam pudor. Scilicet quorum religionem contemnimus eorum occupemus  imperium et principes orbis terrarum huic  contemptissimo homini serviemus? Urbe a  Gallis capta, Romani senes demulceri sibi  barbam a victoribus passi non sunt : nunc  sibi tot Senatorii ordines, tot Praetorii, tot
+
+
+
+<pb n="90"/>
+
+
+Tribunitii, tot Consulares Triumphales que viri eos dominari patientur, quos ipsi  tanquam servos malos omni contumelia rum genere suppliciorumque affecerunt? Istine homines, ne magistratus creabunt, provincias regent, bella gerent? Inde nobis  sententias capitis ferent? Sub his nobilitas  Romana stipendia faciet, honores sperabit, munera assequetur? Et quod majus quodque altius penetret vulnus accipere posumus ? Non ita putes, Caesar, Romanum  degenerasse sanguinem ut istud passurus
+
+
+
+<pb n="91"/>
+des récompenses. Quelle plus cruelle et plus profonde blessure pouvons-nous recevoir? Ne crois pas, César, que le sang Romain soit si dégénéré qu'il souffre tranquillement cette honte, sans chercher à s’y soustraire. Nos femmes elles-mèmes ne s’y résigneraient pas; elles se bruleraient vives avec leurs chers enfants et leurs Dieux domestiques, plutot que de laisser dire : Les Carthaginoises montrèrent plus de courage que les Romaines. Certes, si nous t’avions choisi pour Roi, César, tu aurais le droit de gouverner à ta guise l’Empire Romain, mais non jusqu’à pouvoir en amoindrir
+
+
+
+<pb n="92"/>
+
+
+
+
+
+abdicare juberemus, nedum possis regnum dividere, nedum tot provincias alienare, n nedum ipsum regni caput peregrino atque humilissimo homini adjicere. Canem ovoli praeficimus; quem si lupi mavult et officio fungi aut ejicimus aut occidimus. Nunc tu cum diu canis officio in ovili Romano deli fendendo sis functus, ad extremum in  lupum nullo exemplo converteris  Atii que ut intelligas (quandoquidem nos  pro jure nostro cogis asperius loqui) nullum tibi in Imperium Romanum jus esse,
+
+
+
+<pb n="93"/>
+
+
+
+Caesar vi domitatum occupavit ; occupanti b Augustus et in vitium successit et adversariorum partium profligatione dominum se fecit. Tiberius, Caius, Claudius, Nero, Galba, Otho, Vitellius, Vespasianus caeterique aut eodem aut simili via libertatem nostram praedati sunt. Tu quoque, aliis b expulsis aut interemptis, dominus effectus es. Sileo quod ex matrimonio natus non sis. Quare, ut tibi mentem nostram testificemur, Caesar, si non libet tibi Romae  principatum tenere, habes filios quorum
+
+
+
+<pb n="94"/>
+
+
+
+aliquem in locum tuum, nobis quoque permittentibus et rogantibus, naturae lege substituas. Sin minus, nobis in animo est publicam amplitudinem cum privata dignitate defendere. Neque enim minor haec injuria Quiritum quam fuit violata Lucretia, neque nobis deerit Brutus qui contra Tarquinium se ad libertatem recuperandam huic populo prsebeat ducem, et in istos Patres quos nobis praeponis deinde et in te ferrum stringemus,quod in multos Imperatores et quidem leviores ob causas fecimus.</quote></p>
+
+
+
+
+
+<pb n="95"/>
+
+
+<p>Haec profecto Constantinum, nisi Iapidem eum aut truncum existimamus, permovissent. Quae si populus non dixisset, tamen dicere apud se et his passim verbis fremere credibile erat.</p><p>Eamus nunc et dicamus gratificari voluisse Sylvestro quem tot hominum odiis tot gladiis subjiceret; et vix quantum sentio unum Sylvester diem in vita futurus fuisset. Nam eo paucisque aliis absumptis, videtur omnis sublatum iri de pectoribus Romanorum tam dirae, injuriae, contumeliaeque
+
+
+
+
+
+
+<pb n="96"/>
+
+
+
+suspicio. Age porro, si fieri potest concedamus, neque preces, neque minas, neque ullam rationem aliquid profecisse, perstareque adhuc Constantinum, nec velle a suscepta semel per suasione discedere. Quis non ad Sylvestri orationem, si res vera fuisset, unquam commotum assentiatur? Quae talis haud dubie fuisset;</p><p><quote><p>Princeps optime ac fili, Caesar, pietatem  siquidem tuam tam pronam tamque  effusam non possum vel amare vel amplecti, verumtamen quod in offerendis Deo muneribus immolandisque victimis
+
+
+
+<pb n="97"/>
+
+
+
+nonnihil erres, minime demiror; quippe qui adhuc es in Christiana militia tiro. Ut non decebat a sacerdote omnem pecudem feramque et ovem sacrificari, ita non omne ab eo suscipiendum est munus. Ego Sacerdos sum ac Pontifex, qui dispicere debeo quid ad altare patiar offerri, ne forte non dico immundum animal offeratur, sed vipera aut serpens. Itaque sic habes, si foret tui juris,partem Imperii cum regina orbis Roma alteri tradere  quam filiis; quod minime sentio. Si populus hic, Italia, si caeterge nationes sus-
+
+
+
+
+<pb n="98"/>
+
+
+
+
+tinerent, et quos oderunt et quorum religionem adhuc respuunt, capti illecebris saeculi, eorum imperio obnoxii esse vellent, quod impossibile est : tamen si quid mihi credendum putas, fili amantissime, ut tibi assentiar ulla adduci ratione non possum, nisi vellem mihi ipsi esse dissimilem et conditionem meam oblivisci ac propemodum Dominum Jesum abnegare. Tua enim munera, sive ut tu vis, tuae remunerationes et gloriam et innocentiam et sanctimoniam meam atque omnium qui mihi successuri sunt
+
+<pb n="99"/>
+
+
+
+polluerent ac prorsus everterent, viamque  his qui ad cognitionem veritatis venturi  sunt intercluderent. An vero Elysaeus a Naaman Syro a lepra curato mercedem accipere voluit? Ego a te curato accipiam. Ille munera respuit ; ego regna mihi dari sinam. Ille personam prophetae maculare noluit; ego personam Christi, quam in me gero, maculare potero  Cur autem ille accipiendo munera personam Prophetae maculare putavit? Nempe quod videri poterat vendere sacra, foenerare donum Dei, indigerejpraesidiis hominum, elevare atque
+
+
+
+
+<pb n="100"/>
+
+
+
+minuere simul more beneficii dignitatem. Maluit ergo sibi Principes ac Reges beneficiarios facere, quam ipse beneficiarius illorum esse; imo ne mutua quidem beneficentia uti. Beatius est enim multo, ut  inquit Dominus, dare quam accipere, Eadem mihi atque major est causa, cui etiam a Domino praecipitur dicente : injtrmos curate, mortuos suscitate, leprosos mundate, daemones ejicite; gratis accepistis, gratis date, Egone tantum flagitium admittam,  Caesar, ut Dei praecepta non exequar, ut gloriam meam polluam  Melius est, ut
+
+
+<pb n="101"/>
+
+
+
+inquit Paulus, mihi mori quam ut gloriam meam quis evacuet. Gloria nostra est apud Deum honorificare ministerium nostrum, ut idem inquit : Vobis dico gentibus,  quamdiu ego quidem sum gentium apostoli lus, glorificabo ministerium meum. Ego, Caesar, aliis quoque sim et exemplum et causa delinquendi : Christianus homo, Sacerdos Dei, Pontifex Romanus, Vicarius Christi ? Jam vero innocentia Sacerdotum quomodo incolumis erit inter apices, inter magistratus, inter administrationem saeculi-
+
+
+
+<pb n="102"/>
+
+
+
+
+
+larium negotiorum; ìdeone terrenis renundamus ut eadem uberiora assequamur, et privataabjiciamusut aliena possideamuset publica? Nostrae erunt urbes, nostra tributa, nostra vectigalia. Et cur Clericos, si haec fecerimus, nos vocare licebit ? Pars nostra sive sors, quae Graece dicitur Kleros, divina est, non terrena sed coelestis. Levitae, qui idem Clerici sunt, partem cum fratribus non fuere sortiti. Et tu nos jubes etiam fratrum sortiri portionem ? Quo mihi divitias atque opes, qui Domini voce
+
+
+
+
+<pb n="103"/>
+
+
+
+jubeor nec de crastino esse sollicitus et cui dictum est ab illo : Nolite thesaurizare super terram; nolite possidere aurum, neque argentum, neque pecuniam in zonis vestris, et : Difficilius est divitem intrare in regnum coelorum quam camelum per foramen acus transire? Ideoque pauperes sibi ministros elegit, et qui omnia relinquerunt et eum sequerentur, et paupertatis ipse fuit exempium, usque adeo divitiarum pecuniarumque tractatio innocentiae inimica est,  non modo possessio illarum atque domi-
+
+
+
+<pb n="104"/>
+
+
+
+
+
+natus. Unus Judas, qui loculos habebat et portabat quae mittebantur, prevaricatus est et amore pecuniae cui assueverat, Magistrum, Dominum, Deum et reprehendit et prodidit.</p><p>Itaque vereor, Caesar, ne me ex Petro facias Judam, Audi etiam quid Paulus dicat : Nihil intulimus in hunc mundum, haud dubium quod nec auferre quid possimus  habentes autem alimenta et quibus tegamur, his contenti simus. Nam qui volunt divites fieri incidunt in tentationem
+
+<pb n="105"/>
+
+
+
+
+
+et in laqueum Diaboli, et desideria multa et inutilia et nociva, qua? mergunt homines in interitum et perditionem. Radix enim omnium malorum est cupiditas, quam quidam appetentes erraverunt a fide et inseruerunt se doloribus multis. Tu autem, homo Dei, hoc fuge.</p><p>Et tu me accipere jubes, Caesar, quae velut venenum effugere debeo ? Et quis  praeterea, pro tua prudentia, Caesar, considera, quis inter haec divinis rebus faciendis locus ? Apostoli quibusdam indignantibus
+
+
+
+<pb n="106"/>
+
+
+
+
+quod viduas ipsorum in ministerio quotidiano despicerentur, responderunt non esse cequum derelinquere se verbum Dei et ministrare mensis. Et tamen mensis viduarum ministrare quanto alius est quam exigere vectigalia, curare aerarium, stipendium numerare' militibus, et mille aliis hujusmodi implicare curis ? Nemo militans Deo implicat se negotiis scecularibus, inquit Paulus. Nunquid Aaron cum jt caeteris Levitici generis aliud quam Domini Tabernaculum procurabat? Ejus filii
+
+
+
+
+<pb n="107"/>
+
+
+
+quia ignem alienum in thuribula sumpserant, igni ccelesti conflagrarunt. Et tu jubes nos ignem saecularium divitarium, vetitum ac profanum, in sacra thuribula, id est in sacerdotalia opera sumere? Num Eleazar, num Phinees, num caeteri pontifices ministrique aut Tabernaculi aut Templi quicquid nisi quod ad rem divinam pertineret administrabant ? Administrabant, dico imo administrare poterant, si officio suo satisfacere volebant? Ac si noluissent, audiant exeerationem Domini dicentis : Maledicti qui opus Domini
+
+
+
+<pb n="108"/>
+
+
+
+
+faciunt negligenter ! Quae execratio, cura in omnes tum in Pontifices maxime cadit. O quantum est pontificale munus, quantum est caput esse Ecclesiae, quantum est praeponi pastorem tanto ovili ex cujus manu uniuscujusque agni ovisque amissae sanguis exigitur; cui dictum est : Si amas me plusquam alii (ut fateris) pasce agnos meos. Iterum si amas me plusquam alii (ut fateris) pasce oves meas. Tertio si amas me plusquam alii (ut fateris) pasce oves meas. Et tu me jubes, Caesar, capras
+
+
+<pb n="109"/>
+
+
+
+etiam pascere et porcos, qui nequeunt ab eodem pastore custodiri? Quid, quod me Regem facere vis, aut potius Caesarem, id est Regum principem ? Dominus Jesus Christus, Deus et homo, Rex et Sacerdos cum se Regem affirmaret, audi de quo regno  locutus est : Regnum meum non est de hoc mundo;si de hoc mundo esset regnum meum, ministri mei utique decertarent. Et quae fuit  prima vox et frequenter praedicationis suae clamor, nonne haec : Poenitentiam agite; appropinquat enim regnum coelorum. Apio
+
+
+
+<pb n="110"/>
+
+
+
+
+propinquavit regnum Dei, cui comparabitur regnum coeli. Nonne cum haec dixit, regnum saeculare nihil ad se pertinere deli) claravit ? Eoque non modo regnum hujusmodi non quaesivit, sed oblatum quoque accipere noluit. Nam cum intelligeret aliquando populos destinasse ut eum raperent Regemque facerent, in montium solitudines fugit. Quod nobis qui locum suum tenemus non solum exemplo dedit imitandum sed etiam praecepto, inquiens : Principes gentium dominantur earum et qui majores sunt potestatem exercent in
+
+<pb n="111"/>
+
+
+
+eos; non ita erit inter vos, sed quicumque voluerit inter vos major fieri sit vester minister, et qui voluerit primus inter vos esse erit vester servus. Sicut Filius Hominis non venit ut ministretur ei, sed ut ministret et det animam suam redemptionem pro multis.</p><p>Judices olim Deus, ut scias, Caesar, constituit super Israel non Reges, populumque sibi nomen regium postulantem detestatus est; nec aliter ob duritiam cordis illorum Regem dedit, quam quod repu-
+
+
+
+<pb n="112"/>
+
+
+
+
+dium permiserat, quod in nova Lege revocavit. Et ego regnum accipiam, qui vìx Judex esse permittor ? An nescitis, inquit a Paulus, quod Sancti de hoc mundo judicabunt? Et si in vobis judicabitur mundus, indigni estis qui de minimis judicetis? Nescitis quod angelos judicabimus? Quanto magis saeclaria ? Saeclaria igitur judicia si habueritis, contemptibiles qui sunt in Ecclesia, eos constituite ad judicandum. Atqui judices de rebus controversis tantummodo judicabant, non etiam tributa exigebant. Ego exigam, qui scio a Domino
+
+
+
+<pb n="113"/>
+
+
+
+
+interrogatum Petrum : A quibusnam Reges terree acciperent tributum censumve, a filiis an ab alienis ? et cum hic respondisset : Ab alienis, ab eodem dictum : — Ergo liberi sunt filii. Ac si omnes filii mei sunt, Caesar, ut certe sunt, omnes liberi erunt; nihil quisquam solvet. Igitur non est opus mihi tua Donatione, quia nihil assecuturus sum praeter laborem, quem et minime debeo et minime possum ferre. Quid, quod necesse haberem potestatem exercere, sanguinis punire sontes, bella
+
+
+
+
+<pb n="114"/>
+
+
+
+gerere, urbes diripere, regiones ferro ignique vastare! Aliter non est quod sperem posse me tueri quae tradidisses, et si haec fecero, Sacerdos, Christi Pontifex, Christi vicarius, sum ut illum in me tonantem audiam atque dicentem : Domus mea3 domus orationis vocabitur omnibus gentibus et tu fecisti eam speluncam latronum. Non veni in mundum, ut inquit a Dominus, ut judicem mundum, sed ut  liberem eum. Et ego qui illi successi causa 1 mortium ero?cui in persona Petri dictum
+
+
+<pb n="115"/>
+
+
+
+
+
+
+
+
+est : Converte gladium tuum in locum suum; omnes enim qui acceperint gladium  gladio peribunt ; ne defendere quidem vobis  ferro vos licet. Si quidem defendere Dominum Petrus volebat cum auriculam  abscidit servo; et tu divitiarum aut comparandarum aut tuendarum causa uti  ferro nos jubes !</p><p> Nostra potestas est potestas clavium, dicente Domino : Tibi dabo claves regni  coelorum ; quodcunque ligaveris super terram erit ligatum et in coelis, et quod-
+
+
+
+
+<pb n="116"/>
+
+
+
+
+
+cunque solveris super terram erit solutum et in coelis. Et : Porta? inferi non prcevalebunt adversus eas. Nihil ad hanc potestatem, nihil ad hanc dignationem, nihil ad hoc regnum adjici potest ; quo qui contentus non est, aliud sibi quoddam a Diabolo postulat, qui etiam Domino dicere ausus est : Tibi dabo omnia regna mundi, si cadens in terram adoraveris me. Quare, Caesar, cum pace tua dictum sit, noli mihi Diabolus effici, qui Christum, id est me, regna mundi a te data accipere jubeas.
+
+
+
+<pb n="117"/>
+
+
+
+
+Malo enim illa spernere, quam possidere. Et ut aliquid de infidelibus, sed ut spero futuris fidelibus loquar, noli me de Angelo lucis reddere illis Angelum tenebrarum. Quorum corda ad pietatem inducere volo, non ipsorum cervici jugum impoi nere, et gladio quod est verbum Dei non gladio ferreo mihi subjicere, ne deteriores efficiantur, ne recalcitrent, ne cornu me  feriant, ne nomen Dei meo irritati errore  blasphement. Filios mihi carissimos volo  reddere, non servos, adoptare non emere, generare non mancupare, animas eorum
+
+
+
+
+<pb n="118"/>
+
+
+
+
+
+offerre sacrificium Deo, non Diabolo coris pora. Discite a me, inquit Dominus, quia mitis sum et humilis corde. Capite jugum meum et invenietis requiem; animalibus universis jugum enim meum suave est et pondus meum leve. Cujus ad extremum in hoc finem faciam. Illam in hac re sententiam accipe quam quasi inter me et te tulit : Reddite quce sunt Ccesaris Ccesari et quce sunt Dei Deo. Quo fit ut nec tu, Caesar, tua relinquere, neque ego quae Caesaris sunt accipere debeam; quae vel
+
+<pb n="119"/>
+
+
+
+si mìllies offeras nunquam accipiam.</p></quote></p><p>Ad hanc Sylvestri orationem Apostolico viro dignam quid esset quod amplius Constantinus posset opponere? Quod cum ita sit, qui aiunt Donationem esse factam nonne injuriosi sunt in Constantinum quem suos privare Imperiumque Romanum voluisse convellere; injuriosi in Senatum Populumque Romanum, Italiam totumque Occidentem, quem contra jus fasque mutari imperium permisisse; injuriosi in Sylvestrum quem indignam sancto viro donationem acceptam habuisse; injuriosi in Summum
+
+
+
+
+<pb n="120"/>
+
+
+
+
+Pontificem cui licere terrenis potiri regnis et Romanum moderari Imperium arbitrantur? Haec tamen omnia eo pertinent ut appareat Constantinum, inter tot impedimenta, nunquam fuisse facturum ut rem Romanam Sylvestro ex maxima parte donaret, ut isti aiunt.</p><p>Age porro, ut credamus istam Donationem de qua facit pagina vestra mentionem, debet constare etiam de acceptatione Sylvestri : nunc de illa non constat. — At credibile est, dicitis, ratam hunc habuisse.
+
+
+
+
+<pb n="121"/>
+
+
+— Ita credo, nec ratam habuisse modo, verum etiam petisse, rogasse, precibus extorsisse, credìbile est. Quid vos credibile, quod prseter opinionem hominum est, dicitis? Nec quia in pagina privilegii de donatione fit mentio putandum est fuisse donatum, ita plus contra vos facit, hunc donum respuisse quam illum dare voluisse, et beneficium in invitum non confertur. Neque vero tantum donata respuisse Sylvestrum suspicari debemus, sed tacite etiam judicasse nec illum jure dare, nec se jure accipere posse.
+
+
+
+
+<pb n="122"/>
+
+
+
+
+Sed o caecam semper inconsultamque avaritiam ! Demus ut tabulas quoque de assensu Sylvestri proferre possitis veras, incorruptas, sinceras. Num protinus donata sunt quae in tabulis continentur? Ubi possessio? Ubi in manus traditio? Nam si chartam Constantinus modo dat, non gratificari Sylvestro voluit, sed illudere. — Verisimile est, dicitis, qui donat, quippiam eum et possessionem tradere. — Videte quid loquamini, cum possessionem non esse datam constet et an datum sit jus
+
+
+
+<pb n="123"/>
+
+
+
+
+ambigatur. Versìmile est qui possessionem non dedit, eum ne jus quidem dare voluisse.</p><p>An non constat possessionem nunquam fuisse traditam ? Quod negare impudentissimum est. Numquid Sylvestrum Constantinus in Capitolium quasi triumphantem inter frequentium Quiritum sed infidelium plausum duxit? In sella aurea simul assistente universo Senatu collocavit, magistratus pro sua quemque dignitate Regem salutare ct adorare jussit? Haec erga novos Principes fieri solent, non tantum aliquod palatium
+
+
+
+
+
+<pb n="124"/>
+
+
+
+
+velut Lateranense tradì. Num postea per universam Italiam circumduxit? Adiit cum illo Gallias, adiit Hispanias, adiit Germanos caeterumque Occidentem? Aut si gravabantur ambo tantum obire terrarum, quibusnam tam ingens officium delegarunt qui et Caesaris vice traderent possessionem et Sylvestri acceperent? Magni hi viri atque eximiae auctoritatis esse debuerunt, et tamen qui fuerint ignoramus; et quantum in his duobus verbis : tradere et accipere, subest pondus.</p><p>Nostra memoria, ut exempla vetusta omit-
+
+
+
+<pb n="125"/>
+
+
+
+
+tam, nunquam aliter factitatum vidimus, cum quis aut urbis aut regionis aut provinciae dominus factus est ; ita demum traditam possessionem existimari, si magistratus pristini submoveantur novique subrogentur. Hoc si tunc fieri Sylvester non postulasset, tamen magnificentiae Constantini intererat ut declararet non verbo sed re possessionem tradere, suos praesides amovere aliosque ab aliò substitui jubere. Non traditur possessio quae penes eosdem remanet qui possidebant, et noti.
+
+
+
+<pb n="126"/>
+
+
+
+
+
+vus dominus illos submovere non audet.</p><p>Sed fac istud quoque non obstare et nihilominus putari Sylvestrum possedisse, atque omnia praeter morem praeterque naturam tunc esse dicamus administrata; postquam ille abiit, quos provinciis urbibusque rectores Sylvester praeposuit, quae bella gessit, quas nationes ad arma spectantes oppressit? Per quos hoc administravit ? — Nihil horum scimus, respondetis. — Ita, puto, nocturno tempore haec omnia gesta sunt, et ideo nemo vidit.</p><p>Age, fuit in possessione Sylvester : quis
+
+
+
+<pb n="127"/>
+
+
+
+
+eum de possessione dejecit? Nam perpetuo in possessione non fuit neque successorum aliquis saltem usque ad Gregorium magnum, qui et ipse caruit possessione. Qui extra possessionem est, nec se ab ea dejectum probare potest, is profecto nunquam possedit, et si se possedisse dicat, insanit. Vides et te insanum etiam probo; alioquin, dic quis Papam dejecit. Ipse ne Constantinus, an ejus filii, an Julianus, an aliquis alius Caesar? Profer nomen expulsoris, profer tempus; unde primo, unde se-
+
+
+
+<pb n="128"/>
+
+
+
+
+
+eundo, ac deinceps expulsus est ? Num per seditionem et caedes an sine his? Conjurarunt in eum pariter nationes atque patria? Quid? Nemo omnium auxilio fuit? Ne illorum quidem qui per Sylvestrum aliumve Papam praepositi urbibus ac provinciis erant? Uno die universa amisit, an paulatim restitit ipse suique magistratus? An ad primum tumultum se abdicarunt? Quid? Ipsi victores non in eam fascem hominum, quam Imperio indignam ducebant, ferro grassati sunt, in ultionem contumeliae, in tutelam occupata
+
+
+
+
+<pb n="129"/>
+
+
+
+
+dominationis, in contemptum religionis nostrae, in ipsum etiam posteritatis exemplum? Omnino. Nemo eorum qui victi sunt fugam coepit, nemo latuit, nemo timuit. O admirabile casum ! Imperium Romanum tantis laboribus, tanto cruore partum tam placide, tam quiete a Christianis sacerdotibus vel partum est, vel amissum, ut nullus eruor, nullum bellum, nulla querela intercesserit ; et quod non minus admirari debeas, per quos hoc gestum sit, quo tempore, quo modo, quamdiu, prorsus ignotum. Putes in sylvis, inter arbores regnasse Sylvestrum,
+
+
+<pb n="130"/>
+
+
+
+
+non Romae, non inter homines, et ab hibernis imbribus frigoribusque non ab hominibus ejectum. Quis non habet cognitum, qui paulo plura lectitaverit, quot reges Romae, quot consules, quot dictatores, quot tribuni plebis, quot censores, quot ediles creati fuerint? Nemo ex tanta hominum copia, ex tanta vetustate nos fugit. Scimus item quot Atheniensium duces, quot Thebanorum, quot Lacedemoniorum exstiterint; pugnas eorum terrestres navalesque uni-
+
+
+
+
+<pb n="131"/>
+
+
+
+
+versas tenemus. Non ignoramus qui reges Persarum, Medorum, Chaldaeorum, Hebraeorum fuerint aliorumque plurimorum, et quomodo horum quisque aut acceperit regnum aut tenuerit, aut perdiderit, aut recuperaverit. Romanum autem sive Sylvestrianum Imperium qua ratione inceperit aut qua desierit, quando, per quos, in ipsa quoque urbe nescitur. Interrogo enim quos harum rerum testes auctoresque proferre possitis : — Nullos, respondetis. — Et non pudet vos non tam homines
+
+
+
+<pb n="132"/>
+
+
+
+
+quam pecudes dicere verisimile esse possedisse Sylvestrem ?</p><p>Quod quia vos non potestis, ego e contrario docebo ad ultimum usque diem vitae Constantinum et gradatim deinceps omnes  Caesares possedisse, ut ne quid habeatis quod hiscere possitis; ac perdifficile est et magni, ut opinor, operis hoc docere. Evolvantur omnes Latinae Graecaeque historiae, citentur caeteri auctores qui de illis meminere temporibus, at neminem reperies in hac re ab alio discrepare. Unum ex mille tes-
+
+<pb n="133"/>
+
+
+
+timoniis sufficiat : Eutropius qui Constantinum, qui tres Constantini filios a patre relictos dominos orbis terrarum vidit, qui de Juliano filio fratris Constantini ita scribit : <quote>Hic Julianus, qui fuit diaconus in Romana Ecclesia, Imperatorque effectus apostatavit in idolorum cultu, rerum potitus est ingentique apparatu Parthis intulit bellum, cui expeditioni ego quoque interfui.</quote> Nec de donatione Imperii Occidentis tacuisset, nec paulo post de Joviano, qui successit Juliano, ita dixisset : <quote>Pacem cum Sapore necessa-
+
+<pb n="134"/>
+
+
+
+
+riam quidem sed ignobilem fecit, mutatis finibus ac nonnulla Imperii Romani parte tradita quod ante ex quo Romanum Imperium conditum erat nunquam accidit. Quin etiam legiones nostrae apud Caudium per Pontium Telesinum et in Hispania apud Numantiam et in Numidia sub jugo missae sunt, ut nihil tamen finium traderetur.</quote></p><p>Hoc loco libet vos qui nuperrime defuncti estis convenire, Pontifices Romani, et te,
+
+.
+
+
+
+<pb n="135"/>
+
+
+
+Eugeni, qui vivis cum Felicis tamen venia. Cur donationem Constantini magno ore jactitatis frequenterque nos ultores erepti Imperii quibusdam Regibus, Principibus que minamini, et confessionem quamdam servitutis a Caesare dum coronandus est et a nonnullis aliis Principibus extorquetis, velut ab rege Neapolis atque Siciliae, id quod nunquam aliquis veterum Romanorum Pontificum fecit, non Damasus apud Theodosium, non Syricius apud Arcadium, non Anastasius apud Honorium, non Joannes apud Justinianum, non alii sanctissimi Papae apud optimos Caesares? Sed semper
+
+
+
+<pb n="136"/>
+
+
+
+
+illorum Romam Italiamque cum provinciis quas nominavi fuisse professi sunt, eorumque numismata aurea (ut de aliis monumentis sileam templisque urbis Romae) circumferuntur, non Graecis sed Latinis litteris inscripta, Constantini jam Christiani et deinceps cunctorum ferme imperatorum, quorum multa penes me sunt cum hac plerumque suscriptione, subter imaginem crucis, Concordia Orbis; qualia infinita Summorum Pontificum, si unquam Roma: imperassent, reperirentur, quae nulla reperiuntur, neque aurea neque argentea,
+
+
+<pb n="137"/>
+
+
+
+
+neque ab alio visa memorantur; et tamen necesse erat ilio tempore proprium habere numisma quisquis imperium Romae teneret, saltem sub imagine Salvatoris aut Petri.</p><p>Proh ! O imperitia hominis ! Non cernitis, si Donatio Constantini vera est, Caesari, de " Latino loquor, nihil relinqui ? En, qualis Imperator, qualis Rex Romanus erit, cujus regnum si quis habeat, nec aliud habeat, omnino nihil habet? Ac si itaque palam est Sylvestrum non possedisse, hoc est Constantinum non tradidisse possessionem,
+
+
+
+
+<pb n="138"/>
+
+
+
+
+
+
+haud dubium erit ne jus quidem, ut dixi, dedisse possidendi, nisi dicitis jus quidem datum, sed aliqua causa possessionem non traditam ; ita plane dabat quod tradere non poterat, dabat quod non prius venire in manus ejus cui dabatur possibile erat quam esset extinctum, dabat donum quod ante quingentos annos aut nunquam valiturum foret. Verum hoc loqui aut sentire insanum est.</p><p>Sed jam tempus est, ne longior fiam,
+
+<pb n="139"/>
+
+
+
+
+causae adversariorum jam concisae atque laceratae letale vulnus imprimere et imo eam jugulare ictu. Omnis fere historia quae nomen historiae meretur Constantinum a puero cum patre Constantio Christianum refert, multo etiam ante pontificium Sylvestri, ut Eusebius Ecclesiastica Historice scriptor, quem Rufinus, non in postremis doctus, in Latinum interpretatus duo volumina de aevo suo adjecit, quorum uterque
+
+
+
+<pb n="140"/>
+
+
+
+
+pene Constantini temporibus fuit. Adde etiam testimonium Romani Pontificis, qui his rebus gerendis non interfuit sed praefuit, non testis sed auctor, non alieni negotii sed sui narrator; is est Melchiades Papa, qui proximus fuit ante Sylvestrum, qui ita ait : <quote>Ecclesia ad hoc usque pervenit, ut non solum gentes sed etiam Romani principes qui totius orbis monarchiam tenebant ad fidem Christi et ad fidei sacramenta concurrerent. Ex quibus vir religiosissimus Constantinus, primus fidem veritatis paten-
+
+
+<pb n="141"/>
+
+
+
+
+
+
+ter adeptus, licentiam dedit per universum orbem sub suo degentibus imperio non solum fieri Christianos, sed etiam fabricandi ecclesias et praedia constituit tribuenda. Denique idem praefatus Princeps donaria immensa contulit et fabricam templi primae sedis beati Petri instituit, adeo ut sedem imperialem relinqueret et beato Petro suisque successoribus profuturam concederet.</quote> En, nihil Melchiades a Constantino datum ait, nisi palatium Lateranense et praedia de quibus Gregorius in registro saepissime facit mentionem.
+
+
+
+
+<pb n="142"/>
+
+
+
+
+
+
+Ubi sunt qui nos in dubium vocare non sinunt Donatio Constantini valeat nec ne, cum illa donatio fuerit et ante Sylvestrum et rerum tantummodo privatarum? Quae res, quanquam plana et aperta sit, tamen de ipso quod isti stolidi proferre solent privilegio disserendum est. Et ante omnia, non modo ille qui Gratianus videri voluit, qui nonnulla ad opus Gratiani adjecit, improbitatis arguendus est, verum etiam inscitiae, qui opinantur paginam privilegii apud Gratianum contineri ; quod neque docti putarunt unquam et in vetustissimis
+
+
+
+<pb n="143"/>
+
+
+
+
+
+quibusque codicibus Decretorum non invenitur. Et si quo in loco hujus rei Gratianus meminisset, non in hoc ubi isti collocant, seriam ipsam orationis abrumpentes, sed in eo ubi ait de Ludovici pactione meminisset. Praeterea duo millia locorum in Decretis sunt quae ab hujus loci fide dissentiunt; quorum unus est ubi quae superius retuli Melchiadis verba ponuntur. Nonnulli eum qui hoc capitulum adjecit aiunt vocatum Paleam, vel vero nomine, vel ideo quod quae de suo adjunxit ad Gratianum comparata instar palearum juxta frumenta existi-
+
+
+
+
+
+<pb n="144"/>
+
+
+
+mentur. Utcunque sit, indignum est credere, quae ab hoc adjecta sunt, ea Decretorum collectorem aut ignorasse, aut magnifecisse habuisseque pro veris. Bene habet, sufficit, vicimus; primum quod hoc Gratianus non ait ut isti mentiebantur, imo adeo ut ex infinitis locis datur intelligi negat atque confutat; deinde quod vanum et ignotum est atque nullius auctoritatis ac nauci hominem afferunt, ita etiam stolidum ut ea Gratiano affinxerit quae cum caeteris illius dictis congruere non possunt. Hunc ergo vos
+
+
+
+<pb n="145"/>
+
+
+
+
+auctorem profertis, hujus unius testimonio nitimini; hujus chartulam ad tantae rei confirmationem contra sexcenta probationum genera recitatis. At ego exspectaveram ut aurea sigilla, marmoratos titulos, mille auctores ostenderetis!</p><p>— Sed ipse, dicitis, Palea auctorem profert, fontem historiae ostendit, et Gelasium Papam cum multis Episcopis in testimonium citat; ex Gestis, inquit, Sylvestri, quae beatus Papa Gelasìus in Concilio septuaginta Episcoporum a catholicis legi commemorat, et
+
+
+
+
+<pb n="146"/>
+
+
+
+
+pro antiquo usu multas hoc dicit Ecclesias imitari; in quibus legitur : Constantinus, etc. — Multo superius, ubi de libris legendis et non legendis agitur, etiam dixerat: <quote>Actus beati Sylvestri praesulis, licet ejus qui scripsit nomen ignoremus, a multis tamen ab urbe Roma catholicis legi cognovimus et pro antiquo usu hoc imitantur Ecclesiae.</quote> Mira haec auctoritas, mirum testimonium, inexpugnabilis probatio!</p><p>Dono vobis hoc Gelasium dum de Concilio septuaginta Episcoporum loquitur id dixisse,
+
+
+
+<pb n="147"/>
+
+
+
+
+num idem dixit paginam privilegii in beatissimi Sylvestri Gestis legi ? Is vero tantum ait Gesta Sylvestri legi et hoc Romae cujus Ecclesiae auctoritatem multae aliae sequuntur; quod ego non nego, concedo, fateor ; me quoque una cum Gelasio testem exhibeo. Verum quid vobis ista res prodest, nisi ut in adducendis testibus mentiri voluisse videamini ? Ignoratur nomen ejus qui hoc in Decretis adscripsit, et solus hoc dicit. Ignoratur nomen ejus qui scripsit historiam, et solus is et falso testis affertur; et vos, boni
+
+
+
+<pb n="148"/>
+
+
+
+
+
+
+viri atque prudentes, hoc satis superque esse ad tantae rei testimonium existimatis  At videte quantum inter meum intersit vestrumque judicium. Ego ne si hoc quidem apud Gesta Sylvestri privilegium contineretur pro vero habendum putarem, cum historia illa non historia sit, sed poetica et impudentissima fabula, ut potius ostendam, nec quisquam alius alicujus duntaxat auctoritatis de hoc privilegio habeat mentionem ; et Jacobus Voraginensis, propensius in amorem clericorum ut Archiepiscopus, tamen in Gestis
+
+
+
+
+<pb n="149"/>
+
+
+
+
+Sanctorum de Donatione Constantini ut fabulosa nec digna quae inter Gesta Sylvestri poneretur silentium egit, lata quodammodo sententia contra eos si qui haec litteris mandavissent.</p><p>Sed ipsum, falsarium et vere Paleam et non triticum obtorto collo in judicium trahere volo. Quid ais, falsarie? Unde fit quod istud privilegium inter Sylvestri Gesta non legimus? Credo, rarus hic liber est difficilisque inventu, nec vulgo habetur, sed tanquam Fasti olim a Pontificibus aut libri Sibyllini
+
+<pb n="150"/>
+
+
+
+
+a Decemviris custoditur : lingua Graeca aut Syriaca aut Chaldaica scriptus est? Testatur Gelasius a multis catholicis legi, Voraginensis de ea meminit, nos quoque mille et antiqua scripta vidimus exemplaria, et in omni fere Cathedrali ecclesia, cum adest Sylvestri natalis dies, lectitantur, et tamen nemo se illic legisse istud ait quod tu affingis, nemo audisse, nemo somniasse. An alia quaedam fortassis historia est ? et quaenam ista erit? Ego aliam nescio nec abs te aliam dici interpretor. Quippe de ea tu loqueris
+
+
+
+<pb n="151"/>
+
+
+
+
+quam Gelasius apud multas Ecclesias lectitari refert. In hac autem tuum privilegium non invenimus. Quod si istud in Vita Sylvestri non legitur, quid tu ita legi tradidisti? Quid in tanta re jocari es ausus et levium hominum cupiditatem eludere ?</p><p>Sed stultus sum qui illius potius insector audaciam quam illorum dementiam qui crediderunt. Si quis apud Graecos, apud Hebraeos, apud Barbaros hoc esse memoriae proditum diceret, nonne juberetis nominari auctorem, proferri codicem et locum ab
+
+
+
+<pb n="152"/>
+
+
+
+
+
+
+interprete fideli exponi antequam crederetis ? Nunc de lingua 'vestra, de notissimo codice fit mentio, et vos tam incredibile factum aut non inquiritis, aut cum scriptum non reperiatis, tam prava estis credulitate ut pro scripto habeatis atque pro vero? et hoc titulo contenti terras miscetis et maria, et quasi nullum subsit dubium, eos qui vobis non credunt terrore bellorum aliisque minis prosequimini. Bone Jesu, quanta vis, quanta divinitas est veritatis quae per
+
+<pb n="153"/>
+
+
+
+
+
+
+sese, sine magno conatu ab omnibus dolìs et fallaciis seipsam defendit, ut non immerito cum dicitur apud Darium regem exorta contentio quid foret maxime validum, et alius aliud diceret, tributa sit palma veritati.</p><p>Quia cum sacerdotibus non cum saecularibus mihi res est, ecclesiastica magisquam saecularia sunt exempla repetenda. Judas Machabaeus, cum missis Romam legatis foedus amicitiamque a Senatu impetrasset, curavit verba foederis in ses incidenda Hie-
+
+
+
+<pb n="154"/>
+
+
+
+rosolymamque portanda. Taceo de lapideis Decalogi tabulis, quas Deus Moysi dedit. Ipsa vero tam magnifica Constantini et tam inaudita Donatio nullis neque in auro, neque in argento, neque in aere, neque in marmore, neque postremo in libris probari documentis potest, sed tantum, si isti credimus, in charta sive membrana. Jobal primus musices auctor, ut est apud Josephum, cum esset a majoribus per manus tradita opinio res humanas semel aqua iterum igni delendas, doctrinam suam duabus columnis
+
+
+
+<pb n="155"/>
+
+
+
+
+inscripsit, latericia contra ignem, lapidea contra aquas, quas ad Josephi aevum, ut idem scripsit, permansit, ut suum in homines beneficium semper exstaret. Et apud Romanos rusticanos adhuc et agrestes, cum parvae et rarae litterae essent, tamen leges Duodecim Tabularum in aes fuere incisae, quas in capta atque incensa a Gallis urbe incolumes postea sunt repertae : adeo duo maxima in rebus humanis diuturnitatem temporis et fortunae violentiam vincit circumspecta providentia. Constantinus vero
+
+
+
+<pb n="156"/>
+
+
+
+
+orbis terrarum Donationem papyro tantum et atramento signavit, cum praesertim machinator fabulae, quisquis ille fuit, faciat Constantinum dicentem se credere non defore qui Donationem hanc impia aviditate rescinderent! Hoc times, Constantine, et non caves ne hi qui Romam Sylvestro eriperent chartulam quoque subriperent?</p><p>Quid! Ipse Sylvester pro se nihil ait? Ita omnia Constantino remittit ? Ita securus ac segnis est? Intanto negotio, nihil sibi, nihil Ecclesiae suae, nihil posteritati prospicit? En,
+
+<pb n="157"/>
+
+
+
+
+cui Imperium Romanum administrandum committis, qui tam magnae rei tantoque aut lucro aut periculo indormit! Si quidem sublata chartula privilegii donationem utique aetate procedente probare non poterit.</p><p>« Paginam privilegii » appellat homo vesanus; privilegiumne tu, libet velut praesentem insectari, vocas donationem orbis terrarum? et hoc in pagina vis esse scriptum et isto genere orationis ipsum esse Constantinum ? Si titulus absurdus est, qualia caetera existimemus ?
+
+
+<pb n="158"/>
+
+
+
+« Constantinus Imperator quarto die sui baptismatis privilegium Romance Ecclesice Pontifici contulit, ut in tota urbe Romana sacerdotes ita hunc caput habeant sicut judices Regem. » Hoc in ipsa Sylvestri historia continetur; ex quo dubitari non potest ubinam scriptum significetur privilegium. Sed more eorum qui mendacia machinantur a vero incipit ut sequentibus, quae falsa sunt, conciliet fidem, ut apud Virgilium : <quote><l>Cuncta equidem tibi, rex, fuerint quaecumque fatebor.</l></quote>
+
+<pb n="159"/>
+
+
+» Verum, » inquit, « nec me Argolica de gente negabo. »</p><p>Hoc primum, deinde falsa subjecit. Ita hoc loco noster Sinon facìt, qui cum a vero incepisset adjecit : « In eo privilegio, inter ccetera, ita legitur : Utile judicavimus una cum omnibus Satrapis nostris et universo Senatu, Optimatibus etiam et cuncto populo imperio Romance Ecclesiae subjacenti, sienf bgatus Petrus in terris vicarius toti videtur esse constitutus, et Pontifices, qui ipsius Principis Apostolorum gerunt vices
+
+
+
+<pb n="160"/>
+
+
+
+in terris, principatus potestatem amplius quam ter r enee Imperialis nostree Serenitatis Mansuetudo habere videtur, concessam a nobis nostro Imperio obtineant. » O scelerate atque malefice ! Eadem quam affers in testimonium refert historia longo tempore neminem Senatorii ordinis voluisse accipere religionem Christianam, et Constantinum pauperes sollicitasse pretio ad baptismum. Et tu ais inter primos statim dies Senatum, Optimates, Satrapas quasi jam Christianos de honestanda Ecclesia Romana
+
+
+
+
+
+
+<pb n="161"/>
+
+
+
+
+decrevisse. Quid, quod vis interfuisse Satrapas, o cautes, o stipes ! Sic loquuntur Caesares, sic concipi solent decreta Romana? Quis unquam Satrapas in conciliis Romanorum nominari audivit ? Non teneo memoria uriquam legisse me ullum non modo Romanum sed ne in Romanorum quidem provinciis Satrapam nominatum. At hic Imperatoris Satrapas vocat eosque Senatui praeponit, cum honores omnes, etiam qui * Principi deferuntur, tantum a Senatu decernuntur, adjuncto Populoque Romano. Hinc est quod in lapidibus vetustis aut tabulis
+
+
+<pb n="162"/>
+
+
+
+
+aereis aut numismatis duas litteras videmus conscriptas, scilicet ; S. C., Senatus consulto, vel quatuor scilicet : S. P. Q. R., hoc est Senatus Populus Que Romanus. Et ut Tertulianus meminit, cum Pontius Pilatus de admirandis Christi actionibus ad Tiberium Caesarem non ad Senatum scripsisset, si quidem ad Senatum scriberede magnis rebus magistratus consueverant, Senatus hanc rem indigne tulit Tiberioque praerogativam ferenti ut Jesus pro deo coleretur repugnavit, ob tacitam tantummodo indignationem
+
+
+
+
+
+<pb n="163"/>
+
+
+
+
+offensae Senatoriae dignitatis. Et ut scias quantum Senatus valeat auctoritas, ne pro deo coleretur obtinuit.</p><p>Quid, quod ais Optimates? Quos aut primarios in Republica viros intelligimus, qui cur nominantur cum de caeteris magistratibus silentium sit? aut eos qui populares
+
+
+
+
+<pb n="164"/>
+
+
+
+
+
+non sunt, benevolentiam populi aucupantes, sed optimi cujusque et bonarum partium studiosi ac defensores, ut Cicero quadam oratione demonstrat? Ideoque Caesarem ante oppressam Rempublicam popularem fuisse dicimus, Catonem ex Optimatibus, quorum differentiam Sallustius explicavit. Neque hi Optimates magisquam populares aut caeteri boni viri dicuntur in concilio adhiberi.</p><p>Sed quid mirum si adhibentur Optimates ubi cunctus populus (si homini credimus) cum Senatu et Caesare judicavit, et is quidem
+
+<pb n="165"/>
+
+
+
+
+Romanae Ecclesiae subjacens. Et quis est iste populus? Romanus ne? At cur non dicitur populus Romanus potiusquam populus subjacens? Quae nova ista contumelia est in Quirites, de quibus optimi poetae elogium est :<quote><l>Tu regere imperio populos !...</l></quote> Ipse vocatur populus subjacens, quod inauditum est. Nam et in hoc, ut in multis epistolis Gregorius testatur, differt Romanus Pontifex a caeteris quod solus est princeps liberi populi.
+
+
+<pb n="166"/>
+
+
+
+
+Caeterum ita sit ut vis. Nonne et alii populi subjacent? An alios quoque significas ? Quomodo istud triduo fieri poterat ut omnes populi subjacentes imperio Romanas Ecclesiae illi decreto adessent? Tametsi non omnis faex populi judicabat! Quid, antequam subjecisset Romano Pontifici populum Constantinus subjectum vocaret? Quid, quod hi qui subjacentes vocantur faciendo dicentur praefuisse decreto? Quid, quod hoc ipsum dicuntur decrevisse ut sint subjacentes et ut ille cui subjacent hos habeat subjacentes?
+
+
+
+<pb n="167"/>
+
+
+
+
+Quid agis aliud, infelix, nisì ut judices te voluntatem fallendi habere, facultatem non habere.</p><p>« Eligentes nobis ipsum Principem Apostolorum vel ejus vicarios firmos apud Deum esse patronos; et sicut nostra est terrena Imperialis potentia, ita ejus sacrosanctam Romanam Ecclesiam decrevimus veneranter honorare et amplius quam nostrum imperium, terrenum thronuYh, sedem sanctissimam beati Petri gloriose exaltari, tribuentes ei potestatem et gloriam et dignitatem atque
+
+
+
+<pb n="168"/>
+
+
+
+
+
+vigorem et honorificentiam Imperialem. » Revivisce paulisper, Firmiane Lactanti, resisteque huic asino tam vaste inaniterque rudenti. Ita verborum turgentium strepitu delectatur ut eadem repetat et inculcet quod modo dixerat. Hunc ne in modum aevo tuo loquebantur Caesarum scribae ne dicam agasones? Elegit sibi illos Constantinus non patronos, sed esse patronos (interposuit illud esse ut numerum redderet concinniorem). Honesta ratio, barbare loqui ut venustius currat oratio! Si modo quid in tanta scafari-
+
+<pb n="169"/>
+
+
+
+
+tia venustum esse potest! Eligentes Principem Apostolorum vel ejus vicarios, non elegis Petrum et ejus deinceps vicarios, sed aut hunc exclusis illis, aut illos hoc excluso; et Pontifices Romanos appellat vicarios Petri, quasi vel vivat Petrus, vel minori dignitate sint caeteri quam Petrus fuit ! Nonne et illud barbarum est : A nobis nostroque Imperio? quasi Imperium habeat animam concedendi et potestatem. Ne fuit contentus dicere obtineant nisi etiam diceret concessam, cum satis alterum esset. Et illud firmos patronos
+
+
+<pb n="170"/>
+
+
+
+
+perquam elegans est; scilicet firmos vult ne pecunia corrumpantur aut metu labantur! Et illud terrena Imperialis potentia, duo adjectiva sine copula! Et illud veneranter honorare; et illud : Nostrce Serenitatis Imperialis Mansuetudo Lactantianam eloquentiam redolet, cum de potentia Imperii agatur Serenitatem nominare et Mansuetudinem, non Amplitudinem et Majestatem. Quod etiam tumida superbia inflatum est ut in illo quoque gloriose exaltari per gloriam et potestatem et dignitatem et vigorem et honorificentiam Imperialem; quod ex Apoca-
+
+
+
+
+<pb n="171"/>
+
+
+
+lypsi sumptum videtur ubi dicitur : Dignus est agnus qui occisus est accipere virtutem et dignitatem dominicam et sapientiam et fortitudinem et honorem et benedictionem. Frequenter, ut posterius liquebit, titulos Dei sibi arrogare fingit Constantinus et imitari velle sermonem sacrae Scripturae quem nunquam legerat.</p><p>Atque decernentes sancimus ut principatum teneat tam super quatuor sedes A lexandrinam, Antiochenam, Hierosolymitanam et
+
+<pb n="172"/>
+
+
+
+
+Constantinopolitanam, quam etiam super omnes in universo orbe terrarum Dei Ecclesias, etiam Pontifex qui per tempora ipsius Sacrosanctae Romance Ecclesice exstiterit, celsior et Princeps cunctis sacerdotibus et totius mundi exsistat, et ejus judicio quce ad cultum Dei et fidem Christianorum vel stabilitatem procuranda fuerint disponantur. » Obmitto hic barbariem sermonis quod princeps sacerdotibus pro sacerdotum dixit, et quod in eodem loco posuit exstiterit et exsistat, et cum dixerit in universo orbe terrarum iterum
+
+
+
+<pb n="173"/>
+
+
+
+
+addit toties mundi, quasi quoddam diversum aut coelum, quod mundi pars est, complecti velit, cum bona pars orbis terrarum sub Roma non esset, et quod fidem Christianorum vel stabilitatem procurandam tanquam non possent simul esse distinxit, et quod decernere et sancire miscuit, et velut prius cum caeteris Constantinus non judicasset decernere enim et tanquam poenam proponat sancire, et quidem una cum populo sancire facit. Quis hoc Christianus pati queat, et non Papam, qui hoc patitur ac
+
+
+
+<pb n="174"/>
+
+
+
+
+
+libens audit et recitat, censorie severeque castiget?</p><p>At cum a Christo primatum acceperit Romana Sedes et id Gratiano testante multi sque Graecorum octava synodus declarant, accepisse dicatur a Constantino vixdum Christiano tamquam a Christo. Hoc ille modestissimus princeps dicere, hoc piissimus Pontifex audire voluisset ? Absit tam grave ab utroque illorum nefas ! Quid, quod multo est absurdius, capitne rerum natura ut quis de Constantinopoli loquatur tanquam de
+
+
+<pb n="175"/>
+
+
+
+una patriarchalium sedium, quas nondum esset nec patriarchalis nec sedes, nec urbs Christiana, nec sic nominata, nec condita, nec ad condendum destinata ? Quippe privilegium concessum est triduo quod Constantinus esset effectus Christianus, cum Byzantium adhuc erat, non Constantinopolis. Mentior nisi hoc conhteatur hic stolidus ; scribit enim prope calcem privilegii : «Undecongruum perspeximus nostrum Imperium et regiam potestatem orientalibus transferri regionibus et in Byzantii provincia, optimo
+
+
+
+<pb n="176"/>
+
+
+
+
+
+loco, nomini nostro civitatem cedificari et illic nostrum Constantini Imperium transferri,  Si ille transferre volebat alio Imperium, nondum transtulerat; si illic constituere Imperium, nondum constituerat ; sic si volebat aedificare urbem, nondum aedificaverat; non ergo fecisset mentionem de patriarchali, de una quatuor sedium, de Christiana, de sic nominata, de condita. De qua condenda, ut historiae placet quam Palea in testimonium affert, ne cogitarat quidem, atque non videt haec bellua, sive
+
+
+
+
+<pb n="177"/>
+
+
+
+
+is Palea sit, sive alius, quem Palea sequitur se dissentire, ubi Constantinus non sua sponte sed inter quietem, admonitu Dei, non Romae sed Byzantii, non intra paucos dies sed post aliquos annos, dicitur decrevisse de urbe condenda nomenque quod in somnis edoctus fuerat indidisse. Quis ergo non videt qui privilegium composuit eum diu post tempora Constantini vixisse, et cum vellet adornare mendacium excidisse sibi quod ante dixisset, haec gesta esse Romae tertia die quam ille fuisset baptizatus? Ut in
+
+
+
+<pb n="178"/>
+
+
+
+eum decentissime cadat tritum cum vetustate proverbium : Mendaces esse memores oportere.</p><p>Quid, quod Byzantium provinciam vocat, quod erat oppidum nomine Byzantium, locus haudquaquam capax tantae urbis condendae? Nam muris complexa est Constantinopolis vetus Byzantium, et hic in ejus optimo loco ait urbem esse condendam. Quid, quod Thraciam, ubi positum erat Byzantium, vult esse in Oriente, quas vergit ad Aquilonem! Opinor, ignorabat Constan-
+
+
+
+
+<pb n="179"/>
+
+
+
+tinus locum quem condendae urbi delegerat, quo sub coelo esset, urbsque aut provincia, quanta ejus mensura foret.</p><p>« .... Ecclesiis beatorum Apostolorum Petri et Pauli, pro continuatione liminariorum, possessionum prcedia contulimus, et rebus diversis eas ditavimus, et per nostram imperialem jussionem sacram, tam in Oriente quam in Occidente, vel etiam a Septentrione et Meridionali plaga, videlicet in Judcea, Grcecia, Asia, Thracia, Africa et Italia, vel diversis insulis, nostra largitate ei conces-
+
+
+
+<pb n="180"/>
+
+
+
+
+simus; ea prorsus ratione ut per manus beatissimi patris nostri Sylvestri, Summi Pontificis, successorumque ejus omnia disponantur. »</p><p>O furcifer ! Ecclesiaene, id est tempia, Romae erant Petro et Paulo dicatae? Quis eas extruxerat? Quis aedificare ausus fuisset cum nusquam foret in Roma, ut historia ait, Christianis locus nisi secreta et latebrae, aut si qua templa Romae fuissent illis dicata Apostolis, non erant digna in quibus tanta luminaria accenderentur? Sacella, non templa, oratoria
+
+
+
+<pb n="181"/>
+
+
+
+inter privatos parietes, non publica delubra; non ergo ante cura gerenda erat de luminaribus templorum quam de ipsis templis. Quid ais tu, qui facis Constantinum dicentem Petrum et Paulum beatos, et Sylvestrum, cum adhuc vivit, beatissimum, et suam qui paulo ante fuisset Ethnicus jussionem sacram ? Tantane conferenda sunt pro luminaribus continuandis ut totus orbis terrarum fatigetur ? At quae ista praedia sunt, praesertim possessionum? Pra;diorum pos-
+
+
+
+
+
+<pb n="182"/>
+
+
+
+sessiones dicere solemus, non possessionum prcedia. Das praedia, nec quae praedia explicas; ditasti diversis rebus, nec quor nec quibus rebus ostendis; vis plagas orbis a Sylvestro disponi, nec pandis quo genere disponendi; concessisti hsec ante ; cur te hodie hoc incepisse significas honorare Ecclesiam Romanam et ei privilegium concedere ? Hodie concedis, hodie ditas; cur dicis concessimus et ditavimus? Quid loqueris aut quid sentis, bestia? Cum fabulae machinatore mihi ser-
+
+
+
+
+<pb n="183"/>
+
+
+
+
+mo est, non cum optimo Principe Constantino.</p><p>Sed quid in te ullam prudentiam, ullam doctrinam requiro, qui nullo ingenio, nulla litteratura sis praeditus, qui ais luminanorum pro luminarium et orientalibus transferri regionibus pro eo quod est ad orientales transferri regiones? Quid porro? Istae ne sunt quatuor plagae ? Quam Orientalem numeras? Thraciamne? at, ut dixi, vergit ad Septentrionem. An Judaeam ? At magis ad Meridiem spectat, utpote vicina Egypto.
+
+
+
+<pb n="184"/>
+
+
+
+
+Quam item Occidentalem ? Italiamne? At haec in Italia gerebantur quam nemo illic agens Occidentalem vocat, cum Hispanias dicamus esse in Occidente, et Italia hinc ad Meridiem illinc ad Arcton magisquam ad Occidentem vergit. Quam Septentrionalem? An Thraciam ? At ipse ad Orientem esse vis. An Asiam? At haec sola totum possidet Orientem, Septentrionem vero communem cum Europa. Quam Meridionalem ? Certe Africam. At cur non aliquam nominatim provinciam proferebas? Nisi forte Aethiopes
+
+
+
+
+<pb n="185"/>
+
+
+
+Romano Imperio suberant; et nihilominus non habent locum Asia et Africa, cum orbem terrarum in quatuor dividimus partes et nominatim regiones singularum referimus, sed cum in tres, Asiam, Africam, Europam; nisi Asiam, pro Asiatica provincia, Africa pro ea provincia quam proprie Getulia est, appellas, quae non video cur praecipue nominentur. Siccine locutus esset Constantinus, cum quatuor orbis plagas exsequitur, ut has regiones nominaret et caeteras non nominaret, et a Judaea inciperet, quae pars Syriae
+
+
+
+
+<pb n="186"/>
+
+
+
+
+numeratur, et quae amplius Judaea non erat, eversa Hierosolyma, fugatis et prope exstinctis Judaeis, ita ut credam vix aliquem in sua tunc patria remansisse, sed alias habitasse nationes? Ubi tandem erat Judaea,qua: vel Judaea amplius non vocabatur, ut hodie videmus illud terrae nomen exstinctum, et sicut exterminatis Chananaeis Chananaea regio desiit appellari, commutato nomine in Judaeam a novis incolis, ita exterminatis Judaeis et convenis gentibus eam incolentibus desierat Judaea nominari.
+
+
+
+<pb n="187"/>
+
+
+
+Nuncupas Judaeam, Thraciam, Insulas; Hìspanias vero, Gallias, Germanos non putas nuncupandos, et cum de aliis linguis longinquis loqueris, Hebraea, Graeca, barbara, de ulla provinciarum Latino sermone utem tium non loqueris. Video has te omnino omisisse ut postea in donatione complectereris. Ecquid? Non tanti erant tot provinciae Occidentis ut continuandis luminaribus suppeditarent sumptus, nisi reliquus orbis adjuvaret? Transeo quod haec concedi ais per largitionem; non ergo, ut isti aiunt, ob
+
+
+
+<pb n="188"/>
+
+
+
+
+leprae curationem. Alioquin insolens sit quisquis remunerationem loco munerum ponit.</p><p>« ... Beato Sylvestro ejusque vicario de prce senti tradimus palatium Imperii nostri Lateranense ; deinde diadema, videlicet coronam capitis nostri, simulque phrygium, nec non et superhumerale videlicet lorum quod imperiale circumdare solet collum, verum etiam et chlamydem purpuream atque tunicam coccineam et omnia imperialia in-
+
+
+
+
+
+<pb n="189"/>
+
+
+
+dumenta, seu etiam dignitatem imperialium Prxsidentium equitum; conferentes ei etiam imperialia sceptra simulque cuncta signa ac banna et diversa ornamenta imperialia, et omnem processionem imperialis culminis et gloriam potestatis nostra1. Viris etiam diversi ordinis, reverendissimis clericis sanctce Rommtip Ecclesice servientibus, illud culmen singularis potentice et prxcellcntice habere sancimus cujus amplissimus noster Senatus videtur gloria adornari, id est patricios et consules effici, nec non in exteris dignitatibus imperialibus eos promulgamus
+
+
+
+
+<pb n="190"/>
+
+
+
+
+decorari. Et sicut imperialis exstat decorata militia, ita clerum sanctce Romance Ecclesice adornari decrevimus. Et quemadmodum imperialis potentia diversis officiis cubiculariorum necnon et ostiariorum atque omnium concubitorum ordinatur, itaetsanctam Romanam Ecclesiam decorari volumus. Et ut amplissime pontificale decus prce fulgeat, decrevimus ut clerici ejusdem sanctce Romance Ecclesice mappulis et linteaminibus, id est candidissimo colore decoratos equos equitent, et sicut noster Senatus calceamentis utitur cum
+
+
+
+<pb n="191"/>
+
+
+
+
+
+udonibus, id est candido linteamine, illustrentur; et ita coelestia sicut terrena ad laudem Dei decorentur. »</p><p>O Sancte Jesu, ad hunc sententias volventem sermonibus imperitis non respondebis de turbine? Non tonabis? Non in tantam blasphemìam ultricia fulmina jaculabere? Tantumne probrum in tua familia sustines i Hoc audire, hoc videre, hoc tamdiu conniventibus oculis praeterire potes? Sed patiens es et multae misericordiae. Vereor tamen ne patientia tua sit potius ira et condem-
+
+
+
+
+<pb n="192"/>
+
+
+
+natio, qualis in illos fuit de quibus dixisti : Et dimisi eos in desiderium cordis eorum, ibunt in adinventionibus suis; et alibi : Tradidi eos in reprobum sensum ut faciant qua7 non conveniunt, quia non probaverunt se habere notitiam mei. Jube me, quaeso, Domine, ut exclamem adversus eos, et forte convertentur.</p><p>O Romani Pontifices, exemplum facinorum omniumcaeterispontificibus! o improbissimi scribae et Pharisaei qui sedetis super cathedram Moysi et opera Dathan et Abyron
+
+<pb n="193"/>
+
+
+
+tacitisi Itane vestimenta apparatus, pompa equitatus? Omnis denique vita Caesaris Vicarium Christi decebit? Quae communicatio sacerdotis ad Caesarem?Istane Sylvester vestimenta sibi induit, eo apparatu incessit, ea celebritate ministrantium domi vixit atque regnavit? Sceleratissimi homines, non intelligunt Sylvestro , magis vestes Aaron qui summus Dei sacerdos fuerat, quam gentilis Principis fuisse sumendas. Sed haec quoque alias erunt exagitandae vehementius. Inpraesentiarum autem de barbarismo cum hoc sycophanta loquamur cujus ex stulti-
+
+
+
+
+
+<pb n="194"/>
+
+
+
+
+loquio impudentìssimum ejus patefecit sua sponte mendacium.</p><p>« Tradimus, » inquit, « palatium Imperii nostri Lateranense... » quasi male hoc loco inter ornamenta donum palatii posuisset, iterum postea ubi de donis agitur replicavit. « Deinde diadema... # et quasi illi non videant qui adsunt, interpretatur videlicet coronam. Verum hic non addidit ex auro, sed posterius easdem res inculcans inquit : « ex auro purissimo et gemmis pretiosis. »
+
+
+<pb n="195"/>
+
+
+
+
+Ignoravit homo imperitus diadema e panno esse aut fortassis ex serico; unde sapiens illud Regis dictum celebrari solet, quem ferunt traditum sibi diadema priusquam capiti imponeret retentum diu considerasse ac dixisse : « O nobilem magisquam felicem pan» numi Quem si quis penitus cognosceret, » quam multis sollicitudinibus periculisque > et miseriis sis refertus, ne humi quidem » jacentem vellet tollere. » Iste non putavit illud nisi ex auro esse, cui circulus aureus nunc cum gemmis apponi a Regibus solet.
+
+
+
+<pb n="196"/>
+
+
+
+
+Verum non erat rex Constantinus, neque regem appellare, nec regio se ritu ornare fuisset ausus. Imperator Romanus erat, non rex : ubi rex est ibi Respublica non est, at in Republica multi fuerunt etiam uno tempore imperatores. Nam Ciccro frequenter ita scribit : « M. Cicero, imperator, illi vel » illi imperatori, salutem. » Licet postea peculiari nomine Romanus princeps, ut summus omnium Imperator appellaretur.</p><p>« Simulque phrygium nec non et superhumerale, videlicet lorum quod Imperiale circumdare solet collum.., » Quis unquam
+
+
+
+<pb n="197"/>
+
+
+
+phrygium Latine dici audivit ? Tu mihi dum barbare loqueris videri vis Constantini aut Lactantii esse sermonem? Plautus, in Menechmis, phrygionem uro concinnatore vestium posuit  phrygimn vero quod significet ? Hoc non exponis quod obscurum, exponis quod est clarius. Superhumerale ais esse lorum, nec quid sit lorum tenes; non enim cingulum ex corio factum, quod di-
+
+
+
+
+<pb n="198"/>
+
+
+
+
+citur lorum, sentis circumdari pro ornamento Caesaris collum; hinc est quod habenas et verbera vocamus lora. Ac si quando dicantur lora aurea, non nisi de habenis quae auratae collum equi aut alterius pecudis circumdari assolent intelligi potest. Quae te res, ut mea fert opinio, fefellit et cum loro circumdari collum Caesaris itaque Sylvestri vis, de homine, de Imperatore, de Summo Pontifice equum, aut asinum, aut canem facis.</p><p>« Verum et chlamydem purpuream atque
+
+
+
+
+<pb n="199"/>
+
+
+
+
+tunicam coccineam...; » quia Matthaeus ait chlamydem coccineam, et Joannes vestem purpuream, utramque voluit hic eodem loco conjungere. Quod si idem color est, ut Evangelista significant, quid tu non fuisti contentus alterum nominasse, ut illi contenti fuerint, nisi accipis purpuram ut nunc imperiti loquuntur genus panni serici colore albo? Est autem purpura piscis cujus sanguine lana tingitur, ideoque a tinctura datum est nomen panno, cujus color pro rubeo accipi potest, licet sit magis nigricans
+
+
+
+
+<pb n="200"/>
+
+
+
+
+et proximus colori sanguinis concreti et quasi violaceus. Inde ab Homero atque Virgilio purpureus dicitur,'sanguis et marmor porphyreticum cujus color est simillimus amethysto ; Graeci enim purpuram porphyram vocant. Coccineum pro rubro accipi forte non ignoras. Sed cur faciat coccineum, cum nos dicamus coccum, et chlamys quod genus sit vestimenti, jurarem te plane nescire. Atque ut ne se longius prosequendo singulas vestes mendacem perderet, uno
+
+
+
+
+<pb n="201"/>
+
+
+
+
+simul verbo complexus est dicens : omnia imperialia indumenta. Quid, etiamne illa quibus in bello, quibus in venatione, quibus in conviviis, quibus in ludis amiciri solet? Quid stultius quam Caesaris indumenta dicere convenire Pontifici !</p><p>Sed quam lepide addit : « Seu etiam dignitatem imperialium Prcesidentium equitum ! » Seu, inquit. Distinguere haec duo invicem voluit, quasi multum habeant inter se similitudinis, et de imperatorio habitu ad equestrem dignitatem dilabitur, nescio quid
+
+
+
+<pb n="202"/>
+
+
+
+
+loquens. Mira quidem effari vult, sed deprehendi in mendacio timet, eoque inflatis buccis et turgido gutture dat sine mente sonum. « Conferentes ei etiam imperialia sceptra... » Quae structura orationis! Qui nitor! Quis ordo! Quaenam sunt sceptra illa imperialia? Unum est sceptrum, non plura, si modo sceptrum gerebat Imperator. Num et Pontifex sceptrum manu gestabit? Cur non ei dabimus et ensem et galeam et jaculum? « Simulque cuncta signa atque banna... d Quid tu signa accipis? Signa sunt aut statuae (una frequenter legimus signa et
+
+
+
+
+
+<pb n="203"/>
+
+
+
+
+tabulas pro sculpturis aut picturis; prisci enim non parietibus pingebant, sed in tabulis) aut vexilla, unde illud <quote>Signa, pares aqttilas...</quote> A priori significato, sigilla dicuntur parvae statuae atque sculpturae. Num ergo statuas aut aquilas suas Sylvestro dabat Constantinus? Quid hoc absurdius? At banna quid sibi velit, non invenio. Deus te perdat, improbissime mortalium qui sermonem barbarum attribuis saeculo erudito! « Et
+
+
+
+
+
+
+<pb n="204"/>
+
+
+
+
+diversa ornamenta imperialia... » Quia dixit « banna » satis putabam significatum esse, et ideo caetera sub verbo universali concludit. Et quam frequenter inculcat « impeli rialia » quasi propria quaedam sint ornamenta Imperatoris magisquam consulis, quam dictatoris, quam Caesaris ! a Et omnem » processionem imperialis culminis, et gioii riam potestatis nostrce... <quote><l>Projicit ampullas et sesquipedalia verba ;</l><l>Rex Regum Darius consanguineusque Deorum.</l></quote>
+
+
+
+
+<pb n="205"/>
+
+
+
+
+Nunquam nisi numero plurali loqueris. Quae est ista processio imperialis? Cucumeris per herbam torti et crescentis in ventrem. Triumphasse existimas Caesarem quoties domo prodibat, ut nunc solet Papa, praecedentibus albis equis quos stratos ornatosque famuli dextrant, quo, ut taceam alias ineptias, nihil est vanius nihilque a Pontifiqe Romano alienus.</p><p>Quae e.tiam ista gloria est? Gloriamne, ut Hebraeae linguae mos est, pompas et apparatus, illum splendorem homo Latinus
+
+
+
+
+<pb n="206"/>
+
+
+
+
+appellasset? Ut illud quoque militiam pro milites quod ab Hebraeis sumus mutuati, quorum libros Constantinus aut sui scribae nunquam aspexerant. Verum, quanta est magnificentia tua, Imperator, qui non satis habes ornasse Pontificem nisi ornes et omnem clerum? Culmen singularis potentiae et praecellentiae, ais effici patricios et consules ! Quis audivit senatores aliosve homines effici patricios? Consules efficiuntur non patricii; ex domo vel patricia, quae
+
+
+
+
+<pb n="207"/>
+
+
+
+eadem senatoria dicitur, siquidem senatores, Patres Conscripti sunt, vel ex equestri, vel ex plebeia, plusque est senatorem quam patricium esse. Nam senator est unus e delectis consiliariis Reipublicae, patricius vero qui e 'domo senatoria ortum ducit. Ita qui senator, aut ex Patribus Conscriptis, non protinusetpatricius est, ridiculeque Romani mei hoc faciunt qui praetorem suum senatorem vocant, cum neque Senatus ex uno
+
+
+
+
+<pb n="208"/>
+
+
+
+
+homine constare possit, necesseque sit senatorem habere collegas, et is, qui senator nunc dicitur, fungatur officio praetoris.</p><p>— At dignitas patriciatus in multis libris invenitur, inquies. — Audio; sed in his qui de temporibus post Constantinum loquuntur,
+
+
+
+
+
+<pb n="209"/>
+
+
+
+ergo post Constantinum privilegium confectum est. Sed nunquam clerici fieri patricii aut consules possunt. Conjugio sibi interdixere Latini clerici, et consules fient, habitoque delectu militum cum legionibus et auxiliis in provincias quas sortiti fuerint se conferent? Ministrine et servi consules faciunt aut militaria ornamenta? Nec bini, ut solebat, sed centeni et milleni ministri, qui Romanae Ecclesiae servient, dignitate afficientur imperatoria. Et ego stolidus mirabar
+
+
+
+
+<pb n="210"/>
+
+
+
+
+quod Papa effici diceretur : ministri imperatores erunt, clerici vero milites; militesne clerici fient aut militaria ornamenta gestabunt? nisi imperialia ornamenta universis clericis nostris impertis. Nam nescio quid dicas, et quis non videt hanc fabulam ab his excogitatam essequi sibi omnem vestiendi licentiam esse voluerunt? Ut existimem, si qua inter daemones qui aerem incolunt ludorumque genera exercentur, eos exprimendo clericorum cultu, fastu, luxu exerceri, et hoc scenici lusus genere maxime delectari.
+
+
+
+
+
+<pb n="211"/>
+
+
+
+Utrum magis insequar, sententiarum an verborum stoliditatem? Sententiarum audistis; verborum haec est, ut dicat Senatum videri adornari, quasi non utique adornetur, et quidem adornari gloria; et quod fit factum esse velit, ut promulgavimus pro promulgamus: illo enim modo sonat jocundius oratio; et eamdem rem per praesens et per praeteritum enunciet, velut decrevimus et decernimus; et omnia sint referta his vocibus : decrevimus, decernimus, imperialis, imperatoria potentia, gloria; et exstat pro est
+
+
+
+<pb n="212"/>
+
+
+
+
+
+posuerit, cum exstare sit supereminere vel superesse, et nempe pro scilicet, et concubitores pro contubernales. Concubitores sunt qui concumbunt et coeunt, nimirum scorta intelligenda sunt. Addit cum quibus dormiat, ne timeat, opinor, nocturna fantasmata; addit cubicularios, addit ostiarios ; non otiosum est, quare haec ab eo minuta referuntur. Pupillum instituit aut adolescentem
+
+
+
+<pb n="213"/>
+
+
+
+filium, non senem, cui omnia quibus necesse habet tenera aetas ipse velut amantissimus pater praeparat, ut David Salomoni fecit. Atque ut per omnes numeros fabula impleatur, dantur clericis equi, ne asinario illo Christi more super asellas sedeant. Et dantur non operti sive instrati operimentis coloris albi, sed decorati colore albo. At quibus operimentis? Non stragulis, non Babylonicis aut quo alio genere, sed mappulis et linteaminibus ! Mappae ad mensam perti-
+
+
+
+<pb n="214"/>
+
+
+
+
+nent, linteamina ad lectulos ; et quasi dubium sit cujus sint haec coloris, irrcerpretatur : id est candidissimo colore. DignA Constantino sermo, digna Lactantio facundia ! Cum in caeteris, tum vero in illo tquos equitent; et cum de vestitu senatorum nihil dixerit, non de laticlavo, non de purpura, non de caeteris, de calceamentis sibi loquendum putavit,
+
+
+<pb n="215"/>
+
+
+
+
+nec lunulas appellavit sed udones, sive cum udonibus, quos, ut solet, homo ineptus exponit: id est candido linteamine, quasi udones linteamen sint. Non occurrit inpraesentiarum ubi reperirem udones, nisi apud Martialem Valerium cujus distichon quod inscribitur Udones Cilicii hoc est :<quote><l>Non hos lana dedit, sed olentis barba mariti :</l><l>Cinyphio poterit planta latere sinu.</l></quote> Ergo non linei utique nec candidi sunt udones, quibus hic bipes asellus non cal-
+
+
+
+<pb n="216"/>
+
+
+
+
+
+ceari pedes Senatorum ait, sed Senatores illustrari. Atque per hoc : Et ita ccelestia sicut terrena ad laudem Dei decorentur..., quae tu coelestia vocas, quae terrena? Quomodo coelestia decorantur ? Quae autem Deo laus ista tu videris? Ego vero, si qua mihi fides est, nihil puto nec Deo nec caeteris hominibus magis esse invisum quam tantum clericorum in rebus saecularibus licentiam.</p><p>Verum, quid ego in singula impetum facio? Dies me deficiet, alias deficient, si
+
+
+
+<pb n="217"/>
+
+
+
+universa non dico amplificare sed attingere velim. « Prae omnibus autem licentiam tribuimus beato Sylvestro et successoribus ejus ex nostro indicto, ut quem placatus consilio proprio clericare voluerit, et in religioso numero clericorum connumerare, nullus ex omnibus prcesumat superbe agere... » Quis est hic Melchisedech qui patriarcham Abraham benedicit? Constantinusne, vix Christianus, facultatem ei a quo baptizatus est et quem beatum appellat tribuit clericandi ? Quasi prius nec fecisset
+
+
+
+
+<pb n="218"/>
+
+
+
+
+
+hoc Sylvester nec facere potuisset. Et qua comminatione vetuit ne quis impedimento esset ? Nullus ex omnibus praesumat superbe agere! Qua etiam elegantia : connumerare i« numero religioso religiosorum, clericare clericorum et indicto et placatus!</p><p>Atque iterum ad diadema revertitur: «c Decrevimus itaque et hoc, ut ipse et successores ejus diademate videlicet corona, quam ex capite nostro illi concessimus, ex auro purissimo et gemmis pretiosis, uti debeant,
+
+
+<pb n="219"/>
+
+
+
+pro honore beati Petri. » Iterum interpretatur diadema; cum Barbaris enim et obliviosis loquebatur. Et adjicit de auro purissimo, ' ne forte aliquid aeris aut scoriae crederes admixtum; et gemmis cum dixit addidit pretiosis, eodem timore) ne viles forsitan suspicareris. Cur tamen non pretiosissimas, quemadmodum aurum purissimum? Plus namque interest inter gemmam et gemmam quam inter aurum et aurum. Et cum dicere debuisset distinctum gemmis, dixit etiam gemmis. Quis non vidit ex eo loco sump-
+
+
+
+<pb n="220"/>
+
+
+
+
+
+
+tum, quem Princeps gentilis non legerat : Posuisti in capite ejus coronam de lapide pretioso? Sic locutus esset Caesar vanitate quadam coronae suae jactandae, si modo Cassares coronabantur, in se ipsum contumeliosus, qui vereretur ne homines opinarentur eum non gestare coronam ex auro purissimo cum gemmis pretiosis, nisi indicasse! Accipe causam cur sic loquitur : Pro honore beati Petri! Quasi Christus non sit summus angularis lapis in quo templum Ecclesias constructum est, sed Petrus, quod iterum
+
+
+<pb n="221"/>
+
+
+
+
+postea facit. Quem sì tantopere venerari volebat, cur non templum illi potiusquam Joanni-Baptistae Romae dicavit?</p><p>Quid  illa loquendi barbaries, nonne testatur non saeculo Constantini sed posteriori cantilenam hanc esse confectam? Decrevimus quam uti debeant pro eo quod est decrevimus ut utantur; sic nunc barbari homines vulgo loquuntur et scribunt : Jussi quod deberes venire pro eo quod est : Jussi ut venires. Et decrevimus et concessimus, quasi non tunc fiant, sed alio quodam tempore facta sint.
+
+
+
+
+<pb n="222"/>
+
+
+«... Ipse vero beatus Papa super coronam clericatus, quam gerit ad gloriam beatissimi Petri, ipsa ex auro ?ion est passus uti corona. » O tuam singularem stultitiam, Constantine! Modo dicebas coronam super caput Papas ad honorem facere beati Petri, nunc ais non facere, quia Sylvester illam recusat; et cum factum recusantis probes, jubes tamen eum aurea uti corona; et quod hic non debere se agere existimavit, id tu ipsius successores dicis agere debere ! Transeo quod rasuram coronam vocas et Papam Pon-
+
+
+
+<pb n="223"/>
+
+
+
+
+tificem Romanum, qui nondum peculiariter sic appellari erat coeptus.</p><p>« Phrygium vero candidissimo nitore splendidum, resurrectionem Dominicam designans, ejus sacratissimo vertice manibus nostris imposuimus, et tenentes fraenum equi pro reverentia beati Petri stratoris officium illi exhibuimus, statuentes eodem phrygio omnes ejus successores singulariter in processionibus uti ad Imperii nostri imitationem... » Nonne videtur hic auctor fabu-
+
+
+
+
+
+<pb n="224"/>
+
+
+
+
+lae non per imprudentiam sed consulto et dedita opera praevicari et undique ansas ad se reprehendendum praebere Mn eodem loco ait phrygio et Dominicam resurrectionem repraesentari et Imperii Caesarii esse imitationem,quae dua interse maxime discrepant. Deum testor, non invenio quibus verbis, qua verborum atrocitate confodiam hunc perditissimum nebulonem. Ita omnia verba plena insaniae evomit. Constantinum non tantum officio similem Moysi, qui summum sacerdotem jussu Dei ornavit, sed secreta ministeria facit exponentem, quod difficili-
+
+
+
+
+<pb n="225"/>
+
+
+
+
+mum est hìs qui diu in sacris libris sunt versati. Gur non fecisti etiam Constantinum Pontificem Maximum, ut multi Imperatores fuerunt, ut commodius sua ornamenta in alterum Summum Pontificem transferrentur? Sed nescisti historias. Ago itaque Deo etiam hoc nomine gratias, qui istam nefandissimam mentem non nisi in stultissimum hominem cadere permisit, quod etiam posteriora declarant. Namque Aaron sedenti in equo inducit Moysen dextratoris exhibuisse officium, et hoc non per medium Israel, sed per Chananaeos atque Aegyptios, id est per
+
+
+
+<pb n="226"/>
+
+
+
+
+infidelem civitatem ubi non tam imperium erat orbis terrarum quam daemonum et daemones colentium populorum.</p><p>« ... Unde ut pontificalis apex non vilescat sed magisquam Imperii terreni dignitas, gloria et potentia decoretur, ecce tam palatium nostrum, quam Romanam urbem et omnes Italice sive Occidentalium regionum provincias, locaj civitates beatissimo Pontifici et universali Papce Sylvestro tradimus at que relinquimus, ut ab eo et a successoribus ejus per
+
+
+
+
+
+<pb n="227"/>
+
+
+
+pragmaticum constitutum decrevimus disponenda atque juri Sanctae Ecclesice Romance permanenda... » De hoc in oratione Romanorum atque Sylvestri inulta disseruimus. Hujus loci est ut dicamus neminem fuisse facturum ut tot nationes uno cunctas Donationis verbo involveret, et qui minutissima quaeque superius est exsequutus, lorum, calceos, linteamina equorum, non referret nominarim provincias quarum singule nunc singulos Reges aut Principes Regibus pares ha-
+
+
+
+<pb n="228"/>
+
+
+
+
+bent; sed ignoravit videlicet hic falsator quae provinciae sub Constantino erant, quae non erant. Alexandro exstincto videmus singulas regiones in ducum partitione numeratas' a Xenophonte terras Principesque nominatos, qui vel ultro vel armis sub imperio Cyri fuerunt; ab Homero Graecorum Barba* rorumque regum nomen, genus, patriam, mores, vires, pulchritudinem, numerum navium et prope numerum militum catalogo comprehensum. Cujus exemplum cum multi Graeci, tum vero nostri Latini
+
+
+
+
+
+<pb n="229"/>
+
+
+
+Ennius, Virgilius, Lucanus, Statius aliique nonnulli imitati sunt. A Josue et Moyse in divisione Terrae promissionis viculos quoque universos fuisse descriptos. Et tu gravaris etiam provincias recensere, occidentales tantum provincias nominas; quae sunt fines Occidentis, ubi incipiunt, ubi desinunt? Num ita certi constitutique sunt termini Occidentis et Orientis Meridieique et Septentrionis ut Asiae, Africae, Europae? Necessaria verba subtrahis, ingeris supervacua. Licis : provincias, loca, civitates; nonne et
+
+
+
+
+
+<pb n="230"/>
+
+
+
+
+provincias et urbes loca sunt? Et cum dixeris provincias subjungis civitates, quasi hae sub illis non intelHgantur. Sed non est mirum qui tantam orbis terrarum partem a se alienare, eumdem urbium, provinciarum nomina praeterire et quasi lethargo oppressum quid loquatur ignorare : Italice sive occidentalium regionum, tanquam aut hoc aut illud, cum tamen utrumque intelligat, appellans provincias regionum cum sint potius regiones provinciarum et permanenda dicens pro permansura.
+
+
+
+
+<pb n="231"/>
+
+« ... Unde congruum perspeximus nostrum Imperium et regiam potestatem orientalibus transferri regionibus, et in Byzantiae provinciae optimo loco nomini nostro civitatem aedificari, et illic nostrum constitui Imperium ; quoniam ubi sacerdotum principatus et Christianae religionis caput ab Imperatore coelesti est constitutum, non est justum ut illic potestatem habeat terrenus Imperator... » Taceo quod dixit civitatem aedificari, cum urbes aedificentur non civitates et provincias. Si tu es Constantinus, redde causam cur
+
+
+
+<pb n="232"/>
+
+
+
+
+
+illum potissimum locum condendae urbis delegeris. Ut enim alio te transferas, post Romam traditam, non tam congruum quam necessarium; nec te appelles Imperatorem, qui Romam amisisti, et de nomine Romano quod discerpis, pessime meritus es, nec Regem quod nemo ante te fecit, nisi ideo te regem appelles quia Romanus esse desiisti.</p><p>Sed affers causam sane honestam quoniam ubi Princeps sacerdotum et Christianae religionis caput constitutum est ab Imperatore
+
+
+
+
+
+<pb n="233"/>
+
+
+
+coelesti, justum non est ut illic Imperator terrenus habeat potestatem. O stultum David, stultum Salomonem, stultum Ezechiam, Josiam et eseteros Reges stultos ac parum religiosos qui in urbe Jerusalem cum summis sacerdotibus habitare sustinuerunt, nec totam illis urbem cesserunt! Dius sapit Constantinus triduo quam illi tota vita sapere potuerunt ! Et Imperatorem coelestem appellans, quia terrenum accepit imperium, nisi Deum intelligis, nam ambigue loqueris, a quo terrenum principatum sacerdotum super urbe Roma
+
+
+
+
+<pb n="234"/>
+
+
+
+
+caeterisque locis constitutum esse, mentiris.</p><p>« ... Haec vero omnia quce per hanc impe rialem sacram scripturam et per alia divalia decreta statuimus et confirmamus, usque in finem mundi illibata et inconcussa permanere decernimus... » Modo te terrenum vocaveras, Constantine, nunc divum sacrumque vocas; ad gentilitatem recidis, et plusquam gentilitatem, Deum te facis et verba tua sacra et decreta immortalia. Nam inundo imperas ut tua
+
+
+
+
+
+<pb n="235"/>
+
+
+
+
+jussa conservet illibata et inconcussa. Non cogitas quis tu es? Modo e sordidissimo impietatis coeno lotus et vix perlotus. Cur non addebas : « Iota unum aut unus apex de privilegio hoc non peribit, ut non magis pereat coelum et terra? » Regnum Saul a Deo electi ad filios non pervenit ; regnum David in nepote discerptum est et postea exstinctum. Et tu ad finem usque mundi regnum quod tu Summo Pontifici tradis permansurum tua auctoritate decernis? Quis etiam tam cito te docuit mundum, esse pe-
+
+
+
+<pb n="236"/>
+
+
+
+
+riturum? Nam poetis, qui hoc etiam testantur, non puto te hoc tempore fidem habere; ergo tu hoc non dixisses, sed alius tibi affinxit.</p><p>Caeterum, qui tam magnifice superbeque locutus est timere incipit sibique diffidere, eoque obtestationibus agit: « Unde coram Deo vivo qui, nos regnare prcecepit, et coram terribili ejus judicio obtestamur omnes nostros successores Imperatores et cunctos Optimatesj Satrapas etiam, amplissimum Sena-
+
+
+
+
+<pb n="237"/>
+
+
+
+tum et universum populum in universo orbe terrarum, nunc et in posterum, nulli eorum quoquomodo licere ficee aut confringere vel in quoquomodo convelli... » Quam fequa, quam religiosa adjuratio ! Non secus ac si lupus per innocentiam et fidem obtestetur cseteros lupos atque pastores, ne oves quas sustulit interque filios et amicos partitus est, aut illi adimere, aut hi repetere tentent. Quid tantopere extimescis, Constantine ? Si opus tuum ex Deo non est, dissolvetur ; sin ex Deo est, solvi non poterit. Sed, video, voluisti imitari Apocalypsim ubi dicitur: Con-
+
+
+
+<pb n="238"/>
+
+
+
+
+testor autem audienti omnia verba prophetia? libri hujus; si quis apposuerit ad hcec, apponet Deus super illum et ponet Deus super ipsum plagas scriptas in isto libro. Et si quis diminuerit de verbis libri prophetice hujus, auferet Deus partem ejus de libro vitce et de civitate sancta. At tu nunquam legeras Apocalypsim, ergo non sunt heec verba tua.</p><p>« ... Si quis autem, quod non credimus, in hoc temerator aut contemptor exstiterit, aeternis condemnationibus subjaceat condemnatus,
+
+
+
+
+<pb n="239"/>
+
+
+et sanctos Dei Apostolos, Petrum et Paulum sibi in presenti et in futura vita sentiat esse contrarios, atque in inferno inferiori concrematus cum Diabolo et cum omnibus deficiat impiis... » Hic terror atque comminatio non Caesaris aut saecularis Principis solet esse, sed priscorum sacerdotum ac flaminum et nunc ecclesiasticorum. Itaque non est Constantini oratio haec, sed alicujus clericuli stolidi, nec quid dicat aut quomodo dicat scientis, saginati et crassi, ac inter crapulam interque vaporem vini has sententias, haec verba ructantis, quae non in alium transeunt,
+
+
+
+
+<pb n="240"/>
+
+
+
+
+
+sed in ipsum convertuntur auctorem. Primum ait : aeternis condemnationibus subjaceat, deinde quasi plus addi queat, alia addere vult et post aeternitatem, poenarum adjungit poenas vitae praesentis; et cum de condemnatione nos terreat, adhuc quasi majus quiddam sit, terret nos odio Petri. Cui Paulum cur adjungat, aut cur solum, nescio. Iterumque solito lethargo ad poenas aeternas redit, veluti non hoc ante dixisset.</p><p>Ac si minae hae exeerationesque Constantini forent, invicem exeerarer ut tyrannum
+
+
+
+
+<pb n="241"/>
+
+
+
+
+et profligatorem Reipublicee et illi me Romano ingenio minarer ultorem. Nunc quis extimescat execrationem avarissimi hominis et ritu histriona verba simulantis, ac sub persona Constantini alios deterrentis? Hoc est proprie hypocritam esse, si Graecam vocem exquirimus, sub aliena abscondere tuam.</p><p>«... Hujus vero imperialis decreti paginam propriis manibus roborantes, super venerandum corpus beati Petri posuimus... » Chartane an membrana fuit pagina in quam
+
+
+
+
+<pb n="242"/>
+
+
+
+scripta sunt haec? Tametsi paginam vocamus alteram faciem, ut dicunt, folii, veluti communiter numero habent folia dena, paginas vicenas. O rem inauditam et incredibilem! Cum essem adolescentulus, interrogasse me quemdam memini, quis librum Job scripsisset; cumque ille respondisset ipsum Job, tunc me subjunxisse : — « Quo pacto ergo » de sua ipsius morte faceret mentionem? > Quod de multis aliis libris dici potest, quorum ratio huic loco non convenit. Nam quomodo vere narrari potest id quod non-
+
+
+
+
+
+<pb n="243"/>
+
+
+
+
+
+dum esset administrativus, et in tabulis contineri id quod post tabularum, ut sic dicam, sepulturam factum esse ipse fatetur ? Hoc nihil aliud est quam paginam privilegii ante fuisse mortuam sepultamque quam natam, nec tamen unquam a morte atque sepultura esse reversam, praesertim antequam conscripta esset roboratam, nec id una tantum sed utraque Caesaris manu. Et quid istud est roborare illam? Chirographone Caesaris aut annulo signatorio? Magnum robur, majusque multo quam si tabulis aereis mandavisset ! — Sed non est opus
+
+
+
+
+
+<pb n="244"/>
+
+
+
+
+
+scriptura aerea, cum super, corpus beati Petri charta reponatur. — Cur hic Paulum retices, qui simul jacet cum Petro, et magis custodire possent ambo quam si afforet tamtummodo corpus unius?</p><p>Videtis artes malitiasque nequissimi Sinonis. Quia Donatio Constantini doceri non potest, ideo non in tabulis tereis sed charteis privilegium esse, ideoque latere illud cum corpore sanctissimi Apostoli dixit, ne aut auderemus e venerabili sepulchro inquirere aut, si inquireremus, carie absumptum pu-
+
+
+
+
+<pb n="245"/>
+
+
+
+taremus. Sed ubi tunc erat corpus beati Petri? Certe nondum in tempio ubi nunc est, non in loco sane munito ac tuto; ergo non illae Caesar paginam collocasset. An beatissimo Sylvestro paginam non credebat ut parum sancto, parum cauto, parum diligenti? O Petre, o Sylvester, o sanctae Romanae Ecclesiae Pontifices, quibus oves Domini commissae sunt, cur vobis commissam paginam non credebat? Cur non custoditis? Cur a tineis illam rodi, aut cur situ tabescere passi estis? Opinor quia cor-
+
+
+
+
+
+<pb n="246"/>
+
+
+
+
+
+pora vestra quoque contabuerunt. Stulte igitur fecit Constantinus; en redacta in pulverem pagina, jus simul privilegii in pulverem abiit.</p><p>Atqui, ut videmus, paginae exemplar ostenditur. Quis ergo illam de sinu sanctissimi Apostoli temerarius accepit ? Nemo, ut reor, hoc fecit. Unde porro exemplar? Nimirum aliquis antiquorum scriptorum debet afferri, nec posterior Constantini temporibus. At is nullus affertur, sed fortasse aliquis recens : unde hic habuit? Quisquis enim de supe-
+
+
+
+
+<pb n="247"/>
+
+
+
+
+riori aetate historiam texit, aut Spiritu Sancto dictante loquitur, aut veterum scriptorum et eorum quidem qui de sua aetate scripserunt sequitur auctoritatem. Quo circa quicumque veteres non sequitur, is de illorum numero erit quibus ipsa vetustas praebet audaciam mentiendi; quod si quo in loco ista res legitur, non aliter cum antiquitate consentit quam illa glossatoris Accursii de legatis Romanis ad leges accipiendas dimissis in Graeciam plusquam stulta narratio, cum Tito Livio
+
+
+
+
+<pb n="248"/>
+
+
+
+
+aliisque praestantissimis scriptoribus non convenit.</p><p>« ... Datum Roma?, tertio JCalendarum Aprilis, Constantino Augusto quarto consule et Gallicano quarto consule. » Diem posuit penultimam Martii ut sentiremus hoc factum esse sub tempore sanctorum dierum qui illo plerumque tempore soient esse. Et Constantino quarto consule et Gallicano quarto consule ! Mirum si uterque ter fuerat consul et in quarto consulatu forent col-
+
+
+
+
+<pb n="249"/>
+
+
+
+
+legae;sed mirandum magis Augustum leprosum, elephantia, qui morbus inter caeteros ut elephas inter belluas eminet, velle etiam accipere consulatum, cum rex Azarias simul ac lepra tactus est in privato se continuerit, procuratione regni ad Joathan fi-
+
+
+
+
+<pb n="250"/>
+
+
+
+
+
+lium relegata, ut fere omnes leprosi fecerunt. Quo uno argumento totum prorsus privilegium confutatur, profligatur, evertitur.</p><p>Ac ne quis ambigat ante leprosum esse debuisse quam consulem, sciat et ex medicina paulatim hunc morbum succrescere, et ex notitia antiquitatis consulatum iniri Januario mense magistra tumque esse annuum. Et haec Martio proximo gesta referuntur. Ubi neque silebo in epistolis scribi solere datum, non autem in caeteris, nisi apud
+
+
+
+
+
+<pb n="251"/>
+
+
+
+
+indoctos. Dicunturenim epistolae dari vel illi vel ad illum, illi quidem qui profert, utputa tabellario, ut reddat et in manum porrigat homini cui mittuntur. Privilegium autem, ut aiunt, Constantini, quod reddi alicui non debebat, nec dari debuit dici. Ut appareat eum qui sic locutus est mentitum esse, nec scisse fingere quod Constantinum dixisse ac fecisse verisimile esset. Cujus stultitiae ac vesaniae affines se ac socios faciunt quicumque hunc vera dixisse existimant atque de-
+
+
+
+
+
+<pb n="252"/>
+
+
+
+
+fendunt, licet jam nihil habeant quo opinionem suam, non defendere dico, sed honeste excusare possent.</p><p>An honesta excusatio erroris est, cum patefactam videas veritatem, nolle illi acq mescere quia nonnulli magni homines aliter senserunt? magni, inquam, dignitate, non sapientia nec virtute. Unde tamen scis an illi quos insequeris, si eadem audissent qus tu, mansuri in sententia fuerint, an a sententia recessuri? Et nihilominus indignissimum est plus homini velle tribuere quam veri-
+
+
+
+
+
+<pb n="253"/>
+
+
+
+
+tati, id est Deo. Ita enim quidam omnibus defecti rationibus solent mihi respondere : — Cur tot Pontifices Donationem hanc veram crediderunt ? — Testificor vos, me vocatis quo nolo et invitum me maledicere cogitis Summis Pontificibus, quos magis in delictis suis operire vellem. Sed pergamus ingenue loqui, quandoquidem aliter agi nequit haec causa, ut fatear eos ita credidisse et non malitia fecisse. Quid mirum si ista crediderunt, - ubi tantum lucri blanditur, cum plurima, ubi nullum lucrum ostendi-
+
+
+
+
+
+<pb n="254"/>
+
+
+
+
+
+tur, per insignem imperitiam credant? Nonne apud Aram Coeli, in tam eximio templo et in loco maxime augusto cernimus pictam fabulam Sibyllae et Octaviani, ut ferunt, ex auctoritate Innocentii tertii haec scribentis, qui etiam de ruina templi Pacis sub natale Salvatoris, hoc est in partu Virginis scriptum reliquit : quae ad evertendam magis fi-
+
+
+
+
+
+
+<pb n="255"/>
+
+
+
+dem quia falsa, quam ad stabiliendam, quia miranda sunt, pertinent. Mentirine ob speciem veritatis, pietatis, audet Vicarius veritatis, et se scientem hoc piaculo obstringere? Annon mentitur? immo etiam a sanctis viris se cum hoc facit dissentire non videt? Tacebo alios : Hieronymus Varronis testimonio utitur decem Sibyllas fuisse; quod opus Varro ante Augustum condidit. Idem de templo Pacis ita scribit : « Vespasianus et Titus, Romae Templo Pacis aedificato, vasa Templi et universa donaria in de-
+
+
+
+<pb n="256"/>
+
+
+
+
+lubro illius consecrarunt, quae Graeca et Romana narrat historia. » Et hic unus indoctus plus vult in libello suo etiam barbare scripto credi quam fidelissimis veterum, prudentissimorum hominum historiis? Quia Hieronymum attigi, non patiar hanc contumeliam suam tacito praeteri ri : Romae, ex auctoritate Papae, ostenditur codex Biblix tanquam reliquiae Sanctorum luminibus semper accensis, quod dicunt scriptum chirographo Hieronymi. Quaeris argumentum:
+
+
+
+
+
+<pb n="257"/>
+
+
+
+
+quia multum, ut inquit Virgilius, est pictilis vestis et auri, res quae magis Hieronymi manu indicat scriptum non esse. Illum non diligentius inspectum comperi scriptum esse jussu regis, ut opinor, Ruberti, chirographo hominis imperiti.</p><p>Huic simile est, quanquam decem millia hujusmodi Romae fuit, quod inter religiosa demonstratur in tabella effigies Petri et Pauli, quam Sylvester Constantino ab eisdem Apostolis in somnis admonito in confirmationem visionis exhibuit. Non hoc dico
+
+
+
+<pb n="258"/>
+
+
+
+
+
+quia negem effigies illas esse Apostolorum: utinam tam vera esset epistola Lentuli missa de effigie Christi, quae non minus ementita est quam privilegium quod confutavimus, sed quia tabella illa non fuit a Sylvestro exhibita Constantino, in quo non sustineo admirationem animi mei continere.</p><p>Disputabo enim aliquid de fabula Sylvestri, quia et omnis in hoc quaestio versatur, et mihi cum sermo sit de Pontificibus
+
+
+
+
+<pb n="259"/>
+
+
+
+
+Romanis, de Pontifice Romano potissimum loqui decebit, ut ex uno exemplo facile aliorum conjectura capiatur. Et ex multis ineptiis quae ibi narrantur unam tantum dc Dracone attingam, ut doceam Constantinum non fuisse leprosum.</p><p>Et enim Gesta Sylvestri ab Eusebio quodam Graeco homine, ut interpres testatur, composita sunt, quae natio vana ad mendacia semper promptissima est, ut Juvenalis satirica censura ait : <quote><l>Quicquid in historia audet Graecia mendax...</l></quote>
+
+
+
+
+<pb n="260"/>
+
+
+
+Unde Draco ille venerat? Romae dracones non gignuntur. Unde etiam illi venenum ? In Africa tantum pestiferi dracones ob ardorem regionis dicuntur esse. Unde praeterea tantum veneni ut tam spaciosara civitatem peste corrumperet, praesertim cum in tam alto specu demersus esset, ad quem centum quinquagenta gradibus descenderetur? Serpentes, excepto basilisco forsitan, non afflatu sed morsu virus inspirant atque interimunt; nec Cato Caesarem fugiens, cum tanta hominum manu, per inedias Africae
+
+
+
+
+<pb n="261"/>
+
+
+
+
+
+arenas dum iter faceret ac dormiret, ullum sociorum ac comitum serpentis afflatu vidit exstinctum, neque illi populi ob id aerem sentiunt pestilentem. Et si quid fabulis credimus, et Chimaera et Hydra et Cerberus sine noxa vulgo conspecti sunt ac tacti. Adhuc quin eum Romani potiusoccidissent? — Non poterant, inquies. — At multo grandiorem serpentem in Africa, ad ripam Bagradae Regulus occidit; hunc vero vel obstructo ore specus facile erat interimere. An nole-
+
+
+
+<pb n="262"/>
+
+
+
+
+
+bant ? Ita, opinor, pro Deo colebant, ut Babylonii fecerunt. Cur ergo, ut olim Daniel dicitur occidisse, non et Sylvester hunc potius occidisset? Quin, canapaceo filo alligasset et domum illam in aeternum perdidisset ?</p><p>Ideo commentator fabulae noluit Draconem interimi, ne plane Danielis narratio referri videretur. Ac si Hieronymus, vir doctissimus ac fidelissimus interpres, Apollinarisque et Origenes et Eusebius et nonnulli alii narrationem Beli fictam esse affir-
+
+
+
+<pb n="263"/>
+
+
+
+
+mant, si eam Judaei in Veteris Testamenti archetypo non agnoscunt; id est si doctissimi quique Latinorum, plerique Graecorum, singuli Hebraeorum illam ut fabulam damnant, ego non hanc adumbratam ex illa damnabo, quae nullius scriptoris auctoritate fulcitur, et quae magistram multo superat stultitia? Nam quis belluae subterraneam domum aedificaverat ? Volant enim dracones ; imperite eum cujus genus illud sit excogitaverat. Quis feminas easque Virgines ac Sanctimoniales descendere praeceperat, nec
+
+
+
+<pb n="264"/>
+
+
+
+
+nisi Kalendis ? An tenebat Draco quis esset dies Kalendarum ? Et tam parco raroque cibo erat contentus? Nec virgines tam altum specum, tam immanem et esurientem belluam exhorrebant? Credo, blandiebatur eis Draco, ut feminis et virginibus cibaria afferentibus; credo, cum illis fabulabatur. Quid, in honore dicto, etiam coibat; nani et Alexander et Scipio ex draconis serpentisve cum matre concubitu geniti dicuntur. Quid, denegato postea victu, non potius aut prodiisset, aut fuisset exstinctus?
+
+
+
+
+<pb n="265"/>
+
+
+
+O miram hominum dementiam, qui his anilibus deliramentis fidem habent! Jam vero, quandiu hoc factitatum est? Quando fieri coeptum? Ante adventum Salvatoris an postea ? Nihil horum scitur. Pudeat nos, pudeat harum naeniarum et levitatis plusquam mimicae : erubescat Christianus homo, qui veritatis se ac lucis filium nominat, proloqui quae non modo vera non sunt, sed nec verisimilia.</p><p>— At enim, inquiunt, hanc daemones potestatem in gentibus obtinebant ut eas Diis servientes illuderent. — Silete, imperitissimi
+
+
+
+<pb n="266"/>
+
+
+
+
+
+homines, ne dicam sceleratissimos, qui fabulis vestris tale semper velamentum obtenditis. Non desiderat sinceritas Christiana patrocinium falsitatis ; satis perse, superque sua ipsius luce ac veritate defenditur, sine istis commentitiis ac prsestiogisis fabellis, in Deum, in Christum, in Spiritum Sanctum contumeliosis. Siccine Deus arbitrio daemonum tradiderat genus humanum ut tam manifestis, tam impiosis miraculis seduceretur, ut propemodum posset injustitiae accusari, qui oves lupis commisisset
+
+
+
+
+<pb n="267"/>
+
+
+
+et homines magnam errorum suorum haberent excusationem?</p><p>Quod si tantum olim licebat daemonibus, et nunc apud infideles vel magis liceret; quod minime videmus, nec ullae ab eis hujusmodi fabulae proferuntur. Tacebo de aliis populis; dicam de Romanis, apud quos paucissima miracula feruntur eaque vetusta atque incerta. Valerius Maximus ait hiatum illum terrae, in medio foro, cum se in eum Curtius armatus, adacto equo immisisset, iterum coiisse inque pristinam formam con-
+
+
+
+<pb n="268"/>
+
+
+
+
+tinuo revertisse. Item Junonis monetam, cum a quodam milite Romano, captis Veiis, per jocum interrogata esset an Romam migrare vellet, respondisse velle. Quorum neutrum Titus Livius sentit, et prior auctor et gravior. Nam et hiatum permansisse vult, nec tam fuisse subitum quam vetustum, etiam ante conditam urbem, appellatumque Curtium lacum quod in eo delituisset Curtius Metius, Sabinus, Romanorum fugiens impressionem ; et Junonem annuisse non
+
+
+
+
+<pb n="269"/>
+
+
+
+respondisse, adjectumque fabulae postea vocem reddidisse; atque de nutu quoque palam est illos esse mentitos, vel quod motum simulacri, avellebant autem illud, interpretati sunt sua sponte esse factam, vel qua lascivia hostilem et victam et lapideam Deam interrogabant, eadem lascivia annuisse finxerunt; tametsi Livius inquit non annuisse, milites sed quod annuisset exclamasse. Quae tamen boni scriptores non defendunt ficta, sed dicta excusant. Nam prout idem Livius
+
+
+
+
+<pb n="270"/>
+
+
+
+
+ait, « datur haec venia antiquitati ut miscendo humana divinis primordia urbium augustiora faciat. » Et alibi : « Sed in rebus tam antiquis si qua similia veri sunt, pro veris accipiantur. »</p><p>Satis habeam haec ad ostentationem scenae gaudentis miraculis aptiora quam ad fidem, neque affirmare neque refellere operae pretium est. Neque vero dissimulaverim Valerium non plane posse reprehendi quod ita loquatur, cum paulo post graviter et severe
+
+
+
+
+<pb n="271"/>
+
+
+
+
+subjiciat : « Nec me praeterit de motu et voce Deorum Immortalium humanis oculis auribusque percepto, quam in ancipiti opinione aestimatio versetur ; sed quia non nova dicuntur sed tradita repetuntur, fidem auctores vendicent. » De voce Deorum dixit propter Junonem monetam et propter simulacrum Fortunae quod locutum fingitur his verbis : « Rite me, matronae, vidistis; rite dedicastis. »</p><p>At vero nostri fabulatores passim inducunt idola loquentia, quod ipsi gentiles et
+
+
+
+<pb n="272"/>
+
+
+
+idolorum cultores non dicunt et sincerius negant quam Christiani affirmant. Apud illos paucissima miracula, non fide auctorum, sed veluti sacra quadam ac religiosa vetustatis commendatione nituntur; apud istos, recentiora qusedam narrantur, quae illorum homines temporum nescirent. Neque ego admirationi Sanctorum derogo, nec ipsorum divina opera inficior, cum sciam tantum fidei quantum est granum sinapis, montes etiam posse transferre, imo defendo illa ac tueor, sed misceri cum fabulis non sino;
+
+
+<pb n="273"/>
+
+
+
+
+
+nec persuaderi possum horum scriptores alios fuisse quam aut infideles qui hoc agerent in derisum Christianorum, si haec figmenta per dolosos homines in manus imperitorum delata acciperentur pro veris, aut fideles habentes quidem aemulationem si non scientiam, qui non modo de gestis Sanctorum verum etiam Dei genitricis atque adeo Christi pseudoevangelia scribere non formidarunt. Et Summus Pontifex hos libros appellat apocryphos quasi nihil vitii sit, nisi quod eorum ignoratur auctor, quasi
+
+
+
+<pb n="274"/>
+
+
+
+
+credibilia sint quae narrantur, quasi sancta ad confirmationem religionis pertinentia : ut jam non minus culpae sit penes hunc qui mala probat quam penes illum qui mala excogitavit. Nummos reprobos discernimus, separamus, abjicimus; doctrinam reprobam non discernemus, sed retinebimus, sed cum bono miscebimus, sed pro bonis defendemus?</p><p>Ego vero, ut ingenuam feram sententiam, Gesta Sylvestri nego esse apocrypha, quia, ut dixi, Eusebius quidam fertur auctor,
+
+
+<pb n="275"/>
+
+
+
+
+
+
+sed falsa atque indigna quae legantur existimo cum in aliis tum in eo quod narratur de Dracone, de tauro, de lepra, propter quam refutandam tanta repetii. Neque enim si Naaman leprosus fuit, continuo etiam Constantinum leprosum fuisse dicemus. De illo multi auctores meminerunt, de hoc Principe orbis terrarum nemo ne suorum quidem unus scripsit, nisi nescio quis alienigena cui non aliter habenda est fides quam alteri cuidam de vespis intra nares Vespa-
+
+
+
+<pb n="276"/>
+
+
+
+siani nidificantibus, et de rana partu a Nerone emissa, unde Lateranensem vocitatum esse locum dicunt, quod ibi rana lateat in sepulchro : quod neque vespae ipsae neque ranae ipsae, si loqui possent, dixissent. Transeo quod cruorem puerorum ad curationem leprae facere dicunt, quod medicina non confitetur, nisi ad Deos Capitolinos haec referunt quasi illi loqui consuessent et hoc fieri jussissent.</p><p>Sed quid miror hoc non intelligere Pontifices, cum nomen ignorent suum! Cephas
+
+
+
+
+
+<pb n="277"/>
+
+
+
+
+enim dicunt vocari Petrum, qui caput Apostolorum sit, tanquam hoc vocabulum sit Graecum <foreign xml:lang="grc">ἀπὸ τῆς κεφαλῆς</foreign> et non Hebraicum, sed potius Syriacum, quod Graeci <foreign xml:lang="grc">Κεφάς</foreign> scribunt, quod apud eos interpretatur Petrus, non caput. Est enim petrus, petra Graecum vocabulum, stulteque per etymologiam Latinam exponitur petra quasi pede trita. Et metropolitanum ab archiepiscopo distinguunt voluntque illum a mensura civitatis dictum, cum Graece non dicatur <foreign xml:lang="grc">μετρόπολις</foreign> sed <foreign xml:lang="grc">μητρόπολις</foreign>, id est
+
+
+
+
+
+<pb n="278"/>
+
+
+
+
+mater civitatis sive urbis; patriarcham quasi patrem patrum, et Papam ab interjectione Pape dictum, et fidem orthodoxam quasi rectae gloriae, et Simonem media correpta cum legendum sit media longa, ut Platonem et Catonem, et multa similia quae transeo, ne culpa aliquorum omnes Summos Pontifices videar insectari.</p><p>Haec dicta sint ut nemo miretur si Donationem Constantini commentitiam fuisse Papae multi non potuerunt deprehendere, tametsi
+
+
+
+
+<pb n="279"/>
+
+
+
+
+ab aliquo eorum ortam esse hanc fallaciam reor. — At, dicitis, cur Imperatores, quorum detrimento res ista cedebat, Donationem Constantini non negant, sed fatentur, affirmant, conservant? — Ingens argumentum! Mirifica defensio ! Nam de quo tu loqueris, Imperatore? Si de Graeco, qui verus fuit Imperator, negabo confessionem. Sin de Latino, libenter confitebor. Et enim quis nescit Imperatorem Latinum gratis factum esse a Summo Pontifice, ut opinor, Stephano, qui Graecum Imperatorem quod auxilium non ferret Italiae privavit Lati-
+
+
+<pb n="280"/>
+
+
+
+
+
+numque fecit; ita ut plura imperator a Papa quam Papa ab imperatore accipet ? Sane Trojanas opes quibusdam pactionibus soli Achilles et Patroclus inter se partiti sunt. Quod etiam mihi videntur judicare verba Ludovici, cum ait : <quote>Ego Ludo» vicus, Imperator Romanus, Augustus, statuo et concedo per hoc pactum conii firmationis nostrae tibi beato Petro, Principi Apostolorum et pro te vicario tuo  domino Paschali, Summo Pontifici et successoribus ejus in perpetuum, sicut a
+
+
+
+
+
+
+<pb n="281"/>
+
+
+
+
+praedecessoribus nostris usque nunc in  vestra potestate et ditione tenuistis, Romanam civitatem cum ducatu suo et suburbanis atque viculis omnibus et territoriis  ejus montanis atque maritimis littoribus  et portubus, seu cunctis civitatibus, castellis, oppidis ac villis in Tusciae partibus.</quote> Tune, Ludovice, cum Paschale pacisceris? Si tua, id est, Imperii Romani sunt ista, cur alteri concedis? Si ipsius et ab eo possidentur, quid attinet illa confirmare? Quantulum
+
+
+<pb n="282"/>
+
+
+
+
+etiam ex Imperio Romano tuum erit, si caput Imperii amisisti : a Roma dicitur Romanus Imperator. Quid, caetera quae possides, tuane an Paschalis sunt? Credo, tua dices. NihiI ergo valet Donatio Constantini, si ab eo Pontifici donata tu possides. Si valet, quo jure Paschalis tibi caetera remittit, retentis tantum sibi quae possidet? Quid sibi vult tanta, aut tua in illum, aut illius in te de Imperio Romano largitio ? Merito igitur pactum appellas, quasi quamdam collusionem. <quote> Sed quid faciam? </quote> inquies;
+
+
+
+
+
+<pb n="283"/>
+
+
+<quote>repetam armis quae Papa occupat ? At ipse » jam factus est me potentior. Repetam jure? At jus meum tantum est quantum » ille esse voluerit; non enim hereditario nomine ad Imperium veni, sed pacto, ut si Imperator esse volo, hic et hic invicem promittam Papae. Dicam nihil donasse ex Imperio Constantinum ? At isto modo causam agerem Graeci Imperatoris et me omnino fraudarem imperii dignitate. Hac enim ratione Papa se dicit facere Imperatorem me, quasi quemdam vicarium suum,
+
+
+
+<pb n="284"/>
+
+
+
+
+et nisi promittam, non facturum, et nisi paream, me abdicaturum : dummodo mihi det, omnia fatebor, omnia paciscar. Mihi d tamen crede, si Romam ego aut Tusciam possiderem, tantum abest ut facerem quae facio; ut etiam frustra mihi Paschalis Donationis, sicut reor falsae, caneret cantilenam. Nunc concedo quae nec teneo nec habiturum esse me spero; de jure Papae ad me inquirere non pertinet, sed ad Constantinopolitanum Augustum.</quote> Jam apud me excusatus es, Ludovice, et
+
+
+<pb n="285"/>
+
+
+
+quisquis alius Princeps et Ludovici similis. Quid de aliorum Imperatorum cum Summis Pontificibus pactione suspicandum est, cum sciamus quid Sigismundus fecerit, Princeps alioqui optimus et fortissimus, sed jam confecta aetate minus fortis, quem per Italiam paucis stipatoribus septum in diem vivere vidimus Romae et fame peritu* rum, nisi eum, sed non gratis, extorsit enim Donationem, Eugenius pavisset. Is cum Romam venisset, ut pro Imperatore Romanorum coronaretur, non aliter coronari a Papa
+
+
+
+<pb n="286"/>
+
+
+
+
+potuit quam ut Constantini Donationem ratam haberet eademque omnia de integro donaret. Quid magis contrarium quam pro Imperatore Romano coronari qui Romse ipsi renunciasset, et coronari ab illo quem et confiteatur, et quantum in se est dominum Romani Imperii faciat, ac ratam habere Donationem, quam, vera si sit, nihil Imperatori de Imperio reliquo fiat? Quod, ut arbitror, nec pueri fecissent. Quo minus mirum si Papa arrogat sibi Caesaris coronationem, quas populi Romani esse deberet.
+
+
+
+
+<pb n="287"/>
+
+
+
+Si tu, Papa, et potes Graecum privare Imperatorem Italia provinciisque Occidentis et Latinum Imperatorem facis, cur pactionibus uteris? Cur bona Caesaris partiris? Cur Imperium in te non transfers? Quare sciat quisquis est qui dicitur Imperator Romanorum, me judice se non esse nec Augustum, nec Cassarem, nec Imperatorem, nisi Romae imperium teneat, et nisi operam det ut Romam urbem recuperet, plane esset perjurum. Nam Caesares illi priores, quorum fuit primus Constantinus, non
+
+
+
+<pb n="288"/>
+
+
+
+
+adigebantur jusjurandum interponere quo nunc Ctesares obstringuntur; sed quantum humana ope praestari potest nihil imminuturos esse de amplitudine Imperii Romani, eamque sedulo adaucturos. Non ea re tamen vocantur Augusti quod Imperium augere deberent, ut aliqui sentiunt, Latinae linguae imperiti; est enim Augustus quasi sacer, ab avium gustu dictus, quae in auspiciis adhiberi solebant, Graecorum quoque testante lingua, apud quos AugustusSeSaaTÒs dicitur, unde Sebastia vocata. Melius Summus Pontifex ab augendo Augustus dicere--
+
+
+
+
+<pb n="289"/>
+
+
+
+
+
+tur, nisi quod dum temporalia auget, spiritualia minuit.</p><p>Itaque videas ut quisque pessimus est Summorum Pontificum, ita maxime defendendae huic Donationi incumbere ; qualis Bonifacius octavus qui Celestinum tubis parieti insertis decepit : hic et de Donatione Constantini scribit et regem Franciae regno privavit regnumque ipsum, quasi Donationem Constantini exsequi vellet, Ecclesiae Romanae fuisse et esse subjectum judicavit; quod statim successores ejus Benedictus et Clemens, ut improbum injustumque revocarunt.
+
+
+
+
+<pb n="290"/>
+
+
+
+
+Verum quid sibi vult ista vestra, Pontifìces Romani, sollicitudo quod a singulis Imperatoribus Donationem Constantini exigitis confirmari, nisi quod juri diffiditis vestro? Sed laterem lavatis, ut dicitur; nam neque illa unquam fuit, et quod non est confirmari non potest, et quicquid donant Caesares decepti exemplo Constantini faciunt, et donare Imperium nequeunt.</p><p>Age vero, demus Constantinum donasse Sylvestrumque aliquando possedisse, sed
+
+
+
+
+<pb n="291"/>
+
+
+
+postea vel ipsum, vel aliquem ipsius successorum a possessione dejectum. Loquor nunc de his quae Papa non possidet; postea loquar de his quae possidet. Quid possum vobis magis dare quam ut ea quae nec fuerunt nec esse poterunt fuisse concedam ? Tamen dico vos nec jure divino nec humano ad recuperationem agere posse. In lege veteri Hebraeus supra sextum annum Hebraeo servire vetabatur, et quinquagesimo quoque anno omnia redibant ad pristinum dominum: tempore gratiae, Christianus a Vicario
+
+
+
+<pb n="292"/>
+
+
+
+
+Christi, redemptoris nostrae servitutis, premetur servitio aeterno ? Quid dicam, revocabitur ad servitutem, postquam liber factus est diuqua potitus libertate ? Sileo quam saevus, quam vehemens, quam barbarus dominatus frequenter est sacerdotum; quod si antea ignorabatur, nuper est cognitum ex monstro illo atque portento Johanne Vitellesco, Cardinale et Patriarcha, qui gladium Petri quo auriculam Malcho abscidit, in Chri-
+
+
+
+
+
+<pb n="293"/>
+
+
+
+stianorum sanguine lassavit : quo gladio et ipse periit. An vero populus Israel a domo David et Salomonis, quos prophetae a Deo missi inunxerant, tamen propter graviora onera desciscere liquit, factumque eorum Deus probavit; nobis ob tantam tyrannidem desciscere non licebit, ab his praesertim qui nec sunc Reges nec esse possunt, et qui de pastoribus ovium, id est animarum, facti ' sunt fures ac latrones ?</p><p>Et ut ad jus humanum veniam, quis ignorat nullum jus esse bellorum, aut si quod est, tamdiu valere quamdiu possideas
+
+
+
+<pb n="294"/>
+
+
+
+quae bello parasti ? Nam cum possessionem perdis et jus perdidisti; ideoque captivos, si fugerint, nemo ad judicem repetere solet, etiam nec praedas, si eas priores domini receperint. Apes et quaedam alia volucrum genera, si e privato meo longius evolaverint et in alieno desederint, repeti non queunt.Tu homines, non modo liberum animal, sed dominum caeterorum, si se in libertatem manu et armis asseruerint, non manu et armis repetis, sed jure, quasi tu homo sis, illi pecudes ? Neque est quod dicas : Romani
+
+
+
+
+<pb n="295"/>
+
+
+
+juste bella nationibus intulerunt, justeque libertate illas exuerunt; noli me vocare ad istam quaestionem, ne quid in Romanos meos cogar dicere, quanquam nullum crimen tam grave esse potuit ut aeternam -mererentur populi servitutem; cum eo quod saepe culpa Principis, magni vel alicujus in republica civis, bella gesserunt et victi immerita servitutis poena affecti sunt ; quorum exemplis plena sunt omnia. Neque vero lege naturae comparatum est, ut populus sibi populum subigat; praecipere
+
+
+
+
+<pb n="296"/>
+
+
+
+aliis eosque exhortari possumus, imperare illis ac vim afferre non possumus, nisi relicta humanitate, velimus ferociores belluas imitari quae sanguinarium in infirmiores imperium exercent, ut leó in quadrupedes, aquila in volucres, delphinus in pisces. Verumtamen hae belluae non in suum genus sibi jus vendicant, sed in inferius; quod quantomagis nobis faciendum est, et homo homini religioni habendus cum, ut M. Fabius inquit, nulla super ter*
+
+
+
+
+<pb n="297"/>
+
+
+
+
+ras adeo rabiosa bellua cui non imago sua sancta sit.</p><p>Itaque fere quatuor causae sunt ob quas bella inferuntur : aut ob ulciscendam injuriam defendendosque amicos, aut timore accipiendae postea calamitatis, si vires aliorum augeri sinantur, aut spe praedae, aut gloriae cupiditate; quarum prima nonnihil honesta, secunda parum, duae posteriores nequaquam honestae sunt. Et Romanis quidem illata fuere frequenter bella, sed postquam se defenderant, et illis et aliis ipsi
+
+
+
+
+
+<pb n="298"/>
+
+
+
+intulerunt, nec ulla gens est quae ditioni eorum cesserit, nisi bello victa et domita : quam recte aut qua causa, ipsi viderint; ego nolim nec damnare tanquam injuste pugnaverint, nec absolvere tanquam juste; tantum dicam eadem ratione Romanos caeteris bella intulisse, qua reliqui populi Regesque, atque ipsis qui bello lacessiti victique sunt, licuisse deficere a Romanis, ut ab aliis dominis defecerunt: ne forte, quod nemo diceret, imperia omnia ad vetutissimos illos, qui primi domini fuere, id est,
+
+
+
+
+<pb n="299"/>
+
+
+
+qui primi surripuere aliena , referantur. Et tamen melius in victis bello nationibus populo Romano quam Caesaribus Rempublicam opprimentibus jus est. Quocirca si fas erat gentibus a Constantino, et quod multo plus est a populo Romano deficere, profecto et ab eo fas erit cuiquam cesserit ille jus suum. Atque, ut audacius agam, si Romanis licebat Constantinum aut ejicere ut Tarquinium, aut occidere ut Julium Caesarem, multo magis
+
+
+
+<pb n="300"/>
+
+
+
+
+eum vel Romanis vel provinciis licebit occidere, qui in locum Constantini utcumque successit. Hoc etsi verum, tamen ultra causam meam est. Et idcirco me reprimere volo nec aliud ex his colligere quae dixi, nisi ineptum esse, ubi armorum vis est, ibi jus quemque afferre verborum : quia quod armis acquiritur, id rursus armis amittitur.</p><p>Eo quidem magis quod aliae novae gentes, ut de Gothis accepimus, quae nunquam sub Romano Imperio fuerunt, fugatis veteribus
+
+<pb n="301"/>
+
+
+
+
+incolis Italiam et multas provincias occuparunt, quas in servitutem revocari in qua nunquam fuerunt, quae tandem aequitas est, praesertim victrices et fortasse a victis? Quo tempore, si quae urbes ac nationes, ut factum fuisse scimus, ab Imperatore desertae ad Barbarorum adventum, necesse habuerunt deligere sibi Regem, sub cujus auspiciis victoriam reportarent, numquid hunc postea a principatu deponerent, aut ejus filios, tum commendatione patris , cum propria virtute favorabiles
+
+
+
+
+
+<pb n="302"/>
+
+
+
+jubent esse privatos, ut iterum sub Romano Principe essent, maxime cum eorum opera assidue indigerent, et nullum aliunde auxilium sperarent? Hoc si Caesar ipse, aut Constantinus ad vitam reversus, aut etiam Senatus populusque Romanus ad commune judicium, quale in Graecia Amphyxionum fuit, vocaret, prima statim actione repelleretur quod, a se olim custode desertos, quod tamdiu sub alio Principe degentes, quod numquam alienigenae regi subditos, quod denique homines in libertate natos, et in libertatem robore animi
+
+
+
+
+<pb n="303"/>
+
+
+
+
+corporisque assertos, ad famulatum servitiumque reposceret. Ut appareat, si Caesar, sì populus Romanus a repetendo exclusus est, multo vehementius Papam esse exclusum. Et si licet aliis nationibus quae sub Roma fuerunt, aut Regem sibi creare, aut Rempublicam tenere, multo magis id licere populo Romano, principue adversus novam Papae tyranni dem.</p><p>Exclusi a defendenda Donatione adversarii, quod nec unquam fuit et si qua fuisset
+
+
+
+
+
+
+<pb n="304"/>
+
+
+
+jam temporis conditione intercidisset, confugiunt ad alterum genus defensionis, et velut relicta urbe in arcem se recipiunt, quam statim deficientibus cibariis dedere cogentur. — Praescripsit, inquiunt, Romana Ecclesia in his quae possidet. — Cur ergo, quae majors pars est, ea reposcit in quibus non praescripsit, et in quibus alii praescripserunt? Nisi id non licet aliis in hanc, quod huic licet in alios. Praescripsit Romana Ecclesia; cur ergo ab Imperatoribus toties curat sibi jus confirman-
+
+<pb n="305"/>
+
+
+
+
+dum ? Cur donationem confirmationemque Caesarum jactat? Si hoc unum satis est, injuriam eis facis; si de altero quoque jure non sileas, cur igitur de altero non silcs? Nempe quia hoc non sibi sufficit. Praescripsit Romana Ecclesia ; et quomodo potest prae- . scripsisse ubi de nullo titulo sed de malae fidei possessione constat, aut si malae fidei possessionem neges, profecto stultae fidei negare non possis? An in tanta re tamque aperta excusata debet esse facti et juris igno-
+
+
+
+
+<pb n="306"/>
+
+
+
+
+
+
+rantia? facti quidem quod Romam provinciasque non dedit Constantinus, quod ignorare utpote hominis est non Summì Pontificis; juris autem quod illa aut nec donari potuere nec accipi, quod nescire vix Christiani est. Itane stulta credulitas dabit tibi jus in "his quae, si prudentior fores, tua nunquam fuissent? Quid, nonne nunc saltem, postquam te per ignorantiam atque stultitiam possedisse docui, jus illud, si quod erat, amittes, et quod inscitia male contu-
+
+
+<pb n="307"/>
+
+
+
+lerat tibi, nonne id rursum cognitio tibi bene adimet, mancipiumque ab injusto ad justum dominum revertetur, fortassis etiam cum usufructu ? Quod si adhuc justitia possidere pergis, jam inscitia in malitiam fraudemque conversa est, planeque effectus es malae fidei possessor.</p><p>Praescripsit Ecclesia Romana! O imperiti, ò divini juris ignari! Nullus quantumvis annorum numerus verum abolere titulum potest. An vero captus ego a Barbaris, credi-
+
+
+
+
+
+<pb n="308"/>
+
+
+
+tusque periisse, post centum annos quibus captivus fui, post liminio reversus paternae haereditatis repetitor excludar? Quid hac re humanius? Atque, ut aliquod afferam exemplum, num Jephte, dux Israel, reposcentibus filiis Ammon terram a finibus Arnon usque in Labat atque in Jordanem, respondit : « Praescripsit Israel jam per trecentos annos? » An quod nunquam illorum, sed Amorrheorum fuisset terra quam reposcerent, ostendit, et hoc argumentum esse, ad Ammonitas illam non pertinere, quod nunquam intra tot annorum curriculum repos-
+
+
+
+<pb n="309"/>
+
+
+
+
+cissent? Praescripsit Ecclesia Romana! Tace, nefaria lingua. Praescriptionem, quae fit de rebus mutis et irrationalibus, ad homines transfers, cujus quo diuturnior in servitute possessio eo est detestabilior. Aves ac ferae in se praescribi nolunt, sed quantolibet tempore possessae, cum libuerit et oblata fuerit occasio, abeunt ; hominem ab homine possesso abire non licebit?</p><p>Accipe unde magis xraus dolusque quam ignorantia Romanorum Pontificum appareat,
+
+
+
+
+<pb n="310"/>
+
+
+
+
+utentium judice bello non jure, cui simile quoddam primos Pontifices in occupanda urbe caeterisque oppidis credo fecisse. Parum ante me natum, testor eorum memoriam qui interfuerunt, per inauditum genus fraudis Roma papale accepit imperium seu tyrannidem potius, cum diu libera fuisset. Is fuit Bonifacius nonus, octavo in fraude et nomine par, si modo Bonifacii dicendi sunt qui pessime faciunt. Et cum Romani, deprehenso dolo, apud se indignarentur, Bonifacius Papa in morem Tarquinii summa quoque
+
+<pb n="311"/>
+
+
+
+
+papavera virga decussit. Quod cum postea qui ei successit Innocentius imitare vellet, urbe fugatus est. De aliis Pontificibus nolo dicere, qui Romam vi semper oppressam armisque tenuerunt; licet quoties potuit rebellavit, ut sexto ab hinc anno cum pacem ab Eugenio obtinere non posset, nec pax esset hostibus qui eam obsidebant, et ipsa Papam intra aedes obsedit, non permissura illum abire priusquam aut pacem cum hostibus faceret, aut administrationem civitatis relegaret ad cives. At ille maluit ur-
+
+
+
+
+
+<pb n="312"/>
+
+
+
+
+bem deserere dissimulato habitu, uno fugae comite, quam civibus gratificari justa et aequa petentibus; quibus si des electionem, quis ignorat libertatem magisquam servitium electuros? Idem suspicari libet de caeteris urbibus quae a Summo Pontifice in servitute retinentur, per quem a servitute liberari debuissent.</p><p>Longum esset recensere quot urbes ex hostibus captas populus Romanus olim liberas fecit, adeo ut Titus Flaminius omnem Graeciam, quae sub Antiocho fuisset,
+
+
+
+<pb n="313"/>
+
+
+
+
+liberam esse et suis uti legibus juberet. At non Papa, ut videre licet; insidiatur sedulo libertati populorum, ideoque vicissim illi quotidie oblata facultate (ad Bononiam modo respice) rebellant. Qui siquando sponte iquod evenire potest, aliquo aliunde periculo urgente) in papale imperio consenserunt, non ita accipiendum est consensisse ut servos se facerent, ut nunquam subtrahere s jugo colla possent, ut postea nati non et ipsi arbitrium sui habeant; nam hoc iniquissimum foret. <quote>Sponte ad te, Summe Pon-
+
+
+
+
+
+
+<pb n="314"/>
+
+
+
+
+tifex, venimus, ut nos gubernares; sponte nunc rursus abs te ne gubernes diutius recedimus. Si qua tibi a nobis debentur, ponatur calculus datorum et acceptorum. invitos et gubernare vis, quasi pupilli simus, qui te ipsum forsitan sapientius gubernare possemus. Adde huc injurias quas aut abs te, aut a tuis magistratibus  huic civitati frequentissime inferuntur. Deum testamur, injuria cogit nos rebellare, ut olim Israel a Roboam fecit, et quae
+
+
+<pb n="315"/>
+
+
+ tanta fuit illa injuria, quanta portio nostrae calamitatis graviora solvere tributa. Quid non, si rempublicam nostram exhaurias? exhausisti; si templa spolies? spoliasti; si virginibus matribusque familias stuprum inferas? intulisti; si urii bem sanguine civili profundas? profudisti. Haec nobis sustinenda sunt? An potius, cum tu pater nobis esse desieris, nos quoque filios esse obliviscemur? Pro patre,  Summe Pontifex, aut si hoc magis te juvat,
+
+
+
+
+<pb n="316"/>
+
+
+
+prò domino hic populus te advocavit, non pro hoste atque carnifice : patrem agere t aut dominum non vis, sed hostem ac  carnificem. Nos saevitiam tuam impietatemque, etsi jure offensae poteramus, tamen quia Christiani sumus, non imitabimur, nec in tuum caput ultorem stringemus gladium, sed te abdicato atque submoto alterum patrem dominumve, adoptabimus. Filiis a malis parentibus a quibus geniti sunt fugere licet, nobis a  te non vero patre sed adoptivo et pessime
+
+
+<pb n="317"/>
+
+
+
+
+
+nos tractante non licebit? Tu vero, quae sacerdotii operis sunt, cura, et noli tibi ponere sedem ad Aquilonem et illic tonando fulgurantia fulmina in hunc populum caeterosque vibrare.</quote> Sed quid plura opus est in re apertissima dicere? Ego non modo Constantinum non donasse tanta, non modo non potuisse Romanum Pontificem in eisdem praescribere, sed etsi utrumque esset, tamen utrumque jus sceleribus possessorum exstinctum esse
+
+
+
+
+<pb n="318"/>
+
+
+
+
+
+contendo, cum videamus totius Italiae multarumque provinciarum cladem ac vastitatem ex hoc uno fonte fluxisse. Si fons amarus est, et rivus ; si radix immunda, et rami; si delibatio sancta non est, nec massa. Ita e diverso, si rivus amarus, fons obstruendus est ; si rami immundi, ex radice vitium venit; si massa sancta non est, delibatio quoque abominanda est. An possumus principium potentiae papalis pro jure proferre, quod tantorum scelerum tantorumque omnis generis malorum cernimus esse cau-
+
+
+
+
+<pb n="319"/>
+
+
+
+sam ? Quamobrem dico et exclamo (neque enim timebo homines, Deo fretus) neminem mea aetate in Summo Pontificatu fuisse, aut fidelem dispensatorem, aut prudentem; qui tantum abest ut dederit familiae Dei cibum, ut donaret illam velut cibum et escam panis. Papa et ipse bella pacatis populis infert, et inter civitates Principesque discordias ferit; Papa et alienas sitit opes et suas exsorbet, ut Achilles in Agamemnonem : Arjgopopos BaaiXsù;, populi vorator. Papa
+
+
+
+
+<pb n="320"/>
+
+
+
+
+non modo rempublicam, quod non Verres, non Catilina, non quispiam peculator auderet, sed et rem ecclesiasticam et spetn sanctam quaestui habet, quod Simon ille Magus etdetestetur. Et cum horum admonetur, et a quibusdam bonis viris reprehenditur, non negat, sed palam fatetur atque gloriatur, licere ei quavis ratione patrimonium Ecclesiae a Constantino donaturi! ab occupantibus extorquere; quasi eo recuperato religio Christiana futura sit beata, et non
+
+
+
+
+
+
+<pb n="321"/>
+
+
+magis omnibus flagitiis, luxuriis libidini— busque oppressa : si modo opprimi magis potest et ullus est sceleri ulterior locus ! Ut igitur recuperet caetera membra Donationis, male ereptas a bonis viris pecunias pejus diffundit, militumque, equestres pedestresque copias, quibus omnia infestantur, alit : cum Christus in tot millibus pauperum fame ac nuditate moriatur. Nec intelligit, o indignum facinus! cum ipse saecularibus auferre quae ipsorum sunt laborat, illos vicissim sive pessimo exemplo induci, sive
+
+<pb n="322"/>
+
+
+
+
+
+
+
+necessitate cogi (licet non est vera necessitas) ad auferenda quae sunt ecclesiasticorum. Nulla itaque usquam religio, nulla sanctitas, nullus Dei timor; et quod referens quoque horresco, omnium scelerum impii homines a Papa sumunt excusationem. In illo enim comitibusque ejus est facinoris omnis exemplum, et cum Isaia et Paulo, in Papam et Papae proximos dicere possumus : Nomen Dei per vos blasphematur inter gentes; qui alios docetis, vos ipsos non docetis; qui prodicatis non furandum, latrocina-
+
+
+
+
+
+<pb n="323"/>
+
+
+
+
+mini; qui abominamini idola, sacrilegium facitis ; qui in Lege et Pontificatu gloriamini, per prcevaricationem Legis Deum verum Pontificem inhonoratis.</p><p>Ac si populus Romanus ob nimias opes veram illam Romanitatem perdidit, si Salomon ob eamdem causam in idolatriam amore feminarum lapsus est, nonne idem putamus fieri in Summo Pontifice ac reliquis clericis ? Et postea putamus Deum fuisse permissurum ut materiam peccandi Sylvester acciperet ? Non patiar hanc injuriam
+
+
+
+<pb n="324"/>
+
+
+
+
+fieri Pontifici Optimo, ut dicatur imperia, regna, provincias accepisse, quibus renuntiare etiam solent qui clerici fieri volunt. Pauca possedit Sylvester, pauca caeterique sancti Pontifices, quorum aspectus apud hostes quoque erat sacrosanctus, veluti illius Leonis, qui trucem barbari Regis animum terruit ac fregit, quem Romanae vires nec frangere nec terrere potuerant- Recentes vero Summi Pontifices, id est divitiis ac delitiis affluentes, id videntur laborare ut quantum prisci fuere sapientes et sancti,
+
+
+
+
+<pb n="325"/>
+
+
+
+tantum ipsi et impii sint et stulti, et illorum egregias laudes omnibus probris vincant; hoc quis Christiani nominis queat aequo animo ferre ?</p><p>Verum ego, in hac prima nostra oratione, nolo exhortari Principesv ac populos, ut Papam effrenato cursu volitantem inhibeant eumque intra suos fines consistere compellant, sed tantum admoneant, qui forsitan jam edoctus veritatem, sua sponte ab aliena domo in suam et ab insanis fluctibus saevis-
+
+
+
+
+<pb n="326"/>
+
+
+
+que tempestatibus in portum se recipiet. Sin recuset, tunc ad alteram multo truculentiorem accingeremur. Utinam, utinam aliquando videam, nec enim mihi quicquam est longius quam hoc videre, et praesertim meo consilio effectum, ut Papa tantum vicarius Christi sit, non etiam Caesaris; nec amplius horrenda vox audiatur : <quote>Partes Ecclesia, partes contra Ecclesiam; Ecclesia contra Perusinos pugnat, contra Bononienses.</quote> Non contra Christianos pugnat Ecclesia sed Papa : illa pugnat contra spiritualia ne-
+
+
+
+
+
+
+<pb n="327"/>
+
+
+quitiae in coelestibus. Tunc Papa et dicetur et erit Pater Sanctus, Pater omnium, pater Ecclesiae ; nec bella inter Christianos excitabit, sed ab aliis excitata censura Apostolica et Papali majestate sedabit.
+
+
+
+
+
+
+
+
+
+</p>
+</body>
+</text>
+</TEI>

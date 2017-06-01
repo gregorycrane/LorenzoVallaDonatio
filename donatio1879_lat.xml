@@ -1,0 +1,215 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Alcide Bonneau</editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Alcide Bonneau</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <publisher>Isidore Liseux, Editeur, Rue Bonaparte, n. 2 1879</publisher>
+              <date>1879</date>
+            </imprint>
+          </monogr>
+	<ref target="https://babel.hathitrust.org/shcgi/pt?id=wu.89100038991">Book scanned from the University of Wisconsin. Hathitrust: wu.89100038991</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+    <body>
+
+<pb n="2"/>
+<head>Edictum
+domini Constantini
+imperatoris</head>
+<p>In nomine Sanctce et individue? Trinitatis, Patris scilicet, et Filii, et Spiritus Sancti : Imperator Ccesar Flavius Constantinus, in Christo Jesu, uno ex eadem Trinitate sancta, Salvatore Domino Deo nostro, fidelis, mansuetus, beneficus, Alemanicus, Gothicus, Sarmaticus, Germanicus, Britannicus, Hunnicus, pius, felix, victor ac triumphator, semper Augustus, sanctissimo ac bea. tissimo patri patrum Sylvestro, urbis Romce Episcopo et Papce, atque omnibus
+
+
+
+<pb n="4"/>
+ejus successoribus qui in sede beati Petri usque infinem sceculi sessuri sunt Pontificibus, necnon et omnibus reverendissimis et Deo amabilibus catholicis Episcopis, eidem sacrosanctce Romance Ecclesice per hanc nostram imperialem constitutionem subjectis in universo orbe terrarum, nunc et in posterum cunctis retro temporibus constitutis, gratia, pax, caritas, gaudium, longanimitas, misericordia a Deo patre omnipotente, et Jesu Christo filio ejus et Spiritu sancto, cum omnibus vobis.</p>
+<p>Ea quee Salvator et Redemptor noster Dominus Jesus Christus, altissimi Patris filius, per suos sanctos Apostolos Petrutn et Paulum, interveniente patre nostro Sylvestro, Summo Pontifice et universali Papa, mirabiliter dignatus est operari, liquida enarratione per hujus nostra? imperialis institutionis paginam, ad cognitionem omnium populorum in universo terrarum orbe studuit propalare nostra mansuetissima Serenitas. Primum quidem nostram fidem quam a prcelibato beatissimo patre et oratore nostro Silvestro, universali Pontifice, docti sumus,
+
+
+
+
+<pb n="6"/>
+
+intima cordis confessione ad instruendas omnium vestrum mentes proferentes, et ita demum Dei misericordiam super nos diffusam annuntiantes, nosse vos volumus, sicut per anteriorem nostram sacram pragmaticam jussionem significavimus, Nos a culturis idolorum, simulacris mutis et surdis, manufactis, diabolicis compositionibus, atque ab omnibus Satana pompis recessisse, et ad integram Christianorum fidem, qua est vera lux et vita perpetua, pervenisse ; credentes, juxta id quod Nos idem almiftcus et summus pater et doctor noster Sylvester Pontifex instruit, in Deum patrem omnipotentem, factorem coeli et terree, visibilium omnium et invisibilium ; et in Jesum Christum, Filium ejus unigenitum, Dominum nostrum, per quem creata sunt omnia; et in Spiritum Sanctum, dominum et vivificatorem universae creatura. Hos, Patrem et Filium et Spiritum Sanctum, confitemur ita ut in Trinitate perfecta et plenitudo sit divinitatis, et unitas potestatis. Pater Deus, Filius Deus, et Spiritus Sanctus Deus, et tres unum sunt in Jesu Chri-
+
+
+
+<pb n="8"/>
+
+sto. Tres itaque formce, sed una potestas.</p>
+<p>Nam sapiens retro semper Deus edidit ex se, per quod semper erant gignenda scecula, Verbum. Et quando eodem solo suce sapienticu Verbo universam ex nihilo formavit creaturam, cum eo erat, cuncta suo arcano componens mysterio. Igitur perfectis coelorum virtutibus et universis terra? materiis, pio sapientice suce nutuy ad imaginem et similitudinem suam, primum de limo terree fingens hominem, hunc in paradiso posuit voluptatis. Quem antiquus serpens et hostis invidens Diabolus, per amarissimum . ligni vetiti gustum, exulem ab eisdem fecit gaudiis : eoque expulso, non desivit sua venenosa multis modis protelare jacula ut a via veritatis humanum abstrahens genus, idolorum culturce, videlicet creatur ce et non Creatori deservire suadeat : quatenus per hoc eos, quos suis valuerit irretire insidiis, secum ceterno efficiat concremandos supplicio.
+
+
+
+
+<pb n="10"/>
+
+Sed Deus noster misertus plasmatis sui, dirigens sanctos suos prophetas, per hos lumen futures vitee, adventum videlicet filii sui, Domini Dei et Salvatoris nostri Jesu Christi annuntians, misit eumdem unigenitum filium suum et sapientiee Verbum, qui descendens de coelis propter nostram salutem, natus de Spiritu Sancto ex Maria Virgine, Verbum caro factum est, et habitavit in nobis. Non amisit quod fuerat, sed ccepit esse quod non erat : Deum perfectum et hominem perfectum, ut Deus mirabilia perficiens et ut homo humanas passiones sustinens : ita Verbum hominem, et Verbum Deum, predicante patre nostro Sylvestro, Summo Pontifice, intelligimits, ut verum Deum, verum hominem fuisse, nullo modo ambigamus. Electisque duodecim Apostolis, miraculis coram eis et innumerabilis populi multitudine coruscavit.
+
+
+
+<pb n="12"/>
+
+Confitemur eumdem Dominum Jesum Christum adimplesse legem et prophetas, passum, crucifixum secundum Scripturas, tertia die a mortuis resurrexisse, assumptum in coelos, atque sedentem ad dexteram Patris, inde venturum judicare vivos et mortuos, cujus imperii non erit finis. Haec est enim fides nostra catholica orthodoxa, a beatissimo patre nostro Sylvestro, Summo Pontifice, nobis prolata. Exhortamur idcirco omnem populum, et diversas gentium nationes, hanc fidem tenere, colere et praedicare, et in Sanctce Trinitatis nomine baptismi gratiam consequi, et Dominum nostrum Jesum Christum, Salvatorem nostrum, qui cum Patre et Spiritu Sancto per infinita scecula vivit et regnat, quem Sylvester beatissimus pater noster universalis prcedicat Pontifex, corde devoto adorare.</p>
+<p>Ipse enim Dominus noster, misertus mihi peccatori, misit sanctos suos Apostolos ad visitandum nos, et lumen sui splendoris infulsit nobis ut abstractum
+
+
+
+
+<pb n="14"/>
+
+a tenebris, ad veram lucem et agnitionem veritatis me venisse gratularemini. Nam dum valida squaloris lepra totam mei corporis invasisset carnem, et multorum medicorum convenientium cura adhiberetur, nec ullius quidem cura promeruissemus salutem, ad hoc venerunt Sacerdotes Capitolii, dicentes mihi debere fieri fontem in Capitolio et compleri hunc innocentium sanguine, et eo calente loto me, posse mundari. Et secundum eorum dicta, aggregatis plurimis innocentibus infantibus, dum vellent sacrilegi paganorum sacerdotes eos mactare, et ex eorum sanguine fontem repleri, cernens Serenitas Nostra lacrymas matrum eorum, illico exhorrui facinus : miseratusque eas, proprios illis restitui praecipimus filios suos, datisque vehiculis et donis concessis, gaudentes ad propria relaxavimus.</p>
+<p>Eadem igitur transacta die, nocturno
+
+
+<pb n="16"/>
+
+nobis facto silentio, dum somni tempus advenisset, adsunt Apostoli sancti Petrus et Paulus, dicentes mihi : <quote>Quoniam flagitiis posuisti terminum, et effusionem sanguinis innocentis horruisti. missi sumus a Christo Domino Deo nostro, dare tibi sanitatis recuperando consilium. Audi ergo monita nostra, et fac quodcumque indicamus tibi. Sylvester, Episcopus hujus civitatis, ad montem Soracte persecutiones tuas fugiens, in cavernis petrarum cum clericis latebram fovet. Hunc ad te adduxeris, ipse tibi piscinam pietatis ostendet, in qua dum tertio te merserit omnis te valetudo ista deseret leprce. Quod dum factum fuerit, hanc vicissitudinem tuo salvatori compensa, ut omnes jussu tuo per totum orbem restaurentur ecclesice. Te autem ipsum in hac parte purifica, ut relicta omni superstitione idolorum, Deum vivum et verum, qui solus est et verus, adores et excolas, ut ad ejus voluntatem attingas.</quote>
+
+
+
+
+
+<pb n="18"/>
+Exsurgens igitur a somno, protinus juxta id quod a sanctis Apostolis admonitus sum, peregi : advocatoque eodem prcecipuo et magnifico patre et illuminatore nostro Sylvestro, universali Papa, omnia a sanctis Apostolis mihi prcecepta dixi verba, percontatique sumus ab eo, qui Dii isti essent Petrus et Paulus. Ille vero non eos Deos vero dici, sed Apostolos Salvatoris nostri Domini Jesu Christi, respondit. Et rursum interrogare coepimus eumdem beatissimum Papam, utrum istorum Apostolorum imagines expressas haberet, ut ex pictura disceremus hos esse quos revelatio docuerat. Tunc idem venerabilis pater imagines eorumdem Apostolorum per diaconum suum exhiberi prcecepit; quas dum aspicerem, et eorum quos in somno videram figuratos in ipsis imaginibus cognovissem vultus, ingenti clamore coram omnibus Satrapis meis confessus sum eos esse quos in somno videram. Ad hcec beatissimus idem Sylvester, pater noster, urbis Romce Episcopus, indixit nobis poenitentia* tempus intra palatium nostrum Lateranense, in uno cilicio, ut de omnibus
+
+
+
+<pb n="20"/>
+quce a nobis impie peracta atque injuste disposita fuerant, vigiliis, jejuniis atque lacrymis et orationibus, apud Dominum Deum nostrum Jesum Christum Salvatorem veniam impetraremus. Deinde per manus impositionem clericorum, usque ad ipsum prcesulem veni. Ibique renuntians Satance, pompis et operibus ejus, vel universis idolis manu/actis, credere me in Deum patrem omnipotentem, factorem coeli et terree, visibilium et invisibilium, et in Jesum Christum filium ejus unicum, Dominum nostrum, qui conceptus est de Spiritu Sancto, natus ex Maria Virgine, spontanea voluntate coram omni populo confessus sum. Benedictoque fonte, illic me trina mersione unda salutis purificavit. Positoque me in fontis gremio, manum de coelo me contingentem propriis oculis vidi. De qua mundus exsurgens, ab omni mc leprae squalore mundatum agnoscite; levatoque me de venerabili fonte, induto vestibus candidis, septiformis gratice Sancti Spiritus consignationem adhibuit beati chrismatis unctione, et vexillum sanctae crucis in mea fronte linivit, dicens : « Signet te Deu
+
+
+
+<pb n="22"/>
+
+» sigillo fidei suce, in nomine Patris, et » Fi Hi, et Spiritus Sancti, in consigna» tione fidei. » Cunctus que clerus respondit : « Amen. » Et adjecit Prcesul : « Pax tibi. »</p><p>Prima itaque die post perceptum sacri baptismatis mysterium, et post curationem corporis mei a leprce squalore. agnovi non esse alium Deum, nisi Patrem, et Filium, et Spiritum Sanctum, quem beatus Sylvester Papa pr ce dicat, trinitatem in unitate et unitatem in trinitate. Nam omnes Dei gentium, quos usque hactenus colui, dcemonia, opera hominum manufacta comprobantur. Et enim quantam potes tat ept idem Salvator noster suo Apostolo B. Petro contulerit in coelo ac terra, lucidissime nobis idem venerabilis pater edixit, dum fidelem eum in sua interrogatione inveniens, ait :
+
+
+
+
+
+<pb n="24"/>
+Tu es Petrus, et super hanc petram aedificabo Ecclesiam meam, et portae Inferi non praevalebunt adversus eam. Advertite, potentes, et aure cordis intendite quid bonus Magister et Dominus suo discipulo adjunxit, inquiens : Quodcumque ligaveris super terram erit ligatum et in coelis. Mirum est hoc valde et gloriosum in terra ligare et solvere, et in coelo ligatum et solutum esse. Et dum hcec predicante beato Sylvestro agnoscerem, et beneficiis ipsius beati Petri integerrime sanitati me comperi restitutum,
+Utile<note n="1">Ici commence le texte produit par Gratien et réfuté par Laurent Valla, Il est précédé de ce préambule :</note>  judicavimus una cum omnibus.</p>
+
+<p>PALEA</p>
+<p>Constantinus imperator coronam et omnem regiam dignitatem in urbe Romana et in Italia et in partibus occidentalibus Apostolico sedi concessit. Nam in gestis beati Sylvestri (quae beatus Papa Gelasius in concilio LXX Episcoporum a catholicis legi commemorat et pro antiquo usu multas hoc imitari dicit ecclesias) ita legitur : Constantinus imperator, quarta die sui baptismatis, privilegium Romance Ecclesia? contulit, ut in toto orbe Romano Pontifici sacerdotes, ita hunc caput habeant sicut judices regem. In eo privilegio inter  caetera, legitur : Utile judicavimus....
+
+
+
+<pb n="26"/>
+Satrapis nostris et universo Senatu, Optimatibus etiam et cuncto populo imperio Romance Ecclesice subjacenti, ut sicut beatus Petrus in terris vicarius Dei videtur esse constitutus : ita et Pontifices qui ipsius Principis Apostolorum gerunt vices, in terris principatus potestatem amplius quam terrence imperialis nostrce Serenitatis Mansuetudo habere videtur, concessam a Nobis nostroque Imperio obtineant; eligentes nobis ipsum Principem Apostolorum, vel ejus vicarios, firmos apud Deum esse patronos, et sicut nostra est terrena imperialis potentia, ita ejus sacrosanctam Romanam Ecclesiam decernimus veneranter honorari, et amplius quam nostrum imperium terrenumque thronum, sedem sacratissimam Beati Petri gloriose exaltari : tribuentes ei potestatem et gloriam et dignitatem atque vigorem et honorificentiam imperialem. Atque decernentes sancimus ut principatum teneat tam super quatuor sedes, Alexandrinam, Antiochenam, Hierosolymitanam, Constantinopolitanam : quam etiam super omnes in universo orbe terrarum ecclesias Dei, hic Pon-
+
+
+
+<pb n="28"/>
+tifex, qui per tempora ipsius sacrosanctce Romance ecclesice exstiterit, celsior et Princeps cunctis sacerdotibus totius mundi existat; et ejus judicio quce ad cultum Dei, vel fidem Christianorum, vel stabilitatem procuranda fuerint disponantur.</p>
+<p>Justum quippe est, ut ibi lex sancta caput teneat principatus, ubi sanctarum legum institutor, Salvator noster, beatum Petrum apostolatus obtinere prcecepit cathedram ; ubi et crucis patibulum sustinens, beatce mortis sumpsit poculum suique magistri et domini imitator apparuit; et ibi Gentes pro Christi nominis confessione colla flectant, ubi eorum doctor, beatus Paulus, Apostolus, pro Christo extenso collo, martyrio coronatus est; illic usque in finem qucerant doctorem, ubi sanctum doctoris quiescit corpus, et ibi proni ac humiliati, coelestis Regis Dei Salvatoris nostri Jesu Christi famulentur officio ubi superbi terreni Regis serviebant imperio.
+
+
+
+<pb n="30"/>
+
+Interea nosse volumus omnem populum universarum gentium ac nationum per totum orbem terrarum, construxisse nos intra palatium nostrum Lateranense eidem Salvatori nostro Domino DeoJesu Christo ecclesiam a fundamentis cum baptisterio, et duodecim nos sciatis de ejus fundamentis, secundum numerum duodecim Apostolorum, cophinos terree onustatos propriis asportasse humeris. Quam sacrosanctam ecclesiam, caput et verticem omnium ecclesiarum in universo orbe terrarum dici, coli, venerari ac praedicari sancimus, sicut per alia nostra imperialia decreta constituimus. Construximus quoque ecclesias beatorum Petri et Pauli primorum Apostolorum, quas auro et argento locupletavimus, ubi et sacratissima eorum corpora cum magno honore recondentes, thecas ipsorum ex electro, cui nulla fortitudo prcevalet elementorum, construximus, et crucem ex auro purissimo et gemmis pretiosissimis, per singulas eorum thecas posuimus, et clavis aureis confiximus.
+
+
+
+
+
+<pb n="32"/>
+
+Ecclesiis beatorum Apostolorum Petri et Pauli, pro continuatione luminanorum, possessionum prcedia contulimus, et rebus diversis eas ditamus, et per nostram imperialem jussionem sacram tam in Oriente, quam in Occidente, vel etiam in Septentrionali et Meridiana plaga, videlicet in Judcea, Grcecia, Asia, Thracia, Africa et Italia, vel diversis insulis, nostra largitate ei concessimus; ea prorsus ratione, ut per manus beatissimi patris nostri Silvestri, Summi Pontificis, successorumque ejus omnia disponantur. Gaudeat ergo una nobiscum omnis populus, et gentium nationes in universo orbe terrarum; et cxhortantes, monemus omnes, ut Deo nostro et Salvatori Jesu Christo immensas una nobiscum referant gratias, quoniam ipse Deus in coelis desuper et in terra deorsum, nos per suos sanctos Apostolos visitans, sanctum baptismatis sacramentum percipere et corporis sanitatem dignos effecit.
+
+
+
+
+<pb n="34"/>
+
+Pro quo concedimus ipsis sanctis Apostolis, dominis meis beatissimis Petro et Paulo, et per eos etiam beato Sylvestro patri nostro, Summo Pontifici et universali urbis Romce Papce; et omnibus ejus successoribus Pontificibus; qui usque in Unem mundi in sede beati Petri erunt sessuri, atque de prcesenti contradimus palatium imperii nostri Lateranense, deinde diadema, videlicet coronam capitis nostri, simulque phrygium, necnon et superhumerale, videlicet lorum quod imperiale circumdare assolet collum, verum etiam et chlamydem purpuream atque tunicam coccineam, et omnia imperialia indumenta, seu etiam dignitatem imperialium Prcesidentium equitum; conferentes ei etiam imperialia sceptra, simulque cuncta signa atque banna et diversa ornamenta imperialia, et omnem processionem imperialis culminis et gloriam potestatis nostrce. Viris etiam diversi ordinis, reverendissimis clericis sanctce Romance Ecclesice servientibus, illud culmen singularis potentice et prce-
+
+
+<pb n="36"/>
+celientice habere sancimus, cujus amplissimus noster Senatus videtur gloria adornari, id est patricios et consules effici, necnon et exteris dignitatibus imperialibus eos promulgamus decorari. Et sicut imperialis exstat decorata militia, ita clerum sanctce Romance Ecclesice adornari decrevimus; et quemadmodum imperialis potentia diversis officiis cubiculariorum, necnon et ostiariorum, atque omnium concubitorum ordinatur, ita et sanctam Romanam Ecclesiam decorari volumus. Et ut amplissime pontificale decus prcefulgeat, decrevimus ut clerici ejusdem Romance Ecclesice mappulis et linteaminibus, id est, candidissimo colore decoratos equos equitent : et sicut noster Senatus calceamentis utitur cum udonibus, id est candido linteamine, illustrentur; et ita coelestia sicut terrena ad laudem Dei decorentur.
+
+
+
+<pb n="38"/>
+Prce omnibus autem, licentiam tribuimus beato Sylvestro et successoribus ejus ex nostro indicto, ut quem placatus proprio consilio clericare voluerit, et in religioso numero clericorum connumerare, nullus ex omnibus prcesumat superbe agere. Decrevimus itaque et hoc. ut ipse et successores ejus diademate videlicet corona, quam ex capite nostro illi * * * concessimus, ex auro purissimo et
+gemmis pretiosis, uti debeant pro honore beati Petri. Ipse vero beatissimus Papa super coronam clericatus, quam gerit, ad gloriam beatissimi Petri, ipsa ex auro non est passus uti corona. Phrygium vero candido nitore splendidum, resurrectionem Dominicam designans, ejus sacratissimo vertice manibus nostris imposuimus, et tenentes frcenum equi ipsius pro reverentia beati Petri stratoris officium illi exhibuimus, statuentes eodem phrygio omnes ejus successores singulariter uti in processionibus ad imitationem Imperii nostri. Unde ut pontificalis apex non vilescat, sed magisquam
+
+
+
+
+<pb n="40"/>
+terreni Imperii dignitas, gloria et potentia decoretur, ecce tam palatium nostrum, quam Romanam urbem et omnes Italice sive occidentialium regionum provincias, loca, civitates, beatissimo Pontifici et universali Papce Sylvestro tradimus, atque relinquimus, et ab eo et a successoribus ejus per pragmaticum constitutum decrevimus disponenda, atque juri sanctce Romance E cele si ce concedimus permanenda. Unde congruum perspeximus nostrum Imperium et regiam potestatem orientalibus transferri regionibus et in Byzancice provincice optimo loco nomini nostro civitatem cedificari, et nostrum illic Imperium constitui ; quoniam ubi principatus sacerdotum et Christiance religionis caput ab Imperatore coelesti constitutum est, justum non est, ut illic Imperator terrenus habeat potestatem.
+
+
+
+
+<pb n="42"/>
+Haec vero omnia, quceper hanc nostram imperialem sacram scripturam, et per alia divalia decreta statuimus et confirmamus, usque in finem mundi illibata et inconcussa permanere decernimus. Unde coram Deo vivo, qui nos regnareprcecepit, et coram terribili ejus judicio obtestamur omnes nostros successores Imperatores et cunctos Optimates, Satrapas etiam, amplissimumque Senatum, et universum populum in toto orbe terrarum, nunc et in posterum, nulli eorum quoquo modo licere hcec, aut infringere, aut in quoquam convellere. Si quis autem (quod non credimus), in hoc temerator aut contemptor exstiterit, ceternis condemnationibus subjaceat condemnatus, et sanctos Dei Apostolos Petrum et Paulum sibi in prcesenti et in futura vita sentiat contrarios ; atque in inferno inferiori concrematus cum Diabolo et omnibus deficiat impiis. Hujus vero imperialis decreti paginam propriis manibus roborantes, super venerandum corpus beati Petri posuimus; ibi eidem Dei Apostolo spondentes, nos cuncta inviolabiliter conservare et nostris successoribus
+
+
+
+
+<pb n="44"/>
+Imperatoribus conservanda in mandatis relinquere, ac beato patri nostro Sylvestro, Summo Pontifici et universali Papce, ejusque cunctis successoribus Pontificibus, Domino Deo et Salvatore nostro Jesu Christo annuente, tradimus perenniter atque feliciter possidenda.</p>
+<p>Et subscriptio imperialis : Divinitas vos conservet per multos annos, sanctissimi ac beatissimi Patres. Datum Romae, sub tertio die Kalendarum Aprilium, domino nostro Flavio Constantino Augusto quater et Gallicano viris clarissimis consulibus.
+
+
+
+
+
+</p>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,267 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Christopher B. Coleman, Ph.D., Professor of History in Allegheny College </editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Christopher B. Coleman, Ph.D., Professor of History in Allegheny College</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>New Haven</pubPlace>
+              <publisher>Yale University Press</publisher>
+              <date>1922</date>
+            </imprint>
+          </monogr>
+	<ref target="http://hdl.handle.net/2027/cu31924029363706">Hathi Trust http://hdl.handle.net/2027/cu31924029363706</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="ita">Italian</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng">
+    <body>
+
+<pb n="9"/>
+
+
+
+<pb n="11"/>
+
+
+
+<head>The donation of Constantine 
+
+as given in part one, division XCVI, 
+
+chapters XIII and XIV of Gratian's 
+
+Decretum, or Harmony of the 
+
+Canons. 
+
+Part one. Division XCVI. </head>
+
+<p>[PALEA #1 
+CHAPTER XIII. CONCERNING THE SAME.2 
+
+The Emperor Constantine yielded his crown, and all his 
+royal prerogatives in the city of Rome, and in Italy, and 
+in western parts to the Apostolic [See] . For in the Acts 
+of the Blessed Sylvester (which the Blessed Pope Gelasius in the 
+Council of the Seventy Bishops recounts as read by the catholic, 
+and in accordance with ancient usage many churches he says 
+follow this example) occurs the following:] </p>
+
+<p>[PALEA. 
+C. XIV. CONCERNING THE SAME.</p>
+
+<p>The Emperor Constantine the fourth day after his baptism 
+conferred this privilege on the Pontiff of the Roman church, 
+that in the whole Roman world priests should regard him as 
+
+<note xml:id="note.11.1"><p> The meaning of this word in this connection is unknown. The chapters to  which it is prefixed are for the most part supposed to have been early marginal  annotations afterwards incorporated in the text of the Decretum. Cf. Friedberg, Corpus Iuris Canonici, vol. I, Prolegomena, p. Ixxxvi. 
+
+</p></note>
+
+<note xml:id="note.11.2"><p> The subject of chapters xi and xii is, "The Emperors must be under the Pontiffs, not over them." Chapters xiii and xiv continue the same subject. 
+
+</p></note>
+
+
+
+<pb n="13"/>
+
+
+their head, as judges do the king. In this privilege among other 
+things is this: "We — together with all our satraps, and the whole 
+senate and my nobles, and also all the people subject to the 
+government of glorious Rome — considered it advisable, that as the 
+Blessed Peter is seen to have been constituted vicar of the Son 
+of God on the earth, so the Pontiffs who are the representatives 
+of that same chief of the apostles, should obtain from us and our 
+empire the power of a supremacy greater than the clemency of 
+our earthly imperial serenity is seen to have conceded to it, 
+choosing that same chief of the apostles and his vicars to be our 
+constant intercessors with God. And to the extent of our earthly 
+imperial power, we have decreed that his holy Roman church 
+shall be honored with veneration, and that more than our empire 
+and earthly throne the most sacred seat of the Blessed Peter 
+shall be gloriously exalted, we giving to it power, and dignity of 
+glory, and vigor, and honor imperial. And we ordain and decree 
+that he shall have the supremacy as well over the four principal 
+seats, Alexandria, Antioch, Jerusalem, and Constantinople, as 
+also over all the churches of God in the whole earth. And the 
+Pontiff, who at the time shall be at the head of the holy Roman 
+church itself, shall be more exalted than, and chief over, all the 
+priests of the whole world, and according to his judgment everyr 
+thing which is provided for the service of God and for the 
+stability of the faith of Christians is to be administered. And 
+below: §. i. On the churches of the blessed apostles Peter and 
+Paul, for the providing of the lights, we have conferred landed 
+estates of possessions, and have enriched them with different 
+objects, and through our sacred imperial mandate we have granted 
+him of our property in the east as well as in the west, and even 
+in the northern and the southern quarter; namely, in Judea, 
+Greece, Asia, Thrace, Africa, and Italy and the various islands; 
+under this condition indeed, that all shall be administered by the 
+hand of our most blessed father the supreme Pontiff, Sylvester, 
+and his successors. And below: §. 2. And to our Father, the 
+Blessed Sylvester, supreme Pontiff and Pope universal, of the 
+city of Rome, and to all the Pontiffs, his successors, who shall sit 
+
+
+
+<pb n="15"/>
+
+
+in the seat of the Blessed Peter even unto the end of the world, 
+we by this present do give our imperial Lateran palace, then the 
+diadem, that is, the crown of our head, and at the same time the 
+tiara and also the shoulder-band, — that is, the strap that usually 
+surrounds our imperial neck; and also the purple mantle and 
+scarlet tunic, and all the imperial raiment; and also the same rank 
+as those presiding over the imperial cavalry, conferring also even 
+the imperial scepters, and at the same time all the standards, and 
+banners, and the different ornaments, and all the pomp of our 
+imperial eminence, and the glory of our power. §.3. We decree 
+moreover, as to the most reverend men, the clergy of different 
+orders who serve that same holy Roman church, that they have 
+that same eminence, distinction, power and excellence, by the 
+glory of which it seems proper for our most illustrious senate to 
+be adorned; that is, that they be made patricians and consuls, and 
+also we have proclaimed that they be decorated with the other 
+imperial dignities. And even as the imperial militia is adorned, so 
+also we decree that the clergy of the holy Roman church be 
+adorned. And even as the imperial power is adorned with different
+offices, of chamberlains, indeed, and door-keepers, and all 
+the guards, so we wish the holy Roman church also to be decorated.
+And in order that the pontifical glory may shine forth most 
+fully, we decree this also; that the horses of the clergy of this 
+same holy Roman church be decorated with saddle-cloths and 
+linens, that is, of the whitest color, and that they are to so ride. 
+And even as our senate uses shoes with felt socks, that is, distinguished
+by white linen, so the clergy also should use them, so 
+that, even as the celestial orders, so also the terrestrial may be 
+adorned to the glory of God. §. 4. Above all things, moreover, we 
+give permission to that same most holy one our Father Sylvester 
+and to his successors, from our edict, that he may make priest 
+whomever he wishes, according to his own pleasure and counsel, 
+and enroll him in the number of the religious clergy [i.e., regular, 
+or monastic, clergy; or, perhaps, the cardinals], let no one whomsoever
+presume to act in a domineering way in this. §. 5. We 
+also therefore decreed this, that he himself and his successors 
+
+
+
+<pb n="17"/>
+
+
+might use and bear upon their heads — to the praise of God for 
+the honor of the Blessed Peter — the diadem, that is, the crown 
+which we have granted him from our own head, of purest gold 
+and precious gems. But since he himself, the most blessed Pope, 
+did not at all allow that crown of gold to be used over the clerical 
+crown which he wears to the glory of the Blessed Peter, we placed 
+upon his most holy head, with our own hands, a glittering tiara 
+of dazzling white representing the Lord's resurrection, and holding
+the bridle of his horse, out of reverence for the Blessed Peter, 
+we performed for him the duty of groom, decreeing that all his 
+successors, and they alone, use this same tiara in processions in 
+imitation of our power. §. 6. Wherefore, in order that the supreme 
+pontificate may not deteriorate, but may rather be adorned with 
+glory and power even more than is the dignity of an earthly rule; 
+behold, we give over and relinquish to the aforesaid our most 
+blessed Pontiff, Sylvester, the universal Pope, as well our palace, 
+as has been said, as also the city of Rome, and all the provinces, 
+places and cities of Italy and the western regions, and we decree 
+by this, our godlike and pragmatic sanction that they are to be 
+controlled by him and by his successors, and we grant that they 
+shall remain under the law of the holy Roman church. §.7. Wherefore
+we have perceived it to be fitting that our empire and the 
+power of our kingdom should be transferred in the regions of the 
+East, and that in the province of Byzantia, in the most fitting 
+place, a city should be built in our name, and that our empire 
+should there be established, for where the supremacy of priests 
+and the head of the Christian religion has been established by 
+the heavenly Emperor, it is not right that there an earthly 
+emperor should have jurisdiction. §. 8. We decree, moreover, that 
+all these things, which through this our sacred imperial [charter] 
+and through other godlike decrees we have established and con-' 
+firmed, remain inviolate and unshaken unto the end of the world.' 
+Wherefore, before the living God who commanded us to reign, 
+and in the face of his terrible judgment, we entreat, through this 
+our imperial sanction, all the emperors our successors, and all the 
+nobles, the satraps also, the most glorious senate, and all the 
+
+
+
+<pb n="19"/>
+
+
+people in the whole world, now and in all times still #1 to come 
+subject to our rule, that no one of them in any way be allowed 
+either to break these [decrees], or in any way overthrow them. 
+If any one, moreover, — which we do not believe — prove a scorner 
+or despiser in this matter, he shall be subject and bound over to 
+eternal damnation, and shall feel the holy ones of God, the chief  
+of the apostles, Peter and Paul, opposed to him in the present and 
+in the future life, and he shall be burned in the lower hell and 
+shall perish with the devil and all the impious. The page, moreover,
+of this our imperial decree, we, confirming it with our own 
+hands, did place above the venerable body of the Blessed Peter, 
+chief of the apostles. Given at Rome on the third day before the 
+Kalends of April, our master the august Flavius Constantine, for 
+the fourth time, and Gallicanus, most illustrious men, being 
+consuls."] 
+
+<note xml:id="note.19.1"><p> retro was used at Rome in the latter part of the eighth century with the  peculiar meaning of "still" or "again." This is one of the clues to the date and  place of the document. Henderson's translation is erroneous. 
+</p></note>
+
+
+
+</p>
+</body>
+</text>
+</TEI>

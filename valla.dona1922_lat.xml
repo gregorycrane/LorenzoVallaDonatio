@@ -1,0 +1,4565 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Christopher B. Coleman, Ph.D., Professor of History in Allegheny College </editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>The treatise of Lorenzo Valla on the  donation of Constantine: text and translation into English</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Christopher B. Coleman, Ph.D., Professor of History in Allegheny College</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>New Haven</pubPlace>
+              <publisher>Yale University Press</publisher>
+              <date>1922</date>
+            </imprint>
+          </monogr>
+	<ref target="http://hdl.handle.net/2027/cu31924029363706">Hathi Trust http://hdl.handle.net/2027/cu31924029363706</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="ita">Italian</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng">
+    <body>
+
+<pb n="20"/>
+
+
+<head>Laurentii Vallensis 
+
+de falso credita et ementita Constantini 
+Donatione declamatio.<ref target="note.20.1"/> </head>
+
+<p>Plures a me libri compluresque emissi sunt in omni fere 
+doctrinarum genera. In quibus quod a nonnuUis magnisque 
+et longo iam aevo probatis auctoribus dissentio cum sint, 
+qui indigne ferant meque ut temerarium sacrilegumque criminentur,
+quid tandem nunc facturi quidam putandi sunt? Quantopere 
+in me debacchaturi, et si facultas detur, quam avide me ad supplicium
+festinanterque rapturi, qui non tantum adversus mortuos 
+scribo, sed adversus etiam vivos; nec in unum alterumve, sed in 
+plurimos; nec contra privates modo, verum etiam contra magistratus
+! At quos magistratus ! Nempe summum pontificem, qui non 
+temporal! solum armatus est gladio, regum ac principum more, sed 
+ecclesiastico quoque, ut ab eo neque subter ipsum, ut sic loquar, 
+clipeum alicuius principis<ref target="note.20.2"/> protegere te possis, quominus excommunicatione,
+anathemate, exsecratione<ref target="note.20.3"/> feriare. Quod si prudenter, 
+ut dixit, sic fecisse existimatus est, qui inquit, "Nolo scribere in 
+eos qui possunt proscribere," quanto mihi magis idem faciendum 
+
+<note xml:id="note.20.1"><p> <title xml:lang="lat">De falso credita et ementita Constantini donatione</title> is the title Valla gave his  work ; cf . letter to Guarini from Naples in November, 1443 ; Epistolae principum  (Venice, 1574), p. 356; also Barozzi e Sabbadini, Studii sul Panormita e sul Valla  (Florence, 1891), p. 93. In L. Valla Opera (Basle, 1543), p. 762, the title runs. Contra Donationis, quae Constantini dicitur, privilegia, ut falso creditum  declamatio. </p><p>No title appears with the text of Codex Vaticanus Lat. 53 14. The title in Ulrich von Hutten's edition inserts patricii Romani after Vallensis. The treatise is also frequently entitled libellus or oratio instead of declamatio. 
+
+</p></note>
+
+<note xml:id="note.20.2"><p> principum; Cod. Vat. Urb. 337 (containing a few fragments of this treatise).  Hutten. 
+
+</p></note>
+
+<note xml:id="note.20.3"><p> execratione ; Cod. Vat. Lat. S314, so throughout. 
+
+
+</p></note>
+
+<pb n="22"/>
+
+
+esse videatur in eum qui ne proscriptioni quidem relinquat<ref target="note.22.1"/> locum, 
+quique invisibilibus me potestatis suae iaculis persequatur, ut iure 
+possim dicere, "Quo ibo a spiritu tuo et quo a tua fugiam facie ! " 
+Nisi forte putamus patientius haec esse laturum summum pontificem<ref target="note.22.2"/>
+quam ceteri<ref target="note.22.3"/> facerent. Nihil minus, si quidem Paulo, quod 
+bona se conscientia conversatum esse dicerat, Ananias, princeps 
+sacerdotum, coram tribuno qui index sedebat, iussit os verberari;<ref target="note.22.4"/>
+et Phasur, eadem praeditus dignitate, leremiam ob loquendi libertatem
+coniecit in carcerem. Sed ilium tribunus ac praeses, hunc 
+rex adversus iniuriam pontificis tutari et potuit et voluit. Me vero 
+quis tribunus, quis praeses, quis rex e manibus summi sacerdotis, 
+si me rapuerit ille, etiam ut velit eripere poterit?</p>
+
+<p>Verum non est causa cur me duplex hie periculi terror conturbet 
+arceatque a proposito. Nam neque contra ius fasque summo pontifici
+licet aut ligare quempiam<ref target="note.22.5"/> aut solvere, et in defendenda 
+veritate atque iustitia profundere animam summae virtutis, 
+summae laudis, summi praemii est. An vero multi ob terrestrem 
+patriam defendendam mortis adiere discrimen? Ego ob caelestem<ref target="note.22.6"/> 
+patriam assequendam (assequuntur autem eam qui Deo placent, 
+non qui hominibus) mortis discrimine deterrebor? Facessat igitur 
+trepidatio; procul abeant metus; timores excidant! Forti animo, 
+magna fiducia, bona spe, defendenda est causa veritatis, causa 
+iustitiae, causa Dei!</p>
+
+<p>Neque enim is verus est habendus orator qui bene scit<ref target="note.22.7"/> dicere 
+nisi et dicere audeat. Audeamus itaque accusare eum<ref target="note.22.8"/> quicumque 
+digna committit accusatione. Et qui in omnes peccat, unius pro 
+omnium voce carpatur. At non debeo palam obiurgare fratrem, 
+sed inter me et ipsum. Immo, "publice peccans," et qui privatum 
+consilium non admitteret, "publice arguendus est, ut ceteri 
+timorem habeant." An non Paulus, cuius verbis modo sum usus, in 
+
+
+
+<note xml:id="note.22.1"><p> Cod. Vat. Urb. 337. relinquit; Cod. Vat. Lat. 5314. reliquerit; Hutten. 
+
+</p></note>
+
+<note xml:id="note.22.2"><p> sacerdotem ; Cod. Vat. Urb. 337, Hutten. 
+
+</p></note>
+
+<note xml:id="note.22.3"><p> caeteri; Cod. Vat. Lat. S314 (hereafter referred to as MS.), so throughout. 
+
+</p></note>
+
+<note xml:id="note.22.4"><p> obverberari (instead of os verberari) ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.22.5"><p> quippiam ; Hutten. 
+</p></note>
+
+<note xml:id="note.22.6"><p> coelestem ; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.22.7"><p> Hutten. sit ; MS. 
+
+</p></note>
+
+<note xml:id="note.22.8"><p> Omit eum ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="24"/>
+
+
+OS Petrum coram ecclesia reprehendit, quia reprehensibilis erat? 
+Et hoc ad nostram doctrinam scriptum reliquit. — At non sum 
+Paulus, qui Petrum possim reprehendere. Immo Paulus sum, qui 
+Paulum imitor. Quemadmodum, quod multo plus est, unus cum 
+Deo spiritus efficior, cum studiose mandatis illius obtempero. 
+Neque aliquem sua dignitas ab increpationibus tutum reddit quae 
+Petrum non reddidit, multosque alios eodem praeditos gradu; ut 
+Marcellum quod diis libasset, ut Celestinum quod cum Nestorio 
+haeretico<ref target="note.24.1"/> sentiret, ut quosdam etiam nostra memoria quos ab 
+inferioribus (quis enim non est inferior papa?) reprehensos 
+scimus, ut taceam condemnatos.</p>
+
+<p>Neque vero id ago ut quemquam<ref target="note.24.2"/> cupiam insectari et in eum 
+quasi Philippicas scribere, hoc enim a me facinus procul absit, sed 
+ut errorem a mentibus hominum convellam, ut eos a vitiis sceleribusque
+vel admonendo vel increpando summoveam. Non ausim 
+dicere ut alii per me edocti luxuriantem nimiis sarmentis papalem 
+sedem, quae Christi vinea est, ferro coerceant, et plenas uvas non 
+graciles labruscas ferre compellant. Quod cum facio, numquis<ref target="note.24.3"/>
+erit qui aut mihi os aut sibi aures velit occludere, ne dicam supplicium
+mortemque proponere? Hunc ego, si hoc faciat, etiam si papa 
+sit, quid dicam esse, bonumne pastorem, an aspidem surdam quae 
+nolit exaudire vocem incantantis, velit eiusdem membra morsu 
+venenoque praestringere?</p>
+
+<p>Scio iamdudum exspectare<ref target="note.24.4"/> aures hominum quidnam pontificibus
+Romanis criminis<ref target="note.24.5"/> impingam. Profecto ingens, sive supinae 
+ignorantiae, sive immanis avaritiae quae est idolorum servitus, sive 
+imperandi vanitatis cuius crudelitas semper est comes. Nam 
+aliquot iam saeculis aut non<ref target="note.24.6"/> intellexerunt donationem Constantini 
+commenticiam<ref target="note.24.7"/> fictamque esse, aut ipsi finxerunt, sive posteriores 
+in maiorum suorum dolis vestigia imprimentes pro vera quam 
+
+
+
+<note xml:id="note.24.1"><p> heretico ; MS. 
+</p></note>
+
+<note xml:id="note.24.2"><p> quempiam ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.24.3"><p> nunquis; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.24.4"><p> expectare; MS., Hutten, so throughout. 
+
+</p></note>
+
+<note xml:id="note.24.5"><p> quodnam . . . crimen; Hutten. 
+</p></note>
+
+<note xml:id="note.24.6"><p> vero; Hutten. 
+
+
+
+</p></note>
+
+<note xml:id="note.24.7"><p> commentitiam ; MS. 
+
+
+
+</p></note>
+
+<pb n="26"/>
+
+
+falsam cognoscerent defenderunt, dedecorantes pontifiicatus maiestatem,
+dedecorantes veterum pontificum memoriam, dedecorantes 
+religionem Christianam, et omnia caedibus, minis<ref target="note.26.1"/> iiagitiisque 
+miscentes. Suam esse aiunt urbem Romam; suum regnum Siciliae 
+Neapolitanumque ; suam universam Italiam, Gallias, Hispanias<ref target="note.26.2"/> 
+Germanos, Britannos; suum denique occidentem; haec enim 
+cuncta in ipsa donationis pagina contineri. Ergo haec omnia tua 
+sunt, summe pontifex? Omnia tibi in animo est recuperate? Omnes 
+reges ac principes occidentis spoliare urbibus, aut cogere ut annua 
+tibi tributa pensitent, sententia est?</p>
+
+<p>At ego contra existimo iustius licere principibus spoliare te imperio
+omni quod obtines. Nam, ut ostendam, donatio illa unde 
+natum esse suum ius summi pontiiices volunt Silvestro pariter et 
+Constantino fuit incognita.</p>
+
+<p>Verum antequam ad confutandam donationis paginam venio, 
+quod unum istorum patrocinium est, non modo falsum verum 
+etiam stolidum, ordo postulat ut altius repetam. Et primum dicam 
+non tales fuisse Constantinum Silvestrumque, ilium quidem qui 
+donare vellet, qui iure donare posset, qui ut in manum alteri ea 
+traderet in sua haberet potestate, hunc autem qui vellet accipere, 
+quique iure accepturus<ref target="note.26.3"/> foret. Secundo loco, si haec non essent, 
+quae verissima atque clarissima sunt, neque hunc acceptasse neque 
+ilium tradidisse possessionem rerum quae dicuntur donatae, sed 
+eas semper in arbitrio et imperio Caesarum permansisse. Tertio, 
+nihil datum Silvestro a Constantino, sed priori pontifici ante quem 
+etiam baptismum<ref target="note.26.4"/> acceperat, donaque illa mediocria fuisse, quibus 
+
+
+
+<note xml:id="note.26.1"><p> minis; Hutten. 
+
+</p></note>
+
+<note xml:id="note.26.2"><p> Hyspanias; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.26.3"><p> accaepturus; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.26.4"><p> Pontifici a quo baptismum; Bonneau. 
+
+
+
+</p></note>
+
+<pb n="28"/>
+
+
+papa degere vitam posset. Quarto, falso did donationis exemplum 
+aut apud Decreta reperiri aut ex historia Silvestri esse sumptum, 
+quod neque in illa neque in<ref target="note.28.1"/> ulla historia invenitur. In eoque 
+quaedam contraria, impossibilia, stulta, barbara, ridicula contineri. 
+Praeterea loquar de quorundam<ref target="note.28.2"/> aliorum Caesarum vel simulata 
+vel frivola donatione. Ubi ex abundanti adiciam, si Silvester possedisset,
+tamen, sive illo sive quovis alio pontifice a possessione deiecto,
+post tantam temporis intercapedinem nec divino nec humano 
+iure posse repeti. Postremo, ea quae a summo pontifiee tenentur 
+nullius temporis longitudine potuisse<ref target="note.28.3"/> praeseribi.</p>
+
+<p>Atque quod ad primam partem attinet, loquamur autem de Constantino
+prius, deinde de Silvestro.</p>
+
+<p>Non est committendum ut publieam et quasi Caesaream eausam 
+non maiore quam privatae solent ore agamus. Itaque quasi in<ref target="note.28.4"/>
+contione<ref target="note.28.5"/> regum ac prineipum orans, ut certe facio, nam mea haec 
+oratio in manus eorum ventura est, libet tamquam praesentes et 
+in conspectu positos alloqui. Vos appello reges ac principes, diffieile
+est enim privatum hominem animi regii eoneipere imaginem, 
+vestram mentem inquiro, eonscientiam scrutor, testimonium postulo.
+Numquid<ref target="note.28.6"/> vestrum quispiam, si fuisset Constantini loco, 
+faciendum sibi putasset ut urbem Romam, patriam suam, caput 
+orbis terrarum, reginam civitatum, potentissimam, nobilissimam, 
+ditissimam populorum, triumphatricem natiommi, et ipso aspectu 
+sacram, liberalitatis gratia donaret alteri, et se ad humile oppidum 
+conferret deinde Byzantium? donaret praeterea una cum Roma 
+Italiam, non provinciam sed provinciarum victricem : donaret tres 
+Gallias: donaret duas Hispanias: donaret Germanos: donaret 
+Britannos: totum donaret occidentem: et se altero ex duobus<ref target="note.28.7"/> 
+Imperii oculis orbaret? Hoc ego, ut quis faciat compos mentis, 
+adduci non possum ut credam.</p>
+
+<p>Quid enim vobis exspectatius, quid iucundius,<ref target="note.28.8"/> quid gratius 
+
+<note xml:id="note.28.1"><p> Hutten. MS. omits in. 
+</p></note>
+
+<note xml:id="note.28.2"><p> quorumdam; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.28.3"><p> posse ; Hutten. 
+</p></note>
+
+<note xml:id="note.28.4"><p> in in ; MS. error. 
+
+</p></note>
+
+<note xml:id="note.28.5"><p> Hutten. condone; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.28.6"><p> nunquid; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.28.7"><p> Omit duobus ; Hutten. 
+</p></note>
+
+<note xml:id="note.28.8"><p> iocundius ; MS., so throughout. 
+
+
+
+</p></note>
+
+<pb n="30"/>
+
+
+contingere solet, quam accessionem imperils vestris vos regnisque 
+adiungere, et longe lateque quam maxime proferre dicionem? In 
+hoc, ut videre videor, omnis vestra cura, omnis cogitatio, omnis 
+labor dies<ref target="note.30.1"/> noctesque consumitur. Ex hoc praecipua spes gloriae, 
+propter hoc voluptates relinquitis, propter hoc mille pericula 
+aditis, propter hoc carissima<ref target="note.30.2"/> pignora, propter hoc partem corporis
+aequo animo amittitis. Siquidem neminem vestrum aut audivi 
+aut legi a conatu amphandi imperii fuisse deterritum, quod aut 
+luminis, aut manus, aut cruris, aut alterius membri iacturam fecisset.
+Quiri ipse hie ardor atque haec late dominandi cupiditas, ut 
+quisque maxime potens est, ita eum maxime angit atque agitat. 
+Alexander non contentus deserta Libyae pedibus peragrasse, orientem
+ad extremum usque Oceanum vicisse, domuisse septentrionem,
+inter tot vulnera, tot casus, recusantibus iam, detestantibus<ref target="note.30.3"/>
+tam longinquas, tam asperas expeditiones militibus, 
+ipse sibi nihil effecisse videbatur, nisi et occidentem, et omnes nationes
+aut vi, aut nominis sui auctoritate sibi tributarias reddidisset.
+Parum dico: iam Oceanum transire et si quis alius orbis 
+esset explorare, ac suo subicere arbitrio destinaverat. In caelum<ref target="note.30.4"/> 
+tandem, ut opinor, tentasset ascendere. Talis fere est omnium 
+regum voluntas, etsi non omnium talis audacia. Taceo quanta 
+scelera, quot abominanda propter imperium assequendum ampliandumve
+admissa sunt, ut nec fratres a fratrum, nec filii a parentum,
+nec parentes a filiorum sanguine nefarias abstineant 
+manus. Adeo nusquam magis, nusquam atrocius grassari solet humana
+temeritas. Et quod mirari possis, non segniores ad hoc videas 
+animos senum quam iuvenum, orborum quam parentum, regum 
+quam tyrannorum.</p>
+
+<p>Quod si tanto conatu peti dominatus solet, quanto maiore 
+necesse est conservetur! Neque enim tantopere miserum est non 
+ampliare imperium quam imminuere; neque tam deforme tibi 
+alterius regnum non accedere tuo quam tuum accedere alieno. Nam 
+
+
+
+<note xml:id="note.30.1"><p> diesque ; Hutten. 
+</p></note>
+
+<note xml:id="note.30.2"><p> charissima ; MS., so throughout, 
+
+</p></note>
+
+<note xml:id="note.30.3"><p> detestantibusque ; Hutten. 
+</p></note>
+
+<note xml:id="note.30.4"><p> coelum; MS., so throughout. 
+
+
+
+</p></note>
+
+<pb n="32"/>
+
+
+quod ab rege aliquo aut populo legimus nonnuUos praepositos 
+regno aut urbibus, id factum est non de prima nec de maxima, sed 
+de postrema quodammodo ac minima imperii parte, atque ea 
+ratione ut donantem qui donatus est quasi dominum et se ministrum
+illius semper agnosceret.</p>
+
+<p>Nunc quaeso, nonne abiecto animo et minime generoso videntur 
+esse, qui opinantur Constantinimi meliorem a se imperii alienasse 
+partem? Non dico Romam, Italiamque et cetera, sed Gallias, ubi 
+ipse proelia gesserat, ubi solum diu dominatus fuerat, ubi suae 
+gloria suique imperii rudimenta posuerat. Hominem, qui cupiditate 
+dominandi nationibus bella intulisset, socios affinesque bello civili 
+persecutus imperio privasset; cui nondum perdomitae ac profligatae
+reliquiae essent alterius factionis, qui cum multis nationibus 
+bella gerere non modo soleret spe gloriae imperiique sed etiam necesse
+haberet, utpote quotidie<ref target="note.32.1"/> a barbaris lacessitus; qui filiis, qui 
+coniunctis sanguine, qui amicitiis<ref target="note.32.2"/> abundaret; qui senatum populumque
+Romanum huic facto repugnaturum nosset; qui expertus 
+asset instabilitatem victarum nationum, et ad omnem fere Romani 
+principis mutationem rebellantium; qui se meminisset more aliorum
+Caesarum, non electione patrum consensuque plebis, sed 
+exercitu, armis, bello dominatum occupasse; quae tam vehemens 
+causa et urgens aderat, ut ista negligeret et tanta liberalitate uti 
+vellet?</p>
+
+<p>Aiunt, quia effectus erat Christianus. Ergone Imperii optima 
+parte se abdicaret? Credo scelus erat, fiagitium, nefas iam regnare, 
+nec cum Christiana religione conivmgi poterat regnum! Qui in 
+adulterio sunt, qui usuris rem auxerunt, qui aliena possident, ii<ref target="note.32.2"/> 
+post baptismum alienam uxorem, alienam pecuniam, aliena bona 
+reddere solent. Hanc cogitationem si habes, Constantine, restituere 
+urbibus libertatem, non mutare dominum debes. Sed non id in 
+
+
+
+<note xml:id="note.32.1"><p> quottidie ; MS. 
+</p></note>
+
+<note xml:id="note.32.2"><p> amicis; Hutten. 
+</p></note>
+
+<note xml:id="note.32.3"><p> hi; Hutten. 
+
+
+
+</p></note>
+
+<pb n="34"/>
+
+
+causa fuit; tantum in honorem religionis ut faceres adductus es. 
+Quasi religiosum sit magis regnum deponere quam pro tutela 
+religionis illud administrare ! Nam quod ad accipientes attinet, 
+neque honesta erit illis neque utilis ista donatio. Tu vero si Christianum
+te ostendere, si pietatem indicare tuam, si consultum non 
+dice Romanae ecclesiae vis sed ecclesiae Dei, nunc praecipue, nunc 
+principem agas, ut pugnes pro iis<ref target="note.34.1"/> qui pugnare non possunt nec 
+debent, ut eos tua auctoritate tutos reddas qui insidiis iniuriisque 
+obnoxii sunt. Nabuchodonosor, Cyro, Assuero, multisque aliis 
+principibus sacramentum veritatis Deus aperiri voluit; a nullo 
+tamen eorum exegit ut imperio cederet, ut partem regni donaret, 
+sed tantum libertatem Hebraeis<ref target="note.34.2"/> redderet eosque ab infestantibus 
+finitimis protegeret. Hoc satis fuit ludaeis; hoc sat erit et Christianis.
+Factus es, Constantine, Christianus? At indignissima res 
+est Christianum te nunc imperatorem minori<ref target="note.34.3"/> esse principatu 
+quam fueras infidelis. Est enim principatus praecipuum quoddam 
+Dei munus, ad quem gentiles etiam principes a Deo eligi existimantur.</p>
+
+<p>At erat levatus a lepra. Ideo verisimile est referre gratiam 
+voluisse, et maiore mensura reddere quod acceperat. Itane? 
+Naaman<ref target="note.34.4"/> ille Syrus ab Heliseo curatus munera tantum offerre 
+voluit, non dimidium bonorum. Constantinus dimidium Imperii 
+obtulisset ? Piget me impudenti fabellae tamquam indubitatae historiae
+respondere, sic enim haec fabula ex historia Naaman et 
+Helisei, ut altera<ref target="note.34.5"/> draconis ex fabuloso dracone Beli adumbrata 
+
+
+
+<note xml:id="note.34.1"><p> his ; Hutten. 
+</p></note>
+
+<note xml:id="note.34.2"><p> Hebreis ; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.34.3"><p> minorem; Hutten. 
+</p></note>
+
+<note xml:id="note.34.4"><p> Neeman; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.34.5"><p> altero ; MS. error. 
+
+
+
+</p></note>
+
+<pb n="36"/>
+
+
+est. Sed, ut ista concedam, numquid in hac historia de donatione 
+fit mentio? Minime. Verum de hoc commodius postea.<ref target="note.36.1"/> 
+
+Levatus est a lepra? Cepit<ref target="note.36.2"/> ob id mentem Christianam Dei 
+timore Dei amore imbutus ; illi honorem habere voluit. Non tamen 
+persuaderi possum eum tanta donare voluisse, quippe cum videam 
+neminem, aut gentilem in honorem deorum, aut fidelem in honorem 
+Dei viventis, imperium deposuisse sacerdotibusque donasse. 
+Siquidem ex regibus Israel nemo adduci potuit ut pristine more 
+ad templum lerusalem populos sacrificaturos ire permitteret, eo 
+videlicet timore ne forte ad regem ludae a quo defecerant redirent, 
+sacro illo cultu religionis admoniti ac templi maiestate. Et quanto 
+maius est hoc quod f ecisse dicitur Constantinus ! Ac ne quid tibi 
+propter curationem leprae blandiaris, leroboam primus a Deo in 
+regem Israel electus est, et quidem ex infima condicione, quod mea 
+sententia plus est quam esse lepra levatum;<ref target="note.36.3"/> et tamen is non est 
+ausus regnum suum Deo credere. Et tu vis Constantinum regnum 
+Deo donasse quod ab illo non accepisset, qui praesertim (id quod 
+in leroboam non cadebat) offenderet filios, deprimeret amicos, negligeret
+suos, laederet patriam, maerore omnes afficeret, suique 
+oblivisceretur !</p>
+
+<p>Qui si etiam talis fuisset, et quasi in alium hominem versus, 
+certe non defuissent qui eum admonerent, et imprimis filii, propinqui
+amid; quos quis est qui non putet protinus Imperatorem 
+fuisse adituros? Ponite igitur illos ante oculos, mente Constantini 
+audita, trepidos, festinantes cum gemitu lacrimisque<ref target="note.36.4"/> ad genua 
+principis procumbentes, et hoc voce utentes : 
+
+"Itane, pater antehac filiorum amantissime, filios privas, exheredas,<ref target="note.36.5"/>
+abdicas! Nam quod te optima maximaque Imperii parte 
+exuere vis, non tam querimur quam miramur. Querimur autem 
+
+
+
+<note xml:id="note.36.1"><p> Insert loquar; Bonneau. 
+</p></note>
+
+<note xml:id="note.36.2"><p> coepit; MS. 
+
+</p></note>
+
+<note xml:id="note.36.3"><p> lavatum ; Hutten. 
+</p></note>
+
+<note xml:id="note.36.4"><p> lachrimisque ; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.36.5"><p> exhaeredas ; MS. 
+
+
+
+</p></note>
+
+<pb n="38"/>
+
+
+quod earn ad alios defers, cum nostra et iactura et turpitudine. 
+Quid enim causae est quod liberos tuos exspectata successione 
+Imperii fraudas, qui ipse una cum patre regnasti? Quid in te commisimus?
+Qua in te, qua in patriam, qua in nomen Romanum ac 
+maiestatem Imperii impietate digni videmur quos praecipua optimaque
+prives principatus portione, qui a patriis laribus, a conspectu
+natalis soli, ab assueta aura, a vetusta consuetudine relegemur!<ref target="note.38.1"/>
+Penates, fana,<ref target="note.38.2"/> sepulchra exules relinquemus, nescio ubi 
+aut qua terrarum regione victuri!</p>
+
+<p>"Quid nos propinqui, quid nos amici, qui tecum totiens in acie 
+stetimus, qui fratres, parentes, filios hostili mucrone confossos palpitantesque
+conspeximus, nec aliena morte territi sumus, et ipsi 
+pro te parati mortem oppetere, nunc abs te universi deserimurP 
+Qui Romae gerimus magistratus, qui urbibus Italiae, qui Galliis, 
+qui Hispaniis, qui ceteris provinciis<ref target="note.38.4"/> praesumus, aut praefuturi 
+sumus,<ref target="note.38.5"/> omnesne revocamur! Omnes privati iubemur esse! An 
+iacturam banc aliunde pensabis? Et quomodo pro merito ac pro 
+dignitate poteris, tanta orbis terrarum parte alteri tradita? Num 
+qui praeerat centum populis, eum tu, Caesar, uni praeficies? 
+Quomodo tibi istud in mentem venire potuit? Quomodo subita 
+tuorum te cepit oblivio, ut nihil te misereat amicorum, nihil proximorum,
+nihil filiorum? Utinam nos, Caesar, salva tua dignitate 
+atque victoria, in bello contigisset occumbere potius quam ista 
+cernamus !</p>
+
+<p>"Et tu quidem de imperio tuo ad tuum arbitratum agere potes, 
+atque etiam de nobis, uno dumtaxat excepto, in quo<ref target="note.38.6"/> ad mortem 
+usque erimus contumaces; ne a cultu deorum immotalium desistamus
+— magno etiam aliis exemplo, ut scias tua ista largitas quid 
+mereatur de religione Christiana. Nam si non largiris Silvestro 
+Imperium, tecum Christiani esse volumus, multis factum nostrum 
+imitaturis : sin largiris, non modo Christiani fieri non sustinebimus, 
+
+
+
+<note xml:id="note.38.1"><p> relegamur ; MS. 
+</p></note>
+
+<note xml:id="note.38.2"><p> phana; MS. 
+
+</p></note>
+
+<note xml:id="note.38.3"><p> destituimur ; Hutten. 
+</p></note>
+
+<note xml:id="note.38.4"><p> provintiis; MS. 
+
+</p></note>
+
+<note xml:id="note.38.5"><p> praefuturi fuimus; Hutten. praefecturi sumus; Bonneau. praefecturi fuimus; Schard. 
+</p></note>
+
+<note xml:id="note.38.6"><p> Insert vel ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="40"/>
+
+
+sed invisum, detestabile, exsecrandum nobis hoc nomen efficies, 
+talesque reddes ut tandem tu et vitae et mortis nostrae miserearis, 
+nec nos sed te ipsum duritiae accuses."</p>
+
+<p>Nonne hac oratione Constantinus, nisi exstirpatam<ref target="note.40.1"/> ab eo volumus
+humanitatem, si sua sponte non movebatur, motus fuisset? 
+Quid si hos audire noluisset, nonne erant qui huic facto et oratione 
+adversarentur et manu? An senatus populusque Romanus sibi 
+tanta in re nihil agendum putasset? Nonne oratorem, ut ait Virgilius,
+gravem pietate ac meritis advocasset, qui apud Constantinum 
+banc haberet orationem?</p>
+
+<p>"Caesar, si tu tuorum immemor es atque etiam tui, ut nec filiis 
+hereditatem, nec propinquis opes, nec amieis honores, nec tibi 
+Imperium esse integrum velis, non tamen senatus populusque 
+Romanus immemor potest esse sui iuris suaeque dignitatis. 
+Etenim quomodo tibi tantum permittis de Imperio Romano quod 
+non tuo sed nostro sanguine paratum<ref target="note.40.2"/> est! Tune unum corpus in 
+duas seeabis partes, et ex uno duo efficies regna, duo capita, duas 
+voluntates; et quasi duobus fratribus gladios quibus<ref target="note.40.3"/> de hereditate
+decernant porriges! Nos civitatibus quae de hac urbe bene 
+meritae sunt iura civitatis damns, ut cives Romani sint: tu a nobis 
+dimidium Imperii aufers, ne banc urbem parentem suam agnoscant!
+Et in alveis quidem apium si duo reges nati simt, alterum 
+qui deterior est oeeidimus: tu in alveo Imperii Romani, ubi unus 
+et optimus princeps est,<ref target="note.40.4"/> alterum et hune deterrimum, et non 
+apem sed fucum, coUoeandum putas! Prudentiam tuam vehementer
+desideramus, Imperator. Nam quid futurum est, si vel te 
+vivo, vel post tuam mortem, aut huie parti quam alienas, aut alteri 
+quam tibi relinquis, bellum a barbaris nationibus inferatur? Quo 
+
+
+
+<note xml:id="note.40.1"><p> extirpatam; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.40.2"><p> partum; Hutten. 
+
+</p></note>
+
+<note xml:id="note.40.3"><p> qui; Hutten. 
+</p></note>
+
+<note xml:id="note.40.4"><p> es; Hutten. 
+
+
+
+</p></note>
+
+<pb n="42"/>
+
+
+robore militum, quibus copiis occurremus? Vix nunc totius Imperii 
+viribus possumus; tunc poterimus? An perpetuo membrum hoc 
+cum illo in Concordia erit? Ut reor, nec esse poterit, cum Roma 
+dominari velit, nolit pars illa servire. Quin et te vivo breve intra 
+tempus, revocatis veteribus praesidibus,<ref target="note.42.1"/> suffectis novis, te in 
+tuum regnum profecto et longe agente, hie altero dominante, 
+nonne omnia nova, id est diversa atque adversa, erunt? Regno 
+fere inter duos fratres diviso, protinus et populorum animi dividuntur,
+et prius a se ipsis quam ab externis hostibus bellum auspicantur.
+Idem eventurum in hoc Imperio quis non videt? An 
+ignoras hanc olim imprimis fuisse causam optimatibus, cur 
+dicerent citius se in conspectu populi Romani esse morituros quam 
+rogationem illam ferri sinerent ut pars senatus ac pars plebis ad 
+incolendum Veios mitteretur, duasque urbes communes<ref target="note.42.2"/> populi 
+Romani esse; si enim in una urbe tantum dissensionum esset, quid 
+in duabus urbibus futurum! Ita hoc tempore, si tantum discordiarum
+in uno Imperio, testor conscientiam tuam ac labores, quid 
+in duobus imperils fiet!</p>
+
+<p>"Age vero, putasne hinc fore qui tibi bellis occupato esse auxilio 
+aut velint aut sciant? Ita ab armis atque ab omni re bellica 
+abhorrentes erunt qui praeficientur militibus atque urbibus, ut ille 
+qui praeficit. Quid, nonne hunc tam imperitum regnandi et 
+iniuriae facilem aut Romanae legiones aut ipsae provinciae<ref target="note.42.3"/>
+spoliare tentabunt, ut quern sperabunt vel non repugnaturum, vel 
+poenas non repetiturum? Credo, me hercule, ne unum quidem 
+mensem illos in officio mansuros, sed statim et ad primum profectionis
+tuae nuntium<ref target="note.42.4"/> rebellaturos. Quid fades? Quid consilii 
+capies, cum duplici atque adeo multiplici bello urgebere ? Nationes 
+quas subegimus continere vix possumus; quomodo illis accedente 
+ex liberis gentibus bello resistetur? 
+
+
+
+<note xml:id="note.42.1"><p> praesidiis ; Hutten. 
+</p></note>
+
+<note xml:id="note.42.2"><p> comunes ; MS., so throughout, 
+</p></note>
+
+<note xml:id="note.42.3"><p> provintiae; MS. 
+</p></note>
+
+<note xml:id="note.42.4"><p> initium ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="44"/>
+
+
+"Tu, Caesar, quid ad te spectet ipse videris. Nobis autem haec 
+res non minus quam tibi curae esse debet. Tu mortalis es: Imperium
+populi Romani decet esse immortale, et quantum in nobis 
+est erit, neque Imperium mode, verum etiam pudor. Scilicet 
+quorum religionem contemnimus eorum accipiemus imperium, et, 
+principes orbis terrarum, huic contemptissimo homini serviemus! 
+Urbe a Gallis capta, Romani senes demulceri sibi barbam a victoribus
+passi non sunt: nunc sibi tot senatorii ordinis, tot praetorii,
+tot tribunicii,<ref target="note.44.1"/> tot consulares, triumphalesque viri eos dominari
+patientur, quos ipsi tamquam<ref target="note.44.2"/> servos malos omni contumeliarum
+genere suppliciorumque affecerunt! Istine homines 
+magistratus creabunt, provincias regent, bella gerent, de nobis 
+sententias capitis ferent? Sub his nobilitas Romana stipendia 
+faciet, honores sperabit, munera assequetur? Et quod maius 
+quodque altius penetret vulnus accipere possumus? Non ita 
+putes, Caesar, Romanum degenerasse sanguinem ut istud passurus
+sit aequo animo et non quavis ratione devitandum existimet:
+quod medius fidius neque muheres nostrae<ref target="note.44.3"/> sustinerent, sed 
+magis se una cum dulcibus Uberis sacrisque penatibus concremarent,
+ut non Carthaginienses<ref target="note.44.4"/> feminae<ref target="note.44.5"/> fortiores fuerint quam 
+Romanae.</p>
+
+<p>"Etenim, Caesar, si regem te delegissemus, haberes tu quidem 
+magnum de Imperio Romano agendi arbitriimi, sed non ita ut vel 
+minimum de ipsius imminueres maiestate, alioquin qui te fecissemus
+regem, eadem facultate abdicare te regno iuberemus — nedum 
+posses regnum dividere, nedum tot provincias<ref target="note.44.6"/> alienare, nedum 
+ipsum regni caput peregrino atque humillimo homini addicere. 
+Canem ovili praeficimus;<ref target="note.44.7"/> quem si lupi mavult officio fungi, aut 
+eicimus aut occidimus. Nunc tu, cum diu canis officio in ovili 
+Romano defendendo sis functus, ad extremum in lupum nullo 
+exemplo converteris?</p>
+
+<p>"Atque, ut intelligas, quandoquidem nos pro iure nostro cogis<ref target="note.44.8"/>
+asperius loqui, nullum tibi in populi Romani Imperio ius esse. 
+
+<note xml:id="note.44.1"><p> tribunitii; MS. 
+</p></note>
+
+<note xml:id="note.44.2"><p> tanquam; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.44.3"><p> Omit nostrae ; Hutten. 
+</p></note>
+
+<note xml:id="note.44.4"><p> Carthaginenses ; MS. 
+
+</p></note>
+
+<note xml:id="note.44.5"><p> foeminae; MS. 
+</p></note>
+
+<note xml:id="note.44.6"><p> provintias; MS. 
+
+</p></note>
+
+<note xml:id="note.44.7"><p> Bonneau. praefecimus; MS., Hutten. 
+</p></note>
+
+<note xml:id="note.44.8"><p> coges ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="46"/>
+
+
+Caesar vi dominatum occupavit,<ref target="note.46.1"/> Augustus et in vitium successit 
+et adversariorum partium profligatione se dominum fecit, Tiberius, 
+Gaius, Claudius, Nero, Galba, Otho, Vitellius, Vespasianus, ceterique
+aut eadem aut simili via libertatem nostram praedati sunt, tu 
+quoque, aliis expulsis aut interemptis, dominus effectus es. Sileo 
+quod ex matrimonio natus non sis.</p>
+
+<p>"Quare, ut tibi nostram mentem testificemur, Caesar, si non 
+libet te<ref target="note.46.2"/> Romae principatum tenere, habes filios, quorum aliquem 
+in locum tuum, nobis quoque permittentibus ac rogantibus, 
+naturae lege substituas. Sin minus, nobis in animo est publicam 
+amplitudinem cum privata dignitate defendere. Neque enim minor 
+haec iniuria Quiritum quam olim fuit violata Lucretia, neque nobis 
+deerit Brutus qui contra Tarquinium<ref target="note.46.3"/> se ad libertatem recuperandam
+huic populo praebeat ducem. Et in istos primum quos nobis 
+praeponis, deinde et in te ferrum stringemus, quod in multos Imperatores
+et quidem leviores ob causas fecimus."</p>
+
+<p>Haec profecto Constantinum, nisi lapidem eum aut truncum 
+existimamus, permovissent. Quae si populus non dixisset, tamen 
+dicere apud se et his passim verbis f remere credibile erat. Eamus 
+nunc et dicamus Constantinum gratificari voluisse Silvestro, quem 
+tot hominum odiis, tot gladiis subiceret ut vix, quantum sentio, 
+unum Silvester diem in vita futurus fuisset. Nam eo paucisque 
+aliis absumptis, videbatur<ref target="note.46.4"/> omnis sublatum iri de pectoribus 
+Romanorum tam dirae iniuriae contumeliaeque suspicio.<ref target="note.46.5"/> 
+
+Age porro, si fieri potest, concedamus neque preces, neque 
+minas, neque uUam rationem aliquid profecisse, perstareque adhuc 
+Constantinum, nec velle a suscepta semel persuasione recedere.<ref target="note.46.6"/>
+Quis non ad Silvestri orationem, si res vera fuisset umquam,<ref target="note.46.7"/>
+commotum' Essentia tur? Quae talis baud dubie fuisset: 
+
+
+
+<note xml:id="note.46.1"><p> Insert occupavit; Hutten. Insert occupanti; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.46.2"><p> tibi ; Hutten. 
+</p></note>
+
+<note xml:id="note.46.3"><p> Tarquinum ; MS. 
+</p></note>
+
+<note xml:id="note.46.4"><p> videtur ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.46.5"><p> suspitio; MS. 
+</p></note>
+
+<note xml:id="note.46.6"><p> discedere; Hutten. 
+</p></note>
+
+<note xml:id="note.46.7"><p> unquam; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.46.8"><p> Apparently se was omitted, or it has dropped out of the text. 
+
+
+
+</p></note>
+
+<pb n="48"/>
+
+
+"Princeps optime ac fili, Caesar, pietatem quidem tuam tam 
+pronam tamque effusam non possum non amare atque amplecti, 
+verumtamen quod in offerendis Deo muneribus immolandisque 
+victimis nonnihil erres, minime demiror; quippe qui adhuc es in 
+Christiana militia tiro. Ut non decebat olim a sacerdote omnem 
+pecudem feramque et avem<ref target="note.48.1"/> sacrificari, ita non omne ab eodem 
+accipiendum est munus. Ego sacerdos sum ac pontifex, qui dispicere
+debeo quid ad altare patiar offerri, ne forte, non dico 
+immundum animal offeratur, sed vipera aut serpens. Itaque sic 
+habeas. Si foret tui iuris, partem Imperii cum regina orbis, Roma, 
+alteri tradere quam filiis (quod minime sentio) ; si populus hie, si 
+Italia, si ceterae nationes sustinerent, ut quos oderunt et quorum 
+religionem adhuc respuunt, capti illecebris saeculi, eorum imperio 
+obnoxii esse vellent (quod impossibile est) : tamen, si quid mihi 
+credendum putas, fili amantissime, ut tibi assentirer<ref target="note.48.2"/> ulla adduci 
+ratione non possem,<ref target="note.48.3"/> nisi vellem mihi ipsi esse dissimilis et condiconem
+meam oblivisci ac propemodum dominum Iesum<ref target="note.48.4"/> abnegare.
+Tua enim munera, sive, ut tu vis, tuae remunerationes et 
+gloriam et innocentiam et sanctimoniam meam atque omnium qui 
+mihi successuri sunt polluerent ac prorsus everterent, viamque iis 
+qui ad cognitionem veritatis venturi sunt intercluderent.</p>
+
+<p>"An vero Heliseus,'5 Naaman Syro a lepra curato, mercedem 
+accipere noluit: ego te curato accipiam? Ille munera respuit; ego 
+regna mihi dari sinam? Ille personam prophetae maculare noluit; 
+ego personam Chris ti quam in me gero maculare potero? Cur 
+autem ille accipiendis muneribus personam prophetae maculari 
+putavit? Nempe quod videri poterat vendere sacra, faenerare 
+donum Dei, indigere praesidiis hominum, elevare atque imminuere 
+beneficii dignitatem. Maluit ergo sibi principes ac reges<ref target="note.48.6"/> beneficiarios
+facere, quam ipse beneficiarius illorum esse; immo ne mutua 
+quidem beneficentia uti. 'Beatius est enim multo,' ut inquit 
+
+
+
+<note xml:id="note.48.1"><p> ovem; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.48.2"><p> assentiar; Hutten. 
+
+</p></note>
+
+<note xml:id="note.48.3"><p> possum ; Hutten. 
+</p></note>
+
+<note xml:id="note.48.4"><p> Ihesum ; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.48.5"><p> Insert a ; Hutten. 
+</p></note>
+
+<note xml:id="note.48.6"><p> Omit reges ; MS., an error. 
+
+
+
+</p></note>
+
+<pb n="50"/>
+
+
+Dominus, 'dare quam accipere.' Eadem mihi atque adeo maior est 
+causa, cui etiam a Domino praecipitur dicente, 'Infirmos curate, 
+mortuos suscitate, leprosos mundate, daemones eicite; gratis 
+accepistis, gratis date.' Egone tantum flagitium admittam, Caesar, 
+ut Dei praecepta<ref target="note.50.1"/> non exsequar; ut gloriam meam polluam? 
+'Melius est,' ut inquit Paulus, 'mihi mori quam ut gloriam meam 
+quis evacuet.' Gloria nostra est apud Deum honorificare ministerium
+nostrum, ut idem inquit, 'Vobis dico gentibus; quamdiu 
+ego quidem sum gentium apostolus, glorificabo ministerium 
+meum.' 
+
+"Ego, Caesar, aliis quoque sim et exemplum et causa delinquendi;
+Christianus homo, sacerdos Dei, pontifex Romanus, vicarius
+Christi ? lam vero innocentia sacerdotum quomodo incolumis 
+erit inter opes, inter magistratus, inter administrationem saecularium
+negotiorum?<ref target="note.50.2"/> Ideone terrenis renuntiamus, ut eadem 
+uberiora assequamur ; et privata abiecimus, ut aliena possideamus 
+et publica? Nostrae erunt urbes? nostra tributa? nostra vectigalia?
+Et cur clericos, si hoc<ref target="note.50.3"/> fecerimus, nos vocari licebit? Pars 
+nostra sive sors, quae Graece dicitur <foreign xml:lang="grc">κλῆρος</foreign>,<ref target="note.50.4"/> est non terrena sed 
+caelestis. Levitae, qui iidem<ref target="note.50.5"/> clerici sunt, partem cum fratribus 
+non fuere sortiti: et tu nos iubes etiam fratrum sortiri portionem!</p>
+
+<p>"Quo mihi divitas atque opes, qui Domini voce iubeor nec de 
+crastino esse sollicitus, et cui dictum est ab illo: 'Nolite thesaurizare
+super terram; nolite possidere aurum, neque argentum, neque 
+pecuniam in zonis vestris'; et, 'Difficilius est divitem introire in 
+regnum caelonmi, quam camelum per foramen acus transire?' 
+Ideoque pauperes sibi ministros elegit et qui omnia relinquerent<ref target="note.50.6"/> 
+et eum sequerentur ; et paupertatis ipse fuit exemplum. Usque adeo 
+divitiarum pecuniarumque tractatio innocentiae inimica est, non 
+modo possessio illarum atque dominatus. Unus ludas, qui loculos 
+
+
+
+<note xml:id="note.50.1"><p> praecaepta; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.50.2"><p> negociorum; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.50.3"><p> haec; Hutten. 
+
+</p></note>
+
+<note xml:id="note.50.4"><p> Blank space for the Greek word, followed apparently by its transcription,  clerus; MS. Hutten reads dominatus for clerus, and terrenus for terrena in the  following line. Bonneau has divina after the Greek word. 
+
+</p></note>
+
+<note xml:id="note.50.5"><p> idem; Hutten. 
+</p></note>
+
+<note xml:id="note.50.6"><p> reliquerunt ; MS. 
+
+
+
+</p></note>
+
+<pb n="52"/>
+
+
+habebat et portabat quae mittebantur, praevaricatus est; et amore 
+pecuniae, cui assueverat, Magistrum, Dominum, Deum et reprehendit
+et prodidit. Itaque vereor, Caesar, ne me ex Petro facias 
+ludam.</p>
+
+<p>"Audi etiam quid Paulus dicat: 'Nihil intulimus in hunc mundum:
+baud dubium, quod nec auferre quid possumus. Habentes 
+autem alimenta, et quibus tegamur, his contenti simus. Nam qui 
+volunt divites fieri, incidunt in tentationem et in laqueum diaboli 
+et desideria multa et inutilia et nociva, quae mergunt homines in 
+interitum et perditionem. Radix enim omnium malorum est cupiditas,
+quam quidam appetentes erraverunt a fide, et inseruerunt se 
+doloribus multis. Tu autem, homo Dei, haec fuge.' Et tu me 
+accipere iubes, Caesar, quae velut venenum effugere debeo!</p>
+
+<p>"Et quis praeterea, pro tua prudentia, Caesar, consideres, quis 
+inter haec divinis rebus faciendis locus? Apostoli, quibusdam indignantibus
+quod viduae ipsorum in ministerio quotidiano despicerentur,
+responderunt non esse aequum relinquere se verbum 
+Dei et ministrare mensis. Et tamen viduarum mensis ministrare, 
+quanto aliud est quam exigere vectigalia, curare aerarium, stipendium
+numerare militibus, et mille aliis huiusmodi curis implicari?
+'Nemo militans Deo implicat se negotiis saecularibus,' inquit 
+Paulus. Numquid Aaron, cum ceteris Levitici generis, aliud 
+quam Domini tabernaculum procurabat? Cuius<ref target="note.52.1"/> filii, quia ignem 
+alienum in thuribula sumpserant, igni caelesti conflagraverunt. Et 
+tu iubes nos ignem saecularium divitiarum, vetitum ac profanum,<ref target="note.52.2"/>
+in sacrata thuribula, id est in sacerdotalia opera sumere! Num 
+Eleazar, num Phinees, num ceteri pontifices ministrique aut 
+tabernaculi aut templi quicquam nisi quod ad rem divinam pertineret
+administrabant ? Administrabant dico? Immo administrare 
+poterant, si officio suo satisfacere volebant? Quod si nolint, audiant
+exsecrationem Domini dicentis : 'Maledicti, qui opus Domini 
+
+
+
+<note xml:id="note.52.1"><p> Eius ; Hutten. 
+</p></note>
+
+<note xml:id="note.52.2"><p> prophanum ; MS., so throughout. 
+
+
+
+</p></note>
+
+<pb n="54"/>
+
+
+faciunt negligenter.' Quae exsecratio, cum in omnes, turn in pontifices
+maxime cadit.</p>
+
+<p>"O quantum est pontificale munus! Quantum est caput esse 
+ecclesiae! Quantum est praeponi pastorem tanto ovili, e cuius 
+manu uniuscuiusque agni ovisque amissae sanguis exigitur; cui 
+dictum est: 'Si amas me plusquam alii, ut fateris, pasce agnos 
+meos.' Iterum, 'si amas me, ut fateris, pasce oves meas.' Tertio, 'si 
+amas me, ut fateris, pasce oves meas!' Et tu me iubes, Caesar, 
+capras etiam pascere et porcos, qui nequeunt ab eodem pastore 
+custodiri!</p>
+
+<p>"Quid, quod me regem facere vis, aut potius Caesarem, id est 
+regum principem? Dominus Iesus Christus, Deus et homo, rex et 
+sacerdos, cum se regem affirmaret, audi de quo regno locutus est: 
+'Regnum meum,' inquit, 'non est de hoc mundo: si enim de hoc 
+mundo esset regnum meum, ministri mei utique decertarent.' Et 
+quae fuit prima vox, ac frequentior<ref target="note.54.1"/> clamor praedicationis eius, 
+nonne hic:<ref target="note.54.2"/> 'Paenitentiam agite; appropinquavit enim regnum 
+caelorum. Appropinquavit regnum Dei, cui comparabitur regnum 
+caeli?' Nonne, cum haec dixit, regnum saeculare nihil ad se pertinere
+declaravlt? Eoque non modo regnum huiusmodi non quaesivit,
+sed oblatum quoque accipere noluit. Nam cum intelligeret 
+aliquando populos destinasse ut eum raperent regemque facerent, 
+in montium solitudines fugit. Quod nobis qui locum eius<ref target="note.54.3"/> tenemus 
+non solum exemplo dedit imitandum, sed etiam praecepto, inquiens:
+'Principes gentium dominantur eorum, et qui maiores sunt 
+potestatem exercent in eos. Non ita erit inter vos; sed quicumque 
+voluerit inter vos maior fieri sit vester minister, et qui voluerit 
+primus inter vos esse erit vester servus: sicut filius hominis non 
+venit ut ministretur ei, sed ut ministret et det animam suam in<ref target="note.54.4"/>
+redemptionem pro multis.' 
+
+
+
+<note xml:id="note.54.1"><p> frequenter ; Hutten. 
+</p></note>
+
+<note xml:id="note.54.2"><p> haec ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.54.3"><p> ipsius; Hutten. suum; Bonneau. 
+4za Omit in ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="56"/>
+
+
+"ludices olim Deus, ut scias, Caesar, constituit super Israel, 
+non reges, populumque sibi nomen regium postulantem detestatus 
+est. Nec aliter ob duritiam<ref target="note.56.1"/> cordis illorum regem dedit, quam 
+quod repudium permiserat, quod in nova lege revocavit. Et ego 
+regnum accipiam, qui vix iudex esse permittor? 'An nescitis,' 
+inquit Paulus, 'quod sancti de hoc mundo iudicabunt? Et si in 
+vobis iudicabitur mundus, indigni estis qui de minimis iudicetis. 
+Nescitis quod angelos iudicabimus? Quanto magis saecularia? 
+Saecularia igitur indicia si habueritis, contemptibiles qui sunt in 
+ecclesia, eos constituite ad iudicandum.' Atqui indices de rebus et 
+controversiis<ref target="note.56.2"/> tantummodo iudicabant, non etiam tributa exigebant.
+Ego exigam, qui scio a Domino interrogatum Petrum: 'A 
+quibusnam reges terrae acciperent tributum censumve, a filiis an 
+ab alienis?' et cum hie respondisset 'Ab alienis,' ad eodem dictum: 
+'Ergo liberi sunt filii?' Quod si omnes filii mei sunt, Caesar, ut 
+certe sunt, omnes liberi erunt; nihil quisquam solvet. Igitur non 
+est opus mihi tua donatione, qua nihil assecuturus sum praeter 
+laborem quem, ut minime debeo, ita minime possum ferre.</p>
+
+<p>"Quid quod necesse haberem potestatem exercere sanguinis, 
+punire sontes, bella gerere, urbes diripere, regiones ferro ignique 
+vastare! Aliter non est quod sperem posse me tueri quae tradidisses.
+Et si haec fecero, sacerdos, pontifex, Christi vicarius, sum? Ut 
+ilium in me tonantem audiam atque dicentem: 'Domus mea domus 
+orationis vocabitur omnibus gentibus, et tu fecisti eam speluncam 
+latronum.' 'Non veni in mundum,' inquit Dominus, 'ut iudicem 
+mundum, sed ut liberem eum.' Et ego qui illi successi causa 
+
+
+
+<note xml:id="note.56.1"><p> duriciam; MS. 
+</p></note>
+
+<note xml:id="note.56.2"><p> de rebus controversis ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="58"/>
+
+
+mortium ero, cui in persona Petri dictum est: 'Converte gladium tuum 
+in locum suum: omnes enim qui acceperint gladium gladio peribunt?'
+Ne defendere quidem nobis ferro nos licet, siquidem defendere
+Dominum Petrus volebat cum auriculam abscidit servo. 
+Et tu divitiarum aut comparandarum aut tuendarum causa uti 
+ferro nos iubes?</p>
+
+<p>"Nostra potestas est potestas clavium, dicente Domino, 'Tibi 
+dabo claves regni caelorum. Quodcumque<ref target="note.58.1"/> ligaveris super terram 
+erit ligatum et in caelis, et quodcumque solveris super terram erit 
+solutum et in caelis. Et portae inferi non praevalebunt adversus 
+eas.' Nihil ad banc potestatem, nihil ad banc dignitatem,<ref target="note.58.2"/> nihil ad 
+hoc regnum adici potest. Quo qui contentus non est, aliud sibi 
+quoddam a diabolo postulat, qui etiam Domino dicere ausus est: 
+'Tibi dabo omnia regna mundi, si cadens in terram adoraveris me.' 
+Quare, Caesar, cum pace tua dictum sit, noli mihi diabolus effici 
+qui Christum, id est me, regna mundi a te data accipere iubeas. 
+Malo enim illa spernere quam possidere.</p>
+
+<p>"Et ut aliquid de infidelibus, sed, ut spero, futuris fidelibus, loquar;
+noli me de angelo lucis reddere illis angelum tenebrarum, 
+quorum corda ad pietatem inducere volo, non ipsorum cervici 
+iugum imponere, et gladio quod est verbum Dei, non gladio 
+ferreo,<ref target="note.58.3"/> mihi subicere; ne deteriores efficiantur, ne recalcitrent, ne 
+cornu feriant, ne nomen Dei meo irritati errore blasphement.<ref target="note.58.4"/> 
+Filios mihi carissimos<ref target="note.58.5"/> volo reddere, non servos; adoptare, non 
+emere; generare, non manu capere; animas eorum offerre sacriiicium
+Deo, non diabolo corpora. 'Discite a me,' inquit Dominus, 
+'quia mitis sum et humilis corde. Capite iugum meum, et invenietis 
+requiem animabus vestris. Iugum enim meum suave<ref target="note.58.6"/> et pondus 
+meum leve.' 
+
+"Cuius ad extremum, ut iam<ref target="note.58.7"/> finem faciam, illam de<ref target="note.58.8"/> hac re 
+
+
+
+<note xml:id="note.58.1"><p> quodcunque; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.58.2"><p> dignationem ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.58.3"><p> ferri ; Hutten. 
+</p></note>
+
+<note xml:id="note.58.4"><p> blasfement ; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.58.5"><p> charissimos ; MS. 
+</p></note>
+
+<note xml:id="note.58.6"><p> Insert est; Bonneau (as in Vulgate). 
+
+</p></note>
+
+<note xml:id="note.58.7"><p> Omit ut iam ; Hutten. in hoc, instead of ut iam ; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.58.8"><p> in ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="60"/>
+
+
+sententiam accipe quam quasi inter me et te tulit. 'Reddite quae 
+sunt Caesaris Caesari; et quae sunt Dei Deo.' Quo fit ut nec tu, 
+Caesar, tua relinquere, neque ego quae Caesaris sunt accipere 
+debeam; quae vel si millies offeras numquam accipiam."</p>
+
+<p>Ad banc Silvestri orationem apostolico viro dignam, quid esset 
+quod amplius Constantinus posset opponere ? Quod cum ita sit, qui 
+aiunt donationem esse factam nonne iniuriosi sunt in Constantinum,
+quern suos privare imperiumque Romanum voluisse convellere;
+iniuriosi in senatum populumque Romanum, Italiam, 
+totumque occidentem, quem contra ius fasque mutari imperium 
+permississe; iniuriosi in Silvestrum, quem indignam sancto viro 
+donationem acceptam habuisse; iniuriosi in summum pontificatum
+cui licere terrenis potiri regnis et Romanum moderari Imperium
+arbitrantur? Haec tamen omnia eo pertinent, ut appareat 
+Constantinum inter tot impedimenta numquam fuisse facturum, 
+ut rem Romanam Silvestro ex maxima parte donaret ut isti aiunt.</p>
+
+<p>Age porro, ut credamus istam donationem de qua facit pagina 
+vestra mentionem, debet constare etiam de acceptatione Silvestri. 
+Nunc de illa non constat. At credibile est, dicitis, ratam hunc 
+habuisse donationem. Ita credo, nec ratam habuisse modo, verum 
+etiam petiisse, rogasse, precibus extorsisse, credibile est. Quid 
+vos credibile, quod praeter opinionem est hominum, dicitis? Nec 
+quia in pagina privilegii de donatione fit mentio, putandum est 
+fuisse acceptatum : 1 sed e contrario, quia non fit mentio de acceptatione,
+dicendum est non fuisse donatum.<ref target="note.60.2"/> Ita plus contra vos 
+
+
+
+<note xml:id="note.60.1"><p> acceptatam ; Hutten. 
+</p></note>
+
+<note xml:id="note.60.2"><p> Bonneau omits acceptatum . . . non fuisse. 
+
+
+
+</p></note>
+
+<pb n="62"/>
+
+
+facit, hunc donum respuisse, quam ilium dare voluisse; et beneficium
+in invitum non confertur. Neque vero tantum donata 
+respuisse Silvestrum suspicari debemus, sed tacite etiam indicasse 
+nec ilium dare iure<ref target="note.62.1"/> nec se iure accipere posse.</p>
+
+<p>Sed o caecam semper inconsultamque avaritiam!<ref target="note.62.2"/> Demus ut 
+tabulas quoque de assensu Silvestri proferre possitis veras, incorruptas,
+sineeras: num protinus donata sunt quae in talibus<ref target="note.62.3"/>
+continentur? Ubi possessio? Ubi in manus traditio? Nam si 
+chartam modo Constantinus dat, non gratifieari Silvestro voluit, 
+sed illudere. Verisimile est, dicitis, qui donat quippiam eum et possessionem
+tradere. Videte quid loquamini! eum possessionem non 
+esse datam constet, et an datum sit ius ambigatur. Verisimile est 
+qui possessionem non dedit, eum ne ius quidem dare voluisse.</p>
+
+<p>An non eonstat possessionem numquam fuisse traditam? Quod 
+negare impudentissimum est. Numquid Silvestrum Constantinus 
+in Capitolium quasi triumphantem inter frequentium Quiritum, 
+sed infidelium, plausum duxit? In sella aurea adsistente universo 
+senatu colloeavit? Magistratus pro sua quemque dignitate regem 
+salutare et adorare iussit? Hoc<ref target="note.62.4"/> erga novos prineipes fieri solet, 
+non tantum aliquod palatium velut Lateranense tradi. Num postea 
+per universam Italiam eireumduxit?<ref target="note.62.5"/> Adiit cum illo Gallias; adiit 
+Hispanos;<ref target="note.62.6"/> adiit Germanos, eeterumque oceidentem? Aut si gravabantur<ref target="note.62.7"/>
+ambo tantum obire terrarum, quibusnam tam ingens 
+officium delegarunt, qui et Caesaris vice traderent possessionem 
+et Silvestri aeeiperent? Magni ii<ref target="note.62.8"/> viri atque eximiae auctoritatis 
+esse debuerunt: et tamen qui fuerint ignoramus. Et quantum in 
+his duobus verbis, tradere et accipere, subest pondusP Nostra 
+memoria, ut exempla vetusta omittam, numquam aliter facitatum 
+vidimus, cum quis aut urbis aut regionis aut provinciae dominus 
+factus est; ita demum traditam existimari possessionem, si 
+
+
+
+<note xml:id="note.62.1"><p> iuste; Hutten. 
+</p></note>
+
+<note xml:id="note.62.2"><p> avariciam; MS. 
+
+</p></note>
+
+<note xml:id="note.62.3"><p> tabulis; Hutten. 
+</p></note>
+
+<note xml:id="note.62.4"><p> haec . . . solent; Hutten. 
+
+</p></note>
+
+<note xml:id="note.62.5"><p> circunduxit ; MS. 
+</p></note>
+
+<note xml:id="note.62.6"><p> Hispanias ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.62.7"><p> Hutten. gratulabantur ; MS. 
+</p></note>
+
+<note xml:id="note.62.8"><p> hi ; Hutten. 
+</p></note>
+
+<note xml:id="note.62.9"><p> This sentence is omitted by Hutten. 
+
+
+
+</p></note>
+
+<pb n="64"/>
+
+
+magistratus pristini summoveantur novique subrogentur. Hoc si tunc 
+Silvester fieri non postulasset, tamen magnificentiae Constantini 
+intererat, ut declararet non verbo se, sed re possessionem tradere, 
+suos praesides amovere aliosque ab illo substitui iubere. Non traditur
+possessio quae penes eosdem remanet qui possidebant, et 
+novus dominus illos summovere non audet.</p>
+
+<p>Sed fac istud quoque non obstare, et nihilominus putari Silvestrum
+possedisse, atque omnia praeter morem praeterque naturam 
+tunc esse dicamus administrata. Postquam ille abiit, quos provinciis
+urbibusque rectores Silvester praeposuit; quae bella gessit; 
+quas nationes ad arma spectantes oppressit; per quos haec administravit?
+Nihil horum scimus, respondetis. Ita puto, nocturno 
+tempore haec onuiia gesta sunt, et ideo nemo vidit.</p>
+
+<p>Age, fuit in possessione Silvester? Quis eum de possessione 
+deiecit? Nam perpetuo in possessione non fuit, neque successorum 
+aliquis saltem usque ad Gregorium Magnum, qui et ipse caruit 
+possessione. Qui extra possessionem est, nec se ab ea deiectum 
+probare potest, is profecto numquam possedit; et si se possedisse 
+dicat, insanit. Vides ut te insanum etiam probo! Alioquin, die 
+quis papam deiecit ? Ipsene Constantinus, an eius filii, an lulianus, 
+an quis<ref target="note.64.1"/> alius Caesar? Profer nomen expulsoris, profer tempus, 
+unde primum, unde seeundo, ae deineeps expulsus est. Num per 
+seditionem<ref target="note.64.2"/> et caedes, an sine his? Coniurarunt in eum par iter 
+nationes, an quae prima? Quid! Nemo omnium auxilio fuit: ne 
+illorum quidem qui per Silvestrum aliumve papam praepositi 
+urbibus ac provinciis erant? Uno die universa amisit; an paulatim 
+et per partes? Restitit ipse suique magistratus; an ad primum se 
+tumultum abdicarunt? Quid! Ipsi victores non in eam faecem<ref target="note.64.3"/>
+hominum, quam indignam imperio ducebant, ferro grassati sunt, 
+in ultionem<ref target="note.64.4"/> contumeliae, in tutelam occupatae dominationis, in 
+
+
+
+<note xml:id="note.64.1"><p> aliquis ; Hutten. 
+</p></note>
+
+<note xml:id="note.64.2"><p> sedicionem ; MS. 
+
+</p></note>
+
+<note xml:id="note.64.3"><p> fecem ; MS. 
+</p></note>
+
+<note xml:id="note.64.4"><p> ulcionem ; MS. 
+
+
+
+</p></note>
+
+<pb n="66"/>
+
+
+contemptum religionis nostrae, in ipsum etiam posteritatis exemplum?
+Omnino eorum qui victi sunt nemo fugam cepit? nemo 
+latuit? nemo timuit? O admirabilem casum! Imperium Romanum 
+tantis laboribus, tanto cruore partum, tam placide, tam quiete a 
+Christianis sacerdotibus vel partum est, vel amissum, ut nullus 
+cruor, nullum bellum, nulla querela inter cesserit; et quod non 
+minus admirari debeas, per quos hoc gestum sit, quo tempore, quomodo,
+quamdiu, prorsus ignotum. Putes in silvis inter arbores 
+regnasse Silvestrum, non Romae, et inter homines ; et ab hibernis<ref target="note.66.1"/>
+imbribus frigoribusque, non ab hominibus eiectum.</p>
+
+<p>Quis non habet cognitum, qui paulo plura lectitarit, quot reges 
+Romae, quot consules, quot dictatores, quot tribuni plebis, quot 
+censores, quot aediles<ref target="note.66.2"/> creati fuerint ? Nemoque ex tanta hominum 
+copia, ex tanta vetustate nos fugit. Scimus item quot Atheniensium
+duces, quot Thebanorum, quotLacedaemoniorum exstiterint; 
+pugnas eorum terrestres navalesque universas tenemus. Non ignoramus
+qui reges Persarum, Medorum,<ref target="note.66.3"/> Chaldaeorum, Hebraeorum 
+fuerint, aliorumque plurimorum; et quomodo horum quisque aut 
+acceperit regnimi, aut tenuerit, aut perdiderit, aut recuperaverit. 
+Romanum autem, sive Silvestrianum, Imperivmi, qua ratione inceperit,
+aut qua desierit, quando, per quos, in ipsa quoque urbe 
+nescitur. Interrogo num<ref target="note.66.4"/> quos harum rerum testes auctoresque 
+proferre possitis. Nullos, respondetis. Et non pudet vos, non tam 
+homines, quam pecudes dicere verisimile esse possedisse Silvestrum!</p>
+
+<p>Quod quia vos non potestis, ego e contrario docebo, ad ultimum 
+usque diem vitae Constantinum, et gradatim deinceps omnes 
+Caesares possedisse, ut ne quid habeatis quod hiscere possitis. 
+At perdifficile est et magni, ut opinor, operis hoc docere! Evolvantur
+omnes Latinae Graecaeque historiae; citentur ceteri auctores 
+qui de illis meminere temporibus : ac<ref target="note.66.5"/> neminem reperies in hac re 
+ab alio discrepare. Unum ex mille testimoniis sufficiat." Eutropius, 
+qui Constantinum, qui tres Constantini Alios a patre relictos 
+
+<note xml:id="note.66.1"><p> hybernis ; MS. 
+</p></note>
+
+<note xml:id="note.66.2"><p> ediles ; MS. 
+
+</p></note>
+
+<note xml:id="note.66.3"><p> Moedorum ; MS. 
+</p></note>
+
+<note xml:id="note.66.4"><p> enim ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.66.5"><p> at; Hutten. 
+</p></note>
+
+<note xml:id="note.66.6"><p> Hutten. sufficiet; MS. 
+
+
+
+</p></note>
+
+<pb n="68"/>
+
+
+dominos orbis terrarum vidit, qui de luliano filio fratris Constantini
+ita scribit: "Hie lulianus, qui fuit subdiaconus<ref target="note.68.1"/> in Romana 
+ecclesia, Imperator<ref target="note.68.2"/> effectus apostatavit in idolorum cultu<ref target="note.68.3"/> rerum 
+potitus est, ingentique apparatu Parthis intulit bellum, cui expeditioni
+ego quoque interfui." Nec de donatione Imperii occidentis 
+tacuisset; nec paulo post de loviano, qui suecessit luliano, ita 
+dixisset: "Paeem cum Sapore necessariam quidem sed ignobilem 
+fecit, mutatis finibus ac nonnulla Imperii Romani parte tradita. 
+Quod ante, ex quo Romanum Imperium eonditum erat, numquam 
+accidit. Quin etiam legiones nostrae apud Caudium per Pentium 
+Telesinum<ref target="note.68.4"/> et in Hispania apud Numantiam et in Numidia sub 
+iugo missae sunt, ut nihil tamen finium traderetur."</p>
+
+<p>Hoe loco libet vos,<ref target="note.68.5"/> nuperrime licet<ref target="note.68.6"/> defuncti estis, eonvenire, 
+pontifices Romani, et te, Eugeni, qui vivis cum Felicis<ref target="note.68.7"/> tamen 
+venia. Cur donationem Constantini magno ore iactitatis, frequenterque
+vos ultores erepti Imperii quibusdam regibus principibusque
+minamini, et eonfessionem quandam servitutis a Caesare dum 
+coronandus est et a nonnullis aliis principibus extorquetis, veluti 
+ab rege Neapolitano atque Sieiliae; id quod numquam aliquis 
+veterum Romanorum pontificum fecit, non Damasus apud Theodosium,
+non Syricius apud Arcadium,' non Anastasius apud 
+Honorium, non loannes apud lustinianum, non alii apud alios 
+sanctissimi papae apud optimos Gaesares, sed semper illorum 
+Romam Italiamque, cum provinciis quas nominavi, fuisse professi 
+sunt? Eoque numismata aurea, ut de aliis monumentis sileam 
+templisque urbis Romanae, circumferuntur, non Graeeis sed 
+Latinis litteris inseripta, Constantini iam Christiani et deinceps 
+
+
+
+<note xml:id="note.68.1"><p> diaconus; Hutten. 
+</p></note>
+
+<note xml:id="note.68.2"><p> imperatorque ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.68.3"><p> The clauses, qui fuit . . . idolorum cultu, are not in the original text of  Eutropius. 
+
+</p></note>
+
+<note xml:id="note.68.4"><p> Eutropius, Bonneau. Claudium propontum, thelesium; MS. Claudium propontum Telestinum; Hutten. Caudium Propontum Telesinum; Schard. Valla  makes omissions in this and in the preceding sentence from Eutropius. 
+
+</p></note>
+
+<note xml:id="note.68.5"><p> Insert qui ; Hutten. 
+</p></note>
+
+<note xml:id="note.68.6"><p> Omit licet ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.68.7"><p> Faelicis; MS. 
+</p></note>
+
+<note xml:id="note.68.8"><p> Archadium; MS. 
+
+
+
+</p></note>
+
+<pb n="70"/>
+
+
+cunctorum ferme Imperatorum, quorum multa penes me sunt 
+cum hac plerumque subscriptione subter imaginem crucis, "Concordia
+orbis." Qualia infinita reperirentur summorum pontificum,
+si umquam Romae imperassetis ! Quae nulla reperiuntur, 
+neque aurea, neque argentea, neque ab aliquo visa memorantur. 
+Et tamen necesse erat illo tempore proprium habere numisma 
+quisquis imperium Romae teneret; saltem sub imagine Salvatoris 
+aut Petri.</p>
+
+<p>Pro<ref target="note.70.1"/> imperitiam hominurn! Non cernitis, si donatio Constantini
+vera est, Caesari — de Latino loquor — nihil relinqui. En qualis 
+Imperator, qualis rex Romanus erit, cuius regnum si quis habeat, 
+nec aliud habeat, omnino nil habet! Quod si itaque palam est 
+Silvestrum non possedisse; hoc est, Constantinum non tradidisse 
+possessionem, haud dubium erit ne ius quidem, ut dixi, dedisse 
+possidendi: nisi dicitis ius quidem datum, sed aliqua causa possessionem
+non traditam; ita plane dabat quod minime futurum 
+intelligebat; dabat quod tradere non poterat; dabat quod non 
+prius venire in manus eius cui dabatur possibile erat quam esset 
+extinctum; dabat donum quod ante quingentos annos aut numquam
+valiturum foret. Verum hoc loqui aut sentire insanum est.</p>
+
+<p>Sed iam tempus est, ne longior fiam, causae adversariorum iam 
+concisae atque laceratae letale<ref target="note.70.2"/> vulnus imprimere et uno eam 
+iugulare ictu. Omnis fere historia, quae nomen historiae meretur, 
+Constantinum a puero cum patre Constantio<ref target="note.70.3"/> Christianum refert 
+multo etiam ante pontificatum Silvestri; ut Eusebius ecclesiasticae 
+scriptor historiae, quern Rufinus,<ref target="note.70.4"/> non in postremis doctus, in 
+Latinum interpretatus duo volumina de aevo suo adiecit, quorum 
+
+
+
+<note xml:id="note.70.1"><p> Proho;MS. Proh; Hutten. 
+</p></note>
+
+<note xml:id="note.70.2"><p> laetale ; MS., Hutten. 
+
+</p></note>
+
+<note xml:id="note.70.3"><p> Hutten. Constantino; MS. error. 
+
+</p></note>
+
+<note xml:id="note.70.4"><p> Ruffinus;MS. 
+
+
+
+</p></note>
+
+<pb n="72"/>
+
+
+uterque paene<ref target="note.72.1"/> Constantini temporibus fuit. Adde hue testimonium 
+etiam Romani pontificis qui his rebus gerendis non interfuit sed 
+praefuit, non testis sed auctor, non alieni negotii sed sui narrator. 
+Is est Melchiades papa, qui proximus fuit ante Silvestrum, qui 
+ita ait: "Ecclesia ad hoc usque pervenit, ut non solum gentes sed 
+etiam Romani principes, qui totius orbis monarchiam tenebant, ad 
+fidem Christi et<ref target="note.72.2"/> fidei sacramenta concurrerent. E quibus vir 
+religiosissimus Constantinus, primus fidem veritatis patenter adeptus,
+licentiam dedit per universum orbem<ref target="note.72.3"/> suo degentibus imperio 
+non solum fieri Christianos, sed etiam fabricandi ecclesias, et 
+praedia constituit tribuenda. Denique idem praefatus princeps 
+donaria immensa contulit, et fabricam templi primae sedis beati 
+Petri instituit; adeo ut sedem imperialem relinqueret et beato 
+Petro suisque successoribus profuturam concederet." En nihil 
+Melchiades a Constantino datum ait, nisi palatium Lateranense, 
+et praedia, de quibus Gregorius in registro facit saepissime mentionem.
+Ubi sunt qui nos<ref target="note.72.4"/> in dubium vocare non sinunt donatio 
+Constantini valeat necne, cum illa donatio fuerit et ante Silvestrum
+et rerum tantummodo privatarum ? 
+
+
+
+<note xml:id="note.72.1"><p> pene; MS., Hutten. 
+</p></note>
+
+<note xml:id="note.72.2"><p> insert ad; Hutten. 
+</p></note>
+
+<note xml:id="note.72.3"><p> Insert sub; Hutten. 
+
+</p></note>
+
+<note xml:id="note.72.4"><p> Bonneau. non; MS. qui non in dubium vocari; Hutten. qui in dubium  vocari; Schard. 
+
+
+
+</p></note>
+
+<pb n="74"/>
+
+
+Quae res quamquam plana et aperta sit, tamen de ipso quod isti 
+stolidi prof erre solent privilegio disserendum est.</p>
+
+<p>Et ante omnia non modo ille qui Gratianus videri voluit, qui 
+nonnuUa ad opus Gratiani adiecit, improbitatis arguendus est, 
+verum etiam inscitiae qui opinantur paginam privilegii apud 
+Gratianum contineri; quod neque docti umquam putarunt, et in 
+vetustissimis quibusque editionibus<ref target="note.74.1"/> decretorum non invenitur. 
+Et si quo in loco huius rei Gratianus meminisset, non in hoc ubi 
+isti collocant seriem ipsam orationis abrumpentes, sed in eo ubi 
+agit de Ludovici<ref target="note.74.2"/> pactione meminisset. Praeterea duo millia locorum
+in decretis sunt quae ab huius loci fide dissentiant; quorum 
+unus est ubi, quae superius retuli, Melchiadis verba ponuntur. 
+NormuUi eum qui hoc capitulum adiecit aiunt vocatum Paleam 
+vel vero nomine, vel ideo quod quae de suo adiunxit ad Gratianum 
+comparata instar palearum iuxta frumenta existimentur. Utcumque
+sit, indignissimum est credere, quae ab<ref target="note.74.3"/> hoc adiecta sunt, ea 
+decretorum collectorem aut ignorasse, aut magnifecisse habuisseque
+pro veris. Bene habet, sufficit; vicimus. Primum quod hoc 
+Gratianus non ait ut isti mentiebantur, immo adeo, prout<ref target="note.74.4"/> ex 
+infinitis locis datur intelligi, negat atque confutat. Deinde quod 
+unum et ignotum et nullius auctoritatis ac minimi<ref target="note.74.5"/> hominem 
+afferunt, ita etiam stolidum, ut ea Gratiano affinxerit, quae cum 
+ceteris illius dictis congruere non possent. Hunc ergo vos auctorem
+profertis? Huius unius testimonio nitimini?<ref target="note.74.6"/> Huius chartulam 
+ad tantae rei confirmationem contra sexcenta probationum genera 
+recitatis? At ego exspectaveram ut aurea sigilla, marmoratos 
+titulos, mille auctores ostenderetis.</p>
+
+<p>Sed ipse, dicitis, Palea auctorem profert, fontem historiae 
+
+
+
+<note xml:id="note.74.1"><p> codicibus ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.74.2"><p> Lodoici; MS. 
+</p></note>
+
+<note xml:id="note.74.3"><p> ad; Hutten. 
+
+</p></note>
+
+<note xml:id="note.74.4"><p> ut; Hutten. 
+</p></note>
+
+<note xml:id="note.74.5"><p> nauci ; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.74.6"><p> utimini; Hutten. 
+
+
+
+</p></note>
+
+<pb n="76"/>
+
+
+ostendit, et Gelasium<ref target="note.76.1"/> papam cum multis episcopis in testimonium 
+citat. "Ex Gestis," inquit, "Silvestri, quae beatus Gelasius in concilio
+septuaginta episcoporum a catholicis legi commemorat, et pro 
+antique usu multas hoc dicit ecclesias imitari; in quibus legitur, 
+Constantinus et cetera." Multo superius, ubi de libris legendis et 
+non legendis agitur, etiam dixerat, "Actus beati Silvestri praesulis, 
+licet eius qui scripsit nomen ignoremus, a multis tamen ab urbe 
+Roma catholicis legi cognovimus, et pro antiquo usu hoc imitantur 
+ecclesiae." Mira haec auctoritas, mirum testimonium, inexpugnabilis
+probatio ! Dono vobis hoc, Gelasium dum de concilio septuaginta
+episcoporum loquitur id dixisse. Num id dixit, paginam 
+privilegii in beatissimi Silvestri Gestis legi? Is vero tantum ait 
+Gesta Silvestri legi<ref target="note.76.2"/> et hoc Romae, cuius ecclesiae auctoritatem 
+multae aliae sequuntur,<ref target="note.76.3"/> quod ego non nego; concedo, fateor; me 
+quoque una cum Gelasio testem exhibeo. Verum quid vobis ista 
+res prodest, nisi ut in adducendis testibus mentiri voluisse videamini?
+Ignoratur nomen eius qui hoc in Decretis ascripsit, et 
+solus hoc dicit. Ignoratur nomen eius qui scripsit historiam, et 
+solus is et falso testis affertur. Et vos, boni viri atque prudentes, 
+hoc satis superque esse ad tantae rei testimonium existimatis? At 
+videte, quantum inter meum intersit vestrumque indicium. Ego ne 
+si hoc quidem apud Gesta Silvestri privilegium contineretur, pro 
+vero habendum putarem, cum historia illa non historia sit, sed 
+poetica et impudentissima fabula, ut posterius ostendam; nec 
+quisquam alius alicuius dumtaxat<ref target="note.76.4"/> auctoritatis de hoc privilegio 
+
+
+
+<note xml:id="note.76.1"><p> Gelatium ; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.76.2"><p> Omit Is . . . legi ; Hutten, evidently copyist's error. 
+
+</p></note>
+
+<note xml:id="note.76.3"><p> secuntur: MS. 
+</p></note>
+
+<note xml:id="note.76.4"><p> duntaxat ; MS. 
+
+
+
+</p></note>
+
+<pb n="78"/>
+
+
+habeat mentionem. Et lacobus Voraginensis, propensus in amorem 
+clericorum ut archiepiscopus, tamen in Gestis sanctorum de donatione
+Constantini, ut fabulosa nec digna quae inter Gesta Silvestri
+poneretur, silentium egit; lata quodammodo sententia 
+contra eos, si qui haec litteris mandavissent.</p>
+
+<p>Sed ipsum falsarium ac vere "paleam," non triticum, obtorto 
+cello in indicium trahere volo. Quid ais, falsarie? Unde fit quod 
+istud privilegium inter Silvestri Gesta non legimus? Credo hie 
+liber rarus est, difficilis inventu, nec vulgo habetur, sed tamquam 
+fasti olim a pontificibus, aut libri Sibyllini<ref target="note.78.1"/> a decemviris eustoditur!
+Lingua Graeca aut Syriaea aut Chaldaiea scriptus est! 
+Testatur Gelasius a multis catholicis legi; Voraginensis de eo 
+meminit; nos quoque mille et antique scripta exemplaria vidimus; 
+et in omni fere cathedrali ecelesia, cum adest Silvestri natalis dies, 
+lectitantur: et tamen nemo se illic legisse istud ait quod tu affingis, 
+nemo audisse, nemo somniasse. An alia quaedam fortassis historia 
+est ? Et quaenam ista erit? Ego aliam nescio, nec abs te aliam did 
+interpreter, quippe de ea tu loqueris quam Gelasius apud multas 
+ecclesias lectitari refert. In hae autem tuum privilegium non invenimus.
+Quod si istud in Vita Silvestri non legitur, quid tu ita 
+legi tradidisti? Quid in tanta re iocari ausus es, et levium hominum 
+eupiditatem eludere?</p>
+
+<p>Sed stultus sum qui illius potius inseetor audacium, quam istorum
+dementiam qui crediderunt. Si quis apud Graeeos, apud 
+Hebraeos, apud barbaros diceret hoe esse memoriae proditum, 
+nonne iuberetis nominari auctorem, proferri codieem, et locum ab 
+interprete fideli exponi antequam crederetis? Nunc de lingua 
+
+
+
+<note xml:id="note.78.1"><p> Sybillini; MS. 
+
+
+
+</p></note>
+
+<pb n="80"/>
+
+
+vestra, de notissimo codice fit mentio, et vos tam incredibile factum
+aut non inquiritis, aut, cum scriptum non reperiatis, tam 
+prona estis credulitate ut pro scripto habeatis atque pro vero. Et 
+hoc titulo contenti, terras miscetis et maria, et, quasi nullum subsit 
+dubium, eos qui vobis non credunt, terrore bellorum aliisque 
+minis prosequimini. Bone Iesu, quanta vis, quanta divinitas est 
+veritatis, quae per sese sine magno conatu ab omnibus dolis ac 
+fallaciis se ipsa defendit, ut non immerito, cum esset apud Darium 
+regem exorta contentio quid foret maxime validum et alius aliud 
+diceret, tributa sit palma veritati !</p>
+
+<p>Quia cum sacerdotibus, non cum saecularibus, mihi res est, 
+ecclesiastica magis quam saecularia sunt exempla repetenda. ludas 
+Machabaeus, cum dimissis Romam legatis foedus amicitiamque a 
+senatu impetrasset, curavit verba foederis in aes incidenda lerosolimamque
+portanda. Taceo de lapideis decalogi tabulis, quas Deus 
+Moysi dedit. Ista vero tam magnifica Constantini et tam inaudita 
+donatio nullis neque in auro, neque in argento, neque in aere, 
+neque in marmore, neque postremo in libris, probari documentis 
+potest; sed tantum, si isti credimus, in charta, sive membrana. 
+lobal primus musices auctor, ut est apud losephum, cum esset a 
+maioribus per manus tradita opinio res humanas semel aqua 
+iterum igni delendas, doctrinam suam duabus columnis<ref target="note.80.1"/> inscripsit, 
+lateritia contra ignem, lapidea contra aquas; quae ad losephi 
+aevum, ut idem scribit, permansit; ut suum in homines beneficium 
+semper exstaret. Et apud Romanos rusticanos<ref target="note.80.2"/> adhuc et agrestes, 
+cum parvae et rarae litterae essent, tamen leges duodecim tabularum
+in aes fuere incisae, quae vi<ref target="note.80.3"/> capta atque incensa a Gallis 
+urbe incolumes postea sunt repertae. Adeo duo maxima in rebus 
+humanis, diuturnitatem temporis et fortunae violentiam, vincit 
+
+
+
+<note xml:id="note.80.1"><p> collumnis ; MS. 
+</p></note>
+
+<note xml:id="note.80.2"><p> Hutten christianos; MS. 
+</p></note>
+
+<note xml:id="note.80.3"><p> in; Hutten, Bonneau. 
+
+
+
+</p></note>
+
+<pb n="82"/>
+
+
+circumspecta providentia. Constantinus vero orbis terrarum donationem
+papyro<ref target="note.82.1"/> tantum et atramento signavit, cum praesertim 
+machinator fabulae, quisquis ille fuit, faciat Constantinum dicentem
+se credere non defore qui donationem banc impia aviditate 
+rescinderent! Hoc times, Constantine, et non caves ne ii qui 
+Romam Silvestro eriperent chartulam quoque surriperent?</p>
+
+<p>Quid ipse Silvester pro se nihil agit? Ita omnia Constantino 
+remittit? Ita securus ac segnis est in tanto negotio? Nihil sibi, 
+nihil ecclesiae suae, nihil posteritati prospicit? En, cui Imperium 
+Romanum administrandum committas,<ref target="note.82.2"/> qui tam magnae rei tantoque
+aut lucro aut periculo indormit! Si quidem sublata chartula, 
+privilegii donationem utique aetate procedente probare non 
+poterit.</p>
+
+<p>"Paginam privilegii" appellat homo vesanus. Privilegiumne tu 
+(libet velut praesentem insectari) vocas donationem orbis terrarum;
+et hoc in pagina vis esse scriptum; et isto genere orationis 
+usum esse Constantinum? Si titulus absurdus est, qualia cetera 
+existimemus ?</p>
+
+<p>"Constantinus Imperator quarto die sui baptismatis privilegium 
+Romanae ecclesiae pontifici contulit, ut in toto orbe Romano<ref target="note.82.3"/>
+sacerdotes ita hunc caput habeant, sicut indices regem." Hoc in 
+ipsa Silvestri historia continetur; ex quo dubitari non potest ubinam
+scriptum significetur "privilegium." Sed, more eorum qui 
+mendacia machinantur, a vero incoepit<ref target="note.82.4"/> ut sequentibus, quae 
+falsa sunt, conciliet fidem, ut Sinon apud Virgilium: 
+
+
+
+<note xml:id="note.82.1"><p> papiro ; MS.
+
+</p></note>
+
+<note xml:id="note.82.2"><p>  committis ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.82.3"><p> in urbe Roma; Hutten. in tota urbe Romana; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.82.4"><p> incipit; Bonneau. 
+
+
+
+</p></note>
+
+<pb n="84"/>
+
+
+<quote><l>Cuncta equidem tibi, rex, fuerint quaectfmque fatebor.</l>
+<l>Vera, inquit, nec me Argolica de gente negabo.</l></quote>
+
+Hoc primum, deinde falsa subiecit. Ita hoc loco noster Sinon facit, 
+qui cum a vero incoepisset, adiecit: 
+
+"In eo privilegio, inter cetera, legitur: 'Utile iudicavimus una 
+cum omnibus satrapis nostris et universo senatu, optimatibus 
+etiam, et cum cuncto populo imperio Romanae ecclesiae subiacenti
+ut sicut beatus Petrus in terris vicarius Dei videtur esse 
+constitutus, etiam et pontifices ipsius principis apostolorum vicem 
+principatus potestatem amplius quam terrenae imperialis nostrae 
+serenitatis mansuetudo habere videretur, concessam a nobis nostroque
+imperio obtineant.' "</p>
+
+<p>O scelerate atque malefice! Eadem quam affers in testimoniimi 
+refert historia, longo tempore neminem senatorii ordinis voluisse 
+accipere religionem Christianam, et Constantinum pauperes sollicitasse
+pretio ad baptismum. Et tu ais intra primos statim dies 
+senatum, optimates, satrapes,<ref target="note.84.1"/> quasi iam Christianos, de honestanda
+ecclesia Romana cum Caesare decrevisse! Quid! Quod vis 
+interfuisse satrapes? O cautes, O stipes! Sic loquuntur Caesares? 
+Sic concipi solent decreta Romana? Quis umquam satrapes in 
+consiliis Romanorum nominari audivit? Non teneo memoria umquam
+legisse me uUum, non modo Romanum, sed ne in Romanorum
+quidem provinciis satrapem nominatum. At hie Imperatoris 
+
+
+
+<note xml:id="note.84.1"><p> satrapas; Hutten, so throughout. 
+
+
+
+</p></note>
+
+<pb n="86"/>
+
+
+satrapes vocat, eosque senatui praeponit, cum omnes honores, 
+etiam qui principi deferuntur, tantum a senatu decernantur, aut 
+iuncto<ref target="note.86.1"/> "populoque Romano." Hinc est quod in lapidibus vetustis 
+aut tabulis aereis aut numismatis duas litteras videmus scriptas: 
+S. C; id est, "Senatus consulto," vel quattuor:<ref target="note.86.2"/> S. P. Q. R., hoc 
+est, "Senatus populusque Romanus." Et, ut Tertullianus meminit, 
+cum Pontius Pilatus de admirandis Christi actionibus ad Tiberium 
+Caesarem, non ad senatum, scripsisset, siquidem ad senatum scribere
+de magnis rebus magistratus consueverant, senatus banc rem 
+indigne tulit, Tiberioque praerogativam ferenti ut Iesus pro deo 
+coleretur repugnavit, ob tacitam tantummodo indignationem 
+offensae senatoriae dignitatis. Et ut scias quantum senatus valeat 
+auctoritas, ne pro deo coleretur obtinuit.</p>
+
+<p>Quid! Quod ais optimates? Quos aut primarios in republica 
+viros intelligimus, qui cur nominentur<ref target="note.86.3"/> cum de ceteris magistratibus
+silentium sit? aut eos qui popular es non sunt, benevolentiam 
+populi aucupantes, sed optimi cuiusque et bonarum partium studiosi
+ac defensores, ut Cicero quadam oratione demonstrat? 
+Ideoque Caesarem ante oppressam rempublicam popularem fuisse 
+dicimus, Catonem ex optimatibus, quorum differentiam Sallustius 
+explicavit. Neque hi optimates magisquam populares aut ceteri 
+boni viri dicuntur in consilio adhiberi.</p>
+
+<p>Sed quid mirum si adhibentur optimates, ubi cunctus populus, 
+si homini credimus, cum senatu et Caesare iudicavit, et is quidem 
+Romanae ecclesiae subiacens! Et quis iste est populus? 
+
+
+
+<note xml:id="note.86.1"><p> adiuncto (instead of aut iuncto) ; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.86.2"><p> quatuor ; MS., so throughout, 
+</p></note>
+
+<note xml:id="note.86.3"><p> nominantur; Hutten. 
+
+
+
+</p></note>
+
+<pb n="88"/>
+
+
+Romanusne? At cur non dicitur populus Romanus potiusquam populus 
+subiacens? Quae nova ista contumelia est in Quirites, de quibus 
+optimi poetae elogium est: 
+
+<quote><l>Tu regere imperio populos, Romane, memento?</l></quote>
+
+Qui regit alios populos,<ref target="note.88.1"/> ipse vocatur populus subiacens, quod 
+inauditum est. Nam in hoc, ut in multis epistolig Gregorius testatur,
+differt Romanus princeps<ref target="note.88.2"/> a ceteris, quod solus est princeps 
+liberi populi. Ceterum ita sit ut vis. Nonne et alii populi subiacent? 
+An alios quoque significas ? Quomodo fieri istud triduo poterat, ut 
+omnes populi subiacentes imperio Romanae ecclesiae illi decreto 
+adessent? Tametsi num<ref target="note.88.3"/> omnis faex populi iudicabat? Quid! 
+Antequam subiecisset Romano pontifici populum Constantinus 
+subiectum vocaret? Quid! Quod ii<ref target="note.88.4"/> qui subiacentes vocantur 
+faciendo dicuntur praefuisse decreto? Quid! Quod hoc ipsum 
+dicuntur decrevisse, ut sint subiacentes et ut ille cui subiacent hos 
+habeat subiacentes? Quid agis aliud, infelix,<ref target="note.88.5"/> nisi ut indices te 
+voluntatem fallendi habere, facultatem non habere ?</p>
+
+<p>"Eligentes nobis ipsum principem apostolorum, vel eius 
+vicarios, firmos apud Deum esse patronos. Et sicut nostra est 
+terrena imperialis potentia, ita eius sacrosanctam Romanam 
+ecclesiam decrevimus veneranter honorare, et amplius quam 
+nostrum imperium terrenumque thronum, sedem sacratissimam 
+beati Petri gloriose exaltari,<ref target="note.88.6"/> tribuentes ei potestatem et gloriam 
+et dignitatem, atque vigorem et honorificentiam imperialem."</p>
+
+<p>Revivisce paulisper, Firmiane<ref target="note.88.7"/> Lactanti, resisteque huic asino 
+tam vaste immaniterque rudenti. Ita verborum turgentium strepitu 
+delectatur, ut eadem repetat et inculcet quae modo dixerat. 
+
+
+
+<note xml:id="note.88.1"><p> Bonneau omits Romane . . . populos. 
+</p></note>
+
+<note xml:id="note.88.2"><p> pontifex; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.88.3"><p> non; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.88.4"><p> hi; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.88.5"><p> infaelix; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.88.6"><p> exaltare ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.88.7"><p> Formiane; MS. 
+
+
+
+</p></note>
+
+<pb n="90"/>
+
+
+Hiincne in modum aevo tuo loquebantur Caesarum scribae, ne 
+dicam agasones? Elegit sibi illos Constantinus non patronos, sed 
+"esse patronos." Interposuit illud "esse" ut numerum redderet 
+concinniorem. Honesta ratio! Barbare loqui ut venustius currat 
+oratio, si modo quid in tanta scabritia venustum esse potest! "Eligentes
+principem apostolorum, vel eius vicarios." Non eligis<ref target="note.90.1"/> 
+Petrum et eius deinceps vicarios, sed aut hunc exclusis illis, aut 
+illos hoc excluso. Et pontifices Romanos appellat vicarios Petri, 
+quasi vel vivat Petrus, vel minori dignitate sint ceteri quam Petrus 
+fuit. Nonne et illud barbarum est; "a nobis nostroque imperio?" 
+Quasi imperium habeat animum concedendi et potestatem! Nec 
+fuit contentus dicere "obtineant," nisi etiam diceret "concessam," 
+cum satis alterum esset. Et illud "firmos patronos," perquam 
+elegans est! Scilicet firmos vult ne pecunia corrumpantur aut metu 
+labantur. Et illud "terrena imperialis potentia"; duo adiectiva 
+sine copula! Et illud "veneranter honorare," et illud "nostrae 
+imperialis serenitatis mansuetudo!" Lactantianam eloquentiam 
+redolet, cum de potentia agatur imperii, serenitatem nominare et 
+mansuetudinem, non amplitudinem et maiestatem. Quod etiam 
+tumida superbia inflatum est, ut in illo quoque, "gloriose exaltari"<ref target="note.90.2"/>
+per "gloriam et potestatem et dignitatem, et vigorem et honorificentiam
+imperialem"! quod ex Apocalypsi sumptum videtur, ubi 
+dicitur: "Dignus est agnus qui occisus est, accipere virtutem et 
+divinitatem<ref target="note.90.3"/> et sapientiam et fortitudinem et honorem et benedictionem."
+Frequenter, ut posterius liquebit, titulos Dei sibi 
+
+
+
+<note xml:id="note.90.1"><p> elegis; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.90.2"><p> exaltare; Hutten. 
+
+</p></note>
+
+<note xml:id="note.90.3"><p> dignitatem ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="92"/>
+
+
+arrogare fingitur Constantinus, et imitari velle sermonem sacrae 
+Scripturae, quem numquam legerat.</p>
+
+<p>"Atque decernentes sancimus, ut principatum teneat, tarn super 
+quatuor sedes Alexandrinam, Antiochenam, lerosolimitanam, 
+Constantinopolitanam, quam etiam super omnes in universe orbe 
+terrarum Dei ecclesias; etiam pontifex, qui per tempora ipsius 
+sacrosanctae Romanae ecclesiae extiterit, celsior et princeps 
+cunctis sacerdotibus et totius mundi existat, et eius iudicio, quae 
+ad cultum Dei et iidem Christianorum vel stabilitatem procurandam
+fuerint, disponantur."<ref target="note.92.1"/>
+
+Omitto hie barbariem sermonis, quod "princeps sacerdotibus" 
+pro "sacerdotum" dixit, et quod in eodem loco posuit "extiterit" et 
+"existat," et, cum dixerit "in universo orbe terrarum," iterum 
+addit "totius mundi," quasi quiddam diversum, aut caelum, quae 
+mundi pars est, complecti velit, cum bona pars orbis terrarum 
+sub Roma non esset, et quod "fidem Christianorum," "vel stabilitatem
+procurandam," tamquam non possent simul esse, distinxit, 
+et quod "decernere" et "sancire" miscuit, et veluti prius cum 
+ceteris Constantinus non iudicasset, decernere eum et, tamquam 
+poenam proponat, sancire, et quidem ima cum populo sancire facit. 
+Quis hoc Christianus pati queat, et non papam, qui hoc patitur 
+ac libens audit et recitat, censorie severeque castiget, quod, cum a 
+Christo primatum acceperit Romana sedes et id, Gratiano testante 
+multisque Graecorum, octava synodus declararit, accepisse dicatur 
+
+
+
+<note xml:id="note.92.1"><p> Hutten, Bonneau. disponatur; MS. error. 
+
+
+
+</p></note>
+
+<pb n="94"/>
+
+
+a Constantino vix dum Christiano tamquam a Christo? Hoc ille 
+modestissimus princeps dicere, hoc piissimus pontifex audire voluisset?
+Absit tam grave ab utroque illorum nefas!</p>
+
+<p>Quid, quod multo est absurdius, capitne rerum natura, ut quis 
+de Constantinopoli loqueretur tamquam una patriarchalium 
+sedium, quae nondum esset nec patriarchalis, nec sedes, nec urbs 
+Christiana, nec sie nominata, nec eondita, nec ad condendum destinata?
+Quippe privilegium eoneessum est triduo quod Constantinus
+esset effeetus Christianus, cum Byzantium<ref target="note.94.1"/> adhue erat, 
+non Constantinopolis. Mentior nisi hoc quoque confiteatur<ref target="note.94.2"/> hie 
+stolidus. Scribit enim prope calcem privilegii: 
+
+"Unde eongruum prospeximus, nostrum imperium et regiam 
+potestatem orientalibus transferri regionibus, et in Byzantiae provinciae
+optimo loco nomini nostro civitatem aedificari, et illic 
+nostrum constitui imperium."</p>
+
+<p>Si ille transferre volebat alio imperium, nondum transtulerat. 
+Si illie volebat eonstituere imperium, nondum eonstituerat. Si sie 
+volebat aedificare urbem, nondum aedifieaverat. Non ergo feeisset 
+mentionem de patriarehali, de una quattuor sedium, de Christiana, 
+de sic nominata, de eondita; de qua condenda, ut historiae placet 
+quam Palea in testimonium affert, ne cogitarat quidem. A qua<ref target="note.94.3"/>
+non videt haec belua, sive is Palea sit, sive alius quern Palea 
+sequitur, se dissentire, ubi Constantinus, non sua sponte, sed inter 
+quietem admonitu Dei, non Romae, sed Byzantii, non intra paucos 
+dies, sed post aliquot annos, dicitur decrevisse de urbe condenda, 
+nomenque quod in somnis edoetus fuerat indidisse. Quis ergo non 
+
+
+
+<note xml:id="note.94.1"><p> Bizantium ; MS., so in many places. 
+
+</p></note>
+
+<note xml:id="note.94.2"><p> Hut ten, Bonneau. confitentur; MS. error. 
+</p></note>
+
+<note xml:id="note.94.3"><p> Atqui; Hutten. Atque; Bonneau. 
+
+
+
+</p></note>
+
+<pb n="96"/>
+
+
+videt, qui privilegium composuit, eum diu post tempora Constantini
+fuisse, et, cum vellet adornare mendacium, excidisse sibi quod 
+ante dixisset haec gesta esse Romae tertio die quam ille fuisset 
+baptizatus : ut in eum decentissime cadat tritum vetustate proverbium,
+"Mendaces memores esse oportere"?</p>
+
+<p>Quid, quod Byzantiam provinciam vocat quod erat oppidum 
+nomine<ref target="note.96.1"/> Byzantium? Locus haudquaquam capax tantae urbis condendae:
+namque muris complexa est Constantinopolis vetus 
+Byzantium! Et hie in eius optimo loco ait urbem esse condendam! 
+Quid, quod Thraciam,<ref target="note.96.2"/> ubi positum erat Byzantium, vult esse in 
+oriente, quae vergit ad Aquilonem! Opinor ignorabat Constantinus
+locum quem condendae urbi delegerat, sub quo caelo esset, 
+urbsque an provincia, quanta eius mensura foret!</p>
+
+<p>"Ecclesiis beatorum apostolorum Petri et Pauli pro continuatione
+luminariorum possessionum praedia contulimus, et rebus 
+diversis eas ditavimus, et per nostram imperialem iussionem 
+sacram tam in oriente quam in occidente quam etiam a septentrione
+et meridionali plaga, videlicet in ludaea, Graecia, Asia, 
+Thracia, Africa, et Italia, vel diversis insulis, nostra largitate eis 
+concessimus, ea prorsus ratione, ut per manus beatissimi patris 
+nostri Silvestri summi pontificis successorumque eius omnia disponantur."</p>
+
+<p>O furcifer! Ecclesiaene, id est templa, Romae erant Petro et 
+Paulo dicatae? Quis eas exstruxerat ?<ref target="note.96.3"/> Quis aedificare ausus fuisset 
+cum nusquam foret, ut historia ait, Christianis locus nisi secreta 
+et latebrae? Aut si qua templa Romae fuissent illis dicata apostolis,
+non erant digna in quibus tanta luminaria accenderentur; aediculae
+sacrae, non aedes; sacella, non templa; oratoria inter 
+privatos parietes, non publica delubra. Non ergo ante cura gerenda 
+erat de luminaribus templorum, quam de ipsis templis. 
+
+
+
+<note xml:id="note.96.1"><p> Hutten omits Byzantiam . . . nomine. 
+
+</p></note>
+
+<note xml:id="note.96.2"><p> Trachia; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.96.3"><p> extruxerat; MS. 
+
+
+
+</p></note>
+
+<pb n="98"/>
+
+
+Quid ais tu, qui facis Constantinum dicentem Petrum et Paulum 
+beatos, Silvestrum vero cum adhuc vivit beatissimum, et suam 
+qui paulo ante fuisset ethnicus iussionem sacram? Tantane conferenda
+sunt pro luminaribus continuandis, ut totus orbis terrarum 
+fatigetur? At quae ista praedia sunt, praesertim "possessionum"? 
+Praediorum possessiones dicere solemus, non "possessionum praedia."
+Das praedia, nec quae praedia explicas. Ditasti diversis 
+rebus, nec quando, nec quibus rebus ostendis. Vis plagas orbis a 
+Silvestro disponi, nec pandis quo genere disponendi. Coneessisti 
+haee antea? Cur te hodie ineoepisse significas honorare eeelesiam 
+Romanam et ei privilegium concedere? Hodie coneedis; hodie 
+ditas? Cur dieis "eoneessimus" et "ditavimus"? Quid loqueris, 
+aut quid sentis, bestia? Cum fabulae maehinatore mihi sermo est, 
+non cum optimo prineipe Constantino.</p>
+
+<p>Sed quid in te ullam prudentiam, ullam doctrinam requiro, qui 
+nullo ingenio, nulla litteratura es praeditus; qui ais "luminariorum"
+pro luminarium, et "orientalibus transferri regionibus" pro 
+eo quod est ad orien tales transferri regiones? Quid porro? Istaene 
+sunt quattuor plagae? Quam orien talem numeras? Thraeiamne? 
+At, ut dixi, vergit ad septentrionem. An ludaeam? At magis ad 
+meridiem speetat, utpote vicina Aegypto. Quam item occidentalem?
+Italiamne? At haee in Italia gerebantur, quam nemo illic 
+agens occidentalem vocat; cum Hispanias dieamus esse in oecidente;
+et Italia hine ad meridiem illine ad areton magisquam ad 
+oecidentem vergit. Quam septentrionalem? An Thraeiam? At ipse 
+ad orientem esse vis. An Asiam? At haee sola totum possidet orientem,
+septentrionem vero communem<ref target="note.98.1"/> cum Europa. Quam meridionalem?
+Certe Afrieam. At cur non aliquam nominatim 
+provineiam proferebas? Nisi forte Aethiopes Romano imperio 
+
+
+
+<note xml:id="note.98.1"><p> comunem ; MS. 
+
+
+
+</p></note>
+
+<pb n="100"/>
+
+
+suberant. Et nihilominus non habent locum Asia et Africa cum 
+orbem terrarum in quattuor dividimus partes et nominatim regiones
+singularum referimus, sed cum in tres, Asiam, Africam, 
+Europam; nisi Asiam pro Asiatica provincia, Africam pro ea 
+provincia quae prope Gaetulos<ref target="note.100.1"/> est, appellas, quae non video cur 
+praecipue nominentur.<ref target="note.100.2"/>
+
+Sicine<ref target="note.100.3"/> locutus esset Constantinus, cum quattuor orbis plagas 
+exsequitur,<ref target="note.100.4"/> ut has regiones nominaret, ceteras non nominaret; et 
+a ludaea inciperet, quae pars Syriae numeratur et quae amplius 
+ludaea non erat, eversa Hierosolima, fugatis et prope exstinctis<ref target="note.100.5"/> 
+ludaeis, ita ut credam vix aliquem in sua tunc patria remansisse, 
+sed alias habitasse nationes? Ubi tandem erat ludaea, quae nec 
+ludaea amplius vocabatur, ut hodie videmus illud terrae nomen 
+exstinctum ? Et sicut exterminatis Chananeis Chananea regio desiit 
+appellari, commutato nomine in ludaeam a novis incolis, ita exterminatis
+ludaeis et convenis gentibus eam incolentibus desierat 
+ludaea nominari.</p>
+
+<p>Nuncupas ludaeam, Thraciam, insulas; Hispanias vero, Gallias, 
+Germanos non putas nuncupandos, et cum de aliis Unguis loquaris, 
+Hebraea, Graeca, barbara, de ulla provinciarum Latino sermone 
+utentium non loqueris. Video: has tu ideo<ref target="note.100.6"/> omisisti, ut postea in 
+donatione complectereris. Et quid non tanti erant tot provinciae 
+occidentis, ut continuandis luminaribus suppeditarent sumptus, 
+nisi reliquus orbis adiuvaret?</p>
+
+<p>Transeo quod haec concedi ais per largitatem; non ergo, ut isti 
+aiunt, ob leprae curationem. Alioquin insolens sit, quisquis remunerationem
+loco munerum ponit.</p>
+
+<p>"Beato Silvestro eius vicario de praesenti tradimus palatium 
+imperii nostri Lateranense, deinde diadema, videlicet coronam 
+capitis nostri, simulque phrygium, nec non et superhumerale, videlicet
+lorum quod imperiale circumdare<ref target="note.100.7"/> solet coUum, verum etiam 
+
+<note xml:id="note.100.1"><p> Getulos ; MS. 
+</p></note>
+
+<note xml:id="note.100.2"><p> Hutten. nominetur ; MS. 
+
+</p></note>
+
+<note xml:id="note.100.3"><p> Siccine; MS. 
+</p></note>
+
+<note xml:id="note.100.4"><p> exequitur; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.100.5"><p> extinctis; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.100.6"><p> igitur, instead of tu ideo; Hutten. te omnino omisisse; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.100.7"><p> circundare ; MS. 
+
+
+
+</p></note>
+
+<pb n="102"/>
+
+
+chlamydem<ref target="note.102.1"/> purpuream, atque tunicam coccineam, et omnia imperialia
+indumenta, seu etiam dignitatem imperialium praesidentium
+equitum; conferentes etiam ei imperialia sceptra, simulque 
+cuncta signa atque banna et diversa ornamenta imperialia, et 
+omnem processionem imperialis culminis, et gloriam potestatis 
+nostrae.</p>
+
+<p>"Viris etiam diversi ordinis reverendissimis<ref target="note.102.2"/> clericis sanctae 
+Romanae ecclesiae servientibus, illud culmen singularis potentiae 
+et praecellentiae habere sancimus, cuius amplissimus noster senatus
+videtur gloria adornari, id est patricios,<ref target="note.102.3"/> consules effici. Nec 
+non in ceteris dignitatibus imperialibus eos promulgavimus decorari.
+Et sicut imperialis extat decorata militia, ita clerum sanctae 
+Romanae ecclesiae adornari decrevimus. Et quemadmodum imperialis
+potentia diversis officiis, cubiculariorum nempe et ostiariorum<ref target="note.102.4"/>
+atque omnium concubitorum ordinatur,<ref target="note.102.5"/> ita et sanctam 
+Romanam ecclesiam decorari volumus. Et ut amplissime pontificale
+decus praefulgeat, decernimus<ref target="note.102.6"/> et ut clerici sancti eiusdem 
+sanctae Romanae ecclesiae mappulis et linteaminibus, id est candidissimo
+colore decoratos equos equitent, et sicut noster senatus 
+calciamentis utitur cum udonibus, id est candido linteamine illustrentur,
+et ita caelestia sicut terrena ad laudem Dei decorentur."</p>
+
+<p>O sancte Iesu! Ad hunc sententias volventem sermonibus imperitis
+non respondebis de turbine? Non tonabis? Non in tantam 
+blasphemiam<ref target="note.102.7"/> ultricia fulmina iaculabere? Tantumne probrum in 
+tua familia sustines? Hoc audire, hoc videre, hoc tamdiu conniventibus
+oculis praeterire potes? Sed patiens<ref target="note.102.8"/> es, et multae misericordiae.
+Vereor tamen ne patientia haec tua sit potius ira et 
+condemnatio, qualis in illos fuit, de quibus dixisti: "Et dimisi eos 
+secundum desiderium cordis eorum, ibunt in adinventionibus suis," 
+
+
+
+<note xml:id="note.102.1"><p> Hutten. clamydem ; MS. 
+</p></note>
+
+<note xml:id="note.102.2"><p> revendissimis ; MS., an error. 
+
+</p></note>
+
+<note xml:id="note.102.3"><p> patritios; MS. 
+</p></note>
+
+<note xml:id="note.102.4"><p> Hutten. hostiariorum; MS. 
+
+</p></note>
+
+<note xml:id="note.102.5"><p> adornatur ; Hutten. 
+</p></note>
+
+<note xml:id="note.102.6"><p> decrevimus ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.102.7"><p> blasfemiam; MS. 
+</p></note>
+
+<note xml:id="note.102.8"><p> paciens; MS., so throughout. 
+
+
+
+</p></note>
+
+<pb n="104"/>
+
+
+et alibi: "Tradidi eos in reprobum sensum,,ut faciant quae non 
+conveniunt, quia non probaverunt se habere notitiam mei." lube 
+me, quaeso, Domine, ut exclamem adversus eos, et forte convertantur.<ref target="note.104.1"/>
+
+
+O Romani pontifices, exemplum facinorum omnium ceteris 
+pontificibus ! O improbissimi scribae et Pharisaei,<ref target="note.104.2"/> qui sedetis 
+super cathedram Moysi, et opera Dathan et Abiron f acitis ! Itane 
+vestimenta, apparatus, pompa, equitatus, omnis denique vita 
+Caesaris vicarium Christi decebit ? Quae communicatio sacerdotis 
+ad Caesarem? Istane Silvester vestimenta sibi induit? Eo apparatu 
+incessit? Ea celebritate ministrantium domi vixit atque regnavit? 
+Sceleratissimi homines non intelligunt Silvestro magis vestes 
+Aaron, qui summus Dei sacerdos fuerat, quam gentilis principis 
+fuisse sumendas.</p>
+
+<p>Sed haec alias erunt exagitanda vehementius. Impraesentiarum 
+autem de barbarismo cum' hoc sycophanta loquamur, cuius ex 
+stultiloquio impudentissimum eius patescit<ref target="note.104.4"/> sua sponte mendacium.</p>
+
+<p>"Tradimus," inquit, "palatium imperii nostri Lateranense" ; 
+quasi male hoc loco inter ornamenta donum palatii posuisset, 
+iterum postea ubi de donis agitur replicavit. "Deinde diadema"; 
+et quasi illi non videant qui adsunt, interpretatur ; "videlicet coronam."
+Verum hie non addidit "ex auro," sed posterius easdem res 
+inculcans inquit; "ex auro purissimo et gemmis preciosis." Ignoravit
+homo imperitus diadema e panno esse aut fortassis ex serico; 
+unde sapiens illud regis dictum celebrari solet, quem ferunt traditum
+sibi diadema priusquam capiti imponeret retentum diu considerasse
+ac dixisse: "O nobilem magisquam felicem pannum! 
+Quem si quis penitus agnosceret,<ref target="note.104.5"/> quam multis sollicitudinibus<ref target="note.104.6"/>
+periculisque et miseriis sis refertus, ne humi quidem iacentem 
+
+
+
+<note xml:id="note.104.1"><p> convertentur ; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.104.2"><p> Pharisei; MS. 
+
+</p></note>
+
+<note xml:id="note.104.3"><p> Hutten, Bonneau. Omit cum ; MS. 
+</p></note>
+
+<note xml:id="note.104.4"><p> patescet ; MS. 
+</p></note>
+
+<note xml:id="note.104.5"><p> cognosceret ; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.104.6"><p> solicitudinibus ; MS. 
+
+
+
+</p></note>
+
+<pb n="106"/>
+
+
+vellet tollere."<ref target="note.106.1"/> Iste non putat illud nisi ex auro esse, cui circulus 
+aureus nunc cum gemmis apponi a regibus solet. Verum non erat 
+rex Constantinus, nec regem appellate, nec regio se ritu ornare 
+fuisset ausus. Imperator Romanorum erat, non rex. Ubi rex est, 
+ibi respublica non est. At in republica multi fuerunt etiam uno 
+tempore imperatores; nam Cicero frequenter ita scribit: M. 
+Cicero imperator illi vel illi imperatori salutem: licet postea peculiari
+nomine Romanus princeps, ut summus omnium, imperator 
+appelletur.</p>
+
+<p>"Simulque phrygium, nec non superhumerale, videlicet lorum 
+quod imperiale circumdare solet coUum." Quis umquam phrygium 
+Latine dici audivit? Tu mihi dum barbare loqueris videri vis Constantini
+aut Lactantii esse sermonem. Plautus in Menaechmis<ref target="note.106.1"/>
+phrygionem<ref target="note.106.3"/> pro concinnatore vestium posuit. Plinius phrygionas<ref target="note.106.2"/> 
+appellat vestes acu pictas, quod earum Phryges fuerint<ref target="note.106.4"/> inventores.
+Phrygium vero quid significat?5Hoc non exponis, quod obscurum;
+exponis quod est elarius. Superhumerale ais esse lorum, 
+nec quid sit lorum tenes; non enim cingulum ex corio factum, 
+quod dicitur lorum, sentis circumdari pro ornamento Caesaris 
+collo: hine est quod habenas et verbera vocamus lora; quod si 
+quando dieantur lora aurea, non nisi de habenis quae auratae 
+collo equi aut alterius pecudis circumdari assolent intelligi potest. 
+Quae te res, ut mea fert opinio, fefellit, et cum lorum circumdare 
+collo<ref target="note.106.6"/> Caesaris atque Silvestri vis, de homine, de imperatore, de 
+summo pontifice, equum aut asinum<ref target="note.106.7"/> facis.</p>
+
+<p>"Verum et ehlamydem<ref target="note.106.8"/> purpuream, atque tunicam coeeineam." 
+Quia Matthaeus ait chlamydem coeeineam, et loannes vestem 
+purpuream, utrumque voluit hie eodem loco coniungere. Quod si 
+idem color est, ut Evangelistae significant, quid tu non fuisti eontentus
+alterum nominasse, ut illi content! fuerunt: nisi aceipis 
+purpuram, ut nunc imperiti loquuntur, genus panni serici colore 
+
+<note xml:id="note.106.1"><p> Menechinis ; MS. 
+</p></note>
+
+<note xml:id="note.106.2"><p> Hutten. frygionem; MS. 
+
+</p></note>
+
+<note xml:id="note.106.3"><p> Correct form is phrygionias. Bonneau omits this whole sentence. 
+
+</p></note>
+
+<note xml:id="note.106.4"><p> fuerunt ; Hutten. 
+</p></note>
+
+<note xml:id="note.106.5"><p> significet ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.106.6"><p> loro circumdari collum ; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.106.7"><p> Insert aut canem; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.106.8"><p> chlamidem; MS., so below. 
+
+
+
+</p></note>
+
+<pb n="108"/>
+
+
+albo? Est autem purpura piscis, cuius sanguine lana tingitur, 
+ideoque a tinctura datum est nomen panno, cuius color pro rubro 
+accipi potest, licet sit magis nigricans et proximus colori sanguinis 
+concreti, et quasi violaceus. Inde ab Homero atque Virgilio purpureus
+dicitur sanguis et marmor porphyritum<ref target="note.108.1"/> cuius color est 
+simillimus amethysto;<ref target="note.108.2"/> Graeci enim purpuram porphyram vocant. 
+Coccineum pro rubro accipi forte non ignoras; sed cur facial 
+coccineum cum nos dicamus coccum, et chlamys quod genus sit 
+vestimenti, iurarem te plane nescire.</p>
+
+<p>Atque ut ne se<ref target="note.108.3"/> longius persequendo singulas vestes mendacem 
+proderet, uno samel verbo complexus est, dicens; "omnia imperialia
+indumenta." Quid! Etiamne illa quibus in bello, quibus in 
+venatione, quibus in conviviis, quibus in ludis amiciri solet? Quid 
+stultius quam omnia Caesaris indumenta dicere convenire pontifici?</p>
+
+<p>Sed quam lepide addit; "Seu etiam dignitatem imperialium 
+praesidentium equitum"! "Seu" inquit. Distinguere duo haec invicem
+voluit, quasi multum inter se habeant similitudinis, et de 
+imperatorio habitu ad equestrem dignitatem delabitur,<ref target="note.108.4"/> nescio 
+quid loquens. Mira quaedam effari vult, sed deprehendi in mendacio<ref target="note.108.5"/>
+timet, eoque inflatis buccis et turgido gutture dat sine 
+mente sonum.</p>
+
+<p>"Conferentes ei etiam imperialia sceptra." Quae structura orationis!
+Qui nitor! Qui ordo! Quaenam sunt sceptra ista imperialia? 
+Unum est sceptrum, non plura; si modo sceptrum gerebat imperator.
+Num et pontifex sceptrum manu gestabit? Cur non ei dabimus 
+et ensem et galeam et iaculum?</p>
+
+<p>"Simulque cuncta signa atque banna." Quid tu "signa" accipis? 
+Signa sunt aut statuae, unde frequenter legimus signa et tabulas 
+
+
+
+<note xml:id="note.108.1"><p> porphiritum ; MS. 
+</p></note>
+
+<note xml:id="note.108.2"><p> amethisto ; MS. 
+
+</p></note>
+
+<note xml:id="note.108.3"><p> si; Hutten. 
+</p></note>
+
+<note xml:id="note.108.4"><p> dilabitur; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.108.5"><p> mendatio; MS. 
+
+
+
+</p></note>
+
+<pb n="110"/>
+
+
+pro sculpturis ac picturis,-prisci enim non in parietibus pingebant,
+sed in tabulis, — aut vexilla, unde illud; "Signa, pares 
+aquilas." A priore significato sigilla dicuntur parvae statuae atque 
+sculpturae. Num ergo statuas aut aquilas suas Silvestro dabat Constantinus?
+Quid hoc absurdius? At "banna" quid sibi velit, non invenio.
+Deus te perdat, improbissime mortalium, qui sermonem 
+barbarum attribuis saeculo erudito!</p>
+
+<p>"Et diversa ornamenta imperialia." Quia dixit "banna," satis 
+putavit significatum esse, et ideo cetera sub verbum universale 
+conclusit. Et quam frequenter inculcat "imperalia"; quasi propria 
+quaedam sint ornamenta imperatoris magis quam consulis, quam 
+dictatoris, quam Caesaris !</p>
+
+<p>"Et omnem processionem imperialis culminis, et gloriam potestatis
+nostrae." 
+
+<quote><l>Proicit ampullas et sesquipedalia verba,</l>
+<l>Rex regum Darius, consanguineusque deorum,</l></quote>
+
+numquam nisi numero plurali loquens<ref target="note.110.1"/> Quae est ista processio 
+imperialis; cucumeris per herbam torti, et crescentis<ref target="note.110.2"/> in ventrem? 
+Triumphasse existimas Caesarem quotiens domo prodibat, ut nunc 
+solet papa, praecedentibus albis equis, quos stratos ornatosque 
+famuli dextrant; quo, ut taceam alias ineptias, nihil est vanius, 
+nihilque a pontifice Romano alienius? Quae etiam ista gloria est? 
+Gloriamne, ut Hebraeae linguae mos est, pompam et apparatus 
+ilium splendorem homo Latinus appellasset ? Ut illud quoque militiam
+pro milites, quod ab Hebraeis sumus mutuati, quorum libros 
+Cons tan tinus aut ipsius scribae numquam aspexerant?</p>
+
+<p>Verum quanta est munificentia tua, Imperator, qui non satis 
+habes ornasse<ref target="note.110.3"/> pontificem, nisi ornes et omnem clerum! "Culmen 
+
+
+
+<note xml:id="note.110.1"><p> loqueris ; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.110.2"><p> cresentis ; MS. 
+
+</p></note>
+
+<note xml:id="note.110.3"><p> Insert summum ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="112"/>
+
+
+singularis potentiae et praecellentiae," ais, "effici patricios, consules."
+Quis audivit senatores aliosve homines effici patricios? 
+Consules efficiuntur, non patricii;<ref target="note.112.1"/> ex domo vel patricia, quae 
+eadem senatoria dicitur, siquidem senatores patres conscript! sunt, 
+vel ex equestri, vel ex plebeia; plusque est senatorem esse quam 
+patricium, nam senator est unus e delectis consiliariis reipublicae, 
+patricius<ref target="note.112.2"/> vero qui e domo senatoria ortum ducit. Ita qui senator 
+aut ex patribus conscriptis non protinus et patricius<ref target="note.112.2"/> est. Ridiculeque
+Romani mei hoc tempore faciunt, qui praetorem suum 
+senatorem vocant, cum neque senatus ex uno homine constare 
+possit, necesseque sit senatorem habere collegas; et is<ref target="note.112.3"/> qui nunc 
+senator dicitur fungatur officio praetoris. At dignitas patriciatus in 
+multis libris invenitur, inquies. Audio : sed in his qui de temporibus
+post Constantinum loquuntur. Ergo post Constantinum privilegium
+confectum est.</p>
+
+<p>Sed numquid clerici fieri consules possunt? Coniugio sibi interdixere
+Latini clerici: et consules fient, habitoque delectu militum 
+cum legionibus et auxiliis in provincias, quas fuerint sortiti, se 
+conferent? Ministrine et servi consules fient?<ref target="note.112.4"/> Nec bini, ut solebat,
+sed centeni ac milleni ministri qui Romanae ecclesiae servient, 
+dignitate afficientur imperatoria? Et ego stolidus mirabar quod 
+papa effici diceretur! Ministri imperatores erunt; clerici vero 
+milites. Militesne clerici fient, aut militaria ornamenta gestabunt, 
+nisi imperialia ornamenta universis clericis impertis? Nam nescio 
+quid dicas. Et quis non videt hanc fabulam ab iis excogitatam esse, 
+qui sibi omnem vestiendi licentiam esse voluerunt? Ut existimem. 
+
+
+
+<note xml:id="note.112.1"><p> patritii; MS. 
+</p></note>
+
+<note xml:id="note.112.2"><p> patritius; MS. 
+</p></note>
+
+<note xml:id="note.112.3"><p> Hutten, Bonneau. iis; MS. 
+
+</p></note>
+
+<note xml:id="note.112.4"><p> fiant; Hutten. faciunt; Bonneau. Add aut militaria ornamenta; Hutten,  Bonneau. 
+
+
+
+</p></note>
+
+<pb n="114"/>
+
+
+si qua inter daemones qui aerem incolunt ludorum genera exercentur,
+eos exprimendo clericorum cultu, fastu, luxu, exerceri, et 
+hoc scaenici<ref target="note.114.1"/> lusus genere maxime delectari.</p>
+
+<p>Utrum magis insequar, sententiarum an verborum stoliditatem? 
+Sententiarum audistis. Verborum haec est; ut dicat senatum videri 
+adornari, quasi non utique adornetur, et quidem adornari gloria; 
+et quod fit, factum esse velit, ut "promulgavimus" pro promulgamus,
+illo enim modo sonat iucundius oratio; et eandem rem per 
+praesens et per praeteritum enuntiet, velut "decernimus" et 
+"decrevimus" ; et omnia sint referta his vocibus, "decernimus," 
+"decoramus," "imperialis," "imperatoria," "potentia," "gloria"; 
+et "exstat" pro est posuerit, cum "extare" sit supereminere, vel 
+superesse; et "nempe" pro scilicet; et "concubitores" pro contubernales.
+"Concubitores" sunt qui concumbunt, et coeunt; nimirum
+scorta intelligend<ref target="note.114.1"/> sunt. Addit, cum quibus dormiat, ne 
+timeat, opinor, nocturna phantasmata: addit cubicularios : addit 
+hostiarios.</p>
+
+<p>Non otiosum<ref target="note.114.2"/> est, quare haec ab eo minuta referuntur. Pupillum
+instituit aut adolescentem filium, non senem; cui omnia quibus 
+necesse habet tenera aetas ipse velut amantissimus pater praeparat,
+ut David Salomoni<ref target="note.114.3"/> fecit. Atque ut per omnes numeros 
+fabula impleatur, dantur clericis equi, ne asinario illo Christi more 
+super asellos sedeant; et dantur non operti sive instrati operimentis
+color is albi, sed decor ati colore albo. At quibus operimentis! 
+Non stragulis, non Babylonicis, aut quo alio genere, sed 
+
+
+
+<note xml:id="note.114.1"><p> scenici ; MS. 
+</p></note>
+
+<note xml:id="note.114.2"><p> ociosum ; MS. 
+
+</p></note>
+
+<note xml:id="note.114.3"><p> Hutten, Bonneau. Salomon; MS. 
+
+
+
+</p></note>
+
+<pb n="116"/>
+
+
+"mappulis et linteaminibus"! Mappae ad mensam pertinent, linteamina 
+ad lectulos. Et quasi dubium sit cuius sint haec coloris, interpretatur;
+"id est candidissimo colore." Dignus Constantino sermo, 
+digna Lactantio facundia, cum in ceteris, turn vero in illo "equos 
+equitent"!</p>
+
+<p>Et cum de vestitu senatorum nihil dixerit, non de laticlavo, non 
+de purpura, non de ceteris, de calceamentis sibi loquendum putavit;
+nec lunulas appellavit, sed udones, sive "cum udonibus," 
+quos ut solet homo ineptus exponit, "id est candido linteamine," 
+quasi udones linteamen sint! Non occurrit impraesentiarum,<ref target="note.116.1"/> ubi 
+repererim "udones," nisi apud Martialem Valerium, cuius disticon
+quod inscribitur "Udones Cilicii"<ref target="note.116.2"/> hoc est: 
+
+<quote><l>Non hos lana dedit, sed olentis barba mariti; </l>
+<l>Cinyphio<ref target="note.116.3"/> poterit planta latere sinu.</l></quote></p>
+
+<p>Ergo non linei utique, nec candidi sunt udones, quibus hie bipes 
+asellus non calceari pedes senatorum ait, sed senatores illustrari. 
+Atque per hoc, "sicut caelestia ita terrena<ref target="note.116.4"/> ad laudem Dei decorentur,"
+quae tu "caelestia" vocas; quae "terrena"? Quomodo 
+caelestia decorantur? Quae autem Deo laus sit ista tu videris. Ego 
+vero, si qua mihi fides est, nihil puto nec Deo nec ceteris hominibus
+magis esse invisum quam tantam clericorum in rebus saeeularibus
+licentiam. Verum quid ego in singula impetum facio? Dies 
+me deficiat,<ref target="note.116.5"/> si universa, non dico amplifieare, sed attingere velim.</p>
+
+<p>"Pre<ref target="note.116.6"/> omnibus autem licentiam tribuimus beato Silvestro et 
+suceessoribus eius ex nostro indictu, ut quem plaeatus proprio 
+consilio clerieare voluerit et in religiose numero religiosorum 
+
+
+
+<note xml:id="note.116.1"><p> inpraesentiarum ; MS. 
+</p></note>
+
+<note xml:id="note.116.2"><p> Bonneau. Cilicini ; MS., Hutten. 
+</p></note>
+
+<note xml:id="note.116.3"><p> Bonneau. Cyniphio; MS., Hutten. 
+
+</p></note>
+
+<note xml:id="note.116.4"><p> terrestria; Hutten, Bonneau. The quotation, to correspond with Valla's  earlier citation, should be "ita caelestia sicut terrena ad laudem Dei decorentur." 
+</p></note>
+
+<note xml:id="note.116.5"><p> deficiet; Hutten, Bonneau. Insert alias deficient; Bonneau. 
+</p></note>
+
+<note xml:id="note.116.6"><p> prae; Hutten, Bonneau. 
+
+
+
+</p></note>
+
+<pb n="118"/>
+
+
+clericorum connumerare, nullus ex omnibus praesumat superbe 
+agere."</p>
+
+<p>Quis est hie Melchisedec, qui patriarcham Abraam benedicit? 
+Constantinusne, vix Christianus, facultatem ei, a quo baptizatus 
+est et quem beatum appellat, tribuit clericandi? Quasi prius nec 
+fecisset hoc Silvester nec facere potuisset! Et qua comminatione 
+vetuit, ne quis impedimento esset? "Nullus ex omnibus praesumat 
+superbe agere." Qua etiam elegantia! "Connumerare in numero 
+religiose religiosorum," "clericare . . . clericorum," et "indictu," 
+et "placatus."</p>
+
+<p>Atque iterum ad diadema revertitur : 
+
+<quote>Decrevimus itaque et hoc, ut ipse et successores eius diademate,
+videlicet corona, quam ex capite nostro illi concesserimus,<ref target="note.118.1"/>
+ex auro purissimo et gemmis pretiosis<ref target="note.118.2"/> uti debeant pro 
+honore beati Petri.</quote></p>
+
+<p>Iterum interpretatur diadema; cum barbaris enim et obliviosis 
+loquebatur; et adicit "de auro purissimo," ne forte aliquid aeris 
+aut scoriae crederes admixtum.<ref target="note.118.3"/> Et gemmas cum dixit, addit 
+"pretiosas" eodem timore ne viles forsitan suspicareris. Cur tamen 
+non "pretiosissimas," quemadmodum "aurum purissimum"? Plus 
+namque<ref target="note.118.4"/> interest inter gemmam et gemmam, quam inter aurum et 
+aurum. Et cum dicere debuisset distinctum gemmis, dixit "ex 
+gemmis." Quis non vidit ex eo loco sumptum, quem princeps gentilis
+non legerat; "Posuisti in capite eius coronam de lapide pretioso"?
+Sic locutus<ref target="note.118.5"/> est Caesar vanitate quadam coronae suae 
+iactandae, si modo Caesares coronabantur, in se ipsum 
+
+
+
+<note xml:id="note.118.1"><p> concessimus ; Bonneau, Zeumer's text of the Constitutum Constantini. 
+</p></note>
+
+<note xml:id="note.118.2"><p> preciosis; MS., so below. 
+</p></note>
+
+<note xml:id="note.118.3"><p> Hutten. admistum; MS. 
+
+</p></note>
+
+<note xml:id="note.118.4"><p> nanque ; MS. 
+</p></note>
+
+<note xml:id="note.118.5"><p> loqutus ; MS., so throughout. 
+
+
+
+</p></note>
+
+<pb n="120"/>
+
+
+contumeliosus, qui vereretur ne homines opinarentur eum non gestare 
+coronam ex auro purissimo cum gemmis pretiosis, nisi indicasset?</p>
+
+<p>Accipe causam cur sic loquatur; "pro honore beati Petri."
+Quasi Christus non sit summus angularis lapis, in quo templum 
+ecclesiae constructum est, sed Petrus; quod iterum postea facit. 
+Quem si tantopere venerari volebat, cur non templum episcopate 
+illi potius quam loanni Baptistae Romae dicavit?</p>
+
+<p>Quid? illa loquendi barbaries nonne testatur non saeculo Constantini,
+sed posteriori, cantilenam banc esse confictam ? "Decernimus
+quod . . . uti debeant,"<ref target="note.120.1"/> pro eo quod est decernimus<ref target="note.120.2"/> ut 
+utantur: sic nunc barbari homines vulgo loquuntur et scribunt, 
+"lussi quod deberes venire," pro eo quod est, "lussi ut venires": 
+et "decrevimus" et "concessimus," quasi non tunc fiant ilia, sed 
+alio quodam tempore facta sint.</p>
+
+<p>"Ipse vero beatus papa super coronam clericatus, quam gerit 
+ad gloriam beatissimi Petri, ipsa ex auro non est passus uti 
+corona."</p>
+
+<p>O tuam singularem stultitiam, Constantino! Modo dicebas 
+coronam super caput papae ad honorem facere beati Petri; nunc 
+ais non facere, quia Silvester illam recusat; et cum factum recusantis
+probes, tamen iubes eum aurea uti corona; et quod hie 
+non debere se agere existimat, id tu ipsius successores dicis agere 
+debere. Transeo quod rasuram coronam vocas, et papam pontificem
+Romanum, qui nondum peculiariter sic appellari erat 
+coeptus.</p>
+
+<p>"Phrygium vero candidissimo nitore splendidum, resurrectionem 
+
+
+
+<note xml:id="note.120.1"><p> Decrevimus hoc ut . . . uti debeant, is the correct quotation from the Constitutum Constantini. Decrevimus quod uti debeant; Hutten. 
+</p></note>
+
+<note xml:id="note.120.2"><p> decrevimus; MS., Hutten. 
+
+
+
+</p></note>
+
+<pb n="122"/>
+
+
+Dominicam designans, eius sacratissimo vertici manibus nostris 
+imposuimus, et tenentes frenum equi pro reverentia beati Petri 
+dextratoris officium illi exhibuimus, statuentes eodem phrygio 
+omnes eius successores singulariter uti in processionibus ad imperii 
+nostri imitationem."</p>
+
+<p>Nonne videtur hie auctor fabulae non per imprudentiam, sed 
+consulto et dedita opera praevaricari et undique ansas ad se 
+reprehendendum praebere? In eodem<ref target="note.122.1"/> loco ait, phrygio et Dominicam
+resurrectionem repraesentari,<ref target="note.122.2"/> et imperii Caesarei esse imitationem;
+quae duo inter se maxime discrepant. Deum testor, non 
+invenio quibus verbis, qua verborum atrocitate, confodiam hunc 
+perditissimum nebulonem. Ita omnia verba plena insaniae evomit. 
+Constantinum non tantum officio similem Moysi, qui summum 
+sacerdotem iussu Dei ornavit, sed secreta mysteria<ref target="note.122.3"/> facit exponentem,
+quod difficillimum est iis qui diu in sacris litteris<ref target="note.122.4"/> sunt versati.
+Cur non fecisti etiam Constantinum pontificem maximum, ut 
+multi Imperatores fuerunt, ut commodius ipsius ornamenta in alteram
+summum pontificem transferrentur? Sed nescisti historias. 
+Ago itaque Deo etiam hoc nomine gratias, quod<ref target="note.122.5"/> istam nefandissimam
+mentem non nisi in stultissimum hominem cadere permisit: 
+quod etiam posteriora declarant. Namque Aaron sedenti in equo 
+Moysen<ref target="note.122.6"/> inducit dextratoris exhibuisse officium, et hoc non per 
+medium Israel, sed per Chananeos atque Aegyptios, id est per 
+infidelem civitatem, ubi non tam imperium erat orbis terrarum 
+quam daemonum, et daemones colentium populorum.</p>
+
+<p>"Unde ut pontificalis apex non vilescat, sed ut<ref target="note.122.7"/> magis quam 
+imperii terreni dignitas, gloria et potentia decoretur, ecce tam 
+palatium nostrum, quamque Romanam urbem et omnes Italiae 
+sive occidentalium regionum provincias,<ref target="note.122.8"/> loca, civitates beatissimo
+pontifici et universali papae Silvestro tradimus atque 
+
+<note xml:id="note.122.1"><p> eodo; MS. 
+</p></note>
+
+<note xml:id="note.122.2"><p> jepresentari; MS. 
+
+</p></note>
+
+<note xml:id="note.122.3"><p> Hutten. misteria; MS. ministeria; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.122.4"><p> libris; Bonneau. 
+</p></note>
+
+<note xml:id="note.122.5"><p> qui; Bonneau. 
+</p></note>
+
+<note xml:id="note.122.6"><p> Moysem;MS. 
+
+</p></note>
+
+<note xml:id="note.122.7"><p> Omit ut ; Hutten, Zeumer's text of the Constitutum Constantini. 
+
+</p></note>
+
+<note xml:id="note.122.8"><p> provintias ; MS. 
+
+
+
+</p></note>
+
+<pb n="124"/>
+
+
+relinquimus, et ab eo et a successoribus eius per pragmaticum 
+constitutum decrevimus disponendas atque iuri sanctae Romanae 
+ecclesiae permanendas."</p>
+
+<p>De hoc in oratione Romanorum atque Silvestri multa disseruimus.
+Huius loci est ut dicamus neminem fuisse facturum ut 
+nationes uno cunctas verbo donationis involveret, et qui minutissima
+quaeque superius est exsecutus, lorum, calceos,<ref target="note.124.1"/> linteamina 
+equorum,<ref target="note.124.3"/> non referret nominatim provincias,<ref target="note.124.2"/> quarum singulae 
+non<ref target="note.124.4"/> singulos reges nunc aut principes regibus pares habent. Sed 
+ignoravit videlicet hie falsator quae provinciae sub Constantino 
+erant, quae non erant. Nam certe cunctae sub eo non erant.<ref target="note.124.5"/>
+Alexandre exstincto videmus singulcis regiones in ducum partitione
+numeratas; a Xenophonte terras principesque nominatos, 
+qui vel ultro vel armis sub imperio Cyri fuerunt; ab Homero 
+Graecorum barbarorumque regum nomen, genus, patriam, mores, 
+vires, pulchritudinem, numerum navium et prope numerum<ref target="note.124.6"/> militum,
+catalogo' comprehensum, cuius exemplum cum multi Graeci, 
+tum vero nostri Latini, Ennius, Virgilius, Lucanus, Statins, aliique 
+nonnulli imitati sunt; a losue et Moyse in divisione terrae promissionis
+viculos quoque universos fuisse descriptos;<ref target="note.124.8"/> et tu gravaris 
+etiam provincias recensere? Occidentals tan tum provincias nominas.
+Qui sunt fines occidentis; ubi incipiunt, ubi desinunt? Num 
+ita certi constitutique sunt termini occidentis et orientis, meridieique
+et septentrionis, ut sunt Asiae, Africae, Europae? Necessaria 
+verba subtrahis, ingeris supervacua. Dicis, "provincias, loca, 
+
+
+
+<note xml:id="note.124.1"><p> calceo ; MS., an error. 
+</p></note>
+
+<note xml:id="note.124.2"><p> Insert ornamenta ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.124.3"><p> provintias; MS., so below. 
+</p></note>
+
+<note xml:id="note.124.4"><p> Omit non; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.124.5"><p> Omit Nam . . . erant ; Bonneau. 
+</p></note>
+
+<note xml:id="note.124.6"><p> numero ; MS., an error, 
+
+</p></note>
+
+<note xml:id="note.124.7"><p> cathalogo; MS. 
+</p></note>
+
+<note xml:id="note.124.8"><p> descirptos; MS. 
+
+
+
+</p></note>
+
+<pb n="126"/>
+
+
+civitates." Nonne et provinciae et urbes loca sunt? Et cum dixeris 
+provincias, subitingis civitates, quasi hae sub illis non intelligantur.
+Sed non est mirum qui tantam orbis terrarum partem a se 
+alienat, eundem urbium provinciarumque nomina praeterire, et 
+quasi lethargo oppressum, quid loquatur ignorare. "Italiae sive 
+occidentalium regionum," tamquam aut hoc aut illud, cum tamen 
+utrumque intelligat: appellans "provincias regionum," cum sint 
+potius regiones provinciarum; et "permanendam"<ref target="note.126.1"/> dicens pro 
+permansuram.</p>
+
+<p>"Unde congruum prospeximus, nostriim imperium et regiam 
+potestatem orientalibus transferri regionibus, et in Byzantiae provinciae
+Optimo loco nomini nostro civitatem aedificari, et illic 
+nostrum constitui imperium."<ref target="note.126.2"/> 
+
+Taceo quod dixit civitates aedificari, cum urbes aedificentur 
+non civitates; et "Byzantiam<ref target="note.126.3"/> provinciam." Si tu es Constantinus, 
+redde causam cur ilium potissimimi locum condendae urbi<ref target="note.126.4"/> delegeris.
+Quod enim alio te transferas post Romam traditam non tam 
+congruum quam necessarium est. Nec te appelles imperatorem, 
+qui Romam amisisti, et de nomine Romano, quod discerpis, pessime
+meritus es; nec regem, quod nemo ante te fecit; nisi ideo te 
+regem appelles quia Romanus esse desiisti.<ref target="note.126.5"/> Sed affers causam 
+sane honestam: 
+
+"Quoniam ubi princeps sacerdotum et Christianae religionis 
+caput constitutum est ab imperatore caelesti iustum non est ut 
+illic imperator terrenus habeat potestatem." 
+
+
+
+<note xml:id="note.126.1"><p> permanendas in the passage as quoted above by Valla. The form used varies  in different texts of the Donation; permansurum, permanenda, permanendam, permanendas. 
+
+</p></note>
+
+<note xml:id="note.126.2"><p> Bonneau includes as part of this quotation the next quoted passage below,  quoniam . . . potestatem. He repeats it in its proper place without quotation marks. 
+
+</p></note>
+
+<note xml:id="note.126.3"><p> Schard. ItaUam; MS., Hutten. 
+
+</p></note>
+
+<note xml:id="note.126.4"><p> urbis; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.126.5"><p> desisti; MS. 
+
+
+
+</p></note>
+
+<pb n="128"/>
+
+
+O stultum David, stultum Salomonem, stultum Ezechiam, losiamque,
+et ceteros reges, stultos ac parum religiosos, qui in urbe 
+Hierusalem cum summis sacerdotibus habitare sustinuerunt, nec 
+tota illis urbe cesserunt! Plus sapit Constantinus triduo quam illi 
+tota vita sapere potuerunt! Et "imperatorem caelestem" appellas, 
+quia terrenum accepit imperium; nisi Deum intelligis, — nam ambigue
+loqueris, — a quo terrenum principatum sacerdotum super 
+urbe Romana ceterisque locis constitutum esse mentiris.</p>
+
+<p>"Haec vero omnia, quae per banc imperialem sacram<ref target="note.128.1"/> et per 
+alia divalia decreta statuimus et firmamus,<ref target="note.128.2"/> usque in finem mundi 
+illibata et inconcussa permanere decrevimus. "</p>
+
+<p>Modo terrenum te vocaveras, Constantine: nunc divum sacrumque
+vocas. Ad gentilitatem recidis, et plusquEun gentilitatem. 
+Deum te facis, et verba tua sacra, et decreta inunortalia; nam 
+mundo imperas ut tua iussa conservet "illibata et inconcussa." 
+Non cogitas quis tu es, modo e<ref target="note.128.3"/> sordidissimo impietatis caeno<ref target="note.128.4"/>
+lotus et vix perlotus? Cur non addebas; "Iota unum aut unus apex 
+de privilegio hoc non praeteribit,<ref target="note.128.5"/> ut non magis pereat caelum et 
+terra?" Regnum Saul a Deo electi ad filios non pervenit; regnum 
+David in nepote discerptum est, et postea exstinctum. Et tu ad 
+finem usque mundi regnum, quod tu sine Deo<ref target="note.128.6"/> tradis, permansurum
+tua auctoritate decernis? Quis etiam tam cito te docuit 
+mundum esse periturum? Nam poetis, qui hoc etiam testantur, 
+non puto te hoc tempore fidem habere. Ergo hoc tu non dixisses, 
+sed alius tibi affinxit.</p>
+
+<p>Ceterum, qui tam magnifice superbeque locutus est, timere incipit,
+sibique diffidere, eoque obtestationibus agit: 
+
+
+
+<note xml:id="note.128.1"><p> Insert scripturam ; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.128.2"><p> firmavimus; Hutten. confirmamus; Bonneau. confirmavimus ; Zeumer's text  of the Constitutum Constantini.
+
+</p></note>
+
+<note xml:id="note.128.3"><p> et ; MS. 
+</p></note>
+
+<note xml:id="note.128.4"><p> coeno ; MS. = peribit ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.128.5"><p> quod tu summo Deo ; Hutten. quod tu Summo Pontiflci ; Bonneau. 
+
+
+
+</p></note>
+
+<pb n="130"/>
+
+
+"Unde coram Deo vivo, qui nos regnare praecepit,<ref target="note.130.1"/> et coram 
+terribili eius iudicio obtestamur<ref target="note.130.2"/> omnes nostros successores Imperatores
+vel cunctos optimates, satrapas etiam amplissimumque 
+senatum et universum populum in universo orbe terrarum, nec 
+non<ref target="note.130.3"/> et in posterum<ref target="note.130.4"/> nulli eorum quoquo modo licere hoc aut 
+confringere vel in quoquam convelli."</p>
+
+<p>Quam aequa, quam religiosa adiuratio! Non secus ac si lupus 
+per innocentiam et fidem obtestetur ceteros lupos atque pastores, 
+ne oves, quas sustulit interque filios et amicos partitus est, aut illi 
+adimere, aut hi repetere tentent. Quid tantopere extimescis, Constantine?
+Si opus tuum ex Deo non est, dissolvetur: sin ex Deo, 
+dissolvi non poterit. Sed video! Voluisti imitari Apocalypsim ubi 
+dicitur: "Contestor autem audienti onmia verba prophetiae libri 
+huius; si quis apposuerit ad haec, apponet Deus super ilium plagas 
+scriptas in libro isto. Et si quis diminuerit de verbis libri prophetiae
+huius, auferet Deus partem eius de libro vitae et de civitate
+sancta." At tu numquam legeras Apocalypsim, ergo non sunt 
+haec verba tua.</p>
+
+<p>"Si quis autem, quod non<ref target="note.130.5"/> credimus, in hoc temerator exstiterit, 
+aeternis condemnationibus subiaceat condemnatus, et sanctos Dei 
+apostolos Petrum et Paulum sibi in praesenti et in futura vita 
+sentiat contrarios, atque in inferno inferiori concrematus cimi 
+diabolo et omnibus deficiat impiis."</p>
+
+<p>Hic terror atque haec comminatio non<ref target="note.130.6"/> saecularis prineipis 
+solet esse, sed priscorum sacerdotum ae flaminum, et nunc ecclesiasticorum.
+Itaque non est Constantini oratio haec, sed alieuius 
+clericuli stolidi, nec quid dicat aut quomodo dieat scientis, saginati
+et erasi, ae inter erapulam interque fervorem vini has sententias
+et haec verba ructantis, quae non in alium transeunt, sed 
+
+
+
+<note xml:id="note.130.1"><p> Hutten, Bonneau. praecipit; MS. 
+</p></note>
+
+<note xml:id="note.130.2"><p> Omit obtestamur; MS., an error. 
+
+</p></note>
+
+<note xml:id="note.130.3"><p> nunc instead of nec non; Bonneau, Zeumer's text of the Constitutum Constantini. 
+</p></note>
+
+<note xml:id="note.130.4"><p> imposterum; MS. 
+
+</p></note>
+
+<note xml:id="note.130.5"><p> Hutten, Bonneau, Zeumer's text of the Constitutum Constantini. Omit non ;  MS. 
+</p></note>
+
+<note xml:id="note.130.6"><p> Insert Caesaris aut ; Hutten, Bonneau. 
+
+
+
+</p></note>
+
+<pb n="132"/>
+
+
+in ipsum convertuntur auctorem. Primum ait, "aeternis condemnationibus
+subiaceat," deinde, quasi plus addi queat, alia 
+addere vult, et post aeternitatem poenarum adiungit poenas vitae 
+praesentis; et cum Dei condemnatione nos terreat, adhuc, quasi 
+maius quiddam sit, terret nos odio Petri, — cui Paulum cur adiungat,
+aut cur solum, nescio. Iterumque solito lethargo ad poenas 
+aeternas redit, veluti non hoc ante dixisset. Quod si minae hae 
+exsecrationesque Constantini forent, invicem exsecrarer ut tyrannum
+et profligatorem reipublicae meae, et illi me Romano ingenio 
+minarer ultorem. Nunc quis extimescat<ref target="note.132.1"/> exsecrationem avarissimi 
+hominis et ritu histrionum verba simulantis ac sub persona Constantini
+alios deterrentis? Hoc est proprie hypocritam esse, si 
+Graecam vocem exquirimus, sub aliena persona abscondere tuam.</p>
+
+<p>"Huius vero imperialis decreti paginam propriis manibus roborantes
+super venerandum corpus beati Petri posuimus."</p>
+
+<p>Chartane an membrana fuit pagina in qua scripta haec sunt? 
+Tametsi paginam vocamus alteram faciem, ut dicunt, folii; veluti 
+quinternio habet folia dena, paginas vicenas.</p>
+
+<p>O rem inauditam et incredibilem! Cum essem adolescentulus, 
+interrogasse me quendam<ref target="note.132.2"/> memini, quis librum lob scripsisset; 
+cumque ille respondisset, "Ipse Iob," tunc me subiunxisse, "Quo 
+pacto igitur de sua ipsius morte faceret mentionem?" Quod de 
+multis aliis libris did potest, quorum ratio huic loco non convenit. 
+Nam quomodo vere narrari potest id quod nondum esset administratum,
+et in tabulis contineri id quod post tabularum, ut sic 
+
+
+
+<note xml:id="note.132.1"><p> existimat; Hutten. 
+</p></note>
+
+<note xml:id="note.132.2"><p> quemdam; MS. 
+
+
+
+</p></note>
+
+<pb n="134"/>
+
+
+dicam, sepulturam factum esse ipse fateatur? Hoc nihil aliud est 
+quam paginam privilegii ante fuisse mortuam sepultamque quam 
+natam, nec tamen umquam a morte atque sepultura reversam; 
+praesertim antequam conscripta esset roboratam, nec id una tantum
+sed utraque Caesaris manu. Et quid istud est roborare illam? 
+Chirographone Caesaris, aut anulo signatorio? Magnum nimirum 
+robur, maiusque multo quam si tabulis aereis mandavisset! Sed 
+non est opus scriptura aerea, cum super corpus beati Petri charta 
+reponatur. Cur hie Paulum retices, qui simul iacet cum Petro, et 
+magis custodire possent ambo quam si afforet tantummodo corpus
+unius?</p>
+
+<p>Videtis artes malitiamque<ref target="note.134.1"/> nequissimi Sinonis. Quia donatio 
+Constantini doceri non potest, ideo non in tabulis aereis sed 
+charteis privilegium esse, ideo latere illud cum corpore sanctissimi 
+apostoli dixit, ne aut auderemus e venerabili sepulcro<ref target="note.134.2"/> inquirere, 
+aut, si inquirer emus, carie absumptum putaremus. Sed ubi tunc 
+erat corpus beati Petri? Certe nondum in templo ubi nunc est, 
+non in loco sane munito ac tuto. Ergo non illic Caesar paginam 
+collocasset. An beatissimo Silvestro paginam non credebat, ut 
+parum sancto, parum cauto, parum diligenti? O Petre, O Silvester, 
+O sancti<ref target="note.134.3"/> Romanae ecclesiae pontifices, quibus oves Domini commissae
+sunt, cur vobis commissam paginam non custodistis?<ref target="note.134.4"/> Cur 
+a tineis illam rodi, cur situ tabescere passi estis ? Opinor quia corpora
+quoque vestra contabuerunt. Stulte igitur fecit Constantinus. 
+En redacta in pulverem pagina, ius simul privilegii in pulverem 
+abiit!</p>
+
+<p>Atqui, ut videmus, paginae exemplar ostenditur. Quis ergo illam 
+de sinu sanctissimi apostoli temerarius accepit? Nemo, ut reor, 
+hoc fecit. Unde porro exemplar ?<ref target="note.134.5"/> Nimirum aliquis antiquorum 
+
+
+
+<note xml:id="note.134.1"><p> maliciamque ; MS. 
+</p></note>
+
+<note xml:id="note.134.2"><p> sepulchro; MS. 
+
+</p></note>
+
+<note xml:id="note.134.3"><p> sanctae; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.134.4"><p> custoditis ; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.134.5"><p> Hutten's text omits two sentences, "Nemo . . . exemplar." 
+
+
+
+</p></note>
+
+<pb n="136"/>
+
+
+scriptorum debet afferri, nec posterior Constantini temporibus. 
+At is nullus affertur, sed fortasse aliquis recens. Unde hie habuit? 
+Quisquis enim de superiore aetate historiam texit, aut Spiritu 
+Sancto dietante loquitur, aut veterum scriptorum et eorum quidem 
+qui de sua aetate seripserunt sequitur auctoritatem. Quare quicumque
+veteres non sequitur, is de illorum numero erit quibus ipsa 
+vetustas praebet audaeiam mentiendi. Quod si quo in loeo ista res 
+legitur, non aliter eum antiquitate eonsentit quam illa glossatoris<ref target="note.136.1"/> 
+Accursii de legatis Romanis ad leges aecipiendas dimissis in 
+Graeeiam plusquam stulta narratio cum Tito Livio aliisque praestantissimis
+seriptoribus convenit. 
+
+<quote>Datum Romae tertio Kalendas<ref target="note.136.2"/> Aprilis, Constantino Augusto 
+quarto consule et Gallieano quarto consule.</quote>
+
+Diem posuit penultimum Martii ut sentiremus hoc factum esse 
+sub tempus sanctorum dierum, qui illo plerumque tempore solent 
+esse. Et Constantino quartum consule, et Gallieano quartum consule!
+Mirum si uterque ter fuerat consul et in quarto consulatu 
+forent eollegae! Sed mirandum magis Augustum leprosum elephantia,
+qui morbus inter ceteros ut elephas inter beluas eminet, 
+velle etiam aceipere consulatum, cum rex Azarias simul ac lepra 
+tactus est in privato se eontinuerit, procuratione regni ad Ionatam<ref target="note.136.3"/>
+filium relegata, ut fere omnes leprosi feeerunt! Quo uno argumento 
+totum prorsus privilegium confutatur, profligatur, evertitur. Ac 
+ne quis ambigat ante leprosum esse debuisse quam consulem, sciat 
+et ex medicina paulatim hune morbum suecrescere, et ex notitia 
+
+
+
+<note xml:id="note.136.1"><p> glosatoris; MS. 
+
+</p></note>
+
+<note xml:id="note.136.2"><p> Kalendarum ; Bonneau. Kalendarum Apriliarum; Zeumer's text of the Constitutum Constantini. 
+</p></note>
+
+<note xml:id="note.136.3"><p> Joathan ; Bonneau. 
+
+
+
+</p></note>
+
+<pb n="138"/>
+
+
+antiquitatis consulatum iniri lanuario mense magistratumque esse 
+annuum, et haec Martio proximo gesta referuntur.</p>
+
+<p>Ubi neque hoc<ref target="note.138.1"/> silebo; in epistolis scribi solere "datum," non 
+autem in ceteris, nisi apud indoctos. Dicuntur enim epistolae dari 
+vel illi, vel ad ilium; illi quidem qui perfert ut puta tabellario, ut 
+reddat et in manum porrigat homini cui mittuntur ; ad ilium vero 
+ut ei a perferente reddantur, hie est is cui mittuntur.<ref target="note.138.2"/> Privilegium 
+autem, ut aiunt, Constantini, quod reddi alicui non debebat, nec 
+dari debuit dici: ut appareat eum qui sic locutus est mentitum 
+esse, nec<ref target="note.138.3"/> scisse fingere quod Constantinum dixisse ac fecisse verisimile
+esset. Cuius stultitiae atque vesaniae affines se ae soeios 
+faeiunt quicumque hune vera dixisse existimant atque defendunt; 
+licet nihil iam habeant quo opinionem suam, non dico defendere, 
+sed honeste excusare, possint.</p>
+
+<p>An honesta erroris excusatio est, cum patefaetam videas veritatem,
+nolle illi acquiescere quia nonnulli magni homines aliter 
+senserint?<ref target="note.138.4"/> Magni, inquam, dignitate, non sapientia nec virtute. 
+Unde tantum<ref target="note.138.5"/> seis an illi quos tu sequeris, si eadem audissent 
+quae tu, mansuri in sententia fuerint, an a sententia reeessuri? 
+Et nihilominus indignissimum est plus homini velle tribuere quam 
+veritati, id est Deo. Ita enim quidam omnibus defecti rationibus 
+Solent mihi<ref target="note.138.6"/> respondere: Cur tot summi pontifiees donationem 
+hanc veram esse crediderunt? Testificor vos, me vocatis quo nolo, 
+et invitum me maledicere summis pontificibus cogitis, quos magis 
+in delictis suis operire vellem. Sed pergamus ingenue loqui, quandoquidem
+aliter agi nequit haec causa.</p>
+
+<p>Ut fatear eos ita credidisse, et non malitia<ref target="note.138.7"/> fecisse; quid mirum 
+
+
+
+<note xml:id="note.138.1"><p> Omit hoc; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.138.2"><p> Omit ad ilium vero ... is cui mittuntur ; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.138.3"><p> ne; MS. 
+
+</p></note>
+
+<note xml:id="note.138.4"><p> senserunt; Hutten. 
+
+</p></note>
+
+<note xml:id="note.138.5"><p> tamen; Hutten. 
+</p></note>
+
+<note xml:id="note.138.6"><p> Omit mihi; Hutten. 
+
+</p></note>
+
+<note xml:id="note.138.7"><p> malicia; MS. 
+
+
+
+</p></note>
+
+<pb n="140"/>
+
+
+si ista crediderunt, ubi tantum lucri blanditur, cum plurima, ubi 
+nullum lucrum ostenditur, per insignem imperitiam credant? 
+Nonne apud Aram Coeli, in tam eximio templo et in loco maxime 
+augusto,<ref target="note.140.1"/> cernimus pictam fabulam Sibyllae et Octaviani, ut 
+ferunt ex auctoritate Innocentii tertii haec scribentis, qui etiam de 
+ruina templi Pads sub natale Salvatoris, hoc est in partu Virginis, 
+scriptum reliquit? Quae ad evertendam magis fidem quia falsa, 
+quam ad stabiliendam quia miranda sunt, pertinent. Mentirine ob 
+speciem<ref target="note.140.2"/> pietatis audet vicarius veritatis, et se scientem hoc 
+piaculo obstringere? An non mentitur? Immo vero a sanctissimis 
+viris se, cum hoc facit, dissentire non videt? Tacebo alios: 
+Hieronymus Varronis testimonio utitur, decem Sibyllas fuisse; 
+quod opus Varro ante Augustum condidit. Idem de templo Pads 
+ita scribit: "Vespasianus et Titus Romae templo Pacis aedificato, 
+vasa templi et universa donaria in delubro illius consecrarunt, 
+quae Graeca et Romana narrat historia." Et hie unus indoctus 
+plus vult libello suo etiam barbare scripto credi quam fidelissimis 
+veterum, prudentissimorum hominum historiis!</p>
+
+<p>Quia Hieronymum attigi, non patiar banc contumeliam ipsius 
+tacito<ref target="note.140.3"/> praeteriri. Romae ex auctoritate papae ostenditur codex 
+Bibliae,<ref target="note.140.4"/> tamquam reliquiae sanctorum luminibus<ref target="note.140.5"/> semper accensis,
+quod dicunt<ref target="note.140.6"/> scriptum chirographo Hieronymi. Quaeris argumentum?
+Quia multum, ut inquit Virgilius, est pictai vestis et 
+auri: res quae magis Hieronymi manu indicat scriptum non esse. 
+
+
+
+<note xml:id="note.140.1"><p> Hutten. angusto; MS. 
+</p></note>
+
+<note xml:id="note.140.2"><p> Insert veritatis; Hutten. 
+
+</p></note>
+
+<note xml:id="note.140.3"><p> tacite ; Hutten. 
+</p></note>
+
+<note xml:id="note.140.4"><p> bybliae;MS. 
+
+</p></note>
+
+<note xml:id="note.140.5"><p> luminaribus ; Hutten. 
+</p></note>
+
+<note xml:id="note.140.6"><p> Hutten, Bonneau. dicant; MS. 
+
+
+
+</p></note>
+
+<pb n="142"/>
+
+
+Ilium ego diligentius inspectum comperi scriptum esse iussu regis, 
+ut opinor, Robert! chirographo hominis imperiti.</p>
+
+<p>Huic simile est, quamquam decem millia huiusmodi Romae sunt, 
+quod inter religiosa demonstratur in tabella effigies Petri et Pauli, 
+quam Silvester Constantino ab eisdem apostolis in somnis admonito
+in confirmationem visionis exhibuit. Non hoc dico quia 
+negem effigies illas esse apostolorum (utinamque tam vera esset 
+epistola nomine Lentuli missa de effigie Christi, quae non minus 
+improbe ementita est quam privilegium quod confutavimus ! ) sed 
+quia tabella illa a Sylvestro non fuerit exhibita Constantino; in 
+quo non sustineo animi mei admirationem continere.</p>
+
+<p>Disputabo enim aliquid de fabula Silvestri, quia et omnis in hoc 
+quaestio versatur, et mihi cum sermo sit cum pontificibus 
+Romanis, de pontifice Romano potissimum loqui decebit, ut ex 
+uno exemplo facile aliorum coniectura capiatur. Et ex multis 
+ineptiis quae ibi narrantur unam tantum de dracone attingam, ut 
+doceam Constantinum non fuisse leprosum. Etenim Gesta Silvestri
+ab Eusebio quodam Graeco homine, ut interpres testatur, 
+composita sunt,<ref target="note.142.1"/> quae natio ad mendacia semper promptissima<ref target="note.142.2"/> 
+est, ut luvenalis satirica<ref target="note.142.3"/> censura ait: 
+
+<quote><l>... Quicquid Graecia mendax </l>
+<l>Audet in historia.</l></quote>
+
+Unde draco ille venerat? Romae dracones non gignuntur. Unde 
+etiam illi venenum? In Africa tantum pestiferi dracones ob 
+ardorem regionis esse dicuntur. Unde praeterea tantum veneni 
+
+
+
+<note xml:id="note.142.1"><p> Hutten, Bonneau. est ; MS. 
+</p></note>
+
+<note xml:id="note.142.2"><p> prumptissima ; MS. 
+
+</p></note>
+
+<note xml:id="note.142.3"><p> satyrica ; MS. 
+
+
+
+</p></note>
+
+<pb n="144"/>
+
+
+ut tam spatiosam civitatem peste corrumperet, praesertim cum in 
+tarn alto specu demersus esset, ad quem centum quinquaginta 
+gradibus descenderetur? Serpentes, excepto forsitan basilisco, 
+non afflatu, sed morsu virus inspirant atque interimunt. Nec Cato 
+Caesarem fugiens cum tanta hominum manu per medias Africae 
+harenas, dum iter faceret ac dormiret, ullum suorum comitum<ref target="note.144.1"/> 
+serpentis afflatu vidit exstinctum; neque illi populi ob id aerem 
+sentiunt pestilentem. Et si quid fabulis credimus, et Chimaera et 
+Hydra et Cerberus sine noxa vulgo conspecti sunt ac tacti.</p>
+
+<p>Adhuc quin eum Romani potius occidissent? Non poterant, 
+inquis? At multo grandiorem serpentem in Africa ad ripam 
+Bagradae<ref target="note.144.2"/> Regulus occidit. Hunc vero vel obstructo ore specus 
+facile erat interimere. An nolebant? Ita, opinor, pro deo colebant, 
+ut Babylonii fecerunt. Cur ergo, ut<ref target="note.144.3"/> Daniel ilium dicitur occidisse, 
+non et Silvester hunc potius occidisset, quem<ref target="note.144.4"/> canabaceo filo alligasset,
+et domum illam in aeternum perdidisset ? Ideo commentator
+fabulae noluit draconem interimi, ne plane Danielis narratio 
+referri videretur. Quod si Hieronymus, vir doctissimus ac fidelissimus
+interpres, Apollinarisque et Origenes atque Eusebius et 
+nonnulli alii narrationem Beli fictam esse affirmant, si eam ludaei 
+in Veteris Instrumenti archetypo non agnoscunt; id est, si doctissimi
+quique Latinorum, plerique Graecorum, singuli Hebraeorum
+illam ut fabulam damnant, ego non banc adumbratam ex illa 
+damnabo, quae nullius scriptoris auctoritate fulcitur, et quae 
+magistram multo super at stultitia?</p>
+
+<p>Nam quis beluae subterraneam domum aedificaverat? Quis 
+illic eam collocaverat, et ne prpdiret atque avolaret (volant enim 
+dracones, ut quidam aiunt, etsi alii negant) imperaverat? Quis 
+genus illud cibi excogitaverat?<ref target="note.144.5"/> Quis feminas,<ref target="note.144.6"/> easque virgines ac 
+
+
+
+<note xml:id="note.144.1"><p> ullum sociorum ac comitum suorum; Hutten. 
+
+</p></note>
+
+<note xml:id="note.144.2"><p> Bonneau. Bragadae; MS., Hutten. 
+
+</p></note>
+
+<note xml:id="note.144.3"><p> Insert olim and omit ilium ; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.144.4"><p> quin; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.144.5"><p> Instead of the two preceding sentences, Bonneau has; Volant enim dracones;  imperite eum cuius genus illud sit excogitaverat. 
+</p></note>
+
+<note xml:id="note.144.6"><p> foeminas; MS., so throughout. 
+
+
+
+</p></note>
+
+<pb n="146"/>
+
+
+sanctimoniales, descendere praeceperat, nec nisi Kalendis? An 
+tenebat draco quis esset dies Kalendarum? Et tam parco raroque 
+erat cibo contentus? Nec virgines tam altum speeum, tam 
+immanem et esurientem beluam exhorrebant? Credo, blandiebatur
+eis draeo, ut feminis, ut virginibus, ut eibaria afferentibus. 
+Credo, etiam eum illis fabulabatur. Quid ni, honore dicto, etiam 
+eoibat? Nam et Alexander et Seipio ex draconis serpentisve eum 
+matre concubitu geniti dieuntur. Quid, denegato postea victu, 
+non potius aut prodisset,<ref target="note.146.1"/> aut fuisset exstinetus? 
+
+miram hominum dementiam, qui his anilibus deliramentis 
+fidem habent! lam vero quamdiu hoc factitatum est? Quando 
+fieri<ref target="note.146.2"/> coeptum? Ante adventum Salvatoris, an postea? Nihil 
+horum scitur. Pudeat nos, pudeat harum neniarum et levitatis 
+plusquam inimicae.<ref target="note.146.3"/> Erubescat Christianus homo, qui veritatis 
+se ac lucis fiHum nominat, proloqui quae non modo vera non sunt, 
+sed nec verisimilia.</p>
+
+<p>At enim inquiunt, hanc daemones potestatem in gentibus obtinebant,
+ut eas diis servientes illuderent. Silete, imperitissimi<ref target="note.146.4"/>
+homines, ne dieam seeleratissimos, qui fabulis vestris tale semper 
+velamentum obtenditis ! Non desiderat sinceritas Christiana patrocinium
+falsitatis; satis per se, superque sua ipsius luce ac veritate 
+defenditur, sine istis commenticiis ac praestigiosis fabellis, in 
+Deum, in Christum, in Spiritum Sanctum eontumeliosissimis. 
+Siecine Deus arbitrio daemonum<ref target="note.146.5"/> tradiderat genus humanum, ut 
+tam manifestis, tam imperiosis miraeulis seducerentur;<ref target="note.146.6"/> ut propemodum
+posset iniustitiae<ref target="note.146.7"/> aceusari, qui oves lupis eommisisset, 
+et homines magnam errorum suorum haberent exeusationem? 
+Quod si tantum olim licebat daemonibus, et nunc apud infideles 
+vel magis liceret; quod minime videmus, nec uUae ab eis huiusmodi
+fabulae proferuntur.</p>
+
+<p>Tacebo de aliis populis; dieam de Romanis, apud quos paucissima
+miracula feruntur, eaque vetusta atque ineerta. Valerius 
+
+<note xml:id="note.146.1"><p> prodiisset ; MS. 
+</p></note>
+
+<note xml:id="note.146.2"><p> fuit; Hutten. 
+</p></note>
+
+<note xml:id="note.146.3"><p> mimicae; Bonneau. 
+</p></note>
+
+<note xml:id="note.146.4"><p> impudentissimi ; Hutten. 
+</p></note>
+
+<note xml:id="note.146.5"><p> demonum; MS. Â« seduceretur ; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.146.6"><p> iniusticiae ; MS. 
+
+
+
+</p></note>
+
+<pb n="148"/>
+
+
+Maximus ait hiatum ilium terrae in medio foro, cum se in eum 
+Curtius armatum adacto equo immisisset, iterum coisse inque 
+pristinam formam continue revertisse. Item lunonem Monetam, 
+cum a quodam milite Romano captis Veils per locum interrogata 
+esset, an Romam migrare vellet, respondlsse velle.</p>
+
+<p>Quorum neutrum Titus Livius sentlt et prior auctor et gravior. 
+Nam et hiatum permansisse vult, nec tarn fuisse subitum quam 
+vetustum, etlam ante conditam urbem, appellatumque Curtium 
+lacum quod in eo delituisset Curtius Mettius Sabinus Romanorum 
+fugiens impressionem; et lunonem annuisse, non respondlsse, 
+adlectumque fabulae postea vocem reddldisse. Atque de nutu 
+quoque palam est illos esse mentitos, vel quod motum simulacrl, 
+avellebant autem illud, Interpretati sunt sua sponte esse factum, 
+vel qua lascivla hostilem et victam et lapideam deam interrogabant,
+eadem lascivla annuisse finxerunt. Tametsi Livius<ref target="note.148.1"/> inqult 
+non annuisse, sed milites quod annuisset exclamasse. Quae tamen 
+boni scriptores non defendunt facta, sed dicta excusant. Nam 
+prout idem Livius ait; "Datur haec<ref target="note.148.2"/> venia antiqultati, ut miscendo
+humana divinls primordla urbium augustlora faciat." Et 
+alibi: "Sed in rebus tam antiquis si qua similia verl sunt pro veris 
+accipiantur, satis habeam. Haec<ref target="note.148.3"/> ad ostentationem scenae gaudentis
+miraculis aptiora quam ad fidem; neque affirmare neque 
+refellere est operae pretium."<ref target="note.148.4"/>
+
+Terentius Varro, his duobuset prior et doctlor et, ut sentio, 
+gravior auctor, ait trlplicem historlam de lacu Curtio a totidem 
+auctoribus proditam; unam a Proculo, quod is lacus ita sit 
+
+
+
+<note xml:id="note.148.1"><p> Hutten, Bonneau. illius; MS. 
+</p></note>
+
+<note xml:id="note.148.2"><p> Omit haec; Hutten. 
+
+</p></note>
+
+<note xml:id="note.148.3"><p> hec; MS. 
+</p></note>
+
+<note xml:id="note.148.4"><p> opereprecium ; MS. operepretium ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="150"/>
+
+
+appellatus a Curtio, qui se in eum deiecit; alteram a Pisone, quod a 
+Mettio Sabino; tertiam a Cornelio, cuius rei socium addit Luctatium,
+quod a Curtio consule, cui collega fuit M. Genutius.<ref target="note.150.1"/> 
+
+Neque vero dissimulaverim Valerium non plane posse reprehendi
+quod ita loquatur, cum paulo post graviter et severe subiciat:
+"Nec me praeterit de motu et voce deorum immortalium 
+humanis oculis auribusque percepto, quam in ancipiti opinione 
+aestimatio versetur. Sed quia non nova dicuntur, sed tradita 
+repetuntur, fidem auctores vendicent." De voce deorum dixit 
+propter lunonem Monetam et propter simulacrum Fortunae, quod 
+bis locutum fingitur his verbis: "Rite me, matronae, vidistis,<ref target="note.150.2"/> rite 
+dedicastis."</p>
+
+<p>At vero nostri fabulatores passim inducunt idola loquentia, 
+quod ipsi gentiles et idolorum cultores non dicunt et sincerius 
+negant quam Christiani affirmant. Apud illos<ref target="note.150.3"/> paucissima miracula
+non fide auctorum, sed veluti sacra quadam ac religiosa 
+vetustatis commendatione nituntur; apud istos recentiora quaedam
+narrantur, quae illorum homines temporum nescierunt.<ref target="note.150.4"/>
+
+Neque ego admirationi sanctorum derogo, nec ipsorum divina 
+opera abnuo,<ref target="note.150.5"/> cum sciam tantum fidei quantum est granum sinapis<ref target="note.150.6"/>
+montes etiam posse transferre. Immo defendo illa ac tueor, 
+sed misceri cum fabulis non sino. Nec persuaderi possum hos<ref target="note.150.7"/> 
+scriptores alios fuisse quam aut infideles, qui hoc agerent in 
+derisum Christianorum, si haec figmenta per dolosos homines in 
+
+
+
+<note xml:id="note.150.1"><p> Hutten. Genuitius; MS. Bonneau omits this sentence Terentius Varro . . .  M. Genutius. 
+
+</p></note>
+
+<note xml:id="note.150.2"><p> dedistis ; Valerius Maximus, factorum et dictorum memorabilium, lib. i, viii, 4. 
+</p></note>
+
+<note xml:id="note.150.3"><p> Bonneau. istos; MS., Hutten. 
+</p></note>
+
+<note xml:id="note.150.4"><p> nescirent; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.150.5"><p> inficior; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.150.6"><p> synapis; MS. 
+
+</p></note>
+
+<note xml:id="note.150.7"><p> horum ; Bonneau. 
+
+
+
+</p></note>
+
+<pb n="152"/>
+
+
+manus imperitorum delata acciperentur pro veris, aut fideles 
+habentes quidem aemulationem Dei, sed non secundum scientiam,<ref target="note.152.1"/>
+qui non modo de gestis sanctorum, varum etiam Dei 
+genetricis atque adeo Christi improba quaedam et<ref target="note.152.2"/> pseudevangelia
+scribere non reformidarunt. Et summus pontifex hos libros 
+appellat apocryphos, quasi nihil vitii sit<ref target="note.152.3"/> quod eorum ignoratur 
+auctor, quasi credibilia sint quae narrantur, quasi sancta et ad 
+confirmationem religionis pertinentia; ut iam non minus culpae 
+sit penes hunc qui mala probat quam penes ilium qui mala excogitavit.
+Nummos reprobos discernimus, separamus, abicimus;<ref target="note.152.4"/> 
+doctrinam reprobam non discernemus, sed retinebimus, sed cum 
+bona miscebimus, sed pro bona def endemus ?</p>
+
+<p>Ego vero, ut ingenue<ref target="note.152.5"/> feram sententiam, Gesta Silvestri nego 
+esse apocrypha, quia, ut dixi, Eusebius quidam fertur auctor; 
+sed falsa atque indigna quae legantur existimo cum in aliis tum 
+vero in alio<ref target="note.152.6"/> quod narratur de dracone, de tauro, de lepra, propter 
+quam refutandam tanta repetii. Neque enim si Naaman leprosus 
+fuit, continue et Constantinum leprosum fuisse dicemus? De illo 
+multi auctores meminerunt, de hoc principe orbis terrarum nemo 
+ne suorum quidem civium scripsit, nisi nescio quis alienigena, cui 
+non aliter habenda est fides quam alteri cuidam de vespis intra 
+nares Vespasiani nidificantibus, et de rana partu a Nerone emissa, 
+unde Lateranum vocitatum locum dicunt, quod ibi rana lateat in 
+sepulcro : quod nec vespae ipsae nec ranae, si loqui possent, 
+
+
+
+<note xml:id="note.152.1"><p> aemulationem si non scientiam ; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.152.2"><p> Omit improba quaedam et; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.152.3"><p> Insert nisi ; Bonneau. 
+</p></note>
+
+<note xml:id="note.152.4"><p> abiicimus ; MS. 
+
+</p></note>
+
+<note xml:id="note.152.5"><p> Omit ut; Hutten. ingenuam; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.152.6"><p> illo ; Hutten. eo ; Bonneau. 
+
+
+
+</p></note>
+
+<pb n="154"/>
+
+
+dixissent;<ref target="note.154.1"/> nisi ad deos Capitolinos hoc referunt, quasi illi loqui consuessent
+et hoc fieri iussissent.<ref target="note.154.2"/> 
+
+Sed quid mirer haec non intelligere pontifices, cum nomen 
+ignorent suum! Cephas enim dicunt vocari Petrum quia caput 
+apostolorum esset, tamquam hoc vocabulum sit Graecum <foreign xml:lang="grc">ἀπὸ τῆς 
+κεφαλῆς</foreign>,<ref target="note.154.3"/> et non Hebraicum, seu<ref target="note.154.4"/> potius Syriacum, quod Graeci 
+<foreign xml:lang="grc">κῆφας</foreign>5 scribunt, quod apud eos interpretatur Petnis, non caput. 
+Est enim "petrus," et "petra," Graecum vocabulum, stulteque per 
+etymologiam Latinam exponitur petra, quasi pede trita. Et metropoUtanum
+ab archiepiscopo distinguunt<ref target="note.154.6"/> voluntque ilium a 
+mensura civitatis dictum, cum Graece dicatur non <foreign xml:lang="grc">μετρόπολις</foreign> sed 
+<foreign xml:lang="grc">μητρόπολις</foreign>,<ref target="note.154.7"/> id est mater-civitas sive urbs;<ref target="note.154.8"/> et patriarcham quasi 
+patrem patrum; et papam ab interiectione pape dictum; et fidem 
+orthodoxam quasi rectae gloriae; et Simonem media correpta, cum 
+legendum sit media longa, ut Platonem et Catonem;<ref target="note.154.9"/> et multa 
+similia quae transeo, ne culpa aliquorum omnes summos pontifices 
+videar insectari. Haec dicta sint, ut nemo miretur si donationem 
+Constantini commenticiam(10) fuisse papae multi non potuerunt 
+deprehendere, tametsi ab aliquo eorum ortam esse hanc fallaciam 
+reor.</p>
+
+<p>At dicitis, cur Imperatores, quorum detrimento res ista cedebat, 
+donationem Constantini non negant, sed fatentur, affirmant, 
+
+
+
+<note xml:id="note.154.1"><p> Bonneau inserts Transeo quod cruorem puerorum ad curationem leprae facere  dicunt, quod medicina non confitetur. 
+
+</p></note>
+
+<note xml:id="note.154.2"><p> iusissent ; MS. 
+
+</p></note>
+
+<note xml:id="note.154.3"><p> Hutten, Bonneau. <foreign xml:lang="grc">ἀπὸ τοῦ κεφαλι</foreign>; MS. 
+
+</p></note>
+
+<note xml:id="note.154.4"><p> sed; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.154.5"><p> <foreign xml:lang="grc"></foreign>; MS. <foreign xml:lang="grc">κηφύς</foreign>; Hutten. Kegels ; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.154.6"><p> Hutten, Bonneau. distingunt ; MS. 
+
+</p></note>
+
+<note xml:id="note.154.7"><p> Bonneau. Metropolis sed Mitropolis ; MS. metropolis, sed <foreign xml:lang="grc">μητρόπολις</foreign>; Hutten. 
+
+</p></note>
+
+<note xml:id="note.154.8"><p> civitatis sive urbis; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.154.9"><p> Insert ita legendum Simonem ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.154.10"><p> commentitiam; MS. 
+
+
+
+</p></note>
+
+<pb n="156"/>
+
+
+conservant? Ingens argumentum; mirifica defensio! Nam de quo tu 
+loqueris Imperatore? Si de Graeco, qui verus fuit Imperator, 
+negabo confessionem: si de Latino, libenter etiam confitebor. Etenim
+quis nescit Imperatorem Latinum gratis factum esse a 
+summo pontifice, ut opinor Stephano, qui Graecum Imperatorem, 
+quod auxilium non ferret Italiae, privavit, Latinumque fecit; ita 
+ut plura Imperator a papa quam papa ab Imperatore acciperet? 
+Sane Troianas opes quibusdam pactionibus soli Achilles et 
+Patroclus inter se partiti sunt ! Quod etiam mihi videntur indicare 
+Ludovici<ref target="note.156.1"/> verba, cum ait; "Ego Ludovicus, Imperator Romanus 
+Augustus, statuo et concedo per hoc pactum confirmationis 
+nostrae tibi beato Petro, principi apostolorum, et per te vicario tuo 
+domino Paschali<ref target="note.156.2"/> summo pontifici et successoribus eius in perpetuum,<ref target="note.156.3"/>
+sicut a praedecessoribus<ref target="note.156.4"/> nostris usque nunc in vestra 
+potestate et dicione<ref target="note.156.5"/> tenuistis, Romanam civitatem cum ducatu 
+suo et suburbanis atque viculis omnibus et territoriis eius montanis
+atque maritimis litoribus et portubus, seu cunctis civitatibus, 
+castellis, oppidis ac villis in Tusciae partibus.'6
+
+Tune, Ludovice, cum Paschale pacisceris? Si tua, id est Imperii 
+Romani, sunt ista, cur alteri concedis? Si ipsius et ab eo<ref target="note.156.7"/> possidentur,
+quid attinet te illa confirmare? Quantulum etiam ex 
+Imperio Romano tuum erit, si caput ipsum Imperii amisisti? A 
+Roma dicitur Romanus Imperator. Quid, cetera quae possides 
+tuane an Paschalis sunt? Credo tua dices. Nihil ergo valet donatio 
+Constantini, si ab eo pontifici donata tu possides. Si valet, quo 
+iure Paschalis tibi cetera remittit, retentis tantum sibi quae 
+possidet? Quid sibi vult tanta, aut tua in ilium, aut illius in te 
+de Imperio Romano largitio? Merito igitur pactum appellas, quasi 
+quandam collusionem. 
+
+
+
+<note xml:id="note.156.1"><p> Lodoici; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.156.2"><p> Pascali; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.156.3"><p> imperpetuum ; MS. 
+</p></note>
+
+<note xml:id="note.156.4"><p> predecessoribus ; MS. 
+
+</p></note>
+
+<note xml:id="note.156.5"><p> ditione; MS. 
+</p></note>
+
+<note xml:id="note.156.6"><p> Insert et cetera; Hutten. 
+</p></note>
+
+<note xml:id="note.156.7"><p> ipso ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="158"/>
+
+
+"Sed quid faciam?" inquies. "Repetam armis quae papa occupat?
+At ipse iam factus est me potentior. Repetam iure? At ius 
+meum tantum est quantum ille esse voluit;<ref target="note.158.1"/> non enim hereditario 
+nomine ad Imperium veni, sed pacto, ut, si Imperator esse volo, 
+haec et haec invicem papae promittam. Dicam nihil donasse ex 
+Imperio Constantinum? At isto modo causam agerem Graeci 
+Imperatoris et me omni fraudarem Imperii dignitate. Hac enim 
+ratione papa se dicit facere Imperatorem me, quasi quendam 
+vicarium suum, et nisi promittam, non facturum; et nisi paream, 
+me abdicaturum. Dummodo mihi det, omnia fatebor, omnia 
+paciscar. Mihi tantum<ref target="note.158.2"/> crede, si Romam ego ac<ref target="note.158.3"/> Tusciam possiderem,
+tantum abest ut facerem quae facio; ut etiam frustra mihi 
+Paschalis donationis, sicut reor falsae,<ref target="note.158.4"/> caneret cantilenam. Nunc 
+concedo quae nec teneo nec habiturum esse me spero. De iure 
+papae inquirere non ad me pertinet, sed ad Constantinopolitanum 
+ilium<ref target="note.158.5"/> Augustum."</p>
+
+<p>Iam apud me exeusatus es, Ludovice, et quisquis alius princeps<ref target="note.158.6"/>
+es Ludovici similis. Quid de aliorum Imperatorum cum summis 
+pontifieibus paetione suspicandum est, cum sciamus quid Sigismundus
+fecerit, prineeps alioqui<ref target="note.158.7"/> optimus ac fortissimus, sed iam 
+affecta aetate minus fortis, quem per Italiam paucis stipatoribus 
+saeptum in diem vivere vidimus Romae etiam fame periturum, nisi 
+eum, sed non gratis — extorsit enim donationem — Eugenius pavisset!
+Is eum Romam venisset ut pro Imperatore Romanorum coronaretur,
+non aliter a papa eoronari potuit, quam<ref target="note.158.8"/> Constantini donationem
+ratam haberet eademque omnia de integro donaret. Quid 
+magis contrarium quam pro Imperatore Romano<ref target="note.158.9"/> eoronari qui 
+Romae ipsi renuntiasset, et eoronari ab illo quem et eonfiteatur et, 
+quantum in se est, dominum Romani Imperii faciat, ac ratam 
+
+
+
+<note xml:id="note.158.1"><p> voluerit; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.158.2"><p> tamen; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.158.3"><p> aut; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.158.4"><p> false; MS. 
+
+</p></note>
+
+<note xml:id="note.158.5"><p> Omit ilium; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.158.6"><p> Omit prineeps; Hutten. 
+
+</p></note>
+
+<note xml:id="note.158.7"><p> alioquin ; MS. 
+</p></note>
+
+<note xml:id="note.158.8"><p> insert ut ; Hutten, Bonneau. 
+
+</p></note>
+
+<note xml:id="note.158.9"><p> Omit Romano ; Hutten. 
+
+
+
+</p></note>
+
+<pb n="160"/>
+
+
+habere donationem, quae vera si sit, nihil Imperatori de Imperio 
+reliqui fiat? Quod, ut arbitror, nec pueri fecissent. Quominus 
+mirum si papa sibi arrogat Caesaris coronationem, quae populi 
+Romani esse deberet.</p>
+
+<p>Si tu, papa, et potes Graecum Imperatorem privare Italia provinciisque<ref target="note.160.1"/>
+occidentis, et Latinum Imperatorem facis, cur pactionibus
+uteris; cur bona Caesaris partiris; cur in te Imperium<ref target="note.160.2"/> 
+transfers ?</p>
+
+<p>Quare sciat, quisquis est qui dicitur<ref target="note.160.3"/> Imperator Romanorum, 
+me iudice se non esse nec Augustum, nec Caesarem, nec 
+Imperatorem, nisi Romae imperium teneat; et nisi operam det ut urbem 
+Romam recuperet, plane esse periurum. Nam Caesares illi priores, 
+quorum fuit primus Constantinus, non adigebantur iusiurandum 
+interponere quo nunc Caesares obstringuntur, sed quantum 
+humana ope praestari potest, nihil imminuturos esse de amplitudine
+Imperii Romani, eamque sedulo adaueturos.</p>
+
+<p>Non ea re tamen vocati<ref target="note.160.4"/> Augusti, quod Imperium augere deberent,
+ut aliqui sentiunt Latinae hnguae imperiti, est enim Augustus 
+quasi sacer ab avium gustu dictus, quae in auspiciis adhiberi 
+solebant, Graecorum quoque testante lingua, apud quos Augustus 
+<foreign xml:lang="grc">σεβαστός</foreign>5 dicitur, unde Sebastia vocata. Melius summus pontifex 
+ab augendo Augustus dieeretur, nisi quod dum temporalia auget, 
+spiritualia minuit. Itaque videas ut quisque pessimus est summorum
+pontificum, ita maxime defendendae huic donationi incumbere;
+qualis Bonifacius octavus, qui Caelestinum tubis parieti 
+insertis decepit. Hie et de donatione Constantini scribit et regem 
+Franeiae<ref target="note.160.6"/> privavit, regnumque ipsum, quasi donationem 
+
+
+
+<note xml:id="note.160.1"><p> provintiisque ; MS. 
+</p></note>
+
+<note xml:id="note.160.2"><p> Insert non ; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.160.3"><p> Omit qui dicitur; Hutten. 
+</p></note>
+
+<note xml:id="note.160.4"><p> vocantur; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.160.5"><p> MS. leaves blank. <foreign xml:lang="grc">σεβασός</foreign>; Hutten. 
+</p></note>
+
+<note xml:id="note.160.6"><p> Insert regno ; Bonneau. 
+
+
+
+</p></note>
+
+<pb n="162"/>
+
+
+Constantini exsequi vellet, ecclesiae Romanae fuisse et esse subiectum 
+iudicavit; quod statim successores eius, Benedictus et Clemens, ut 
+improbum iniustumque revocarunt.</p>
+
+<p>Verum quid sibi vult ista vestra, pontifices Romani, sollicitudo 
+quod a singulis Imperatoribus donationem Constantini exigitis 
+confirmari, nisi quod iuri diffiditis vestro? Sed laterem lavatis, ut 
+dicitur; nam neque illa umquam fuit, et quod non est confirmari 
+non potest; et quicquid donant Caesares, decepti exemplo Constantini
+faciunt, et donare Imperium nequeunt.</p>
+
+<p>Age vero, demus Constantinum donasse Silvestrumque aliquando
+possedisse, sed postea vel ipsum, vel aliquem ipsorum<ref target="note.162.1"/> a 
+possessione deiectum. (Loquor nunc de his quae papa non possidet;
+postea loquar de his quae possidet.) Quid possum vobis 
+magis dare quam ut ea quae nec fuerunt nec esse potuerunt fuisse 
+concedam? Tamen<ref target="note.162.2"/> dico vos nec iure divino nec iure humano ad 
+recuperationem agere posse. In lege veteri Hebraeus supra sextum 
+annum Hebraeo servire vetabatur, et quinquagesimo<ref target="note.162.3"/> quoque 
+anno omnia redibant ad pristinum dominum. Tempore gratiae 
+Christianus a vicario Christi, redemptoris nostrae servitutis, 
+premetur servitio aeterno? Quid dicam! Revoeabitur ad servitutem
+postquam liber factus est diuque potitus libertate ?</p>
+
+<p>Sileo quam saevus, quam vehemens, quam barbarus dominatus 
+frequenter est sacerdotum; quod si antea ignorabatur, nuper est 
+cognitum ex monstro illo atque portento, Joanne Vitellesco, cardinale
+et patriarcha, qui gladium Petri quo auriculam Malcho 
+abscidit in Christianorum sanguine lassavit; quo gladio et ipse 
+
+
+
+<note xml:id="note.162.1"><p> ipsius successorum ; Bonneau. 
+</p></note>
+
+<note xml:id="note.162.2"><p> tantum ; MS. 
+
+</p></note>
+
+<note xml:id="note.162.3"><p> quinquagessimo ; MS. 
+
+
+
+</p></note>
+
+<pb n="164"/>
+
+
+periit. An vero populis Israel a domo David et Salomonis, quos 
+prophetae a Deo missi unxerant, tamen propter graviora onera 
+desciscere licuit, factumque eorum Deus probavit; nobis ob tantam
+tyrannidem desciscere non licebit, ab his praesertim qui nec 
+sunt reges, nec esse possunt, et qui de pastoribus ovium, id est 
+animarum, facti sunt fures ac latrones?</p>
+
+<p>Et, ut ad ius humanum veniam, quis ignorat nullum ius esse 
+bellorum; aut si quod est, tamdiu valere quamdiu possideas quae 
+bello parasti? Nam cum possessionem perdis, et ius perdidisti; 
+ideoque captivos, si fugerint, nemo ad iudicem repetere solet; 
+etiam nec praedas,<ref target="note.164.1"/> si eas priores domini receperint. Apes et 
+quaedam alia volucrum genera, si e privato meo longius evolaverint
+et in alieno desederint, repeti non queunt. Tu homines, non 
+modo liberum animal, sed dominum ceterorum, si se in libertatem
+manu et armis asserant, non manu et armis repetes, sed 
+iure, quasi tu homo sis, illi pecudes.</p>
+
+<p>Neque est quod dicas : Romani iuste bella nationibus intulerunt, 
+iusteque libertate illas exuerunt. Noli me ad istam vocare quaestionem,<ref target="note.164.2"/>
+ne quid in Romanos meos cogar dicere; quamquam 
+nullum crimen tam grave esse potuit ut aeternam mererentur 
+populi servitutem; cum eo quod saepe culpa principis, magnive 
+alicuius in republica civis, bella gesserunt, et victi immerita 
+servitutis poena affecti sunt; quorum exemplis plena sunt omnia.</p>
+
+<p>Neque vero lege naturae comparatum est, ut populus sibi 
+populum subigat. Praecipere aliis eosque exhortari possumus; 
+imperare illis ac vim afferre non possumus, nisi relicta humanitate 
+velimus ferociores beluas imitari, quae sanguinarium in infirmiores 
+imperium exercent, ut leo in quadrupedes, aquila in volucres, 
+delphinus in pisces. Verumtamen hae beluae non in suum genus 
+
+
+
+<note xml:id="note.164.1"><p> predas ; MS., so throughout. 
+</p></note>
+
+<note xml:id="note.164.2"><p> questionem ; MS. 
+
+
+
+</p></note>
+
+<pb n="166"/>
+
+
+sibi ius vindicant,<ref target="note.166.1"/> sed in inferius. Quod quanto magis faciendum 
+nobis est, et homo homini religioni habendus, cum, ut M. Fabius 
+inquit, nulla supra terras adeo rabiosa belua, cui non imago sua 
+sancta sit.</p>
+
+<p>Itaque quattuor fere causae sunt ob quas bella inferuntur: aut 
+ob ulciscendam iniuriam defendendosque amicos; aut timore accipiendae
+postea calamitatis, si vires aliorum augeri sinantur; aut 
+spe praedae; aut gloriae cupiditate; quarum prima nonnihil 
+honesta, secunda parum, duae posteriores nequaquam honestae 
+sunt. Et Romanis quidem illata fuere bella frequenter, sed postquam
+se defenderant, et illis et aliis ipsi intulerunt; nec ulla gens 
+est quae dicioni eorum cesserit, nisi bello victa et domita, quam 
+recte aut qua causa, ipsi viderint. Eos ego nolim nec damnare, 
+tamquam iniuste pugnaverint, nec absolvere tamquam iuste; 
+tantum dicam eadem ratione Romanes ceteris bella intulisse qua 
+reliqui populi regesque, atque ipsis qui bello lacessiti victique sunt 
+licuisse deficere a Romanis, ut ab aliis dominis defecerunt; ne 
+forte, quod nemo diceret, imperia omnia ad vetustissimos illos, 
+qui primi domini fuere, id est, qui primi praeripuere aliena, 
+referantur.</p>
+
+<p>Et tamen melius in victis bello nationibus populo Romano quam 
+Caesaribus rempublicam opprimentibus ius est. Quocirca si fas 
+erat gentibus a Constantino, et quod multo plus est a populo 
+Romano desciscere, profecto et ab eo ius erit cuicumque cesserit 
+ille ius suum. Atque, ut audacius agam, si Romanis licebat Constantinum
+aut exigere ut Tarquinium, aut oecidere ut lulium 
+Caesarem, multo magis eum vel Romanis vel provinciis licebit 
+oecidere qui in locum Constantini utcumque successit. Hoc etsi 
+verum, tamen ultra causam meam est, et ideirco<ref target="note.166.2"/> me reprimere 
+volo nec aliud ex his coUigere quae dixi, nisi ineptum esse, ubi 
+
+
+
+<note xml:id="note.166.1"><p> vendicant; MS.
+
+</p></note>
+
+<note xml:id="note.166.2"><p> idcirco; MS. 
+
+
+
+</p></note>
+
+<pb n="168"/>
+
+
+armorum vis est, ibi ius quemque afferre verborum; quia quod 
+armis acquiritur, idem rursus armis amittitur.</p>
+
+<p>Eo quidem magis, quod aliae novae gentes, ut de Gothis 
+accepimus, quae numquam sub imperio Romano fuerunt, fugatis 
+veteribus incolis, Italiam et multas provincias occuparunt, quas 
+in servitutem revocari in qua numquam fuerunt, quae tandem 
+aequitas est, praesertim victrices, et fortasse a victis? Quo 
+tempore, si quae urbes ac nationes, ut factum fuisse scimus, ab 
+Imperatore desertae ad barbarorum adventum necesse habuerunt 
+deligere sibi regem, sub cuius auspiciis victoriam reportarunt, 
+numquid hunc postea a principatu deponerent; aut eius filios, 
+tum commendatione patris, tum propria virtute favorabiles 
+iuberent esse privatos, ut iterum sub Romano principe essent, 
+maxime cum eorum opera assidue indigerent, et nullum aliunde 
+auxilium sperarent? Hos<ref target="note.168.1"/> si Caesar ipse, aut Constantinus ad 
+vitam reversus, aut etiam senatus populusque Romanus ad commune
+indicium, quale in Graecia Amphictyonum<ref target="note.168.2"/> fuit, vocaret, 
+prima statim actione repelleretur, quod a se olim custode desertos, 
+quod tamdiu<ref target="note.168.3"/> sub alio principe degentes, quod numquam alienigenae
+regi subditos, quod denique homines libertati natos et in 
+libertatem robore animi corporisque assertos, ad famulatum 
+servitiumque reposceret. Ut appareat, si Caesar, si populus 
+Romanus a repetendo exclusus est, multo vehementius papam 
+esse exclusum ! Et si licet aliis nationibus quae sub Roma fuerunt, 
+aut regem sibi creare, aut rempublicam tenere, multo magis id 
+licere populo Romano, praecipue adversus novam papae tyrannidem.</p>
+
+<p>Exclusi a defendenda donatione adversarii, quod nec umquam 
+fuit et si qua fuisset iam temporum conditione intercidisset, confugiunt
+ad alterum genus defensionis, et velut relicta urbe in 
+
+
+
+<note xml:id="note.168.1"><p> hoc; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.168.2"><p> Amphitrionum ; MS., Hutten. 
+
+</p></note>
+
+<note xml:id="note.168.3"><p> tandiu; MS., Hutten. 
+
+
+
+</p></note>
+
+<pb n="170"/>
+
+
+arcem se recipiunt, quam statim deficientibus cibariis dedere 
+cogentur. Praescripsit, inquiunt, Romana ecclesia in iis<ref target="note.170.1"/> quae 
+possidet. Cur ergo, quae maior pars est, ea reposcit, in quibus non 
+praescripsit, et in quibus alii praescripserunt? Nisi id non licet 
+aliis in hanc, quod huic licet in alios.</p>
+
+<p>Praescripsit Romana ecclesia! Cur ergo ab Imperatoribus 
+totiens curat sibi ius confirmandum? Cur donationem confirmationemque
+Caesarum iactat? Si hoc unum satis est, iniuriam ei 
+fads si de altero quoque iure non sileas. Cur igitur de altero non 
+siles? Nempe quia hoc sibi non sufficit.</p>
+
+<p>Praescripsit Romana ecclesia! Et quomodo potest praescripsisse
+ubi de nuUo titulo sed de malefidei<ref target="note.170.2"/> possessione constat; 
+aut, si malefidei possessionem neges, profecto stultae fiidei negare 
+non possis? An in tanta re tamque aperta excusata debet esse et 
+iuris et facti ignorantia? Facti quidem, quod Romam provinciasque
+non dedit Constantinus, quod ignorare idiotae hominis est, 
+non summi pontificis; iuris autem, quod illa nec donari potuere 
+nec aceipi, quod nescire vix Christiani est. Itane stulta credulitas 
+dabit tibi ius in his quae, si prudentior fores, tua numquam fuissent?
+Quid! Nonne nunc saltem, postquam te per ignorantiam 
+atque stultitiam possedisse docui, ius istud, si quod erat, amittes, 
+et quod inscitia male contulerat tibi, nonne id rursum cognitio 
+bene adimet, mancipiumque ab iniusto ad iustum dominum revertetur,
+fortassis etiam cum usufructu? Quod si adhuc possidere 
+pergis, iam inscitia in malitiam<ref target="note.170.3"/> fraudemque conversa est, 
+planeque effectus es<ref target="note.170.4"/> malefidei possessor.</p>
+
+<p>Praescripsit Romana ecclesia! O imperiti, O divini iuris ignari! 
+
+
+
+<note xml:id="note.170.1"><p> his; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.170.2"><p> malae fidei; Hutten, Bonneau, so below. 
+
+</p></note>
+
+<note xml:id="note.170.3"><p> maliciam ; MS. 
+</p></note>
+
+<note xml:id="note.170.4"><p> est ; MS. 
+
+
+
+</p></note>
+
+<pb n="172"/>
+
+
+Nullus quantusvis<ref target="note.172.1"/> annorum numerus verum abolere titulum 
+potest. An vero captus ego a barbaris, creditusque perisse,<ref target="note.172.2"/> post 
+centum annos quibus captivus fui, postliminio reversus paternae 
+hereditatis repetitor excludar? Quid hac re inhumanius? Atque, 
+ut aliquod afferam exemplum, num Jephte, dux Israel, reposcentibus
+filiis Ammon terram "a finibus Arnon usque in laboc atque in 
+lordanem" respondit, "Praescripsit Israel iam per trecentos 
+annos?" An quod numquam illorum, sed Amorreorum fuisset 
+terra quam reposcerent ostendit; et hoc argumentum esse, ad 
+Ammonitas<ref target="note.172.3"/> illam non pertinere, quod numquam intra tot annorum
+curriculum repoposcissent ?</p>
+
+<p>Praescripsit Romana ecclesia! Tace, nefaria lingua! Praescriptionem,
+quae fit de rebus mutis et irrationabilibus, ad hominem
+transfers, cuius quo diuturnior in servitute possessio eo est 
+detestabilior? Aves ac ferae in se praescribi nolunt, sed quantolibet
+tempore possessae, cum libuerit et oblata fuerit occasio, 
+abeunt: homini ab homine possesso abire non licebit?<ref target="note.172.4"/> 
+
+Accipe unde magis f raus dolusque quam ignorantia Romanorum 
+pontificum appareat utentium iudice bello non iure; cui simile 
+quiddam primos pontifices in occupanda urbe ceterisque oppidis 
+credo fecisse. Parum ante me natum, testor eorum memoriam qui 
+interfuerunt, per inauditum genus fraudis Roma papale accepit 
+imperium seu tyrannidem potius, cum diu libera fuisset. Is fuit 
+Bonifacius nonus, octavo in fraude ut<ref target="note.172.5"/> in nomine par, si modo 
+Bonifacii<ref target="note.172.6"/> dicendi sunt qui pessime faciunt. Et cum Romani 
+deprehenso dolo apud se indignarentur, bonus<ref target="note.172.7"/> papa in morem 
+Tarquinii summa quaeque papavera virga decussit. Quod cum 
+postea, qui ei successit, Innocentius imitari vellet, urbe fugatus 
+
+
+<note xml:id="note.172.1"><p> quantumvis ; Hutten, Bonneau, so throughout. 
+
+</p></note>
+
+<note xml:id="note.172.2"><p> periisse; Hutten, Bonneau, so throughout. 
+
+</p></note>
+
+<note xml:id="note.172.3"><p> Amonitas ; MS. 
+
+</p></note>
+
+<note xml:id="note.172.4"><p> licet ; Hutten. 
+
+</p></note>
+
+<note xml:id="note.172.5"><p> et, instead of ut in; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.172.6"><p> bonifatii; MS. 
+
+</p></note>
+
+<note xml:id="note.172.7"><p> Bonifacius; Hutten, Bonneau. 
+
+
+
+</p></note>
+
+<pb n="174"/>
+
+
+est. De aliis pontificibus nolo dicere, qui Romam vi semper oppressam
+armisque tenuerunt; licet, quotiens potuit, rebellavit; ut 
+sexto abhinc anno, cum pacem ab Eugenio obtinere non posset, 
+nec par<ref target="note.174.1"/> esset hostibus qui earn obsidebant, et ipsa papam intra 
+aedes obsedit, non permissura ilium abire priusquam aut pacem 
+cum hostibus faceret aut administrationem civitatis relegaret ad 
+cives. At ille maluit urbem deserere dissimulato habitu uno fugae 
+comite, quam civibus gratificari iusta et aequa petentibus. Quibus 
+si des electionem, quis ignorat libertatem magis quam servitium 
+electuros ?</p>
+
+<p>Idem suspicari libet de ceteris urbibus quae a summo pontifice 
+in servitute retinentur, per quem a servitute liberari debuissent. 
+Longum esset recensere quot urbes ex hostibus captas populus 
+Romanus olim liberas fecit, adeo ut Titus Flaminius omnem 
+Graeciam, quae sub Antiocho fuisset, liberam esse et suis uti 
+legibus iuberet. At papa, ut videre licet, insidiatur sedulo libertati 
+populorum; ideoque vicissim illi quotidie oblata facultate (ad 
+Bononiam modo respice) rebellant. Qui si quando sponte, quod 
+evenire potest aliquo aliunde periculo urgente, in papale imperium 
+concenserunt, non ita accipiendiun est concensisse, ut servos se 
+facerent; ut numquam subtrahere a iugo coUa possent; ut postea 
+nati non et ipsi arbitrium sui habeant; nam hoc iniquissimum 
+foret.</p>
+
+<p>"Sponte ad te, summe pontifex, ut nos gubernares venimus; 
+sponte nunc rursus abs te ne gubernes diutius recedimus. Si qua 
+
+
+
+<note xml:id="note.174.1"><p> pax; Hutten, Bonneau. 
+
+
+
+</p></note>
+
+<pb n="176"/>
+
+
+tibi a nobis debentur, ponatur calculus datorum et acceptorum. 
+At tu gubernare invitos vis, quasi pupilli simus, qui te ipsum 
+forsitan sapientius gubernare possemus. Adde hue iniurias quae 
+aut abs te aut a tuis magistratibus huic civitati frequentissime 
+inferuntur. Deum testamur, iniuria cogit nos rebellare, ut olim 
+Israel a Roboam fecit. Et quae tanta fuit illi<ref target="note.176.1"/> iniuria? Quanta 
+portio nostrae calami tatis graviora solvere tributa? Quid enim si 
+rempublicam nostram exhaurias? Exhausisti.<ref target="note.176.2"/> Si templa spolies? 
+Spoliasti. Si virginibus matribusque familias stuprum inferas? 
+Intulisti. Si urbem sanguine civili perfundas? Perfudisti. Haec 
+nobis sustinenda sunt? An potius, cum tu pater nobis esse desieris, 
+nos quoque filios esse<ref target="note.176.3"/> obliviscemur? Pro patre, summe pontifex, 
+aut si te hoc magis iuvat, pro domino hie te populus advocavit, 
+non pro hoste atque carnifice : patrem agere aut dominum non vis, 
+sed hostem ac carnificem. Nos saevitiam tuam impietatemque, etsi 
+iure offensae poteramus, tamen quia Christiani sumus, non imitabimur,
+nec in tuum caput ultorem stringemus gladium, sed te 
+abdieato atque summoto, alterum patrem dominumve adoptabimus.
+Filiis a mails parentibus a quibus geniti sunt fugere licet; 
+nobis a te, non vero patre sed adoptivo et pessime nos tractante, 
+non licebit? Tu vero, quae saeerdotii operis sunt, cura, et noli 
+tibi ponere sedem ad Aquilonem et illinc tonando<ref target="note.176.4"/> fulgurantia 
+fulmina in hune populum ceterosque vibrare."</p>
+
+<p>Sed quid plura opus est in re apertissima dieere? Ego non modo 
+Constantinum non donasse tanta, non modo non potuisse Romanum
+pontifieem in eisdem praescribere, sed etiam si utrumque 
+esset, tamen utrumque ius sceleribus possessorum exstinctum 
+esse contendo, cum videamus totius Italiae multarumque provinciarum
+cladem ac vastitatem<ref target="note.176.5"/> ex hoc uno fonte fluxisse. Si fons 
+
+
+
+<note xml:id="note.176.1"><p> illa; Hutten, Bonneau. 
+</p></note>
+
+<note xml:id="note.176.2"><p> exhauristi; MS. 
+
+</p></note>
+
+<note xml:id="note.176.3"><p> non must have dropt out of the text. 
+</p></note>
+
+<note xml:id="note.176.4"><p> Hutten, Bonneau. tonantem ; MS. 
+
+</p></note>
+
+<note xml:id="note.176.5"><p> vastitate; MS. 
+
+
+
+</p></note>
+
+<pb n="178"/>
+
+
+amarus est, et rivus; si radix immunda, et rami; si delibatio 
+sancta non est, nec massa. Ita e diverse, si rivus amarus, fons 
+obstruendus est; si rami immundi, e radice vitium venit; si massa 
+sancta non est, delibatio quoque abominanda<ref target="note.178.1"/> est. An possumus 
+principium potentiae papalis pro iure proferre, quod tantorum 
+scelerum tantorumque omnis generis malorum cernimus esse 
+causam?</p>
+
+<p>Quamobrem dico, et exclamo, neque enim timebo homines, Deo 
+fretus; neminem mea aetate in summo pontificatu fuisse aut 
+fidelem dispensatorem aut prudentem; qui tantum abest ut dederit 
+familiae Dei cibum, ut devorarit illam velut cibum et escam 
+panis.<ref target="note.178.2"/> Papa et ipse bella pacatis populis infert, et inter civitates 
+principesque discordias ferit. Papa et alienas sitit opes, et suas 
+exsorbet,<ref target="note.178.3"/> ut Achilles in Agamemnonem, <foreign xml:lang="grc">Δημοβόρος βασιλεύς</foreign>, 4 
+id est populi vexator rex.<ref target="note.178.5"/> Papa non modo rempublicam, quod 
+non Verres, non Catilina, non quispiam peculator auderet, sed 
+etiam rem ecclesiasticam et Spiritum Sanctum quaestui<ref target="note.178.6"/> habet, 
+quod Simon ille Magus etiam detestaretur. Et cum horum admonetur,
+et a quibusdam bonis viris reprehenditur, non negat, 
+sed palam fatetur, atque gloriatur licere enim<ref target="note.178.7"/> quavis ratione patrimonium
+ecclesiae a Constantino donatum ab occupantibus 
+extorquere; quasi eo recuperato religio Christiana futura sit 
+beata, — et non magis omnibus flagitiis, luxuriis libidinibusque 
+oppressa, si modo opprimi magis potest, et ullus est sceleri ulterior 
+locus !</p>
+
+<p>Ut igitur recuperet cetera membra donationis, male ereptas a 
+bonis viris pecunias peius effundit, militumque equestres pedestresque
+copias, quibus omnia infestantur, alit, cum Christus in tot 
+millibus pauperum fame ac nuditate moriatur. Nec intelligit, O 
+
+
+
+<note xml:id="note.178.1"><p> abhominanda ; MS., so throughout. 
+
+</p></note>
+
+<note xml:id="note.178.2"><p> ut dederit familiae cibum, et escam panis; Hutten. donaret, instead of devo-  rarit; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.178.3"><p> exorbet; MS. 
+</p></note>
+
+<note xml:id="note.178.4"><p> MS. leaves blank space for the Greek words. 
+
+</p></note>
+
+<note xml:id="note.178.5"><p> Omit id est populi vexator rex; Hutten, populi vorator, omitting id est and  rex; Bonneau. 
+
+</p></note>
+
+<note xml:id="note.178.6"><p> questui ; MS. 
+</p></note>
+
+<note xml:id="note.178.7"><p> ei ; Bonneau. 
+
+
+
+</p></note>
+
+<pb n="180"/>
+
+
+indignum facinus! cum ipse saecularibus auferre<ref target="note.180.1"/> quae ipsorum 
+sunt laborat, illos vicissim sive pessimo exemplo induci, sive 
+necessitate cogi, licet non est vera necessitas, ad auferenda quae 
+sunt ecclesiasticorum. Nulla itaque usquam religio, nulla sanctitas,
+nullus Dei timor; et quod referens quoque horresco, omnium 
+scelerum impii homines a papa sumunt excusationem. In illo enim 
+comitibusque eius est<ref target="note.180.2"/> omnis facinoris exemplum, ut cum Esaia 
+et Paulo, in papam et papae proximos dicere possumus : "Nomen 
+Dei per vos blasphematur inter gentes. Qui alios docetis, vos 
+ipsos non docetis; qui praedicatis non furandum, latrocinamini; 
+qui abominamini idola, sacrilegium facitis; qui in lege et in 
+pontificatu gloriamini, per praevaricationem legis Deum verum 
+pontificem inhonoratis."</p>
+
+<p>Quod si populus Romanus ob nimias opes veram illam Romanitatem
+perdidit, si Salomon ob eandem causam in idolatriam amore 
+feminarum lapsus est, nonne idem putamus fieri in summo pontifice
+ac reliquis clericis? Et postea putamus Deum fuisse permissurum
+ut materiam peccandi Silvester acciperet ? Non patiar banc 
+iniuriam fieri sanctissimo viro; non feram banc contumeliam fieri<ref target="note.180.3"/>
+pontifici Optimo, ut dicatur imperia, regna, provincias accepisse, 
+quibus renuntiare<ref target="note.180.4"/> etiam solent qui clerici fieri volunt. Pauca 
+possedit Silvester, pauca ceterique sancti pontifices, quorum 
+aspectus apud hostes quoque erat sacrosanctus ; veluti illius 
+Leonis, qui trucem barbari regis animum terruit ac fregit, quem 
+Romanae vires nec<ref target="note.180.5"/> frangere nec terrere potuerant. Recentes vero 
+summi pontifices, id est divitiis ac deliciis<ref target="note.180.6"/> affluentes, id videntur 
+laborare, ut quantum prisci fuere sapientes et sancti, tantum ipsi 
+et impii sint et stulti, et illorum egregias laudes omnibus probris 
+
+
+
+<note xml:id="note.180.1"><p> aufferre ; MS. 
+</p></note>
+
+<note xml:id="note.180.2"><p> esse ; MS. 
+
+</p></note>
+
+<note xml:id="note.180.3"><p> Bonneau omits sanctissimo . . . fieri. 
+
+</p></note>
+
+<note xml:id="note.180.4"><p> renundare; MS. 
+
+</p></note>
+
+<note xml:id="note.180.5"><p> Hutten, Bonneau. Omit nec; MS. 
+</p></note>
+
+<note xml:id="note.180.6"><p> delitiis; MS. 
+
+
+
+</p></note>
+
+<pb n="182"/>
+
+
+vincant. Haec quis Christiani nominis queat aequo animo ferre? 
+Verum ego in hac prima nostra oratione nolo exhortari principes 
+ac populos, ut papam effrenato cursu volitantem inhibeant eumque
+intra suos fines consistere compellant, sed tantum admoneant, 
+qui forsitan iam edoctus veritatem, sua sponte ab aliena domo in 
+suam, et ab insanis fluctibus saevisque tempestatibus in portum 
+se recipiet. Sin recuset, tunc ad alteram orationem multo truculentiorem
+accingemur. Utinam, utinam aliquando videam, nec enim 
+mihi quicquam est longius quam hoc videre, et praesertim meo 
+consilio effectum, ut papa tantum vicarius Christi sit, et non etiam 
+Caesaris; nec amplius horrenda vox audiatur: "Partes eeelesiae," 
+"Partes contra ecclesiam," "Ecclesia contra Perusinos pugnat," 
+"contra Bononienses ! " Non contra Christianos pugnat eeelesia, 
+sed papa; illa pugnat contra spiritualia nequitiae in caelestibus. 
+Tunc papa et dieetur et erit Pater Sanetus, pater omnium, pater 
+eeelesiae; nec bella inter Christianos excitabit, sed ab aliis excitata 
+eensura apostoliea et papali maiestate sedabit.<ref target="note.182.1"/>
+
+<note xml:id="note.182.1"><p> MS. bears postscript ; Finis septimo Idus Decembris, Mccccli. Laus Deo. 
+
+</p></note>
+
+</p>
+</body>
+</text>
+</TEI>

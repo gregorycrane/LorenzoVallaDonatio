@@ -1,0 +1,2673 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+        <author>Lorenzo Valla</author>
+        <editor n="transl" role="translator">Alcide Bonneau</editor>
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>La donation de Constantin: premier titre du pouvoir temporel des Papes, où il est prouvé que cette Donation n’a jamais existé, et que l’Acte attribué à Constantin est Toeuvre d’un faussaire</title>
+            <author>Lorenzo Valla</author>
+            <respStmt>
+              <name>Alcide Bonneau</name>
+              <resp>translator</resp>
+            </respStmt>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <publisher>Isidore Liseux, Editeur, Rue Bonaparte, n. 2 1879</publisher>
+              <date>1879</date>
+            </imprint>
+          </monogr>
+	<ref target="https://babel.hathitrust.org/shcgi/pt?id=wu.89100038991">Book scanned from the University of Wisconsin. Hathitrust: wu.89100038991</ref>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="Chapter"
+                         matchPattern="(\\w+).(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                    <p>This pointer pattern extracts Book and Chapter</p> </cRefPattern>
+                <cRefPattern n="Book"
+                         matchPattern="(\\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                    <p>This pointer pattern extracts Book</p>
+                </cRefPattern>
+            </refsDecl>
+            <p>This text is quickly corrected OCR output. The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+</encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ger">German</language>
+        <language ident="eng">English</language>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+    <body>
+
+<pb n="46"/>
+
+<pb n="47"/>
+
+
+<head>Traité de Laurent Valla  contre la pretendue donation de Constantin </head><p>J’ai publié sur toutes sortes de sujets maints et maints livres, dans quelques-uns desquels je m’écarte de Topinion d’auteurs considérables etconsacrés par le temps. Puis-
+
+
+
+
+
+
+<pb n="48"/>
+
+
+qu'il en est qui m’ont en abomination et qui me dénoncent comme un téméraire, un sacrilège, que doit-on croire qu’ils vont faire aujourd’hui, quelle va ètre leur rage, et, s'ils en trouvent l'occasion, avec quel bonheur et quel empressement ils me trameront au supplice, moi qui m’attaque non seulement aux morts, mais aux vivants; non à tei ou tei, mais à un grand nombre; non à de simples particuliers, mais aux dépositaires du pouvoirl Et de quel pouvoir! au Souverain Pontife, armé du glaive temporei, comme les Rois et les Princes, et, par surcroit, du glaive spirituel qu'on
+
+
+
+
+<pb n="49"/>
+
+
+ne peut éviter, pour ainsi dire, mème sous le bouclier de quelque Prince : là encore te frapperaient Texcommunication, ranathème, Texécration. S’il est réputé avoir agi prudemment, comme il s’en est vanté, l'homme qui a dit : « Je ne veux pas écrire contre ceux qui peuvent proscrire »; à plus forte raison devrais-je ainsi faire vis-à-visjje celui qui ne laissera pas mème un refuge à la proscription, qui m'atteindra partout des flèches invisibles de sa puissance, de sorte que je pourrais m'écrier : Où fuirai-je son soufflé? où me cacherai-je de sa face? A moins qu'on ne pense que le Souverain Pontife
+
+
+
+
+
+
+<pb n="50"/>
+
+
+soit d'humeur à supporter les reproches plus patiemment que ne feraient les autres : mais c’est le contraire. Ananias, Prince des Prètres, devant le tribun sié-geant comme juge, ordonna de frapper Saint PauL qui se vantait d’avoir jusque-lavécy en toute bonne conscience; un autre Prince des Prètres, Phassur, fit jeter en prison Jérémie, pour avoir parlé librement. A l’égard du premier, le tribun et le gouverneur, à l'égard du second le Roi, purent et voulurent les soustraire à la violence du Pontife; mais moi, quel tribun, quel gouverneur, quel roi m’arrachera, si j’y tombe, d’entre les
+
+
+
+<pb n="51"/>
+mains du Grand Prètre? qui donc le pourrait, s’il le voulait?</p><p>Ce n’est pas une raison pour que la peur d'un doublé péril me trouble et me détourne de mon but. Contre les lois divines et humaines, le Souverain Pontife ne peut rien lier ni délier; et donner sa vie pour la défense de la vérité et de la justice, c'est le comble de la vertu et de Thonneur, c’est la suprème récompense. Combien versent leur sang pour la patrie terrestre ! J’ofifre le mien pour la patrie celeste; ils la méritent, ceux qui sont agréables à Dieu, non aux hommes. La peur de la mort me ferait
+
+
+
+
+
+<pb n="52"/>
+
+reculer? Arrière toute crainte! arrière les appréhensions, les épouvantes! Cest d’un coeur ferme, en toute confiance, en plein espoir, qu’il faut défendre la cause de la vérité, la cause de la justice, la cause de Dieu !</p><p>Pour ètre compté comme un véritable orateur, il ne suffit pas de savoir bien dire, si l’on n’ose dire. Osons donc accuser quiconque appelle sur lui une juste accusation, et que celui qui pèche devani tous soit dénoncé par un seul au nom de tous. — Mais je ne dois pas publiquement dénoncer mon frère, c’est affaire entre lui et moi? — Non; celui qui pèche publiquementj et qui ne supporterai pas
+
+
+
+
+
+
+
+
+<pb n="53"/>
+
+un conseil amicai, doit étre publiquement repris, pour donner de la crainte aux autres. Est-ce que Paul, dont ce sont les propres paroles, n’a pas repris Pierre en face, devant l'Église, parce qu’il était répréhensible? Il nous a laissé cela par écrit, en exemple. — Je ne suis pas Paul, dira-t-on, pour oser reprendre Pierre? — Si; je suis Paul, puisque j’imite Paul. Bien plus, Tesprit de Dieu est en moi quand j’obéis ponctuellement aux ordres de Dieu. La dignité suprème ne protège personne contre le blàme, puisqu’elle n'a pas protégé Pierre, ni bien d’autres, élevés au mème,rang : Marcel, qui fai-
+
+
+
+
+<pb n="54"/>
+
+sait des libations aux Dieux; Célestin, infecté de Fhérésie de Nestorius; d'autres encore dont le souvenir est présent et que nous savons avoir été repris, pour ne pas dire condamnés, par leurs infé-rieurs; car qui n'est pas Finférieur du Pape ? Ce que j'en fais, ce n'est pas pour invectiver qui que ce soit et composer des espèces de Philippiques; loin de moi cette pensée coupable. Cest pour déra-ciner Ferreur de Fesprit des hommes, pour les arracher aux vices et aux crimes, soit par la persuasion, soit par les reproches; je n’ose dire, pour que d’autres, à mon exemple, émondent, le fer en main,
+
+
+
+
+
+
+
+<pb n="55"/>
+les bourgeons par trop luxuriants du Siège Apostolique, cette vigne du Christ, et la forcent à produire des grappes abondantes au lieu de maigres sarments. Quand j'agis de la sorte, qui donc voudrait seulement ine fermer les lèvres ou se boucher les oreilles, bien loin de proposer contre moi la peine de mort? Si quelqu’un Tosait, qu’en pourrais-je dire? Qu’il est le Bon Pasteur, ou bien l’aspic insensible qui refuse d’écouter la voix du charmeur et veut l’engourdir de ses morsures et de son venin?</p><p>Je me doute qu’on dresse Poreille et
+
+
+
+
+
+
+<pb n="56"/>
+
+qu’on se demande quelle inculpation j’entends diriger contre les Souverains Pontifes. Une inculpation grave, assurément, car je les accuse ou d’une honteuse ignorance, ou d’une horrible avarice, forme de l’idolàtrie, ou de l’orgueil du pouvoir, que toujours accompagne la cruauté. En effet, il y a quelques siècles, ou bien ils ne soupçonnèrent pas que la Donation de Constantin était une fraude, une imposture : ou bien ils la fabriquèrent eux-mèmes, et ceux qui suivirent, emboìtant le mensonge de leurs devanciers, défendirent comme vraie cette Donation qu’ils savaient fausse, au déshonneur de la ma-
+
+
+
+
+
+<pb n="57"/>
+
+jesté Pontificale, au déshonneur de la raémoire des anciens Papes, au déshonneur de la religion Chrétienne : le tout entremèlé de meurtres, de menaces et d’infamies. Ils disent que la ville de Rome est à eux ; à eux aussi le royaume de Sicile et le royaume de Naples, et toute l'Italie, les Gaules, les Espagnes, les Allemands, les Anglais, à eux enfìn tout l’Occident. Tout cela est, en effet, dans la charte de donation; tout t’appartient donc, Souverain Pontife; ton ardent désir est de recouvrer tout. Dé-pouiller de leurs Etats les Rois et les Princes de l’Occident, ou les forcer à te payer des tributs annuels, voilà ton am-
+
+
+
+
+
+
+
+<pb n="58"/>
+
+
+
+bition. Mais moi, j’estime au contraire plus équitable de permettre aux Princes de t'enlever tout ce qui est soumis à ton pouvoir. Car ainsi que je le démontrcrai, cette Donation, d’où les Papes veulent tirer leur droit, a été aussi inconnue à Sylvestre qu’à Constantin.</p><p>Mais, auparavant que j’arrive à refuter la charte de donation, à démontrer que cette charte, leur seul appui, est non seulement fausse, mais absurde, la méthode exige que je reprenne les choses de plus loin et que je prouve d’abord que Constantin et Sylvestre ne furent pas tels, que le premier, voulut-il donner, eut le droit de donner,
+
+
+
+
+
+
+
+
+<pb n="59"/>
+
+possédàt mème ce qu'il aurait transmis aux mains d’un autre ; et que le second, voulut-il accepter, le put, en droit; deuxièmement, que, quand cela ne serait pas, quoique ce soit très-vrai et très-clair, jamais Sylvestre ne re£ut, jamais Constantin n'opéra la transmission des choses données; qu’elles restèrent toujours sous la main et au pouvoir des Césars; troisièmement, que Constantin n'a rien donné à Sylvestre, mais à son prédécesseur, dont il refut le baptéme; que ces présents furent médiocres et seulement pour aider le Pape à vivre; quatrièmement, qu’il est faux que le
+
+
+
+
+
+<pb n="60"/>
+
+
+texte de la Donation soit ti ré des Décrétales ou de Thistoire de Sylvestre, qu'on ne le trouve ni dans les Décrétales, ni dans aucune histoire ; que ce texte, d'ailleurs, fourmille de contradictions, d’impossibilités, de sottises, de barbarismes, d’extravagances. Je parlerai ensuite de quelque autre donation, simulée ou du moins frivole, des Césars, et surabondamment j’ajouterai : Si Sylvestre a été mis en possession, il faut bien que lui ou tout autre Pape ait été dépossédé, et, après un tei laps de temps, il est impossible, de droit divin ou de droit humain, d’exercer la répétition, Enfin, pour ce
+
+
+
+
+
+
+<pb n="61"/>
+que détient actuellement le Pape, aucun laps de temps n’autorise la prescription, et, ce qui reatre dans ma première partie, jamais Constantin n’a pu ni voulu donner l’Empire à un autre.</p><p>Parlons d’abord de Constantin; Sylvestre viendra ensuite.</p><p>Ce ne serait pas à faire que nous ne plaidions pas une cause publique, une cause Impériale, sur un ton un peu plus élevé qu’une cause ordinaire. Je me figure donc que je prends la parole dans un cénacle de Rois et de Princes (aussi
+
+
+
+
+
+
+<pb n="62"/>
+
+bien mon plaidoyer doit-il ètre un jour entre leurs mains), et je m’adresse à eux, comme s’ils étaient là, en face de moi. Je vous cite ici, Rois et Princes, car il est difficile a un simple particulier de se figurer les intentions des Rois; je recherche vos pensées intimes, je scrute vos consciences, je réclame votre témoignage. En est-il un seul parmi vous qui, à la place de Constantin, eut été homme a donner la ville de Rome, sa patrie, la tète du Monde, la Reine des citcs, la plus puissante, la plus noble, la plus riche entre les nations, la ville qui a subjugué tous les peuples et dont l’aspect mème est auguste? à la donner en ca-
+
+
+
+
+
+
+<pb n="63"/>
+
+deau, à titre de gracieuseté, pour se confiner lui-mème dans Pobscure bourgade qui depuis est devenue Byzance? à donner avec Rome Tltalie, non pas une province, mais la maitresse des provìnces ; à donnep les trois Gaules, les deux Espagnes ; à donner les Bretons ; à donner tout l’Occident : des deux yeux de TEmpire, il s’en serait arraché un? J'ai beau faire, je ne puis croire qu'aucun de vous, en état de raison, agisse de la sorte.</p><p>Que peut-il vous arriver de plus à souhaìt, de plus doux, de plus délicieux, que d’accroitre vos possessions, d’annexer des royaumes à vos royaumes,
+
+
+
+
+
+<pb n="64"/>
+
+
+d’étendre le plus possible, en long et en large, votre domination? C’est là, ce me semble, Pobjet de tous vos soucis, de toutes vos pensées, le travail qui consume vos jours et vos nuits. Ces conquètes sont vos rèves de gioire ; pour elles vous méprìsez les voluptés, pour elles vous courez mille périls, pour elles vous sacrifìez vos plus chers rejetons, pour elles, de grand coeur, vous risquez l’un de vos membres : à moins que j’aie jamais appris ou lu qu’aucun de vous, dans cet acharnement à agrandir son empire, se soit laissé effrayer pour avoir perdu un oeil, un bras, une jambe ou
+
+
+
+
+
+
+
+<pb n="65"/>
+
+toute autre partie du corps; telle est la passion, l’avidité des conquètes, que plus un Prince est puissant, plus elle l’étreint et le tourmente. Alexandre, non content d’avoir traversé les déserts de la Lybie, soumis l'Orient jusqu’à l’Océan, son extrème limite, dompté le Septentrion, brave tant de blessures, tant de perite, malgré les murmures de ses soldats que rebutaient de si lointaines et si pénibles expéditions, Alexandre croyait n'avoir rien fait s’il ne rendait ses tributaires l'Occident et toutes les nations, ou par la force des armes ou par la terreur de son nom. C’est trop peu dire : il songeait déjà à franchir l’Océan, et, s’il existait
+
+
+
+
+
+
+<pb n="66"/>
+
+
+
+quelque autre continent, à l’explorer et à le soumettre à son empire; enfin il ■ eut, je pense, tenté l’escalade du ciel. Telle est à peu près la volonté de tous les Rois, si tous n’en ont pas l’audace. Je veux taire les crimes, les abominations commises pour s’emparer du pouvoir ou pour l’étendre; les frères n'ont pas horreur de tremper leurs mains criminelles dans le sang des frères, les fils dans le sang des pères, les pères dans le sang des fils. Nulle part ne sévit avec plus de violence et d’atrocité la folie humaine. Et ce dont on pourrait s’étonner, les vieux y mettent tout autant d’ardeur que les jeunes, ceux
+
+
+
+
+
+
+<pb n="67"/>
+
+
+qui n'ont pas d'héritiers que ceux qui en ont, les Rois légitimes que les usurpateurs.</p><p>Si Ton se donne tant de peine pour acquérir le pouvoir, combien s'en donnera-t-on pour le conserver ! Car enfin, il est bien moins déplorable de ne pas augmenter ses domaines que de les amoindrir, bien moins honteux de ne pas incorporer à son royaume celui d’un autre que de laisser annexer le sien. Si nous lisons qu’un Roi, un peuple ont parfois alieni le gouvernement d'un royaume ou d’une ville, il ne s’agissait pas de la principale province ni de la capitale, mais bien de quelque région lointaine, de
+
+
+
+
+
+
+<pb n="68"/>
+
+quelque infime partie de l'empire ; encore était-ce sous la condition que le donataire reconnut comme suzerain le donateur et se considerat comme son vassal.</p><p>Maintenant, je le demande, ne font-ils pas montre de leur bassesse et de leur indignité, ceux qui pensent que Constantin a pu alie'ner la meilleure partie de l’Empire, je ne parie pas de Rome, de ritalie, etc., mais des Gaules, où il avait livré des batailles en personne, installé dès longtemps sa domination, posé les bases de sa renommée et de sa puissance? Lui qui, dans sa soif du pouvoir, avait fait la guerre à tous les peuples ; qui n'avait pas reculé devant la guerre civile, pour
+
+
+
+
+
+
+<pb n="69"/>
+
+déposséder ses amis et ses proches; qui n'était pas encore venu à bout de dompter et détruire les restes de la faction rivale ; lui qui ne combattait pas tant de nations pour acquérir de la gioire ou de la puissance, mais par nécessité, harcelé qu’il était par les Barbares; lui qui avait un si grand nombre de fils, de parents, d’amis; lui qui savait que le Sénat et le Peuple Romain auraient horreur de cette cession ; lui qui connaissait par expérience l’instabilité des nations vaincues, les révoltes qui saluaient chaque transmission de pouvoir à un nouveau Prince ; lui qui se souvenait de n’avoir pas été élu, comme
+
+
+
+
+<pb n="70"/>
+
+les autres Césars, par le choix du Sénat et le consentement du Peuple, mais de s'ètre emparé du tróne à la tète de ses soldats et les armes à la main : quel irrésistible et pressant motif le poussait donc, qu’il ne tint compte de rien et voulut faire preuve d’une telle libéralité ?</p><p>Cest, dit-on, parce qu’il était devenu Chrétien. — Raison de plus pour qu’il ne se dépouillàt pas de la plus belle moitié de l’Empire. Dois-je croireque c’était déjà un crime, une honte, une abomination de régner, et qu’une souveraineté ne pouvait se concilier avec la religion Chrétienne? Ceuxqui vivent dans l’adultère, qui se sont engraissés par l’usure,
+
+
+
+
+
+<pb n="71"/>
+
+qui possèdent les biens des autres, ceux-là ont coutume, en recevant le baptéme, de répudier la femme d’autrui, l’argent d’autrui, les biens d’autrui. Si telle est ton intention, Constantin, tu dois rendre aux villes leur liberté, non les contraindre à changer de maitre. Mais ce n’est pas de cela qu’il s’agit : tu n’as tant fait que pour honorer la religion. Comme s’il était plus religieux de déposer le pouvoir que de le garder pour protéger la religion ! Car, en ce qui est des Papes, il ne peut ètre ni honnète à eux ni utile d'accepter ta Donation. Pour toi, si tu veux te montrer Chrétien et manifester ta piété,
+
+
+
+
+
+<pb n="72"/>
+
+si tu veux ètre agréable je ne dis pas à l'Église Romaine mais à l'Église de Dieu, c’est maintenant, surtout maintenant qu'il te faut ètre Prince, afìnde combattre pour ceux qui nepeuventni ne doivent combattre, afìn de les abriter sous ton egide, eux qui sont en butte aux embuches et aux outrages. Dieu a voulu découvrir à * Nabuchodonosor, à Cyrus, à Assuérus et à beaucoup d'autres Princes le sacrement de vérité : il n’a, exigé d’aucun d’eux qu’il déposàt le pouvoir, qu’il cé-dàt quelque partie de son empire ; il leur a demandò seulement de rendre la liberté aux Hébreux, de les protéger contre des voisins menajants. C’était assez pour les
+
+
+
+<pb n="73"/>
+
+Juifs; ce sera assez pour les Chrétiens, Tu es devenu Chrétien, o Constantin ce serait une chose indigne que, Empereur Chrétien, tu possédasses moins de pouvoir qu’infidèle. La souveraineté est un don de Dieu, et les Princes pai'ens eux-mèmes sont réputés choisis par Dieu.</p><p>— Mais, direz-vous, il avait été guéri de la lèpre : vraisemblablement il aura voulu montrer de la reconnaissance et rendre plus qu’il n'avait reçu. — Allons donc! Naaman, ce Syrien guéri par Elysée, n'offrit en récompense que des
+
+
+
+
+
+<pb n="74"/>
+
+
+présents, non pas la moitié de tous ses biens, et Constantin aurait offert moitié de l'Empire? Je rougis d’examiner cette fable impudente comme une histoire indubitable, carvotre conte a été calqué sur Phistoire de Naaman, comme celui du Dragon sur le chimérique Dragon de Bel. Mais, mème en Padmettant, est-ce que dans cette histoire il est question de donation? Aucunement. J'en parlerai plus loin tout à mon aise.</p><p>Il avait donc été guéri de la lèpre ; il futaussitòt envahi de l’esprit Chrétien; la crainte de Dieu, Pamour de Dieu remplirent son ame ; il résolut de Phonorer. Je ne puis pourtant me persuader qu'il
+
+
+
+
+<pb n="75"/>
+
+
+ait voulu lui faire de tels présents, surtout quand je ne vois personne avoir déposé l’empire pour le donner aux , prètres, soit parmi les Gentils, en Phonneur des Dieux, soit parmi les fidèles en Phonneur du Dieu vivant. Ainsi aucun des Rois dTsrael ne voulut consentir à ce que, suivant Pantique usage, ses sujets allassent sacrifìer au Tempie de Jérusalem, de peur que, frappés de la solennité du culte religieux ou de la majesté du Tempie, ils ne retournassent au Roi de Juda, dont ils s’étaient séparés. Et combien plus grave eut été l'acte attribué à Constantin! N’essayez pas de vous prévaloir de cette guérison
+
+
+
+
+
+
+<pb n="76"/>
+
+de la lèpre. Jéroboam était le premier Roi d’Israél choisi par Dieu, choisi dans une infime condition, ce qui, je pense, est bien une autre affaire que d’ètre guéri de la lèpre : cependant, il n’a pas cru devoir faire cadeau à Dieu de son royaume. Et vous voulez que Constantin ait donné à Dieu le sien, qu’il ne tenait pas de lui, sachant (ce qui n’était pas le cas de Jéroboam) que, ce faisant, il frustrait ses enfants, il humiliait ses amis, il dédaignait tous les siens, il mutilait sa patrie, consternait tout le monde et s’oubliait lui-mème?</p><p>Admettons cependant qu’il ait été tei et
+
+
+
+
+
+
+<pb n="77"/>
+comme changé en un autre horame, Est-ce qu’il n’y avait là personne pour l’avertir, et au premier rang ses fils, ses proches, ses amis? Qui ne pense qu’ils ne fussent aussitót accourus autour de l’Empereur? Voyez-les : dès qu’ils ont appris les intentions de Constantin, ils tremblent, ils se pressent, avec des gé-missements et des larmes ils tombent aux pieds du Prince et lui parlent en ces termes :</p><p><quote>Est-ce ainsi, toi le plus tendre des  pères, que tu dépouilles, que tu déshérites, que tu ruines tes fils? Que tu  veuilles te dépouiller de la plus belle  et de la plus considérable partie de
+
+
+
+
+
+
+
+<pb n="78"/>
+l'Empire, ce serait pour nous un  moindre su jet de plainte que d'étonnement : ce dont nous nous plaignons,  c'est que tu la transmettes à d'autres,  à notre détriment et à notre honte.  Pourquoi frustrer tes fils de la succession impériale qu’ils attendent, toi  qui as partagé le tróne avec ton pére?  Par quel oubli de nos devoirs vis-à-vis  de toi, de la Patrie, du nom Romain  ou de la majesté de l'Empire avonsnous mérité que tu nous prives de la  première et de la meilleure part du  Principat? Il nous faut quitter le foyer  paternel, Taspectdu sol natal, lescieux  accoutumés, les vieux usages, laisser là
+
+
+
+
+
+<pb n="79"/>
+
+nos pénates, nos sanctuaires, nos tombeaux, pour alìer, en exil, vivre je ne sais où, dans quelle partie du monde? Et nous, tes proches, et nous, tesamis, qui nous tenions à tes còtés dans les batailles, nous qui avons vu nos frères, nos pères, nos fils tomber expirants sous les coups des ennemis, nous que le trépas des autres n’a pu effrayer et qui sommes prèts à braver la mort pour toi, voici que tu nous abandonnes tous ensemble. Et nous qui occupons à Rome les magistratures, nous les préfets actuels ou futurs des villes de l’Italie, de la Gaule, de l’Espagne, de toutes les autres provinces, vastu nous
+
+
+
+
+
+
+<pb n="80"/>
+
+
+destituer en masse? Recevrons-nous l’ordre de ne plus ètre que de simples citoyens? Compenseras-tu ailleurs le préjudice que tu nous causes? Comment le pourrais-tu faìre, eu égard à notre dignité et à nos mérites, après avoir cède à quelque autre une si grande partie de l’univers? Ce peuple qui commandait à cent peuples, veux-tu, a César, le remettre aux mains d'un seul horame? Comment une telle pensée a-t-elle pu te venir ? As-tu d'un coup tout oublié, pour que tu n’aies pitie ni de tes amis, ni de tes proches, ni n de tes fils ? Plut au del, César, que a nous fussions tombés sur un champ
+
+
+
+
+
+
+
+<pb n="81"/>
+
+de bataille, sauvant ton honneur et assurant la victoire, plutót que d'assister à pareil spectacle! Certes, tu peux disposer à ton gré de l’Empire, qui t’appartient, et de nos personnes; sur un seul point nous te serons reti belles jusqu’à la mort : nous n'abandonnerons pas le culte des Dieux Immortels. Pourtant, nous sommes prèts à nous offrir à tous en exemple, pour que tu saches combien ta libéralité aurq été profitable à la religion Chrétienne : ne donne pas ton Empire à Sylvestre, et nous nous faisons tous Chrétiens, comme toi. Si tu le lui donnes, non seulement nous ne supporterons pas
+
+
+
+
+
+
+<pb n="82"/>
+
+de devenir Chrétiens, mais grace à toi nous aurons ce nom en horreur, en abomination, en exécration ; tu nous rendras tels, que bientòt tu auras pitie de notre vie et de notre mort ; et ce n'est pas nous, c’est toi que tu accuseras de dureté.</quote></p><p>Est-ce que Constantin, à moins de le croire dénué de tout sentiment humain, n'eut pas été touché de ce discours, si rien en lui ne parlait? Eut-il refusé de les entendre, est-ce qu’il n’y avait pas là des hommes tout prèts à s’opposer à ses desseins, parla persuasion ou par la force ? Est-ce que le Sénat et le Peuple Romain,
+
+
+
+
+
+
+
+<pb n="83"/>
+
+dans de si graves conjonctures, auraient pensé n’avoir rien à faire? Est-ce qu’ils n’eussent pas appelé quelque orateur, recommandable, comme dit Virgile, par son caractère et son talent, qui lui aurait tenu ce discours :</p><p><quote>César, si tu es oublieux de toi, assez oublieux pour frustrer tes fils de Thérédité, tes proches de leurs richesses, tes amis de leurs honneurs, toi-mème de Tintégrité de l’Empire, le Sénat et le Peuple Romain ne peuvent ètre oublieux de leur droit et de leur dignité. Comment oses-tu disposer de l’Empire Romain, acheté au prix de notre sang et non du tien? Veux-tu couper un
+
+
+
+
+
+
+<pb n="84"/>
+
+corps en deux, faire d’un royaume deux royaumes, avec deux tètes, deux volontés, et mettre, pour ainsi dire, à deux frères l’épée à la main pour qu’ils se disputent l’héritage? Aux villes qui ont bien mérité de Rome nous conférons le droit de cité, pour que leurs habitants soient Romains toi, tu sépares de nous la moitié de l’Empire, pour qu’elles ne reconnaissent plus dans Rome leur métropole ! Dans les ruehes d’abeilles, s’il nait deux Rois, nous tuons le moins bon; toi, dans la ruche de l’Empire Romain, dont tu es l’unique et l’excellent Prince,
+
+
+
+
+
+
+
+
+<pb n="85"/>
+
+tu veux en mettre un autre et le plus mauvais; non pas mème une abeille, mais un frelon! Ta prudence laisse à désirer, Empereur. Qu'arrivera-t-il si, de ton vivant ou après ta mort, les nations barbares attaquent soit la moitié que tu cèdes, soit celle que tu gardes pour toi ? Quelle puissante armée, quelles troupes leur opposerons-nous ? C’est à peine si maintenant toutes les forces de l'Empire y suffisent ; que pourrons-nous faire alors? Et ces deux moitiés, seront-elles toujours d’accord ensemble? C’est impossible, je pense; Rome voulant toujours do-
+
+
+
+
+
+
+
+<pb n="86"/>
+miner, l’autre refuserà d'obéir. Bien  mieux, de ton vivant et avant peu, quand tous les anciens gouverneurs  auront été rappelés et remplacés, quand tu seras parti pour tes États, occupé  au loin, est-ce que sous un nouveau  maitre toutes choses ne seront pas  nouvelles, c'est-à-dire différentes et  contraires? Qu'un royaume soit partagé entre deux frères, la division s’opère aussitót dans l’esprit des peuples. Ils se font la guerre entre eux avant que Tétranger ne les attaque. Qui ne voit qu’il en arriverà de mème à cet Empire ? C'est pour cette raison, tempus, 
+
+
+
+
+
+<pb n="87"/>
+
+l'ignores-tu, que les Patriciens déclarèrent qu’ils préferaient mourir en face du Peuple Romain, plutót que de consentir  à ce qu'une partie du Sénat et une partie de la Plèbe allassent habiter Veies et  qu’il y eùt ainsi deux Romes. S’ily a de jà  tant de dissensions dans une cité, que  sera-ce dans deux cités ? De nos jours  mème, si l’on a vu tant de discordes  dans un Empire, j’en appelie à tes  propres souvenirs et à tes fatigues, que  sera-ce dans deux Empires? Mais vraiment, crois-tu que ces gens-là, quand tu seras engagé dans quelque guerre, voudront ou sauront venir à ton secours ?
+
+
+
+
+
+
+<pb n="88"/>
+ Leurs généraux ou gouverneurs de  villes auront pour les combats et Tart  militaire, la mème horreur que celui qui  les aura nommés. Mieux que cela, estce que le sachant si inhabile à régner,  si résigné aux outrages, les légions Romaines et les provinces elles-mèmes  n’essayeront pas de le dépouiller, dans  l’espérance qu’il ne voudra ni combattre ni chàtier ? Je crois, certes, qu’elles ne resteront pas seulement un mois dans le devoir, et que, dès le moment de ton départ, elles entreront  en rébellion. Que feras-tu ? Quel parti prendre, quand tu auras sur les bras
+
+
+
+
+
+<pb n="89"/>
+
+la guerre de tous còtés ? A peine pouvons-nous contenir les nations sou- mises; comment leur résister, au cours  d’une guerre avec des nations libres? Ce sera à toi, César, de voir ce que tu  devras faire : de notre coté, cela nous a tient à coeur autant que toi. Tu es  mortel, mais il faut que l’Empire Ro- main soit immortel; il le sera, s’il ne  dépend que de nous, et non seule- ment l’Empire, mais notre honneur. Ehi quoi, nous subirions le joug  d’hommes dont nous détestons la reli gionj nous, les maitres du Monde, nous obéirions au plus méprisé des a hommes? Quand la Ville fut prise par
+
+
+
+
+
+<pb n="90"/>
+les Gaulois, les vieux Romains ne souffrirent pas que les vainqueurs leur  passassent la main sur la barbe ; maintenant il faudra que tant de Sénateurs, de Tribuns, de Préteurs, de personnages Consulaires, de Triomphateurs souffrent la domination d’hommes qu’ils ont condamnés, comme des esclaves récalcitrants, à toutes sortes 	d’outrages et de supplices? Est-ce que ces gens-là créeront des magistrats,  administreront les provinces, feront la guerre ? Auront-ils le droit de nous condamner à mort ? Sans doute, sous eux, lepatriciat Romain servirà àgages, espèrera des distinctions, mendiera
+
+
+
+
+
+<pb n="91"/>
+
+sit aequo animo et non quavis ratione devitandum existimet, quod medius fidius  neque mulieres nostrae sustinerent; sed  magis se una cum dulcibus liberis sacrisque penatibus concremarent, ut non Carthaginienses feminae fortiores fuerint quam  Romanae. Etenim, Caesar, si regem te deligissemus, haberes tu quidem magnum  de Imperio Romano agendi arbitrium, sed non ita ut vel minimum de ipsius imminueres majestate. Alioquin qui te fecissemus regem eadem facultate te regno
+
+
+<pb n="92"/>
+
+
+
+la majesté. D’ailleurs, nous qui t’aurions fait Roi, nous t’ordonnerions aussi facilement de déposer la couronne, plutòt que de te laisser partager l’Empire, aliéner tant de provinces, livrer la capitale elle-meme à un étranger, au plus vii des hommes. Nous donnons la bergerie en garde à un chien ; si le chien se fait loup, nous le chassons ou nous le tuons. Toi qui depuis longtemps t’es montré si bon chien de garde, en veillant sur le troupeau Romain, à la fin, chose inoui'e, n tu vas te changer en loup? Eh bien, sache-le (puisque tu nous forces à parli ler haut, pour notre défense), tu n’as
+
+
+
+
+
+<pb n="93"/>
+
+aucun droit sur l'Empire; César s’empara de foree du pouvoir ; Auguste, succédant à Pusurpateur, eut la mème tache originaire et ne se fìt maitre absolu qu'en écrasant les partis rivaux ; Tibère, Caligula, Claude, Néron, Galba, Othon, Vitellius, Vespasien et les autres nous ravirent la liberté au mème titre ou par des moyens semblables. A ton tour, par l'exil ou le meurtre de tes compétiteurs, tu t’es fait Empereur. Je passe que tu es né hors mariage. Ainsi donc, César, pour te dire toute notre pensée, s'il te déplaìt de conserver le gouvernement de Rome, tu as des fìls, tu peux mettre l'un d'eux à ta place, confor-
+
+
+
+
+
+<pb n="94"/>
+
+mément à la loi naturelle ; nous te le permettons, nous t’en supplions. Sinon, nous sommes bien décidés à défendre du mème coup Pintégrité de l’Empire et notre honneur d’hommes. L’injure que tu fais aux Romains n’est pas moindre que ne fut le viol de Lucrèce; contre un Tarquin, il se trouvera bien un Brutus, qui donne ce peuple un chef et lui fasse recouvrer sa liberté. Nous saurons tirer l’épée contre ces Pères que tu nous imposes, puis contre toi-mème; nous l’avons déjà fait contre maints Empereurs, et pour de moindres motifs.</quote></p>
+
+
+
+
+
+
+
+<pb n="95"/>
+<p>A moins qu’on ne pense que Constantin fut de pierre ou de bois, ces paroles l’eussent certainement ému. Si le peuple ne les prononça pas, on peut croire qu'il se parlait à peu près ainsi, en lui-mème, tout frémissant.</p><p>Poursuivons maintenant, et disons que ce n’était guère enrichir Sylvestre que de Vexposer à tant de haines et tant de poignards. Sylvestre, je pense, ne serait pas testé en vie vingt-quatre heures. Lui mort et quelques autres avec, il semble que toute trace d’un si cruel outrage, d’une si grande injure, se serait évanouie
+
+
+
+
+
+
+
+
+<pb n="96"/>
+
+du coeur des Romains. Maisadmettons, si faire se peut, que prières, menaces, bonnes raisons, rien ne valut; que Constantin persista et refusa de revenir sur ce qu’il avait une fois décide. Qui donc eut été insensiblc à la harangue de Sylvestre, j’entends celle qu'il n'eutpas manqué de prononcer et qui, sans doute, aurait été à peu près telle :</p><p><quote><p> Excellent Prince, ô mon fils, César, si je ne puis ni approuver en toi une piété si excessive et si prodigue, ni en profiter, je ne suis pas surpris de l'erreur où tu es en voulant offrir à Dieu des présents et lui immoler des vic-
+
+
+
+
+
+<pb n="97"/>
+
+times; tu n’es encore qu’un conscrit dans la milice Chrétienne. De méme qu'il ne convenait pas au Prètre de sacrifier toute espèce de bétail, de fauves ou de brebis, de mème il ne lui est pas loisible de recevoir toute espèce de cadeau. Or, je suis Prètre, Pontife, et je dois regarder à deux fois ce que je laisserai offrir à l’autel, de peur qu’on n’amène, je ne dis pas quelque animai impur, mais quelque vipere, quelque serpent. Ton intention, si toutefois tu en as le droit, est de céder à un autre, à l’exclusion de tes fìls, une partie de l'Empire, avec Rome, la Reine du
+
+
+
+
+
+
+<pb n="98"/>
+
+
+monde; c’est ce que je désapprouve. Quand bien mème ce peuple et l'Italie et toutes les autres nations le supporteraient; quand bien mème ils se résigneraient à ètre placés sous le joug d’hommes qu’ils détestent et dont ils repoussent la religion, enveloppésqu’ils sont par les joies du monde, ce qui est impossible : pourtant, crois-moi, mon très-cher fils, je ne pourrais t’approuver sans démentir mon passé, oublier qui je suis, renier presque notre Seigneur Jésus. Ces présents, ou, si tu l’aimes mieux, la rémunération que tu m’offres, souilleraient, ruineraient et ma gioire
+
+
+
+<pb n="99"/>
+
+et ma pureté et ma sainteté et celie de mes successeurs ; ils fermeraient la voie à ceux qui doivent parvenir à la connaissance de la vérité. Est-ce qu'Élysée vouiut une récompense de Naaman le Syrien, qu'il avait guéri de la lèpre? Moi, pour t’avoir guéri, j'en accepterais une. Il repoussa un simple cadeau; moi j’accepterais des royaumes. Il eut honte de souiller en lui un Prophète ; « moi, je souillerais le Christ, que je porte « en moi. Et pourquoi crut-il déshonorer un Prophète en acceptant des présents ? Sans doute parcequ'il lui semblait faire trafic des choses saintes, piacer à usure
+
+
+
+
+
+
+<pb n="100"/>
+
+un don de Dieu, avoir besoin de Paide des hommes, ravaler et amoindrir le mérite du bienfait. Il aima mieux faire des Rois et des Princes ses bénéficiaires, que d’ètre le leur; il ne voulut pas mème qu’on lui rendit présent pour présent ; Mieux vaut, dit le Seigneur, donner que recevoir. J'ai les mèmes raisons que lui et de plus fortes encore, puisque le Seigneur m’a enseigné en disant : Guérissef les malades, ressuscitez les morts, purifie? les lépreux, chasseq les démons; vous avez reçu gratis, donnea gratis. Aurai-je l’infamie, César, de mépriser les pré-
+
+
+
+
+<pb n="101"/>
+
+ceptes de Dieu, de ternir ma gioire? J'aime mieux mourir, dit Saint Paul, que de laisser personne me dépouiller de ma gioire. Notre gioire est d'honorer devant Dieu notre ministère, comme Saint Paul Pa dit encore : Je vous le dis, Gentils, tant que je serai Vapótre des Gentils, je glorifierai mon ministère. Ét moi, César, je serais pour les autres un exemple et une cause de perdition, moi Chrétien, Prètre de Dieu, Pontife Romain, Vicaire du Christ? Comment Tinnocence des Prètres resterait-elle intacte au milieu des grandeurs, des magistratures, des gouvernements, des affaires mondaines?
+
+
+
+
+
+<pb n="102"/>
+
+
+
+Renonçons-nous aux choses de la terre pour accaparer d’immenses richesses ? Nous dépouilions-nous de nos biens pour nous emparer des biens des autres, de la fortune publique? Nous possèderons des villes, nous lèverons destributs, des impóts? Et de quel droit nous appellerons-nous Clercs, si telles sont v nos fonctions? Notre part, notre lot, ce que les Grecs désignaient sous le nom de Clèros, est tout divin ; il n’est pas de ce monde, mais du Ciel. Les Lévites, qui étaient la mème chose que les Clercs, ne partageaient pas Théritage avec leurs frères : et tu veux que nous prenions mème la part de
+
+
+
+
+
+
+<pb n="103"/>
+
+nos frères? Qu'ai-je à faire derichesses et de domaines, moi à qui il est ordonné, par la voix de Dieu, de ne pas ètre inquiet du lendemain, à qui il a été dit par lui : Ne thésaurisef pas sur la terre, ne possédef ni or, ni argent, ni monnaie dans vos ceintures, et : Il est plus difficile à un riche d’entrer dans le royaume des Cieux, quà un chameau de passer par le trou d’une aiguille? Aussi bien, il a pris des pauvres pour disciples, ceux qui abandonnaient tout pour le suivre, et il fut luimème Fexemple de la pauvreté, tant le maniement des richesses et de Fargent est mortel pour la vertu : à plus forte
+
+
+
+
+
+<pb n="104"/>
+
+
+
+raison leur possession et le pouvoir qu’il donne. Un seul, Judas, qui tenait la bourse	ils aumónes, prévariqua et, pour l’amour de cet o argent dont il avait pris Phabitude, blàma et trahit le Maitre, Dieu, NotreSeigneur.</p><p>C'est pourquoi je crains, César, que d’un Pierre tu ne fasses de moi un Judas. Écoute ce qu’a dit Saint Paul : a Nous ri avons rien apporté en ce monde, et il est évident que nous rien pourrons u rien emporter ; pourvu que nous ayons des aliments et de quoi nous vétir, soyons satisfaits. Car ceux qui veu-# ient devenir riches, tombent dans la
+
+
+
+<pb n="105"/>
+
+
+
+tentation et dans les filets du Diable et dans la foule des désirs inutiles et pernicieux qui plongent les hommes dans la ruine et dans la perdition. Car la cupidité est la racine de tous les maux; beaucoup en la suivant se sont détournés de la foi et se sont embarrassés dans bien des tourments. Mais toi, homme de Dieu, fuis ces choses.</p><p>Et tu veux me forcer d’accepter, César, ce que je dois repousser comme ì> le poison? De plus, dans ta sagesse, César, songe à ce qui me resterà de temps au milieu de toutes ces affaires, pour vaquer au ministère divin? Lorsque plusieurs se plaignirent de ce que
+
+
+
+
+
+<pb n="106"/>
+
+
+leurs veuves étaient négligées dans les distributions de chaque jour, les Apótres répondirent : Il n’est pas juste que nous délaissions la parole de Dieu pour servir aux tables. Et cependant ! surveiller les tables des veuves, c’était bien moins que de lever des impòts, administrer le trésor public, compter la paye des soldats et s’embarrasser de mille autres soucis pareils. Nui, comit battant pour Dieu, dit Saint Paul, ne se mèle des affaires du siècle. Est-ce que Aaron et les autres de la tribù de Levi administraient autre chose que le Tabernacle du Seigneur? Ses fìls, pour avoir mis dans leurs encensoirs
+
+
+
+
+
+
+<pb n="107"/>
+
+du feu étranger, furent consumés du feu céleste. Et tu veux que nous mettions dans les sacro-saints encensoirs, c’est-à-dire dans les fonctions sacerdotales, le feu des richesses séculières, ce feu défendu et profane? Éléazar, Phinée, tous les autres pontifes et ministres du Tabernacle ou du Tempie, ont-ils gouverné quoi que ce soit qui ne se rapportàt au service de Dieu? Ils ne Font pas fait, ils ne pouvaient le faire, s’ils voulaient s’acquitter dignement de leur charge. S'ils l’eussent fait, ils auraient entendu Fanathème de Dieu, disant : Maudits soient ceux
+
+
+
+
+
+<pb n="108"/>
+
+
+qui apportent de la négligence au serti vice du Seigneur. Cet anathème, adressé à tous, s’adresse surtout aux Papes. Quelle lourde charge que d'ètre Pape, la tète de l'Église, le berger de ce grand troupeau, responsable du sang d’un seul agneau et d’une seule brebis perdue ! d’ètre celui à qui il a été dit : Si tu m’aìmes plus que les autres (comme tu Vaffirmes), pais mes agneaux. Encore une fois, si tu m’aimes plus que les autres (comme tu Vaffirmes), pais mes brebis. Et pour la troisième fois, si tu m'aimes plus que ti les autres (comme tu Vaffirmes), pais ti mes brebis. Et tu m’ordonnes, César,
+
+
+
+
+<pb n="109"/>
+
+de paitre mème les chèvres et les jo porcs, qui ne veulent pas du mème berger ? Quoi ! tu veux me faire Roi, ou plutót Empereur, c’est-à-dire le prince des Rois? Notre Seigneur Jésus Christ, Dieu et homme, Roi et Prètre, affirma qu'il était Roi, mais écoute de quel royaume il parlait : Mon royaume n'est pas de ce monde; si mon royaume était de ce monde, mes serviteurs tireraient Vépée de tous còtés. Et quelle a été sa première parole, celle qu’il a le plus souvent répétée au cours de sa prédication, n’est-ce pas : Faites penitene e, car le royaume des deux est proche; voici venir le règne de Dieu
+
+
+
+
+
+<pb n="110"/>
+
+
+qui préparera le royaume des Cieux? Est-ce qu'en parlant ainsi il ne déclarait pas n’avoir rien k prétendre aux royaumes terrestres? Non seulement il ne rechercha pas un tei royaume, mais il le refusa quand on le lui offrit, car ayant appris que le peuple avait résolu de Fenlever et de le faire Roi, il s'enfuit dans les solili tudes des montagnes. Il nous a laissé cela en exemple à suivre, à nous qui tenons sa place, et Fa formellement enseigné : Les Princes des nations règnent sur elles} et ceux qui sont les plus considérables exercent le pouvoir;
+
+
+
+<pb n="111"/>
+
+il rien sera pas ainsi entre vous; au contraire, que celui qui voudra ètre le plus grand d'entre vous soit votre serviteur, et que celui qui voudra ètre le premier entre vous soit votre esci ave. Le Fils de l'Homme riest pas venu pour se fair e servir, mais pour servir et donner son sang pour la rédemption de plusieurs.</p><p>Dieu autrefois, sache-le, César, a donné des Juges, non des Rois, à Israel, et quand le peuple exigea une dénomination royale, il le maudit et ne lui accorda un Roi que pour le punir de son endurcissement de coeur et parce qu’il avait permis la rupture,
+
+
+
+
+
+<pb n="112"/>
+
+
+abolie par la nouvelle Loi. Et j’accepterais un royaume, moi à qui il est à peine permis d’ètre Juge? Ignorez-vous, dit Paul, que les Saints jugeront ce monde ? et si les Saints sont jugés par vous êtes-vous indignes de juger les n moindres choses? Ignorez-vous que nous jugerons les Anges? Combien plus les choses de ce siècle ! Si donc vous avec des différends pour les choses du siècle, preneq les moins considérés de l'Église et faites-en vos juges. Pourtant les juges n’avaient à décider que sur des procès, ils n’exigeaient pas de tributs. Et j’en exigerais, moi,
+
+
+
+
+
+<pb n="113"/>
+
+
+qui sais que le Seigneur ayant demandé à Pierre : De qui les Rois de la. terre reqoivent-ils le tribut ou le cens, de leurs enfants ou des étrangers? et Pierre ayant répondu : Des étrangers, — Par conséquent, répondit le Seigneur, les enfants en sont exempts. Si tous les hommes sont mes enfants, César, ce qui est la vérité, tous seront donc exempts, personne ne payera. Ta  Donation n’est donc pas mon affaire, et je n'en puis rien retirer, si ce n'est des ennuis que je ne dois ni ne veux supporter. Eh quoi! il me faudrait exercer le pouvoir, punir de mort les coupables, faire la guerre, dé-
+
+
+
+
+
+
+<pb n="114"/>
+
+truire des villes, saccager des territoires le fer et le feu à la maini Je ne puis pourtant pas espérer de conserver autrement ce que tu m’auras donne, et si je fais ces choses, moi, Prétre, Pontife du Christ’, Vicaire du Christ, je suis dans le cas de l’entendre tonner contre moi et me dire : Ma maison sera appelée par toutes les nations la maison de la prière, et tu en as fait une caverne de voleurs! Je ne suis pas venu au monde, a dit le Seigneur, pour juger le monde, mais pour le délivrer. Puis-je ètre une cause de mort, moi qui ai succédé à Pierre et à qui il a été dit
+
+
+
+
+<pb n="115"/>
+
+
+
+
+
+en la personne de Pierre : Remets ton épée en place au fourreau, car tous ceux qui en appelleront à l’épée périront  par l’épée; il ne vous est mème pas permis de vous défendre avec le fer. Pourtant Pierre voulait défendre le Seigneur lorsqu’il coupa Toreille au serviteur du Grand-Prétre : toi, tu veux que nous usions du glaive pour acquérir ou pour défendre des trésors!</p><p> Notre pouvoir est le pouvoir des clefs, dont le Seigneur a dit : Je te domerai les clefs du royaume des Cieux; tout ce que tu lieras sur la terre sera lié aussi dans le del, et tout
+
+
+
+
+
+
+
+<pb n="116"/>
+
+
+ce que tu delieras sur la terre sera aussi dèlie dans le Ciel; et : Les portes de l'Enfer ne prévaudront pas contre elles. Rien ne peut accroitre un tei pouvoir, une telle autorité, un tei royaume. Celui qui ne s’-en contente pas adresse ses voeux a Satan, qui osa dire au Seigneur : Je te donnerai tous les royaumes du monde, si tu te prosternes pour m adorer. Permets-moi, César, de t’appliquer ces paroles. Ne joue pas le ròle de Satan; ne force pas le Christ, en ma personne, d’accepter les royaumes du monde que tu lui offres. J’aime mieux les mépriser que les avoir, et, pour dire un mot des in-
+
+
+
+
+
+
+<pb n="117"/>
+
+fidèles, qui sont, je Tespère, de futurs Chrétiens, d'Ange de lumière, que je suis, ne faispasde moi pour eux un Ange des ténèbres. J’entends les gagner à la piété, et non pas plier leur col sous le joug; c’est avec le glaive de la parole de Dieu et non avec le glaive de fer que je dois les soumettre, si je ne veux pas qu'ils deviennent pires, qu’ils ruent, qu'ils frappent de la corne, qu'irrités de ma faute, ils blasphèment le nom de Dieu. J’entends me faire de très-chers fils, et non des esclaves; les adopter, non les acheter; les engendrer, non les posséder par contrat; offrir à Dieu
+
+
+
+
+
+
+
+<pb n="118"/>
+
+
+leurs ames en sacrifice, non leurs corps au Diable, Vene% à moi, dit le Seigneur, parce que je suis doux et humble de coeur; recevez mon joug et vous trouvereq le repos ; à toutes les créatures mon joug est doux et mon poids est léger. Cest encore par une de ses paroles que je veux finir. Dans notre différend, accepte cette sentence qu’il a prononcée comme pour nous : Rendeq à César ce qui apri partient à César, et à Dieu ce qui appartient à Dieu. Ainsi donc, tu ne dois pas, César, abandonner ce qui est à toi, ni moi accepter ce qui est à César. Tu me Toffrirais mille
+
+
+
+
+<pb n="119"/>
+fois que je ne Taccepterais jamais.</p><p>A ce discours de Sylvestre, à ces paroles dignes d'un homme Apostolique, qu’aurait pu répondre Constantin? Cela étant, ceux qui soutiennent la réalité de la Donation n'outragent-ils pas Constantin en lui imputant d'avoir voulu frustrer les siens et déchirer l'Empire? N’outragent-ils pas le Sénat et le Peuple Romain, l'Italie, l'Occident entier, qui auraient permis contre tout droit ce changement de maitre? N'outragent-ils pas Sylvestre en le supposant capable d'avoir accepté une donation indigne d'un saint homme? N'outragent-ils pas
+
+
+
+
+
+
+
+<pb n="120"/>
+
+le Souverain Pontife, en lui jugeant permis de posséder des royaumes terrestres et de gouverner l’Empire Romain? Tout concourt donc à démontrer que Constantin, au milieu de tant d’obstacles, n’a jamais songé à donner à Sylvestre, comme ils le disent, la majeure partie de l’Empire.</p><p>Mais voyons : pour qu’on ajoute foi à la Donation dont il s’agit, dans votre charte, il faut de plus l’acceptation de Sylvestre; l’acte d’acceptation nous manque. — Il est croyable, dites-vous, que Sylvestre l’approuva. — Certes! et je
+
+
+
+
+
+
+
+<pb n="121"/>
+crois, moi, qu’il fit mieux que l’approuver, qu’il la demanda, qu’il l’implora, qu’il l’extorqua par ses prières. Comment osez-vous appeler croyable ce qui surpasse toute créance ? La donation n’est pas prouvée par cela seul qu’il en est question dans votre charte ; bien plus, cette charte fournit contre vous du refus de Sylvestre une preuve plus forte que de la Donation elle-mème, car l’on ne peut recevoir malgré soi. Nous devons donc soupçonner que Sylvestre ne se contenta pas de refuser, mais que tacitement il jugea, pour Constantin, de l’impossibilité de donner, et, pour lui-mème, de l’impossibilité d’accepter.
+
+
+
+
+
+
+<pb n="122"/>
+
+Mais, o aveugle et imprévoyante avidité! Accordons que vous puissiez produire l’acte d’acceptation de Sylvestre, un acte véritable, intact, sincère. Est-ce que toutes choses inscrites dans un contrat de donation sont par cela mème immédiatement transférées? Où est la possession? Où est la transmission ? Si Constantin n’a donne qu’un morceau de papier, il voulait, non gratifier Sylvestre, mais se moquer de lui. — Celui qui donne, répliquerez-vous, est par cela mème supposé livrer ce qu’il donne. — Voyez un peu ce que vous dites, s'il est certain que la mise en possession n'apas été effectuée et que la donation soit elle-mème fort douteuse. Le plus pro-
+
+
+
+
+
+
+<pb n="123"/>
+
+bable, dans ce cas, c’est que celui qui n’a pas mis en possession n’a pas non plus voulu donner.</p><p>La non-mise en possession n’est-elle pas hors de doute? Le nier serait par trop impudent. Constantin a-t-il, par hasard, conduit Sylvestre, comme en triomphe, au Capitole, parmi les acclamations de la foule des Quirites, encore pai'ens? L’a-t-il fait asseoir sur un tròne d’or, en présence de tout le Sénat, et, sur son ordre, les magistrats, chacun selon sa dignité, sont-ils venus le saluer comme Roi et se prosterner devant lui ? C’est ainsi qu’on institue les nouveaux Princes, et non par le don de quelque
+
+
+
+
+
+
+
+
+<pb n="124"/>
+
+
+palais, fut-ce le palais de Latranl Constantin Fa-t-il ensuite promené à travers toute l’Italie, puis à travers les Gaules, les Espagnes, la Germanie et le reste de l'Occident? Ou, si cela les fatiguait tous les deux de tant voyager par le monde, ont-ils au moins délégué Timportant office d’effectuer la tradition au nom de l'Empereur et d'accepter au nom de Sylvestre? Ces délégués durent étre de hauts personnages, d’une grande illustration; cependant, nous ignorons qui iis furent et quelle grande difficulté il y a dans ces deux mots : donner, recevoir.</p><p>A notre connaissance, pour laisser de
+
+
+
+
+
+<pb n="125"/>
+
+coté les exemples anciens, nous n’avons jamais vu faire autrementlorsqu'un nouveau possesseur reçoit l’investiture d’une ville, d’une région ou d’une province : ainsi nous supposons une transmission du pouvoir si les anciens magistrats sont changés et remplacés par d’autres. Quand mème Sylvestre n’aurait pas exigé cela, il importait à la munifìcence de Constantin de déclarer qu’il transférait la possession, non verbalement mais réellement, de rappeler ses préfets, d’en faire nommer de nouveaux par son successene La possession n’est pas transmise tant qu’elle reste dans les mains qui la détenaient, et le nouveau maitre
+
+
+
+
+
+
+<pb n="126"/>
+
+
+n’ose pas déplacer les anciens titulaires.</p><p>Admettons que cela n’empèche rien; que Sylvestre n’en est pas moins réputé entré en jouissance, que tout se passa de la sorte, en dépit de la coutume et du sens commun. Constantin parti, quels sont les gouverneurs que Sylvestre préposa aux villes et aux provinces, les guerres qu’il entreprit, les nations ennemies qu’il subjugua? Quels hommes eut-il pour faire tant de choses? — Nous n'en savons rien, répondez-vous. — C’est, je pense, que tout cela s’est fait de nuit, de sorte que personne n'en a rien vu.</p><p>Poursuivons. Sylvestre a été mis en
+
+
+
+
+
+
+<pb n="127"/>
+
+possession. Par qui donc a-t-il été dépossédé? Car il n’est pas reste toujours en possession, ni lui ni aucun de ses successeurs, du moins jusqu'à Grégoire le Grand qui lui aussi ne posséda pas. Qui est hors de possession et ne peut prouver qu’il ait été dépossédé, n'a jamais possédé, et, s’il dit le contraire, déraisonne. Vous le voyez, je dénonce votre folie; autrement, dites-nous qui a dépossédé le Pape. Est-ce Constantin lui-mème,sont-ce ses fìls, ou Julien, ou quelque autre César? Dites le nom de l’usurpateur, la date, qu’il se passa premièrement ceci, secondement cela, et qu’enfin le Pape fut expulsé. Y eut-il ou non sédition, meurtre?
+
+
+
+
+
+
+<pb n="128"/>
+
+
+Succomba-t-il sous quelque ligue universelle des peuples et de sa propre patrie? Quoi! Personne ne vint à son secours? Pas mème un de ceux que Sylvestre ou tout autre Pape avait investis du gouvernement des villes et des provinces? Perdit-il tout le mème jour ou bien tint-il bon quelque temps, lui et ses officiers? Abdiquèrent-ils au premier tumulte? Quoi! les vainqueurs n’ont pas égorgé ces misérables, cette lie du genre humain qu’ils jugeaient indìgnes de l'Epire, pour venger l’outrage reçu, reprendre le pouvoir usurpé, fouler aux pieds notre religion, et laisser enfin un exemple à la postérité? Rien de tout cela. Nuldes
+
+
+
+
+
+
+
+<pb n="129"/>
+
+vaincus ne prit la fuite, personne ne se cacha, personne n’eut peur. Oh, l’étonnante aventure! Cet Empire Romain, fondé au prix de tant de fatigues et de tant de sang, il fut si tranquillement, si placidement conquis ou perdu par le ciergé Chrétien, qu’il n’y eut pas une goutte de sang, pas l’ombre d’une guerre, pas le moindre tumulte; et, voilà ce qu’il y a de plus admirable, par qui ont été accomplies toutes ces révolutions? à quelle date? dans quelles circonstances? combien de temps cela a-t-il duré? on l’ignore absolument. On croirait volontiers que Sylvestre
+
+
+
+
+
+<pb n="130"/>
+
+
+regna au fond des bois en face d'arbres, et non à Rome en face d’ètres humains ; qu'il a été chassé par les pluies et les froids de Phiver, non par des hommes.</p><p>Qui ne sait, si peu qu’il ait de lecture, combien de rois eut Rome ; combien de consuls, de dictateurs, de tribuns du peuple, de censeurs d’édiles ont été créés? Pas un ne nous échappe, malgré leur nombre, malgré le lointain des ages. Nous savons de mème combien Athènes eut de généraux, combien Thèbes, combien Lacédémone; nous connaissons toutes leurs batailles, sur terre et sur mer. Nous n’ignorons pas davantage
+
+
+
+
+
+
+<pb n="131"/>
+
+quels furent les rois des Perses, des Mèdes, des Chaldéens, des Hébreux, de bien d’autres peuples, et, pour chacun d’eux, s’il recut le pouvoir ou s’il s’en empara, s7il le perdit, s'il le recouvra. Pour ce qui est de l’Empire Romain, ou plutót de l’Empire Sylvestrien, quels furent ses commence ments, quelle fut sa fin, quand exista-t-il, qui le posséda? c’est ce qu’on ignore, dans Rome mème. Je vous demande quels té-moins, quels auteurs vous pouvez allé-guer. — Pas un seul, répondez-vous. — Et vous ne rougissez pas de dire que Sylvestre a vraisemblablement été mis en possession ? non d’ètres hu-
+
+
+
+
+
+
+<pb n="132"/>
+
+mains apparemment, mais de tètes de bétail !</p><p>Puisque vous ne pouvez rienprouver, je prouverai moi, au contraire, et pour vous fermer toute échappatoire, que Constantin jusqu’au dernier jour de sa vie, et après lui successivement tous les autres Césars, restèrent en possession. C’est vraiment bien diffìcile, bien malin de prouver celai Que l’on feuiilette toutes les histoires Grecques et Latines, que Fon invoque les autres auteurs qui ont parlé de cette époque, on ne trouvera pas entre eux là-dessus le plus léger désaccord. Qu’un seul
+
+
+
+
+<pb n="133"/>
+
+témoignage, entre mille, nous suffise : Eutrope, qui connut Constantin, qui vit les trois fìls de Constantin hériter de leur pére l'empire du monde, a écrit ceci de Julien, fìls du frère de Constantin : « Ce Julien, qui avait été diacre dans l’Église Romaine, et qui une fois Empereur apostasia en faveur du culte des idoles, arriva au pouvoir et, en grand appareil, alla porter la guerre chez les Parthes; j'ai moi-mème fait partie de cette expédition.Eutrope n'eùt point passé sous silence la donation de l'Empire d'Occident, et un peu plus loin il n'eut pas dit de Jovien, le successeur de Julien : « Il fìt avec Sapor une paix nécessaire mais hon-
+
+
+
+<pb n="134"/>
+
+teuse, reculant les frontières et livrant une partie de l'Empire, chose qui jusqu'alors et depuis la fondation de Rome n'était jamais arrivée. Bien plus, à Caudium, vaincues par Pontius Télésinus, en Espagne, devant Numance et en Numidie, nos légions furent forcées de passer sous le joug, mais les frontières restèrent intactes.</p></quote></p><p>C'est ici qu'il est à propos de vous faire comparaitre, Pontifes Romains, vous qui venez de descendre dans la tombe, et toi, Eugène, qui vis présentement, grace à la pitie de Félix.<note n="1">Félix V, antipape mis à la place d’Eugène IV, déposé par le Concile de Bàie (1440). (Note du Traducteur).</note>  Pourquoi vous targuez-
+
+
+
+
+
+
+
+
+<pb n="135"/>
+
+vous, à pieine bouche, de la Donation de Constantin et nous menacez-vous, nous autres, soutiens de l’Empire que vous avez volé, de la vengeance de certains Rois et Princes? Pourquoi exigez-vous de l’Empereur, lors de son couronnement, et de plusieurs autres souverains, par exemple du roi de Naples et de Sicile, qu’ils fassent acte de sujétion, ce que jamais n’exigea aucun des Pontifes Romains, ni Damase de Théodose, ni Siricius d’Arcadius, ni Anastase d’Honorius, ni Jean de Justinien, ni aucun des autres saints Pontifes à Pégard des excellents Césars? Au con-
+
+
+
+
+
+<pb n="136"/>
+
+traire, ils les ont toujours regardés comme les maìtres de Rome, de l’Italie et de toutes les provinces que jJai nommées ; les monnaìes d’or de Constantin (pour ne point parler des autres monuments et des temples de la ville de Rome) ont toujours eu cours et portaient non des inscriptions Grecques mais des inscriptions Latines, ainsi que celles de ses successeurs; j’en possède plusieurs ayant pour la plupart ces mots : Concordia Orbis, sous Fimage de la croix; il en existerait des quantités k l'effigie des Souverains Pontifes, si jamais ils avaient régné; celles-là, personne n’en trouve, ni en or, ni en ar-
+
+
+
+
+
+<pb n="137"/>
+
+gent, personne ne dit en avoir vu. Cependant, si quelque autre a possedè l’Empire, il faut nécessairement qu’il ait eu en ce temps-là une monnaie à lui; elle eut été frappée sans doute à l'effigie du Sauveur ou deSaint Pierre.</p><p>O profondeur de la bètise humainel Ne voyez-vous pas que si la Donation de Constantin est vraie, il ne reste rien à l’Empereur, je parie de l’Empereur Latin? Oh! le bel Empereur, le beau Roi des Romains ! Si un autre possède son Empire, s'il n’en a pas de rechange, il n’a plus rien du tout. Si donc il est clair que Sylvestre n’a pas été mis en possession, c’est-à-dire si Constantin ne
+
+
+
+
+
+
+
+<pb n="138"/>
+
+
+
+lui a pas réellement transmis la possession, il est hors de doute qu’il ne lui en a pas non plus conféré le droit, à moins que vous ne prétendiez que le droit a bien été conféré, mais que pour une cause ou pour une autre la tradition ne fut pas effectuée. Ainsi Constantin donnait ce qu'il ne pouvait livrer : il donnait une chose qui ne pouvait passer aux mains du donataire qu’après sa mort ; il faisait un présent qui ne devait avoir de validité que cinquante ans plus tard, peut-ètre jamais, Vraiment, soutenir ou croire cela, c'est de la folie.</p><p>Mais il est temps, si je ne veux ètre
+
+
+
+
+<pb n="139"/>
+
+trop long, que jé donne le coup de grace à la cause déjà bien malade et bien meurtrie de mes adversaires, que je la démolisse tout à fait. Presque toutes les histoires qui méritent ce nom, rapportent que Constantin embrassa le Christianisme dès son enfance, avec son pére Constance, bien avant le pontificat de Sylvestre <note n="1">Nous avons relevé, dans l’Introduction, cette erreur de Laurent Valla.</note>  ; ainsi le constate Eusèbe, auteur de VHistoire ecciésiastique, que Rufìn, l’un des plus savants hommes, traduisit en Latin et complèta par Thistoire de son temps, en deux volumes. Eusèbe et Rufin furent presque contem-
+
+
+
+
+
+
+<pb n="140"/>
+
+porains de Constantin. A ce témoignage, il faut ajouter celui du Pontife Romain qui ne se contenta pas d’assister, mais qui présida à cette conversion; qui n’en fut pas le simple spectateur, mais l’auteur ; qui a raconté non les affaires des autres, mais les siennes propres : à savoir le Pape Melchiade, prédécesseur immé-diat de Sylvestre. Il s’exprime ainsi : <quote> L’Église fut alors si fìorissante, que non seulement de nobles familles, mais les Princes Romains eux-mèmes, les maìtres du monde entier, s’empressèrent d’embrasser la croyance au Christ et de recourir aux sacrements de la foi. Parmi eux le très-dévot Constantin, converti le
+
+
+
+
+
+<pb n="141"/>
+
+
+premier ouvertement à la vraie foi, perimit à tous ceux qui vivaient sous sa domiuation, par tout l’univers, non seulement de se faire Chrétiens, mais d’édifìer des églises, et constitua à celles-ci des domaines. Enfìn le susdit Prince fit à l'Église des dons considérables et il établit le tempie qui fut la première basilique de Saint-Pierre,en cédant sonpropre palais, tant à Saint Pierre qu’à Tusage de ses successeurs.</quote> Ainsi, suivant Melchiade, Constantin n’a rien donné que le palais de Latran et divers domaines, dont Grégoire, dans son inventaire, fait souvent mention.
+
+
+
+
+
+
+
+
+<pb n="142"/>
+
+
+
+Où sont-ils ceux qui nous défendent d’élever un doute sur la valeur de la Donation de Constantin, quand cette donation est antérieure à Sylvestre et qu'elle a rapport à de simples cadeayx tout particuliers ? La chose est évidente, manifeste ; cependant il nous faut parler de la charte mème que produisent ces impudents. Disons d’abord que le pseudo-Gratien, celui qui a tant ajouté à Toeuvre de Gratien, doit étre accusé d’improbité, mais qu’il faut accuser d’ignorance ceux qui croient que le texte du privilège se trouve dans Gratien ; les savants ne Pont jamais cru et on ne le rencontre
+
+
+
+
+
+
+<pb n="143"/>
+
+
+dans aucun des anciens manuscrits du Décret. Si Gratien avait voulu en faire mention, il n’aurait pas placé cette charte où on l’a mise, en interrompant Tordre des matières, mais bien à Tendroit où il rapporte le traité de Louis le Débonnaire. En outre, deux mille passages du Décret contredisent ce texte, par exemple celui où se trouvent les paroles de Melchiade, que j'ai citées plus haut. Quelques auteurs donnent à celui qui intercala ce morceau le nom de Palea, soit qu’il s’appelàt ainsi, soit qu’ils estiment que ce qu’il a ajouté n’est que de la pai Ile, compare au pur froment de Gratien. Qu’il
+
+
+
+
+
+
+
+
+<pb n="144"/>
+
+soit ce qu’on voudra, il est impossible de croire que l’auteur du recueil des Décrets ignoràt ce qui fait Tobjet de ces additions, ou qu’il en fit grand cas et le tint pour vrai. Bien; cela nous suffit; nous avons gain de cause. D’abord par le silence de Gratien, que ses interpolateurs ont fait mentir, et surtout parce qu’il les contredit et les réfute, comme on peut le voir en maints endroits. Enfin, on convient géneralement que ce Palea est un homme ignorant, inconnu, de nulle autorité, de nulle valeur, tellement inepte, qu'il a prète à Gratien des idées inconci liables avec le reste de son ouvrage. Et voilà l’auteur que vous mettez en
+
+
+
+
+
+<pb n="145"/>
+
+avant ! Son témoignage est le seul dont vous puissiez vous appuyer ! Vous produisez sa charte'en confirmation d’une affaire si importante, contre mille espèces de preuves contraires ! Et moi qui m’attendais à voir quelque bulle d’or, des titres gravés sur le marbré, des autorités par milliérs !</p><p>— Mais Paléa, ditesvous, cite son autorité, il indique ses sources historiques, il appelle en témoignage le Pape Gélase et un grand nombre d’Évèques. Il a puisé, nous dit-il, dans les Actes de Sylvestre, que le saint Pape Gélase, au Concile des soixante-dix Évéques, affirmait étre lus par les catholiques et dont il déclarait que
+
+
+
+
+
+
+
+<pb n="146"/>
+
+la lecture s’était propagée, de temps immé-morial, dans les Églises. Or, dans ces Actes on lit que Constantin, etc. — Beaucoup plus haut, à l’endroit où il s’agit des livres permis et des livres dé-fendus, il avait dit : « Les Actes de S. Sylvestre, Evèque, sont lus à Rome par les catholiques, et beaucoup d’Eglises èn font autant, en vertu d'un ancien usage, quoique nous ignorions le nom de celui qui les rédigea. » Oh 1 la belle autorité, Tadmirable témoignage, l'invincible preuve!</p><p>Je vous accorde que Gélase ait dit cela en parlant du Concile des soixante-dix Évèques. A-t-il dit que la charte
+
+
+
+
+
+
+<pb n="147"/>
+
+de donation se trouvait dans les Actes de S. Sylvestre ? II affirme seulement qu’on lit les Actes de Sylvestre, et cela à Rome, dont beaucoup d'autres  Églises acceptent l'autorité. Je ne le nie pas, je vous le concède, je le veux : moi-mème je m’offre en témoignage avec Gélase. Mais à quoi cela peut-il vous servir, à moins que ces témoins invoqués par vous ne soient là pour nous tromper? On ne sait pas le nom de celui qui a intercalé cette page dans les Decrétales, et il est le seul qui parie du fait. On ne sait pas le nom de celui qui a écrit Thistoire de Sylvestre, il est le seul témoin et c’est un faux témoin.
+
+
+
+
+
+
+<pb n="148"/>
+
+
+Et vous, honnètes gens, sages gens, vous estimez que c’est suffisant, et au delà, pour prouver une chose si grave? Voyez un peu quelle difference il y a entre votre opinion et la mienne. Quand bien ; mème la charte en question se trouverait dans les Actes de S. Sylvestre, je ne croirais pour cela qu’il faille la tenir comme vraie, parce que cette histoire n’est pas une histoire, mais une fiction poétique, un tissu de mensonges, je le démontrerai tout à Theure, et parce qu’aucun historien de quelque autorité n’a fait mention de cette charte. Jacques de Voragine, qui, en qualité d’Archevèque, est si suspect de tendresse pour le ciergé, a cepen-
+
+
+
+
+
+
+
+
+<pb n="149"/>
+
+dant passé sous silence, dans ses Vies des Saints, la Donation de Constantin, comme fabuleuse et indigne de figurer dans les Actes de Sylvestre ; il a ainsi en quelque sorte condam né ceux qui la rééditeraient.</p><p>Mais je veux prendre ce faussaire, cet homme de paille, qui n’a pas un grain de froment, et Pamener par les oreilles à la barre. Que dis-tu, faussaire? Comment se fait-il que nous ne trouvions pas cette charte dans les Actes de Sylvestre ? Sans doute, ces Actes sont quelque livre rare, difficile à se procurer, qui n’est pas dans les mains de tout le monde, sévèrement gardé comme autrefois les Fastes par
+
+
+
+
+<pb n="150"/>
+
+les Pontifes et les lìvres Sibyllins par les Décemvirs; il est peut-ètre écrit en Grec, en Syriaque, en Chaldaì'que? Gélase attesto qu'il est lu par beaucoup de catholiques ; Jacques de Voragine en parie ; nous-mème nous en avons vu plus de mille exemplaires anciens; dans presque toute église Cathédrale on en fait la lecture au jour anniversaire de la naissance de Sylvestre, et cependant personne n’y a jamais lu ce que tu pré-tends y ètre, personne n'a entendu, n’a rèvé rien de tel. Est-ce que par hasard il y aurait une autre histoire de Sylvestre ? Quelle pourrait-elle ètre? Je n’en connais pas et je ne vois pas que tu en
+
+
+
+
+
+
+<pb n="151"/>
+
+indiques d'autres, puisque tu parles de celle dont Gélase rappelait la lecture dans les Églises. Or, nous n’y trouvons pas ta charte. Si on ne la lit pas dans la Vie de Sylvestre, que viens-tu nous dire qu’on la lisait telle que tu Tas rapportée ? Comment oses-tu plaisanter en si grave matière et te faire un jeu de la cupidité des faibles humains?</p><p>Mais je suis fou de m’en prendre à l'audace de ce faussaire plutót qu'à la démence de ceux qui lui ont ajouté foi. Si l’on vous disait que pareille chose est arrivée chez les Grecs, chez les Juifs, chez les Barbares, n’exigeriez-vous pas, avant d’y croire,qu'onvous citàt l'auteur,
+
+
+
+
+
+
+<pb n="152"/>
+
+
+
+qu’on vous montràt le manuscrit, que le passage fut fidèlement traduit par un interprète? lei, il s’agit de votre propre langue, d’un livre que tout le monde connaìt, et vous ne vous informez pas mème d’un fait si incroyable, ou n’entrouvant pas meme de trace ecnte, vous êtes d’une crédulité si extraordinaire, que vous le tenez pour écrit et pour vrai? sur ce seul titre, qui vous suffit, vous remuez ciel et terre, et, comme s’il ne pouvait y avoir Fombre d’un doute, vous écrasez ceux qui refusent de vous croire par Pépouvante des guerres et par toutes sortes de menaces ! Doux Jésusl quelle force,, quelle vertu divine a donc la vérité pour se défendre
+
+
+
+
+<pb n="153"/>
+
+
+
+seule, sans grand effort, de toutes les embuches et de toutes les perfidies I C;est bien avec raison que devant le roi Darius, un jour qu’en disputant on demandait : Qu’est-ce qui est le plus puissant, le plus fort ? et que l’un disait : C'est ceci ; l’autre : C’est cela, enfin on donna la palme à la vérité !</p><p>Toutefois, puisque j’ai affaire à des prètres et non à des séculiers, il me faur citer des exemples sacrés plutòt que des exemples profanes. Lorsque Judas Machabée, ayant envoyé à Rome des ambassadeurs, eut obtenu l'alliance et l’amitié du Sénat, il eut soin de faire graver les termes du traité sur des planches d’airain que fon put apporter à
+
+
+
+
+
+
+<pb n="154"/>
+
+Jérusalem. Je ne dis rien des Tables de pierre du Décalogue données par Dieu à Moi'se. Et cette Donation de Constantin, cette Donation si magnifìqueet si extraordinaire, ce n’est ni sur l'or, ni sur l’argent, ni sur l’airain, ni sur le marbré que l’on en montre la preuve écrite, ce n’est pas mème dans un lìvre, c'est, s’il faut vous en croire, sur une feuille de papier ou de parchemin. Jobal, l'inventeur de la musique, comme on le lit dans Josèphe, croyant d’après une ancienne tradition que les oeuvres des hommes devaient périr une première fois parl’eau et une seconde fois par le feu, fit graver les principes de son art sur deux colonnes,
+
+
+
+
+
+<pb n="155"/>
+
+l'une de briques contre le feu, Fautre de pierre contre les eaux, pour que cette bienfaisante invention se perpétuàt dans rhumanité ; et la colonne de pierre subsistait encore au temps de Josèphe, ainsi qu’illaffirme. Chez les Romains, peuple encore rude et inculte, à une epoque où l’écriture était restreinte et peu usitée, on grava pourtant sur l’airain les lois des Douze Tables, qui, après la prise et l’incendie de Rome par les Gaulois, furent retrouvées intactes : ainsi par deux fois une sage et circonspecte prévoyance des vicissitudes humaines a triomphé de la durée des siècles et des rigueurs de la fortune* Constantin, lui, s’est contente
+
+
+
+
+
+
+<pb n="156"/>
+
+de signer la donation de Tunivers sur du papier, avec de Tenere ; et cependant le machinateur de cette fable, quel qu’il soit, nous montre Constantin préoccupé de ce qu’il pourra se rencontrer des gens capables, par une avidité impie, d’annuler sa Donation, Tu crains cela, Constantin, et tu ne prends pas garde que ceus qui chasseront Sylvestre de Rome lui enlèveront aussi ton morceau de papier?</p><p>Eh quoi! Sylvestre ne demande rien pour sa sureté ? Il s’en rapporte ainsi entièrement à Constantin? Il est si tranquille, si indolent? Dans une si grave conjoncture, il ne s’inquiète ni de ses intérèts, ni de l’Église, ni de la posterità?
+
+
+
+
+<pb n="157"/>
+
+Voilà Thomme à qui tu confères l'administration du monde Romain! Il s’agit d'une chose qui peut ètre pour lui une source de tant de prospérités ou de si grands périls, et il dort sur ses deux oreilles ! Qu'on lui dérobe la minute du privilège, et dans quelques années il lui sera impossible de prouver la donation.</p><p>Le faussaire imbécile appelle cela « la page du privilège »; est-ce que par hasard (je l'apostrophe comme s’il était là) tu appelles « privilège » la donation de Tunivers? Et tu veux que cela soit écrit sur une seule page, que Constantin lui-mème se soit exprimé ainsi? Mais si le titre est absurde, que sera le reste ?
+
+
+
+
+
+<pb n="158"/>
+
+« L’Empereur Constantin, le quatrième jour après son baptéme, conféra au Pontifede l’Église Romaine ce privilège que, dans toute la ville de Rome, les prètres le regardassent comme leur chef, de mème que les magistrats ont pour chef le Roi. » Cela se trouve dans l’histoire mème de Sylvestre, ce qui fait qu’on ne peut douter du sens qu'a ici le mot privilège. Mais, à la façon de ceux qui ourdissent des mensonges, notre homme débute par dire vrai pour donner plus de confìance en ce qui va suivre et qui est faux ; c'est comme dans Virgile : <quote><l>Je te raconterai toutes choaes, 6 Roi, teiles qu'elles se sont passées.</l></quote>
+
+
+
+<pb n="159"/>
+» Mais, » ajoute Sinon, » je ne nieraì pas que je sois de race Grecque. »</p><p>Il commence ainsi, puis continue par des mensonges. Notre Sinon fait de mème ici : après avoir débuté par quelque chose d’avéré, il ajoute : a Dans ce privilège on lit, entre autres, ce qui suit : Nous, avec tous nos Satrapes et le Sénat tout entier, les Optimates mème et tout le peuple assujetti au gouvernement de VÉglise Romaine, avons jugé utile que, de mème que le bien-heureux Pierre semble avoir été consti-tué le vicaire de Dieu sur la terre, de mème les Papes, qui tiennent sur la terre la place du Prince des Apótres,
+
+
+
+
+
+<pb n="160"/>
+
+obtinssent en concession, de Nous et de notre Empire, une plus grande puissance que rien parait avoir la Mansué-tude de notre terrestre Impériale Séré-nité. » O scélérat! malfaiteur ! cette mème histoire, dont tu allègues le témoignage, rapporte qu’en un long espace de temps, de Tordre sénatorial personne ne voulut embrasser la religion Chrétienne, et que Constantin poussa les pauvres au baptéme, à prix d’argent. Et tu dis, toi, que, dès les premiers jours, à i’instant mème, le Sénat, les Grands, les Satrapes, comme s’ils étaient déjà Chrétiens, se mirent à décréter en Thonneur de l'Église ! Et que viens-tu faire intervenir ici des
+
+
+
+
+
+
+
+
+<pb n="161"/>
+
+Satrapes ? buche ! trognon de chou ! Est-ce I ainsi que parlent les Césars, est-ce ainsi que sont conçus d'ordinaire les décrets de Rome? Qui a jamais entendu parler de Satrapes dans le Sénat Romain? Je ne me souviens pas d’avoir lu nulle part, non seulement qu’un Romain fut appelé Satrape, mais que n’importe qui eut ce titre, dans les provinces Romaines. Ce bélitre les intitule Satrapes de l’Empereur, et il les met avant le Sénat, alorsque tous les honneurs, mème ceux qui sont déférés au Prince, le sont seulement parie Sénat, en ajoutant : et le Peuple Romain. CJest ce que nous voyons sur les pierres anti-
+
+
+
+
+
+<pb n="162"/>
+
+ques, sur les tables de bronze ou sur les médailles, figure par ces deuxlettres: S. C., Senatus-Consulte, ou par ces quatre : S. P. Q. R., c’est-à-dire : le Sénat et le Peuple Romain. Tertullien le remarque à propos de la lettre de Ponce Pilate sur les prodiges accomplis par le Christ, et adressée non au Sénat, mais à l’Empereur Tibère : comme tout magistrat devait en référer au Sénat pour les affaires importantes, le Sénat prit mal la chose, et lorsque le décret qui décernait à Jésus des honneurs divins lui fut soumis par Tibère, il s’y opposa, rien que par une secrète irritation de l’affront fait à sa dignité. Et pour que tu saches bien de quel
+
+
+
+
+
+
+
+
+<pb n="163"/>
+
+poids était l’autorité du Sénat, il obtint que Jésus ne serait point placé au rang des Dieux <note n="1">Valla croit ici, ou feint de croire, à l'authenticité de la fameuse Lettre de Tibère au Sénat Romain, dans laquelle, s’appuyant sur le non moins fabuleux Comptc rendu de Pilate, l’empereur demandai que le Christ fùt mis au rang des Dieux, ce qui est refusé dans une Lettre du Sénat Romain. Ces documcnts, composés au Moyen age, ainsi que la Lettre Latine de Lentulus, où se trouve le portrait du Christ, et une Lettre de Tibère à sa mère sur le méme sujet, ont tous pour origine un ancien recueil apocryphe depuis longtemps perdu, mais que citent S. Justin, Tertullien, Eusèbe et S. Epiphane, sous le titre de Acta Pilati. (Note du Traducteur.)</note> .</p><p>Puis, qui appelles-tu les Optimates ? Sont-ce, comme nous le comprenons, les premiers personnages de la République, et alors pourquoi les nommer, en passant sous silence les autres magistrats? ou bien, par opposition aux hommes du
+
+
+
+
+
+
+
+<pb n="164"/>
+
+
+parti populaire, à ceux qui briguent les faveurs du peuple, entends-tu par là les adhérents et les défenseurs des Grands. des Patriciens, ceux dont Cicéron parie dans un de ses discours? César, avant d’avoir renversé la République, était en ce sens, un homme populaire, et Caton était du parti des Grands; Sailuste a expliqué ce qui les distinguait. Or, les Optimates, pas plus que ceux du parti populaire et tous les autres honnètes gens, n’étaient appelés à délibérer.</p><p>Mais qu’y a-t-il de surprenant que Ton consulte les Optimates, là où le peuple tout entier (si nous en croyons notre homme) et mème le peuple « assujetti à
+
+
+
+
+<pb n="165"/>
+
+l’Église Romaine », a délibéré avec le Sénat et l’Empereur? Et quel peut bien ètre ce peuple? Est-ce le peuple Romain? Pourquoi alors ne Tappelle-t-on pas le peuple Romain plutòt que le peuple sujet? Quel est ce nouvel outrage fait à ces Quirites, dont l’excellent poète a fait cet éloge :</p><p>Toi, tu soumettras les peuples à ton empire ?</p><p>Il s’intitule ici de lui-mème le peuple assujetti, ce qui est inoui'; car en cela, comme en témoigne Gregoire dans nomare de ses lettres, le Pontife Romain diffère du reste des princes, qu’il est Tunique roi d'un peuple libre.
+
+
+
+
+
+<pb n="166"/>
+
+Mais qu'il en soit comme tu voudras. Est-ce que les autres peuples étaient également soumis? Parles-tu aussi d’autres peuples? Comment aurait-il pu se faire qu’en Tespace de trois jours, toutes les populations soumises au pouvoir de l'Église Romaine fussent intervenues a ce décret, mème en tenant compte de ce que la basse classe n’étaitpas consultée? Eh quoil arant d’asservir le peuple au Pontife Romain, Constantin Taurait appelé le peuple asservi! Quoi ! ceux que l’on intitule des asservis auraient concouru à la confection du décret ! Quoi! ils sont censés avoir décrété eux-mèmes qu’ils étaient asservis, et que celui dont
+
+
+
+
+
+
+<pb n="167"/>
+
+ils sont serfs devait les tenir dorénavant pour serfs ! Comme tu fais bien voir, malheureux! qu’avec la bonne intention de mentir, tu n’en as pas mème le talent!</p><p>« Nous avons choisi le Prince des Apò-tres lui-méme ou ses vicaires comme étant les plus fermes patrons auprès de Dieu, et, à l’égal de Notre terrestre Impé-rialepuissance, Nous avons decretò d’honorer avec vénératìon cette sacrosainte Eglise Romaine, d’exalter glorieusement bien au~dessus de notre Empire et de notre tróne terrestre, la très-sainte chaire du bienheureux Pierre, en lui attribuant
+
+
+
+
+
+
+<pb n="168"/>
+
+
+la puissance et la gioire et la dignité et la force et la splendeur Imperiales. * Reviens un peu au monde, Firmin Lactance, et fais-moi taire cet àne qui brait si bètement à pieine gueuìe. Il se complait si bien au fracas des mots ronflants, quii reprend et remàche ce qu'il a déjà dit. Est-ce ainsi que de ton temps parlaient les scribes ou plutòt les palefreniers des Empereurs ? Constantin choisit les Papes non comme patrons, mais comme étant des patrons. (Cet imbécile a intercalò étant pour donner plus de nombre à la phrase 1 ) Honnète raison 1 parler en barbare pour que le style soit plus coulant, si toutefois il peut y avoir du coulant
+
+
+
+
+<pb n="169"/>
+
+dans de pareilles inepties. Mais en choisissant pour patrons le Prince des Apótres ou ses vicaires, tu ne choisis pas Pierre et successivement après lui ses vicaires, tu choisis Pierre à l’exclusion des autres, ou ceux-ci à l’exclusion de Pierre. Et il appelle les Pontifes Romains vicaires de Pierre, comme s’il était encore en vie ou comme si ses successeurs lui fussent inférieurs en dignité. Et ceci n’est-il pas barbare : de Nous et de notre Empire? comme si l’Empire pouvait avoir l’intention et la volonté de conceder quoi que ce soit. Il ne se contente pas de dire tinssent, il ajoute en concession : l’un ou l’autre suffisait pourtant.
+
+
+
+
+
+<pb n="170"/>
+
+Et ce fermes patrons, voilà de l’élé-gance ! Par fermes, il entend sans doute des gens que ni les écus ni la peur nc sauront faire fléchir. Et cette terrestre Imperiale puissance! deux adjectifs sans copulative! et honorer avec vénération! et la Mansuétude de Notre Sérénité Impèri ale! Gela sent bien le Lactance, lors-qu’ìl s’agit de la puissance de V Empire, de dire la Sérénité et la Mansuétude, au lieu de la Grandeur et la Majeste. Et comme cela s'enfle également d'arrogance bouffie, cet exalter glorieusement par la gioire, la dignité, la force et la splendeur Impériales! Gela me semble
+
+
+
+
+
+
+
+<pb n="171"/>
+
+emprunté de TApocalypse, où il est dit : Il est digne, Uagneau qui a été mis à mort, de recevoir la prérogative et la dignité du Seigneur, et la sagesse et la force et Vhonneur et la bénédiction. Frequemment, comme nous le montrerons plus loin, Constantin feint de s’arroger les titres qui appartiennent à Dieu, et veut imiter le style de l’Ecriture sainte, qu’il n’avait jamais lue.</p><p>« Donc, Nous décrétons et sanction-nons quii détienne la primauté, tant sur les quatre sièges d’Alexandrie, d’Antioche, de Jérusalem et de Constantinople, que mème sur toutes les Églises
+
+
+
+<pb n="172"/>
+
+de Dieu répandues sur tout le globe terrestre, le Pontife qui, dans la suite des temps, sera piace à la téte de cette sacrosainte Église Romaine; qu'il soit le Prince à tous les prètres du monde entier, et que d’après sa volonté se gouverne tout ce qui regarde le culte de Dieu, ou la foi des Chrétiens, ou le soin de sa stabilite. » Passons par dessus cette tournure barbare de Prince aux prètres au lieu de Prince des prètres, ce quii soit placé dans la mème phrase que sera; négligeons qu’après avoir dit : sur tout le globe terrestre, il ajoute : du monde entier, comme s?il voulait comprendre là-dedans autre chose encore,
+
+
+
+
+
+
+<pb n="173"/>
+
+peut-ètre le ciel, qui est une partie du monde, alors qu’une bonne partie du globe terrestre n’était pas méme sous le joug de Rome ; ne nous occupons pas non plus de ce qu’il distingue la foi Chré-tiènne du soin de sa stabilité, comme si les deux choses pouvaient se séparer; de ce qu’il confond décréter avec sanctionner, et comme si plus haut Constantin n’avait pas déjà jugé à propos de décréter avec les autres personnages, voici maintenant i qu’il propose de sanctionner, sous clause pénale ; de sorte qu’on lui fait sanctionner le décret tout ensemble avec le peuple! Quel Chrétien pourrait supporter de telles énormités et se retenir d’infliger
+
+
+
+
+
+
+<pb n="174"/>
+
+
+une censure sévère au Pape qui les souffre, qui les écoute complaisamment?</p><p>Ainsi donc, cette primauté que le Siège de Rome a reçue du Christ, comme Fa déclaré le huitième synode, au témoignage de Gratien et de beaucoup de Grecs, il est dit maintenant Favoir reçue de Constantin, Chrétien à peine, tout autant que du Christ! Ce très-modeste Prince a-t-il pu dire une pareille chose, le très-pieux Pontife a-t-il pu y préter Foreille? Eloignons de Fun comme de Fautre cette grave accusation. Puis, ce qui est bien plus absurde, la situation permet-elle que personne ait pu alors parler de Constantinople comme de l'un
+
+
+
+
+
+<pb n="175"/>
+
+des sièges -patriarchaux ? de Constantinople qui n’était ni un siège patriarchal, ni un siège quelconque, pas mème une ville Chrétienne, qui n’étaìt ni dénommée, ni bàtie, ni mème projetée? Le privilège est, en effet, date du troisième jour après que Constantin eut été fait Chrétien, aiors qu’il existait bien une ville appelée Byzance, mais non Constantinople. Que je mente si ce bélitre ne l’avoue pas lui-mème ; il écrit, vers la fin de l’acte : « Oest pourquoi il Nous a semblé opportun de . transférer notre Empire et la royale puissance aux régions orientales, et en un très-bon endroit de la province de Byzance, d’édifier une cité de notre nom
+
+
+
+
+
+<pb n="176"/>
+
+
+et d’y transporter notre Empire de Constantin. » SUI voulait à cette date transférer l'Empire ailleurs, c’est qu’il ne l’avait pas encore transféré; s’ii voulait y établir l’Empire, c’est qu’il n’y était pas établi; s’il voulait bàtir une ville, elle n’était donc pas bàtie. Dans ce cas, il ne pouvait en faire mention comme d’une ville patriarchale, comme de l’un des quatre sièges, comme étant Chrétienne, ayant tei nom, achevée de construire ! Sa fondation, je m’en rapporte à l’histoire ; dont Paléa invoque le témoignage, Constantin n’y songeait guère, et cette grosse bète, que ce soit Paléa ou tout autre copie par lui, ne voit pas qu’il est en désaccord
+
+
+
+
+
+
+
+<pb n="177"/>
+
+avec un autre passage où il est dit que ce fut non pas de son propre mouvement, mais à la suite d’un avertissement de Dieu, entendu pendant son sommeil, non pas à Rome, mais à Byzance, non peu de jours, mais quelques années plus tard, que Constantin decreta la fondation de la ville et résolut de lui donner le nom qui lui avait été suggéré en songe. Qui ne s’aperfoit que le rédacteur de ce privilège vivait longtemps après l’époque de Constantin, et qu’en voulant enjoliver son mensonge, il oublia ce qu'il venait de dire, à savoir que tout cela se passait à Rome trois jours après que Constantin eut recu le bap-
+
+
+
+
+
+
+<pb n="178"/>
+
+téme? Et comme s'applique bien à lui ce proverbe usé à force de vieillesse : Il faut aux menteurs bonne tné-moire!</p><p>Que dirai-je de ce qu'il appelle une province Byzance, qui était une ville de ce nom et de bien peu d’étendue pour la fondation dune si grande cité, car la vieille Byzance est tout entière enclose dans les murs de Constantinople. Il dit que c’est un endroit excellent pour y fonder une ville! Il veut que la Thrace, où était Byzance, soit en Orient, tandis qu’elle est située au Nord. J’imagine que Constantin ignorait totalement la place qu'il avait choisie pour y bàtir sa
+
+
+
+
+
+
+<pb n="179"/>
+
+capitale, sous quel climat elle se trouvait, si c'était une ville ou une province, quelle étendue elle mesurait.</p><p>« Aux églises des bienheureux Apótres Pierre et Paul, pour l’entretien perpétuel des luminaires, Nous avons concèdè des domaines de possessions, nous les avons enrichies d’objets de toutes sortes, et par notre impériale ordonnance sacre'e, tant à VOrient quà l’Occident, tant au Septentrion quau Midi, c’est-à-dire dans la Judée, la Grèce, l'Asie, la Thrace, VAfrique et VItalie ou les diverses iles, Nous les avons, par notre largesse, do-
+
+
+
+
+
+<pb n="180"/>
+
+
+tées exclusivement pour que, par les mains du très-bienheureux Sylvestre, notre pére, Souverain Pontife, et de ses successeurs, tout soit gouverné. »</p><p>O briganti ! y avait-il alors, à Rome, des églises, c’est-à-dire des temples, dé-diées à Pierre et à Paul? Qui donc les avait construites ? Qui aurait osé les construire quand les Chrétiens n’avaient alors, Thistoire l’affirme, d'autre refuge à Rome que les caves, les souterrains? ou, s’il y avait à Rome quelques sanctuaires dédiés à ces Apòtres, ils n’étaient pas dignes assurément de voir bruler une si prodigieuse quantité de luminaire? C’étaient de petites chapelles,
+
+
+
+
+
+<pb n="181"/>
+
+et non des églises; des oratoires dans les maisons particulières, non des édifices publics; il s’agissait bien moins de songer aux luminaires des temples qu’aux temples eux-mèmes! Et que dis-tu aussi, toi qui fais traiter Pierre et Paul de simples bienheureux par Constantin, tandis quJil donne du très-saint à Sylvestre, encore vivant; toi qui lui fais parler de sa volonté sacrée, à lui naguère encore idolatre? Était-il donc  besoin, pour entretenir des cierges, de mettre à contribution tout le globe terrestre? Et puis, qu’est-ce que ces domaines, qui sont spécialement des domaines de possessions? Nous disons ordinairement qu’on donne la posses-
+
+
+
+
+
+
+
+<pb n="182"/>
+
+sion de domaines et non pas des domaines de possessions. Tu fais cadeau de domaines et tu ne dis pas lesquels; tu enrichis de toutes sortes de choses et tu ne dis ni où sont ni en quoi consistent ces choses. Tu veux que Sylvestre gouverne à son gré les quatre points cardinaux, et tu ne dis pas comment il devra s’y prendre ; tu affirmes avoir antérieurement concède tout cela ; pourquoi confesser alors que, de ce jour seulement, tu as commencé à vouloir honorer l'Église Romaine, et résolu de lui accorder cette charte? Cest aujourd’hui que tu concèdes, aujourd’hui que tu enrichis; pourquoi dis-tu : Nous avons cédé, Nous avons enrichi? Que dis-tu, à
+
+
+
+
+
+
+<pb n="183"/>
+
+
+quoi songes-tu, animai? C’est au machinateur de cette fable que je m’adresse, et non au très-excellent Prince Constantin.</p><p>Mais que vais-je exiger de toi le moindre esprit, le moindre savoir, toi qui n’as pas ombre de bon sens ni de style, toi qui dis des luminaires pour du luminatre, et transférer aux régions orientales au lieu de vers les régions orientales? Et quoi donc? Y a-t-il d’autres points cardinaux que ceux que nous connaissons? Qu'appelles-tu rOrient? Est-ce la Thrace? mais, comme je Fai démontré, elle est au nord de FItalie. Est-ce la Judée? Elle est bien plutot au midi, étant voisine de PÉgypte.
+
+
+
+
+
+<pb n="184"/>
+
+
+Qu’appelles-tu l’Occident? Serait-ce l’Italie? C’est en Italie mème que se passent les faits en question, et il ne peut venir à l’idée de personne, étant en Italie, de l’appeler l’Occident; pour nous, l’Espagne est en Occident et l’Italie s'étend plutót du Midi au Nord qu’à l’Occident. Qu’appelìes-tu le Nord? Est-ce la Thrace? Mais tu veux toi-mème qu’elle soit en Orient. Est-ce l’Asie? Mais l’Asie tient à elle seule tout l’Orient et partage le Nord avec l’Europe. Qu’appelles-tu le. Midi? Sans nul doute ì’Afrique. Mais pourquoi ne pas dénommer spécialement quelque province? A moins que les Éthiopiens
+
+
+
+
+
+
+<pb n="185"/>
+
+fusscnt alors sous le joug de Rome! D'ailleurs, il ne peut ètre question d’Asie et d’Afrique, lorsque nous divisons la terre au moyen des quatre points cardinaux, mais seulement quand nous parlons des trois parties du monde, l'Asie, l'Afrique et l’Europe; à moins que par l’Asie tu n'entendes la province Asiatique, par l’Afrique la province dite de Gétulie, et, dans ce cas, je ne vois pas pourquoi tu les nommes à part. Constantin a-t-il pu s’exprimer de la sorte? Se guidant d’après les quatre points cardinaux, pourquoi aurait-il cité ces régions sans parler des autres? pourquoi aurait-il commencé son énumération par
+
+
+
+
+
+
+<pb n="186"/>
+
+
+la Judée, qui était alors une fraction de la Syrie; qui n’était mème plus la Judée, depuis la ruine de Jérusalem, depuis que les Juifs avaient été dispersés, presque anéantis, au point qu’il n’en restait peut-ètre plus un seul dans le pays, et qu’ils avaient tous passé à l’étranger? Où donc était alors la Judée? elle ne portait déjà plus ce nom, qui aujourd’hui a fini par disparaìtre totalement. De mème qu’après Pextermination des Chananéens, leur pays quitta le nom de pays de Chanaan pour ètre appelé Judée par ses nouveaux possesseurs : ainsi, après l’extermination des Juifs, habité par d’autres peuples, il cessa de s’appeler Judée.
+
+
+
+
+
+<pb n="187"/>
+
+Tu cites nominativement la Judée, la Thrace, les Iles ; mais tu dédaignes de citer les Espagnes, les Gaules, la Germanie ; tu nommes les pays lointains, où l’on parie Hébreu, Grec, ou quelque langue barbare, mais tu ne fais mention d’aucune des provinces où Ton parie Latin. Je vois que tu les as complètement omises pour les faire entrer plus tard dans ta Donation. Eh quoi! N’était-ce pas assez de tant de provinces de t’Occident, pour suffire à Tentretien du luminaire, sans faire contribuer le reste du monde ? Je néglige ce que tu dis de Constantin qui aurait concedè tout cela par largesse; ce n’était donc pas, comme
+
+
+
+
+
+<pb n="188"/>
+
+
+d'autres le prétendent, pour avoir été guéri de la lèpre. Traitons donc d'insolent maintenant quiconque transforme en paiement un pur don.</p><p>« ... Au bienheureux Sylvestre et ó son vicaire Nous concédons présentement notre Palais imperiai de Latran ; de plus, le diadème, c'est-à-dire la couronne de notre tète, et aussi le phrygium, sans excepter le superhuméral, c’est-à-dire la courroie que VEmpereur porte d'ordinaire autour du couf et encore le manteau de pourpre et la robe d'écarlate et tous les vètements impériaux, ou bien mème la dignité de Maitres de la cava-
+
+
+
+
+
+
+
+<pb n="189"/>
+
+Ieri e imperiale ; Nous donnorts aussi tous les sceptres impériaux, ensemble tous les insignes, bannières et divers ornements impériaux, tout Vappareil du faite impérial et toute la gioire de notre puissance. Quant aux particuliers de divers ordres, aux révérendissimes clercs, serviteurs de la sainte Église Romaine, Nous sanctionnons qu’ils aient ce comble singulier de puissance et deprééminence qui semble faire Vornement et la gioire de notre amplissime Sénat, c’est-à-dire quils soient tous patriciens et consuls; Nous promulguons en outre qu’ils soient revétus de toutes les autres dignités impériales.
+
+
+
+
+
+
+<pb n="190"/>
+
+Tout ce qui décore la milice impéri ale, Nous décrétons que le clergé de la sainte Église Romaine en soit décoré, et de mime que la puissance impériale est rehaussée par les divers offices de chambellans, d’huissiers, de concubins, Nous voulons que la sainte Église Romaine en soit rehaussée également. Et pour que magnifiquement reluise la splendeur pontificale > Nous avons décrété que les clercs de cette sainte Eglise Romaine chevauchent des chevaux ornés de nappes et de draps, cest-à-dire ornés de la plus eclatante blancheur, et, comme notre Sénat, soient distingués par les udones, c'est-à-dire par des chaussures d’étoffe bianche :
+
+
+
+
+
+
+<pb n="191"/>
+
+
+tout cela afin que ce qui est du del soit paré, pour la gioire de Dieu, à Végal de ce qui est de la terre. »</p><p>O doux Jésusl tu ne répondras donc pas du sein des nuées à cet imbécile qui déroule ses phrases sans queue ni tète? Tu ne tonneras donc pas? Tu ne lanceras donc pas contre de pareils blasphèmes ta foudre vengeresse? Tu supportes un tei opprobre dans ton troupeau? Peux-tu entendre cela, voir cela et passer outre depuis tant d’années en détournant tes yeux complices? Vraiment tu es patient et rempli de misé-ricorde! Je crains toutefois que ta patience ne soit plutòt de la colère et
+
+
+
+
+
+
+
+<pb n="192"/>
+
+n'implique condamnation, comme à l’égard de ceux dont tu as dit : Je les ai envoyés dans le désir de leur cceur ils iront à leurs aventures ; et ailleurs : Je les ai livrés au délire des sens, a fin qu'ils fassent ce qui est défendu, parce qu’ils n’ont pas montré avoir connaissance de moi. Fais, je t’en prie, Seigneur, que j'élève contre eux la voix, et peut-étre se convertiront-ils.</p><p>O Pontifes Romains, quel exemple de tous les forfaits vous êtes aux autres pontifes! Détestables scribes et Pharisiens, qui étes assis sur la chaire de Moi'se et qui faites l’oeuvre de Dathan et d’Abiron! Vous faut-il un tei luxe de vètements,
+
+
+
+<pb n="193"/>
+
+un tei équipage de chevaux? La vie d'un Empereur convient-elle en tout au Vicaire du Christ? Quel rapport y a-t-il entre un prètre et César? Est-ce que Sylvestre a revètu ces riches habits, marche en cet appareil, vécu chez lui et ré-gné au milieu de cette foule brillante d’officiers? Misérables hommes, ils ne comprennent pas que Sylvestre devait prendre les vètements dJAaron, qui avait été le grand-prètre de Dieu, de préfé-rence à ceux d’un Prince pai'en. Mais je discuterai cela plus à fond tout à Theure ; pour le moment, parlons des barbarismes de ce sycophante, dont Fimpudent
+
+
+
+
+
+
+
+<pb n="194"/>
+
+mensonge se décèle comme à plaisir dans ce bavardage inepte.</p><p>« Nous concédons », dit-il « le Palais de Latran de notre Empire. » Comme le don d’un palais était fort mal piace dans une énumération d’ornements, il y revient une seconde fois, plus loin, à l'occasion de diverses autres largesses. « De plus, le diadème... » et, comme si ceux qui étaient là ne l'avaient pas sous les yeux, il explique qu'il entend par là sa couronne. A la vérité, il n'ajoute pas ici en or, mais plus loin, se répétant, il dit : « en or très-pur et en pierreries précieuses. » Il ne savait
+
+
+
+
+
+<pb n="195"/>
+
+pas, cet ignorant, que le diadème était en étoffe, peut-ètre en soie, d’où ce mot si vanté attribué à certain Roi à qui l’on ofFrait le diadème : avant de le poser sur sa tète, il le tint entre ses mains et le considéra longtemps, puis s’écria : « O » guenille, qui donnes plus d’éclat que de » bonheur ! Si Fon savait au juste ce que » tu vaux, quelles inquiétudes, quels périls et quelles misdres tu recèles, on ne » se baisserait seulement pas pour te raraasser par terre. » Notre homme n’a pu se l’imaginer autrement qu'en or, à l’instar de ce cercle d’or et de pierreries dont on couronne aujourd’hui les Rois. Mais Constantin n’étaitpas roi; il n’auraitosé
+
+
+
+
+
+
+<pb n="196"/>
+
+ni se faire appeller roi ni prendre un ornement royal. Il était Empereur Romain; roi, non pas : où il y a un roi, il n’y a plus de République et, au contraire, sous la République il y eut un grand nombre d! imperatores, parfois plusieurs en mème temps. Cicéron écrit fréquemment: « M. Cicéron, imperator, » à tei ou tei, imperator, salut. » Plus tard, dans une acception particulière, le chef de FÉtat, à Rome, recut le nom d'Empereur, en signe de souveraineté.</p><p>« Et aussi le phrygium sans excepter le superhuméraly c’est-à-dire la courroie que VEmpereur porte d’ordinaire autour
+
+
+
+
+
+
+<pb n="197"/>
+
+du cou... » Qui a jamais entendu dire phrjrgium en Latin? Quand tu parles d’une fafon barbare, prétends-tu nous donner le style de Constantin ou de Lactance? Plaute, dans ses Ménechmes, s’est servi du mot phrygion pour dési- i gner un tailleur d'habits ; mais phrygium <note n="1">Suger, Vie de Louis VI, roi de France, dé-finit ainsi cet ornement impérial et pontificai : Phrygium, ornamentum imperiale instar galea, circulo aureo concinnatum; « Phrygium, ornament impérial dans le genre du heaume, entouré d'un cercle d'or. (Note du Traducteur.)</note> , qu'est-ce que cela signifie ? Tu n’éclaircis pas ce qui est obscur et tu commentes ce qui est très-clair. Tu dis que le superhuméral est une courroie, mais tu ne dis pas ce que c’est que cette
+
+
+
+
+
+
+<pb n="198"/>
+
+courroie, car tu n’entendspas sans doute donner comme un ornement de col à César une sangle de cuir, ce qui est le sens propre du mot lorum, qui s’applique également aux rènes et aux lanières des fouets ; si quelquefois on dit loro, aurea, cela ne peut s'entendre que de ces colliers ornés d’or dont ont entoure le cou des chevaux ou d’autres bètes. Voilà ce qui t’a trompé, à mon sens, et lorsque tu veux entourer d’une courroie le col de César, et par suite de Sylvestre, d’un homme, d’un Empereur, d’un Pape, tu fais un chevai, un àne ou un chien.</p><p>« Et encore le manteau de pourpre et
+
+
+
+
+
+
+
+<pb n="199"/>
+
+la robe d'e'carlate... » C?estparceque Matthieu a dit un manteau d’écarlate et Jean un vétement de pourpre que notre homme a voulu les réunir ici tous les deux. Si Técarlate et la pourpre sont une seule et mème couleur, comme les Evangélistes l’indiquent, pourquoi ne t’es-tu pas contente comme eux de nommer Fune ou Tautre, à moins que tu n’entendes par pourpre, comme le font aujourd'hui les ignorants, une espèce d’étóffe de soie de couleur bianche? Le pourpre est un mollusque dont le sang sert à teindre la laine, et de la matière colorante le nom a passe à Tétoffe teinte, dont la nuance peut passer pour rouge quoiqu’elle soit
+
+
+
+
+
+
+
+<pb n="200"/>
+
+très-foncée, proche de la couleur du sang v caillé et tirant sur le violet. Ainsi Homère et Virgile donnent l’épithète de couleur de pourpre au sang et mème au marbré de porphyre, dont la teinte est très-semblable à celle de Taméthyste; les. Grecs, en effet, n’ont qu’un mot pour dire pourpre et porphyre. Tu n’ignores peut-ètre pas qu’écarlate et rouge som synonymes. Mais pourquoi dit-on coccineum, de coccum, et quelle sorte de vètement est la chlamyde, je jurerais bien que tu n’en sais rien du tout.  Aussi notre fourbe, de peur de se perdre en poursuivant plus au long l'énumération, l’achève d’un seul mot en ; disant : « et tous les vètements im-
+
+
+
+
+
+
+
+<pb n="201"/>
+
+périaux. » Quoi ! Constantin donne méme ceux dont il a coutume de s’habiller à la guerre, à la chasse, dans les festins, aux jeux? Qu’y a-t-il de plus stupide que de présenter les accoutrements de l'Empereur comme convenables au Pape?</p><p>Puis, comme il ajoute avec grace : « Ou bien mème la dignité de Maitres de la cavalerie impérìale! » Ou bien mème! Il s’est mis en tète de donner à choisir entre deux choses qui n’ont pas le moindre rapport, et il passe de la garderobe de l’Empereur à une dignité militaire, sans rime ni raison. Il veut nous dire des choses extraordinaires,
+
+
+
+
+
+
+<pb n="202"/>
+
+
+mais il a peur d’ètre pris en flagrante imposture et, gonflant ses joues,renflant sa gorge, il làche des mots dépourvus de sens. « Nous leur donnons aussi les sceptres impériaux... » Quelle tournure de phrase! quelle clarté! quel ordre! Et qu’est-ce que ces sceptres impériaux? Il y a un sceptre, il n’y en a pas plusieurs, si toutefois l’Empereur portait un sceptre. Est-ce un motif pour que le Pape en porte un? Pourquoi pas aussi l’épée, le casque et le javelot? « Ensemble tous les insignes et bannières... » Qu’est-ce que tu entends par insignes ? Signa veut dire ou effigies ( nous lisons ensemble, souvent,
+
+
+
+
+
+
+
+<pb n="203"/>
+
+signa et tabulas pour sculptures et peintures ; les anciens, en effet, ne peignaient pas sur les murailles, mais sur des tables de bois),ou bien étendards, comme dans cet hémistiche : <quote><l>Signa, pares aquilas...</l></quote>Par dérivation du premier sens, on donne le nom de sceaux à de petites figures, à des empreintes en relief. Sont-ce des effigies ou ses propres aigles que Constantin donnait à Sylvestre ? Quoi de plus absurde I Mais les bannières, ce qu’il entend par là, je n’en sais rien. Dieu te confonde, scélérat, qui prètes un style
+
+
+
+
+
+
+
+
+
+<pb n="204"/>
+
+barbare h un siècle savant. « Et les divers ornements impériaux. » Puisquii avait dit « les bannières », je pensais qu'il s’était exprimé assez clairement, et voici qu’il englobe tout le reste dans une proposition générale. Il nous rabàche perpétuellement le mot « impérial », comme si l’Empereur avait des ornements particuliers, autres que ceux du consul, du dictateur ou du César. « Et tout Vappareil du fatte impérial et toute la gioire de notre puissance. »</p><p>Il làche des ampoules et des mots longs de six pieds : Darius, le Roi des Rois et l'allié des Dieux...
+
+
+
+
+
+
+
+<pb n="205"/>
+
+Tu ne parles jamais qu’au pluriel. i« Qu’est-ce que cet appareil imperiai ? iì Celui du concombre qui s’allonge dans ? l’herbe et prend du ventre. Tu crois sans doute que l’Empereur marchait triomphalement toutes les fois qu’il sortait de chez lui, comme le Pape fait maintenant, précédé de chevaux blancs, harnachés et caparasonnés, que tiennent en main des laquais : ce qui, pour taire bien d’autres sottises, est d’ailleurs la chose la plus vaine et la moins convenable au Pontife Romain.</p><p>De plus, qu’est-ce que cette gioire dont tu parles? Un Latin aurait-il appelé gioire la splendeur en question,
+
+
+
+
+
+
+
+<pb n="206"/>
+
+
+comme il est d’usage dans la langue Hébraique, pour dire la pompe, la magnifì-cence? Il en est de mème du mot milice pour designer les soldats, mot emprunté par nous aux Juifs, dans les livres des-quels ni Constantin ni ses scribes n’a-vaient jamais mis le nez. Et quelle est ta prodigalité, Empereur ! Tu ne te contentes pas d’habiller superbement le Pape, tu veux habiller de mème tout le ciergé, et, pour comble singulier de puissance et de prééminence, faire de tous ses membres autant de patriciens et de consuls! Qui a jamais entendu dire que Ton créat patriciens des sénateurs ou tous autres particuliers ? On crée des consuls, non des patriciens; les séna-
+
+
+
+
+
+
+<pb n="207"/>
+
+teurs, les Pères conscrits, peuvent sortir soit d’une famille patricienne, ou senatoriale, ce qui est la mème chose, soit de l'ordre equestre, soit d'une famille plé-béienne, et un sénateur est plus qu’un patricien. Le sénateur est un des conseillers choisis pour administrer la République, et le patricien esttoutsimplement un homme issu d’une famille sénatoriale. Ainsi donc, celui qui est sénateur ou l'un des Pères conscrits, n’est pas du mème coup patricien; les Romains d’aujour-d’hui nomment tout aussi ridiculement sénateur leur gouverneur <note n="1">En 1114, Rome s’étant de nouveau érigée cn rópublique, fit revivre son ancien Sénat. Lucius II voulut le détruire; il monta bravement à l'assaut du Capitole où les sénateurs s’étaient retranchés, et mourut d’une pietre lancée, qui lui tomba sur la tète. Arnaud de Brescia, durant son règne éphémère, donna quelque force à ce Sénat, qui était alors compose de cinquante-six niembres. Ce corps fut remplacé, sous Célestin III, par un magistrat unique, qui garda le nom de sénateur. On conférait ce titre, tout honorifique, à un simple particulier, à un prince, quelquefois au Pape. Pour plus de sureté, Innocent III prit le partì de le noramer lui-méme (1193). C’était un magistrat annuel ; en dernier lieu, il était chargé de la sureté personnelle du Pape et des Cardinaux. Cette institution bizarrc subsista longtemps encore après baurcnt Valla. (Note du Traducteur.)</note>  : un homme
+
+
+
+
+
+
+<pb n="208"/>
+
+ne fait pas à lui seul un Sénat, et tout sénateur a nécessairement des collègues ; or, celui qu’on appelle ainsi remplit les fonctions de gouverneur.</p><p>—Mais, diras-tu, il est question dans beaucoup de livres de la dignité de patrice. — Oui, dans les livres qui parlent detemps postérieurs à Constantin; donc
+
+
+
+
+
+
+
+
+<pb n="209"/>
+
+le privilège en question a été confectionné après Constantin. De plus, jamais prètres ne peuvent ètre patrices ou consuls. Les prètres Latins se sont interdit le mariage et ils deviendraient consuls? après avoir levé des troupes, ils se rendraient à la tète des légions et des auxiliaires dans les provinces que le sort leur aurait désignées? Est-ce un cortège de subordonnés et de valets qui distingue les consuls, ou sont-ce les insignes militaires ? Il n’y aurait plus seulement deux consuls, comme d’ordinaire, puisqu’on les compte par centaines et par milliers ceux qui servent l’Église, etqu’ils seraient tous revètus de la dignité impériale. Bonne bète que j'étais, j'admirais qu’un
+
+
+
+
+
+
+<pb n="210"/>
+
+
+Pape fut censé empereur : tous les prè-tres seront autant d’empereurs, et les clercs autant de soldats! Vraiment les clercs seront-ils tous soldats? porterònt-ils l’habit militaire? à moins que vous n’aimiez mieux partager entre eux tous les insignes impériaux. Je ne sais, en effet, ce que tu veux dire ; qui ne s’apercoit que cette fable a été inventée par des gens dont Tambition était de porter à eux seuls toutes sortes de costumes ? A mon avis, si les démons qui peuplent l’air s'amusent à quelque jeu, ils doivent se plaire à singer les manières, le faste, le luxe du clergé, et bien rire de cette espèce de mascarade!
+
+
+
+
+
+
+
+<pb n="211"/>
+
+Poursuivrai-je plus au long Texamen de Tineptie des idées ou de celle des mots? L’ineptie des idées, vous venez de la voir; celle des mots, jugez-en. Il parie de ce qui semble faire Tornement du Sénat, comme si le prestige du Sénat n’était pas réel, il veut mème Torner de gioire ; ce qui s’accomplit actuellement, il le donne comme déjà accompli; il dit Nous avonspromulgué pour Nous promulguons. La phrase lui semble mieux sonner de cette manière, et il met la mème chose au présent et au passé, comme ces Nous avons décrété et Nous décrétons ; il farcit chaque ligne de ces termes : Nous avons décrété, Nous décrétons, impérial, puis-
+
+
+
+
+
+<pb n="212"/>
+
+
+sance impériale, gioire; il emploie exstat au lieu de est, quoique exstare signifie dépasser, dominer, et nempe au lieu de scilicet, et concubins au lieu de camé-riers <note n="1">Il est probable que le mot concubitores a été mis par le faussaire à la place de excubitores, gardes ; il est ainsi corrigé dans quelques editions du Décret de Gratien et dans le texte que donne la Collection des Conciles, de Labbe. (Note du Traducteur.)</note> . Des concubins sont des gens qui couchent et font l’amour ensemble; c’est sans doute de mignons qu’il s’agit ici. Il ajoute : avec qui il dorme, crainte sans doute des fantòmes nocturnes; il ajoute des chambellans, des huissiers, et ce n’est pas de peu d’importance, car il en fait soigneusement l’énumération. Constantin s’adresse probable-
+
+
+
+
+
+
+<pb n="213"/>
+
+ment non à un vieillard, mais à un pupille, à quelque fils encore adolescent; comme le plus aimant des pères, il pré-voit tout ce dont cet àge si tendre a besoin : ainsi fìt David pour Salomon. Et pour que Timposture soit complète, de point en point, on donne des chevaux aux prètres, de peur sans doute qu'ils montent des ànesses, à l’humble mode du Christ. On les leur donne, ces chevaux, non pas enveloppés ou caparaponnés de couvertures blanches, mais orne's de blancheur ! Et de quelles espèces de couvertures s'agit-il? Sont-ce des housses, des tapis, ou tous autres harnachements du mème genre ? Non; ce sont des nappes et des draps! Les nappes se mettent sur
+
+
+
+
+
+<pb n="214"/>
+
+la table, les draps au lit. Encore a-t-il peur qu’on se méprenne, et il en spé-cifìe la couleur : « d'une eclatante blancheur, » dit-il, Quel style digne de Constantin, quelle élégance Lactantienne! Et le : qu'ils chevauchent des chevaux} cela vaut le reste. N'ayant pas dit un mot des vètements sénatoriaux, rien du laticlave, rien de la pourpre ni de tout le reste, voici qu'il juge à propos de parler des chaussures : et ces chaussures il les annelle, non des souliers au croissant tror <note n="1">Ce croissant d'or, lunula, était une boucle en forme de C, destinée à marquer, dit-on, que les premiers sénateurs étaìent au noinbre de cent. La chaussure des sénateurs était noire. (Note du Traducteur.)meSj terme qu'à</note> , des lunules, mais des udones, terme qu'à
+
+
+
+
+
+<pb n="215"/>
+
+son ordinaire il explique en ajoutant ; « c’est-à-dire des chaussures d’étoffe bianche, » comme si les udones étaient en étoffe. Il ne me vient pas à resprit,pour le moment, d'autre passage où il soit question d’udones que celui de Martial, dans ce distique intitulé Udones de Cilicie : <quote><l>Ne les a pas fournis la laine, mais le poil du bouc odorant :</l><l>Ton pied pourraétre à l'aise dans ce golfe Lybique.</l></quote>Donc les udones n’étaient ni en étoffe, ni blancs, et cet àne à deux pieds ne se contente pas d’en chausser les Sénateurs,
+
+
+
+
+
+
+<pb n="216"/>
+
+
+il veut les en décorer! Puis, lorsque tu ajoutes : « A fin que ce qui est du del soit paré, pour la gioire de Dieu, à Végal de ce qui est de la terre... » qu’entends-tu par ce qui est du ciel et ce qui est de la terre ? Comment ce qui est du ciel peut-il ètre pare? En quoi vois-tu là-dedans la gioire de Dieu? Pour . moi, ou je me trompe fort ou il n'y a rien de plus abominable, a Dieu comme aux hommes, qu'une telle ingérence du clergé dans les choses du siècle.</p><p>Mais pourquoi m’emporter à propos de détails? Une journée ou plutót ma vie entière ne suffirait point, je ne dis
+
+
+
+
+
+
+<pb n="217"/>
+
+pas à détailler, mais b exposer le tout. « ... En outre, à Vexclusion de tous autres, Nous avons accordé au bienheureux Sylvestre et à ses successeurs la permiss ioti, par notre indi et, de clergifier et dénombrer dans le religieux nombre des clercs quiconque, de ferme dessein, il lui plaira vouloir, sans que nul soit asse% osé pour Vaccuser d’agir présomptueusement... » Qui donc est ce Melchfsédech qui s’arroge le droit de bénir le patriarche Abraham? Constantin,apeine fait Chrétien, accorde la permission de créer des prètres à celui dont il vient de recevoir le baptème et qu’il traite de bienheureux? Sylvestre, apparemment,
+
+
+
+
+
+
+<pb n="218"/>
+
+
+n’en avait jamais encore créé, ne possé-dait pas le droit d’en créerl Et par quelles peines comminatoires défend-il que Ton y mette obstacle? « Que nul ne Vaccuse d'agir présomptueusement , » dit-il. Et quelle élégancel dénombrer dans le religi eux nombre des clercs, clergifier des clercs, indict, plaira vouloir!</p><p>Maintenant, le voici qui revient au diadème : « ... Nous avons de plus décrété ceri, que lui-mème et ses successeurs dussent, en Vhonneur du bienheureux Pierre, jouir du diadème, c’est-à-dire de la couronne que nous ótons de notre téte pour la lui concèder, d'or très-pur et de pierreries précieuses... » Il lui faut en-
+
+
+
+
+
+<pb n="219"/>
+
+core expliquer ce que c’est qu’un diadème; il parlait sans doute à des Barbares, à des gens bien oublieux. Il ajoute : « d’or très-pur, » comme s’il avait peur qu on ne le crùt en cuivre ou plein d’alliage, et, après avoir dit de pierreries, il ajoute précieuses, dans le mème but, crainte qu’on ne les soupconne d etre de viles pierreries. Alors, pourquoi ne dit-il pas très-précieuses de mème qu’il a cru devoir dire d’or très-pur? C’est bien plus important, car s’il y a pierreries et pierreries, l’or est toujours de l’or ; il aurait aussi dù dire ornée de pierreries, et il dit une couronne de pierreries! Qui ne voit ; que la phrase est imitée de ce passage
+
+
+
+
+
+<pb n="220"/>
+
+
+
+que l’Empereur pai'en n’avait jarxiais lu : Tu cis pose sur sa téte la couronne de pierres précieuses? L’Empereur aurait pu parler de la sorte pour relever le prix de sa couronne, si toutefois les Empereurs Romainsétaientcouronnés; mais c’eut été se faire outrage à lui-mème, et avouer qu’on ne croirait pas qu’il portàt une couronne de l’or le plus pur et enchàssée de pierreries s’il ne l’affirmait. Et voyez le motif qui le fait ainsi parler : c’est en Vhonneur du bienheureux Pierre! Comme si le Christ n’était pas la suprème pierre angulaire sur laquelle est bàtie l'Église, et que ce fut Pierre, qui ne l’a été qu’en second. Mais si Con-
+
+
+
+
+
+<pb n="221"/>
+
+stantin voulait tant honorer Pierre, pourquoi n’est-ce pas à lui plutòt qu’à Jean-Baptiste qu’il a dédié une église à Rome?</p><p>Et que de barbarismes! N’attestent-ils pas que cette rapsodie a été confectionnée, non au temps de Constantin, mais bien après lui 7 Nous avons décrété qu’ils dussent jouìr au lieu de Nous avons décrété qu}ils jouissent ; de mème aujourd’hui les illettrés disent ou écrivent à tort, communément : fai mandé que vous dussie% venir, au lieu de : Je vous ai mandé de venir. Et toujours : Nous avons décrété, Nous avons concèdè! comme si cela ne se passait pas à Tinstant et datait déjà d’une époque antérieure !
+
+
+
+
+
+
+
+<pb n="222"/>
+
+« ... Mais le bienheureux Pape, pardessus la couronne de prétrise qiCil porte, à la gioire du très-bienheureux Pierre, n'apas vouluposer cette couronne d'or... » Bizarre folie que la tienne, Constantin ! Tu prétendais tout à Theure lui mettre la couronne sur la tète, en Thonneur du bienheureux Pierre; tu dis maintenant que tu ne la lui mets point, parce que Sylvestre la refuse ; et tout en excusant son refus, tu lui ordonnes pourtant de la prendre, cette couronne d'or; ce qu’il a cru devoìr repousser, tu prétends que ses successeurs Tacceptent. Je ne veux pas remarquer que tu appelles la tonsure une couronne, et que tu donnes
+
+
+
+
+<pb n="223"/>
+
+au Pontife Romain le titre de Pape, titre qui ne lui était pas encore spécialement donné à cette époque.</p><p>«... Mais Nous avons de nos mains piace sur son très-saint chef le phrygium resplendissant de la plus eclatante blancheur et retracant la résurrection du Seigneur ; puis, tenant la bride de son chevai, par révérence pour le bienheureux Pierre, Nous avons publiquement rempli pour Ini Voffice d’e'cuyer, ordonnant que tous ses successeurs usassent particulièrement de ce phrygium dans les processions, à l'instar de notre Empire... » N'est-il pas évident que l’auteur de cette imposture
+
+
+
+
+
+
+
+
+<pb n="224"/>
+
+
+ment non par maladresse, mais de propos délibéré, à plaisir, pour donner prise de  tous còtés à la critique? Dans la méme phrase, il dit que sur ce phrygium est représentée la résurrection du Seigneur et qu’il faut le porter à l’instar de l’Empire, deux choses des plus contradictoires! J’en prends Dieu à témoin, je ne trouve pas de termes, d’injures assez atroces pour accabler cet exécrable fourbe. Il ne vomit que des phrases pleines de sottises. Il ne se contente pas de donner à Constantin le ròle de Moise, qui sur l’ordre de Dieu, honora de la sorte le grandprètre, il lui fait expliquer
+
+
+
+
+
+
+<pb n="225"/>
+
+les fonctions du saint ministère, ce qui est très-difficile mème à ceux qui ont pàli sur les Ecritures. Que n’as-tu fait Constantin Souverain Pontife, comme Pont été nombre d’Empereurs, pour qu'il lui fut plus facile de transmettre ses ornements à Tautre Souverain Pontife? Mais tu ignorais Thistoire. Vraiment je remercie Dieu de n’avoir pas permis que cette criminelle supercherie vint à l’esprit de toutautre que du plus stupide des hommes, comme le reste le prouve, Oui, sans doute, il voulut que Moise tint par la bride, remplissant le róle d’écuyer, le chevai d’Aaron, mais c’était en face des
+
+
+
+
+
+
+<pb n="226"/>
+
+Chananéens et des Égyptiens, au milieu d’une cité ,pai*enne ; il s’agissait moins alors de l’empire du monde que de celui des démons et de peuples adorant les démons.</p><p>« ... C'est pour quoi, afin que le fatte pontificai ne soit point aviliy mais bien honor é au-dessus de la dignità, de la gioire et de la puissance de l’Empire terrestre, voici que Nous livrons et délaissons tant notre palais que la ville de Rome et toutes les provinces, localités et cités de l’Italie ou des régions occidentales au bienheureux Sylvestre, Pontife et Pape universelj pour que par lui et ses succes-
+
+
+
+
+
+
+
+
+<pb n="227"/>
+
+seurs, ainsi que Nous Vavons décrété par constitution pragmatique, il en soit dispose, et qu’elles restent sous Vautorité de la sainte Église Romaine... » J’ai déjà longuement disserté là-dessus dans les discours que j’ai prètés aux Romains et à Sylvestre. Je me contenterai de dire ici que personne ne serait assez fou pour englober tant de peuples, ou pour mieux dire tous les peuples, dans une seule phrase d’une donation ; qu’il est bizarre qu’un homme, après avoir plus haut dé-taillé si minutieusement la courroie, les chaussures, les housses des chevaux, n’énumère pas nominativement des prò-vinces, ne dise pas un à un quels Rois ou quels Princes égaux des Rois les déte-
+
+
+
+
+
+<pb n="228"/>
+
+
+naient alors. Mais ce faussaire ignorait sans doute quelles provinces étaient ou n'étaient pas au pouvoir de Constantin. A la mort d’Alexandre, nous voyons les provinces énumérées une à une, dans le partage que firent ses généraux ; Xénophon cite nominativement les pays et les Princes qui de gré ou de force se soumirent à Cyrus ; Homère ne se contente pas de nommer les rois Grecs et Barbares, il fait connaitre leur filiation, leur patrie, leurs mceurs, leur vigueur, leur beauté corporelle, le nombre de leurs navires et opère presque le dénombrement de leurs soldats. Son exemple a été suivi tant par beaucoup de Grecs que
+
+
+
+
+
+
+
+<pb n="229"/>
+
+par nos anciens auteurs Latins, Ennius, Virgile, Lucain, Stace et bien d’autres. Josué et Moise, dans le partage de la Terre promise, ont décrit les moindres bourgades. Toi, tu ne prends pas la peine d’énume'rer des provinces; tu dis tout simplement : les provinces occidentales! Où sont les frontières de l'Occident? où commencent-elles ? où finis-sent-elles? Les limites de l’Occident et de l'Orient, du Midi et du Septentrion sont-elles aussi certaines, aussi fixes que celles de l’Asie, de l'Afrique, de l'Europe? Tu négliges les défìnitions indispensables et tu en fais d’inutiles. Tu dis : les provinces, localités et cités; est-ce
+
+
+
+
+
+
+
+<pb n="230"/>
+
+
+que les provinces et les cités ne sont pas des localités? Après avoir dit les provinces tu ajoutes les cités, comme si les unes n’étaient pas comprises dans les autres. Pourtant, il ne faut pas trop s'ébahir de ce qu’un homme qui aliénait une si considérable partie du monde ait omis les noms des villes, des provinces, et, comme frappé de stupeur, en ait oublié jusqu’à sa langue. Tu lui fais dire : de l’Italie ou des régions occidentales, comme s’il donnait soit les unes, soit les autres, lui qui entend donner les unes et les autres, et tu dis les provinces des régions au lieu de : les régions des provinces et permanenda pour permansura.
+
+
+
+
+
+
+<pb n="231"/>
+« ... C’est pourquoi nous avons jugé convenable de transférer notre Empire et la royale puissance aux régions orientales, et en un très-bon endroit de la province de Byqance d’édifier line cité de notre nom et d’y établir notre Empire; car il n’est pas juste que là où le Prince des prétres et le chef de la religion Chrétienne est établi par l’Empereur céleste, un Empereur terrestre garde le pouvoir.,. » Passons sur ce qu’il dit édifier une cité; on édifìe des villes, non pas des cités ou des provinces. Si tu es véritablement Constantin, dis-nous donc le motif pour lequel tu as choisi cet endroit plutót qu’un autre pour y batir une ville.
+
+
+
+
+<pb n="232"/>
+
+
+Te transporter ailleurs, après la céssion de Rome, c’est non pas seulement convenable, mais absolument nécessaire; ne te donne plus le nom d’Empereur, après avoir quitté Rome ; celui de Romain, que tu foules aux pieds, tu n’es plus digne de le porter, et ne prends pas non plus celui de Roi, que personne avant toi n’osa prendre, à moins que tu ne veuilles t’appeler ainsi pour avoir cesse d’ètre Romain.</p><p>Mais tu nous allègues une raison honnète : c’est que, là où le Prince des prètres et le chef de la religion Ghrétienne a été installé par l’Empereur céleste, il n'est plus possible que l’Empereur ter-
+
+
+
+
+
+
+
+
+<pb n="233"/>
+
+restre conserve le pouvoir. O sottise de David, sottise de Salomon, sottise d’Ezé-chias, de Josiasl oui, sots et de peu de religion,tous ces Rois et les autres qui continuèrent d’habiter Jérusalem avec les grands-prètres et ne leur cédèrent pas toute la ville! Constantin acquiert, en trois jours, plus de sagesse qu’ils nJen eurent dans toute leur vie! Si c’est à l’Empereur que tu donnes Tépithète de céleste, parce qu’il détient un pouvoir terrestre, tu n’es qu’un fourbe*, maisy' peut-ètre, car tes paroles sont ambigui, veux-tu dire que c’est Dieu qui a établi le pouvoir des prètres sur la ville de
+
+
+
+
+
+
+<pb n="234"/>
+
+Rome et autres lieux; et tu mens encore.</p><p>«... Enfin, tout ce que par cette charte impériale et sacrée ainsi que par d’autres décrets divins, Nous avons ordonné, Nous le confirmons, et décrétons que cela reste intact et inébranlaÒle jusqu'à la fin du monde... » Tu t’appelais tout à l’heure roi terrestre, Constantin : maintenant tu te traites de divin et de sacre; tu retombes dans le paganisme, plus que dans le paganisme mème, car tu te fais Dieu. Tu déclares que tes paroles sont sacrées et tes décrets immortels; tu ordonnes à Tunivers de conserver in-
+
+
+
+
+
+
+
+
+<pb n="235"/>
+
+tacte et inébranlable la loi que tu imposes. Oublies-tu donc qui tu es? A peine viens-tu d’ètre lavé et purifié de Firnmonde souillure de Fimpiété. Que n’a-joutais-tu : « Le ciel et la terre périront avant qu’un iota, une virgule de cette charte ne s’effacent? » Saul avait été choisi par Dieu lui-mème, et son tròne ne passa pas a ses enfants ; le royaume de David se divisa sous le règne de son neveu, puis disparut. Toi, de ta propre autorité, tu décrètes que le royaume donné par toi au Souverain Pontife devra durer jusquà la fin du monde? Et qui t’a si vite appris que le monde devait périr? Je ne pense pas qu’à cette epoque tu
+
+
+
+
+
+
+<pb n="236"/>
+
+
+eusses grande confìance dans les poètes, qui eux aussi ont prédit la fin du monde; donc tu n'as pu parler ainsi, c’est un autre qui te Ta fait dire.</p><p>Pourtant, celui qui tout à l’heure s’exprimait avec tant d’orgueil et de superbe commence à craindre, à douter de lui : il entame le chapitre des objurgations : «... C'est pourquoi, en face du Dieu vivant, qui nous a enseigné à régner, en face de son jugement terrible, Nous enjoignons à tous nos successeurs les Empereurs, ainsi qu’à tous les Grands, aux Satrapes méme, à Vamplissime Sénat et à tout le peuple répandu sur le globe ter-
+
+
+
+
+
+
+<pb n="237"/>
+
+restre de l’univers, à tous présents et à venir, que nul n’ose de quelque fagon que ce soit enfreindre ou déchirer ce privilège!... » O Téquitable et religieuse objurgation! C’est comme si un loup adjurait les autres loups et les bergers, au nom de Tinnocence et de la bonne foi, de ne pas enlever ou reprendre à ses petits ou à ses compères entre lesquels il les aurait partagés, les moutons volés par lui. Que redoutes-tu donc si fort, Constantin? Si ton oeuvre ne vient pas de Dieu, elle perirà  si elle vient de lui, il ne souffrira pas qu'elle périsse. Mais je crois bien que tu auras voulu imiter l’Apocalyse, où il est
+
+
+
+
+
+<pb n="238"/>
+
+
+dit : Je confie à qui rriécoute les paroles de la prophétie de ce livre; si quelqu’un leur ajoute, Dieu lui ajoutera aussi et Dieu piacerà sur lui les plaies décrites dans ce livre. Et si quelqu’un retranche quelque chose des paroles du livre de cette prophétie, Dieu lui retranchera sa part du livre de vie et de la cité sainte. Mais tu n’avais jamais lu PApocalypse; donc ces paroles ne sont pas de toi.</p><p>«... Si cependant, ce que nous ne croyons pas, quelqu’un est asseif osé de le faire, qu’il soit condamné à la damnation éternelle, qu’il sente qu’il a pour ennemis, dès
+
+
+
+
+
+
+<pb n="239"/>
+à présent et pour la vìe future, les saints Apótres de Dieu, Pierre et Paul, et qu'il soit précipité au fin fond de Venfer poury ètre brulé avec le Diable et tous les impies. » Cette épouvantable menace n’est pas d’un Empereur, d’un Prince séculier; elle appartient au vocabulaire des prètres antiques, des flamines et actuellement des ecclésiastiques. Ce morceau n’est donc pas de Constantin, mais de quelque moine stupide, ne sachant que dire ni quels mots employer; bouffì de graisse et de sottise, puantla débauché et le vin, il expectore ces anathèmes, ces vaines paroles qui n’atteignent personne et re-
+
+
+
+
+
+
+<pb n="240"/>
+
+tombent sur lui-mème. Il s’écrie tout d’abord : qu’il soit condamné à la damnatìon éternelle, puis pour surenchérir encore , il veut ajouter quelque eh ose et à l’éternité des peines il ajoute des peines en cette vie ; après nous avoir épouvantés de la damnation, il nous menace de l'inimitié de Saint Pierre, comme si c’était bien plus terrible. Pourquoi à Saint Pierre adjoint-il Saint Paul, pourquoi Pierre n’est-il pas tout seul? Je n’en sais rien. Puis, il oublie, comme d’habitude, ce qu’il vient de dire et réitère sa damnation éternelle, comme s’il n’en avait pas déjà parie.</p><p>Si ces menaces et ces exécrations étaient bien de Constantin, à mon tour
+
+
+
+
+
+
+
+
+<pb n="241"/>
+
+j’anathématiserais en lui un tyran, un destructeur de la Republique, et, en qualité de Romain, je le menacerais de me faire le vengeur de Rome. Mais qui peut effrayer la malédiction du plus cupide des hommes, proferant des phrases comme un acteur qui joue son róle et nous épouvantant derrière le masque de Constantin? C’est bien là faire l'hypocrite, au sens Grec du mot, c'est-à-dire cacher ta perfionnalité sous une autre.</p><p>« ... Et corroborant de nos propres mains la page de cet impérial décret, Nous Vavons déposée sur le corps véné-
+
+
+
+
+
+
+
+<pb n="242"/>
+
+rable du bienheureux Pierre.,. » Était-ce un papier ou bien un parchemin, la page où sont écrites toutes ces belles choses? Nous appelons page, d’ordinaire, l’un ou l’autre coté d’un feuillet, comme lorsque Ton dit communément : il y a dix feuillets, vingt pages. O chose inouie et incroyable! Je me souviens d’avoir, étant tout jeune, demandé àquelqu’un; « Quel » est Fauteurdu Livre de Job?— C’est Job » lui-mème,» me répondit-on — a Alors,» répliquaì-je, « comment a-t-il pu faire » mention de sa propre mort ? » On pourrait faire la mème objection à bien des livres, mais ce n’est pas le lieu d’en parler ici. Comment Constantin peut-il ra-
+
+
+
+
+
+
+
+<pb n="243"/>
+
+
+conter ce qu’il n’a pas encore exécuté et inserire dans sa charte ce qu’il ne fera qu’aprèsTavoir, pour ainsi dire, mise au tombeau? Autant vaut dire que cette charte était morte et enterrée avant que de naitre, et cependant personne ne lJa fait revenir de la mort et retirée du sé-pulcre; que l'Empereur la corroborait avant de l’écrire et non pas seulement d’une main, mais des deux. Et que signifie ce corroboré? L’a-t-elle été de la main de l'Empereur? Y a-t-il seulement apposé son cachet? La belle confirmation, meilleure que s’il eut fait graver cette charte sur des tables d’airain ! — Il n’est
+
+
+
+
+
+
+
+
+<pb n="244"/>
+
+
+pas besoin, diras-tu, de tables d'airain, puisque la charte est déposée sur le corps de S. Pierre.— Pourquoi ici ne parles-tu plus de S. Paul, qui repose dans le mème tombeau que S. Pierre? Deux cadavres la garderaient cependant bien mieux qu’un seul.</p><p>Voyez les ruses et les fourberies mises en oeuvre par cet exécrable Si non. Parce qu’il lui est impossible de produire la Donation de Constantin, ce n’est pas sur des tables d’airain, c’est sur une feuille de papier que le privilège est écrit, et il nous dit que cette feuille estenfouie avec le corps du très-saint Apòtre, pour que nousn’osions pas aller la chercher au fond
+
+
+
+
+
+
+
+<pb n="245"/>
+
+d’un vénérable sépulcre, ou, si nous l'osons, que nous la présumions détruite. Mais, où donc était alors le corps du bienheureux Pierre ? Il n'était certes pas encore dans l'église où il est actuellement, ni mème en lieu sur et suffisamment à l’abri; donc Constantin n’a point piace là son papier. Que ne le confìait-il au bienheureux Sylvestre? Le regardait-il comme trop peu saint, trop peu prudent, trop peu soigneux? O Pierre, ô Sylvestre et vous, Pontifes de la sainte Église Romaine, à qui sont commises les brebis du Seigneur, pourquoi refusait-il de vous confief ce papier? Pourquoi ne l'avez-vous pas conservé ? Pour-
+
+
+
+
+
+
+
+<pb n="246"/>
+
+
+quoi l'avez-vous laissé manger des teignes, tomber en pourriture? Probablement parce que vos corps aussi sont tombés en pourriture. Constantin a donc agi bien follement, puisque la charte de Donation étant réduite.en poussière, votre droit, lui aussi, s’est en allé en poussière.</p><p>Cependant, comme nous le voyons, on montre un exemplaire de la charte. Qui donc fut assez téméraire pour l'arracher du corps des très-saints Apótres? Personne, je pense, n’aeu cette audace. D'où vient cet exemplaire? Il faudraìt l'appuyer du témoignage de quelque ancien auteur, non postérieur à l'époque de Constantin; mais ce témoignage fait dé-
+
+
+
+
+
+
+
+<pb n="247"/>
+
+faut ; Tauteur qu’on cite est récent. Comment s’est-il procuré cette charte ? Quiconque rédige l’histoire des temps passés écrit sous la dictée du Saint-Esprit ou suit l’autorité des anciens, de ceux qui ont relaté Thistoire de leur epoque. Par-conséquent, quiconque ne suit pas l’autorité des anciens doit ètre mis au nombre de ceux qui profitent, pour mentir, de l’éloignement des temps. Ils ont beau piacer leurs inventions à la date voulue, elles ne s’accordent pas plus avec les anciens témoignages que cette sotte fable du glossateur Accurse, touchant les ambassadeurs Romains envoyés en Grece pour recueillir les lois de ce pays, fable
+
+
+
+
+
+
+
+<pb n="248"/>
+
+qui est en opposition avec Tite-Live et les autres éminents historiens.</p><p>« ... Donné à Rome, le troisième des Calendes d'Avril, Constantin Auguste consul pour la quatrième fois et Gallicanus pour la quatrième fois consuL » Le faussaire a choisi la date de l'avant derider jour de Mars pour que nous comprenions que tout cela s’est passé durant la semaine sainte, qui tombe d’ordinaire à cette époque. Mais Constantin consul pour la quatrième fois et Gallicanus pour la quatrième fois consul ! Il est bien étonnant que l’un et l’autre eussent été déjà trois fois consuls et qu’ils se trouvassent
+
+
+
+
+
+
+
+<pb n="249"/>
+
+ensemble collègues pour leur quatrième consulat <note n="1">Laurent Valla ne possédait pas les Fastes consulaires de Borghesi ct n’a pu relever toute la méprise du faussaire. En 324, date assignce à la Donation, les consuis étaient Flavius Claudius Constantinus Junior, fils de Constantin, et Flavius Julius Crispus. On ne rencontre Gallicanus consul qu’en 329, avec le meme FI. CI. Constantin, et encore l’est—il pour la première fois. L’Empcreur Constantin était consul pour la quatrième fois en 3i5, avec Licinius. Les mauvais plaisants qui fabriquaient des chartps, pour la plus grande gioire de Dieu et de son Églìse, ne se doutaient pas que plus tard on rétablirait toute la sèrie des consuis, qu’ils ignoraient, et que leurs mensonges seraient rendus si palpables.	(Note du Traducteur.)</note>  ; plus étonnant encore que Constantin, lépreux, attaqué d’éléphantìasis, maladie qui est aux infirmités ordinaires ce que Féléphant est aux autres animaux, briguàt encore le consulat : le roi Azarias, dès qu’il se sentit atteint de la lèpre, se renferma chezlui après avoir
+
+
+
+
+
+
+
+<pb n="250"/>
+
+
+abandonné à son fìls Joathan l’adminis* tration du royaume, et c’est ainsi que firent tous les lépreux. Cette considé-ration suffit à elle seule pour réfuter toute la charte, la mettre en lambeaux, Tanéantir.</p><p>Pour que personne ne doute que Constantin n'ait dù avoir la lèpre avant d’ètre consul, il faut qu’on sache que, d’après les médecins, cette maladie se développe lentement, et qu’au témoignage des anciens, le consulat commenfait avec le mois de janvier; quen outre cette magistrature était annuelle. Or la Donation est supposée faite un peu avant Mars. Je ne laisserai pas non plus passer qu'on se
+
+
+
+
+
+
+
+
+<pb n="251"/>
+
+sert du terme donne pour une lettre, mais non dans les autres écritures, à moins d’ètre un ignorant. On dit qu’une lettre est donnée à telle ou telle personne, a celui qui Tattend, par exemple au secrétaire pour qu’il la porte et la remette en main au destinataire ; mais ce privilège, comme ils l’appellent, de Constantin, ne devait ètre remis à personne : on ne peut donc dire qu’il a été donne. Ainsi apparait clairement que celui qui s’est servi de cette expression était un fourbe et qu'il ne savait mème	pas inventer ce que, selon la vraisemblance, Constantin aurait du dire ou faire. Or, ceux-là se font les auxiliaires et les complices de sa bètise et de sa scé-
+
+
+
+
+
+
+
+
+<pb n="252"/>
+
+
+lératesse qui affirment et défendent sa véracité, quoiqu'il leur soit impossible non seulement de soutenir leur opinion, mais d’en donner une excuse honnète.</p><p>Peut-on, en effet, s’excuser honnètement d’une erreur lorsque la vérité est evidente, et ne pas vouloir s’y rendre sous le prétexte que de hauts personnages ont pensé autrement? Hauts personnages, oui, par le rang, mais non par la science ou la vertu. Et d’où sais-tu que ceux dont tu suis l’opinion, y persisteraient ou la répudieraient aujourd'hui, s’ils entendaient ce que tu entends ? Il est d’ailleurs honteux de vouloir accorder plus à un homme qu’à la vérité, c’est-à-dire à Dieu
+
+
+
+
+
+
+
+<pb n="253"/>
+
+méme. Mis en déroute parmes arguments, certaines gens ne manquent pas de me répondre : — Pourquoi tant de Papes ont-ils cru cette Donation véritable? — Soyez-en juges ; vous m’appelez sur un terrain où je ne voulais pas ailer ; vous me forcez malgré moi de médire des Souverains Pontifes dont je voudrais cacher les faiblesses. Parlons en toute franchise, et la cause que je soutiens Pexige d’ailleurs : j'irai jusqu’à dire qu’ils ont cru vraie la Donation, qu’ils ne l’ont pas fabriquée. Est-il si surprenant qu’ils aient accepté cette fiction, source pour eux de sigrands bénéfices, lorsqu’ils croient, par insigne bètise, à un tas de choses qui ne peuvent
+
+
+
+
+
+
+
+
+<pb n="254"/>
+
+
+leur rìen rapporter? Dans Téglise d’Ara-Coeli <note n="1">A Santa-Maria in Ara-Coeli, bâtie sur l'emplacement du tempie de Jupiter Capitolili, on montre encore un autel de porphyre consacré par Auguste en l’honneur du mystère de Mncarnatiou préditpar la Sybiile. — Le temple de la Paix, enrichi par Titus et Vespasien des depouilles du tempie de Jérusalem, fut détruit sous Commode par un incendie. (Note du Traducteur.)</note> , dans ce tempie magnifìque et à rendroit le plus saint, ne voyons-nous pas un tableau représentant la fable de la Sibylle et d’Auguste, à ce qu’ils disent d’après l’autorité d'Innocent III, qui de plus nous a laissé un écrit pour prouver que le tempie de là Paix s’effondra le jour mème de la naissance du Sauveur, c’est-à-dire lors de Tenfantement de la Vierge? Ce sont choses plus propres à
+
+
+
+
+
+
+
+
+
+<pb n="255"/>
+
+détruire la foi, parce qu'elles sont fausses, qu'à la consolider par ce qu’elles ont de merveilleux. Ose-t-il donc mentir sous le couvert de la vérité, de la piété, lui, le Vicaire de la vérité, et sciemment se rendre coupable de ce forfait? Ne ment-il pas ? ne voit-il pas qu'en disant cela il se met en contradiction avec les plus saints docteurs? Pour n’en citer qu’un, Saint Jerome, s’appuyant de l’autorité de Varron, dit que les Sibylles étaient au nombre de dix; l’ouvrage de Varron était achevé avant le règne dJAuguste. Le mème, à propos du tempie de la Paix, relate ceci : « Vespasien et Titus, ayant élevé à Rome le tempie de la Paix,
+
+
+
+
+
+<pb n="256"/>
+
+
+déposèrent dans son sanctuaire les vases du Tempie et tous les objets consacrés; rhistoire Grecque et Romaine en témoignent. » Et cet ignorant veut-il qu’on ajoute plutót foi à son livre écrit d'un style barbare, qu'aux véridiques récits des anciens et très-judicieux historiens? Puisque j’ai parie de Saint Jéròme, je ne passerai pas sous silence l'affront qu on lui fait : a Rome, avec la permission du Pape, on montre à la lueur des cierges toujours allumés, comme si c’étaient les reliques des Saints, un manuscrit de la Bible que Ton dit ètre tout entier de la main de Saint Jéròme. Vous demandez sur quoi repose cette croyance ? Sur ce que Tenveloppe, comme dit Virgile, est
+
+
+
+
+
+
+
+<pb n="257"/>
+
+enrichie de broderies et d'or, chose qui prouverait, au contraire, que Saint Jéròme n'y a pas mis la main. Il m’a suffi d'y jeter négligemment un coup d'ceil pour voir que cet exemplaire avait été fabriqué sur l'ordre de quelque souverain, que je crois ètre Robert de Naples, paruncopiste tout à fait ignare.</p><p>Par une autre supercherie, entre dix mille du mérae genre qui florissent à Rome, on exhibe, au milieu d'objets sacrés, les portraits peints sur bois de S. Pierre et de S, Paul, ceux-là mèmes que Sylvestre fit voir à Constantin, en confìrmation de Tapparition qu'il avait eue, lorsque ces Apótres Tavertirent en
+
+
+
+
+
+
+<pb n="258"/>
+
+
+songe. Je ne dis pas cela pour nier que ces effigies soient bien celles des Apótres; plut au Ciel que la lettre de Lentulus touchant le portrait du Christ ne fut pas plus fausse, elle qui Test tout aussi effrontément que la Donation plus haut réfutée par nous; je le dis parce que ce tableau ne fut pas montré par Sylvestre à Constantin, fourberie qui me fait bondir d’indignation.</p><p>Parlons un peu maintenant de la fable de Sylvestre, puisqu’en somme toute la question est là et que du moment qu’il s’agit des Pontifes Romains, c’est le lieu de traiter à fond l’histoire
+
+
+
+
+
+
+
+<pb n="259"/>
+
+de celui-là; par la sienne, on pourra . conjecturer facilement ce que vaut celle des autres. Dans la foule de sottises qu’on débite sur son compte, je choisiraì la legende du Dragon, pour prouver que Constantin n’eut jamais la lèpre.</p><p>Les Actes de Sylvestre ont été compiles par un certain Eusèbe, Grec de nation, ainsi que son traducteur l’affirme ; or les Grecs ont toujours été d’insignes menteurs, comme le dit Juvénal dans une mordante satire :<quote><l>Tout ce qu’en histoire ose la Grece menteuse...</l></quote>
+
+
+
+
+
+
+
+<pb n="260"/>
+
+D’où donc ce Dragon était-il venu? Les dragons ne naissent pas à Rome. En effet, d’où tirent-ils leur venin? On croit qu’il n’y a de dragons venimeux qu’en Afrique, à cause de l’ardeur du climat. De plus, comment un dragon aurait-il à lui tout seul assez de poison pour empester une ville entière, surtout s’il était plongé au fond d’une caverne si creuse, qu’il fallait y descendre par un escaliér de cent cinquante marches? Les serpents, à l’exception peut-ètre du basilic, inoculent leur virus et vous tuent par leur morsure, non par leur soufflé, et Caton, lorsqu’il fuyait César avec une si grande masse d’hom-
+
+
+
+
+
+
+<pb n="261"/>
+
+
+mes, à travers les sables de l'Afrique, ne vit jamais aucun de ses soldats ou de ses compagnons d’armes, en marche ou au campement, perir foudroyé par l’haleine d’un serpent ; les peuples de ces pays ne se sont jamais aperçus que leur atmosphère en fut empoisonnée. Si nous voulons mème nous reporter à la fable, la Chimère, l'Hydre, Cerbère ont pu ètre vus et touchés sans le moindre risque. Mais les Romains, que ne le tuaient-ils, ce dragon? — Impossible, diras-tu.— Régulus en a cependant tue un bien plus énorme en Afrique, sur les bords du Bagradas. En tous cas, il était facile de s’en défaire en bouchant rentrée de la caverne. Mais peut-ètre ne voulaient-ils
+
+
+
+
+
+
+<pb n="262"/>
+
+
+pas le tuer ; peut-ètre le prenaient-ils pour un Dieu, comme celui qu’adoraient les Babyloniens. Pourquoi donc Sylvestre, à Timitation de Daniel, ne l'a-t-il pas occis? Bien mieux, que ne le l'a-t-il avec une corde de chanvre et n’anéantissait-il à tout jamais sa postérité?</p><p>Sans doute le compilateur de cette fable n'a pas voulu faire tuer le Dragon, de peur de paraitre trop copier l'histoire de Daniel. Si donc S. Jéròme, ce savant et si fìdèle interprète de la Bible, si Apoì-linaire, Origène, Eusèbe et bien d'autres encore affirment que l’épisode de Daniel et du Dragon est un conte; si les Juifs ne Tadmettent pas dans leur Canon de
+
+
+
+
+
+
+<pb n="263"/>
+
+l'Ancien Testament; en d'autres termes si les plus savants parmi les Latins, la plupart des Grecs et tous les Juifs regardent ce récit comme une fiction, peut-il m’ètre défendu de condamner une fable qui n’en est que la copie, qui ne s’appuie sur aucune autorité et qui n’est supé-rieure qu’en absurdité à son originai ? Qui donc avait construit à la bète sa demeure souterraine ? Les dragons sont faits pour voler; notre homme, qui ne connaissait pas cette espèce fabuleuse, a bien mal imaginé sa bète. Qui avait prescrit que des femmes, prises exclusivement parmi les Vierges et les Religieuses, descendissent dans la caverne, et ce, nul
+
+
+
+
+
+
+<pb n="264"/>
+
+
+autre jour que celui des Galendes ? Le Dragon connaissait donc le jour des Calendes ? Il se contentait d’une sì maigre et si rare pitance ? Les Vierges n’avaient aucune frayeur de cette profonde caverne, de cette bète horrible et affamòe? Sans doute le Dragon les cajolait, comme des femmes, des fìlles qui lui auraient apportò son dìner; il leur tenait conversation. Mettons, sauf votre respect. qu’il leur faisait l’amour : Alexandre et Scipion sont bien nés des rapports de leur mère avec un dragon ou serpent. Mais quoil si on avait refusò de lui fournir à manger, ne serait-il pas sorti de sa caverne et n’aurait-on pas pu le tuer ?
+
+
+
+
+
+
+<pb n="265"/>
+
+O surprenante folie des hommes qui croient à ces contes de bonnes femmes! Quand donc tout cela s’est-il passé ? Quand cela commenca-t-il ? Est-ce avant ou après la venue du Sauveur? On n’en sait rien. J’ai honte, oui, j’ai honte de ces contes de nourrice, de ces farces de bateleur; un Chrétien, un homme qui se dit fils de la vérité et de la lumière, doit rougir de faire accroire des choses qui ne sont ni vraies ni vraisemblables.</p><p>— Mais, répondent-ils, les démons pouvaient créer de tels monstres chez les nations pai'ennes, pour se moquer d’elles, parce qu’elles adoraient de faux
+
+
+
+
+
+<pb n="266"/>
+
+
+Dieux. — Taisez-vous, o les plus impudents, pour ne pas dire les plus scélérats des hommes; c’est là le voile sous leque vous cachez toutes vos fourberies. La sincérité Chrétienne n’a pas besoin du patronage de Timposture ; elle se défend assez par la lumière et la vérité qu’elle répand, sans ces artifices de fables et de prodiges qui sont un outrage à Dieu, au Christ, au Saint-Esprit. Dieu avait-il donc livré le genre humain à la merci des démons, pour qu’il fut abusé par des miracles aussi manifestes qu’impies ? Ce serait le cas de l’accuser d’injustice, lui qui aurait confié aux loups la garde des brebis, et les hommes au-
+
+
+
+
+
+
+
+<pb n="267"/>
+
+raient de leurs erreurs une excuse excellente.</p><p>Que si les démons avaient alors une pareille puissance, ils en jouiraient encore à présent, et mème d’une plus grande, à Tégard des infidèles. C’est ce que nous ne voyons pas du tout, et Ton ne raconte nulle part des fables de ce genre. Je ne parlerai pas des autres peuples; je ne m’occuperai que des Romains : chez eux, on ne rapporte que peu de faits miraculeux, encore sont-ils anciens et peu prouvés. Valére Maxime conte qu’un gouffre s’entr’ouvrit, au milieu du forum, puis se referma, et que le sol reprit son aspect ordinaire lorsque Curtius s’y fut
+
+
+
+
+
+<pb n="268"/>
+
+
+précipité, tout armé, avec son chevai. On lit aussi chez lui qu’une statue de Junon à qui un soldat Romain, lors de la prise de Ve'ies, demandait si elle voulait venir à Rome, répondit que oui. Tite-Live, historien plus ancien et de plus de poids, est en désaccord avec lui sur ces deux faits. Il veut que le gouffre soit reste béant, après que Curtius s’y fut jeté, que de plus ce gouffre ne s’entr’ouvrit pas tout d’un coup, mais qu’il fut ancien, qu’il existàt avant la fondation de Rome, et qu’on l’appela le lac Curtius après que Metius Curtius, Sabin, y fut tombe en fuyant l’irruption des Romains. Quant à la statue de Junon, il dit qu’elle fu un signe affirmatif et non pas qu’elle répon-
+
+
+
+
+
+
+<pb n="269"/>
+
+dit oui; que plus tard on completa Ja fable en disant que la déesse avait parie. Pour le signe lui-mème, Pimposture est manifeste ; les soldats auront fait faire un mouvement à la statue, qu’ils enlevaient, et le lui ont ensuite attribué, comme si elle Pavait fait d’elle-mème; ou bien, puisqu’ils interrogeaient, par raillerie, ce marbré d’une déesse ennemie et vaincue, par plaisanterie encore, ils simulèrent sa réponse ; aussi Tite-Live ne dit-il pas positivement : « elle fit signe que oui », mais : « les soldats s’écrièrent qu'elle avait fait ce signe.» Lesbonsécrivainsnedéfendent pas de pareilles fictions, ils les excusent toutefois; car, ainsi que dit Tite-Live, « il faut pardonner à l’antiquité d’avoir
+
+
+
+
+
+
+<pb n="270"/>
+
+mèlé aux actìons humaines des actions divines, et rendu ainsi plus augustes les origines des villes. » Et ailleurs : « Quand il y a si longtemps, pour peu que les faits aient de vraisemblance, on les tient comme avérés. »</p><p>Envoilà assez sur ce su jet, plus propre à amuser ceux qui sont curieux de miracles qu'à y faire croire, et ce n’est pas la peine de soutenir ou de réfuter de telles histoires. Je ne dissimulerai pourtant pas que Valére Maxime n'est pas tout a fait repréhensible de parler de la sorte, d’autant qu'il ajoute, en homme grave et sérieux : « Je n’ignore pas qu’en
+
+
+
+
+
+
+
+<pb n="271"/>
+
+ce qui touche les gestes et les paroles des Dieux immortels perfus par les yeux et les oreilles des hommes, les opinions sont partagées ; mais tant qu’on n’invente pas des choses nouvelles et qu’on reproduìt seulement de vieilles traditions, la bonne foi de récrivain est à couvert. » Ce qu’il dit des paroles des Dieux se rapporte à la statue de Junon et à celle de la Fortune, qui aurait prononcé ces mots : «Vous m’avez bien vue, matrones; vous m’avez consacrée comme il convient. »</p><p>Mais nos conteurs de bourdes nous montrent sans fa£on les idoles douées de la parole, ce que les pai'ens et les ido-
+
+
+
+
+
+
+<pb n="272"/>
+
+làtres se gardaient bien d’affirmer, ce qu’ils niaient mème avec plus de sincé-rité que les Chrétiens nel’affirment. Chez les paiens, peu de miracles, et encore les présente-t-on comme de vénérables et religieuses traditions, appuyées sur leur antiquité, non sur le témoignage des auteurs; chez les Chrétiens, ce sont des croyances de fraìche date : les contemporains du fait n’en ont pas eu connaissance. Non que je veuille porter atteinte au culte des Saints ni rabaisser leurs divins mérites; je sais qu'il en est de la foi comme du grain de moutarde, et qu’elle transporte les montagnes. Je veux au contraire la défendre et la pro-
+
+
+
+
+<pb n="273"/>
+
+
+
+teger en empèchant qu’on la mèle à des fables, et je ne puis m’óter de Tidée que les inventeurs de toutes ces belles choses étaient ou des infìdèles, qui manoeuvraient en vue de discréditer les Chré-tiens, si ces fictions, arrivant aux oreilles d'hommes inintelligents par les artifices de quelques malintentionnés, venaient à passer pour vraies; ou bien descroyants doués de plus de zèle que de savoir, qui ne craignirent pas de rediger non seulement des Actes des Saints, mais de pseudo-évangiles de la Mère de Dieu et du Christ lui-mème. Et le Souverain Pontife se borne à appeler ces livres apocryphes, comme s’ils n’avaient d'autre défaut que
+
+
+
+
+
+<pb n="274"/>
+
+d'ètre d'un auteur inconnu ; comme si Ce qu’ils racontent était croyable ; comme s’ils étaient sacrés, aptes à confirmer la foi ; comme si celui qui approuve l’erreur n’était pas moins répréhensibleque celui dont Terreur émane. Nous avons grand soin de distinguer des pièces de bon aloi les pièces fausses, de les écarter, de les rejeter; les mauvaises doctrines, loin de les écarter, nous faut-il les admettre, les faire passer avec les bonnes, les défendre comme bonnes?</p><p>Pour moi, si je puis dire franchement mon avis, je nie que les Actes de Sylvestre soient apocryphes, puisqu’on donne un certain Eusèbe, comme je l'ai
+
+
+
+
+
+<pb n="275"/>
+
+
+
+dit, pour leur auteur; je pense qu’ils sont faux et indignes d’ètre lus, d’un bout à l’autre, aussi bien que dans ce qu’ils racontent du Dragon, du taureau et de la lèpre, insinuation que je veux réfuter et qui m’a fait remonter si haut. Parce que Naaman fut lépreux, ce n’est pas une raison pour que Constantin le fut aussi. Beaucoup d'auteurs l’affirment, en ce qui regarde le premier : mais à l'égard du second, ce maitre du monde, personne, pas mème dans son entourage, n’a parlé de lèpre, à Pexception de je ne sais quel étranger, en qui on ne doit pas plus croire qu’en cet autre d’après lequel des guèpes auraient fait leur nid dans les narines de Vespasien,
+
+
+
+
+
+
+<pb n="276"/>
+
+et Néron serait accouché d’une grenouille : c’est de là que le palais de Latran tirerait son nom (lata rana)y parce que la grenouille serait cachée au fond de son tombeau; si les guèpes et les grenouilles pouvaient parler, elles ne diraient pas de si grosses bètises. Je passe sur ce que ces Actes disent des bains de sang d’enfants, pour guérir de la lèpre, traitement que la science médicale ne confirme pas ; aussi le rapportent-ils à un oracle des Dieux Capitolins, comme si ces Dieux parlaient et pouvaient ordonner de telles abominations.</p><p>Mais que vais-je m’étonner de ce que les Papes ne comprennent pas cela, lors
+
+
+
+
+
+
+
+<pb n="277"/>
+
+qu'ils ignorent le sens de leur propre titre? Ils disent en effet que Pierre fut appelé Céphas, tète, de <foreign xml:lang="grc">κεφαλὴ</foreign>, c’est-à-dire la tète, le chef des Apótres, comme si ce mot était Grec et non Hébreu ou plutót Syriaque ; les Grecs l’écrivent <foreign xml:lang="grc">Κεφάς</foreign>, qui chez eux veut dire Pierre et non chef. Petrus, petra est un mot Grec, et il est stupide de donner à petra rétymologie Latine de jvede trita, foulée aux pieds. Ils distinguent le métropolitain de TArcheveque et veulent que ce titre lui vienne de l’étendue de la ville ; or les Grecs ne disent pas <foreign xml:lang="grc">μετρόπολις</foreign>; (la ville mesurée), mais bien <foreign xml:lang="grc">μητρόπολις</foreign>, c’est-à-dire la ville mère ou la cité mère;
+
+
+
+
+
+
+
+
+<pb n="278"/>
+
+ils interprètent Patriarche, pére des pères Pape comme si ce mot venait de l’appellation enfantine papa; orthodoxie comme synonyme de recta gloria ; ilsdonnentà Simonem la mediane brève, tandis qu’il faut la faire longue, comme dans Platonem et Catonem; j’en passe bien d’autres, pour ne pas sembler reprocher à tous les Souverains Pontifes ce qui est seulement la faute de quelques-uns.</p><p>Cela soit dit pour que nul ne s'étonne que tant de Papes n’aient pu soupconner la fausseté de la Donation de Constantin, bien que je soupfonne fort que la supercherie Vienne de l’un d’eux. — Mais,
+
+
+
+
+
+
+
+<pb n="279"/>
+
+direz-vous, pourquoi les Empereurs, au détriment de qui on la faisait valoir,bien loin de nier cette Donation, l'ont-ils reconnue, confirmée, observée?—Bel argument ! Admirable preuve ! Et de quel Empereur parlez-vous? De l'Empereur Grec, le véritable Empereur ? je nie qu’il l'ait jamais reconnue. De l’Empereur d'Occident? Je suis parfaitement de votre avis. Qui ne sait que l'Empereur d’Occident fut créé gratis par le Souverain Pontife, Etienne, je pense, qui après avoir déclaré déchu l’Empereur d’Orient, coupable de ne point porter secours à l’Italie, fabriqua un Empereur d’Occident, de
+
+
+
+
+
+<pb n="280"/>
+
+
+sorte que cet Empereur reçut beaucoup plus du Pape que le Pape de PEmpereur? Achille aussi et Patrocle se partagèrent entre eux seuls, moyennant certains arrangements, les dépouilles de Troie. C’est ce qui me semble resulter des paroles mèmes de Louis <note n="1">Louis le Débonnaire. (Note du Traducteur.)</note> , lorsqu’il dit : <quote>Moi, Louis, Empereur Romain, » Auguste, j’accorde et concède, par ce » pacte de confìrmation, à toi, bienheureux Pierre, Prince des Apótres, et » en ton lieu à ton vicaire, dom Pascal, Souveraìn Pontife, et à ses successeurs,
+
+
+
+
+
+
+
+
+
+<pb n="281"/>
+
+à perpétuité, comme il a été fait par nos prédécesseurs, de qui vous les avez tenues jusqu’à maintenant en votre pouvoir et possession, la ville de Rome avec son duché et tous ses faubourgs et hameaux, ses territoires de montagnes et rivages de mer, ses ports et Tuniversalité des cités, chàteaux,places fortes et villas des territoires de la Toscane.</quote> Est-ce bien toi, Louis, qui traites ainsi avec Pascal ? Si ces provinces que tu donnest'appartiennent,c'est-a-dire appartiennent à l'Empire, qu’as-tu à faire de les donner? Si elles sont au Pape, s’il les possedè, qu’as-tu besoin de confìr-
+
+
+
+
+
+<pb n="282"/>
+
+
+mer cette possession? Tu ne conserveras pas grand’chose de l'Empire Romain sì tu en livres la capitale : c’est de Rome que l’Empereur tire son nom de Romain. Mais quoi, tes autres domaines, sont-ils à toi, ou bien à Pascal? J'entends; tu dis qu'ils sont à toi. La Donation de Constantin ne vaut donc rien, si c’est toi qui possèdes des territoires qu'elle a concédés. Si elle vaut quelque chose, pourquoi Pascal te les laisse-t-il, retenant seulement ce qu'il a sous la main? Que signifie, de toi à lui ou de lui à toi, unetelle prodigalité de l'Empire Romain? Tu as bien raison d'appeler cela un pacte ; c'est un pacte de voleurs. — <quote>Que puis-
+
+
+
+
+
+
+
+<pb n="283"/>
+je faire? </quote> diras-tu. <quote>Reprendrai-je de force ce que le Pape détient? Il s’est déjà rendu plus fort que moi. Leréclamerai-je au nom du droit? Mon droit n’est que ce qu’il voudra qu’il soit; je ne possède pas l’Empire par droit héréditaire, mais par convention; si je veux ètre Empereur, il me faut bien en retour faire maintes promesses au Pape. Lui dirai-je que Constantin n’a rien donné de l’Empire ? Mais de cette façon je jouerais le jeu de l’Empereur Grec et je me frustrerais moi-mème de la dignité imperiale. Le Pape ne me fait Empereur que pour que je sois à son » égard une espèce de vicaire ; si je ne
+
+
+
+
+
+<pb n="284"/>
+
+promets rien, il ne fera rien et si je manque à ma promesse, il me déposera : du moment qu’il me gratifìe, j’abonde dans son sens, je fais pacte avec lui. Mais crois-moi, si je possédais  Rome ou la Toscane, il s’en faut que je fìsse ce que je fais : Pascal aurait beau me chanter son histoire de Donation ; je sais bien qu’elle est fausse. A l’heure qu’il est, je cède ce que je n’ai pas et ce que je ne puis esperer jamais avoir. Je n’ai donc pas à m’inquiéter des droits du Pape, c’est l’Empereur de Constantinople que cela regarde. </quote> Tu es tout excusé auprès de moi, Louis, et j’excuse de mème tout Prince
+
+
+
+
+
+<pb n="285"/>
+
+dans la mème position que Louis. Que devons-nous soupçonner des pactes des autres Empereurs avec les Soviverains Pontifes quand nous savons ce que fìt Sigismond, Prince d’ailleurs excellent et le plus puissant de tous, mais alors déjà vieux et par cela mème moins hardi? Après avoir traverse l'Italie à la tète d'un petit nombre de soldats, nous Pavons vu vivre de jour en jour resserré dans Rome et tout près de mourir de faim, si Eugène ne Peut hébergé, mais non gratis, car il lui extorqùa la Donation. Venu à Rome pour se faire couronner Empereur des Romains, il ne put l'obtenir du Pape avant de ratifìer la Donation de Con-
+
+
+
+
+
+<pb n="286"/>
+
+
+stantin et de la renouveler en entier pour son propre compte. Quoi de plus contra-dictoire que d’ètre couronné comme Empereur Romain moyennant que Ton renonce à Rome, d’ètre couronné par celui-là mème que Ton avoue faire, autant qu’il est en soi, possesseur de l'Empire Romain, et en faveur duquel on ratifie cette Donation de Constantin qui, si elle était véritable, ne laisserait rien de l’Empire à l’Empereur? Un enfant, je pense, ne le ferait pas. Après cela, il est bien moins étonnant que le Pape s’arroge le droit de couronner l'Empereur, droit qui devrait appartenir au peuple Romain.
+
+
+
+
+
+
+<pb n="287"/>
+
+Si tu as le pouvoir, ò Pape, d’enlever à l’Empereur Grec l’Italie et les provinces d'Occident, puis de faire un Empereur Latin, qu’as-tu besoin de pacte? Pourquoi partages-tu avec un autre les possessions du César? Pourquoi ne te donnes-tu pas l’Empire à toi-mème? Celui qui se dit Empereur des Romains doit pourtant savoir, quel qu’il soit, qu’il n’est, je pense, ni Auguste, ni César, ni Empereur, s’il ne possède Rome, et que s’il ne s’efforce de recouvrer Rome, c’est un parjure. Les anciens Césars, et Constantin tout le premier, n’étaient pas forcés de prèter le serment auquel sont astreints aujourd’hui les Césars ; ils
+
+
+
+
+
+<pb n="288"/>
+
+
+juraient au contraire de ne souffrir, autant qu’il est au pouvoir de Thomme, aucun amoindrissement de la grandeur de l'Empire, de l’augmenter plutót. Ils ne sont pas pourtant appelés Augustes parce qu’ils devaient augmenter l’Empire, comme le croient des gens peu forts en Latin ; Auguste veut dire sacré et vient de avium gustus, à cause des oiseaux dont on tirait des auspices ; la preuve en est dans la langue grecque où Auguste se traduit par <foreign xml:lang="grc">Σεβαστός</foreign>, ce qui a fait donner son nom à la ville de Sebastia. Pour le Pape, c’est bien d'augeo, j’augmente, qu’on devrait l’appeler Auguste, si à
+
+
+
+
+
+
+<pb n="289"/>
+
+mesure qu’il étend le pouvoir temporei il ne diminuait le pouvoir spirituel.</p><p>Tu vois donc que plus un Pape est detestatile, plus il lui incombe de défendre cette Donation. Vois, par exemple, Boniface Vili, qui trompa Célestin à Taide de tuyaux cachés dans la cloison; il écrivit en faveur de la Donation de Constantin et déshérita le roi de Franco de son royaume, qu’il revendiqua en vertu de cette Donation, comme possession de l'Église Romaine ; prétention que ses successeurs, Benoìt et Clément, abdiquèrent comme malhonnète et injuste.
+
+
+
+
+
+
+
+
+<pb n="290"/>
+
+Mais, ô Pontifes Romains, que signifie cette inquiétude qui vous pousse à exiger de chaque Empereur la confirmation de la Donation de Constantin, sinon que vous manquez de confiance en votre droit? Vous lavez une tuile, comme on dit; car cette Donation n'a jamais existé, et ce qui n’existe pas ne peut recevoir de confirmation; tout ce que donnent les Empereurs, ils le font trompés par l’exemple de Constantin, et ils ne peuvent donner l’Empire.</p><p>Soit, pourtant; admettons que Constantin ait fait une donation, que Sylvestre ait été mis autrefois en possession,
+
+
+
+
+
+
+
+<pb n="291"/>
+
+et que plus tard, lui ou quelqu’un de ses successeurs se soit trouvé dépossédé. Je parie maintenant de ce qu'il ne possède pas, me réservant de dire plus tard un mot de ce qu'il possède; que puis-je faire plus pour vous que d’admettre la réalité de ce qui n'est pas, de ce qui n’a jamais pu exister? Eh bien, je vous dis que vous ne pouvez, ni de droit humain ni de droit divin, prétendre rien recouvrer. Dans Tancienne loi, il était défendu qu’un Hébreu fut esclave d’un autre Hébreu plus de six ans, et tous les cinquante ans les domaines engagés faisaient retour à leur ancien possesseur : sous le règne de la grace, un Chrétien
+
+
+
+
+
+<pb n="292"/>
+
+sera-t-il condamné par le Vicaire du Christ, qui nous a rachetés de la servitude, à un esclavage éternel? Que dis-je? sera-t-il remis en servitude après avoir été fait libre, après avoir longtemps joui de la liberté? Je veux taire ce qu’a le plus souvent de cruel, de violent et de barbare la domination des prètres; si on Tignorait autrefois, on le sait aujourd’hui par ce monstre, cette bète féroce de Giovanni Vitelleschi, Cardinal et Patriarche, qui a gorge de sang chrétien ce glaive dont Pierre avait coupé Toreille de Malchus; aussi a-t-il péri par le glaive <note n="1">Voir, au suiet de ce Cardinal, les Facéties de P°S6e? CLXVIII, et à l’Index des Noms propres, au mot Vitelleschi (Paris, Liseux, 1878,2 voi. in-18).</note>.
+
+
+
+
+
+
+
+
+<pb n="293"/>
+
+Le peuple d’Israél a pu se soustraire aux rois de la maison de David et de Salomon, qu’avaient sacrés des prophètes envoyés par Dieu, quand leur joug fut insupportable; Dieu approuva leur conduite, et nous ne pourrions nous soustraire à Tabominable tyrannie de gens qui ne sont aucunement Rois, qui ne peuvent mème Tètre, et qui de pasteurs de brebis, c’est-à-dire d’àmes, se sont faits des voleurs et des brigands?</p><p>Pour en venir au droit humain, qui ignore que la guerre ne crée pas de droit, ou que, si elle en crée, ce droit ne vaut que tant que tu possèdes ce que la guerre
+
+
+
+
+
+<pb n="294"/>
+
+t'a donné? En perdant la possession, tu as perdu ton droit; les prisonniers, s’ils prennent la fuite, personne n’a Tidée d’aller les reclamer en justice ; il en est de mème du butin, si les premiers propriétaires parviennent à le recouvrer. Je ne puis mème pas réclamer des abeilles ou certaines espèces d’oiseaux, si elles s’envolent trop loin de chez moi et vont s’ètablir chez un autre. Toi, tu prétends réclamer l’homme, qui est non seulement un étre libre, mais le roi des ètres, après qu’il sJest remis en liberté de force et les armes à la main; et tu veux le reprendre non de force et les armes à la main, mais en vertu du droit, comme si
+
+
+
+
+
+
+<pb n="295"/>
+
+toi seul étais un homme et que les autres hommes fussent du bétail? Ne viens pas me dire que les Roraains ont, pour de justescauses, fait la guerre aux nations et qu’ils les ont tout aussi justement réduites en servitude ; ne rcPamène pas sur ce su jet, de peur que je ne soisforcé d’incriminer nos vieux ancètres, car nul méfait n’à pu ètre assez grave pour mériter à des peuples une servitude éternelle : avec cela que souvent c’est par la faute du Prince ou, dans les Républiques, par la faute de quelque citoyen, que les peuples ont été entraìnés à la guerre, et, vaincus, ont subi la peine d’une servitude imméritée; toute Phistoire est pieine de ces exem-
+
+
+
+
+
+
+<pb n="296"/>
+
+ples. Ce n’est pas en vertu d’une loi de nature qu’une nation subjugue une autre nation; nous pouvons les enseigner, les exhorter : mais les contraindre et leur faire violence, nous ne le pouvons pas. à moins que dépouillant tout sentiment humain, nous ne veuillons imiter les bètes féroces qui exercent sur les plus faibles une suprématie sanguinarne, comme le lion sur les quadrupèdes, ì’aigìe sur les oiseaux, le dauphin sur les poissons. Encore ces bètes féroces ne réclament-elles aucun droit sur les animaux de leur espèce, mais sur ceux d’un ordre inférieur, ce que nous devrions bien imiter en ayant, hommes, le respect . de l'homme, puìsque, suivant le mot de
+
+
+
+
+
+
+<pb n="297"/>
+
+M. Fabius, il n’est pas sur terre d’animal si farouche à qui son image ne soit sacrée.</p><p>Il y a quatre causes pour lesquelles on  fait la guerre : on la fait, soit pour venger une injure ou défendre ses ailiés; soit par crainte de quelque funeste aventure si on laisse s'accroitre la puissance des  autres; soit par l’appàt du butin; soit par amour de la gioire. De ces quatre motifs, le premier est très-honorable, le second l’est peu, les deux autres ne le sont point du tout. Sans doute, les Romains eurent à subir des guerres frequentes, mais après s’ètre défendus : et alors ils ont attaqué tantòt les uns, tantòt
+
+
+
+
+
+
+
+
+<pb n="298"/>
+
+les autres ; pas une nation ne s'est soumise à eux avant qu’ils ne l’eussent vaincue et domptée. Avaient-ils pour eux le bon droit et la justice? Cest leur affaire; je ne voudrais ni les accuser, s’iis ont fait des guerres injustes, ni les absoudre, quand mème ils n’auraient combattu que pour la justice ; je dirai seulement que les Romains fìrent la guerre aux nations par les mèmes raisons qui y poussèrent les autres peuples et Rois, et que les nations vaincues, écrasées, avaient le droit de se soustraire au joug des Romains, de mème qu'elles avaient été arrachées par eux à leurs anciens maitres. A moins qu’on ne pre-
+
+
+
+
+
+
+<pb n="299"/>
+
+tende, contre toute vraisemblance, que le pouvoir dut partout faire retour à ces anciens souverains, c’est-à-dire à ceux qui les premiers s’étaient emparés du bien des autres. Or, le peuple Romain possedè sur les nations vaincues un droit bien supérieur à celui des Césars, oppresseurs de la République. Si donc il était permis aux nations de faire défection à Constantin, et, ce qui est bien plus, au peuple Romain lui-mème, à plus forte raison peuvent-elles abandonner celui à qui Constantin a cédé son pouvoir. Pour aller plus loin encore, si les Romains avaient le droit ou de renverser Constantin, comme Tarquin, ou de le tuer, comme Jules César, à plus forte raison
+
+
+
+
+
+<pb n="300"/>
+
+est-il permis aux habitants de Rome ou des provinces de tuer celui qui a succede à Constantin, à quelque titre que ce soit. Cela est évident, mais cette question sort de ma thèse. J'entends donc m’arréter là, et de tout ce que je viens de dire ne retenir qu’une chose, à savoir qu’il est ridicule d'invoquer un droit écrit à propos de conquètes faites les armes à la main : ce que Ton a acquis par la force, la force peut vous le reprendre.</p><p>D’autant mieux qu’à l’égard des peuples étrangers et nouveaux, les Goths, par exemple, qui jamais n'appartinrent à l'Empire Romain, qui, après en avoir chassé les habitants, s’emparèrent de
+
+
+
+
+<pb n="301"/>
+
+
+l'Italie et d’une multitude de provinces ; serait-il juste de prétendre les remettre en servitude, eux qui n’y ont jamais été, eux les vainqueurs, et de les soumettre à qui peut-ètre? à leurs vaincus! Dans ces mèmes temps, si certaines villes, certaines nations, abandonnées, comme nous le savons, par l’Empereur, à l’approche des Barbares, se virent forcées d'élire un Roi qui les aidàt à vaincre Tennemi, faudra-t-il maintenant qu’elles le déposent, lui ou ses fils, tout recommandables qu'ils soient ou par le souvenir de leur pére ou par leur propre mérite, qu’elles les rabaissentaurang de simples citoyens, pour retourner sous la domination du
+
+
+
+
+
+
+
+<pb n="302"/>
+
+Prince Romain, juste au moment où elles auraient le plus besoin de leur aide et jqu’elles ne peuvent espérer d'autre secours ? Cette question, si l'Empèreur lui-mème, si Constantin, revenant à la vie, ou le Sénat et le peuple Romain la posaient devant quelque assemblée géné-rale, telle qu'était en Grèce le conseil des Amphyctions, assurément leur requète serait repoussée de prime abord, parce que ces peuples sont depuis longtemps sous l'égide de leur Prince, parce qu7ils n'ont jamais subi le jougd’un roiétranger, parce qu’enfin ils se composent d’individus nés libres et qu’on réclamerait, pour
+
+
+
+
+
+
+<pb n="303"/>
+
+Jes piacer dans Tesclavage et la sujétion, des hommes qui se sont affranchis par leur courage et leur vigueur. Il est donc clair que si FEmpereur, si le peuple Romain ne peuvent exercer à leur égard aucune répétition, à plus forte raison le Pape. Et s’ii est permis aux autres peuples, qui dépendirent autrefois de Rome, de se donner un Roi ou de se mettre en Republique, encore mieux cela sera-t-il permis au peuple Romain lui-mème, surtout en face d'un nouveau genre de despotisme, celui du Pape.</p><p>Dans l'impossibilité de défendre la Donation, qui n’a jamais existé et qui,
+
+
+
+
+
+
+
+
+
+<pb n="304"/>
+
+eut-elle existé, serait périmée depuis longtemps, mes adversaires se réfugient derrière un autre retranchement, et comme abandonnant une ville prise se renferment dans la citadelle, où le manque de vivres les forcera bientòt de capituler. — Il y a, disent-ils, prescription en faveur de l'Egli se Romaine, pour ce qu'elle possède actuellement. — Pourquoi donc alors réclame-t-elle la plus grande partie de son domaine ? Elle ne peut, pour ces provinces qu’elle ré-clame, invoquer la prescription, et ce sont d’autres, au contraire, qui ont prescrit. A moins qu’on ne puisse faire contre ’Église ce qu’il lui est licite de faire
+
+
+
+<pb n="305"/>
+
+contre les autres. L’Eglise Romaine a 	pour	elle la prescription ! Pourquoi donc alors prend-elle tant le soin de se faire confirmer son droit par les Empereurs ? Pourquoi exhibe-t-elle ces donations et ces confirmations des Césars? Si la prescription suffit, vous faites injure aux Empereurs; si vous vous prévalez d'un droit, pourquoi encore vous prévaloir d’un autre? Sans doute parce que le premier est insuffisant. L’Eglise Romaine a pour elle la prescription ! Et comment a-t-elle pu prescrire, puisqu’il est clair qu’elle n’a aucun titre et seulement une possession de mauvaise foi, ou, si vous niez la possession de mauvaise foi, du moins ne nierez-vous que,cette possession ne fût erron-
+
+
+
+
+
+
+
+<pb n="306"/>
+
+
+
+née? En une affaire de telle importance et si évidente, peut-on excuser l’erreur de fait et de droit? de fait, puisque Constantin n’a donné ni Rome ni les provinces, chose qu’à la rigueur le premier venu peut ignorer, mais non le Souverain Pontife; de droit, puisque ni Constantin ne pouvait les donner, ni le Pape les . ,accepter, ce qu’il est presque indigne d’un c Chrétien de ne pas savoir. Votre folle crédulité vous acquiert-elle donc des droits à une possession que, si vous aviez été plus prudents, vous n’auriez jamais eue? Et maintenant, après que je vous | ai démontré que votre ignorance et votre sottise sont les seules bases de votre possession, ne perdrez-vous pas ces
+
+
+
+
+
+<pb n="307"/>
+
+droits, si vous les aviez ? Ce que vous v détenez à tort, la révélation de votre v, incapacité ne vous Fenlève-t-elle pas à bon droit, et votre domaine ne doit-il point passer de rillégitime au légitime possesseur, peut-ètre mème avec les in-térèts? Que si dorénavant vous prétendez détenir à juste titre, votre ignorance devient de la perversité, de la fourberie, . et vous êtes virtuellement des possesseurs I de mauvaise foi.</p><p>L’Église Romaine a pour elle la prescription! O imbèciles! O ignorants du droit divin 1 II n’est si longue suite d’années qui puisse abolir un titre légitime. Est-ce que, si j’étais pris par les Barbares et cru mort, revenu chez moi après
+
+
+
+
+
+
+
+<pb n="308"/>
+
+cent ans de captivité, j’aurais perdu le droit de réciamer l’héredité paternelle? Quoi de plus inhumain? Pour prendre un autre exemple, quand les Ammonites redemandèrent le territoire qui s’étendait des confins d’Arnon jusqu’à Labat et au Jourdain, Jephté, chef d’Israèl, leur répondit-il qu’Israél invoquait une prescription de trois cents ans, ou bien qu’ils n’avaient jamais possedè ce territoire qu’ils réclamaient, appartenant aux Amorrhéens, et que la meilleure preuve c’est que durant un si long espace de temps les Ammonites ne l’avaient pas reclame? L’Église Romaine a pour elle la
+
+
+
+
+
+<pb n="309"/>
+
+
+prescription ! Tais-toi, langue abominatile. La prescription qui s’acquiert sur les choses inanimées ou les ètres privés de raison, tu prétends Pacquérir sur Phomme, dont la possession est d'autant plus criminelle qu’elle a eu une plus Iongue durée. Les oiseaux, les animaux sauvages ne se laissent pas prescrire; si longtemps qu’on les ait retenus, ils s’échappentdès qu’ils peuvent et qu’ils en trouvent l’occasion; et Phomme asservi par Phomme ne pourrait pas s’affranchir ?</p><p>Mais vois maintenant combien la perfidie et la fraude eurent plus de part que Pignorance dans la détermination des
+
+
+
+
+
+
+<pb n="310"/>
+
+
+Souverains Pontifes, et qu’ils s'appuyè-rent plutótsur la guerre que sur le droit, tout comme firent, je le crois bien, les premiers Papes pour s'emparer de Rome. Un peu avant ma naissance (j’en appelle au souvenir de ceux qui vivaient alors), ce fut par un genre de fraude jusque-là inconnu que Rome, longtemps libre, subit la domination ou pour mieux dire la tyrannie papale. L’auteur de ce forfait fut Boniface IX, semblable à Boniface Vili par le nom et la perfìdie, si toutefois on devrait appeler Bonifaces ceux qui font le mal. Quand les Romains, s’apercevant de la fourberie, vinrent exhaler leurs plaintes, le
+
+
+
+<pb n="311"/>
+
+
+Pape Boniface, à la façon de Tarquin, se mit, lui aussi, à décapiter des pavots à coups de baguette. Lorsqu’après lui son successeur, Innocent, voulut l’imiter, il fut chassé de la ville. Je ne veux rien dire des autres Pontifes qui ont toujours tenu Rome dans l’oppression par la force des armes ; toutes les fois qu’elle le put, elle s’insurgea, comme il y a six ans, quand ne pouvant obtenir la paix ni d’Eugène, ni des ennemis qui Tassiégeaient, elle investit elle-mème le Pape dans son palais et ne lui permit pas de se retirer avant d’avoir traité avec Tennemì ou abandonné le gouvernement de la ville aux citoyens. Il aima mieux s’échap-
+
+
+
+
+
+
+
+<pb n="312"/>
+
+
+per sous un déguisement, suivi d'un seul compagnon de fuite, que d’obtempérer aux justes et légitimes revendications des habitants; si on leur laissait le choix, qui donc ignore qu'ils choisiraient plutòt d'ètre libres que d'ètre esclaves? On peut soupçonner qu’il en est de mème des autres villes qui sont retenues dans l'oppressi on par le Pape, lui qui au contraire aurait dù les délivrer de Toppression.</p><p>Il serait trop long d’enumérer toutes les villes qu'après les avoir prises à l'ennemi, les Romains fìrent libres: au point que Titus Flaminius affranchit la Grece entière, asservie par Antiochus, et la
+
+
+
+
+
+<pb n="313"/>
+
+laissa se gouverner d’après ses propres - lois. Ce n’est pas l’affaire du Pape, à ce qu’il parait ; bien loin de là, il tend avec soin des embuches à la liberté des peuples, si bien que ceux-ci journellement, dès que l’occasion se présente, se révoltent; vois un peu ce qui se passe à Boi logne. Si par hasard, ce qui peut arriver, quelque danger menaçant d’autre part, ils ont de plein gré consenti à la domination papale, est-ce à dire qu’ils ont consenti à devenir des serfs, à ne jamais pouvoir se soustraire au joug, à ce que ceux qui n’étaient pas encore nés alors n’eussent pas la libre disposition d'eux-mèmes? Ce serait la plus
+
+
+
+
+
+
+
+
+
+<pb n="314"/>
+
+grande iniquité. <quote>Nous sommes venus à toi spontanément, ò Souverain Pontife, pour étre gouvernés par toi; spontanément nous te quittons pour que tu ne nous gouvernes pas davantage. Si nous te devons quelque chose, qu’on fasse le compte de ce que a nous avons donné et de ce que nous avons reçu. Tu veux nous régir malgré nous, comme si nous étions des mineurs, nous qui peut ètre pourrions te régir toi-mème plus sagement que tu ne le fais, Ajoute les mauvais traitements que cette cité est si souvent obligée de subir ou de toi ou de tes magistrats. Nous en prenons Dieu à témoin, ton mauvais gouvernement
+
+
+
+
+
+<pb n="315"/>
+nous force à nous soulever, comme autrefois Israel contre Roboam ; autant celui-ci se renditinsupportable, autant il nous l’est d’acquitter envers toi de trop lourds tributs, et ce n’est qu’une partie de nos maux. Pourquoi non, si tu épuises notre pays? et tu Fas épuisé ; si tu dépouilles nos églises? et tu les as dépouillées; si tu déshonores nos vierges, nos mères de famille? et tu les . as déshonorées; si tu inondes la ville du sang de ses citoyens? et tu l’en as inondée. Nous faut-il endurer cela? Puisque tu cesses d’ètre pour nous un pére,- ne devons-nous pas plutòt aussi oublier que nous sommes tes enfants ? Ce peuple t’a pris pour pére, ó Souve-
+
+
+
+
+
+
+<pb n="316"/>
+
+rain Pontife, ou, si cela te plait mieux, pour maitre; il ne tTa pas pris pour ennemi et pour bourreau : tu ne veux ètre ni un pére ni un maitre, mais un bourreau. La cruauté, la méchanceté dont tu as use envers nous, nous pourrions en user vis-à-vis de toi, par droit de représailles; mais nous sommes Chrétiens, nous ne t’imiterons pas, nous ne brandirons pas au-dessus de ta tète le glaive de la vengeance; après t’avoir déposé, chassé, nous en prendrons un autre pour pére ou pour maitre. Un fils peut toujours quitter ses parents par qui il a été o engendré, s’ils sont pervers; et nous
+
+
+
+
+<pb n="317"/>
+
+
+ne pourrions te quitter, toi qui n'es qu’un pére adoptif et qui nous maltraites si durement? Pour toi, occupetoi de ce qui regarde le sacerdoce, et ne va pas te planter au Septentrion et de là lancer la foudre et les éclairs sur ce peuple ni sur les autres. </quote> Mais à quoi bon appuyer davantage sur ce qui est si clair? Mon sentiment est donc que non seulement Constantin n’a pas donne tant de provinces, ni le Pontife Romain pu acquérir sur elles la moindre prescription, mais quJen admettant qu’il y ait eu et donation et prescription, l'un et Pautre droit sont
+
+
+
+
+
+
+
+<pb n="318"/>
+
+
+invalidés aujourd’hui par la scélératesse des possesseurs, quand nous voyons que la ruine et la désolation de toute ritalie et d'e nombre de provinces ont découlé de cette unique source. Si la source est empoisonnée, le cours d’eau Test également; si la racine est malsaine, les rameaux sont malsains; si quelque partie du tout n’est pas pure, le tout ne peut Tètre. Par conséquent et en sensinverse, si le cours d’eau est empoisonné, il faut boucher la source ; si les rameaux sont malsains, le mal vient de la racine ; si le tout n’est pas pur, la partie gàtée doit étre rejetée. Pouvons-nous admettre comme légitime le principe de
+
+
+
+
+
+
+
+<pb n="319"/>
+
+la puissance papale, quand nous voyons, qu’il a été la cause de tant de crimes et de tant de maux de toute espèce? C’esti pourquoi je veux dire et crier bien haut (car, sur de l’appui de Dieu, je ne crains pas les hommes), que nul, de mon temps, élevé au Souverain Pontificat, n’a été un fìdèle et prudent econome des biens de l'Église ; le Pape est si loin de donner la pàture aux serviteurs de Dieu, qu’il les donnerait plutòt eux-mèmes en pàture comme une bouchée de pain. Le Pape va porter la guerre chez des Nations qui vivent en paix, il fornente des discordes entre les villes et les Princes; le Pape a soif des biens des autres et dévore les siens; comme Achille le reproche à
+
+
+
+
+
+
+<pb n="320"/>
+
+
+Agamemnon, c’est un <foreign xml:lang="grc">Δημοβόρος Βασιλεύς</foreign>, un Roi mangeur de son peuple. Le Pape ne se contente pas de faire argent du domainc public, ce que n’oserait ni un Verrès, ni un Catilina, ni aucun autre coquin : il vend jusqu’à la messe et jusqu’au salut, ce que Simon le Magicien lui-mème anathématisait. Et lorsqu’on l'en avertit, lorsqu’il est repris par quelques gens de bien, au lieu de nier, il avoue hautement la chose, il s’en glorifie, et dit ètre en droit d’arracher par tous les moyens à ceux qui le détiennent actuellement, le patrimoine donné à l’Église par Constantin; comme si, après Pavoir recouvré, la religion Chrétienne devait jouir d’une complète béatitude et ne pas
+
+
+
+
+
+
+
+
+<pb n="321"/>
+%F	être souillée de plus d'infamie, de luxure et de déréglements ! Si toutefois elle peut ètre souillée davantage, s'il y a place encore pour de nouveaux crimes I Pour recouvrer les autres morceaux de cette Donation, le Pape extorque frauduleusement les sous des bonnes gens et les dépense plus mal encore : il nourrit des troupes de cavaliers et de fantassins dont tout est infeste, tandis que le Christ meurt de faim et de froid en tant de milliers de pauvres. Et il ne comprend pas, ò l’abominable action, qu'en travaillant à dépouiller les séculiers de ce qui est bien à eux, il fait que, poussés par son pernicieux exemple, ou
+
+
+
+<pb n="322"/>
+
+
+
+
+
+par la nécessité, vraie ou fausse, les séculiers en viendront à s’emparer de ce qui appartient aux gens d’Église. Il n’y a plus nulle part ni religion, ni droiture, ni crainte de Dieu, et, ce qui me fait horreur à dire, les impies tirent du Pape lui-mème Texcuse de leurs forfaits. Le Pape et son entourage donnent, en effet, Texemple de tous les crimes, et avec Isaie et S. Paul nous pouvons dire au Pape et à son entourage : Le nom de Dieu est blasphémé à cause de vous parmi les nations ; vous qui enseignez les autres, vous ne vous enseignez pas vous-mémes; vous prècheq qu’il ne faut pas dérober et vous êtes desvoleurs ;
+
+
+
+
+
+
+
+<pb n="323"/>
+
+vous anathématisez les idoles et vous commettez des sacrilèges ; vous vous glorifief dans la Loi et dans le Pontificat, et, en prévarication de la Loi, vous adorez le Pape à Végal du vrai Dieu.</p><p>Si le peuple Romain, par Texcès des richesses, a perdu jusqu’à la véritable qualité de Romain; si Salomon, pour la méme cause, est tombé dans l’idolàtrie par l’amour des femmes, n'avons-nous pas le droit de penser qu’il en arriverà de mème au Pape et à tout le reste du clergé? Par conséquent pouvons-nous croire que Dieu aurait permis à Sylvestre d’accepter ce qui devait ètre pour la papauté Toccasion de faillir? Je ne souffrirai
+
+
+
+
+
+
+<pb n="324"/>
+
+
+pas que l'on fasse à un Souverain Pontife l'injure de dire qu’il a reju en présent des empires, des royaumes, des provinces, biens temporels auxquels sont tenus de renoncer tous ceux qui veulent ètre prè-tres. Sylvestre ne posséda que fort peu de chose ; peu de chose aussi les autres saints Pontifes, dont l’aspect était vénérable mème aux ennemis, comme ce Léon qui terrifìa et brisa le naturel feroce de ce Roi barbare que n’avait pu ni briser ni terrifier toute la puissance de Rome. Au contraire, nos derniers Papes, gorgés de richesss et plongés dans les délices, semblent travailler à montrer autant d’impiété et de sottise que les anciens
+
+
+
+
+
+
+<pb n="325"/>
+
+montrèrent de sagesse et de sainteté ; tout l’honneur dont ceux-ci se sont couverts, ils l'effacent par leurs infamies de tous genres. Cela, quel Chrétien digne de ce nom peut le supporter sans courroux ?</p><p>Cependant je ne prétends point, par cette première harangue, engager les Princes et les peuples à se jeter au-devant du Pape, emporté dans sa course sans frein, et à le maintenir de force entre les limites de son domaine; je veuxseulement le faire avertir par eux, lui qui au fond sait bien ce qui en est, d'avoir à sortir de bon gré de chez les autres pour
+
+
+
+
+
+
+<pb n="326"/>
+
+rentrer ehez lui et gagner le port, à l’abri des flots orageux et des furieuses tempètes. Sinon, je verrai à en composer une seconde, et de plus haut gout encore que celle-ci. Puissé-je voir un jour, et rien ne me tarde tant que ce résultat, surtout s’il est le fruit de mes exhortations, puissé-je voir le Pape simple vicaire du Christ et non del’Empereur; puissé-je ne plus entendre ces mots horribles : <quote>Les partisans de l'Eglise; les adversaires de l'Église; l’Église fait la guerre à Pérousey fait la guerre à Bologne.</quote> Contre des Chrétiens ce n’est pas l’Èglise, c’est le Pape qui arme : l’Église ne combat que le mal et n’a que des armes
+
+
+
+
+
+
+
+
+<pb n="327"/>
+spirituelles. Alors on pourra donner au Pape le nom de Saint Pére, de pére universel, de pére de l'Église. Il le sera véritablement; il ne fomenterà plus de guerres entre les Chrétiens ; loin de là, si d’autres en fomentent, il les apaisera en interposant la censure Apostolique et la majesté Pontificale.
+
+
+
+
+
+
+
+
+
+
+
+</p>
+</body>
+</text>
+</TEI>
